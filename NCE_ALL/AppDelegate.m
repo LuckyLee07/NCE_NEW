@@ -1,0 +1,98 @@
+//
+//  AppDelegate.m
+//  NCE1
+//
+//  Created by lizi on 17/8/1.
+//  Copyright © 2017年 PalmGame. All rights reserved.
+//
+
+#import "AppDelegate.h"
+#include "Appirater.h"
+#import "AdmobManager.h"
+#import "IDFATrackingManager.h"
+#import "FirstViewController.h"
+
+@interface AppDelegate ()
+
+@end
+
+@implementation AppDelegate
+
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    
+    [self checkAndCreateDatabase];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor clearColor];
+    
+    FirstViewController *firstController = [[FirstViewController alloc] init];
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:firstController];
+    self.window.rootViewController = navigation;
+    [self.window makeKeyAndVisible];
+    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+    // status bar setting
+    [application setStatusBarHidden:NO];
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
+#pragma clang diagnostic pop
+    
+    // rate
+    [Appirater setAppId:AppStoreID];
+    [Appirater setDaysUntilPrompt:7];
+    [Appirater setUsesUntilPrompt:5];
+    [Appirater setSignificantEventsUntilPrompt:-1];
+    [Appirater setTimeBeforeReminding:3];
+    [Appirater setDebug:NO];
+    [Appirater appLaunched:YES];
+    
+    // admob
+    [[AdmobManager sharedInstance] preInit];
+    
+    [[AdmobManager sharedInstance] showRateScene];
+    
+    return YES;
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application {
+    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
+    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [[IDFATrackingManager sharedInstance] requestIDFA];
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)checkAndCreateDatabase
+{
+    BOOL success;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSString *databasePath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"NCE.db"];
+    success = [fileManager fileExistsAtPath:databasePath];
+    if (success) {
+        NSLog(@"doworking");
+        return;
+    } else{
+        NSLog(@"notworking");
+        NSString *databasePathFromApp = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"NCE.db"];
+        [fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];
+    }
+}
+
+@end
