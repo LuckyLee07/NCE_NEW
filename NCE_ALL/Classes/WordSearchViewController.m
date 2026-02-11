@@ -1,9 +1,9 @@
 //
 //  WordSearchViewController.m
-//  NCE1
+//  NEC_ALL
 //
-//  Created by lizi on 17/8/1.
-//  Copyright © 2017年 PalmGame. All rights reserved.
+//  Created by Lizi on 02/11/26.
+//  Copyright © 2026年 FancyGame. All rights reserved.
 //
 
 #import "WordSearchViewController.h"
