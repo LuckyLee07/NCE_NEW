@@ -190,7 +190,7 @@
     CGPoint point = CGPointMake((winSize.width-_adSize.size.width)/2, winSize.height-_adSize.size.height+1.f);
     _bannerView = [[GADBannerView alloc] initWithAdSize:_adSize
                                                  origin:point];
-    _bannerView.adUnitID = BannerID;
+    _bannerView.adUnitID = [AdmobManager bannerAdUnitID];
     _bannerView.rootViewController = window.rootViewController;
     [window addSubview:_bannerView];
     
