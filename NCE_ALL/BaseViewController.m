@@ -16,6 +16,8 @@
 {
     CGFloat _headerHeight;
     GADBannerView *_bannerView;
+    UIView *_bannerContainerView;
+    NSLayoutConstraint *_bannerContainerHeightConstraint;
 }
 
 - (void)goBack;
@@ -25,11 +27,17 @@
 
 @implementation BaseViewController
 
+- (CGFloat)defaultBottomReserveHeight
+{
+    // Keep a visual bottom bar for layout symmetry even when ad is unavailable.
+    return 64.0f;
+}
+
 - (id)init
 {
     self = [super init];
     if (self) {
-        _bannerHeight = 84.0f;
+        _bannerHeight = [self defaultBottomReserveHeight];
         _viewType = ViewType_Normal;
 
         _colorArray = @[[UIColor colorWithRed:226/255.f green:73/255.f blue:65/255.f alpha:1.f],
@@ -166,29 +174,75 @@
 
 - (void)addBanner
 {
+    if (!_bannerContainerView) {
+        _bannerContainerView = [[UIView alloc] initWithFrame:CGRectZero];
+        _bannerContainerView.translatesAutoresizingMaskIntoConstraints = NO;
+        [self.view addSubview:_bannerContainerView];
+        _bannerContainerHeightConstraint = [_bannerContainerView.heightAnchor constraintEqualToConstant:self.bannerHeight];
+        [NSLayoutConstraint activateConstraints:@[
+            [_bannerContainerView.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor],
+            [_bannerContainerView.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor],
+            [_bannerContainerView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor],
+            _bannerContainerHeightConstraint
+        ]];
+    }
+
     if (_bannerView) return;
     
     CGFloat width = CGRectGetWidth(self.view.bounds);
     if (width <= 0) return;
 
     NSString *bannerAdUnitID = [AdmobManager bannerAdUnitID];
-    if (bannerAdUnitID.length == 0) return;
+    if (bannerAdUnitID.length == 0) {
+        self.bannerHeight = [self defaultBottomReserveHeight];
+        [self refreshLayoutForBannerHeight];
+        return;
+    }
     
     GADAdSize adaptiveSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(width);
     _bannerView = [[GADBannerView alloc] initWithAdSize:adaptiveSize];
+    self.bannerHeight = MAX([self defaultBottomReserveHeight], adaptiveSize.size.height);
+    _bannerContainerHeightConstraint.constant = self.bannerHeight;
     _bannerView.adUnitID = bannerAdUnitID;
     _bannerView.rootViewController = self;
     _bannerView.delegate = self;
     
-    [self.view addSubview:_bannerView];
+    [_bannerContainerView addSubview:_bannerView];
     _bannerView.translatesAutoresizingMaskIntoConstraints = NO;
     [NSLayoutConstraint activateConstraints:@[
-        [_bannerView.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
-        [_bannerView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor]
+        [_bannerView.centerXAnchor constraintEqualToAnchor:_bannerContainerView.centerXAnchor],
+        [_bannerView.centerYAnchor constraintEqualToAnchor:_bannerContainerView.centerYAnchor]
     ]];
     
     GADRequest *request = [GADRequest request];
     [_bannerView loadRequest:request];
+}
+
+- (void)refreshLayoutForBannerHeight
+{
+    if (_bannerContainerHeightConstraint) {
+        _bannerContainerHeightConstraint.constant = self.bannerHeight;
+    }
+    CGRect tableFrame = [self getTableViewFrame];
+    for (UIView *subview in self.view.subviews) {
+        if ([subview isKindOfClass:[UITableView class]] || [subview isKindOfClass:[UICollectionView class]]) {
+            subview.frame = tableFrame;
+        }
+    }
+}
+
+- (void)bannerViewDidReceiveAd:(GADBannerView *)bannerView
+{
+    CGFloat bannerHeight = CGRectGetHeight(bannerView.bounds);
+    self.bannerHeight = MAX([self defaultBottomReserveHeight], bannerHeight);
+    [self refreshLayoutForBannerHeight];
+}
+
+- (void)bannerView:(GADBannerView *)bannerView didFailToReceiveAdWithError:(NSError *)error
+{
+    self.bannerHeight = [self defaultBottomReserveHeight];
+    [self refreshLayoutForBannerHeight];
+    NSLog(@"Banner failed to load: %@", error.localizedDescription);
 }
 
 @end

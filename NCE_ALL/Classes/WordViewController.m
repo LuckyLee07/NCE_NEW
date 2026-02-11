@@ -238,10 +238,7 @@
 - (void)addBottomView:(CGFloat)startPosy
 {
     CGFloat bgviewHeight = self.view.frame.size.height-startPosy-self.bannerHeight;
-    
-    CGFloat safeAreaHeight = [self getSafeAreaHeight];
-    if (safeAreaHeight <= 20.0f) bgviewHeight = bgviewHeight - self.bannerHeight;
-    
+
     UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0.f, startPosy, self.view.frame.size.width, bgviewHeight)];
     backgroundView.backgroundColor = [UIColor colorWithWhite:1.f alpha:0.9f];
     [self.view addSubview:backgroundView];
@@ -489,4 +486,3 @@
 }
 
 @end
-
