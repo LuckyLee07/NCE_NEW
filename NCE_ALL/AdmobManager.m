@@ -14,6 +14,7 @@
 static NSInteger const kAdsTime = 7;
 static NSString * const kInterstitialAdUnitIDKey = @"AdmobInterstitialAdUnitID";
 static NSString * const kBannerAdUnitIDKey = @"AdmobBannerAdUnitID";
+static NSString * const kDebugTestDeviceIDKey = @"AdmobDebugTestDeviceID";
 
 @interface AdmobManager () <GADFullScreenContentDelegate>
 
@@ -63,6 +64,24 @@ static NSString * const kBannerAdUnitIDKey = @"AdmobBannerAdUnitID";
     return nil;
 }
 
++ (GADRequest *)nonPersonalizedRequest
+{
+    GADRequest *request = [GADRequest request];
+    GADExtras *extras = [[GADExtras alloc] init];
+    extras.additionalParameters = @{@"npa" : @"1"};
+    [request registerAdNetworkExtras:extras];
+    return request;
+}
+
++ (NSString *)debugTestDeviceID
+{
+    NSString *testDeviceID = [self.appInfoDictionary objectForKey:kDebugTestDeviceIDKey];
+    if ([testDeviceID isKindOfClass:[NSString class]] && testDeviceID.length > 0) {
+        return testDeviceID;
+    }
+    return nil;
+}
+
 #pragma mark -- 单例模式相关方法
 + (instancetype)sharedInstance
 {
@@ -82,11 +101,15 @@ static NSString * const kBannerAdUnitIDKey = @"AdmobBannerAdUnitID";
     self.hudRate = 10.0f;
 
 #if DEBUG
-    GADMobileAds.sharedInstance.requestConfiguration.testDeviceIdentifiers = @[ GADSimulatorID ];
+    NSString *testDeviceID = [AdmobManager debugTestDeviceID];
+    if (testDeviceID.length > 0) {
+        GADMobileAds.sharedInstance.requestConfiguration.testDeviceIdentifiers = @[ GADSimulatorID, testDeviceID ];
+    } else {
+        GADMobileAds.sharedInstance.requestConfiguration.testDeviceIdentifiers = @[ GADSimulatorID ];
+    }
 #endif
     [GADMobileAds.sharedInstance startWithCompletionHandler:nil];
     [self setInterstitial];
-    
 }
 
 - (void)resetHudRate:(float)hudRate
@@ -108,7 +131,7 @@ static NSString * const kBannerAdUnitIDKey = @"AdmobBannerAdUnitID";
     self.isLoadingInterstitial = YES;
     __weak typeof(self) weakSelf = self;
     [GADInterstitialAd loadWithAdUnitID:adUnitID
-                                 request:[GADRequest request]
+                                 request:[AdmobManager nonPersonalizedRequest]
                        completionHandler:^(GADInterstitialAd * _Nullable interstitialAd, NSError * _Nullable error) {
         __strong typeof(weakSelf) strongSelf = weakSelf;
         strongSelf.isLoadingInterstitial = NO;

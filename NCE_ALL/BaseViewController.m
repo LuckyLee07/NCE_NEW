@@ -27,6 +27,15 @@
 
 @implementation BaseViewController
 
+- (GADRequest *)nonPersonalizedRequest
+{
+    GADRequest *request = [GADRequest request];
+    GADExtras *extras = [[GADExtras alloc] init];
+    extras.additionalParameters = @{@"npa" : @"1"};
+    [request registerAdNetworkExtras:extras];
+    return request;
+}
+
 - (CGFloat)defaultBottomReserveHeight
 {
     // Keep a visual bottom bar for layout symmetry even when ad is unavailable.
@@ -213,7 +222,7 @@
         [_bannerView.centerYAnchor constraintEqualToAnchor:_bannerContainerView.centerYAnchor]
     ]];
     
-    GADRequest *request = [GADRequest request];
+    GADRequest *request = [self nonPersonalizedRequest];
     [_bannerView loadRequest:request];
 }
 

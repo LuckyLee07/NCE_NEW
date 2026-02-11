@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "AdmobManager.h"
-#import "IDFATrackingManager.h"
 #import "FirstViewController.h"
 #import<AVFoundation/AVFoundation.h>
 
@@ -131,7 +130,6 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    [[IDFATrackingManager sharedInstance] requestIDFA];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
