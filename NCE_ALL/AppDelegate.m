@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#include "Appirater.h"
 #import "AdmobManager.h"
 #import "IDFATrackingManager.h"
 #import "FirstViewController.h"
@@ -39,19 +38,8 @@
     [application setStatusBarStyle:UIStatusBarStyleLightContent];
 #pragma clang diagnostic pop
     
-    // rate
-    [Appirater setAppId:AppStoreID];
-    [Appirater setDaysUntilPrompt:7];
-    [Appirater setUsesUntilPrompt:5];
-    [Appirater setSignificantEventsUntilPrompt:-1];
-    [Appirater setTimeBeforeReminding:3];
-    [Appirater setDebug:NO];
-    [Appirater appLaunched:YES];
-    
     // admob
     [[AdmobManager sharedInstance] preInit];
-    
-    [[AdmobManager sharedInstance] showRateScene];
     
     return YES;
 }

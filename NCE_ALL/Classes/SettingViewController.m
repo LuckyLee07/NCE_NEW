@@ -8,7 +8,6 @@
 
 #import "SettingViewController.h"
 #import "CKAlertView.h"
-#import "AdmobManager.h"
 
 static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControllerCellReuseId";
 
@@ -53,7 +52,7 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 2;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -74,7 +73,7 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
     titleLabel.backgroundColor = [UIColor clearColor];
     titleLabel.font = [UIFont systemFontOfSize:14.f];
     titleLabel.textColor = [UIColor darkTextColor];
-    titleLabel.text = indexPath.row == 0 ? @"联络邮件:071427li@163.com" : @"对软件进行评价";
+    titleLabel.text = @"联络邮件:071427li@163.com";
     titleLabel.textAlignment = NSTextAlignmentLeft;
     [cell.contentView addSubview:titleLabel];
     
@@ -98,10 +97,6 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [self.view viewWithTag:1000+indexPath.row].backgroundColor = [UIColor colorWithWhite:0.3f alpha:0.15f];
-    
-    if (indexPath.row == 1) { //前往评论
-        [[AdmobManager sharedInstance] gotoRateScene];
-    }
 }
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -161,4 +156,3 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
 }
 
 @end
-
