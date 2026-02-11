@@ -31,21 +31,13 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
                                                 alpha:1.f];
     
     // add back button
-    UIImage *backImage = [UIImage imageNamed:@"btn_back"];
-    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    backButton.frame = CGRectMake(0, 0, backImage.size.width, backImage.size.height);
-    backButton.backgroundColor = UIColor.clearColor;
-    backButton.opaque = NO;
-    backButton.adjustsImageWhenHighlighted = NO;
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 150000
-    if (@available(iOS 15.0, *)) {
-        backButton.configuration = nil;
-    }
-#endif
-    [backButton setImage:backImage forState:UIControlStateNormal];
-    [backButton addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
-    
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+    self.navigationItem.hidesBackButton = YES;
+    self.navigationItem.leftItemsSupplementBackButton = NO;
+    UIImage *backImage = [[UIImage imageNamed:@"btn_back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:backImage
+                                                                              style:UIBarButtonItemStylePlain
+                                                                             target:self
+                                                                             action:@selector(goBack)];
     
     [self addTableView];
 }

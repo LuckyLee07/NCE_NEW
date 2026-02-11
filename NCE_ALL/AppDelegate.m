@@ -14,6 +14,8 @@
 
 @interface AppDelegate ()
 
+- (void)configureNavigationBarAppearance;
+
 @end
 
 @implementation AppDelegate
@@ -29,6 +31,7 @@
     
     FirstViewController *firstController = [[FirstViewController alloc] init];
     UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:firstController];
+    [self configureNavigationBarAppearance];
     self.window.rootViewController = navigation;
     [self.window makeKeyAndVisible];
     
@@ -50,6 +53,66 @@
     [[AdmobManager sharedInstance] preInit];
     
     return YES;
+}
+
+- (void)configureNavigationBarAppearance
+{
+    UIImage *image = [UIImage imageNamed:@"bg_navigation"];
+    if (image) {
+        image = [image stretchableImageWithLeftCapWidth:floorf(image.size.width / 2.0f)
+                                           topCapHeight:floorf(image.size.height / 2.0f)];
+    }
+
+    if (@available(iOS 13.0, *)) {
+        UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
+        [appearance configureWithOpaqueBackground];
+        if (image) {
+            appearance.backgroundImage = image;
+        }
+        appearance.titleTextAttributes = @{NSForegroundColorAttributeName: UIColor.whiteColor};
+
+        UIBarButtonItemAppearance *plain = [[UIBarButtonItemAppearance alloc] initWithStyle:UIBarButtonItemStylePlain];
+        [plain.normal setBackgroundImage:nil];
+        [plain.highlighted setBackgroundImage:nil];
+        [plain.focused setBackgroundImage:nil];
+        [plain.disabled setBackgroundImage:nil];
+        plain.normal.titleTextAttributes = @{NSForegroundColorAttributeName: UIColor.whiteColor};
+        plain.highlighted.titleTextAttributes = @{NSForegroundColorAttributeName: UIColor.whiteColor};
+        plain.focused.titleTextAttributes = @{NSForegroundColorAttributeName: UIColor.whiteColor};
+        plain.disabled.titleTextAttributes = @{NSForegroundColorAttributeName: UIColor.whiteColor};
+
+        appearance.buttonAppearance = plain;
+        appearance.doneButtonAppearance = plain;
+        appearance.backButtonAppearance = plain;
+
+        UINavigationBar *bar = [UINavigationBar appearance];
+        bar.standardAppearance = appearance;
+        bar.scrollEdgeAppearance = appearance;
+        bar.compactAppearance = appearance;
+        if (@available(iOS 15.0, *)) {
+            bar.compactScrollEdgeAppearance = appearance;
+        }
+        bar.tintColor = UIColor.whiteColor;
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        UIBarButtonItem *barButtonAppearance = [UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UINavigationBar class]]];
+        UIImage *clearImage = [UIImage new];
+        [barButtonAppearance setBackgroundImage:clearImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+        [barButtonAppearance setBackgroundImage:clearImage forState:UIControlStateHighlighted barMetrics:UIBarMetricsDefault];
+        [barButtonAppearance setBackgroundImage:clearImage forState:UIControlStateDisabled barMetrics:UIBarMetricsDefault];
+        [barButtonAppearance setBackButtonBackgroundImage:clearImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+        [barButtonAppearance setBackButtonBackgroundImage:clearImage forState:UIControlStateHighlighted barMetrics:UIBarMetricsDefault];
+#pragma clang diagnostic pop
+    } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        if (image) {
+            [[UINavigationBar appearance] setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+        }
+#pragma clang diagnostic pop
+        [[UINavigationBar appearance] setTintColor:UIColor.whiteColor];
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
