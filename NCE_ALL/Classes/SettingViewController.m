@@ -34,7 +34,15 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
     UIImage *backImage = [UIImage imageNamed:@"btn_back"];
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
     backButton.frame = CGRectMake(0, 0, backImage.size.width, backImage.size.height);
-    [backButton setBackgroundImage:backImage forState:UIControlStateNormal];
+    backButton.backgroundColor = UIColor.clearColor;
+    backButton.opaque = NO;
+    backButton.adjustsImageWhenHighlighted = NO;
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 150000
+    if (@available(iOS 15.0, *)) {
+        backButton.configuration = nil;
+    }
+#endif
+    [backButton setImage:backImage forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];

@@ -10,6 +10,7 @@
 #import "AdmobManager.h"
 #import "IDFATrackingManager.h"
 #import "FirstViewController.h"
+#import<AVFoundation/AVFoundation.h>
 
 @interface AppDelegate ()
 
@@ -37,6 +38,13 @@
     [application setStatusBarHidden:NO];
     [application setStatusBarStyle:UIStatusBarStyleLightContent];
 #pragma clang diagnostic pop
+
+    NSError *audioSessionError = nil;
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&audioSessionError];
+    [[AVAudioSession sharedInstance] setActive:YES error:&audioSessionError];
+    if (audioSessionError) {
+        NSLog(@"Audio session setup failed: %@", audioSessionError.localizedDescription);
+    }
     
     // admob
     [[AdmobManager sharedInstance] preInit];

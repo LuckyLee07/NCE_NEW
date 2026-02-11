@@ -67,7 +67,7 @@
     // Do any additional setup after loading the view.
     self.navigationItem.title = self.titleString;
     self.view.backgroundColor = [UIColor colorWithRed:98/255.f green:215/255.f blue:150/255.f alpha:1.f];
-    
+    /*
     // add back button
     UIImage *backImage = [UIImage imageNamed:@"btn_back"];
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -77,7 +77,7 @@
     [backButton addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
-    
+    */
     [self performSelector:@selector(addBanner) withObject:nil afterDelay:0.1f];
     
     NSError *sessionError = nil;
