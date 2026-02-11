@@ -349,7 +349,7 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
     NSString *fileName = [NSString stringWithFormat:@"data/lessons/mp3/%@.mp3",[_items objectAtIndex:_currentIndex]];
     NSString *filePath =  [[NSBundle mainBundle] pathForResource:fileName ofType:nil];
     
-    NSLog(@"Fxkk=====>>>%@", filePath);
+    NSLog(@"Fxkk=====>>>%@", fileName);
     
     _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:filePath] error:nil];
     _audioPlayer.delegate = self;

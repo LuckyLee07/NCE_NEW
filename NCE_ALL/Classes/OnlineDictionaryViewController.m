@@ -38,13 +38,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    /*
-    UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0.f, 0.f, self.view.frame.size.width, self.view.frame.size.height-64.f)];
-    webView.delegate = self;
-    [webView loadRequest:[NSURLRequest requestWithURL:_url]];
-    [self.view addSubview:webView];
-    */
-    [self createWebview]; // UIWebView升级为WKWebView
+    [self createWebview];
     
     _hud = [MBProgressHUD showHUDAddedTo:_webView animated:YES];
     
@@ -70,8 +64,6 @@
     // 配置：
     // 创建网页配置对象
     WKWebViewConfiguration *config = [[WKWebViewConfiguration alloc] init];
-    // 跨域
-    [config setValue:@YES forKey:@"_allowUniversalAccessFromFileURLs"];
 
     // 创建设置对象
     WKPreferences *preference = [[WKPreferences alloc]init];
