@@ -14,18 +14,17 @@
 static NSInteger const kAdsTime = 7;
 static NSString * const kInterstitialAdUnitIDKey = @"AdmobInterstitialAdUnitID";
 static NSString * const kBannerAdUnitIDKey = @"AdmobBannerAdUnitID";
-static NSString * const kDefaultInterstitialAdUnitID = @"ca-app-pub-3670114149704964/6898569909";
-static NSString * const kDefaultBannerAdUnitID = @"ca-app-pub-3670114149704964/8758446487";
 
-@interface AdmobManager ()//<GADInterstitialDelegate,UIAlertViewDelegate>
+@interface AdmobManager () <GADFullScreenContentDelegate>
 
-//@property(nonatomic, strong) GADInterstitial *interstitial;
+@property(nonatomic, strong) GADInterstitialAd *interstitialAd;
 @property(nonatomic, strong) UIViewController *rootViewCtrl;
 @property(nonatomic, assign) NSInteger showIndex;
 @property(nonatomic, strong) MBProgressHUD *hud;
 @property(nonatomic, strong) UIImageView *launchView;
 @property(nonatomic, assign) float hudRate;
 @property(nonatomic, assign) NSInteger showTime;
+@property(nonatomic, assign) BOOL isLoadingInterstitial;
 
 @end
 
@@ -50,7 +49,8 @@ static NSString * const kDefaultBannerAdUnitID = @"ca-app-pub-3670114149704964/8
     if ([adUnitID isKindOfClass:[NSString class]] && adUnitID.length > 0) {
         return adUnitID;
     }
-    return kDefaultInterstitialAdUnitID;
+    NSLog(@"Missing or invalid Info.plist key: %@", kInterstitialAdUnitIDKey);
+    return nil;
 }
 
 + (NSString *)bannerAdUnitID
@@ -59,7 +59,8 @@ static NSString * const kDefaultBannerAdUnitID = @"ca-app-pub-3670114149704964/8
     if ([adUnitID isKindOfClass:[NSString class]] && adUnitID.length > 0) {
         return adUnitID;
     }
-    return kDefaultBannerAdUnitID;
+    NSLog(@"Missing or invalid Info.plist key: %@", kBannerAdUnitIDKey);
+    return nil;
 }
 
 #pragma mark -- 单例模式相关方法
@@ -79,9 +80,12 @@ static NSString * const kDefaultBannerAdUnitID = @"ca-app-pub-3670114149704964/8
 {
     self.showTime = 1;
     self.hudRate = 10.0f;
-    //[self setInterstitial];
 
+#if DEBUG
+    GADMobileAds.sharedInstance.requestConfiguration.testDeviceIdentifiers = @[ GADSimulatorID ];
+#endif
     [GADMobileAds.sharedInstance startWithCompletionHandler:nil];
+    [self setInterstitial];
     
 }
 
@@ -92,40 +96,55 @@ static NSString * const kDefaultBannerAdUnitID = @"ca-app-pub-3670114149704964/8
 
 #pragma mark -- 创建Interstitial
 //初始化插页广告
-- (void)setInterstitial{
-    //self.interstitial = [self createNewInterstitial];
-}
-/*
-//这个部分是因为多次调用 所以封装成一个方法
-- (GADInterstitial *)createNewInterstitial {
-    GADInterstitial *interstitial = [[GADInterstitial alloc] initWithAdUnitID:[AdmobManager interstitialAdUnitID]];
-    interstitial.delegate = self;
-    
-    GADRequest *request = [GADRequest request];
-    request.testDevices = @[@"a09014c39671651f46f72102f4585ff7",
-                            @"706d576a2ce61a4dcb5f7365ba592ff0", kGADSimulatorID];
-    [interstitial loadRequest:request];
-    
-    return interstitial;
+- (void)setInterstitial
+{
+    if (self.isLoadingInterstitial) return;
+
+    NSString *adUnitID = [AdmobManager interstitialAdUnitID];
+    if (adUnitID.length == 0) {
+        return;
+    }
+
+    self.isLoadingInterstitial = YES;
+    __weak typeof(self) weakSelf = self;
+    [GADInterstitialAd loadWithAdUnitID:adUnitID
+                                 request:[GADRequest request]
+                       completionHandler:^(GADInterstitialAd * _Nullable interstitialAd, NSError * _Nullable error) {
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        strongSelf.isLoadingInterstitial = NO;
+        
+        if (error) {
+            strongSelf.interstitialAd = nil;
+            NSLog(@"Failed to load interstitial ad: %@", error.localizedDescription);
+            return;
+        }
+        
+        strongSelf.interstitialAd = interstitialAd;
+        strongSelf.interstitialAd.fullScreenContentDelegate = strongSelf;
+    }];
 }
 
-#pragma mark -- admob广告Delegate
-//广告关闭后重新分配
-- (void)interstitialDidDismissScreen:(GADInterstitial *)ad {
-    ad.delegate = nil;
+#pragma mark -- GADFullScreenContentDelegate
+
+- (void)ad:(id<GADFullScreenPresentingAd>)ad
+didFailToPresentFullScreenContentWithError:(NSError *)error
+{
+    NSLog(@"Interstitial failed to present: %@", error.localizedDescription);
+    self.interstitialAd = nil;
     [self setInterstitial];
 }
 
-//分配失败重新分配
-- (void)interstitial:(GADInterstitial *)ad didFailToReceiveAdWithError:(GADRequestError *)error {
-    [NSTimer scheduledTimerWithTimeInterval:3.0f target:self selector:@selector(setInterstitial) userInfo:nil repeats:NO];
+- (void)adDidDismissFullScreenContent:(id<GADFullScreenPresentingAd>)ad
+{
+    self.interstitialAd = nil;
+    [self setInterstitial];
 }
-*/
+
 //static int adIndex = 0;
 #pragma mark -- 广告相关操作
 // 控制广告展示节奏
 - (void)showNativeScene {
-    if (self.showTime > 0 && self.showTime % kAdsTime != 0) {
+    if (self.showTime > 0 && self.showTime % kAdsTime == 0) {
         [[AdmobManager sharedInstance] showAdmobScene];
     }
     self.showTime++;
@@ -133,36 +152,25 @@ static NSString * const kDefaultBannerAdUnitID = @"ca-app-pub-3670114149704964/8
 
 - (BOOL)adIsCanShow
 {
-    BOOL IsCanShow = NO;//[self.interstitial isReady];
-    
-    return IsCanShow;
+    return self.interstitialAd != nil;
 }
 
 // 显示广告界面
 - (void)showAdmobScene
 {
-    /*
-    if (self.interstitial == nil) {
+    if (!self.interstitialAd) {
         [self setInterstitial];
+        NSLog(@"Interstitial ad is not ready yet.");
+        return;
     }
     
-    if ([self.interstitial isReady]) {
-        if (self.rootViewCtrl == nil) { //获取RootVC
-            UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
-            self.rootViewCtrl = keyWindow.rootViewController;
-        }
-        // 设置广告显示
-        if (!self.interstitial.hasBeenUsed) {
-            [self.interstitial presentFromRootViewController:self.rootViewCtrl];
-        }
-    } else {
-        adIndex++;
-        if (adIndex >= 3) { // 广告设置
-            adIndex = 0;
-            [self setInterstitial];
-        }
-        NSLog(@"Interstitial is not ready to show!!!");
-    }*/
+    UIViewController *rootVC = [self appRootViewController];
+    if (!rootVC) {
+        NSLog(@"No root view controller to present interstitial ad.");
+        return;
+    }
+    
+    [self.interstitialAd presentFromRootViewController:rootVC];
 }
 
 - (UIWindow *)getKeyWindow

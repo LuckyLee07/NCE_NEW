@@ -10,12 +10,12 @@
 #import "Utility.h"
 #import "AdmobManager.h"
 #import <AVFoundation/AVFoundation.h>
+@import GoogleMobileAds;
 
-@interface BaseViewController ()
+@interface BaseViewController () <GADBannerViewDelegate>
 {
-    CGFloat _scale;
     CGFloat _headerHeight;
-    //GADBannerView *_bannerView;
+    GADBannerView *_bannerView;
 }
 
 - (void)goBack;
@@ -31,20 +31,7 @@
     if (self) {
         _bannerHeight = 84.0f;
         _viewType = ViewType_Normal;
-        
-        _scale = [UIScreen mainScreen].bounds.size.width / 320;
-        //_adSize = [Utility isPad] ? kGADAdSizeLeaderboard : kGADAdSizeBanner;
-        if ([Utility isPad]) {
-            //_adSize = kGADAdSizeLeaderboard;
-        } else {
-            if ([Utility isPlus]) {
-                //_posy = 64.0f;
-            }
-            //CGSize nsize = CGSizeMake(kGADAdSizeBanner.size.width, kGADAdSizeBanner.size.height);
-            //_adSize = GADAdSizeFromCGSize(CGSizeMake(nsize.width*_scale, nsize.height*_scale));
-        }
-        //_adSize = GADAdSizeFromCGSize(CGSizeMake(0, 0));
-        
+
         _colorArray = @[[UIColor colorWithRed:226/255.f green:73/255.f blue:65/255.f alpha:1.f],
                         [UIColor colorWithRed:234/255.f green:155/255.f blue:65/255.f alpha:1.f],
                         [UIColor colorWithRed:236/255.f green:197/255.f blue:64/255.f alpha:1.f],
@@ -57,8 +44,7 @@
                         [UIColor colorWithRed:255/255.f green:86/255.f blue:117/255.f alpha:1.f],
                         [UIColor colorWithRed:255/255.f green:18/255.f blue:68/255.f alpha:1.f]];
     }
-    //_adSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, 64);
-    
+
     _headerHeight = 0.0f;
     CGFloat safeAreaHeight = [self getSafeAreaHeight];
     if (safeAreaHeight > 20.0f) {
@@ -139,10 +125,6 @@
         height = height - _headerHeight;
     }
     
-    if (_headerHeight <= 0.0f) {
-        height = height - _bannerHeight;
-    }
-    
     return CGRectMake(0, headerPosy, width, height);
 }
 
@@ -184,21 +166,29 @@
 
 - (void)addBanner
 {
-    /*
-    UIWindow *window = [UIApplication sharedApplication].keyWindow;
-    CGSize winSize = [UIScreen mainScreen].bounds.size;
-    CGPoint point = CGPointMake((winSize.width-_adSize.size.width)/2, winSize.height-_adSize.size.height+1.f);
-    _bannerView = [[GADBannerView alloc] initWithAdSize:_adSize
-                                                 origin:point];
-    _bannerView.adUnitID = [AdmobManager bannerAdUnitID];
-    _bannerView.rootViewController = window.rootViewController;
-    [window addSubview:_bannerView];
+    if (_bannerView) return;
+    
+    CGFloat width = CGRectGetWidth(self.view.bounds);
+    if (width <= 0) return;
+
+    NSString *bannerAdUnitID = [AdmobManager bannerAdUnitID];
+    if (bannerAdUnitID.length == 0) return;
+    
+    GADAdSize adaptiveSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(width);
+    _bannerView = [[GADBannerView alloc] initWithAdSize:adaptiveSize];
+    _bannerView.adUnitID = bannerAdUnitID;
+    _bannerView.rootViewController = self;
+    _bannerView.delegate = self;
+    
+    [self.view addSubview:_bannerView];
+    _bannerView.translatesAutoresizingMaskIntoConstraints = NO;
+    [NSLayoutConstraint activateConstraints:@[
+        [_bannerView.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
+        [_bannerView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor]
+    ]];
     
     GADRequest *request = [GADRequest request];
-    request.testDevices = @[@"a09014c39671651f46f72102f4585ff7",
-                            @"706d576a2ce61a4dcb5f7365ba592ff0", kGADSimulatorID];
     [_bannerView loadRequest:request];
-    */
 }
 
 @end
