@@ -238,6 +238,9 @@
 - (void)addBottomView:(CGFloat)startPosy
 {
     CGFloat bgviewHeight = self.view.frame.size.height-startPosy-self.bannerHeight;
+    if ([self getHeaderPosY] <= 0) { // iPad适配
+        bgviewHeight = bgviewHeight - [self getDefaultBottomHeight];
+    }
 
     UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0.f, startPosy, self.view.frame.size.width, bgviewHeight)];
     backgroundView.backgroundColor = [UIColor colorWithWhite:1.f alpha:0.9f];

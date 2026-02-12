@@ -108,7 +108,7 @@
 {
     CGFloat headerHeight = 64.0f; // 20px + 44px
     CGFloat safeAreaHeight = [self getSafeAreaHeight];
-    if (safeAreaHeight > 40.0f) {
+    if (safeAreaHeight > 20.0f) {
         headerHeight = 54.0f + safeAreaHeight;
     }
     return headerHeight;
@@ -116,6 +116,9 @@
 
 - (CGFloat)getDefaultBottomHeight
 {
+    if ([Utility isPad]) {
+        return _headerHeight;
+    }
     return 68.0f;
 }
 
@@ -140,7 +143,8 @@
     CGFloat headerPosy = [self getHeaderPosY];
     
     if (_viewType == ViewType_Searchs) {
-        headerPosy = headerPosy + 40; //单词search
+        headerPosy = headerPosy + 40.0f; //单词search
+        height = height - 40.0f;
     } else if (_viewType == ViewType_Lessons) {
         height = height - [self getPlayViewHeight];
     }
@@ -180,10 +184,8 @@
 - (void)addBanner
 {
 #if TARGET_OS_SIMULATOR
-    // Keep the bottom bar for layout symmetry, but skip ad loading on simulator screenshots.
-    
-    //[self refreshLayoutForBannerHeight];
-    //return;
+    [self refreshLayoutForBannerHeight];
+    return;
 #endif
 
     if (!_bannerContainerView) {
