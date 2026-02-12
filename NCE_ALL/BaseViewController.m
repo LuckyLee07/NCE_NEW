@@ -184,8 +184,8 @@
 - (void)addBanner
 {
 #if TARGET_OS_SIMULATOR
-    [self refreshLayoutForBannerHeight];
-    return;
+    //[self refreshLayoutForBannerHeight];
+    //return;
 #endif
 
     if (!_bannerContainerView) {
@@ -213,13 +213,8 @@
         return;
     }
     
-    GADAdSize adSize;
-    if ([Utility isPad]) {
-        // Use 320x50 on iPad so the ad area does not overpower the bottom bar.
-        adSize = GADAdSizeBanner; // 320x50
-    } else {
-        adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(width);
-    }
+    // AdMob recommended: use anchored adaptive banners across iPhone/iPad.
+    GADAdSize adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(width);
 
     _bannerView = [[GADBannerView alloc] initWithAdSize:adSize];
     self.bannerHeight = MAX([self getDefaultBottomHeight], adSize.size.height);
@@ -245,6 +240,10 @@
         _bannerContainerHeightConstraint.constant = self.bannerHeight;
     }
     CGRect tableFrame = [self getTableViewFrame];
+    CGFloat tableHeight = tableFrame.size.height;
+    if ([Utility isPad]) {
+        tableFrame.size.height = tableHeight + _headerHeight;
+    }
     for (UIView *subview in self.view.subviews) {
         if ([subview isKindOfClass:[UITableView class]] || [subview isKindOfClass:[UICollectionView class]]) {
             subview.frame = tableFrame;
