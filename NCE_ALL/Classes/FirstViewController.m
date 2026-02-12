@@ -105,41 +105,49 @@
         if (![bookButton isKindOfClass:[UIButton class]]) continue;
 
         CGRect frame;
-        if ([Utility isPad]) {
-            frame = CGRectMake((40+372*fmod(ii, 2)), 20+465*floor(ii/2), 315, 445);
-        } else {
-            CGFloat availableWidth = CGRectGetWidth(self.view.bounds) - safeInsets.left - safeInsets.right;
-            CGFloat availableHeight = CGRectGetHeight(self.view.bounds) - safeInsets.top - safeInsets.bottom;
+        CGFloat availableWidth = CGRectGetWidth(self.view.bounds) - safeInsets.left - safeInsets.right;
+        CGFloat availableHeight = CGRectGetHeight(self.view.bounds) - safeInsets.top - safeInsets.bottom;
 
-            CGFloat horizontalInset = MAX(12.0f, MIN(24.0f, availableWidth * 0.06f));
-            CGFloat horizontalSpacing = MAX(10.0f, MIN(20.0f, availableWidth * 0.05f));
-            CGFloat verticalSpacing = MAX(12.0f, MIN(24.0f, availableHeight * 0.03f));
-            CGFloat contentWidth = availableWidth - horizontalInset * 2.0f;
+        BOOL isPad = [Utility isPad];
+        CGFloat horizontalInset = isPad ? MAX(32.0f, MIN(80.0f, availableWidth * 0.08f))
+                                        : MAX(12.0f, MIN(24.0f, availableWidth * 0.06f));
+        CGFloat horizontalSpacing = isPad ? MAX(20.0f, MIN(40.0f, availableWidth * 0.04f))
+                                          : MAX(10.0f, MIN(20.0f, availableWidth * 0.05f));
+        CGFloat verticalSpacing = isPad ? MAX(20.0f, MIN(44.0f, availableHeight * 0.035f))
+                                        : MAX(12.0f, MIN(24.0f, availableHeight * 0.03f));
 
-            // Keep original cover ratio close to 135:189.
-            CGFloat aspectRatio = 135.0f / 189.0f;
-            CGFloat maxButtonWidth = floor((contentWidth - horizontalSpacing) / 2.0f);
-            CGFloat maxButtonHeight = floor((availableHeight - verticalSpacing) / 2.0f);
+        CGFloat contentWidth = MAX(0.0f, availableWidth - horizontalInset * 2.0f);
+        CGFloat contentHeight = MAX(0.0f, availableHeight);
 
-            CGFloat buttonWidth = maxButtonWidth;
-            CGFloat buttonHeight = floor(buttonWidth / aspectRatio);
-            if (buttonHeight > maxButtonHeight) {
-                buttonHeight = maxButtonHeight;
-                buttonWidth = floor(buttonHeight * aspectRatio);
-            }
+        // Keep original cover ratio close to 135:189.
+        CGFloat aspectRatio = 135.0f / 189.0f;
+        CGFloat maxButtonWidth = floor((contentWidth - horizontalSpacing) / 2.0f);
+        CGFloat maxButtonHeight = floor((contentHeight - verticalSpacing) / 2.0f);
 
-            CGFloat contentTotalWidth = buttonWidth * 2.0f + horizontalSpacing;
-            CGFloat contentTotalHeight = buttonHeight * 2.0f + verticalSpacing;
-            CGFloat startX = safeInsets.left + floor((availableWidth - contentTotalWidth) / 2.0f);
-            CGFloat startY = safeInsets.top + floor((availableHeight - contentTotalHeight) / 2.0f);
-
-            NSInteger row = ii / 2;
-            NSInteger col = ii % 2;
-            frame = CGRectMake(startX + (buttonWidth + horizontalSpacing) * col,
-                               startY + (buttonHeight + verticalSpacing) * row,
-                               buttonWidth,
-                               buttonHeight);
+        if (isPad) {
+            // Avoid oversized covers on large iPad screens while staying crisp on 11-inch iPad.
+            maxButtonWidth = MIN(maxButtonWidth, 315.0f);
+            maxButtonHeight = MIN(maxButtonHeight, 445.0f);
         }
+
+        CGFloat buttonWidth = maxButtonWidth;
+        CGFloat buttonHeight = floor(buttonWidth / aspectRatio);
+        if (buttonHeight > maxButtonHeight) {
+            buttonHeight = maxButtonHeight;
+            buttonWidth = floor(buttonHeight * aspectRatio);
+        }
+
+        CGFloat contentTotalWidth = buttonWidth * 2.0f + horizontalSpacing;
+        CGFloat contentTotalHeight = buttonHeight * 2.0f + verticalSpacing;
+        CGFloat startX = safeInsets.left + floor((availableWidth - contentTotalWidth) / 2.0f);
+        CGFloat startY = safeInsets.top + floor((contentHeight - contentTotalHeight) / 2.0f);
+
+        NSInteger row = ii / 2;
+        NSInteger col = ii % 2;
+        frame = CGRectMake(startX + (buttonWidth + horizontalSpacing) * col,
+                           startY + (buttonHeight + verticalSpacing) * row,
+                           buttonWidth,
+                           buttonHeight);
 
         bookButton.frame = frame;
     }

@@ -10,6 +10,7 @@
 #import "Utility.h"
 #import "AdmobManager.h"
 #import <AVFoundation/AVFoundation.h>
+#import <TargetConditionals.h>
 @import GoogleMobileAds;
 
 @interface BaseViewController () <GADBannerViewDelegate>
@@ -36,18 +37,12 @@
     return request;
 }
 
-- (CGFloat)defaultBottomReserveHeight
-{
-    // Keep a visual bottom bar for layout symmetry even when ad is unavailable.
-    return 64.0f;
-}
-
 - (id)init
 {
     self = [super init];
     if (self) {
-        _bannerHeight = [self defaultBottomReserveHeight];
         _viewType = ViewType_Normal;
+        [self initHeightData];
 
         _colorArray = @[[UIColor colorWithRed:226/255.f green:73/255.f blue:65/255.f alpha:1.f],
                         [UIColor colorWithRed:234/255.f green:155/255.f blue:65/255.f alpha:1.f],
@@ -60,12 +55,6 @@
                         [UIColor colorWithRed:136/255.f green:125/255.f blue:221/255.f alpha:1.f],
                         [UIColor colorWithRed:255/255.f green:86/255.f blue:117/255.f alpha:1.f],
                         [UIColor colorWithRed:255/255.f green:18/255.f blue:68/255.f alpha:1.f]];
-    }
-
-    _headerHeight = 0.0f;
-    CGFloat safeAreaHeight = [self getSafeAreaHeight];
-    if (safeAreaHeight > 20.0f) {
-        _headerHeight = 45.0f + safeAreaHeight;
     }
     
     return self;
@@ -101,13 +90,33 @@
 #pragma mark -
 #pragma mark Public Methods
 
+- (void)initHeightData
+{
+    _headerHeight = [self getHeaderHeight];
+    _bannerHeight = [self getDefaultBottomHeight];
+}
+
 - (CGFloat)getHeaderPosY
 {
     if ([Utility isPad]) {
         return 0.0f;
-    }else {
-        return _headerHeight;
     }
+    return [self getHeaderHeight];
+}
+
+- (CGFloat)getHeaderHeight
+{
+    CGFloat headerHeight = 64.0f; // 20px + 44px
+    CGFloat safeAreaHeight = [self getSafeAreaHeight];
+    if (safeAreaHeight > 40.0f) {
+        headerHeight = 54.0f + safeAreaHeight;
+    }
+    return headerHeight;
+}
+
+- (CGFloat)getDefaultBottomHeight
+{
+    return 68.0f;
 }
 
 - (CGFloat)getConstHeight
@@ -125,7 +134,9 @@
     CGFloat width = self.view.bounds.size.width;
     CGFloat height = self.view.bounds.size.height;
     
+    CGFloat headerHeight = _headerHeight;
     CGFloat bannerHeight = _bannerHeight;
+    
     CGFloat headerPosy = [self getHeaderPosY];
     
     if (_viewType == ViewType_Searchs) {
@@ -135,40 +146,26 @@
     }
     
     // 统一分上中下三段处理
-    height = height - headerPosy - bannerHeight;
-    
-    if ([Utility isPad]) {
-        height = height - _headerHeight;
-    }
+    height = height - headerHeight - bannerHeight;
     
     return CGRectMake(0, headerPosy, width, height);
 }
 
 - (CGFloat)getSafeAreaHeight
 {
-    if (@available(iOS 13.0, *))
+    for (UIWindowScene* windowScene in [UIApplication sharedApplication].connectedScenes)
     {
-        for (UIWindowScene* windowScene in [UIApplication sharedApplication].connectedScenes) {
-            if (windowScene.activationState == UISceneActivationStateForegroundActive)
+        if (windowScene.activationState == UISceneActivationStateForegroundActive)
+        {
+            for (UIWindow *window in windowScene.windows)
             {
-                for (UIWindow *window in windowScene.windows)
+                if (window.isKeyWindow)
                 {
-                    if (window.isKeyWindow)
-                    {
-                        return window.safeAreaInsets.top;
-                    }
+                    return window.safeAreaInsets.top;
                 }
             }
         }
     }
-    else
-    {
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-        return [UIApplication sharedApplication].keyWindow.safeAreaInsets.top;
-#pragma clang diagnostic pop
-    }
-    
     return 0.0f;
 }
 
@@ -182,6 +179,13 @@
 
 - (void)addBanner
 {
+#if TARGET_OS_SIMULATOR
+    // Keep the bottom bar for layout symmetry, but skip ad loading on simulator screenshots.
+    
+    //[self refreshLayoutForBannerHeight];
+    //return;
+#endif
+
     if (!_bannerContainerView) {
         _bannerContainerView = [[UIView alloc] initWithFrame:CGRectZero];
         _bannerContainerView.translatesAutoresizingMaskIntoConstraints = NO;
@@ -202,14 +206,21 @@
 
     NSString *bannerAdUnitID = [AdmobManager bannerAdUnitID];
     if (bannerAdUnitID.length == 0) {
-        self.bannerHeight = [self defaultBottomReserveHeight];
+        self.bannerHeight = [self getDefaultBottomHeight];
         [self refreshLayoutForBannerHeight];
         return;
     }
     
-    GADAdSize adaptiveSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(width);
-    _bannerView = [[GADBannerView alloc] initWithAdSize:adaptiveSize];
-    self.bannerHeight = MAX([self defaultBottomReserveHeight], adaptiveSize.size.height);
+    GADAdSize adSize;
+    if ([Utility isPad]) {
+        // Use 320x50 on iPad so the ad area does not overpower the bottom bar.
+        adSize = GADAdSizeBanner; // 320x50
+    } else {
+        adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(width);
+    }
+
+    _bannerView = [[GADBannerView alloc] initWithAdSize:adSize];
+    self.bannerHeight = MAX([self getDefaultBottomHeight], adSize.size.height);
     _bannerContainerHeightConstraint.constant = self.bannerHeight;
     _bannerView.adUnitID = bannerAdUnitID;
     _bannerView.rootViewController = self;
@@ -242,15 +253,22 @@
 - (void)bannerViewDidReceiveAd:(GADBannerView *)bannerView
 {
     CGFloat bannerHeight = CGRectGetHeight(bannerView.bounds);
-    self.bannerHeight = MAX([self defaultBottomReserveHeight], bannerHeight);
+    self.bannerHeight = MAX([self getDefaultBottomHeight], bannerHeight);
     [self refreshLayoutForBannerHeight];
 }
 
 - (void)bannerView:(GADBannerView *)bannerView didFailToReceiveAdWithError:(NSError *)error
 {
-    self.bannerHeight = [self defaultBottomReserveHeight];
+    self.bannerHeight = [self getDefaultBottomHeight];
     [self refreshLayoutForBannerHeight];
     NSLog(@"Banner failed to load: %@", error.localizedDescription);
+
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        if (!self->_bannerView || !self->_bannerView.superview) {
+            return;
+        }
+        [self->_bannerView loadRequest:[self nonPersonalizedRequest]];
+    });
 }
 
 @end

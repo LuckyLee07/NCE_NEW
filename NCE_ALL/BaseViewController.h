@@ -22,11 +22,17 @@ typedef NS_ENUM(NSInteger, ViewType) {
 
 @property (nonatomic, assign) CGFloat bannerHeight;
 
+- (void)initHeightData;
+
+- (CGFloat)getSafeAreaHeight;
+
 - (CGFloat)getHeaderPosY;
+- (CGFloat)getHeaderHeight;
+- (CGFloat)getDefaultBottomHeight;
 
 - (CGFloat)getConstHeight;
 - (CGFloat)getPlayViewHeight;
-- (CGFloat)getSafeAreaHeight;
+
 
 - (CGRect)getTableViewFrame;
 
