@@ -44,6 +44,8 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 - (void)addRightButton;
 - (void)showChinese:(UIButton *)button;
 - (NSDictionary *)getContentItem:(NSUInteger)item;
+- (NSDictionary *)nextLessonDictionary;
+- (void)continueToNextLesson:(NSDictionary *)lesson;
 
 @end
 
@@ -223,8 +225,17 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
     UILabel *lastSubTitle = (UILabel *)[self.view viewWithTag:10000+_currentIndex];
     lastSubTitle.textColor = [UIColor grayColor];
     
-    if (_currentIndex < _items.count-1) _currentIndex++;
-    else _currentIndex = 0;
+    if (_currentIndex < _items.count-1) {
+        _currentIndex++;
+    } else {
+        NSDictionary *nextLesson = [self nextLessonDictionary];
+        if (nextLesson) {
+            [self continueToNextLesson:nextLesson];
+            return;
+        }
+        // Already the final lesson in this book; stop at the end instead of replaying.
+        return;
+    }
     
     NSIndexPath *next = [NSIndexPath indexPathForRow:_currentIndex inSection:0];
     [self tableView:self.tableView didSelectRowAtIndexPath:next];
@@ -342,6 +353,78 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
         [_contentDictionary setObject:contentItem forKey:name];
     }
     return contentItem;
+}
+
+- (NSDictionary *)nextLessonDictionary
+{
+    NSString *currentLessonID = [_lesson objectForKey:@"id"];
+    if (currentLessonID.length == 0) {
+        return nil;
+    }
+
+    sqlite3 *database;
+    NSString *dbPath = [[NSBundle mainBundle] pathForResource:@"data/NCE" ofType:@"db"];
+    if (sqlite3_open([dbPath UTF8String], &database) != SQLITE_OK) {
+        return nil;
+    }
+
+    NSString *selectSql = [NSString stringWithFormat:@"select `name`,`lesson_id` from play_list_lessons where book_id=%d order by order_id", _bookId + 1];
+    sqlite3_stmt *statement = nil;
+    if (sqlite3_prepare_v2(database, [selectSql UTF8String], -1, &statement, nil) != SQLITE_OK) {
+        sqlite3_close(database);
+        return nil;
+    }
+
+    NSDictionary *nextLesson = nil;
+    BOOL foundCurrent = NO;
+    while (sqlite3_step(statement) == SQLITE_ROW) {
+        const char *nameC = (const char *)sqlite3_column_text(statement, 0);
+        const char *lessonIDC = (const char *)sqlite3_column_text(statement, 1);
+        if (!lessonIDC) {
+            continue;
+        }
+
+        NSString *lessonID = [[NSString alloc] initWithCString:lessonIDC encoding:NSUTF8StringEncoding];
+        if (foundCurrent) {
+            NSString *name = nameC ? [[NSString alloc] initWithCString:nameC encoding:NSUTF8StringEncoding] : @"";
+            nextLesson = @{@"name": name ?: @"", @"id": lessonID ?: @""};
+            break;
+        }
+
+        if ([lessonID isEqualToString:currentLessonID]) {
+            foundCurrent = YES;
+        }
+    }
+
+    sqlite3_finalize(statement);
+    sqlite3_close(database);
+    return nextLesson;
+}
+
+- (void)continueToNextLesson:(NSDictionary *)lesson
+{
+    _lesson = lesson;
+    NSArray *lessonArray = [[lesson objectForKey:@"name"] componentsSeparatedByString:@"－"];
+    if (lessonArray.count > 1) {
+        self.titleString = [NSString stringWithFormat:@"%@－%@", lessonArray[0], lessonArray[1]];
+    } else {
+        self.titleString = [lesson objectForKey:@"name"];
+    }
+    self.navigationItem.title = self.titleString;
+
+    [self initData];
+    [_contentDictionary removeAllObjects];
+
+    _currentIndex = 0;
+    _learnedCount = 0;
+    _contentSlider.maximumValue = MAX(0, (int)_items.count - 1);
+    _contentSlider.value = 0.0f;
+
+    [self.tableView reloadData];
+    if (_items.count > 0) {
+        NSIndexPath *first = [NSIndexPath indexPathForRow:0 inSection:0];
+        [self tableView:self.tableView didSelectRowAtIndexPath:first];
+    }
 }
 
 - (void)play
