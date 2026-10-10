@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-006",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-006.png",
+  "source_sha256": "b386b564c64c364cfcacc80657093ec88f11aec4756e74b5b6d9207b2f9b49ae",
+  "original_generated": "exec-67290b5b-7d18-462e-86f9-f128f5bdea02.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a small silver sardine fish with subtle blue back, full body side view; TOP RIGHT = a skate ray with flat diamond-shaped body, winglike fins and long thin tail, top view; BOTTOM LEFT = a very long ribbon-like silver oarfish with red dorsal fin and red head crest, whole body curved to fit; BOTTOM RIGHT = a clump of tall green reeds with long upright leaves and brown cylindrical seed heads. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "sardine",
+      "position": "top_left",
+      "source": "atlas-006-0.png",
+      "sha256": "084e055032f288e22ca902dcca1cc2e0fe51388d7771544e939eb638133be52b",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "skate",
+      "position": "top_right",
+      "source": "atlas-006-1.png",
+      "sha256": "54cbba589a93d206f6fd0d5a07dbc0a610c72c555ec0393d94b901b03aae9837",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "oarfish",
+      "position": "bottom_left",
+      "source": "atlas-006-2.png",
+      "sha256": "d75f86756ec263d9a8453438c1c936b3d267fb9f6574b27c31b4b51f4234f7dd",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "bulrush",
+      "position": "bottom_right",
+      "source": "atlas-006-3.png",
+      "sha256": "e422125ad206eb1475840de49af4346758f96670027af27ff3635f3a192a81d1",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-026",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-026.png",
+  "source_sha256": "f92437222f00582e963de4047f4925a660efc3145b21304e6afb10dbd773817e",
+  "original_generated": "exec-77f11d3c-abe9-4348-b06f-c6c3fc13e141.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a single old ornamental ceramic vase with a worn surface on a plain base, no specific copyrighted pattern; TOP RIGHT = a simple scenic lake, mountain and a small lookout path, generic picturesque place not a real location; BOTTOM LEFT = a small bar counter with two stools and a few unlabelled bottles on shelves, no patrons or brands; BOTTOM RIGHT = a distant simple arena vignette with a bull and a fully clothed matador holding a red cape, no contact, wounds, blood or suffering. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "antique",
+      "position": "top_left",
+      "source": "atlas-026-0.png",
+      "sha256": "b1f2e8c67c3d480a8d1b63d462d0eaba94e2ac1c898b737805be358aea17bf46",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "beauty spot",
+      "position": "top_right",
+      "source": "atlas-026-1.png",
+      "sha256": "9b8cc11a2e694e6057efe39e7a3fa12f3fb37505cae0edf34941be5e64d186da",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "bar",
+      "position": "bottom_left",
+      "source": "atlas-026-2.png",
+      "sha256": "336d5b443d9a4f6c40d6285516029c7fd03fbca126c75c1846b66c8a40da5f08",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "bullfight",
+      "position": "bottom_right",
+      "source": "atlas-026-3.png",
+      "sha256": "acf7689174da51bb93564c652b585d28d76024c916a510d13166ae3dd6724937",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

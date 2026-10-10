@@ -1,0 +1,34 @@
+{
+  "format_version": 1,
+  "review_date": "2026-10-06",
+  "image_ai_reviewed": 1325,
+  "image_kinds": {
+    "context": 514,
+    "ai_illustration": 120,
+    "diagram": 121,
+    "illustration": 155,
+    "meaning_card": 415
+  },
+  "image_total_bytes": 3516478,
+  "image_max_bytes": 5570,
+  "audio_first_pass_count": 210,
+  "audio_second_pass_count": 78,
+  "audio_exact_lexical_match_either_pass": 138,
+  "audio_nonexact_requires_listening": 72,
+  "audio_clipped_samples": 0,
+  "audio_silent_or_very_short_active": 0,
+  "audio_edges_with_no_padding": 0,
+  "human_semantic_approved": 0,
+  "human_listening_approved": 0,
+  "physical_device_ui_acceptance": "deferred_by_user_device_locked",
+  "specialist_pronunciation_holds": [
+    "Justiteombudsman",
+    "Kituro",
+    "Wayle"
+  ],
+  "limits": [
+    "Exact ASR transcripts do not certify pronunciation, stress or naturalness.",
+    "Nonexact transcripts include articles, spelling variants, abbreviations and possible speech errors; keep the raw evidence for listening review.",
+    "No audio was uploaded for review; cached local Whisper used no expected-word prompt."
+  ]
+}

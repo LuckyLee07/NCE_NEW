@@ -1,0 +1,262 @@
+{
+  "format_version": 1,
+  "localizations": {
+    "ja": {
+      "editorially_corrected_word_name_fallbacks": {
+        "zh:(用绳)拴": {
+          "editorial_translation": "ロープでつなぐ",
+          "english_word": "tether",
+          "review_status": "word_sense_review_required",
+          "translation": "テーター"
+        },
+        "zh:蜥蜴": {
+          "editorial_translation": "トカゲ",
+          "english_word": "lizard",
+          "review_status": "word_sense_review_required",
+          "translation": "リザード"
+        },
+        "zh:蜿蜒": {
+          "editorial_translation": "曲がりくねる",
+          "english_word": "wind",
+          "review_status": "word_sense_review_required",
+          "translation": "風"
+        },
+        "zh:蝌蚪": {
+          "editorial_translation": "オタマジャクシ",
+          "english_word": "tadpole",
+          "review_status": "word_sense_review_required",
+          "translation": "タダポール"
+        },
+        "zh:螳螂": {
+          "editorial_translation": "カマキリ",
+          "english_word": "praying mantis",
+          "review_status": "word_sense_review_required",
+          "translation": "祈りマンティス"
+        },
+        "zh:诽谤": {
+          "editorial_translation": "中傷する",
+          "english_word": "slander",
+          "review_status": "word_sense_review_required",
+          "translation": "スランダー"
+        },
+        "zh:骷髅": {
+          "editorial_translation": "骸骨",
+          "english_word": "skeleton",
+          "review_status": "word_sense_review_required",
+          "translation": "スケート"
+        },
+        "zh:鳐": {
+          "editorial_translation": "エイ",
+          "english_word": "skate",
+          "review_status": "word_sense_review_required",
+          "translation": "スケート"
+        },
+        "zh:鹦鹉": {
+          "editorial_translation": "オウム",
+          "english_word": "parrot",
+          "review_status": "word_sense_review_required",
+          "translation": "パロット"
+        },
+        "zh:鹧鸪": {
+          "editorial_translation": "シャコ（鳥の一種）",
+          "english_word": "partridge",
+          "review_status": "word_sense_review_required",
+          "translation": "パトリッジ"
+        }
+      },
+      "files": {
+        "data/localizations/ja.json": "4fbd802b00a896a3c5de2571b15f13bb0cc7a90208afb0fba94bc7446f89b11e",
+        "ja.lproj/InfoPlist.strings": "7aaafcc57325c78c29bfd59d62c9323ac7eab32ebcce997535495d9613bcfae4",
+        "ja.lproj/Localizable.strings": "8c0ad844b39e6608ac97d2e9a9eb974880250d239251a62e6ec58875b808d45b"
+      },
+      "localized_image_bytes": 3577695,
+      "localized_images": 1325,
+      "machine_flagged_image_captions": 0,
+      "machine_flagged_sentences": 0,
+      "machine_flagged_word_meanings": 0,
+      "original_image_fallbacks": 0,
+      "sentences": 4445,
+      "text_entries": 9640,
+      "ui_strings": 54,
+      "word_meaning_variants": 3245,
+      "word_name_translation_fallbacks": {},
+      "words": 3104
+    },
+    "ko": {
+      "editorially_corrected_word_name_fallbacks": {
+        "zh:(用绳)拴": {
+          "editorial_translation": "밧줄로 매다",
+          "english_word": "tether",
+          "review_status": "word_sense_review_required",
+          "translation": "테더"
+        },
+        "zh:丛，簇": {
+          "editorial_translation": "덤불, 무리",
+          "english_word": "clump",
+          "review_status": "word_sense_review_required",
+          "translation": "클럽"
+        },
+        "zh:关隘": {
+          "editorial_translation": "고개, 산길",
+          "english_word": "pass",
+          "review_status": "word_sense_review_required",
+          "translation": "패스"
+        },
+        "zh:吝啬，小气": {
+          "editorial_translation": "인색한, 쪼잔한",
+          "english_word": "mean",
+          "review_status": "word_sense_review_required",
+          "translation": "의미"
+        },
+        "zh:吹号": {
+          "editorial_translation": "나팔을 불다",
+          "english_word": "trumpet",
+          "review_status": "word_sense_review_required",
+          "translation": "트럼프"
+        },
+        "zh:哎哟": {
+          "editorial_translation": "아야!",
+          "english_word": "ow",
+          "review_status": "word_sense_review_required",
+          "translation": "웨이즈"
+        },
+        "zh:地窖": {
+          "editorial_translation": "지하 저장실",
+          "english_word": "cellar",
+          "review_status": "word_sense_review_required",
+          "translation": "셀러"
+        },
+        "zh:弹簧": {
+          "editorial_translation": "스프링, 용수철",
+          "english_word": "spring",
+          "review_status": "word_sense_review_required",
+          "translation": "봄"
+        },
+        "zh:打鼾": {
+          "editorial_translation": "코를 골다",
+          "english_word": "snore",
+          "review_status": "word_sense_review_required",
+          "translation": "스노우"
+        },
+        "zh:抽屉": {
+          "editorial_translation": "서랍",
+          "english_word": "drawer",
+          "review_status": "word_sense_review_required",
+          "translation": "드라이버"
+        },
+        "zh:拴，系": {
+          "editorial_translation": "매다, 묶다",
+          "english_word": "tie",
+          "review_status": "word_sense_review_required",
+          "translation": "타이"
+        },
+        "zh:摇晃，蹒跚": {
+          "editorial_translation": "비틀거리다, 휘청거리다",
+          "english_word": "stagger",
+          "review_status": "word_sense_review_required",
+          "translation": "스파이더"
+        },
+        "zh:粘": {
+          "editorial_translation": "달라붙다",
+          "english_word": "cling",
+          "review_status": "word_sense_review_required",
+          "translation": "클린스"
+        },
+        "zh:蜥蜴": {
+          "editorial_translation": "도마뱀",
+          "english_word": "lizard",
+          "review_status": "word_sense_review_required",
+          "translation": "리조트"
+        },
+        "zh:蜿蜒": {
+          "editorial_translation": "구불구불 이어지다",
+          "english_word": "wind",
+          "review_status": "word_sense_review_required",
+          "translation": "바람"
+        },
+        "zh:蝌蚪": {
+          "editorial_translation": "올챙이",
+          "english_word": "tadpole",
+          "review_status": "word_sense_review_required",
+          "translation": "타드폴리"
+        },
+        "zh:螳螂": {
+          "editorial_translation": "사마귀",
+          "english_word": "praying mantis",
+          "review_status": "word_sense_review_required",
+          "translation": "기도하는 맨티스"
+        },
+        "zh:诽谤": {
+          "editorial_translation": "중상하다, 비방하다",
+          "english_word": "slander",
+          "review_status": "word_sense_review_required",
+          "translation": "슬랜더"
+        },
+        "zh:雀斑": {
+          "editorial_translation": "주근깨",
+          "english_word": "freckle",
+          "review_status": "word_sense_review_required",
+          "translation": "프리클"
+        },
+        "zh:骷髅": {
+          "editorial_translation": "해골",
+          "english_word": "skeleton",
+          "review_status": "word_sense_review_required",
+          "translation": "스케일링"
+        },
+        "zh:鳐": {
+          "editorial_translation": "가오리",
+          "english_word": "skate",
+          "review_status": "word_sense_review_required",
+          "translation": "스케이트"
+        },
+        "zh:鹦鹉": {
+          "editorial_translation": "앵무새",
+          "english_word": "parrot",
+          "review_status": "word_sense_review_required",
+          "translation": "파로트"
+        },
+        "zh:鹧鸪": {
+          "editorial_translation": "자고새",
+          "english_word": "partridge",
+          "review_status": "word_sense_review_required",
+          "translation": "파트너"
+        }
+      },
+      "files": {
+        "data/localizations/ko.json": "3b46de3c8ec0d3acf7e9549e5a6dcf5573e7428ecfbfbeb5226d2ae6b3903c00",
+        "ko.lproj/InfoPlist.strings": "95be5dd19f05353998931355419dd3980e29095d7080874f4789278826eb522f",
+        "ko.lproj/Localizable.strings": "c7060c0f740c128dea292d8d89acd7d1ad2056ecaf842e74b9e01757b79fc8c8"
+      },
+      "localized_image_bytes": 3499697,
+      "localized_images": 1325,
+      "machine_flagged_image_captions": 0,
+      "machine_flagged_sentences": 0,
+      "machine_flagged_word_meanings": 0,
+      "original_image_fallbacks": 0,
+      "sentences": 4445,
+      "text_entries": 9646,
+      "ui_strings": 54,
+      "word_meaning_variants": 3245,
+      "word_name_translation_fallbacks": {},
+      "words": 3104
+    }
+  },
+  "model": "facebook/m2m100_418M",
+  "model_bundled": false,
+  "model_license": "MIT",
+  "model_url": "https://huggingface.co/facebook/m2m100_418M",
+  "native_editorial_review": "pending",
+  "override_fingerprint": "136547e70839b5ceb64d9b9a511aca20fb830f3ac8d39089689d0b8eabf6cf48",
+  "phrase_override_fingerprint": "ad5aeb9330c6ea050faa50ae9ea32cdf63caf697cf3f86907141cf357d24d647",
+  "revision": "55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636",
+  "runtime_network_translation": false,
+  "source_fingerprints": {
+    "data/NCE.db": "5cf18aafca0e5a3de1e0dce42e0f8a9738ebfac8c345b71ba572cb2635b16b19",
+    "data/lesson-packs/book1.zip": "91a97695225d1f500ecf44a3953c537d20f600829b26006fc567859ec59e8f0e",
+    "data/lesson-packs/book2.zip": "b070cc787606dee97acdff8f5474152e61209ad7d7a28aa1f155504f2df82024",
+    "data/lesson-packs/book3.zip": "3cc2a3bdd7ae5c9d3e5fc9f66495599e6997b99819b6d89645fbc7694aca5190",
+    "data/lesson-packs/book4.zip": "d2b62f2f953b4c303671e8f20ac23b96d14af1e424645c475e4ebf7f3aff2443",
+    "data/words/editorial-overrides.json": "8a4665e974db168d3614c1f98b886cf65425831da3c393c0ef100c20b9ee041e"
+  }
+}

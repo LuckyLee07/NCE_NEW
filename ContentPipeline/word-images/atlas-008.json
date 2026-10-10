@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-008",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-008.png",
+  "source_sha256": "f303cf07aac17177068c958974fcebab8e8c6d47b00e0eb22625408bfc644c77",
+  "original_generated": "exec-a2b87a4b-20a7-4c6f-8653-6ee3a3ec4649.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a handheld powered jigsaw tool with a short thin vertical reciprocating blade and flat base; not a puzzle; TOP RIGHT = one C-shaped metal clamp with a screw and small handle; BOTTOM LEFT = a manual winch with a drum wound with cable and a turning handle; BOTTOM RIGHT = a simple block-and-tackle pulley pair connected by multiple rope loops, no assembly instructions or labels. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "jigsaw",
+      "position": "top_left",
+      "source": "atlas-008-0.png",
+      "sha256": "8296e3f73329c819ec7808ade6ec3ad9d64fe37c83ddcbf193bbf47aa3ac62fb",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "clamp",
+      "position": "top_right",
+      "source": "atlas-008-1.png",
+      "sha256": "3b19c2cd511fdea15b453b321979e2e7719cb3c4b41be7f76eb27c293c3cda13",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "winch",
+      "position": "bottom_left",
+      "source": "atlas-008-2.png",
+      "sha256": "ae2821f0258b7cc9ddde2b4ac51bcf6be52cafee4a4d7559e9859d1e13f755f2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "block and tackle",
+      "position": "bottom_right",
+      "source": "atlas-008-3.png",
+      "sha256": "6a6b359a0aa87279970e636cbd05d0395165dec60e6b914aa4774ce9f2c3b3a9",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

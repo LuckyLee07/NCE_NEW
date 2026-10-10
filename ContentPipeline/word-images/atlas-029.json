@@ -1,0 +1,53 @@
+{
+  "format_version": 1,
+  "id": "atlas-029",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-029.png",
+  "source_sha256": "4433b24a1a25be976ca6ed7512f09699597e62536129695706f70938aa819f24",
+  "original_generated": "exec-2c695927-2cc7-43a3-b0f9-b6bc6310d2b7.png",
+  "prompt": "Use case scientific-educational. Produce one square white-background 2x2 atlas of four clean small vocabulary illustrations. Fixed row-major quadrants, no borders, labels, writing or watermark; subjects fully within each quadrant with ample margins, no center crossings. Flat clear accurate educational art readable at 128px per tile. Top-left: a single albatross gliding in flight with very long slender outstretched wings and a white body, grey-dark upper wings, orange beak, no aircraft; this depicts glider meaning a gliding bird in a bird-flight lesson. Top-right: a small mound of loose green-brown grass seeds, visible elongated grain shapes, with two simple thin green grass blades nearby, clearly seeds not a mature wheat field. Bottom-left: a fully clothed friendly handyman holding a small screwdriver beside a small toolbox, gender-neutral adult, worker capable of small repairs, not just toolbox. Bottom-right: a fully clothed boxer athlete standing with two red boxing gloves raised, simple athletic top and shorts, no fight, no opponent, injury or blood, not just one glove. Similar scale, minimal detail, plain white, no logos or brands.",
+  "edit_prompt": "Edit this four-quadrant vocabulary atlas keeping the bird and grass seeds in the TOP row unchanged. The current bottom figures cross the horizontal center line. SHRINK the entire handyman+toolbox illustration in lower LEFT by 25 percent around the center of the lower-left quadrant and shift it DOWN so its highest pixel is strictly BELOW 55 percent of canvas height, and all its feet/box pixels are above 95 percent of canvas height. Do exactly the same shrinking and down-centering for the boxer in lower RIGHT. White background everywhere. Preserve full bodies, correct hands, bird wings and seeds. No new text, borders or elements. All four illustrations must be fully confined to their equal 2x2 quadrants with generous white margins and nothing crossing horizontal or vertical halfway lines.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "glider",
+      "position": "top_left",
+      "source": "atlas-029-0.png",
+      "sha256": "e6405790512b3c7ce49164a4503f5ca9308987d62c1a06829a95379adc882be5",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "grass-seed",
+      "position": "top_right",
+      "source": "atlas-029-1.png",
+      "sha256": "ce5770eafd674bd820bd414069f66b5045af8d9b349c47ee21825b18cdc67038",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "handyman",
+      "position": "bottom_left",
+      "source": "atlas-029-2.png",
+      "sha256": "66d9f6692a3007df0b9ed16b118d2f459d05a22657f395f0b3ae44b8650609ef",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "boxer",
+      "position": "bottom_right",
+      "source": "atlas-029-3.png",
+      "sha256": "ba994be5c2991724fcc7fc3a1706376ddfffae121be4fccafc78e0318b74c877",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

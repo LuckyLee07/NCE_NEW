@@ -1,0 +1,46 @@
+1282049993
+新概念英语全四册 - 零基础英语入门王
+案例 ID 是 102824275242
+
+适配新设备
+替换过期第三方库
+
+更新 SDK
+適配新設備
+替換過期第三方庫
+
+你必须在“App 隐私”页面输入隐私政策网址 (URL)。 
+你必须上传 13 英寸 iPad 显示屏的截屏。 
+你必须上传 6.5 英寸 iPhone 显示屏的截屏。 
+提交 App 以供审核前，具有“管理”职能的用户必须在“App 隐私”部分提供相关信息，以说明此 App 的隐私处理方式。了解更多 
+你的 App 包含 NSUserTrackingUsageDescription，这表示它可能会请求追踪用户。要提交以供审核，请更新你的 App 隐私答复以注明从此 App 中收集的数据将用于追踪目的，或者更新你的 App 二进制文件并上传新的构建版本。
+
+去 App Store Connect：
+联系支持
+选择 App Review
+说明版本等待时间超过 5 个工作日
+询问是否需要补充资料
+
+Subject: Inquiry Regarding App Review Status
+
+Hello App Review Team,
+
+I hope you are doing well.
+
+I would like to kindly inquire about the review status of my app update, which was submitted on February 11 and is currently still showing “Waiting for Review”.
+
+As it has been over five business days, I just wanted to check whether any additional information or materials are needed from my side to assist with the review process.
+
+We truly appreciate the work of the App Review team and understand that review times may vary. Thank you very much for your assistance.
+
+Best regards
+
+
+技术团队(负责人)
+->平台业务团队
+->服务器团队
+->引擎团队
+->沙盒游戏团队(负责人) -> 沙盒游戏开发
+                    -> UGC工具开发
+                    —> 架构能力开发
+                    -> 云服团队

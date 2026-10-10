@@ -1,0 +1,31 @@
+{
+  "format_version": 1,
+  "review_date": "2026-10-06",
+  "reviewer": "Codex visual and recipe inspection; not human or publisher approval",
+  "corrections": [
+    {"words": ["doorknob", "memory-chip", "cheque", "bookcase", "shelf", "stocking", "pennant", "stage", "compact", "grass-seed", "handyman", "boxer"], "action": "Replace imprecise generic icons with three recorded four-word atlases (027-029); bookcase explicitly shares its shelf cell."},
+    {"words": ["glider"], "action": "Replace aircraft draft with gliding albatross; book 4 lesson 23 sentence 6 refers to gliding birds."},
+    {"words": ["anchor", "vole", "bulrush", "hip", "yeast", "asterisk", "repeat", "CD-ROM"], "action": "Correct damaged or imprecise captions with recorded dictionary/editorial overrides; keep yeast figurative (book 4 lesson 39 sentence 8)."},
+    {"words": ["click", "lotto", "per", "shut", "permanently", "watertight"], "action": "Remove misleading or insufficient icons/relations; use clearly labelled meaning cards."},
+    {"words": ["idea", "inspiration", "pop singer", "crystal", "studio", "skier", "software", "DOS", "network", "Internet", "the Alps", "Alpine", "Matterhorn", "Everest"], "action": "Classify mnemonic symbols as context, not precise object or geographic illustrations."},
+    {"words": ["shepherd"], "action": "Replace archer cue with person and sheep."},
+    {"words": ["may", "march", "miss", "press", "South"], "action": "Preserve original images, add case-safe sense-specific cards/cues, and replace only the exact word mappings; semantic-repairs.json records the original paths."}
+  ],
+  "context_checks": [
+    {"words": ["jigsaw", "capsule", "print", "plough", "superstructure"], "finding": "Current pictures match the recorded lesson senses: saw, container, footprint, cultivation, and ship upper structures. This is AI draft review, not technical/historical expert certification."},
+    {"words": ["polo", "far", "either"], "finding": "Use the database's lesson senses: water polo, very, and also; do not replace them with horseback polo, spatial distance, or either/or by assuming a generic dictionary sense."}
+  ],
+  "legacy_alias_review": [
+    {"word": "Miss", "path": "jpg/miss.jpg", "finding": "Acceptable title/person cue for this draft, not a universal portrait of every Miss; verb miss now has a separate labelled card."},
+    {"word": "March", "path": "jpg/march.jpg", "finding": "Calendar shows March; lowercase movement verb now uses a separate cue."},
+    {"word": "May", "path": "jpg/may.jpg", "finding": "Calendar shows May; lowercase permission modal now uses a separate card."},
+    {"word": "Press", "path": "jpg/press.jpg", "finding": "News collage is a context cue for the news industry; lowercase push verb now uses a separate cue."},
+    {"word": "South", "path": "jpg/south.jpg", "finding": "Rejected compass for the South Dakota lesson sense; replacement is a labelled place card, not a fabricated map."}
+  ],
+  "limits": [
+    "All final generated JPEGs and captions were inspected on 23 contact pages, with targeted course-context and dictionary checks. Other 1779 original images did not receive a complete semantic review.",
+    "Context graphics are labelled mnemonic cues; meaning cards intentionally remain a supported fallback. Neither category is claimed as a literal object picture.",
+    "Historical, mythological, geographic and specialist illustrations remain drafts, not exact reconstructions or expert-certified diagrams.",
+    "Human semantic signoff, human audio listening and physical-device functional acceptance remain separate and incomplete."
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "status": "passed",
+  "screenshots_loaded": 60,
+  "videos_loaded": 12,
+  "browser_video_metadata": [
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    }
+  ],
+  "nonblank_playback": [
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/zh-Hans/iphone/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/zh-Hans/ipad/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/zh-Hant/iphone/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/zh-Hant/ipad/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/ja/iphone/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/ja/ipad/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/ko/iphone/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/ko/ipad/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/en-US/iphone/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/en-US/ipad/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/en-CA/iphone/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    },
+    {
+      "path": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/StoreAssets/1.3-preview-fix/upload/en-CA/ipad/app-preview.mp4",
+      "playing": true,
+      "sampled_scenes": [
+        {
+          "seconds": 1.2,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 6,
+          "pixelRange": 255
+        },
+        {
+          "seconds": 10.799999999999999,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 15.599999999999998,
+          "pixelRange": 233
+        },
+        {
+          "seconds": 20.4,
+          "pixelRange": 255
+        }
+      ]
+    }
+  ],
+  "viewport_widths": [
+    1440,
+    390,
+    320
+  ],
+  "horizontal_overflow": false
+}

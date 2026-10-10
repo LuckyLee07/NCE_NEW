@@ -1,0 +1,31 @@
+{
+  "format_version": 1,
+  "method": "AI visual triage of OCR candidates; not native-speaker or human editorial approval",
+  "decisions": {
+    "anecdote": {"action": "meaning_card", "reason": "Simplified Chinese book-cover text"},
+    "astronomical": {"action": "meaning_card", "reason": "Chinese captions in a dense astronomy diagram"},
+    "bulletin": {"action": "reuse", "reason": "公告 is identical in both scripts"},
+    "compulsory": {"action": "meaning_card", "reason": "Simplified Chinese education banner"},
+    "content": {"action": "reuse", "reason": "English chart; OCR false positive"},
+    "contribute": {"action": "meaning_card", "reason": "Simplified Chinese event banner"},
+    "descendant": {"action": "reuse", "reason": "English family tree; OCR false positive"},
+    "dignity": {"action": "meaning_card", "reason": "Simplified Chinese 尊严"},
+    "district": {"action": "reuse", "reason": "Map with shared-script 巴黎; no confirmed Simplified-only caption"},
+    "fertilizer": {"action": "reuse", "reason": "Shared-script labels 尿素 and 二胺"},
+    "figure": {"action": "reuse", "reason": "Silhouette grid; OCR false positive"},
+    "hospital": {"action": "reuse", "reason": "English hospital sign; OCR false positive"},
+    "invite": {"action": "reuse", "reason": "Invitation already uses Traditional Chinese 邀請函"},
+    "mathematics": {"action": "reuse", "reason": "Arithmetic symbols; OCR false positive"},
+    "need": {"action": "reuse", "reason": "English text; OCR false positive"},
+    "nerve": {"action": "reuse", "reason": "English neuron diagram; OCR false positive"},
+    "notice": {"action": "reuse", "reason": "通知 is identical in both scripts"},
+    "patience": {"action": "reuse", "reason": "忍 is identical in both scripts"},
+    "progressive": {"action": "reuse", "reason": "English lettering; OCR false positive"},
+    "remove": {"action": "reuse", "reason": "English software interface; OCR false positive"},
+    "restrict": {"action": "reuse", "reason": "Drink photograph; OCR false positive"},
+    "reunite": {"action": "reuse", "reason": "Group silhouettes; OCR false positive"},
+    "splendid": {"action": "reuse", "reason": "佳 is identical in both scripts"},
+    "strictly": {"action": "reuse", "reason": "English cover text; OCR false positive"},
+    "warm": {"action": "reuse", "reason": "Thermometer numbers; OCR false positive"}
+  }
+}

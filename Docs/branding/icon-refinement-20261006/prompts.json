@@ -1,0 +1,38 @@
+{
+  "format_version": 1,
+  "created_on": "2026-10-06",
+  "status": "preview_only_awaiting_placement_selection",
+  "generation": "built-in image_gen",
+  "runtime_assets_changed": false,
+  "edit_reference": "reference-icon.png",
+  "selected_cover_direction": "../concepts-20261006/c-line-art.png",
+  "cover_production_status": "selected_direction_not_yet_exported",
+  "selected_icon": null,
+  "supersedes": "../icon-concepts-nce-four-20261006/prompts.json",
+  "requirements": [
+    "Use the user's attached deep-green original open-book and speech-bubble icon as the edit target.",
+    "Preserve its recognizable ink illustration and add the exact NCE mark.",
+    "Do not force four separate book illustrations into this revised direction."
+  ],
+  "notes": [
+    "P1 replaces the three bubble dots with NCE; P2 adds NCE in the upper-left empty area and retains the dots.",
+    "These are AI-edited presentation previews, not a pixel-identical overlay or production AppIcon export.",
+    "Visible white margins and rounded corners must not be baked into the final production icon."
+  ],
+  "concepts": [
+    {
+      "id": "p1-nce-in-bubble",
+      "label": "NCE inside speech bubble",
+      "prompt": "Use case: precise-object-edit.\nAsset type: iOS app-icon refinement preview.\nInput image 1: EDIT TARGET, the exact user-approved existing dark teal-green hand-drawn icon. This is NOT merely a loose style reference. Make a minimal precise edit to this image, keeping the original icon identity.\nPreserve: the deep muted teal-green rounded-square background, the thin warm-white hand-ink open book in the lower half, the original many page strokes, book angle, proportions, curved book spine, white outer book contour, and the speech-bubble contour with its tail in the upper right. Preserve the original calm literary hand-drawn texture and spacing as closely as possible. Keep the surrounding narrow white presentation margin. Output a single high-resolution square preview of the edited icon, with no heading, no alternate variants, no phone mockup or extra artwork.\nRequired added text: exact uppercase Latin letters \"NCE\", spelled N C E, clean, strong, correctly rendered and legible. Refined medium-bold editorial serif typography, warm white to match the existing illustration. Do NOT make a badge, sticker, separate colored plaque or outlined rectangle around the lettering. No Chinese or other text, no numerals, no four-book pile, no new illustrations, no colors besides the original green and white. Do not change this into a completely different flat book logo, and do not erase, redraw or simplify the approved illustration. No gradients, plastic 3D, gloss, shadows, ornamentation, watermark or publisher logo.\nChange only the THREE SMALL WHITE DOTS inside the upper-right speech bubble: replace those dots with the word \"NCE\". Center NCE inside the existing speech bubble. The lettering fills about 72 percent of the bubble interior width, with adequate clear padding from the white contour. The existing bubble outline and its tail remain intact, and all original book artwork and other positions remain unchanged. Do not add any other NCE elsewhere. This should look like the book is speaking its own app name. Make the letters visually strong enough to read within the bubble, but do not enlarge the bubble or turn the word into an oversized heading.",
+      "preview": "p1-nce-in-bubble.png",
+      "original_generated_file": "/Users/lizi/.codex/generated_images/019eb45a-85cd-7cd2-9185-8b05f6dfcb31/exec-ff4c8426-4efc-48df-8167-b528cdcfb131.png"
+    },
+    {
+      "id": "p2-nce-upper-left",
+      "label": "NCE in upper-left space",
+      "prompt": "Use case: precise-object-edit.\nAsset type: iOS app-icon refinement preview.\nInput image 1: EDIT TARGET, the exact user-approved existing dark teal-green hand-drawn icon. This is NOT merely a loose style reference. Make a minimal precise edit to this image, keeping the original icon identity.\nPreserve: the deep muted teal-green rounded-square background, the thin warm-white hand-ink open book in the lower half, the original many page strokes, book angle, proportions, curved book spine, white outer book contour, and the speech-bubble contour with its tail in the upper right. Preserve the original calm literary hand-drawn texture and spacing as closely as possible. Keep the surrounding narrow white presentation margin. Output a single high-resolution square preview of the edited icon, with no heading, no alternate variants, no phone mockup or extra artwork.\nRequired added text: exact uppercase Latin letters \"NCE\", spelled N C E, clean, strong, correctly rendered and legible. Refined medium-bold editorial serif typography, warm white to match the existing illustration. Do NOT make a badge, sticker, separate colored plaque or outlined rectangle around the lettering. No Chinese or other text, no numerals, no four-book pile, no new illustrations, no colors besides the original green and white. Do not change this into a completely different flat book logo, and do not erase, redraw or simplify the approved illustration. No gradients, plastic 3D, gloss, shadows, ornamentation, watermark or publisher logo.\nAdd \"NCE\" in the currently empty upper-left green area of the icon, balanced opposite the existing upper-right speech bubble. The text occupies roughly 36 percent of the entire icon width and is aligned horizontally in one line. Use warm-white medium-bold refined serif type with open counters and strong readable strokes. Place the word entirely above the left side of the open book, and keep comfortable separation from the book and speech bubble. Preserve the THREE ORIGINAL WHITE DOTS inside the speech bubble as they are. Do not change the bubble, book or background. No heading elsewhere. The result must still be the SAME original illustrated icon, simply branded NCE in its empty space.",
+      "preview": "p2-nce-upper-left.png",
+      "original_generated_file": "/Users/lizi/.codex/generated_images/019eb45a-85cd-7cd2-9185-8b05f6dfcb31/exec-15a515c1-a2ba-4c35-b152-83eae5a8c474.png"
+    }
+  ]
+}

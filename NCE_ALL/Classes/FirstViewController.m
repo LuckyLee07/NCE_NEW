@@ -11,6 +11,7 @@
 #import "UINavigationItem+Spacing.h"
 #import "Utility.h"
 #import "SettingViewController.h"
+#import "NCELocalization.h"
 
 @interface FirstViewController ()
 
@@ -40,9 +41,10 @@
     // set title
     NSDictionary *dic = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
     self.navigationController.navigationBar.titleTextAttributes = dic;
-    self.navigationItem.title = @"新概念英语";
+    self.navigationItem.title = NCELocalizedString(@"新概念英语");
     
     [self addBooks];
+    [self addSettingButton];
 }
 
 - (void)viewDidLayoutSubviews
@@ -61,13 +63,46 @@
 
 - (void)addSettingButton
 {
-    UIImage *settingImage = [UIImage imageNamed:@"btn_setting"];
-    UIButton *settingButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    settingButton.frame = CGRectMake(0, 0, settingImage.size.width, settingImage.size.height);
-    [settingButton setBackgroundImage:settingImage forState:UIControlStateNormal];
+    UIButton *settingButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    settingButton.frame = CGRectMake(0, 0, 44, 44);
+    settingButton.tintColor = UIColor.whiteColor;
+    UIButtonConfiguration *configuration = [UIButtonConfiguration plainButtonConfiguration];
+    UIImageSymbolConfiguration *symbol = [UIImageSymbolConfiguration configurationWithPointSize:22 weight:UIImageSymbolWeightRegular];
+    configuration.image = [[UIImage systemImageNamed:@"gearshape" withConfiguration:symbol]
+                           imageWithTintColor:UIColor.whiteColor renderingMode:UIImageRenderingModeAlwaysOriginal];
+    configuration.preferredSymbolConfigurationForImage = symbol;
+    configuration.baseForegroundColor = UIColor.whiteColor;
+    configuration.cornerStyle = UIButtonConfigurationCornerStyleFixed;
+    configuration.contentInsets = NSDirectionalEdgeInsetsZero;
+    configuration.background = [UIBackgroundConfiguration clearConfiguration];
+    configuration.background.backgroundInsets = NSDirectionalEdgeInsetsMake(3, 3, 3, 3);
+    configuration.background.cornerRadius = 19;
+    configuration.background.backgroundColor = [UIColor colorWithWhite:1 alpha:0.18];
+    settingButton.configuration = configuration;
+    settingButton.configurationUpdateHandler = ^(UIButton *button) {
+        UIButtonConfiguration *updated = button.configuration;
+        updated.background.backgroundColor = [UIColor colorWithWhite:1 alpha:button.highlighted ? 0.30 : 0.18];
+        button.configuration = updated;
+    };
+    // A container prevents the navigation bar from restyling and shrinking the button.
+    UIView *buttonContainer = [[UIView alloc] initWithFrame:settingButton.bounds];
+    settingButton.translatesAutoresizingMaskIntoConstraints = NO;
+    [buttonContainer addSubview:settingButton];
+    [NSLayoutConstraint activateConstraints:@[
+        [buttonContainer.widthAnchor constraintEqualToConstant:44],
+        [buttonContainer.heightAnchor constraintEqualToConstant:44],
+        [settingButton.widthAnchor constraintEqualToConstant:44],
+        [settingButton.heightAnchor constraintEqualToConstant:44],
+        [settingButton.centerXAnchor constraintEqualToAnchor:buttonContainer.centerXAnchor],
+        [settingButton.centerYAnchor constraintEqualToAnchor:buttonContainer.centerYAnchor]
+    ]];
+    settingButton.accessibilityIdentifier = @"settings";
+    settingButton.accessibilityLabel = NCELocalizedString(@"设置");
     [settingButton addTarget:self action:@selector(goSetting) forControlEvents:UIControlEventTouchUpInside];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:settingButton];
+    UIBarButtonItem *settingItem = [[UIBarButtonItem alloc] initWithCustomView:buttonContainer];
+    if (@available(iOS 26.0, *)) settingItem.hidesSharedBackground = YES;
+    self.navigationItem.rightBarButtonItem = settingItem;
 }
 
 - (void)goSetting
@@ -89,6 +124,9 @@
         [bookButton setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
         [bookButton addTarget:self action:@selector(goMain:) forControlEvents:UIControlEventTouchUpInside];
         bookButton.tag = 100+ii;
+        bookButton.accessibilityIdentifier = [NSString stringWithFormat:@"book-%d", ii + 1];
+        bookButton.isAccessibilityElement = YES;
+        bookButton.accessibilityLabel = [NSString stringWithFormat:NCELocalizedString(@"第%d册"), ii + 1];
         [self.view addSubview:bookButton];
     }
 }

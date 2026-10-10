@@ -101,6 +101,7 @@
             otherButton.frame = CGRectMake(0.f, titleHeight+ii*44.f, background.frame.size.width, 44.f);
             otherButton.backgroundColor = [UIColor clearColor];
             otherButton.tag = 100+ii;
+            otherButton.accessibilityIdentifier = [NSString stringWithFormat:@"alert-choice-%d", ii];
             [otherButton setTitle:otherButtonTitle forState:UIControlStateNormal];
             [otherButton setTitleColor:[UIColor colorWithRed:0.f green:122/255.f blue:1.f alpha:1.f] forState:UIControlStateNormal];
             otherButton.titleLabel.font = [UIFont systemFontOfSize:18.f];
@@ -132,6 +133,7 @@
             cancelButton.frame = CGRectMake(0.f, titleHeight+ii*44.f, background.frame.size.width, 44);
             cancelButton.backgroundColor = [UIColor clearColor];
             cancelButton.tag = 100+ii;
+            cancelButton.accessibilityIdentifier = @"alert-cancel";
             [cancelButton setTitle:cancelButtonTitle forState:UIControlStateNormal];
             [cancelButton setTitleColor:[UIColor colorWithRed:0.f green:122/255.f blue:1.f alpha:1.f] forState:UIControlStateNormal];
             cancelButton.titleLabel.font = [UIFont systemFontOfSize:18.f];

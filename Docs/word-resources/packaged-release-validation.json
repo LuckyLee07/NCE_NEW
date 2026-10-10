@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "verified_at_utc": "2026-10-06T03:51:07.100951+00:00",
+  "app": "/private/tmp/NCEWordResourcesReleaseQA/Build/Products/Release-iphoneos/NCE_ALL.app",
+  "identical_word_resource_files": 6208,
+  "differences": 0,
+  "packaged_database_sha256": "5cf18aafca0e5a3de1e0dce42e0f8a9738ebfac8c345b71ba572cb2635b16b19",
+  "original_images_unchanged": 1779,
+  "original_audio_comparison": {
+    "count": 2889,
+    "reference_app": "/private/tmp/NCEWordImagesSecondCheck/Build/Products/Debug-iphonesimulator/NCE_ALL.app",
+    "differences": 0
+  },
+  "excluded_source_metadata": [
+    ".DS_Store",
+    "jpg/.DS_Store",
+    "wav/.DS_Store"
+  ],
+  "word_source_pngs_in_app": 0,
+  "content_acceptance": "Technical packaging check only, not human semantic/listening or physical-device UI approval"
+}

@@ -1,0 +1,49 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Xcode per-user settings and generated workspace checks
+xcuserdata/
+*.xcuserstate
+NCE_ALL.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Local build output and distribution artifacts
+/DerivedData/
+/build/
+/Build/
+*.xcarchive/
+*.xcresult/
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Local Python caches from content/resource tools
+__pycache__/
+*.py[cod]
+
+# Generated App Store screenshots, previews, and review images (local only)
+/StoreAssets/**/*.png
+/StoreAssets/**/*.jpg
+/StoreAssets/**/*.jpeg
+/StoreAssets/**/*.webp
+/StoreAssets/**/*.mp4
+/StoreAssets/**/*.mov
+
+# Generated UI validation screenshots and image contact sheets (local only)
+/Docs/**/ui-screenshots/
+/Docs/word-resources/qa-contact-pages/
+/ContentPipeline/**/ui-screenshots/
+
+# Editable local copies; canonical offline lesson resources are the four ZIPs.
+/ResourceSources/lessons/
+/ResourceSources/localization-cache/
+
+# Local offline learning resources (kept on disk, not versioned)
+/NCE_ALL/data/
+
+# Local Xcode project and workspace files
+*.xcodeproj/
+*.xcworkspace/
+
+# Local Google SDK frameworks
+/GoogleMobileAds/

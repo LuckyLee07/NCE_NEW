@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "repairs": {
+    "may": {"previous_path": "jpg/may.jpg", "note": "The lowercase modal verb must not use the May calendar."},
+    "march": {"previous_path": "jpg/march.jpg", "note": "The movement verb must not use the March calendar."},
+    "miss": {"previous_path": "jpg/miss.jpg", "note": "The verb senses (long for / avoid in context) must not use a beauty-pageant title image."},
+    "press": {"previous_path": "jpg/press.jpg", "note": "The push verb must not use the newspaper/Press image."},
+    "South": {"previous_path": "jpg/south.jpg", "note": "Book 3 lesson 45 uses South Dakota; do not use a south-pointing compass."}
+  }
+}

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NCELocalization.h"
 
 typedef NS_ENUM(NSInteger, ViewType) {
     ViewType_Normal = 0,

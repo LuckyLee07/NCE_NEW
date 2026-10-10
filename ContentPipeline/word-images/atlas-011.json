@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-011",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-011.png",
+  "source_sha256": "b13facedf7770ad9d3d4d4726e305b133463544c5cfd462961fd88e44e20239a",
+  "original_generated": "exec-976cb742-566d-4e99-be97-7db098cfcb3d.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a small pile of dry shredded tobacco leaves with one whole brown leaf; no lit cigarette or branding; TOP RIGHT = a simple dark brown fur coat hanging on a hanger, full coat visible, no wearer or logos; BOTTOM LEFT = a pair of blue work overalls with bib and shoulder straps, full garment on a hanger; BOTTOM RIGHT = a neat matching work-uniform shirt and trousers, plain unbranded, full clothing set. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "tobacco",
+      "position": "top_left",
+      "source": "atlas-011-0.png",
+      "sha256": "d5591ee0b9dc63796251bc01e489e1707126215f3fd2f4bfecd330405df56b19",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "mink coat",
+      "position": "top_right",
+      "source": "atlas-011-1.png",
+      "sha256": "c78874499cb6b5fc1f19bea247f55cf4fc9550b783912f612f38d867fd8a4fc7",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "overalls",
+      "position": "bottom_left",
+      "source": "atlas-011-2.png",
+      "sha256": "76263c7c71f75c861b9acab5493920f1620302fdef950ceabb622138ce66198e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "uniform",
+      "position": "bottom_right",
+      "source": "atlas-011-3.png",
+      "sha256": "41b293260c7ae295c7a2b677f9ff4bb0812e049ecdf728b7301c6a0fa3d5346b",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

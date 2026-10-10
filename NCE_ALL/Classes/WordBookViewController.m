@@ -69,6 +69,7 @@ static NSString* const kWordBookViewControllerCellReuseId = @"kWordBookViewContr
     cell.backgroundColor = [UIColor clearColor];
     cell.contentView.backgroundColor = [UIColor clearColor];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.accessibilityIdentifier = [NSString stringWithFormat:@"wordbook-%ld", (long)indexPath.row];
     
     NSArray *array = [cell.contentView subviews];
     for (UIView *view in array) {
@@ -90,7 +91,7 @@ static NSString* const kWordBookViewControllerCellReuseId = @"kWordBookViewContr
     titleLabel.backgroundColor = [UIColor clearColor];
     titleLabel.font = [UIFont systemFontOfSize:14*height/50];
     titleLabel.textColor = [UIColor blackColor];
-    titleLabel.text = [_items objectAtIndex:indexPath.row];
+    titleLabel.text = NCEChineseText([_items objectAtIndex:indexPath.row]);
     titleLabel.textAlignment = NSTextAlignmentLeft;
     [cell.contentView addSubview:titleLabel];
     

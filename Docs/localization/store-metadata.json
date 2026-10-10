@@ -1,0 +1,57 @@
+{
+  "format_version": 1,
+  "status": "saved_in_app_store_connect_1_3_draft_native_editorial_review_pending",
+  "app_store_connect_record": "app-store-connect-1.3-record.json",
+  "primary_language": "zh-Hans",
+  "storefront_focus": ["US", "CA", "AU", "JP", "KR", "TW", "HK", "MO", "SG", "MY"],
+  "notes": [
+    "App Store metadata must be entered separately in App Store Connect; changing the Xcode bundle does not upload it.",
+    "US is a priority Chinese-language storefront, not evidence of an English-native audience.",
+    "Availability and content authorization must be checked separately. No claim of official publisher affiliation.",
+    "This release adds Japanese and Korean UI and offline study translations alongside Simplified and Traditional Chinese. Machine-generated study translations still require native editorial review.",
+    "en-US is storefront metadata only, not an English app interface. The existing en-CA metadata is retained in App Store Connect and is not overwritten by this file.",
+    "The 2026-10-06 keyword revision expands feature-related terms without competitor names. No search-volume or ranking data was supplied; App Store Connect accepted these fields."
+  ],
+  "localizations": {
+    "zh-Hans": {
+      "name": "新概念英语全四册 - 零基础英语入门王",
+      "subtitle": "离线听力、背单词与听写练习",
+      "keywords": "词汇,生词本,发音,跟读,背诵,课文,复习,错题,英汉,汉英,自学,记忆,听读,朗读,阅读,句子,译文,释义,词义,词典,单句循环,音频,初学者,单词本,学习记录,词义测试,单词回想,听音辨词",
+      "promotional_text": "支持简体中文、繁體中文、日本語与한국어。四册课文与单词资源随 App 提供，核心听力和词汇练习无需联网。",
+      "description": "围绕新概念英语四册进行听力与词汇练习，支持简体中文、繁体中文、日文和韩文。\n\n课文学习\n按册、按课查看英文原文和所选语言译文，逐句播放音频，切换显示译文。\n\n单词练习\n查看单词、释义和配图，播放发音；使用词义回想、单词回想、听写及英语与所选语言之间的选择练习。部分抽象词使用关系示意或释义卡。\n\n单词本与搜索\n按学习状态查看单词，保留错题记录；支持英文、简繁释义以及当前语言释义搜索。\n\n离线使用\n课文、音频和配图随 App 提供，不需要按册下载。广告和外部在线词典需要联网。学习记录保存在设备本地，本版本不提供账号或跨设备同步。\n\n语言\n可跟随系统，也可在设置中选择简体中文、繁體中文、日本語或한국어。英文学习内容保持英文。部分旧配图和封面保留原始文字，外部词典不保证跟随所选语言。",
+      "whats_new": "新增繁体中文、日文和韩文界面及离线学习译文，支持在设置中切换语言和按当前语言释义搜索。整理离线资源，补充单词发音与轻量配图；优化播放按钮、长文本布局和选择练习。现有学习记录继续保留。"
+    },
+    "zh-Hant": {
+      "name": "新概念英語全四冊",
+      "subtitle": "離線聽力、背單詞與聽寫練習",
+      "keywords": "詞彙,生詞本,發音,跟讀,背誦,課文,複習,錯題,英中,中英,自學,記憶,聽讀,朗讀,閱讀,句子,譯文,釋義,詞義,字典,單句循環,音訊,初學者,單字本,學習記錄,詞義測驗,單字回想,聽音辨詞",
+      "promotional_text": "支援简体中文、繁體中文、日本語與한국어。四冊課文與單詞資源隨 App 提供，核心聽力和詞彙練習無須連網。",
+      "description": "圍繞新概念英語四冊進行聽力與詞彙練習，支援簡體中文、繁體中文、日文及韓文。\n\n課文學習\n按冊、按課查看英文原文與所選語言譯文，逐句播放音訊，切換顯示譯文。\n\n單詞練習\n查看單詞、釋義和配圖，播放發音；使用詞義回想、單詞回想、聽寫及英語與所選語言之間的選擇練習。部分抽象詞使用關係示意或釋義卡。\n\n單詞本與搜尋\n按學習狀態查看單詞，保留答錯記錄；支援英文、簡繁釋義及目前語言釋義搜尋。\n\n離線使用\n課文、音訊和配圖隨 App 提供，不需要按冊下載。廣告和外部線上詞典需要連網。學習記錄儲存在裝置本機，本版本不提供帳號或跨裝置同步。\n\n語言\n可跟隨系統，也可在設定中選擇简体中文、繁體中文、日本語或한국어。英文學習內容保持英文。部分舊配圖和封面保留原始文字，外部詞典不保證跟隨所選語言。",
+      "whats_new": "新增繁體中文、日文與韓文介面及離線學習譯文，支援在設定中切換語言及依目前語言釋義搜尋。整理離線資源，補充單詞發音與輕量配圖；改善播放按鈕、長文字排版和選擇練習。現有學習記錄繼續保留。"
+    },
+    "ja": {
+      "name": "新概念英語 全4巻・リスニングと英単語",
+      "subtitle": "オフライン音声・書き取り・復習",
+      "keywords": "単語帳,発音,英日,日英,英文,独学,初級,語彙,暗記,例文,和訳,音読,聞き取り,ディクテーション,クイズ,単語テスト,学習記録,反復,シャドーイング,読解,会話,フラッシュカード,文章",
+      "promotional_text": "全4巻の英文・音声・単語をオフラインで学習。日本語の訳文と意味を確認しながら、リスニング、書き取り、単語テストに取り組めます。",
+      "description": "新概念英語（New Concept English）全4巻のリスニングと単語学習に取り組めます。日本語、中国語（簡体字・繁体字）、韓国語に対応しています。\n\n本文と音声\n巻とレッスンを選び、英文と日本語訳を確認。音声を一文ずつ再生し、訳文の表示を切り替えられます。\n\n単語練習\n発音、意味、画像を確認し、意味や英単語を思い出す練習、書き取り、英日・日英の選択問題に取り組めます。一部の抽象語には図解や意味カードを使用しています。\n\n単語帳と検索\n学習状態別に単語を確認し、間違えた単語を復習。英文・単語、日本語の意味、中国語の意味から検索できます。\n\nオフライン学習\n本文、音声、画像はアプリに含まれており、巻ごとのダウンロードは不要です。広告と外部オンライン辞書にはインターネット接続が必要です。学習記録は端末内に保存され、アカウントや端末間の同期機能はありません。\n\n言語設定\nシステム設定に従うほか、アプリ内で言語を選択できます。英語の原文と音声は変わりません。一部の既存画像や表紙は元の文字を使用し、外部辞書の言語はアプリ設定と一致しない場合があります。",
+      "whats_new": "日本語、韓国語、繁体字中国語の画面とオフライン学習訳文を追加しました。言語切り替えと意味検索に対応。単語音声と軽量画像を補充し、再生ボタン、長い文章の表示、選択問題を改善しました。既存の学習記録は引き続き利用できます。"
+    },
+    "ko": {
+      "name": "신개념 영어 전4권 - 듣기와 단어 학습",
+      "subtitle": "오프라인 음성·받아쓰기·복습",
+      "keywords": "단어장,발음,영한,한영,독학,기초,어휘,암기,문장,해석,낭독,쉐도잉,읽기,퀴즈,단어시험,오답노트,학습기록,반복,본문,뜻,회화,독해,예문,단어카드,영문",
+      "promotional_text": "전 4권의 영문, 음성, 단어를 오프라인으로 학습하세요. 한국어 번역과 뜻을 확인하며 듣기, 받아쓰기, 단어 테스트를 진행할 수 있습니다.",
+      "description": "신개념 영어(New Concept English) 전 4권으로 듣기와 단어 학습을 진행할 수 있습니다. 한국어, 일본어, 중국어 간체 및 번체를 지원합니다.\n\n본문과 음성\n권과 수업을 선택해 영문과 한국어 번역을 확인하세요. 문장별 음성 재생과 번역 표시 전환을 지원합니다.\n\n단어 연습\n단어 발음, 뜻, 이미지를 확인하고 뜻 떠올리기, 단어 떠올리기, 받아쓰기, 영한 및 한영 선택 문제를 풀 수 있습니다. 일부 추상적인 단어에는 도식이나 뜻 카드를 사용합니다.\n\n단어장과 검색\n학습 상태별 단어와 틀린 단어를 확인하고 복습하세요. 영어 단어, 한국어 뜻, 중국어 뜻으로 검색할 수 있습니다.\n\n오프라인 학습\n본문, 음성, 이미지는 앱에 포함되어 있어 권별 다운로드가 필요하지 않습니다. 광고와 외부 온라인 사전은 인터넷 연결이 필요합니다. 학습 기록은 기기에 저장되며 계정이나 기기 간 동기화 기능은 제공하지 않습니다.\n\n언어 설정\n시스템 설정을 따르거나 앱에서 언어를 선택할 수 있습니다. 영어 원문과 음성은 그대로 유지됩니다. 일부 기존 이미지와 표지에는 원래 문자가 남아 있으며 외부 사전의 언어는 앱 설정과 다를 수 있습니다.",
+      "whats_new": "한국어, 일본어, 중국어 번체 화면과 오프라인 학습 번역을 추가했습니다. 언어 전환과 뜻 검색을 지원합니다. 단어 음성과 가벼운 이미지를 보충하고 재생 버튼, 긴 문장 표시, 선택 문제를 개선했습니다. 기존 학습 기록은 그대로 유지됩니다."
+    },
+    "en-US": {
+      "name": "New Concept English: 4 Books",
+      "subtitle": "Offline Audio & Vocabulary",
+      "keywords": "listening,dictation,flashcards,pronunciation,reading,review,wordbook,ESL,beginner,bilingual,Chinese",
+      "promotional_text": "Study all four books offline with lesson audio, vocabulary practice and dictation. Read meanings and translations in Chinese, Japanese or Korean.",
+      "description": "Practice listening, reading and vocabulary with New Concept English, Books 1-4.\n\nApp menus and study translations support Simplified Chinese, Traditional Chinese, Japanese and Korean. This version does not include an English-language interface. English lesson text and audio remain in English.\n\nLessons and audio\nChoose a book and lesson, read the original English alongside a translation, play audio sentence by sentence, and show or hide the translation.\n\nVocabulary practice\nCheck meanings and illustrations, listen to pronunciations, and practice word recall, dictation and multiple-choice questions. Some abstract words use diagrams or meaning cards.\n\nWordbook and search\nReview words by learning status and revisit mistakes. Search English words or meanings in the selected study language.\n\nOffline learning\nLesson text, audio and images are included in the app, with no separate book downloads. Ads and external online dictionaries require an internet connection. Learning records stay on your device; this version does not provide accounts or cross-device syncing.\n\nLanguage settings\nFollow your system preferences or choose a supported language in settings. Some original covers and images retain their original text. External dictionaries may not follow the selected app language.",
+      "whats_new": "Added Traditional Chinese, Japanese and Korean interfaces and offline study translations, with language switching and meaning search. Added word audio and compact illustrations, and improved playback controls, long-text layouts and multiple-choice practice. Existing learning records are preserved."
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-hotel-checkin",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Checking In at a Hotel",
+    "title_zh": "酒店入住",
+    "level": "A1",
+    "topic": "travel",
+    "estimated_duration_seconds": 75,
+    "tags": [
+      "hotel",
+      "travel",
+      "check-in",
+      "reservation"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Good evening. I have a reservation.",
+      "chinese": "晚上好。我有预订。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "May I have your name, please?",
+      "chinese": "请问您的姓名？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "My name is Anna Lee.",
+      "chinese": "我的名字是安娜·李。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "You booked a single room for two nights.",
+      "chinese": "您预订了一个单人间，住两晚。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "Yes, that is right.",
+      "chinese": "是的，没错。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "Can I see your passport?",
+      "chinese": "我可以看一下您的护照吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "Here it is.",
+      "chinese": "给您。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "Your room is on the third floor.",
+      "chinese": "您的房间在三楼。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Breakfast is from seven to ten.",
+      "chinese": "早餐时间是七点到十点。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Thank you. Where is the elevator?",
+      "chinese": "谢谢。电梯在哪里？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "reservation",
+      "part_of_speech": "noun",
+      "meaning_zh": "预订",
+      "example_en": "I have a reservation.",
+      "example_zh": "我有预订。"
+    },
+    {
+      "word": "name",
+      "part_of_speech": "noun",
+      "meaning_zh": "姓名；名字",
+      "example_en": "May I have your name?",
+      "example_zh": "请问您的姓名？"
+    },
+    {
+      "word": "book",
+      "part_of_speech": "verb",
+      "meaning_zh": "预订",
+      "example_en": "You booked a room.",
+      "example_zh": "您预订了一个房间。"
+    },
+    {
+      "word": "single room",
+      "part_of_speech": "phrase",
+      "meaning_zh": "单人间",
+      "example_en": "I booked a single room.",
+      "example_zh": "我预订了一个单人间。"
+    },
+    {
+      "word": "night",
+      "part_of_speech": "noun",
+      "meaning_zh": "夜晚；晚",
+      "example_en": "I will stay for two nights.",
+      "example_zh": "我会住两晚。"
+    },
+    {
+      "word": "passport",
+      "part_of_speech": "noun",
+      "meaning_zh": "护照",
+      "example_en": "Can I see your passport?",
+      "example_zh": "我可以看一下您的护照吗？"
+    },
+    {
+      "word": "floor",
+      "part_of_speech": "noun",
+      "meaning_zh": "楼层",
+      "example_en": "The room is on the third floor.",
+      "example_zh": "房间在三楼。"
+    },
+    {
+      "word": "elevator",
+      "part_of_speech": "noun",
+      "meaning_zh": "电梯",
+      "example_en": "Where is the elevator?",
+      "example_zh": "电梯在哪里？"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "What does Anna have?",
+        "prompt_zh": "安娜有什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "A ticket"
+          },
+          {
+            "id": "B",
+            "text": "A reservation"
+          },
+          {
+            "id": "C",
+            "text": "A map"
+          },
+          {
+            "id": "D",
+            "text": "A sandwich"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "How many nights did Anna book?",
+        "prompt_zh": "安娜预订了几晚？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "One night"
+          },
+          {
+            "id": "B",
+            "text": "Two nights"
+          },
+          {
+            "id": "C",
+            "text": "Three nights"
+          },
+          {
+            "id": "D",
+            "text": "Four nights"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "Where is the room?",
+        "prompt_zh": "房间在哪里？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "On the first floor"
+          },
+          {
+            "id": "B",
+            "text": "On the second floor"
+          },
+          {
+            "id": "C",
+            "text": "On the third floor"
+          },
+          {
+            "id": "D",
+            "text": "On the fourth floor"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "What does Anna ask about at the end?",
+        "prompt_zh": "最后安娜问了什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "The elevator"
+          },
+          {
+            "id": "B",
+            "text": "The restaurant"
+          },
+          {
+            "id": "C",
+            "text": "The taxi"
+          },
+          {
+            "id": "D",
+            "text": "The pool"
+          }
+        ],
+        "answer": "A"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Good evening. I have a reservation."
+      },
+      {
+        "id": "dict-2",
+        "line_order": 6,
+        "answer": "Can I see your passport?"
+      },
+      {
+        "id": "dict-3",
+        "line_order": 9,
+        "answer": "Breakfast is from seven to ten."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 3,
+    "import_ready": false
+  }
+}
+

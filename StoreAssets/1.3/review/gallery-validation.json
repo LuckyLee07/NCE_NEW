@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "screenshots_loaded": 60,
+  "videos_loaded": 12,
+  "browser_video_metadata": [
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    },
+    {
+      "width": 886,
+      "height": 1920,
+      "duration": 24.021333
+    },
+    {
+      "width": 1200,
+      "height": 1600,
+      "duration": 24.021333
+    }
+  ],
+  "nonblank_playback": {
+    "seconds": 0.199612,
+    "pixelRange": 255
+  },
+  "viewport_widths": [
+    1440,
+    390,
+    320
+  ],
+  "horizontal_overflow": false
+}

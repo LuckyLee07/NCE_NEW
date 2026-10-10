@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-asking-directions",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Asking for Directions",
+    "title_zh": "问路",
+    "level": "A1",
+    "topic": "daily conversation",
+    "estimated_duration_seconds": 70,
+    "tags": [
+      "directions",
+      "street",
+      "travel",
+      "polite questions"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Excuse me. Where is the train station?",
+      "chinese": "打扰一下。火车站在哪里？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "It is not far from here.",
+      "chinese": "离这里不远。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Go straight for two blocks.",
+      "chinese": "直走两个街区。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "Then turn left at the bank.",
+      "chinese": "然后在银行那里左转。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "Is it next to the park?",
+      "chinese": "它在公园旁边吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "Yes, it is across from the park.",
+      "chinese": "是的，它在公园对面。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "How long does it take to walk there?",
+      "chinese": "走到那里要多久？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "About ten minutes.",
+      "chinese": "大约十分钟。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Thank you for your help.",
+      "chinese": "谢谢您的帮助。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "You are welcome.",
+      "chinese": "不客气。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "station",
+      "part_of_speech": "noun",
+      "meaning_zh": "车站",
+      "example_en": "Where is the train station?",
+      "example_zh": "火车站在哪里？"
+    },
+    {
+      "word": "far",
+      "part_of_speech": "adjective",
+      "meaning_zh": "远的",
+      "example_en": "It is not far from here.",
+      "example_zh": "离这里不远。"
+    },
+    {
+      "word": "straight",
+      "part_of_speech": "adverb",
+      "meaning_zh": "笔直地；径直",
+      "example_en": "Go straight for two blocks.",
+      "example_zh": "直走两个街区。"
+    },
+    {
+      "word": "block",
+      "part_of_speech": "noun",
+      "meaning_zh": "街区",
+      "example_en": "Walk for one block.",
+      "example_zh": "走一个街区。"
+    },
+    {
+      "word": "left",
+      "part_of_speech": "noun",
+      "meaning_zh": "左边",
+      "example_en": "Turn left at the bank.",
+      "example_zh": "在银行那里左转。"
+    },
+    {
+      "word": "next to",
+      "part_of_speech": "phrase",
+      "meaning_zh": "在旁边",
+      "example_en": "It is next to the park.",
+      "example_zh": "它在公园旁边。"
+    },
+    {
+      "word": "across from",
+      "part_of_speech": "phrase",
+      "meaning_zh": "在对面",
+      "example_en": "It is across from the park.",
+      "example_zh": "它在公园对面。"
+    },
+    {
+      "word": "minute",
+      "part_of_speech": "noun",
+      "meaning_zh": "分钟",
+      "example_en": "It takes ten minutes.",
+      "example_zh": "这需要十分钟。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "Where does the person want to go?",
+        "prompt_zh": "这个人想去哪里？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "The train station"
+          },
+          {
+            "id": "B",
+            "text": "The hotel"
+          },
+          {
+            "id": "C",
+            "text": "The cafe"
+          },
+          {
+            "id": "D",
+            "text": "The school"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "The station is across from the ____.",
+        "prompt_zh": "车站在____对面。",
+        "choices": [
+          {
+            "id": "A",
+            "text": "bank"
+          },
+          {
+            "id": "B",
+            "text": "park"
+          },
+          {
+            "id": "C",
+            "text": "store"
+          },
+          {
+            "id": "D",
+            "text": "library"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "How long does it take to walk there?",
+        "prompt_zh": "走到那里要多久？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Five minutes"
+          },
+          {
+            "id": "B",
+            "text": "Ten minutes"
+          },
+          {
+            "id": "C",
+            "text": "Twenty minutes"
+          },
+          {
+            "id": "D",
+            "text": "One hour"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "What should the person do at the bank?",
+        "prompt_zh": "这个人在银行那里应该怎么走？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Turn right"
+          },
+          {
+            "id": "B",
+            "text": "Stop"
+          },
+          {
+            "id": "C",
+            "text": "Turn left"
+          },
+          {
+            "id": "D",
+            "text": "Take a bus"
+          }
+        ],
+        "answer": "C"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Excuse me. Where is the train station?"
+      },
+      {
+        "id": "dict-2",
+        "line_order": 3,
+        "answer": "Go straight for two blocks."
+      },
+      {
+        "id": "dict-3",
+        "line_order": 7,
+        "answer": "How long does it take to walk there?"
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 2,
+    "import_ready": false
+  }
+}
+

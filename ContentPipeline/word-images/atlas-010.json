@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-010",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-010.png",
+  "source_sha256": "b48c3cd65a2f0e19cee42781af8400e88e13e83625d5ba9d21b9df62d94e13c5",
+  "original_generated": "exec-25335a6b-4eee-4985-87df-19db7d9b7f0e.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a solid spiral drill cutting bit, isolated side view, recognizably a metal drill bit; TOP RIGHT = a hollow cylindrical core drilling bit with toothed cutting rim, isolated side view; clearly hollow; BOTTOM LEFT = a classic dip-pen holder shaft fitted with a metal writing nib, isolated diagonally; BOTTOM RIGHT = one wooden ninepin bowling skittle with narrow neck and rounded body, upright. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "cutting bit",
+      "position": "top_left",
+      "source": "atlas-010-0.png",
+      "sha256": "19d122d9c33581fdad57ee31b5fa4255e04234f3f7650600ab53ada663c4d96e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "coring bit",
+      "position": "top_right",
+      "source": "atlas-010-1.png",
+      "sha256": "db809f7903125a3a8f4c95b27a705c83d7b30e57efd57b6de8c2056cb32e23e4",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "penholder",
+      "position": "bottom_left",
+      "source": "atlas-010-2.png",
+      "sha256": "9c4906027b89b550263de9cb8f6d46167233455115c76d26279e2ebbfb98aa35",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "ninepin",
+      "position": "bottom_right",
+      "source": "atlas-010-3.png",
+      "sha256": "20e8a4af341a587e8a9f156d45a1b50cd9bf54a33009928e7d84f36cd67404f5",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

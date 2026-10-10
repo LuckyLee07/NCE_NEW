@@ -1,0 +1,290 @@
+{
+  "content_id": "a1-shopping-shirt",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Buying a Shirt",
+    "title_zh": "买衬衫",
+    "level": "A1",
+    "topic": "shopping",
+    "estimated_duration_seconds": 70,
+    "tags": [
+      "shopping",
+      "clothes",
+      "size",
+      "price"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Hello. Can I help you?",
+      "chinese": "您好。需要帮忙吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "Yes, I need a shirt.",
+      "chinese": "是的，我需要一件衬衫。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "What color do you like?",
+      "chinese": "你喜欢什么颜色？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "I like blue.",
+      "chinese": "我喜欢蓝色。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "What size do you need?",
+      "chinese": "你需要什么尺码？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "I need a medium.",
+      "chinese": "我需要中号。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "You can try this one.",
+      "chinese": "你可以试试这一件。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "It fits well.",
+      "chinese": "它很合身。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "How much is it?",
+      "chinese": "多少钱？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "It is fifteen dollars.",
+      "chinese": "十五美元。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "shirt",
+      "part_of_speech": "noun",
+      "meaning_zh": "衬衫",
+      "example_en": "I need a shirt.",
+      "example_zh": "我需要一件衬衫。"
+    },
+    {
+      "word": "color",
+      "part_of_speech": "noun",
+      "meaning_zh": "颜色",
+      "example_en": "What color do you like?",
+      "example_zh": "你喜欢什么颜色？"
+    },
+    {
+      "word": "blue",
+      "part_of_speech": "adjective",
+      "meaning_zh": "蓝色的",
+      "example_en": "I like blue.",
+      "example_zh": "我喜欢蓝色。"
+    },
+    {
+      "word": "size",
+      "part_of_speech": "noun",
+      "meaning_zh": "尺码；大小",
+      "example_en": "What size do you need?",
+      "example_zh": "你需要什么尺码？"
+    },
+    {
+      "word": "medium",
+      "part_of_speech": "adjective",
+      "meaning_zh": "中号的",
+      "example_en": "I need a medium.",
+      "example_zh": "我需要中号。"
+    },
+    {
+      "word": "try",
+      "part_of_speech": "verb",
+      "meaning_zh": "尝试；试穿",
+      "example_en": "You can try this one.",
+      "example_zh": "你可以试试这一件。"
+    },
+    {
+      "word": "fit",
+      "part_of_speech": "verb",
+      "meaning_zh": "合身",
+      "example_en": "It fits well.",
+      "example_zh": "它很合身。"
+    },
+    {
+      "word": "dollar",
+      "part_of_speech": "noun",
+      "meaning_zh": "美元",
+      "example_en": "It is fifteen dollars.",
+      "example_zh": "十五美元。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "What does the customer need?",
+        "prompt_zh": "顾客需要什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "A shirt"
+          },
+          {
+            "id": "B",
+            "text": "A coat"
+          },
+          {
+            "id": "C",
+            "text": "A bag"
+          },
+          {
+            "id": "D",
+            "text": "A hat"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "What color does the customer like?",
+        "prompt_zh": "顾客喜欢什么颜色？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Red"
+          },
+          {
+            "id": "B",
+            "text": "Green"
+          },
+          {
+            "id": "C",
+            "text": "Blue"
+          },
+          {
+            "id": "D",
+            "text": "Black"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "What size does the customer need?",
+        "prompt_zh": "顾客需要什么尺码？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Small"
+          },
+          {
+            "id": "B",
+            "text": "Medium"
+          },
+          {
+            "id": "C",
+            "text": "Large"
+          },
+          {
+            "id": "D",
+            "text": "Extra large"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "How much is the shirt?",
+        "prompt_zh": "这件衬衫多少钱？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Ten dollars"
+          },
+          {
+            "id": "B",
+            "text": "Twelve dollars"
+          },
+          {
+            "id": "C",
+            "text": "Fifteen dollars"
+          },
+          {
+            "id": "D",
+            "text": "Twenty dollars"
+          }
+        ],
+        "answer": "C"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 2,
+        "answer": "Yes, I need a shirt."
+      },
+      {
+        "id": "dict-2",
+        "line_order": 5,
+        "answer": "What size do you need?"
+      },
+      {
+        "id": "dict-3",
+        "line_order": 10,
+        "answer": "It is fifteen dollars."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 8,
+    "import_ready": false
+  }
+}

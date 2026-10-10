@@ -8,6 +8,7 @@
 
 #import "WordBookDetailViewController.h"
 #import "sqlite3.h"
+#import "NCEWordResourceStore.h"
 #import "MBProgressHUD.h"
 #import "WordViewController.h"
 
@@ -54,7 +55,7 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
     
     // Configure for text only and offset down
     //    _hud.mode = MBProgressHUDModeText;
-    _hud.label.text = @"loading...";
+    _hud.label.text = NCELocalizedString(@"载入中…");
     _hud.removeFromSuperViewOnHide = YES;
 }
 
@@ -98,6 +99,7 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
     
     CGFloat height = tableView.frame.size.height/12;
     NSDictionary *item = [_items objectAtIndex:indexPath.row];
+    cell.accessibilityIdentifier = [@"wordbook-word-" stringByAppendingString:item[@"english"]];
     
     UILabel *idLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, height, height)];
     idLabel.backgroundColor = [self.colorArray objectAtIndex:indexPath.row%9];
@@ -112,7 +114,7 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
     titleLabel.backgroundColor = [UIColor clearColor];
     titleLabel.font = [UIFont systemFontOfSize:14*height/50];
     titleLabel.textColor = [UIColor blackColor];
-    titleLabel.text = [item objectForKey:@"english"];
+    titleLabel.text = [[NCEWordResourceStore sharedStore] displayNameForWord:item[@"english"]];
     titleLabel.textAlignment = NSTextAlignmentLeft;
     [cell.contentView addSubview:titleLabel];
     
@@ -123,6 +125,9 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
     subTitleLabel.textColor = [UIColor darkGrayColor];
     subTitleLabel.text = [item objectForKey:@"chinese"];
     subTitleLabel.textAlignment = NSTextAlignmentLeft;
+    subTitleLabel.numberOfLines = 2;
+    subTitleLabel.adjustsFontSizeToFitWidth = YES;
+    subTitleLabel.minimumScaleFactor = 0.65;
     [cell.contentView addSubview:subTitleLabel];
     
     // show when the cell is selected
@@ -204,7 +209,7 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
         [item setObject:englishString forKey:@"english"];
         
         NSString *chineseString = [[NSString alloc] initWithCString:(char *)sqlite3_column_text(statement, 1) encoding:NSUTF8StringEncoding];
-        [item setObject:chineseString forKey:@"chinese"];
+        [item setObject:[[NCEWordResourceStore sharedStore] translationForWord:englishString fallback:chineseString] forKey:@"chinese"];
         
         NSString *lessonId = [NSString stringWithFormat:@"%d",sqlite3_column_int(statement, 2)];
         [item setObject:lessonId forKey:@"lesson_id"];
@@ -235,4 +240,3 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
 }
 
 @end
-

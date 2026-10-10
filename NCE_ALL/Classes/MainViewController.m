@@ -38,7 +38,9 @@ static NSString* const kMainViewControllerCellReuseId = @"kMainViewControllerCel
     if (self) {
         NSArray *bookTitles = @[@"一", @"二", @"三", @"四"];
         _bookId = bookId;
-        self.titleString = [NSString stringWithFormat:@"第%@册", [bookTitles objectAtIndex:_bookId]];
+        NSString *code = NCELocalization.sharedLocalization.languageCode;
+        NSString *number = [@[@"ja", @"ko"] containsObject:code] ? @(_bookId + 1).stringValue : bookTitles[_bookId];
+        self.titleString = [NSString stringWithFormat:NCELocalizedString(@"第%@册"), number];
         
         [self initData];
     }
@@ -73,6 +75,7 @@ static NSString* const kMainViewControllerCellReuseId = @"kMainViewControllerCel
     cell.backgroundColor = [UIColor clearColor];
     cell.contentView.backgroundColor = [UIColor clearColor];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.accessibilityIdentifier = [NSString stringWithFormat:@"mode-%ld", (long)indexPath.row];
     
     NSArray *array = [cell.contentView subviews];
     for (UIView *view in array) {
@@ -93,8 +96,10 @@ static NSString* const kMainViewControllerCellReuseId = @"kMainViewControllerCel
     titleLabel.backgroundColor = [UIColor clearColor];
     titleLabel.font = [UIFont systemFontOfSize:14*height/50];
     titleLabel.textColor = [self.colorArray objectAtIndex:indexPath.row];
-    titleLabel.text = [_items objectAtIndex:indexPath.row];
+    titleLabel.text = NCEChineseText([_items objectAtIndex:indexPath.row]);
     titleLabel.textAlignment = NSTextAlignmentLeft;
+    titleLabel.adjustsFontSizeToFitWidth = YES;
+    titleLabel.minimumScaleFactor = 0.65;
     [cell.contentView addSubview:titleLabel];
     
     // show when the cell is selected
@@ -124,11 +129,11 @@ static NSString* const kMainViewControllerCellReuseId = @"kMainViewControllerCel
         [self.navigationController pushViewController:lessonController animated:YES];
     } else if (index < 7) {
         
-        CKAlertView *alertView = [[CKAlertView alloc] initWithTitle:@"请选择测试内容"
+        CKAlertView *alertView = [[CKAlertView alloc] initWithTitle:NCELocalizedString(@"请选择测试内容")
                                                             message:nil
                                                            delegate:self
                                                   cancelButtonTitle:nil
-                                                  otherButtonTitles:@"单元测试", @"随机测试", nil];
+                                                  otherButtonTitles:NCELocalizedString(@"单元测试"), NCELocalizedString(@"随机测试"), nil];
         alertView.tag = 10000+indexPath.row;
         [alertView show];
     } else if (index == 7) {

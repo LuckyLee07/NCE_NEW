@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-phone-message",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Leaving a Phone Message",
+    "title_zh": "电话留言",
+    "level": "A1",
+    "topic": "daily conversation",
+    "estimated_duration_seconds": 70,
+    "tags": [
+      "phone",
+      "message",
+      "communication",
+      "numbers"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Hello, may I speak to Maria?",
+      "chinese": "你好，我可以和玛丽亚通话吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "Sorry, she is not here now.",
+      "chinese": "抱歉，她现在不在。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Can I leave a message?",
+      "chinese": "我可以留言吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "Yes, of course.",
+      "chinese": "是的，当然可以。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "Please tell her Tom called.",
+      "chinese": "请告诉她汤姆来过电话。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "What is your phone number?",
+      "chinese": "你的电话号码是多少？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "It is 555-2190.",
+      "chinese": "是 555-2190。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "Can you repeat that?",
+      "chinese": "你能重复一遍吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Sure, 555-2190.",
+      "chinese": "当然，555-2190。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Thank you. I will tell her.",
+      "chinese": "谢谢。我会告诉她。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "speak",
+      "part_of_speech": "verb",
+      "meaning_zh": "说话；通话",
+      "example_en": "May I speak to Maria?",
+      "example_zh": "我可以和玛丽亚通话吗？"
+    },
+    {
+      "word": "sorry",
+      "part_of_speech": "adjective",
+      "meaning_zh": "抱歉的",
+      "example_en": "Sorry, she is not here.",
+      "example_zh": "抱歉，她不在。"
+    },
+    {
+      "word": "leave",
+      "part_of_speech": "verb",
+      "meaning_zh": "留下",
+      "example_en": "Can I leave a message?",
+      "example_zh": "我可以留言吗？"
+    },
+    {
+      "word": "message",
+      "part_of_speech": "noun",
+      "meaning_zh": "留言；信息",
+      "example_en": "Please leave a message.",
+      "example_zh": "请留言。"
+    },
+    {
+      "word": "call",
+      "part_of_speech": "verb",
+      "meaning_zh": "打电话",
+      "example_en": "Tom called.",
+      "example_zh": "汤姆来过电话。"
+    },
+    {
+      "word": "phone number",
+      "part_of_speech": "phrase",
+      "meaning_zh": "电话号码",
+      "example_en": "What is your phone number?",
+      "example_zh": "你的电话号码是多少？"
+    },
+    {
+      "word": "repeat",
+      "part_of_speech": "verb",
+      "meaning_zh": "重复",
+      "example_en": "Can you repeat that?",
+      "example_zh": "你能重复一遍吗？"
+    },
+    {
+      "word": "tell",
+      "part_of_speech": "verb",
+      "meaning_zh": "告诉",
+      "example_en": "I will tell her.",
+      "example_zh": "我会告诉她。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "Who does the caller want to speak to?",
+        "prompt_zh": "来电者想和谁通话？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Maria"
+          },
+          {
+            "id": "B",
+            "text": "Anna"
+          },
+          {
+            "id": "C",
+            "text": "Lily"
+          },
+          {
+            "id": "D",
+            "text": "David"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "Who called?",
+        "prompt_zh": "谁来过电话？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Tom"
+          },
+          {
+            "id": "B",
+            "text": "Ben"
+          },
+          {
+            "id": "C",
+            "text": "Sam"
+          },
+          {
+            "id": "D",
+            "text": "Alex"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "What is the phone number?",
+        "prompt_zh": "电话号码是多少？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "555-2190"
+          },
+          {
+            "id": "B",
+            "text": "555-1290"
+          },
+          {
+            "id": "C",
+            "text": "555-2901"
+          },
+          {
+            "id": "D",
+            "text": "555-2019"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "What will the person do?",
+        "prompt_zh": "接电话的人会做什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Tell Maria"
+          },
+          {
+            "id": "B",
+            "text": "Visit Tom"
+          },
+          {
+            "id": "C",
+            "text": "Buy a phone"
+          },
+          {
+            "id": "D",
+            "text": "Write a letter"
+          }
+        ],
+        "answer": "A"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Hello, may I speak to Maria?"
+      },
+      {
+        "id": "dict-2",
+        "line_order": 3,
+        "answer": "Can I leave a message?"
+      },
+      {
+        "id": "dict-3",
+        "line_order": 8,
+        "answer": "Can you repeat that?"
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 10,
+    "import_ready": false
+  }
+}
+

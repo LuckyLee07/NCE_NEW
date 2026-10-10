@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "created_on": "2026-10-06",
+  "status": "revision_requested_centered_custom_wordmark",
+  "superseded_by": "../icon-i2-nce-center-20261006/prompts.json",
+  "generation": "built-in image_gen",
+  "runtime_assets_changed": false,
+  "edit_reference": "reference-i2.png",
+  "preview": "i2-nce-preview.png",
+  "original_generated_file": "/Users/lizi/.codex/generated_images/019eb45a-85cd-7cd2-9185-8b05f6dfcb31/exec-6c5da81c-d9f3-4a4e-921b-664939a9e9e1.png",
+  "selected_cover_direction": "../concepts-20261006/c-line-art.png",
+  "selected_icon": null,
+  "requirements": [
+    "Refine the I2 burgundy four-spine icon selected as the user's latest edit target.",
+    "Add the exact NCE mark in the upper-left negative space.",
+    "Preserve the four rising book spines, charcoal ink detail and four colored bands."
+  ],
+  "notes": [
+    "This is a candidate, not approval to install the icon in the Xcode asset catalog.",
+    "The three icon copies on the presentation board have been visually checked for NCE spelling and four-volume count.",
+    "The small copies are generated previews, not exact-size production tests.",
+    "Do not use the white presentation board or pre-rounded mask directly as a production AppIcon."
+  ],
+  "prompt": "Use case: precise-object-edit.\nAsset type: targeted refinement of an existing iOS app-icon concept board.\nInput image 1 is the EXACT EDIT TARGET selected by the user, NOT a loose style reference. It shows one large burgundy app icon with exactly four hand-ink illustrated book spines and two smaller copies below, on a white presentation board headed \"I2\".\n\nPrimary request: Add the exact uppercase Latin mark \"NCE\" to this existing icon, so it conveys both the NCE name and the complete four-book collection, while preserving the existing elegant illustration. Do not create a new four-book logo or radically change its composition.\n\nChange ONLY: place a refined, bold, warm-white serif wordmark \"NCE\", spelled N C E, in the unused upper-left burgundy area INSIDE the rounded-square icon. The word is one horizontal line, approximately 35-39 percent of the icon's width and 11-13 percent of its height, with its left edge about 11 percent in from the icon's left edge. Use the negative space ABOVE the first and second shorter books and to the LEFT of the third and fourth taller books. Keep clear visual separation from the books. Letter strokes must be strong rather than thin hairlines, with open readable counters. Do not put NCE on a sticker, badge or separate rectangle. Do not split the letters across individual book spines. The name should fit the natural diagonal negative space, not become an oversized title that forces the four books downward.\n\nPreserve rigorously: the original rich burgundy background, icon shape and original subtle ink-print texture; EXACTLY FOUR warm-white book spines, original gently increasing heights left-to-right, rightmost book's slight outward lean, original charcoal contours and short spine rules, original book-top page details; all four original bottom color bands in burgundy, deep teal, blue and muted gold, in that order. Keep books in the same positions, proportions, widths and relative size. No added numbers or other text on the books. Do not straighten, recolor, restack, box or simplify this particular user-chosen book illustration. No shadows, gloss, photorealistic rendering, clay 3D, floral decorations or additional pictograms.\n\nOutput: the same single square white presentation board as the input, with the one large edited icon and TWO smaller copies below. Apply precisely the SAME NCE addition to all three copies, scaled accordingly; no unlabeled alternate design. Preserve the small board heading \"I2\" and the board spacing. No new explanations, extra headings, slogans, copyright symbols, publisher logos or watermarks. All objects entirely visible and uncropped. Make NCE clear and correctly spelled."
+}

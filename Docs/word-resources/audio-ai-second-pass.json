@@ -1,0 +1,1491 @@
+{
+  "format_version": 1,
+  "reviewer": "local Whisper small.en plus waveform checks",
+  "method": "Independent transcription with no expected-word prompt; not a pronunciation score or human listening review",
+  "model_sha256": "f953ad0fd29cacd07d5a9eda5624af0f6bcf2258be67c92b79389873d91e0872",
+  "beam_size": 5,
+  "assets": [
+    {
+      "word": "AT&T",
+      "path": "wav/AT&T.wav",
+      "sha256": "57485c45712d354b90802a06d2b1394a44d50abde6114e7ad035e76aca9c635f",
+      "expected_spoken_text": "A T and T",
+      "transcript": "AT&T",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.6226666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.11999354040629018,
+        "clipped_samples": 0,
+        "active_seconds": 1.1613333333333333,
+        "leading_silence_seconds": 0.16020833333333334,
+        "trailing_silence_seconds": 0.301125
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Alpine",
+      "path": "wav/Alpine.wav",
+      "sha256": "1cfac88a139af4657ce93003740b4c5f51573e0fd21a669f006ca95d6d766ec5",
+      "expected_spoken_text": "Alpine",
+      "transcript": "Zalpine",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.196,
+        "peak": 0.707305908203125,
+        "rms": 0.12380532741145159,
+        "clipped_samples": 0,
+        "active_seconds": 0.7757916666666667,
+        "leading_silence_seconds": 0.18079166666666666,
+        "trailing_silence_seconds": 0.23941666666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Antipodes",
+      "path": "wav/Antipodes.wav",
+      "sha256": "688ceb367fcefd0f605434036c2fe6324a9f3791c11b2b2cf232b3a7283eecc4",
+      "expected_spoken_text": "Antipodes",
+      "transcript": "ANITIPADIES",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.4733333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.13489990150385217,
+        "clipped_samples": 0,
+        "active_seconds": 1.0227083333333333,
+        "leading_silence_seconds": 0.16420833333333335,
+        "trailing_silence_seconds": 0.28641666666666665
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Athelney",
+      "path": "wav/Athelney.wav",
+      "sha256": "6641934e9d2df5a9b056ddd11ab0f0545b0032b0dea0562527a814e3240045b3",
+      "expected_spoken_text": "Athelney",
+      "transcript": "Ask Thelny.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.324,
+        "peak": 0.749969482421875,
+        "rms": 0.12391742768002072,
+        "clipped_samples": 0,
+        "active_seconds": 0.7748333333333334,
+        "leading_silence_seconds": 0.17845833333333333,
+        "trailing_silence_seconds": 0.3707083333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Benz",
+      "path": "wav/Benz.wav",
+      "sha256": "f5d88c3bdbad60016df2af11f2faff545cc8f437e822f36280f3a6e38a4c6edb",
+      "expected_spoken_text": "Benz",
+      "transcript": "Events",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 0.9186666666666666,
+        "peak": 0.749969482421875,
+        "rms": 0.09825185747282672,
+        "clipped_samples": 0,
+        "active_seconds": 0.514125,
+        "leading_silence_seconds": 0.17233333333333334,
+        "trailing_silence_seconds": 0.23220833333333332
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Chippenham",
+      "path": "wav/Chippenham.wav",
+      "sha256": "489b68ed6663efec6f69db10a00f1a04e54596162498a2716fa304e7e30374f5",
+      "expected_spoken_text": "Chippenham",
+      "transcript": "A chip-enem.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.3026666666666666,
+        "peak": 0.749969482421875,
+        "rms": 0.11010215517200524,
+        "clipped_samples": 0,
+        "active_seconds": 0.783125,
+        "leading_silence_seconds": 0.17745833333333333,
+        "trailing_silence_seconds": 0.34208333333333335
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "IBM",
+      "path": "wav/IBM.wav",
+      "sha256": "f0afef5fb170de3a3637632bc01ea72e6b3af224dfea22b61137c0ff0dcc5ada",
+      "expected_spoken_text": "I B M",
+      "transcript": "I.B.M.'s",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.6013333333333333,
+        "peak": 0.749969482421875,
+        "rms": 0.11846424068098506,
+        "clipped_samples": 0,
+        "active_seconds": 1.0697916666666667,
+        "leading_silence_seconds": 0.165125,
+        "trailing_silence_seconds": 0.36641666666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Justiteombudsman",
+      "path": "wav/Justiteombudsman.wav",
+      "sha256": "4bd1268dd2a06fbd1034ebcac3027cc7f64c73516e891350c1fdd9e213c89434",
+      "expected_spoken_text": "Justiteombudsman",
+      "transcript": "Just I, Tombudsman.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.836,
+        "peak": 0.749969482421875,
+        "rms": 0.11419223866984617,
+        "clipped_samples": 0,
+        "active_seconds": 1.37725,
+        "leading_silence_seconds": 0.16108333333333333,
+        "trailing_silence_seconds": 0.2976666666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Kituro",
+      "path": "wav/Kituro.wav",
+      "sha256": "bd0445806d77128a21979d783bb66cdefb4bb56878adb759fc69617d9a39e5be",
+      "expected_spoken_text": "Kituro",
+      "transcript": "The Kitchener",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1746666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.10755013538589898,
+        "clipped_samples": 0,
+        "active_seconds": 0.7017916666666667,
+        "leading_silence_seconds": 0.16145833333333334,
+        "trailing_silence_seconds": 0.3114166666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Medusa",
+      "path": "wav/Medusa.wav",
+      "sha256": "8b3114394a637020dee66fdeb7301c7ee269fbe71cc3651ccfeed69a49415201",
+      "expected_spoken_text": "Medusa",
+      "transcript": "A Medusa.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.3026666666666666,
+        "peak": 0.749969482421875,
+        "rms": 0.12936258601135586,
+        "clipped_samples": 0,
+        "active_seconds": 0.8006666666666666,
+        "leading_silence_seconds": 0.17875,
+        "trailing_silence_seconds": 0.32325
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Mrs.",
+      "path": "wav/Mrs..wav",
+      "sha256": "49419cc8b4889a3570d42df64fbc98362c1a4a7408d134e89a366a681b256a23",
+      "expected_spoken_text": "Missus",
+      "transcript": "You miss us.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1106666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.1153246805909092,
+        "clipped_samples": 0,
+        "active_seconds": 0.602125,
+        "leading_silence_seconds": 0.178,
+        "trailing_silence_seconds": 0.3305416666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Piccadilly",
+      "path": "wav/Piccadilly.wav",
+      "sha256": "3fe5f49a11dd862911291447d2b82fb43186630c9fcbbf7fac730a134392c1cf",
+      "expected_spoken_text": "Piccadilly",
+      "transcript": "and pick a dilly.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.2813333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.11273846833396316,
+        "clipped_samples": 0,
+        "active_seconds": 0.7822916666666667,
+        "leading_silence_seconds": 0.16241666666666665,
+        "trailing_silence_seconds": 0.336625
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Pilatus Porter",
+      "path": "wav/Pilatus Porter.wav",
+      "sha256": "54354dde1da1ff5d688c847b2e9e6184364bf4cfea870e40a9a6e1ddb0b3532b",
+      "expected_spoken_text": "Pilatus Porter",
+      "transcript": "Pilatus porta",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.9,
+        "peak": 0.749969482421875,
+        "rms": 0.1183280917755379,
+        "clipped_samples": 0,
+        "active_seconds": 1.342,
+        "leading_silence_seconds": 0.17591666666666667,
+        "trailing_silence_seconds": 0.38208333333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Signor",
+      "path": "wav/Signor.wav",
+      "sha256": "71b56698d00dbe8137f7d93cd5e6c23bed689dd6b4762ff2120708d65216bb5b",
+      "expected_spoken_text": "Signor",
+      "transcript": "Ase\u00f1or",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.068,
+        "peak": 0.749969482421875,
+        "rms": 0.12984344157636768,
+        "clipped_samples": 0,
+        "active_seconds": 0.6579583333333333,
+        "leading_silence_seconds": 0.17845833333333333,
+        "trailing_silence_seconds": 0.23158333333333334
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Southampton",
+      "path": "wav/Southampton.wav",
+      "sha256": "e7a0501473f7ae713359a68c51293cb139e62020fc549fac1a5351d926bae7d0",
+      "expected_spoken_text": "Southampton",
+      "transcript": "Aselle Thampton",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.516,
+        "peak": 0.749969482421875,
+        "rms": 0.1288086825862521,
+        "clipped_samples": 0,
+        "active_seconds": 1.0273333333333334,
+        "leading_silence_seconds": 0.165625,
+        "trailing_silence_seconds": 0.32304166666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "St.Bernard",
+      "path": "wav/St.Bernard.wav",
+      "sha256": "84f1f1f7fd9ca3d444cd4f7e594dbbb8eca978ed3a7847bca2d21ae97eac4ebb",
+      "expected_spoken_text": "Saint Bernard",
+      "transcript": "The Saint Bernard.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.516,
+        "peak": 0.749969482421875,
+        "rms": 0.12674366374095872,
+        "clipped_samples": 0,
+        "active_seconds": 0.9674583333333333,
+        "leading_silence_seconds": 0.16425,
+        "trailing_silence_seconds": 0.38429166666666664
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "St.Petersbrug",
+      "path": "wav/St.Petersbrug.wav",
+      "sha256": "2d99dd3f26533ebdb973165113c60a241acd01926eb4175309e2791fb7130c53",
+      "expected_spoken_text": "Saint Petersburg",
+      "transcript": "St. Petersburg",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.9213333333333333,
+        "peak": 0.749969482421875,
+        "rms": 0.1168982029536799,
+        "clipped_samples": 0,
+        "active_seconds": 1.38475,
+        "leading_silence_seconds": 0.15633333333333332,
+        "trailing_silence_seconds": 0.38025
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Staten",
+      "path": "wav/Staten.wav",
+      "sha256": "6b0c8c95495dc7865f836af1beef52994621aa31046327ee5bb16e69193b6701",
+      "expected_spoken_text": "Staten",
+      "transcript": "Estetan",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1106666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.1076939199515375,
+        "clipped_samples": 0,
+        "active_seconds": 0.68825,
+        "leading_silence_seconds": 0.16379166666666667,
+        "trailing_silence_seconds": 0.258625
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Virgin",
+      "path": "wav/Virgin.wav",
+      "sha256": "1312d8c7ec9a61d2e02e3d33e856bd60eecc021786f1e22859ce960a456736ef",
+      "expected_spoken_text": "Virgin",
+      "transcript": "A virgin.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1746666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.12133347532383625,
+        "clipped_samples": 0,
+        "active_seconds": 0.6975,
+        "leading_silence_seconds": 0.17845833333333333,
+        "trailing_silence_seconds": 0.29870833333333335
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "Wayle",
+      "path": "wav/Wayle.wav",
+      "sha256": "81e771d742d6d6cba277b1f178e883ac3c2cd968c6d32204899afbb104183f84",
+      "expected_spoken_text": "Wayle",
+      "transcript": "Wailed.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 0.958,
+        "peak": 0.749969482421875,
+        "rms": 0.11366302495626661,
+        "clipped_samples": 0,
+        "active_seconds": 0.546,
+        "leading_silence_seconds": 0.16095833333333334,
+        "trailing_silence_seconds": 0.25104166666666666
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "air-resistance",
+      "path": "wav/air-resistance.wav",
+      "sha256": "8275b291ed4f4b7dee6ec5b02b1567e2061d7ca077f23c9336627015872bcde7",
+      "expected_spoken_text": "air-resistance",
+      "transcript": "Air assistance.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.708,
+        "peak": 0.749969482421875,
+        "rms": 0.0998226269925058,
+        "clipped_samples": 0,
+        "active_seconds": 1.10575,
+        "leading_silence_seconds": 0.165625,
+        "trailing_silence_seconds": 0.436625
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "belongings",
+      "path": "wav/belongings.wav",
+      "sha256": "d0a4395080047ac794459f238a3cc5f4a5552a7a177dd583f5398d8e33710aee",
+      "expected_spoken_text": "belongings",
+      "transcript": "The Belongings",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.2386666666666666,
+        "peak": 0.749969482421875,
+        "rms": 0.11685316075788842,
+        "clipped_samples": 0,
+        "active_seconds": 0.7854583333333334,
+        "leading_silence_seconds": 0.16170833333333334,
+        "trailing_silence_seconds": 0.2915
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "binoculars",
+      "path": "wav/binoculars.wav",
+      "sha256": "2b826bddfa742ee16015eaa7616fac2894d9e134f08757e31179e915a11c3db1",
+      "expected_spoken_text": "binoculars",
+      "transcript": "The binoculars.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.4733333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.13422077188170908,
+        "clipped_samples": 0,
+        "active_seconds": 0.9009583333333333,
+        "leading_silence_seconds": 0.17845833333333333,
+        "trailing_silence_seconds": 0.3939166666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "bogged",
+      "path": "wav/bogged.wav",
+      "sha256": "11cd1715c9aef9faa49a85848636c2fb4027f3940ad5cce8c045e45ff1197089",
+      "expected_spoken_text": "bogged",
+      "transcript": "Vogt",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.004,
+        "peak": 0.749969482421875,
+        "rms": 0.11775056074530842,
+        "clipped_samples": 0,
+        "active_seconds": 0.5807916666666667,
+        "leading_silence_seconds": 0.16075,
+        "trailing_silence_seconds": 0.26245833333333335
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "bus stop",
+      "path": "wav/bus stop.wav",
+      "sha256": "1ca9ae68c6cfe0bad140803fb95e910de2522c3473cc5104db62afd614a4b575",
+      "expected_spoken_text": "bus stop",
+      "transcript": "and bust it up.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.196,
+        "peak": 0.749969482421875,
+        "rms": 0.10036144667919691,
+        "clipped_samples": 0,
+        "active_seconds": 0.7330833333333333,
+        "leading_silence_seconds": 0.16066666666666668,
+        "trailing_silence_seconds": 0.30225
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "ceaselessly",
+      "path": "wav/ceaselessly.wav",
+      "sha256": "c4e2b81885dfbdfd48f2023457b2a418b35e82d4d3989233bc9106026bc69e21",
+      "expected_spoken_text": "ceaselessly",
+      "transcript": "as ceaselessly.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.2813333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.1059359985356012,
+        "clipped_samples": 0,
+        "active_seconds": 0.8297916666666667,
+        "leading_silence_seconds": 0.16583333333333333,
+        "trailing_silence_seconds": 0.28570833333333334
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "colour-blind",
+      "path": "wav/colour-blind.wav",
+      "sha256": "adc7c882860a204fc48667a877e65b803acdad29488064a9c1b3645f8c03e059",
+      "expected_spoken_text": "colour-blind",
+      "transcript": "The Colour Blind",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.4733333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.10493237512975563,
+        "clipped_samples": 0,
+        "active_seconds": 0.90675,
+        "leading_silence_seconds": 0.180625,
+        "trailing_silence_seconds": 0.38595833333333335
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "contents",
+      "path": "wav/contents.wav",
+      "sha256": "eb88b1d7c400b4468e73c7200b78c0a5f8b6a15fc2eca4e7b3ddbe540c699aee",
+      "expected_spoken_text": "contents",
+      "transcript": "The contents",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.196,
+        "peak": 0.749969482421875,
+        "rms": 0.11675912200645396,
+        "clipped_samples": 0,
+        "active_seconds": 0.7436666666666667,
+        "leading_silence_seconds": 0.16145833333333334,
+        "trailing_silence_seconds": 0.290875
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "customs",
+      "path": "wav/customs.wav",
+      "sha256": "21d482c40bb52f96a312093b2b693afb71973cd30ecf61af4ed587c5ba448e2b",
+      "expected_spoken_text": "customs",
+      "transcript": "Accustoms",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.2386666666666666,
+        "peak": 0.749969482421875,
+        "rms": 0.08530107616189089,
+        "clipped_samples": 0,
+        "active_seconds": 0.744,
+        "leading_silence_seconds": 0.162625,
+        "trailing_silence_seconds": 0.3320416666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "dining room",
+      "path": "wav/dining room.wav",
+      "sha256": "6e65f9630b6a2b4fd33b11c5e39ed4a63a8d8901c640ea30b3d4c217ef62d82b",
+      "expected_spoken_text": "dining room",
+      "transcript": "Dining Rooms",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.644,
+        "peak": 0.749969482421875,
+        "rms": 0.10590930335251163,
+        "clipped_samples": 0,
+        "active_seconds": 0.984125,
+        "leading_silence_seconds": 0.16491666666666666,
+        "trailing_silence_seconds": 0.49495833333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "discreetly",
+      "path": "wav/discreetly.wav",
+      "sha256": "cbd39cfcca602ca99a5b172d289952242494dc8abea504db40a3a816b349bb68",
+      "expected_spoken_text": "discreetly",
+      "transcript": "Discreetly.",
+      "lexical_match": true,
+      "waveform": {
+        "duration_seconds": 1.388,
+        "peak": 0.749969482421875,
+        "rms": 0.10113757917059132,
+        "clipped_samples": 0,
+        "active_seconds": 0.86025,
+        "leading_silence_seconds": 0.17579166666666668,
+        "trailing_silence_seconds": 0.3519583333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "driving licence",
+      "path": "wav/driving licence.wav",
+      "sha256": "6a05a6787b6c5e176ff15bc0be9769ded6af90ca1c2c069198d949f3d60211a1",
+      "expected_spoken_text": "driving licence",
+      "transcript": "Driving license",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.8146666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.1271754888032999,
+        "clipped_samples": 0,
+        "active_seconds": 1.3267083333333334,
+        "leading_silence_seconds": 0.15845833333333334,
+        "trailing_silence_seconds": 0.3295
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "eagle eye",
+      "path": "wav/eagle eye.wav",
+      "sha256": "9dbe2ad465f42e12029f29a99230c53430634f580eb9f0c73d4dbd6699807c63",
+      "expected_spoken_text": "eagle eye",
+      "transcript": "Legal eye.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.3666666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.1256672657201794,
+        "clipped_samples": 0,
+        "active_seconds": 0.89275,
+        "leading_silence_seconds": 0.18645833333333334,
+        "trailing_silence_seconds": 0.2874583333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "espionage(title)",
+      "path": "wav/espionage(title).wav",
+      "sha256": "130796bec51778f3f80bce7d81e8e3e9c872d51f3008aa6f772faae47894d9e6",
+      "expected_spoken_text": "espionage",
+      "transcript": "A espionage",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.4306666666666668,
+        "peak": 0.749969482421875,
+        "rms": 0.13150916046817523,
+        "clipped_samples": 0,
+        "active_seconds": 0.910375,
+        "leading_silence_seconds": 0.16241666666666665,
+        "trailing_silence_seconds": 0.357875
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "ex- prefix.",
+      "path": "wav/ex- prefix..wav",
+      "sha256": "18c02826162e7d6471ae8ff5378411b4fc3fc43a3879e0886e5f0d4cef06d0c5",
+      "expected_spoken_text": "ex",
+      "transcript": "Alexa",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 0.833,
+        "peak": 0.62506103515625,
+        "rms": 0.10963997398501733,
+        "clipped_samples": 0,
+        "active_seconds": 0.4756666666666667,
+        "leading_silence_seconds": 0.157625,
+        "trailing_silence_seconds": 0.19970833333333332
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "faintly",
+      "path": "wav/faintly.wav",
+      "sha256": "97ad1428ebc4b0feb0e3f440e6b4da0a3b07c5975a703d60eb10568c2a46dcbd",
+      "expected_spoken_text": "faintly",
+      "transcript": "...faintly.",
+      "lexical_match": true,
+      "waveform": {
+        "duration_seconds": 1.132,
+        "peak": 0.749969482421875,
+        "rms": 0.10050367706981168,
+        "clipped_samples": 0,
+        "active_seconds": 0.6145,
+        "leading_silence_seconds": 0.17154166666666668,
+        "trailing_silence_seconds": 0.3459583333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "fantasy(title)",
+      "path": "wav/fantasy(title).wav",
+      "sha256": "eb82080c13cecdc25c0d441e13611e79e8ac5dc3b50b6e981f7874990b2c51c1",
+      "expected_spoken_text": "fantasy",
+      "transcript": "A fantasy.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.196,
+        "peak": 0.749969482421875,
+        "rms": 0.0937190676779941,
+        "clipped_samples": 0,
+        "active_seconds": 0.752875,
+        "leading_silence_seconds": 0.161625,
+        "trailing_silence_seconds": 0.2815
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "fickleness",
+      "path": "wav/fickleness.wav",
+      "sha256": "19544036448b725adc1dd23e740736f9a9cb76e983609f7374ee2b391574804b",
+      "expected_spoken_text": "fickleness",
+      "transcript": "Evictillness.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.26,
+        "peak": 0.749969482421875,
+        "rms": 0.08746971171326488,
+        "clipped_samples": 0,
+        "active_seconds": 0.7345416666666666,
+        "leading_silence_seconds": 0.172125,
+        "trailing_silence_seconds": 0.35333333333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "flea-ridden",
+      "path": "wav/flea-ridden.wav",
+      "sha256": "ddbf2cc0d5ecf123dc1f8883b8db5e922f8b582310e658ea3d29f5cde7c9acfd",
+      "expected_spoken_text": "flea-ridden",
+      "transcript": "A flea-ridden.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.324,
+        "peak": 0.749969482421875,
+        "rms": 0.119451976712757,
+        "clipped_samples": 0,
+        "active_seconds": 0.799125,
+        "leading_silence_seconds": 0.17358333333333334,
+        "trailing_silence_seconds": 0.35129166666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "forefathers",
+      "path": "wav/forefathers.wav",
+      "sha256": "3c391c7468e0949f3967ee93394cb034bef0ea348d0c16d729febbd4aaa98e88",
+      "expected_spoken_text": "forefathers",
+      "transcript": "forefathers.",
+      "lexical_match": true,
+      "waveform": {
+        "duration_seconds": 1.2813333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.12223210661344577,
+        "clipped_samples": 0,
+        "active_seconds": 0.8597916666666666,
+        "leading_silence_seconds": 0.165125,
+        "trailing_silence_seconds": 0.2564166666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "framed",
+      "path": "wav/framed.wav",
+      "sha256": "865ed8a0c908213ca8e577c19bf2df6362b60dbe01acf5c4e381cdae0cf601a6",
+      "expected_spoken_text": "framed",
+      "transcript": "Afframed.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.068,
+        "peak": 0.749969482421875,
+        "rms": 0.09826715927525713,
+        "clipped_samples": 0,
+        "active_seconds": 0.6037083333333333,
+        "leading_silence_seconds": 0.17795833333333333,
+        "trailing_silence_seconds": 0.28633333333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "good-humouredly",
+      "path": "wav/good-humouredly.wav",
+      "sha256": "a2a490d45707c00b04c9b4a921f4f2f2d9f258c5c21adc5fc41a9bd5079a8f4b",
+      "expected_spoken_text": "good-humouredly",
+      "transcript": "Good humoridly.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.5373333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.10968306892676993,
+        "clipped_samples": 0,
+        "active_seconds": 1.074625,
+        "leading_silence_seconds": 0.16308333333333333,
+        "trailing_silence_seconds": 0.299625
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "goods",
+      "path": "wav/goods.wav",
+      "sha256": "2d918bebc66721f5dfa672120d99410e976f96f919eb52722e5de6de621fc6fb",
+      "expected_spoken_text": "goods",
+      "transcript": "Good.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.004,
+        "peak": 0.749969482421875,
+        "rms": 0.10737208102802849,
+        "clipped_samples": 0,
+        "active_seconds": 0.5935833333333334,
+        "leading_silence_seconds": 0.162625,
+        "trailing_silence_seconds": 0.24779166666666666
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "grass-seed",
+      "path": "wav/grass-seed.wav",
+      "sha256": "fdcae101c5ff88e9fbb3bb3baa003fdc0d72a775bb8f50f71d920e26a092a2c6",
+      "expected_spoken_text": "grass-seed",
+      "transcript": "A grass seed.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.3026666666666666,
+        "peak": 0.749969482421875,
+        "rms": 0.09220810410977179,
+        "clipped_samples": 0,
+        "active_seconds": 0.8285416666666666,
+        "leading_silence_seconds": 0.17770833333333333,
+        "trailing_silence_seconds": 0.29641666666666666
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "grimly",
+      "path": "wav/grimly.wav",
+      "sha256": "84c4ee60f212dd62d0f427f1b57f3568d991164e44fbd0cf72e75a59abab5760",
+      "expected_spoken_text": "grimly",
+      "transcript": "The Grimly.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.068,
+        "peak": 0.749969482421875,
+        "rms": 0.09861009949642853,
+        "clipped_samples": 0,
+        "active_seconds": 0.593875,
+        "leading_silence_seconds": 0.16216666666666665,
+        "trailing_silence_seconds": 0.31195833333333334
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "guestroom",
+      "path": "wav/guestroom.wav",
+      "sha256": "e35ee220f4bf91bcd976aa6668c1da74870742ab7e187b3a9117373290779c5f",
+      "expected_spoken_text": "guestroom",
+      "transcript": "A guest room.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.196,
+        "peak": 0.749969482421875,
+        "rms": 0.09515706481596771,
+        "clipped_samples": 0,
+        "active_seconds": 0.7165,
+        "leading_silence_seconds": 0.162625,
+        "trailing_silence_seconds": 0.316875
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "haemolytic",
+      "path": "wav/haemolytic.wav",
+      "sha256": "3fc30d965b92158f2efbec8892fa62cacbda43f42eddb402e12cdb0b24ef45d3",
+      "expected_spoken_text": "haemolytic",
+      "transcript": "Hemolytic",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.3453333333333333,
+        "peak": 0.749969482421875,
+        "rms": 0.10567837662892438,
+        "clipped_samples": 0,
+        "active_seconds": 0.853875,
+        "leading_silence_seconds": 0.17920833333333333,
+        "trailing_silence_seconds": 0.31225
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "hot(title)",
+      "path": "wav/hot(title).wav",
+      "sha256": "0517213d8c8cac8baf2d26b9e7ad08ca460d5fff62313387450c0f20bda4de3a",
+      "expected_spoken_text": "hot",
+      "transcript": "Nahut.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 0.8973333333333333,
+        "peak": 0.684539794921875,
+        "rms": 0.1119997094902285,
+        "clipped_samples": 0,
+        "active_seconds": 0.5006666666666667,
+        "leading_silence_seconds": 0.16075,
+        "trailing_silence_seconds": 0.23591666666666666
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "in front of",
+      "path": "wav/in front of.wav",
+      "sha256": "941b743af0990295731833dceebe82e8da3683cb8aa7d7ac14780c67250b2b3b",
+      "expected_spoken_text": "in front of",
+      "transcript": "...in front of the...",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.4733333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.12448992798375172,
+        "clipped_samples": 0,
+        "active_seconds": 1.0726666666666667,
+        "leading_silence_seconds": 0.16441666666666666,
+        "trailing_silence_seconds": 0.23625
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "indifferently",
+      "path": "wav/indifferently.wav",
+      "sha256": "7ced566d2743c0f9994510ed6084a2e10a3f26e310804a2c65ffb4b45dd62b60",
+      "expected_spoken_text": "indifferently",
+      "transcript": "Indifferently.",
+      "lexical_match": true,
+      "waveform": {
+        "duration_seconds": 1.58,
+        "peak": 0.749969482421875,
+        "rms": 0.11972641762303647,
+        "clipped_samples": 0,
+        "active_seconds": 1.05325,
+        "leading_silence_seconds": 0.165125,
+        "trailing_silence_seconds": 0.361625
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "jewellery",
+      "path": "wav/jewellery.wav",
+      "sha256": "f9e2ffd6307e00fc9e6b1744946bb2cffb60fcc7d50c574704ef0f490226aff2",
+      "expected_spoken_text": "jewellery",
+      "transcript": "Jewelry",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1533333333333333,
+        "peak": 0.749969482421875,
+        "rms": 0.12533021066170022,
+        "clipped_samples": 0,
+        "active_seconds": 0.6394166666666666,
+        "leading_silence_seconds": 0.161,
+        "trailing_silence_seconds": 0.35291666666666666
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "labourer",
+      "path": "wav/labourer.wav",
+      "sha256": "984ddc28d25f9095fe457c2e0ba4d011b8e3d552399bb0b2029d9d561e0ead55",
+      "expected_spoken_text": "labourer",
+      "transcript": "It's laborer.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.0893333333333333,
+        "peak": 0.7181396484375,
+        "rms": 0.12805005294805852,
+        "clipped_samples": 0,
+        "active_seconds": 0.6154583333333333,
+        "leading_silence_seconds": 0.162375,
+        "trailing_silence_seconds": 0.3115
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "lawn mower",
+      "path": "wav/lawn mower.wav",
+      "sha256": "a2d2a9256839cfb36c249be99452402ee4022bf9df7deb9cfba1f305221fb2c9",
+      "expected_spoken_text": "lawn mower",
+      "transcript": "lawnmower",
+      "lexical_match": true,
+      "waveform": {
+        "duration_seconds": 1.3666666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.1362749979545332,
+        "clipped_samples": 0,
+        "active_seconds": 0.9156666666666666,
+        "leading_silence_seconds": 0.162375,
+        "trailing_silence_seconds": 0.288625
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "living room",
+      "path": "wav/living room.wav",
+      "sha256": "aa96a2410d8a8527518a68c1455218b4e1486386f825fa3035a9b3281e1a0c1d",
+      "expected_spoken_text": "living room",
+      "transcript": "Living Rooms",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.58,
+        "peak": 0.749969482421875,
+        "rms": 0.10661950476069386,
+        "clipped_samples": 0,
+        "active_seconds": 0.9422083333333333,
+        "leading_silence_seconds": 0.1645,
+        "trailing_silence_seconds": 0.47329166666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "mink coat",
+      "path": "wav/mink coat.wav",
+      "sha256": "5b26e1381a7e42de24260dcf3555e154f0173a7c6991139c573e948e380074c6",
+      "expected_spoken_text": "mink coat",
+      "transcript": "The mink coat.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.26,
+        "peak": 0.749969482421875,
+        "rms": 0.13725831125444124,
+        "clipped_samples": 0,
+        "active_seconds": 0.8197916666666667,
+        "leading_silence_seconds": 0.16145833333333334,
+        "trailing_silence_seconds": 0.27875
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "organically-grown",
+      "path": "wav/organically-grown.wav",
+      "sha256": "4e57bfa98648a18d1cab200e09279c3300f0299a80ce19a0a472503e452c16ae",
+      "expected_spoken_text": "organically-grown",
+      "transcript": "Organically Growns",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.708,
+        "peak": 0.749969482421875,
+        "rms": 0.11794719006525567,
+        "clipped_samples": 0,
+        "active_seconds": 1.21925,
+        "leading_silence_seconds": 0.181125,
+        "trailing_silence_seconds": 0.307625
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "over-industrialized",
+      "path": "wav/over-industrialized.wav",
+      "sha256": "ffefbf7947eba903636e94736704730b890895a4f37a76cebc905ad0cbe3652a",
+      "expected_spoken_text": "over-industrialized",
+      "transcript": "over-industrialised.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.9213333333333333,
+        "peak": 0.749969482421875,
+        "rms": 0.1169105697250591,
+        "clipped_samples": 0,
+        "active_seconds": 1.4585,
+        "leading_silence_seconds": 0.16354166666666667,
+        "trailing_silence_seconds": 0.2992916666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "passer-by",
+      "path": "wav/passer-by.wav",
+      "sha256": "fef62fb20dc73eb3d3f976383d88ebc5ced53bd7d67d5373669c4c75f2526ed2",
+      "expected_spoken_text": "passer-by",
+      "transcript": "and pass it by.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.3453333333333333,
+        "peak": 0.749969482421875,
+        "rms": 0.10176754244261055,
+        "clipped_samples": 0,
+        "active_seconds": 0.81225,
+        "leading_silence_seconds": 0.17770833333333333,
+        "trailing_silence_seconds": 0.355375
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "passionately",
+      "path": "wav/passionately.wav",
+      "sha256": "9d09a3a2efce0c0ddc05ec99261abaca157f8e988eb58850eb8ad2fbe3db6645",
+      "expected_spoken_text": "passionately",
+      "transcript": "compassionately.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.5373333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.10985861541558617,
+        "clipped_samples": 0,
+        "active_seconds": 0.949375,
+        "leading_silence_seconds": 0.18295833333333333,
+        "trailing_silence_seconds": 0.405
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "pleasantly",
+      "path": "wav/pleasantly.wav",
+      "sha256": "0a7df41d4ef1c44b66967e64816182927b3e5ac730f516279cb8c59ab1af5693",
+      "expected_spoken_text": "pleasantly",
+      "transcript": "A-Pleasantly.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.388,
+        "peak": 0.749969482421875,
+        "rms": 0.11377424805728605,
+        "clipped_samples": 0,
+        "active_seconds": 0.8125416666666667,
+        "leading_silence_seconds": 0.17366666666666666,
+        "trailing_silence_seconds": 0.40179166666666666
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "porpoise(title)",
+      "path": "wav/porpoise(title).wav",
+      "sha256": "1f58dfeebd8272769111e4edd388a6a76f2d82843acea84198c1fc91ccf46f04",
+      "expected_spoken_text": "porpoise",
+      "transcript": "and porpoise.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1106666666666667,
+        "peak": 0.692962646484375,
+        "rms": 0.1250622792427777,
+        "clipped_samples": 0,
+        "active_seconds": 0.7242083333333333,
+        "leading_silence_seconds": 0.161,
+        "trailing_silence_seconds": 0.22545833333333334
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "pot-holer",
+      "path": "wav/pot-holer.wav",
+      "sha256": "dbffff1f783e327f7a84c96f9a2f5ce0f606bcb4fe9dd1294c2f5ada17741c48",
+      "expected_spoken_text": "pot-holer",
+      "transcript": "A pot-holer.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.3026666666666666,
+        "peak": 0.749969482421875,
+        "rms": 0.12365466682594582,
+        "clipped_samples": 0,
+        "active_seconds": 0.8010416666666667,
+        "leading_silence_seconds": 0.171625,
+        "trailing_silence_seconds": 0.33
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "power line",
+      "path": "wav/power line.wav",
+      "sha256": "b11b2e8bc55b57a1c8342efad8e36cdbf38800a13d7af48a374d084669010bd8",
+      "expected_spoken_text": "power line",
+      "transcript": "The power lined.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.4306666666666668,
+        "peak": 0.749969482421875,
+        "rms": 0.13057136599375277,
+        "clipped_samples": 0,
+        "active_seconds": 0.9040416666666666,
+        "leading_silence_seconds": 0.1785,
+        "trailing_silence_seconds": 0.348125
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "prolonged",
+      "path": "wav/prolonged.wav",
+      "sha256": "4848899be23b1cadecf558a4fb44680f8579d82eb005b44ae68aaeede1d76acc",
+      "expected_spoken_text": "prolonged",
+      "transcript": "I prolonged.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.132,
+        "peak": 0.749969482421875,
+        "rms": 0.10621283997956318,
+        "clipped_samples": 0,
+        "active_seconds": 0.6850416666666667,
+        "leading_silence_seconds": 0.16104166666666667,
+        "trailing_silence_seconds": 0.28591666666666665
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "rashly",
+      "path": "wav/rashly.wav",
+      "sha256": "997c92d48860bf378a22059b9477896f59c379d783f2dc03996653360148d35e",
+      "expected_spoken_text": "rashly",
+      "transcript": "Arashli.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.068,
+        "peak": 0.749969482421875,
+        "rms": 0.08618093658353533,
+        "clipped_samples": 0,
+        "active_seconds": 0.64,
+        "leading_silence_seconds": 0.161625,
+        "trailing_silence_seconds": 0.266375
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "sales reps",
+      "path": "wav/sales reps.wav",
+      "sha256": "0cc98b6ca6bd334a23b129d01cf3ab742ae57ded3b9e39cbae6940eba9ceaadc",
+      "expected_spoken_text": "sales reps",
+      "transcript": "Assail's reps.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.4093333333333333,
+        "peak": 0.749969482421875,
+        "rms": 0.10376096960424114,
+        "clipped_samples": 0,
+        "active_seconds": 0.8693333333333333,
+        "leading_silence_seconds": 0.18575,
+        "trailing_silence_seconds": 0.35425
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "savings",
+      "path": "wav/savings.wav",
+      "sha256": "6f6b63da4608abe5fe6d23c834c6ae209501c24182eee3ef179f7e092afdec46",
+      "expected_spoken_text": "savings",
+      "transcript": "A savings.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.132,
+        "peak": 0.749969482421875,
+        "rms": 0.11563777608344927,
+        "clipped_samples": 0,
+        "active_seconds": 0.668875,
+        "leading_silence_seconds": 0.181625,
+        "trailing_silence_seconds": 0.2815
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "sea level",
+      "path": "wav/sea level.wav",
+      "sha256": "2c4e9003523ec86fb785c522d46e37f31a75a2ca31c1546207c9d617e965f916",
+      "expected_spoken_text": "sea level",
+      "transcript": "A sea level",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.2386666666666666,
+        "peak": 0.7108154296875,
+        "rms": 0.13444908894589994,
+        "clipped_samples": 0,
+        "active_seconds": 0.7380833333333333,
+        "leading_silence_seconds": 0.181625,
+        "trailing_silence_seconds": 0.31895833333333334
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "secrecy (title)",
+      "path": "wav/secrecy (title).wav",
+      "sha256": "1d492e0c2bcd3a920eb72d2c9d8012995f788338315a323ca86fbb3e1a4c37a6",
+      "expected_spoken_text": "secrecy",
+      "transcript": "A secrecy.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.2173333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.09842796633112079,
+        "clipped_samples": 0,
+        "active_seconds": 0.7005,
+        "leading_silence_seconds": 0.17891666666666667,
+        "trailing_silence_seconds": 0.33791666666666664
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "sedulously",
+      "path": "wav/sedulously.wav",
+      "sha256": "a1aa6002b662d5ff3b4a09e5e09e07622e1189f06b8ac231632ce82847ca3049",
+      "expected_spoken_text": "sedulously",
+      "transcript": "Acedulously",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.516,
+        "peak": 0.749969482421875,
+        "rms": 0.11578378775382779,
+        "clipped_samples": 0,
+        "active_seconds": 0.928625,
+        "leading_silence_seconds": 0.17583333333333334,
+        "trailing_silence_seconds": 0.41154166666666664
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "sleeping bag",
+      "path": "wav/sleeping bag.wav",
+      "sha256": "19522c87218c3231dca54a907c0892191885e637009025877d31a3fcde5376da",
+      "expected_spoken_text": "sleeping bag",
+      "transcript": "Sleeping bag",
+      "lexical_match": true,
+      "waveform": {
+        "duration_seconds": 1.4733333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.11636047628795482,
+        "clipped_samples": 0,
+        "active_seconds": 1.0699583333333333,
+        "leading_silence_seconds": 0.16604166666666667,
+        "trailing_silence_seconds": 0.23733333333333334
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "stomach ache",
+      "path": "wav/stomach ache.wav",
+      "sha256": "2e60479750baf527434eecc88ebdf3197d135a91af1f6f93a7d46848f13d2a3b",
+      "expected_spoken_text": "stomach ache",
+      "transcript": "A stomach ache.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.388,
+        "peak": 0.749969482421875,
+        "rms": 0.10572559461523043,
+        "clipped_samples": 0,
+        "active_seconds": 0.8794583333333333,
+        "leading_silence_seconds": 0.17820833333333333,
+        "trailing_silence_seconds": 0.3303333333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "storeroom",
+      "path": "wav/storeroom.wav",
+      "sha256": "26e74eee686909b0d05ab03389b6b398c13b5866428b524db8b84c4515a5804f",
+      "expected_spoken_text": "storeroom",
+      "transcript": "The storeroom",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1106666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.12857602672534393,
+        "clipped_samples": 0,
+        "active_seconds": 0.6389166666666667,
+        "leading_silence_seconds": 0.17541666666666667,
+        "trailing_silence_seconds": 0.29633333333333334
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "stoutly",
+      "path": "wav/stoutly.wav",
+      "sha256": "8b1f89dfba09bca24870d52b278a27d6b6824fd0decd2e7219b2fd8aa05206fb",
+      "expected_spoken_text": "stoutly",
+      "transcript": "A stoutly.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1533333333333333,
+        "peak": 0.749969482421875,
+        "rms": 0.10102252532644511,
+        "clipped_samples": 0,
+        "active_seconds": 0.6685416666666667,
+        "leading_silence_seconds": 0.18266666666666667,
+        "trailing_silence_seconds": 0.302125
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "uncrumpled",
+      "path": "wav/uncrumpled.wav",
+      "sha256": "dfcc22cdfbcf2d57be31e83179119f4739c57196c562b488fc756adfa0f020e8",
+      "expected_spoken_text": "uncrumpled",
+      "transcript": "and crumpled.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.324,
+        "peak": 0.749969482421875,
+        "rms": 0.10585328730174795,
+        "clipped_samples": 0,
+        "active_seconds": 0.8794166666666666,
+        "leading_silence_seconds": 0.16425,
+        "trailing_silence_seconds": 0.2803333333333333
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "unforeseen",
+      "path": "wav/unforeseen.wav",
+      "sha256": "785d6ff032efb9ce8b2ef2de6cf51433c97372453daa5eee4e6fa03b2fbc210f",
+      "expected_spoken_text": "unforeseen",
+      "transcript": "Unforseen.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.3666666666666667,
+        "peak": 0.749969482421875,
+        "rms": 0.13219207618944964,
+        "clipped_samples": 0,
+        "active_seconds": 0.9114166666666667,
+        "leading_silence_seconds": 0.164875,
+        "trailing_silence_seconds": 0.290375
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "unhurt",
+      "path": "wav/unhurt.wav",
+      "sha256": "9125d7a950dd7859007d1d6a67815c1768bbfff258a3d02e7ce3d07c7b0ddabf",
+      "expected_spoken_text": "unhurt",
+      "transcript": "One hurt.",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.1533333333333333,
+        "peak": 0.643646240234375,
+        "rms": 0.12134361679637802,
+        "clipped_samples": 0,
+        "active_seconds": 0.7163333333333334,
+        "leading_silence_seconds": 0.16195833333333334,
+        "trailing_silence_seconds": 0.2750416666666667
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    },
+    {
+      "word": "water ski",
+      "path": "wav/water ski.wav",
+      "sha256": "6ddc3e5f3363e9be58aee3a20b5499832f4363b6ff118f253c7605f3b238b4db",
+      "expected_spoken_text": "water ski",
+      "transcript": "What a ski!",
+      "lexical_match": false,
+      "waveform": {
+        "duration_seconds": 1.5373333333333334,
+        "peak": 0.749969482421875,
+        "rms": 0.11543035591822098,
+        "clipped_samples": 0,
+        "active_seconds": 0.962375,
+        "leading_silence_seconds": 0.185375,
+        "trailing_silence_seconds": 0.38958333333333334
+      },
+      "status": "ai_review_requires_decision",
+      "human_listening_approved": false
+    }
+  ]
+}

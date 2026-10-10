@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-016",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-016.png",
+  "source_sha256": "30a20384728e4273d8f4a7814a2c5a3b6c0b577c08ea6ae92bd25419e129b3a2",
+  "original_generated": "exec-5381ace9-87a1-4788-b227-a7aaa419d618.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a simple industrial articulated robot arm with three joints and a small gripper, unbranded; TOP RIGHT = a tiny airfield scene with a runway strip, one small parked aircraft and a low hangar, no labels; BOTTOM LEFT = a railway station platform with a canopy, bench and the side of one stationary train; BOTTOM RIGHT = a small mine entrance in rock with timber supports, a rail track and an ore cart, no people. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "robot-arm",
+      "position": "top_left",
+      "source": "atlas-016-0.png",
+      "sha256": "5631ec0f55ffe250e2f0a4cbc7940408fd577d85f493f8cb57fd60c9b227de8a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "airfield",
+      "position": "top_right",
+      "source": "atlas-016-1.png",
+      "sha256": "84ea0599696f0217e73f618e917aaa7dbb05e4a5afe01dc380b8a65ae80a9f2a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "platform",
+      "position": "bottom_left",
+      "source": "atlas-016-2.png",
+      "sha256": "9fb3471e23f7e143b79272fa8e8957de311739dff4917904ea82ddf7e6587427",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "mine",
+      "position": "bottom_right",
+      "source": "atlas-016-3.png",
+      "sha256": "c617c580ded87c95aeb57f8609ec8fcd21b7d739bc5b2b683703bf6c5d021007",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

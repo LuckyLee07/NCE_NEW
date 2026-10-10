@@ -1,0 +1,19 @@
+{
+  "conversion": "s2t plus explicit editorial/UI overrides",
+  "converter": "opencc-python-reimplemented",
+  "converter_version": "0.1.7",
+  "format_version": 1,
+  "lesson_records": 276,
+  "locale": "zh-Hant",
+  "localized_picture_bytes": 2845648,
+  "localized_pictures": 1081,
+  "native_editorial_review": "pending",
+  "original_courses_bundled": false,
+  "original_picture_chinese_words": 5,
+  "sentence_records": 4445,
+  "source_resources_unchanged": true,
+  "text_entries": 9841,
+  "ui_strings": 54,
+  "unique_words": 3104,
+  "word_records": 3332
+}

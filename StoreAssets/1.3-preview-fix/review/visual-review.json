@@ -1,0 +1,38 @@
+{
+  "format_version": 1,
+  "reviewed_on": "2026-10-07",
+  "status": "passed_within_preview_framing_scope",
+  "scope": "Local media fix for 2.3.4; not full app acceptance, native editorial approval or Apple approval",
+  "contact_sheets_reviewed": [
+    "zh-Hans/iphone/contact-sheet.png",
+    "zh-Hant/iphone/contact-sheet.png",
+    "ja/iphone/contact-sheet.png",
+    "ko/iphone/contact-sheet.png",
+    "zh-Hans/ipad/contact-sheet.png",
+    "zh-Hant/ipad/contact-sheet.png",
+    "ja/ipad/contact-sheet.png",
+    "ko/ipad/contact-sheet.png"
+  ],
+  "unique_native_screenshots_reviewed": 40,
+  "unique_preview_scene_frames_reviewed": 40,
+  "english_assets": "en-CA and spare en-US are hash-identical to zh-Hans; no independent English UI is claimed",
+  "checks": [
+    "Full native App image fills every video frame; no outer light canvas or title/subtitle bands",
+    "Native status bar, navigation and bottom UI remain visible without added framing or cropping",
+    "Four book covers, lesson translation, umbrella image, practice choices and wordbook rows are visible",
+    "No loading overlay, keyboard or compatibility warning appears in the inspected scenes",
+    "All previews decode completely and each preview plays in the browser with five nonblank sampled scenes",
+    "Original screenshot hashes, recording paths and scene edit times are unchanged",
+    "Desktop and mobile gallery screenshots at 1440, 390 and 320 pixels show no overlap or horizontal overflow"
+  ],
+  "ocr_report": "text-review.json",
+  "ocr_checked_images": 90,
+  "ocr_warnings": 0,
+  "browser_report": "gallery-validation.json",
+  "artifact_and_export_tests_passed": 9,
+  "app_code_changed_by_this_fix": false,
+  "version_or_build_changed_by_this_fix": false,
+  "uploaded": false,
+  "review_submitted": false,
+  "native_editorial_approval": false
+}

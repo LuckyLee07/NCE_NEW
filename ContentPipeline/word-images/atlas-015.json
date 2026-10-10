@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-015",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-015.png",
+  "source_sha256": "ac1e0411ee9e4886fcaeda02faf2172e461a2a36d1c6a32288226bc77bce3051",
+  "original_generated": "exec-13acf557-936c-45a8-9dd9-0c996cf4184b.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = an old cannon barrel on a simple two-wheel carriage, isolated, unloaded, no battle; TOP RIGHT = an isolated ordinary historical bolt-action rifle with wooden stock, full object, no person, no ammunition or operational detail; BOTTOM LEFT = a generic historical twin-engine bomber aircraft in flight, full outline, no bombs, insignia, combat or readable text; BOTTOM RIGHT = a small human-scale unpowered glider aircraft with long slender wings, no engine or propeller, full outline. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "cannon",
+      "position": "top_left",
+      "source": "atlas-015-0.png",
+      "sha256": "aeb738a0117a9cd641de075547489b0b48f363dd74fae2f1b5209866300e41bf",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "rifle",
+      "position": "top_right",
+      "source": "atlas-015-1.png",
+      "sha256": "d2fb49b9f7daaf42f9e29c96f1a7eea01de92d9d01de98fb0767b7fa5a4f7473",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "bomber",
+      "position": "bottom_left",
+      "source": "atlas-015-2.png",
+      "sha256": "2f5e2d3e966aea9aadb104d062c0db2a12a275fd030f552c6b6b22f7f2570182",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "glider",
+      "position": "bottom_right",
+      "source": "atlas-015-3.png",
+      "sha256": "34cde01d6bdafc0a3d91f310dfd38668b1e862687d729f0d9097fa39ed7441fb",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

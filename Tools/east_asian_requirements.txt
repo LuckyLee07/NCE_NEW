@@ -1,0 +1,5 @@
+# Build-only dependencies; no translation engine is included in the iOS App.
+ctranslate2==4.6.0
+transformers==4.28.1
+sentencepiece==0.1.99
+huggingface-hub==0.13.4

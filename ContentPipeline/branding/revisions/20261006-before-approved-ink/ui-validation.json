@@ -1,0 +1,163 @@
+{
+  "format_version": 1,
+  "qa_bundle_identifier": "com.palmgame.NCEALL.resourceqa.localization",
+  "production_records_touched": false,
+  "ads_enabled": false,
+  "store_assets_uploaded": false,
+  "screenshots_upload_ready": false,
+  "physical_device_test": "pending",
+  "native_editorial_review": "pending",
+  "runs": [
+    {
+      "label": "iphone",
+      "xcresult_path": "/private/tmp/NCEBranding-iPhone-20261006-final.xcresult",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "6B43B26F-187A-44DD-BAAB-6B07EA140D6D",
+              "deviceName": "NCE Word Resources QA",
+              "modelName": "iPhone 12 Pro",
+              "osBuildNumber": "23C54",
+              "osVersion": "26.2",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 1,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "NCE_Content_QA · Built with macOS 15.7.3",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791291968.003,
+        "passedTests": 1,
+        "result": "Passed",
+        "skippedTests": 0,
+        "startTime": 1791291761.652,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - NCE_Content_QA",
+        "topInsights": [],
+        "totalTestCount": 1
+      }
+    },
+    {
+      "label": "ipad",
+      "xcresult_path": "/private/tmp/NCEBranding-iPad-20261006-final.xcresult",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "FD923AFE-C1A6-47CD-B83B-CDCD702EC725",
+              "deviceName": "NCE Word Resources iPad QA",
+              "modelName": "iPad Pro 13-inch (M5)",
+              "osBuildNumber": "23C54",
+              "osVersion": "26.2",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 1,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "NCE_Content_QA · Built with macOS 15.7.3",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791292208.955,
+        "passedTests": 1,
+        "result": "Passed",
+        "skippedTests": 0,
+        "startTime": 1791292007.654,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - NCE_Content_QA",
+        "topInsights": [],
+        "totalTestCount": 1
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "ui-screenshots/ipad-ja-brand-home.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "555990564d33f3b302ba1829eaba5a890c6f2a960793c0d0ec43505329285c4c",
+      "label": "ipad",
+      "capture_timestamp": 1791292130.914
+    },
+    {
+      "path": "ui-screenshots/ipad-ko-brand-home.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "3e30f439a9dfb43e96fadce55700121fc8ae34e88b09ededa0c9b54104a30644",
+      "label": "ipad",
+      "capture_timestamp": 1791292162.843
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hans-brand-home.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "4221729742731df0ac2206420c40fda6be02a14a4a5e5810f4c1c678d099c7af",
+      "label": "ipad",
+      "capture_timestamp": 1791292066.453
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hant-brand-home.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "555990564d33f3b302ba1829eaba5a890c6f2a960793c0d0ec43505329285c4c",
+      "label": "ipad",
+      "capture_timestamp": 1791292098.509
+    },
+    {
+      "path": "ui-screenshots/iphone-ja-brand-home.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "6aeadc803bddb340e8d5b2113a35f8ca5ae6f1fffe9fc472c14d890e6babdb5d",
+      "label": "iphone",
+      "capture_timestamp": 1791291889.157
+    },
+    {
+      "path": "ui-screenshots/iphone-ko-brand-home.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "5dcb189bdfe3994575774feb87b5a84b1bbbb1860376501f43b63a55bab30744",
+      "label": "iphone",
+      "capture_timestamp": 1791291920.707
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-brand-home.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "1d5a5a978fca71aae3e172b4edca789021167fe1d7ce1ff802bbd6de2f90fb1a",
+      "label": "iphone",
+      "capture_timestamp": 1791291826.172
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-brand-home.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "6aeadc803bddb340e8d5b2113a35f8ca5ae6f1fffe9fc472c14d890e6babdb5d",
+      "label": "iphone",
+      "capture_timestamp": 1791291857.828
+    }
+  ],
+  "visual_followups": [
+    "iPhone 13 mini on iOS 26.2 shows a red rdar:45025538 compatibility banner and black borders; passing interaction checks do not resolve this visual issue.",
+    "Confirm on physical devices and prepare supported App Store screenshot sizes before upload."
+  ],
+  "total_passed_ui_tests": 2
+}

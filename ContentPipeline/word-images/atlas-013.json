@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-013",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-013.png",
+  "source_sha256": "87b3dc8f1f0142a59000fe5bd3d61950a17d6a60f5eb117ee81fb956efe0aa40",
+  "original_generated": "exec-a1bb5f02-20b8-48a1-9b38-d8aa8cf605c3.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a small bowl of elbow-shaped macaroni pasta, distinct hollow tubes; TOP RIGHT = a small portion of golden fried potato chips/slices in a plain bowl, no packaging; BOTTOM LEFT = a plain bowl of pale finely shredded fermented cabbage, not red kimchi; BOTTOM RIGHT = one small golden filled pastry pie with crimped edge and a cut section showing filling. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "macaroni",
+      "position": "top_left",
+      "source": "atlas-013-0.png",
+      "sha256": "094a3c29998cd29b2bdef442fd49dfa8ea6982b8c8cd1a26c181bbc4abc7be36",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "chip",
+      "position": "top_right",
+      "source": "atlas-013-1.png",
+      "sha256": "b548d7fb9a7e8fcaa06f7337c2afcde29f213282021bdea37f7c9b1a1e8c7662",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "sauerkraut",
+      "position": "bottom_left",
+      "source": "atlas-013-2.png",
+      "sha256": "ab45678fa035cf02d499b0c4b6ec15a195fc42f0ea7067195669a1ebe49ea41a",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "pastry",
+      "position": "bottom_right",
+      "source": "atlas-013-3.png",
+      "sha256": "4c44668d14f873835e682650ff8075081efd3baa8fe4f77d486d8df877e20843",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "format_version": 1,
+  "target_store_version": "1.3",
+  "status": "passed_for_generated_assets",
+  "scope": "Generated store media only, not a full app acceptance or native editorial approval",
+  "screenshots": 60,
+  "preview_videos": 12,
+  "poster_references": 12,
+  "contact_sheets_reviewed": 10,
+  "unique_ui_screenshots_reviewed": 40,
+  "unique_preview_scene_frames_reviewed": 50,
+  "english_canadian_assets": "Hash-identical to en-US; not separately OCR-inspected",
+  "ocr_report": "text-review.json",
+  "ocr_checked_images": 90,
+  "ocr_flags": 0,
+  "browser_report": "gallery-validation.json",
+  "artifact_unit_tests_passed": 6,
+  "checks": [
+    "Four approved book covers are visible in each actual UI language",
+    "Lesson English and localized translations do not overlap",
+    "Vocabulary English, translation and umbrella image are present",
+    "Tablet vocabulary and practice headers are not hidden under navigation",
+    "Practice score, question, four choices and wordbook rows are visible",
+    "No keyboard, loading overlay, rdar warning or compatibility border appears in delivery media",
+    "Localized preview captions fit outside the actual app image",
+    "Preview lesson navigation and wordbook scrolling contain actual app motion",
+    "All video frames decode and browser playback is nonblank",
+    "Native screenshots are unmodified; no invented English app interface"
+  ],
+  "layout_fixes": [
+    "TextViewController: align text measurement fonts with rendering and include label insets in row height",
+    "BaseViewController: tablet learning pages do not extend beneath navigation; iPhone and home behavior unchanged"
+  ],
+  "tablet_navigation_regression_result": "/private/tmp/NCEStoreMedia-TabletNavFix.xcresult",
+  "capture_bundle_version": "1.2",
+  "capture_bundle_build": "1",
+  "assistant_changed_local_xcode_version": false,
+  "observed_current_xcode_version": "1.3",
+  "observed_current_xcode_build": "1",
+  "uploaded": false,
+  "review_submitted": false,
+  "production_records_touched": false,
+  "native_editorial_approval": false,
+  "separate_release_items": [
+    "Set formal archive Version to match the 1.3 store draft and check the build history under 1.3",
+    "Native review of Traditional Chinese/Japanese/Korean copy and course translations remains pending",
+    "Japanese handbag image-label issue remains outside these assets; umbrella was used instead",
+    "Earlier iOS 26.2 small-device compatibility warning remains a separate investigation",
+    "Content authorization, production-device upgrade checks and ASC processing are not established by this media validation"
+  ]
+}

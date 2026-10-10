@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "AdmobManager.h"
 #import "FirstViewController.h"
+#import "SettingViewController.h"
+#import "NCELocalization.h"
 #import<AVFoundation/AVFoundation.h>
 
 @interface AppDelegate ()
@@ -33,6 +35,7 @@
     [self configureNavigationBarAppearance];
     self.window.rootViewController = navigation;
     [self.window makeKeyAndVisible];
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(languagePreferenceChanged:) name:NCELanguagePreferenceDidChangeNotification object:nil];
     
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
@@ -112,6 +115,16 @@
 #pragma clang diagnostic pop
         [[UINavigationBar appearance] setTintColor:UIColor.whiteColor];
     }
+}
+
+- (void)languagePreferenceChanged:(NSNotification *)notification
+{
+    // Rebuild displayed text and cached lesson/quiz content without restarting services or touching the database.
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UINavigationController *navigation = (UINavigationController *)self.window.rootViewController;
+        if (![navigation isKindOfClass:UINavigationController.class]) return;
+        [navigation setViewControllers:@[[[FirstViewController alloc] init], [[SettingViewController alloc] init]] animated:NO];
+    });
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

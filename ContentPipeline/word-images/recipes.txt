@@ -1,0 +1,442 @@
+# KIND; PNG codepoints or diagram name; exact database words separated by |
+# Illustrations are objects; context graphics are mnemonic cues, not literal depictions.
+illustration;1f45c;handbag
+illustration;2328;keyboard
+illustration;1f3e2;office
+illustration;1f6cb;living room|seat
+illustration;1f45a,1f456;clothes
+illustration;1f4f7;photograph
+ai_illustration;atlas-027-3.png;bookcase|shelf
+illustration;1fad6;teapot
+illustration;1f969;beef
+illustration;1f3e0;home
+illustration;1f3ea;shop
+illustration;1f4c4;writing paper|pad
+illustration;1f4f0;news|newsletter
+illustration;1f37d,1f957;food
+illustration;1f3d9;town|city|block|high-rise|skyscraper
+illustration;1f4de;phone|receiver
+illustration;1f4d6;phrasebook|story|fiction|saga
+illustration;1f6cd;shopping
+illustration;1f966,1f955;vegetable
+illustration;1f9f3;suitcase
+illustration;1f3a6;cinema
+illustration;1f39e;film
+illustration;1f683;station|railway
+illustration;1f3f7;label
+illustration;1fa7b;X-ray
+illustration;1f3e8;hostel
+context;1f4a1;idea|inspiration
+illustration;1f944;teaspoonful
+illustration;1fa99;coin|penny|pence
+illustration;1f964,1f34b;lemonade
+illustration;1f37d,1fa91;dining room
+illustration;1f5e3;voice
+illustration;1f6a6;sign
+illustration;1f6fb;driving licence
+illustration;26bd;football
+illustration;1f30d;world
+illustration;1f48d;get married|wedding|newlyweds
+ai_illustration;atlas-028-3.png;compact
+illustration;1f5d1;litter basket
+illustration;1f6de;tyre
+illustration;1f3ad;theatre|comedy
+diagram;postcard;postcard
+illustration;1f48e;diamond
+illustration;1faa8;stone|limestone
+illustration;1fab5;wooden
+illustration;1f3b7;jazz
+illustration;1f3b6;musical|tune|ballad
+illustration;1f6a2;harbour|liner|steamship|cruise
+context;1f3a4;pop singer
+illustration;1f3a4;microphone
+ai_illustration;atlas-028-2.png;stage
+illustration;1f3df;arena
+ai_illustration;atlas-028-0.png;stocking
+illustration;1f37a;pub
+illustration;1f39f;ticket office
+illustration;1f3a8;art
+illustration;1f33e;field
+illustration;1f3ed;workshop
+illustration;1f3ca;swimmer
+illustration;2600;sunshine
+illustration;1f573;hole
+illustration;1f6e9;aircraft
+illustration;1f4b3,1f4b5;wallet
+illustration;1f4e6;goods|cargo|wares|item|contents|belongings
+illustration;1f47b;ghost
+illustration;1f943;whisky
+illustration;1f6cf;mattress|guestroom
+illustration;1f9d1-200d-1f692;fireman
+ai_illustration;atlas-027-0.png;doorknob
+illustration;1fa99;gold|bullion
+illustration;1f48e,1fa99;treasure
+illustration;1f3d6;seashore
+illustration;1f50a;sound
+context;1f52e;crystal
+context;1f52d,1f30c;Hubble
+ai_illustration;binoculars.png;binoculars
+ai_illustration;space-shuttle.png;shuttle|Endeavour
+illustration;1f30c;universe|nebula|interstellar
+ai_illustration;atlas-029-1.png;grass-seed
+illustration;1f384;Christmas
+illustration;1f4e6;packing
+illustration;1f41d,1f36f;beeswax
+illustration;1f3ce;racing
+illustration;1f463;footstep
+illustration;1f3c6;champion|record-holder|winner
+context;1f4fa;studio
+illustration;1f4fa;screen
+context;1f3db;palace
+illustration;1f3db;college|academy
+context;1f3bf;skier
+illustration;1f3a1;festival|fete
+illustration;1f3ee;lantern
+illustration;1f4e0;fax
+context;1f9f4;perfume
+illustration;1f431;feline
+illustration;1f6df,1f6a4;lifeboat
+context;1fa9e,1f484;powder
+illustration;1f6e2;grease
+illustration;1f9f2;magnetize
+ai_illustration;atlas-029-3.png;boxer
+illustration;1f52c,1f9ea;science
+illustration;1f37d;delicacy
+illustration;1f480;skeleton
+illustration;2693;anchor
+illustration;1f374;silverware
+illustration;1f319;moonlight
+illustration;1f4d4;log book
+illustration;1f37d,1f3fa;crockery
+illustration;1f5e1;dagger
+illustration;1f4f9;video
+illustration;1f4bf;CD-ROM
+illustration;1f9a3;mammoth
+illustration;1f9ed;navigation
+# click has no accurate static pictogram; use a labelled meaning card.
+illustration;1f6e3;motorway
+illustration;1f942;champagne
+ai_illustration;atlas-029-2.png;handyman
+illustration;1f9e3;shawl
+illustration;1f4bb;workstation
+illustration;1f5a5;Macintosh
+context;1f5b1,1f4bb;software
+context;1f4be;DOS
+context;1f4e1;network|Internet
+illustration;1f484;cosmetic
+illustration;1f9a0;bacteria|virus
+context;1f3d4;the Alps|Alpine|Matterhorn|Everest
+illustration;1f3d4;summit
+illustration;1f4b0;cash
+ai_illustration;atlas-027-2.png;cheque
+# lotto is a numbered-card game, not dice; use a meaning card.
+ai_illustration;atlas-027-1.png;memory-chip
+illustration;1f50c,1f4a1;circuit
+illustration;1f300;hurricane
+illustration;1f32a;dust devil
+illustration;1f32c,1f328;blizzard
+illustration;1f42c;porpoise(title)
+illustration;1f9dc;mermaid
+illustration;1f47c;cherub
+ai_illustration;atlas-028-1.png;pennant
+illustration;1f33f;plantation
+illustration;1f3de;topography|heath
+illustration;1f50b;energize
+illustration;1f4ca;graph|graphic
+illustration;1f4cf;cm|inch
+context;1f3f3,1f9d1;nationality
+context;1f91d;friend|companion|partner|like-minded|association
+context;1f3e2,1f4bc;job|business|work|full-time|sales reps|corporation
+context;1f4bb,1f9d1;operator|technician
+context;1f64b;hello|hi|welcome
+context;1f91d,1f49a;thank you|thanks|favour|kindly|genuinely|affectionate
+context;1f3c3;rush|hurriedly
+context;1f6b6;walk|passer-by|rambler|pace|march
+context;1f9d1,1f9d1;group|humanity|human|family|staff
+context;1f4da,1f4dd;hard-working|industriousness|assiduously|sedulously
+context;1f3e0,1f9f9;housework
+context;1f3ea,1f9d1;shop assistant|greengrocer|attendant
+context;1f9f9,1f5d1;dustman
+context;1f34e,1f957;vegetarian|diet
+context;1f6cf,1f634;snore|dream|hypnotize
+context;1f4a4;leisure|relaxation|recuperation|weariness
+context;1f3d6,1f9f3;travel|trip|journey|tourist|visitor|package tour
+context;1f5e3,1f4ac;say|shout|exclaim|gesticulate|tone|spokeswoman|announcer
+context;1f44d;good|best|better|wonderful|fantastic|honour
+context;1f44e;bad|disadvantage|unacceptable
+context;1f49a;like|favourite|fancy|darling|lovely|lovable|endearing
+context;1f60a;enjoy|pleasantly|gaily|contented|mirth|good-humouredly
+context;1f602;joke|amused|amusing|comedian
+context;1f61f;worry|anxiously|perturb|agonizing|unsettle
+context;1f631;horror|terrify|frightful|panic|alarming
+context;1f620;angrily|provocation|spiteful
+context;1f615;bewilderment|bewilder|inconceivable|unrealistic
+context;1f914;curiously|how|why|question|what|mystery|mysterious|sceptical
+context;1f4a1,1f3a8;creative|design|innovator|original
+context;1f3a8,1f5bc;gallery|exhibition|display|fresco|composition|sketch
+context;1f4dd;handwriting|list|exam|editor|caption|legibly
+context;1f4dd,1f50d;analyse|check|checker
+context;1f4e6,1f9f3;pack|package|unpack
+context;1f4b0,1f3e6;savings|account|salary|millionaire|price|proceeds|overheads
+context;1f4b5,1f4c5;instalment|deposit
+context;1f4b0,1f91d;sell|bargain|bargain hunter|dealer|broker|purchasable
+context;1f3e0,1f4b0;mortgage|tenant
+context;1f4c8;increasingly|commercialization|effectiveness
+context;1f4c9;impoverish|downfall|abatement
+context;1f512;private|secret|secrecy (title)|safekeeping|secrecy
+context;1f6e1;safety|safeguard|sheltered
+context;1f4e9;message|receipt
+context;1f9d1-200d-1f527;engineering|labourer|manual
+context;1f3d7;framework|foundations|construction|support
+context;1f50d;spot|rediscover|locate|revealer|source|expert
+context;1f3af;endeavour|effortlessly|determined|initiative|strong-minded|unrelenting
+context;1f9d1,1f6a2;captain
+context;1f68c,1f9d1;conductor|busman
+context;1f9d1,1f4bc;boss|official|president|commission|advisory
+context;1f9d1,1f4da;headmaster|learner
+context;1f3a4,1f3ad;performance|artiste|heroine|part|lines
+context;1f9f9,1f6cf;maidservant|chambermaid
+context;1f3e8,1f9d1;hostess|maitre d'hotel
+context;1f4a1,1f9e0;concept|enlightened|illumination|mentally|inmost
+context;1f50a,1f442;auditory
+context;1f6e0,1f4bb;technology|technique
+context;1f4bb,1f3b6;multimedia
+context;1f4bb,1f44d;user-friendly
+context;1f30d,1f9f3;emigrate|foreigner|foreign|alien|overseas
+context;1f680,1f52d;NASA
+context;1f3c6,1f3c3;race|contest|rival|versus
+context;1f3c6,1f4aa;pride|confidently|self-respecting
+context;1f4aa;vitality|unshakable|enterprising
+context;1f3c6,1f389;excitement|exciting|exhilaration|cheer
+context;1f3ea,1f34e;market
+context;1f9d1,1f6e1;guard|watchdog
+context;1f4e6,1f69a;unload
+context;1f6a4,1f30a;water ski|speedboat|buoy|aquaplane
+context;1f93f,1f30a;diver|underwater
+context;1f30a,1f6a2;deck|disembark|ashore|starboard|flagship
+context;1f6a2,1f6e2;tanker
+context;1f3d7,1f6e2;oil rig|derrick|gusher
+context;1f3d7,1f9f1;concrete
+context;1f9ea;sample|concoct|alcohol|ethanol|disinfectant|sterilize|bactericidal
+context;1f9ea,1f4a7;insoluble|carbonated|methylated
+context;26a0,1f4a1;electric|hot(title)|volt|power line|spark|fuse
+context;1f50a,1f4a5;blare|boom|chug
+context;1f4a8,1f3e0;air|ventilate
+context;1f32c;breath|air-resistance|pneumatic
+context;1f4d0;size|span|proportion|full-length
+context;1f4d0,1f33e;acre
+context;1f3c3,1f6e3;track|course|mile|way
+context;1f6a6,1f697;speed|milometer|dashboard|gear|brake|pedal
+context;1f4a1,1f697;headlight
+context;1f3e0,1f5fa;premises|room|situation
+context;1f5fa;point|border|territory
+context;1f30a,1f3d4;sea level
+context;1f30a;undulate|fluctuation|undercurrent|waterlogged|reservoir|backwater
+context;1f32c,1f30a;squall|freshen|drifting
+context;1f33f,1f30f;nature|organically-grown|gardening
+context;1f33f,1f41b;pest|carrier
+context;1f50c,26a0;electrocute
+context;1f9e0,1f4ca;sensor|electroencephalograph|seismometer
+context;1f52c;microscopic|paleontological
+context;1f4e1,1f52d;radio astronomer|megacycle
+context;1f3d4,1f9d7;alpinist|venture
+context;1f3d4,1faa8;caveman|fossil man
+context;1f4d6,1f381;reception|hospitable
+context;1f3b6,1f941;rhythm|tempo
+context;1f3ad,1f3a9;conjuring|magic|illusion
+context;1f3d4,1f526;pot-holing|pot-holer
+context;1f9f1,1f3da;disused|dilapidated|run-down|junk
+context;1f9f5;interweave|tether
+context;1f4d0,1f3d7;archway|dome|spire
+diagram;layers;strata
+context;1faa8;flint
+context;1f4ca,1f4dd;census|grid|statistics
+context;1f332,1f3d4;savannah|tableland
+context;1f3e0,1f6cb;cushion|cellar|balcony|windowsill|storeroom
+context;1f6a8,1f512;burgle|smash-and-grab|gangster|ransack
+context;1f575;spy|agent|espionage(title)
+context;1f9d1-200d-2696-fe0f;ombudsman|Justiteombudsman|Inquisition
+context;1f3db,1f512;imprison|gaoler|Bastille
+context;1f4ac,1f64b;please|pleading
+context;1f9d1,1f4ac;encounter|rendezvous
+context;1f3af,1f4dd;self-improvement|self-discipline
+context;1f9d1,1f9d1;coordinate|integrated
+context;1f4d6,1f50d;fundamentals|code|generalize
+context;1f914,1f4d6;abstruse|illogical|paradox
+context;1f9d1,1f30d;sociologist
+context;1f3a8,1f3e0;parquet
+diagram;calendar;January|February|June|July|August|September|October|November|December|weekend|year|century|era|season
+diagram;clock;now|o'clock|punctually|punctuality|overnight|during|while|ago|afterwards|after|since|until|till|elapse|interval|temporarily|prolonged
+diagram;up;upstairs|top
+diagram;down;downstairs|low|downhill|underside
+diagram;right;towards|along|direct|thither|ahead
+diagram;in;into|enter|entrance|embedded
+diagram;out;outside|outlet|escape
+diagram;middle;middle|centre|among
+diagram;equal;equal|as well|too|either
+diagram;two;double|twofold|pair
+diagram;repeat;repeat|again|afresh|renew|incessantly|ceaselessly|interminably
+diagram;check;yes|of course|well|normal|normally|obviously|undeniable|justifiably|infallibility
+diagram;cross;none|nothing|neither|mistake|mistaken|cancel|undoing
+diagram;question;who|whose|which|whether|anyone|anything
+diagram;small;a little|a few|miniature|trifling|imperceptible
+diagram;big;very much|most|far|terribly|maximum|immensity|untold|infinitely|endless
+diagram;line;line|longitudinal|transverse|stretch
+diagram;zigzag;zigzag
+diagram;dot;dot
+diagram;asterisk;asterisk|symbol
+diagram;percent;per cent
+diagram;stack;stack|series|hierarchy|triple
+diagram;wave;vibration|radio frequency
+diagram;stop;motionless|stay
+context;1f1eb-1f1f7;French|Paris|Calais|Grenoble
+context;1f1e9-1f1ea;German
+context;1f1ef-1f1f5;Japanese|Tokyo
+context;1f1f0-1f1f7;Korean
+context;1f1e8-1f1f3;Chinese
+context;1f1e9-1f1f0;Danish|Dane
+context;1f1f3-1f1f4;Norwegian
+context;1f1ec-1f1e7;London|Scotland|Welsh|Greenwich|Newcastle|Southampton|Piccadilly|Chippenham|Athelney|Norfolk Broads|Solent
+context;1f1ec-1f1f7;Greece|Aegean
+context;1f1fa-1f1f8;New York|Chicago|Miami|Brooklyn|Staten|Los Angeles|California|Kansas|Missouri|Utah|Princeton|Mew Jersey|Las Vegas
+context;1f1ea-1f1f8;Madrid
+context;1f1ea-1f1ec;Egypt|Egyptian
+context;1f1ee-1f1f9;Florence|Florentine|Leaning Tower Pisa
+context;1f1ee-1f1f3;Indian
+context;1f1ee-1f1e9;Indonesia|Java
+context;1f1f8-1f1ea;Stockholm
+context;1f1f7-1f1fa;St.Petersbrug|Ulyanovsk|Siberian
+context;1f1f2-1f1e6;Morocco
+context;1f1e8-1f1e9;Congo
+context;1f30a,1f5fa;Pacific|Mediterranean|Caribbean|Baltic|Barents
+context;1f6a2,1f3f4;galleon
+context;1f4bb;IBM|Microsoft
+context;1f4de;AT&T
+context;1f697;Rolls-Royce|Benz
+context;1f9d1,1f411;shepherd
+context;1f9d1,1f418;mahout
+context;1f3db,1f4d6;Aristotle|Aristotelian|Ptolemy
+context;1f9d1,1f3dd;Robinson Crusoe
+context;1f69e;hover-train
+context;1f3d0,1f30a;polo
+context;1f3dd;Virgin|Polynesian
+context;1f1e6-1f1fa,1f1f3-1f1ff;Antipodes
+context;1f3db;monument|classical|victorian
+context;1f9d1,1f4bb;assistant|helper
+context;1f50d,1f4b0;portfolio|tipster|gilt|convertible
+context;1f50d,1f30e;meteorologist
+context;1f3a4,1f3a8;limelight|scene|spectacle
+context;1f4a5,1f697;crash|accidentally
+context;1f527;unscrew|customize|adjustment|hammer out
+context;1f4a7;leakage|inrush|submerge|pump
+context;1f6b6,1f30a;wade
+context;1f447,1f534;press
+context;1f9d1,1f91d;volunteer|help|service
+context;1f6b6,1f68c;get on|get off
+context;1f9d1,1f3e0;owner|name|identity
+context;1f446;touch
+ai_illustration;praying-mantis.png;praying mantis
+ai_illustration;atlas-001-0.png;cloakroom
+ai_illustration;atlas-001-1.png;lamp-post
+ai_illustration;atlas-001-2.png;fire extinguisher
+ai_illustration;atlas-001-3.png;windscreen
+ai_illustration;atlas-002-0.png;blackberry
+ai_illustration;atlas-002-1.png;aphid
+ai_illustration;atlas-002-2.png;bluebottle
+ai_illustration;atlas-002-3.png;termite
+ai_illustration;atlas-003-0.png;albatross
+ai_illustration;atlas-003-1.png;lark
+ai_illustration;atlas-003-2.png;partridge
+ai_illustration;atlas-003-3.png;tadpole
+ai_illustration;atlas-004-0.png;puma
+ai_illustration;atlas-004-1.png;porcupine
+ai_illustration;atlas-004-2.png;St.Bernard
+ai_illustration;atlas-004-3.png;vole
+ai_illustration;atlas-005-0.png;cobra
+ai_illustration;atlas-005-1.png;rattlesnake
+ai_illustration;atlas-005-2.png;viper
+ai_illustration;atlas-005-3.png;mamba
+ai_illustration;atlas-006-0.png;sardine
+ai_illustration;atlas-006-1.png;skate
+ai_illustration;atlas-006-2.png;oarfish
+ai_illustration;atlas-006-3.png;bulrush
+ai_illustration;atlas-007-0.png;clavichord
+ai_illustration;atlas-007-1.png;harp
+ai_illustration;atlas-007-2.png;ashtray
+ai_illustration;atlas-007-3.png;ammeter
+ai_illustration;atlas-008-0.png;jigsaw
+ai_illustration;atlas-008-1.png;clamp
+ai_illustration;atlas-008-2.png;winch
+ai_illustration;atlas-008-3.png;block and tackle
+ai_illustration;atlas-009-0.png;cable
+ai_illustration;atlas-009-1.png;hawser
+ai_illustration;atlas-009-2.png;latch
+ai_illustration;atlas-009-3.png;strap
+ai_illustration;atlas-010-0.png;cutting bit
+ai_illustration;atlas-010-1.png;coring bit
+ai_illustration;atlas-010-2.png;penholder
+ai_illustration;atlas-010-3.png;ninepin
+ai_illustration;atlas-011-0.png;tobacco
+ai_illustration;atlas-011-1.png;mink coat
+ai_illustration;atlas-011-2.png;overalls
+ai_illustration;atlas-011-3.png;uniform
+ai_illustration;atlas-012-0.png;underclothes
+ai_illustration;atlas-012-1.png;sack
+ai_illustration;atlas-012-2.png;safe
+ai_illustration;atlas-012-3.png;note
+ai_illustration;atlas-013-0.png;macaroni
+ai_illustration;atlas-013-1.png;chip
+ai_illustration;atlas-013-2.png;sauerkraut
+ai_illustration;atlas-013-3.png;pastry
+ai_illustration;atlas-014-0.png;gel
+ai_illustration;atlas-014-1.png;roast
+ai_illustration;atlas-014-2.png;capsule
+ai_illustration;atlas-014-3.png;bronze
+ai_illustration;atlas-015-0.png;cannon
+ai_illustration;atlas-015-1.png;rifle
+ai_illustration;atlas-015-2.png;bomber
+ai_illustration;atlas-029-0.png;glider
+ai_illustration;atlas-016-0.png;robot-arm
+ai_illustration;atlas-016-1.png;airfield
+ai_illustration;atlas-016-2.png;platform
+ai_illustration;atlas-016-3.png;mine
+ai_illustration;atlas-017-0.png;courtyard
+ai_illustration;atlas-017-1.png;oceanarium
+ai_illustration;atlas-017-2.png;labyrinth
+ai_illustration;atlas-017-3.png;milestone
+ai_illustration;atlas-018-0.png;stalactite
+ai_illustration;atlas-018-1.png;stalagmite
+ai_illustration;atlas-018-2.png;crevasse
+ai_illustration;atlas-018-3.png;cleft
+ai_illustration;atlas-019-0.png;nostril
+ai_illustration;atlas-019-1.png;hip
+ai_illustration;atlas-019-2.png;freckle
+ai_illustration;atlas-019-3.png;vertebrate
+ai_illustration;atlas-020-0.png;album
+ai_illustration;atlas-020-1.png;print
+ai_illustration;atlas-020-2.png;inflatable
+ai_illustration;atlas-020-3.png;torchlight
+ai_illustration;atlas-021-0.png;paratrooper
+ai_illustration;atlas-021-1.png;flight attendant
+ai_illustration;atlas-021-2.png;porter
+ai_illustration;atlas-021-3.png;vicar
+ai_illustration;atlas-022-0.png;marquis
+ai_illustration;atlas-022-1.png;matador
+ai_illustration;atlas-022-2.png;teenager
+ai_illustration;atlas-022-3.png;grandson
+ai_illustration;atlas-023-0.png;spear
+ai_illustration;atlas-023-1.png;plough
+ai_illustration;atlas-023-2.png;eagle eye
+ai_illustration;atlas-023-3.png;sabre-toothed
+ai_illustration;atlas-024-0.png;Easter
+ai_illustration;atlas-024-1.png;Equator
+ai_illustration;atlas-024-2.png;storey
+ai_illustration;atlas-024-3.png;superstructure
+ai_illustration;atlas-025-0.png;Medusa
+ai_illustration;atlas-025-1.png;Gorgon
+ai_illustration;atlas-025-2.png;Apollo
+ai_illustration;atlas-025-3.png;fortune-teller
+ai_illustration;atlas-026-0.png;antique
+ai_illustration;atlas-026-1.png;beauty spot
+ai_illustration;atlas-026-2.png;bar
+ai_illustration;atlas-026-3.png;bullfight

@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-007",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-007.png",
+  "source_sha256": "bcfe75f17df428e5d6f69a3b7cd5ba6436f312d5b1bc512611aa2e6d5ea02072",
+  "original_generated": "exec-675b54e2-33dc-43c9-b18d-54b4522d6d1f.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a small historical clavichord: rectangular wooden case, short keyboard, visible horizontal strings inside, no modern grand-piano body; TOP RIGHT = one upright triangular harp with a curved neck and clearly separated vertical strings; BOTTOM LEFT = a simple round ashtray with notches, empty, no lit cigarettes; BOTTOM RIGHT = an analog electrical ammeter with needle, arc scale and wire terminals; no labels or letters. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "clavichord",
+      "position": "top_left",
+      "source": "atlas-007-0.png",
+      "sha256": "3d265644b85bc154bc84acb3c13fa278d1465f112e625bbbacefd8823339da06",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "harp",
+      "position": "top_right",
+      "source": "atlas-007-1.png",
+      "sha256": "5fda4a3e21eb72d8bfc4d9042e6629d37eea8685cf9fe2df93099ded5075ec80",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "ashtray",
+      "position": "bottom_left",
+      "source": "atlas-007-2.png",
+      "sha256": "be24f0223c6259f2800830e01d7703ffe961a604ac28f1f3bdc48b819915477b",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "ammeter",
+      "position": "bottom_right",
+      "source": "atlas-007-3.png",
+      "sha256": "cf9953cf97d14b029948c1c46749c5f1ff32a928cc42cc6fdd14d25fb142ecca",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

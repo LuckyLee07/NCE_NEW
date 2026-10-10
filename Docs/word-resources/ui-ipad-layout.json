@@ -1,0 +1,42 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "FD923AFE-C1A6-47CD-B83B-CDCD702EC725",
+        "deviceName" : "NCE Word Resources iPad QA",
+        "modelName" : "iPad Pro 13-inch (M5)",
+        "osBuildNumber" : "23C54",
+        "osVersion" : "26.2",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 0,
+      "passedTests" : 2,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "NCE_Content_QA · Built with macOS 15.7.3",
+  "expectedFailures" : 0,
+  "failedTests" : 0,
+  "finishTime" : 1791258580.393,
+  "passedTests" : 2,
+  "result" : "Passed",
+  "skippedTests" : 0,
+  "startTime" : 1791258468.404,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+
+  ],
+  "title" : "Test - NCE_Content_QA",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 2
+}

@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-self-introduction",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Introducing Yourself",
+    "title_zh": "自我介绍",
+    "level": "A1",
+    "topic": "daily conversation",
+    "estimated_duration_seconds": 70,
+    "tags": [
+      "introduction",
+      "class",
+      "personal information",
+      "greetings"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Hello, my name is David.",
+      "chinese": "你好，我叫大卫。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "Nice to meet you, David.",
+      "chinese": "很高兴见到你，大卫。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Nice to meet you too.",
+      "chinese": "我也很高兴见到你。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "Where are you from?",
+      "chinese": "你来自哪里？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "I am from Canada.",
+      "chinese": "我来自加拿大。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "Do you live in this city?",
+      "chinese": "你住在这个城市吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "Yes, I live near the library.",
+      "chinese": "是的，我住在图书馆附近。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "What do you do?",
+      "chinese": "你是做什么的？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "I am a student.",
+      "chinese": "我是一名学生。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Welcome to our class.",
+      "chinese": "欢迎来到我们的班级。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "name",
+      "part_of_speech": "noun",
+      "meaning_zh": "名字",
+      "example_en": "My name is David.",
+      "example_zh": "我的名字是大卫。"
+    },
+    {
+      "word": "meet",
+      "part_of_speech": "verb",
+      "meaning_zh": "见面；认识",
+      "example_en": "Nice to meet you.",
+      "example_zh": "很高兴见到你。"
+    },
+    {
+      "word": "from",
+      "part_of_speech": "preposition",
+      "meaning_zh": "来自",
+      "example_en": "I am from Canada.",
+      "example_zh": "我来自加拿大。"
+    },
+    {
+      "word": "city",
+      "part_of_speech": "noun",
+      "meaning_zh": "城市",
+      "example_en": "Do you live in this city?",
+      "example_zh": "你住在这个城市吗？"
+    },
+    {
+      "word": "live",
+      "part_of_speech": "verb",
+      "meaning_zh": "居住",
+      "example_en": "I live near the library.",
+      "example_zh": "我住在图书馆附近。"
+    },
+    {
+      "word": "near",
+      "part_of_speech": "preposition",
+      "meaning_zh": "在附近",
+      "example_en": "I live near the library.",
+      "example_zh": "我住在图书馆附近。"
+    },
+    {
+      "word": "student",
+      "part_of_speech": "noun",
+      "meaning_zh": "学生",
+      "example_en": "I am a student.",
+      "example_zh": "我是一名学生。"
+    },
+    {
+      "word": "class",
+      "part_of_speech": "noun",
+      "meaning_zh": "班级；课程",
+      "example_en": "Welcome to our class.",
+      "example_zh": "欢迎来到我们的班级。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "What is the man's name?",
+        "prompt_zh": "这个男人叫什么名字？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "David"
+          },
+          {
+            "id": "B",
+            "text": "Tom"
+          },
+          {
+            "id": "C",
+            "text": "Jack"
+          },
+          {
+            "id": "D",
+            "text": "Peter"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "Where is David from?",
+        "prompt_zh": "大卫来自哪里？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Canada"
+          },
+          {
+            "id": "B",
+            "text": "France"
+          },
+          {
+            "id": "C",
+            "text": "Japan"
+          },
+          {
+            "id": "D",
+            "text": "Spain"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "Where does David live?",
+        "prompt_zh": "大卫住在哪里？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Near the airport"
+          },
+          {
+            "id": "B",
+            "text": "Near the library"
+          },
+          {
+            "id": "C",
+            "text": "Near the bank"
+          },
+          {
+            "id": "D",
+            "text": "Near the school"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "What does David do?",
+        "prompt_zh": "大卫是做什么的？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "He is a teacher"
+          },
+          {
+            "id": "B",
+            "text": "He is a doctor"
+          },
+          {
+            "id": "C",
+            "text": "He is a student"
+          },
+          {
+            "id": "D",
+            "text": "He is a driver"
+          }
+        ],
+        "answer": "C"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Hello, my name is David."
+      },
+      {
+        "id": "dict-2",
+        "line_order": 4,
+        "answer": "Where are you from?"
+      },
+      {
+        "id": "dict-3",
+        "line_order": 9,
+        "answer": "I am a student."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 5,
+    "import_ready": false
+  }
+}
+

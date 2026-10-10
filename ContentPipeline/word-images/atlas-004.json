@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-004",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-004.png",
+  "source_sha256": "e369db3cde8e9881a86c0f705ba6edaff48b5825ce860ca15ad70ff47a07f43b",
+  "original_generated": "exec-73813342-6334-4f8d-8d02-e7bd957a3a5e.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a tawny adult puma/cougar with long tail and unspotted coat, full body side view, no mane; TOP RIGHT = one porcupine with a dense fan of long quills, full body side view; BOTTOM LEFT = a friendly Saint Bernard dog with white and reddish-brown coat, broad head and floppy ears, full body, no barrel or logos; BOTTOM RIGHT = a small brown field vole rodent with rounded ears and short tail, full body side view, not a mole. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "puma",
+      "position": "top_left",
+      "source": "atlas-004-0.png",
+      "sha256": "bbe8d0edc3106788bc922dc1c87228425e73197902941810c9f56bb2c57c2be2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "porcupine",
+      "position": "top_right",
+      "source": "atlas-004-1.png",
+      "sha256": "ba567afe4621bd8098023b1127d1cbca0fe8d57f605195e6d0e5bb686f647f04",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "St.Bernard",
+      "position": "bottom_left",
+      "source": "atlas-004-2.png",
+      "sha256": "ccce710a2729721f3410a2860754a77637ffb200cd9c5d7c16b2370ae3897bc2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "vole",
+      "position": "bottom_right",
+      "source": "atlas-004-3.png",
+      "sha256": "6617aa81b4a635c79ee300c94d24f5b8f95062a37c28e1bb3b37fd47bfd8ac19",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

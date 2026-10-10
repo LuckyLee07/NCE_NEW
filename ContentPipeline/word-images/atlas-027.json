@@ -1,0 +1,53 @@
+{
+  "format_version": 1,
+  "id": "atlas-027",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-027.png",
+  "source_sha256": "e55a7b7ea07cf55f60a28452d7fe07377bc04bbebd19b811028a8dbb854f907e",
+  "original_generated": "exec-def44fb1-6a8c-48cc-b758-5f371c3e115c.png",
+  "prompt": "Use case: scientific-educational. Produce one square 2 by 2 atlas of four small vocabulary illustrations, flat friendly precise classroom style, plain white background. Four equally sized quadrants, no borders, no captions, no letters, no watermark. Each object centered fully contained inside its quadrant with generous white margin, must not cross x/y midlines. Top-left: a spherical polished brass doorknob attached to a small wooden door patch, unmistakable round door handle, not a bolt or screw nut. Top-right: one desktop RAM memory module, green narrow printed circuit board, four black rectangular memory IC chips and gold edge contacts, not a floppy disk or USB stick. Bottom-left: a generic paper bank cheque, horizontal pale white slip with subtle blue lines, a signature squiggle and blank amount box, no readable text or currency, not a bank card or banknote. Bottom-right: a freestanding upright wooden bookcase with three clearly separate shelves containing books, whole bookcase visible, not a stack of books. All four drawings similar scale, clear silhouette, simple 3-5 color palette, legible when each quadrant is downsampled to 128 pixels.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "doorknob",
+      "position": "top_left",
+      "source": "atlas-027-0.png",
+      "sha256": "74e8c011abe1cd496416b9a306f4f81b2852b7c18a60a92da4993aacf9306236",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "memory-chip",
+      "position": "top_right",
+      "source": "atlas-027-1.png",
+      "sha256": "fe4de7a74e1950461da8440d8bcc1d30ec7fd97a9e8a06bcdc614b1353a5ccf2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "cheque",
+      "position": "bottom_left",
+      "source": "atlas-027-2.png",
+      "sha256": "7b3a0fce47e4d781512d4b17f56a8434a5dec204b4347534fcb31c81ec7cda73",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "bookcase",
+      "also_words": ["shelf"],
+      "position": "bottom_right",
+      "source": "atlas-027-3.png",
+      "sha256": "1ad89b893a01fd85b78b11b2e8ec9a81b8b10bfc10de2bbf3a70bbb31e0c5eb3",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

@@ -1,0 +1,2221 @@
+{
+  "format_version": 1,
+  "target_store_version": "1.3",
+  "store_locales": [
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko",
+    "en-US",
+    "en-CA"
+  ],
+  "upload_locales": [
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko",
+    "en-CA"
+  ],
+  "preview_layout": "full_frame_native_capture",
+  "app_ui_locales": [
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko"
+  ],
+  "uploaded": false,
+  "review_submitted": false,
+  "production_records_touched": false,
+  "ads_enabled_in_capture": false,
+  "preview_audio": "silent; no unlicensed music or simulated app audio",
+  "runs": [
+    {
+      "label": "ipad",
+      "device": "106217F3-1E16-46D8-B7A2-29299581B94B",
+      "xcresult": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/ipad/capture.xcresult",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "106217F3-1E16-46D8-B7A2-29299581B94B",
+              "deviceName": "NCE Store Media iPad",
+              "modelName": "iPad Pro (12.9-inch) (6th generation)",
+              "osBuildNumber": "21C62",
+              "osVersion": "17.2",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 1,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "NCE_Content_QA · Built with macOS 15.7.3",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791300328.942,
+        "passedTests": 1,
+        "result": "Passed",
+        "skippedTests": 0,
+        "startTime": 1791299711.362,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - NCE_Content_QA",
+        "topInsights": [],
+        "totalTestCount": 1
+      },
+      "capture_bundle_version": "1.2",
+      "capture_bundle_build": "1"
+    },
+    {
+      "label": "iphone",
+      "device": "96360555-471D-4AFD-819E-CDA9F2436E1D",
+      "xcresult": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/iphone/capture.xcresult",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "96360555-471D-4AFD-819E-CDA9F2436E1D",
+              "deviceName": "NCE Store Media Large iPhone",
+              "modelName": "iPhone 15 Pro Max",
+              "osBuildNumber": "21C62",
+              "osVersion": "17.2",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 1,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "NCE_Content_QA · Built with macOS 15.7.3",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791299392.461,
+        "passedTests": 1,
+        "result": "Passed",
+        "skippedTests": 0,
+        "startTime": 1791298792.285,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - NCE_Content_QA",
+        "topInsights": [],
+        "totalTestCount": 1
+      },
+      "capture_bundle_version": "1.2",
+      "capture_bundle_build": "1"
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "upload/ko/ipad/05-wordbook.png",
+      "bytes": 328814,
+      "sha256": "dfbfd8a24bab5448a68c408c9dff403522d282b6644cef9f768139fea6f0157a",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "ipad",
+      "scene": "05-wordbook",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300297.936,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ko/ipad/04-practice.png",
+      "bytes": 205159,
+      "sha256": "5d7a74ee168cf66407d3db5fcc105ae7d8f317d354413acff453d416b0a94769",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "ipad",
+      "scene": "04-practice",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300266.932,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ko/ipad/03-word.png",
+      "bytes": 182441,
+      "sha256": "47f9b28a03ebbe1755cc409d87a541f5f33e0cd5485207b3239d1bd9e254a2e5",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "ipad",
+      "scene": "03-word",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300234.326,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ko/ipad/02-lesson.png",
+      "bytes": 330564,
+      "sha256": "8580ef6bcb40c4857a7ed46088b865a02b1943e29b08f43a387b15c73d6b7cee",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "ipad",
+      "scene": "02-lesson",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300202.702,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ko/ipad/01-home.png",
+      "bytes": 3171930,
+      "sha256": "b8553e85554df7a3d66c08b191d198c17a85500b3200cdb9d74279e7b6d63635",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "ipad",
+      "scene": "01-home",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300185.308,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/ipad/05-wordbook.png",
+      "bytes": 394455,
+      "sha256": "aa63e0c044b642495a1e07dbec04767a30676b26b5a4d6961d2be27f919a72d1",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "ipad",
+      "scene": "05-wordbook",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300148.806,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/ipad/04-practice.png",
+      "bytes": 223809,
+      "sha256": "2446f50a4b44aad38bfce695554ca083b4c4ec95c74d134ed6cf5e01f1855cf6",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "ipad",
+      "scene": "04-practice",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300117.856,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/ipad/03-word.png",
+      "bytes": 185302,
+      "sha256": "4b85cbff8114f6447978d4d9fb6a11b655e394cd2872000c2102f293a2187625",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "ipad",
+      "scene": "03-word",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300085.419,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/ipad/02-lesson.png",
+      "bytes": 407545,
+      "sha256": "43e5c5727ca727a35313d4e5426adf8c7886dc4d30eb153658815a5aeb54e39f",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "ipad",
+      "scene": "02-lesson",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300054.31,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/ipad/01-home.png",
+      "bytes": 3174779,
+      "sha256": "f65a3055d04a15c91817bcc52cd8ca611e5966eba44b0b1fb0702cccdc769002",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "ipad",
+      "scene": "01-home",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300036.945,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/ipad/05-wordbook.png",
+      "bytes": 324349,
+      "sha256": "09d90aa8e5b0f1f959da7034fb9cfaa7ca3f2ca5f2ece12ed96240dee7e87798",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "ipad",
+      "scene": "05-wordbook",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791300000.635,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/ipad/04-practice.png",
+      "bytes": 221188,
+      "sha256": "aa2a6421dbc7fbd1f45da099707105cec612966c9a21baa7741ac7787bc3d49d",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "ipad",
+      "scene": "04-practice",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299969.471,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/ipad/03-word.png",
+      "bytes": 180046,
+      "sha256": "37044bdd008dda5e3c6c2e55eb8257ced5683a544dcf8838c210a8bf13fe1868",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "ipad",
+      "scene": "03-word",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299936.797,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/ipad/02-lesson.png",
+      "bytes": 332553,
+      "sha256": "26c148e9b0f7e40dda24003ec244d6737ad0bf6cefe995187fda252dd20664b4",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "ipad",
+      "scene": "02-lesson",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299905.346,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/ipad/01-home.png",
+      "bytes": 3174779,
+      "sha256": "f65a3055d04a15c91817bcc52cd8ca611e5966eba44b0b1fb0702cccdc769002",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "ipad",
+      "scene": "01-home",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299888.007,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/ipad/05-wordbook.png",
+      "bytes": 322111,
+      "sha256": "be5280a31e294c6464a4805081b38c955a7cd1af5137a1a8b8f6a65b4f735915",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "05-wordbook",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299851.708,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/ipad/04-practice.png",
+      "bytes": 218213,
+      "sha256": "9a469c38f3cbdc92b4559caee38d7fb12a514e8bd6e5546f009e9375a311c192",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "04-practice",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299820.535,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/ipad/03-word.png",
+      "bytes": 179393,
+      "sha256": "42a995b90c7e9402e7d3cef21b1fa75ee70b821e0204b87bfe8776b844a0685b",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "03-word",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299788.033,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/ipad/02-lesson.png",
+      "bytes": 332155,
+      "sha256": "5a99cb073c311831101d345ae0f430c72aef12e345fa6cdc0a004f3763bef577",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "02-lesson",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299756.802,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/ipad/01-home.png",
+      "bytes": 3174659,
+      "sha256": "de1cbfcc668bab80ef80b55260115b6d3694a43a4ee5f53e4dbcf5c8cb48b597",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "01-home",
+      "width": 2048,
+      "height": 2732,
+      "mode": "RGB",
+      "capture_timestamp": 1791299739.293,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/en-US/ipad/01-home.png",
+      "bytes": 3174659,
+      "sha256": "de1cbfcc668bab80ef80b55260115b6d3694a43a4ee5f53e4dbcf5c8cb48b597",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "01-home",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-US/ipad/02-lesson.png",
+      "bytes": 332155,
+      "sha256": "5a99cb073c311831101d345ae0f430c72aef12e345fa6cdc0a004f3763bef577",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "02-lesson",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-US/ipad/03-word.png",
+      "bytes": 179393,
+      "sha256": "42a995b90c7e9402e7d3cef21b1fa75ee70b821e0204b87bfe8776b844a0685b",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "03-word",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-US/ipad/04-practice.png",
+      "bytes": 218213,
+      "sha256": "9a469c38f3cbdc92b4559caee38d7fb12a514e8bd6e5546f009e9375a311c192",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "04-practice",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-US/ipad/05-wordbook.png",
+      "bytes": 322111,
+      "sha256": "be5280a31e294c6464a4805081b38c955a7cd1af5137a1a8b8f6a65b4f735915",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "05-wordbook",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/ipad/01-home.png",
+      "bytes": 3174659,
+      "sha256": "de1cbfcc668bab80ef80b55260115b6d3694a43a4ee5f53e4dbcf5c8cb48b597",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "01-home",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/ipad/02-lesson.png",
+      "bytes": 332155,
+      "sha256": "5a99cb073c311831101d345ae0f430c72aef12e345fa6cdc0a004f3763bef577",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "02-lesson",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/ipad/03-word.png",
+      "bytes": 179393,
+      "sha256": "42a995b90c7e9402e7d3cef21b1fa75ee70b821e0204b87bfe8776b844a0685b",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "03-word",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/ipad/04-practice.png",
+      "bytes": 218213,
+      "sha256": "9a469c38f3cbdc92b4559caee38d7fb12a514e8bd6e5546f009e9375a311c192",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "04-practice",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/ipad/05-wordbook.png",
+      "bytes": 322111,
+      "sha256": "be5280a31e294c6464a4805081b38c955a7cd1af5137a1a8b8f6a65b4f735915",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "ipad",
+      "scene": "05-wordbook",
+      "width": 2048,
+      "height": 2732,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/ko/iphone/05-wordbook.png",
+      "bytes": 298664,
+      "sha256": "0ac470cdc7d92677b8bb548abd8dae3cb76a981d7f9406a17e47bca26f2c2da2",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "iphone",
+      "scene": "05-wordbook",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299362.102,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ko/iphone/04-practice.png",
+      "bytes": 171556,
+      "sha256": "6179a5524b0d36d62c9be98d3c031e18cf7882dcaba89e1ee0b31bcc7b54b5f5",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "iphone",
+      "scene": "04-practice",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299331.18,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ko/iphone/03-word.png",
+      "bytes": 218233,
+      "sha256": "fbeef2170fb82dffa86a84c7ec89915ede6585b1f6a788c4768f35c876b3b1dd",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "iphone",
+      "scene": "03-word",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299305.43,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ko/iphone/02-lesson.png",
+      "bytes": 294591,
+      "sha256": "379fa58e97cf95db1fd166fa9e34d11061a43fd2a8d514e802fed5d2255fd20d",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "iphone",
+      "scene": "02-lesson",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299275.694,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ko/iphone/01-home.png",
+      "bytes": 1755793,
+      "sha256": "a573a80f535708f51c5f75e0e904ddcf1750efb17e9b5252aa8c735be080b9a9",
+      "locale": "ko",
+      "actual_ui_locale": "ko",
+      "device": "iphone",
+      "scene": "01-home",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299258.477,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/iphone/05-wordbook.png",
+      "bytes": 355926,
+      "sha256": "f9865c1dcf6662d52de436a141b66691786d957619744d70348a3cb1d7269e37",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "iphone",
+      "scene": "05-wordbook",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299221.611,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/iphone/04-practice.png",
+      "bytes": 229727,
+      "sha256": "821ce0268e5de09ea31050c173f5793101cc4a6f75e1e9cbf064fb8f170d0ab5",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "iphone",
+      "scene": "04-practice",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299189.212,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/iphone/03-word.png",
+      "bytes": 220624,
+      "sha256": "a327f1c701bf0fc1661d5a27cdefe3d16b4933907da249023ee05734b8738560",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "iphone",
+      "scene": "03-word",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299163.121,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/iphone/02-lesson.png",
+      "bytes": 356664,
+      "sha256": "593c70dd36084a10e904e0040fa9bc1270fc622f7df5fa9b8f0e44afa94e1a01",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "iphone",
+      "scene": "02-lesson",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299133.793,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/ja/iphone/01-home.png",
+      "bytes": 1759836,
+      "sha256": "bc69a6210709ed87c15f6cc95721fc703c81167dd4ba865e501d0f9a9f4a03f7",
+      "locale": "ja",
+      "actual_ui_locale": "ja",
+      "device": "iphone",
+      "scene": "01-home",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299116.571,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/iphone/05-wordbook.png",
+      "bytes": 293999,
+      "sha256": "f1538583be06c39090c2b238152b973c7f70afa94a128d0d473d5e753d27133f",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "iphone",
+      "scene": "05-wordbook",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299080.451,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/iphone/04-practice.png",
+      "bytes": 209018,
+      "sha256": "09517074ea1df39ab57b96c9f6a4c251858b23d903baf33f2e2d3580b438b9cc",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "iphone",
+      "scene": "04-practice",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299049.428,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/iphone/03-word.png",
+      "bytes": 222001,
+      "sha256": "751322d33c853673ee44088d99f755f6c467ab08fdb3f103118c87ed4c4b432b",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "iphone",
+      "scene": "03-word",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791299023.977,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/iphone/02-lesson.png",
+      "bytes": 295176,
+      "sha256": "e41d53b9d5797539cdc3972cb33a5915f4e93edc11c0dff73ee8d18c28e68a2d",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "iphone",
+      "scene": "02-lesson",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791298994.327,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hant/iphone/01-home.png",
+      "bytes": 1759836,
+      "sha256": "bc69a6210709ed87c15f6cc95721fc703c81167dd4ba865e501d0f9a9f4a03f7",
+      "locale": "zh-Hant",
+      "actual_ui_locale": "zh-Hant",
+      "device": "iphone",
+      "scene": "01-home",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791298977.095,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/iphone/05-wordbook.png",
+      "bytes": 291631,
+      "sha256": "b2db91d7458028500f720082e23a09513e5447d2abce912caa8b3a42bf819021",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "05-wordbook",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791298940.986,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/iphone/04-practice.png",
+      "bytes": 207141,
+      "sha256": "909eff21ab8f4686b69d94dd16f3caf55c925cfc9ba49bf36879871c9e6140a6",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "04-practice",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791298910.03,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/iphone/03-word.png",
+      "bytes": 221550,
+      "sha256": "1f98286da3b29b527908ea8bb4b06315440e1d9c768ab89909f85333d3f1a768",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "03-word",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791298884.364,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/iphone/02-lesson.png",
+      "bytes": 295408,
+      "sha256": "ee2bf5ddec7ba50e71b737e9fc86bf3a253e267b6f0b981913f936fabf26740e",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "02-lesson",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791298853.915,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/zh-Hans/iphone/01-home.png",
+      "bytes": 1759993,
+      "sha256": "ff7aff74cf187aec4b3e8d3691b737ad0ebff093993fa927952c7743e3cda55d",
+      "locale": "zh-Hans",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "01-home",
+      "width": 1290,
+      "height": 2796,
+      "mode": "RGB",
+      "capture_timestamp": 1791298836.297,
+      "native_unmodified_screenshot": true,
+      "nonblank": true
+    },
+    {
+      "path": "upload/en-US/iphone/01-home.png",
+      "bytes": 1759993,
+      "sha256": "ff7aff74cf187aec4b3e8d3691b737ad0ebff093993fa927952c7743e3cda55d",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "01-home",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-US/iphone/02-lesson.png",
+      "bytes": 295408,
+      "sha256": "ee2bf5ddec7ba50e71b737e9fc86bf3a253e267b6f0b981913f936fabf26740e",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "02-lesson",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-US/iphone/03-word.png",
+      "bytes": 221550,
+      "sha256": "1f98286da3b29b527908ea8bb4b06315440e1d9c768ab89909f85333d3f1a768",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "03-word",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-US/iphone/04-practice.png",
+      "bytes": 207141,
+      "sha256": "909eff21ab8f4686b69d94dd16f3caf55c925cfc9ba49bf36879871c9e6140a6",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "04-practice",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-US/iphone/05-wordbook.png",
+      "bytes": 291631,
+      "sha256": "b2db91d7458028500f720082e23a09513e5447d2abce912caa8b3a42bf819021",
+      "locale": "en-US",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "05-wordbook",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/iphone/01-home.png",
+      "bytes": 1759993,
+      "sha256": "ff7aff74cf187aec4b3e8d3691b737ad0ebff093993fa927952c7743e3cda55d",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "01-home",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/iphone/02-lesson.png",
+      "bytes": 295408,
+      "sha256": "ee2bf5ddec7ba50e71b737e9fc86bf3a253e267b6f0b981913f936fabf26740e",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "02-lesson",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/iphone/03-word.png",
+      "bytes": 221550,
+      "sha256": "1f98286da3b29b527908ea8bb4b06315440e1d9c768ab89909f85333d3f1a768",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "03-word",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/iphone/04-practice.png",
+      "bytes": 207141,
+      "sha256": "909eff21ab8f4686b69d94dd16f3caf55c925cfc9ba49bf36879871c9e6140a6",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "04-practice",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    },
+    {
+      "path": "upload/en-CA/iphone/05-wordbook.png",
+      "bytes": 291631,
+      "sha256": "b2db91d7458028500f720082e23a09513e5447d2abce912caa8b3a42bf819021",
+      "locale": "en-CA",
+      "actual_ui_locale": "zh-Hans",
+      "device": "iphone",
+      "scene": "05-wordbook",
+      "width": 1290,
+      "height": 2796,
+      "native_unmodified_screenshot": true
+    }
+  ],
+  "videos": [
+    {
+      "path": "upload/zh-Hans/ipad/app-preview.mp4",
+      "bytes": 31540391,
+      "sha256": "a215a054da767428485b0fa997214e5b3d7e2e9b59c11728004e01b28c061578",
+      "duration_seconds": 24.022,
+      "width": 1200,
+      "height": 1600,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501845,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.212292,
+        "03-word": 0.000104,
+        "04-practice": 0.023438,
+        "05-wordbook": 0.128802
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0447,
+            "max_edge_rgb_error": 0.1266
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0238,
+            "max_edge_rgb_error": 0.0911
+          },
+          "03-word": {
+            "mean_rgb_error": 0.032,
+            "max_edge_rgb_error": 0.1812
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0322,
+            "max_edge_rgb_error": 0.1031
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0266,
+            "max_edge_rgb_error": 0.1078
+          }
+        }
+      },
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "actual_ui_locale": "zh-Hans",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/ipad/zh-Hans-raw.mov",
+      "source_pixels": [
+        2048,
+        2732
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.155623197555542,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.155623:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.744072198867798,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.744072:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 55.98067927360535,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=55.980679:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 88.48360013961792,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=88.483600:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 119.66228008270264,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=119.662280:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false
+    },
+    {
+      "path": "upload/zh-Hant/ipad/app-preview.mp4",
+      "bytes": 31540390,
+      "sha256": "b4f133b087807caa93b5b746a9e02d62a3d47e4d95de13129a0cd89c48c8c53d",
+      "duration_seconds": 24.022,
+      "width": 1200,
+      "height": 1600,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501844,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.212396,
+        "03-word": 0.000104,
+        "04-practice": 0.037187,
+        "05-wordbook": 0.128281
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0465,
+            "max_edge_rgb_error": 0.1469
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.028,
+            "max_edge_rgb_error": 0.0946
+          },
+          "03-word": {
+            "mean_rgb_error": 0.0309,
+            "max_edge_rgb_error": 0.1727
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0267,
+            "max_edge_rgb_error": 0.0974
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.027,
+            "max_edge_rgb_error": 0.1017
+          }
+        }
+      },
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "actual_ui_locale": "zh-Hant",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/ipad/zh-Hant-raw.mov",
+      "source_pixels": [
+        2048,
+        2732
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 6.966202974319458,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=6.966203:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.380200147628784,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.380200:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 55.83339810371399,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=55.833398:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 88.4930260181427,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=88.493026:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 119.68764996528625,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=119.687650:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false
+    },
+    {
+      "path": "upload/ja/ipad/app-preview.mp4",
+      "bytes": 31540377,
+      "sha256": "78b8301cafa4019e307d6a6c89dc830c260aada247daf1df66f85f210adf7048",
+      "duration_seconds": 24.022,
+      "width": 1200,
+      "height": 1600,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501840,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.152917,
+        "03-word": 0.000104,
+        "04-practice": 0.03401,
+        "05-wordbook": 0.15724
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0468,
+            "max_edge_rgb_error": 0.1469
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0269,
+            "max_edge_rgb_error": 0.099
+          },
+          "03-word": {
+            "mean_rgb_error": 0.031,
+            "max_edge_rgb_error": 0.1715
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0313,
+            "max_edge_rgb_error": 0.1023
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0299,
+            "max_edge_rgb_error": 0.1064
+          }
+        }
+      },
+      "locale": "ja",
+      "device": "ipad",
+      "actual_ui_locale": "ja",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/ipad/ja-raw.mov",
+      "source_pixels": [
+        2048,
+        2732
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 6.870721817016602,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=6.870722:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.30620789527893,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.306208:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 55.42060399055481,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=55.420604:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 87.85711288452148,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=87.857113:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 118.82072496414185,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=118.820725:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false
+    },
+    {
+      "path": "upload/ko/ipad/app-preview.mp4",
+      "bytes": 31540364,
+      "sha256": "dd2b3b1b4ae6f74091153107f765d0afe312d5b498652f305e46306ef25a00b2",
+      "duration_seconds": 24.022,
+      "width": 1200,
+      "height": 1600,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501844,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.153333,
+        "03-word": 0.000104,
+        "04-practice": 0.033958,
+        "05-wordbook": 0.148594
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0461,
+            "max_edge_rgb_error": 0.1391
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0287,
+            "max_edge_rgb_error": 0.1132
+          },
+          "03-word": {
+            "mean_rgb_error": 0.0322,
+            "max_edge_rgb_error": 0.1764
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0292,
+            "max_edge_rgb_error": 0.1073
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0306,
+            "max_edge_rgb_error": 0.1156
+          }
+        }
+      },
+      "locale": "ko",
+      "device": "ipad",
+      "actual_ui_locale": "ko",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/ipad/ko-raw.mov",
+      "source_pixels": [
+        2048,
+        2732
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.013099908828735,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.013100:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.45728611946106,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.457286:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 56.086568117141724,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=56.086568:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 88.69793701171875,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=88.697937:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 119.71524405479431,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=119.715244:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false
+    },
+    {
+      "path": "upload/en-US/ipad/app-preview.mp4",
+      "bytes": 31540391,
+      "sha256": "a215a054da767428485b0fa997214e5b3d7e2e9b59c11728004e01b28c061578",
+      "duration_seconds": 24.022,
+      "width": 1200,
+      "height": 1600,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501845,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.212292,
+        "03-word": 0.000104,
+        "04-practice": 0.023438,
+        "05-wordbook": 0.128802
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0447,
+            "max_edge_rgb_error": 0.1266
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0238,
+            "max_edge_rgb_error": 0.0911
+          },
+          "03-word": {
+            "mean_rgb_error": 0.032,
+            "max_edge_rgb_error": 0.1812
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0322,
+            "max_edge_rgb_error": 0.1031
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0266,
+            "max_edge_rgb_error": 0.1078
+          }
+        }
+      },
+      "locale": "en-US",
+      "device": "ipad",
+      "actual_ui_locale": "zh-Hans",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/ipad/zh-Hans-raw.mov",
+      "source_pixels": [
+        2048,
+        2732
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.155623197555542,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.155623:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.744072198867798,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.744072:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 55.98067927360535,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=55.980679:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 88.48360013961792,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=88.483600:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 119.66228008270264,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=119.662280:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false,
+      "identical_to": "upload/zh-Hans/ipad/app-preview.mp4"
+    },
+    {
+      "path": "upload/en-CA/ipad/app-preview.mp4",
+      "bytes": 31540391,
+      "sha256": "a215a054da767428485b0fa997214e5b3d7e2e9b59c11728004e01b28c061578",
+      "duration_seconds": 24.022,
+      "width": 1200,
+      "height": 1600,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501845,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.212292,
+        "03-word": 0.000104,
+        "04-practice": 0.023438,
+        "05-wordbook": 0.128802
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0447,
+            "max_edge_rgb_error": 0.1266
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0238,
+            "max_edge_rgb_error": 0.0911
+          },
+          "03-word": {
+            "mean_rgb_error": 0.032,
+            "max_edge_rgb_error": 0.1812
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0322,
+            "max_edge_rgb_error": 0.1031
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0266,
+            "max_edge_rgb_error": 0.1078
+          }
+        }
+      },
+      "locale": "en-CA",
+      "device": "ipad",
+      "actual_ui_locale": "zh-Hans",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/ipad/zh-Hans-raw.mov",
+      "source_pixels": [
+        2048,
+        2732
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.155623197555542,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.155623:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.744072198867798,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.744072:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 55.98067927360535,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=55.980679:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 88.48360013961792,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=88.483600:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 119.66228008270264,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=119.662280:duration=4.8,setpts=PTS-STARTPTS,scale=1200:1600:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false,
+      "identical_to": "upload/en-US/ipad/app-preview.mp4"
+    },
+    {
+      "path": "upload/zh-Hans/iphone/app-preview.mp4",
+      "bytes": 31540213,
+      "sha256": "5be9a30634f98cc1bccec6f6fcaf34c5c67bec88fa9cd9fe7414c178df6d12aa",
+      "duration_seconds": 24.022,
+      "width": 886,
+      "height": 1920,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501818,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.178237,
+        "03-word": 0.000641,
+        "04-practice": 0.034712,
+        "05-wordbook": 0.182147
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0485,
+            "max_edge_rgb_error": 0.0582
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0238,
+            "max_edge_rgb_error": 0.0783
+          },
+          "03-word": {
+            "mean_rgb_error": 0.0195,
+            "max_edge_rgb_error": 0.0809
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0347,
+            "max_edge_rgb_error": 0.0859
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0325,
+            "max_edge_rgb_error": 0.0887
+          }
+        }
+      },
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "actual_ui_locale": "zh-Hans",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/iphone/zh-Hans-raw.mov",
+      "source_pixels": [
+        1290,
+        2796
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.052097797393799,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.052098:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.711148977279663,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.711149:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 55.16982293128967,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=55.169823:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 80.82202100753784,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=80.822021:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 111.79310894012451,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=111.793109:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false
+    },
+    {
+      "path": "upload/zh-Hant/iphone/app-preview.mp4",
+      "bytes": 31540202,
+      "sha256": "9545332fc51e455ee710229f17d29571cdf0d40130fad3b5e6ec6a5f604334fd",
+      "duration_seconds": 24.022,
+      "width": 886,
+      "height": 1920,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501815,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.178173,
+        "03-word": 0.000673,
+        "04-practice": 0.059712,
+        "05-wordbook": 0.179135
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0485,
+            "max_edge_rgb_error": 0.0597
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0229,
+            "max_edge_rgb_error": 0.0747
+          },
+          "03-word": {
+            "mean_rgb_error": 0.0195,
+            "max_edge_rgb_error": 0.0814
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0349,
+            "max_edge_rgb_error": 0.0804
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0309,
+            "max_edge_rgb_error": 0.0844
+          }
+        }
+      },
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "actual_ui_locale": "zh-Hant",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/iphone/zh-Hant-raw.mov",
+      "source_pixels": [
+        1290,
+        2796
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.134428977966309,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.134429:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.392184019088745,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.392184:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 54.05065107345581,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=54.050651:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 79.50210189819336,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=79.502102:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 110.52517485618591,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=110.525175:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false
+    },
+    {
+      "path": "upload/ja/iphone/app-preview.mp4",
+      "bytes": 31663093,
+      "sha256": "73bf27f03f19bb164dc452fdba661e9d8df415595835d99b1084d2a3a86e4808",
+      "duration_seconds": 24.022,
+      "width": 886,
+      "height": 1920,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10542769,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.129391,
+        "03-word": 0.000641,
+        "04-practice": 0.079295,
+        "05-wordbook": 0.223173
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0484,
+            "max_edge_rgb_error": 0.0598
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.026,
+            "max_edge_rgb_error": 0.0834
+          },
+          "03-word": {
+            "mean_rgb_error": 0.0195,
+            "max_edge_rgb_error": 0.0781
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0483,
+            "max_edge_rgb_error": 0.1823
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0352,
+            "max_edge_rgb_error": 0.0803
+          }
+        }
+      },
+      "locale": "ja",
+      "device": "iphone",
+      "actual_ui_locale": "ja",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/iphone/ja-raw.mov",
+      "source_pixels": [
+        1290,
+        2796
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.204094171524048,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.204094:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.45960307121277,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.459603:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 53.79153108596802,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=53.791531:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 79.86492919921875,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=79.864929:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 112.27333402633667,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=112.273334:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false
+    },
+    {
+      "path": "upload/ko/iphone/app-preview.mp4",
+      "bytes": 31542137,
+      "sha256": "984363b0a12bf332637ac16909d1a743e421eef32388c7f46ed3ac76770dd42f",
+      "duration_seconds": 24.022,
+      "width": 886,
+      "height": 1920,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10502432,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.129038,
+        "03-word": 0.000609,
+        "04-practice": 0.056506,
+        "05-wordbook": 0.205769
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0494,
+            "max_edge_rgb_error": 0.0581
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0263,
+            "max_edge_rgb_error": 0.0804
+          },
+          "03-word": {
+            "mean_rgb_error": 0.0198,
+            "max_edge_rgb_error": 0.084
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0314,
+            "max_edge_rgb_error": 0.0795
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0376,
+            "max_edge_rgb_error": 0.0843
+          }
+        }
+      },
+      "locale": "ko",
+      "device": "iphone",
+      "actual_ui_locale": "ko",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/iphone/ko-raw.mov",
+      "source_pixels": [
+        1290,
+        2796
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.184396982192993,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.184397:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.43075203895569,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.430752:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 54.16792392730713,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=54.167924:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 79.91024208068848,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=79.910242:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 110.84172892570496,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=110.841729:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false
+    },
+    {
+      "path": "upload/en-US/iphone/app-preview.mp4",
+      "bytes": 31540213,
+      "sha256": "5be9a30634f98cc1bccec6f6fcaf34c5c67bec88fa9cd9fe7414c178df6d12aa",
+      "duration_seconds": 24.022,
+      "width": 886,
+      "height": 1920,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501818,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.178237,
+        "03-word": 0.000641,
+        "04-practice": 0.034712,
+        "05-wordbook": 0.182147
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0485,
+            "max_edge_rgb_error": 0.0582
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0238,
+            "max_edge_rgb_error": 0.0783
+          },
+          "03-word": {
+            "mean_rgb_error": 0.0195,
+            "max_edge_rgb_error": 0.0809
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0347,
+            "max_edge_rgb_error": 0.0859
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0325,
+            "max_edge_rgb_error": 0.0887
+          }
+        }
+      },
+      "locale": "en-US",
+      "device": "iphone",
+      "actual_ui_locale": "zh-Hans",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/iphone/zh-Hans-raw.mov",
+      "source_pixels": [
+        1290,
+        2796
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.052097797393799,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.052098:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.711148977279663,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.711149:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 55.16982293128967,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=55.169823:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 80.82202100753784,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=80.822021:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 111.79310894012451,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=111.793109:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false,
+      "identical_to": "upload/zh-Hans/iphone/app-preview.mp4"
+    },
+    {
+      "path": "upload/en-CA/iphone/app-preview.mp4",
+      "bytes": 31540213,
+      "sha256": "5be9a30634f98cc1bccec6f6fcaf34c5c67bec88fa9cd9fe7414c178df6d12aa",
+      "duration_seconds": 24.022,
+      "width": 886,
+      "height": 1920,
+      "fps": 30.0,
+      "codec": "H.264",
+      "profile": "High",
+      "level": 40,
+      "pixel_format": "yuv420p",
+      "audio": "silent AAC stereo 48 kHz",
+      "video_bit_rate": 10501818,
+      "all_frames_decode": true,
+      "actual_app_motion_changed_pixel_fraction": {
+        "01-home": 0.0,
+        "02-lesson": 0.178237,
+        "03-word": 0.000641,
+        "04-practice": 0.034712,
+        "05-wordbook": 0.182147
+      },
+      "native_framing_validation": {
+        "status": "passed",
+        "sampled_scenes": 5,
+        "source_comparison": {
+          "01-home": {
+            "mean_rgb_error": 0.0485,
+            "max_edge_rgb_error": 0.0582
+          },
+          "02-lesson": {
+            "mean_rgb_error": 0.0238,
+            "max_edge_rgb_error": 0.0783
+          },
+          "03-word": {
+            "mean_rgb_error": 0.0195,
+            "max_edge_rgb_error": 0.0809
+          },
+          "04-practice": {
+            "mean_rgb_error": 0.0347,
+            "max_edge_rgb_error": 0.0859
+          },
+          "05-wordbook": {
+            "mean_rgb_error": 0.0325,
+            "max_edge_rgb_error": 0.0887
+          }
+        }
+      },
+      "locale": "en-CA",
+      "device": "iphone",
+      "actual_ui_locale": "zh-Hans",
+      "source_recording": "/private/tmp/NCEStoreMedia-Captures-Final-20261006/iphone/zh-Hans-raw.mov",
+      "source_pixels": [
+        1290,
+        2796
+      ],
+      "edits": [
+        {
+          "scene": "01-home",
+          "source_offset_seconds": 7.052097797393799,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=7.052098:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "02-lesson",
+          "source_offset_seconds": 24.711148977279663,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=24.711149:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "03-word",
+          "source_offset_seconds": 55.16982293128967,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=55.169823:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "04-practice",
+          "source_offset_seconds": 80.82202100753784,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=80.822021:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        },
+        {
+          "scene": "05-wordbook",
+          "source_offset_seconds": 111.79310894012451,
+          "duration_seconds": 4.8,
+          "video_filter": "fps=30,trim=start=111.793109:duration=4.8,setpts=PTS-STARTPTS,scale=886:1920:flags=lanczos,setsar=1"
+        }
+      ],
+      "poster_time_seconds": 1.0,
+      "preview_layout": "full_frame_native_capture",
+      "added_framing": false,
+      "text_overlays": false,
+      "identical_to": "upload/en-US/iphone/app-preview.mp4"
+    }
+  ],
+  "posters": [
+    {
+      "path": "upload/zh-Hans/iphone/preview-poster.png",
+      "bytes": 617166,
+      "sha256": "747eb69bac6152a4b0911ad4272309cb5749acaf19a19a87116ef69d90439380",
+      "locale": "zh-Hans",
+      "device": "iphone",
+      "width": 886,
+      "height": 1920,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/zh-Hans/ipad/preview-poster.png",
+      "bytes": 593192,
+      "sha256": "f788aff48567afbf0f9f330de99b3dc80541e62479a6c700ff9c3522bda9bc37",
+      "locale": "zh-Hans",
+      "device": "ipad",
+      "width": 1200,
+      "height": 1600,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/zh-Hant/iphone/preview-poster.png",
+      "bytes": 617749,
+      "sha256": "074835c9a5043d09fcdb00d2a225f809c7e5d8de7901ca3e0670d10d18e79177",
+      "locale": "zh-Hant",
+      "device": "iphone",
+      "width": 886,
+      "height": 1920,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/zh-Hant/ipad/preview-poster.png",
+      "bytes": 593010,
+      "sha256": "9b6ce2cf79c643ae1dea6bae322cadfb949c769e166a02a5a2e58db1bc05b756",
+      "locale": "zh-Hant",
+      "device": "ipad",
+      "width": 1200,
+      "height": 1600,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/ja/iphone/preview-poster.png",
+      "bytes": 617586,
+      "sha256": "c4999658f53fa669cf7c3964def23a5382a61e6c1bb6beb1d2ff24cae7bf10e6",
+      "locale": "ja",
+      "device": "iphone",
+      "width": 886,
+      "height": 1920,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/ja/ipad/preview-poster.png",
+      "bytes": 593535,
+      "sha256": "571b038293c408621595d5eba8706e9a9a17d8d3354f0d266d6fd32a5add3d34",
+      "locale": "ja",
+      "device": "ipad",
+      "width": 1200,
+      "height": 1600,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/ko/iphone/preview-poster.png",
+      "bytes": 612870,
+      "sha256": "f78d77be2212d5aa3268df705f116ed18ff294bf44700e16d724715edcb0aeda",
+      "locale": "ko",
+      "device": "iphone",
+      "width": 886,
+      "height": 1920,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/ko/ipad/preview-poster.png",
+      "bytes": 591390,
+      "sha256": "494f7ed4e96a10266a1f5bddc48aa41b266f2907d59ff31e75a7e4e0b489c0ce",
+      "locale": "ko",
+      "device": "ipad",
+      "width": 1200,
+      "height": 1600,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/en-US/iphone/preview-poster.png",
+      "bytes": 617166,
+      "sha256": "747eb69bac6152a4b0911ad4272309cb5749acaf19a19a87116ef69d90439380",
+      "locale": "en-US",
+      "device": "iphone",
+      "width": 886,
+      "height": 1920,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/en-US/ipad/preview-poster.png",
+      "bytes": 593192,
+      "sha256": "f788aff48567afbf0f9f330de99b3dc80541e62479a6c700ff9c3522bda9bc37",
+      "locale": "en-US",
+      "device": "ipad",
+      "width": 1200,
+      "height": 1600,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/en-CA/iphone/preview-poster.png",
+      "bytes": 617166,
+      "sha256": "747eb69bac6152a4b0911ad4272309cb5749acaf19a19a87116ef69d90439380",
+      "locale": "en-CA",
+      "device": "iphone",
+      "width": 886,
+      "height": 1920,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    },
+    {
+      "path": "upload/en-CA/ipad/preview-poster.png",
+      "bytes": 593192,
+      "sha256": "f788aff48567afbf0f9f330de99b3dc80541e62479a6c700ff9c3522bda9bc37",
+      "locale": "en-CA",
+      "device": "ipad",
+      "width": 1200,
+      "height": 1600,
+      "reference_only": true,
+      "poster_time_seconds": 1.0
+    }
+  ],
+  "technical_validation": "passed",
+  "visual_review": "passed_within_preview_framing_scope",
+  "native_language_editorial_review": "pending",
+  "asc_processing": "not_uploaded"
+}

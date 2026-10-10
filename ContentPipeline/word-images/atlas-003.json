@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-003",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-003.png",
+  "source_sha256": "5d7ae67828438618dd0550e19d694f88935e84091fc52c71a4803437891d6d87",
+  "original_generated": "exec-d6314969-c254-4fb7-bb38-7caf206384bc.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a white-and-gray albatross in flight with very long narrow outstretched wings and hooked bill; TOP RIGHT = a small brown lark standing, short beak and a slight crest, simple side view; BOTTOM LEFT = a plump brown-gray partridge with a short tail and orange face, simple side view; BOTTOM RIGHT = a dark tadpole with a round head and long tapering tail, no frog legs. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "albatross",
+      "position": "top_left",
+      "source": "atlas-003-0.png",
+      "sha256": "35ec2f0a04c044ee0c511e9d0680deab4c78137333ab408e98530d0682056f25",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "lark",
+      "position": "top_right",
+      "source": "atlas-003-1.png",
+      "sha256": "a81c9498f99a5fdab5cba6400f6d5c0c9057427cf8cb4e160cbff4683797505d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "partridge",
+      "position": "bottom_left",
+      "source": "atlas-003-2.png",
+      "sha256": "6adb175dfe4e1bd5bbc3d5ad77a3c2c38522acc2a5a474531efdd5827b628216",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "tadpole",
+      "position": "bottom_right",
+      "source": "atlas-003-3.png",
+      "sha256": "d1dd3091eaf4b03df4d5b6e7c2305ad24508cd887d9d6c3549ff57ed926e0d42",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

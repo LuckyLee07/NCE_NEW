@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-018",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-018.png",
+  "source_sha256": "2cc18a850a293c66d5bb84b0c1c7cc2f5d32e9603f1a960e29177c73b78c8d29",
+  "original_generated": "exec-38de2f41-7630-4f71-b508-b0d2fc780d16.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a cave ceiling cross-section with one tapered mineral formation hanging DOWN from the ceiling, the hanging tip clearly central; TOP RIGHT = a cave floor cross-section with one tapered mineral formation growing UP from the floor, the upright tip clearly central; BOTTOM LEFT = a deep narrow crack in blue-white glacier ice viewed obliquely, simple recognizable opening; BOTTOM RIGHT = a narrow visible split between two rocky faces, isolated geological rock cleft, no glacier ice. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "stalactite",
+      "position": "top_left",
+      "source": "atlas-018-0.png",
+      "sha256": "7058cafc1ede3fae3aa35d6a776610f66c546c60228d40c10e55af96b050e7f9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "stalagmite",
+      "position": "top_right",
+      "source": "atlas-018-1.png",
+      "sha256": "ce77aea9b1163340f332fb1b4e23fc6ec284b1d9fb3c1e41fdf5e8fdf485f2a3",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "crevasse",
+      "position": "bottom_left",
+      "source": "atlas-018-2.png",
+      "sha256": "3bc4b07b23a2ce43b4039ff03a80352d39cd0e60cef0267b6e04644b00440fc7",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "cleft",
+      "position": "bottom_right",
+      "source": "atlas-018-3.png",
+      "sha256": "889e079f00ae291826a0b33cbd703fd74f83eae4b00a13fb412c1f393373ac3c",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

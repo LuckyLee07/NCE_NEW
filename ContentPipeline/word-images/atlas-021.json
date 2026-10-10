@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-021",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-021.png",
+  "source_sha256": "3fb56d8f0ec6fca2892a116fa1da996ba43881d44763a93fd3655d193be80e8b",
+  "original_generated": "exec-248c405a-4f1d-4952-af72-9f1055f13104.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a fully clothed paratrooper descending beneath an open round parachute, no combat or weapons; TOP RIGHT = a fully clothed adult flight attendant in a plain uniform beside an airplane-cabin service cart, no airline logos; BOTTOM LEFT = a fully clothed station porter carrying two suitcases on a small trolley, unbranded; BOTTOM RIGHT = a fully clothed parish vicar in a plain clerical shirt with small white collar, beside a simple church doorway. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "paratrooper",
+      "position": "top_left",
+      "source": "atlas-021-0.png",
+      "sha256": "7dd9819da26f3e98d04d79adbc1635b81512caf01fded8899af31675f4252044",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "flight attendant",
+      "position": "top_right",
+      "source": "atlas-021-1.png",
+      "sha256": "1ee9cc179593b3bf2c40988b0a9767cd5d0d99de8d7797946f01f8cce006dfb8",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "porter",
+      "position": "bottom_left",
+      "source": "atlas-021-2.png",
+      "sha256": "e2b049b11f95d6b2d37aa3da2e547e30bca3b0ffc68d31e3a1066269094cf40e",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "vicar",
+      "position": "bottom_right",
+      "source": "atlas-021-3.png",
+      "sha256": "d65b1c010cd7474cbafb1eb154cf168bb19b9f12a36f93013182776d9906de6a",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

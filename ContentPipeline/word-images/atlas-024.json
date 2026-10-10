@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-024",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-024.png",
+  "source_sha256": "148e5e8315da1a8f4a17d43ddd8ddc560af0aff45a04077e05e092c7720ee158",
+  "original_generated": "exec-72b410d8-9b9d-4691-b350-84de86eb0841.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a small basket of three decorated Easter eggs beside a green leaf, simple holiday icon, no words or religious claims; TOP RIGHT = a simple spherical globe with an emphasized ring around the exact middle, representing the equator; no labels or detailed national boundaries; BOTTOM LEFT = a small three-storey building cutaway with three clearly separated floor levels; highlight the middle floor; BOTTOM RIGHT = a small side-view ship diagram: highlight the bridge/cabins ABOVE the main deck while the hull stays gray, no labels. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "Easter",
+      "position": "top_left",
+      "source": "atlas-024-0.png",
+      "sha256": "babadf388563e5ce4213afe63ca113742c15653fc62edef4a7d0d05d81268871",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "Equator",
+      "position": "top_right",
+      "source": "atlas-024-1.png",
+      "sha256": "2093cd607c2b4e799753114c11cb6e0125f8e56f423b6c4f4af923158d3854b1",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "storey",
+      "position": "bottom_left",
+      "source": "atlas-024-2.png",
+      "sha256": "a91fa03fd439ad107d4d27c4eb32f90758b2a09148c3d2b02a6fcaa04ef035e2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "superstructure",
+      "position": "bottom_right",
+      "source": "atlas-024-3.png",
+      "sha256": "7658ec50d8a4d64c37aab0e1fba42403239078296c2fa4c63c85e4be52efbcff",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

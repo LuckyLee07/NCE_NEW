@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-022",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-022.png",
+  "source_sha256": "3c1316219611fe2938dae1c586b49c8bf9d068a3e108b1073828ed8930a0eecb",
+  "original_generated": "exec-b903808d-716d-4096-bf14-53979215947d.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a fully clothed historical European nobleman in a formal coat with a small simple coronet, generic not a real person; TOP RIGHT = a fully clothed matador holding a folded red cape in a relaxed pose, no bull, injuries or combat; BOTTOM LEFT = a fully clothed adolescent with backpack and casual shirt and trousers, generic respectful appearance; BOTTOM RIGHT = a small family relationship vignette: an older grandparent beside an adult parent and a young boy; a small outline highlights the boy, no text. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "marquis",
+      "position": "top_left",
+      "source": "atlas-022-0.png",
+      "sha256": "2262756e59c7ad7ab67a5fd36667a49577e2f482b98c53beb313476243a37c03",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "matador",
+      "position": "top_right",
+      "source": "atlas-022-1.png",
+      "sha256": "41f50ba1a42e78ed5eae3a6d85e15837ddc0f5e959b5edb3edb8fb04c1363b86",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "teenager",
+      "position": "bottom_left",
+      "source": "atlas-022-2.png",
+      "sha256": "ea89396a9139e046274db03bdb35df246727bb7c3695dc19ce98d71fbf1b7a7b",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "grandson",
+      "position": "bottom_right",
+      "source": "atlas-022-3.png",
+      "sha256": "8ddc242501ebe990183129ed456de754424a34703c4ac53720c7df8c54498659",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

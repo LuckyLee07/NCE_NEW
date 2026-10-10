@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-009",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-009.png",
+  "source_sha256": "96a5c005365162af0de7e603e7e4127541396517ebc1186cad11aced6e4169d3",
+  "original_generated": "exec-a2db5b8a-6f03-427a-920f-30b4b84d72c1.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a thick braided steel cable coiled into a loop, metal strands visible; TOP RIGHT = a heavy thick ship rope coiled on a plain surface, twisted fiber strands; BOTTOM LEFT = a simple horizontal sliding bolt latch mounted on a small wooden door section; BOTTOM RIGHT = one plain adjustable fabric strap with a small metal buckle, laid out in a gentle curve. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "cable",
+      "position": "top_left",
+      "source": "atlas-009-0.png",
+      "sha256": "20beb4fc7f397c5f27f9306a26b3fe45144b2d5656795b7821974941e5ec4d01",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "hawser",
+      "position": "top_right",
+      "source": "atlas-009-1.png",
+      "sha256": "3bed9f1f3714f659e96ba3ef233caabbcdc2c4638312ae0c1d53305db62c91ff",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "latch",
+      "position": "bottom_left",
+      "source": "atlas-009-2.png",
+      "sha256": "6ad541f94a5fda2cf9e20021bd3592ef022a2b4c156cf209bb5359dea0985e49",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "strap",
+      "position": "bottom_right",
+      "source": "atlas-009-3.png",
+      "sha256": "d32bb1088f121d063e9d0ed6e035ac7f81d2205406ebb832ac27abce0cabcd18",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

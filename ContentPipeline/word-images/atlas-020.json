@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-020",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-020.png",
+  "source_sha256": "fd90ef99d6d999b16a9c8c4dd2d4d5f04e52b939f6773b0638b8d0094fe6be99",
+  "original_generated": "exec-6621cd37-f6fe-41c3-9782-d40d8544f61e.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = an open photo album showing several small rectangular photo frames on its pages, unbranded; TOP RIGHT = a single dark shoe footprint imprint in a small patch of sand, not a printing machine; BOTTOM LEFT = a small inflated rubber dinghy with clearly air-filled tubular sides, unbranded; BOTTOM RIGHT = a small handheld flashlight casting a visible cone of light onto a plain surface. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "album",
+      "position": "top_left",
+      "source": "atlas-020-0.png",
+      "sha256": "a08a439414eec03932000207cf57c5f2d487a341823983c84e1174b901818c26",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "print",
+      "position": "top_right",
+      "source": "atlas-020-1.png",
+      "sha256": "b47806a5349ee096f864d14197d4895c9b33441b4fac0156fa430a9b4b9f84e0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "inflatable",
+      "position": "bottom_left",
+      "source": "atlas-020-2.png",
+      "sha256": "61d6f9d77f03e8063a4dc7da9b17383d242b2e058d3495e4b9f42d05185e1627",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "torchlight",
+      "position": "bottom_right",
+      "source": "atlas-020-3.png",
+      "sha256": "c731262a0920709c0ff58edf8266dee2e51d125686f9335b84f2f73e4b2fa32e",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

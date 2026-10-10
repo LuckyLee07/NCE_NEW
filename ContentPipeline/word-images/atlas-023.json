@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-023",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-023.png",
+  "source_sha256": "59239b3df55c52c072809a68f4f48ab0c506a25ef8ab7c3eb8d095649e344aa5",
+  "original_generated": "exec-92d5edd1-0ba9-41d4-a5a2-464fcf1126f0.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = an isolated underwater fishing speargun with a slender spear shaft along the barrel, no person or instructions; not a medieval spear; TOP RIGHT = a simple agricultural plough with curved metal blades turning a strip of soil, no brand; BOTTOM LEFT = a clear close-up of an eagle head in profile with its sharp eye emphasized, no threatening expression; BOTTOM RIGHT = a generic prehistoric cat head profile with two very long saber-shaped upper canine teeth clearly visible, no blood or action. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "spear",
+      "position": "top_left",
+      "source": "atlas-023-0.png",
+      "sha256": "fe519a8c88bbe097eb6738241193ed8a806a60e383aaba11795692e7f7f28ab4",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "plough",
+      "position": "top_right",
+      "source": "atlas-023-1.png",
+      "sha256": "067d622fa7ba633aa2be37be3cc464c54ebf6fa1c9991b53c9100c37d0986b59",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "eagle eye",
+      "position": "bottom_left",
+      "source": "atlas-023-2.png",
+      "sha256": "fc513238a7d11bbb33bae5546b8b7a9d5f7da314456e4de9e6042b172c0132d0",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "sabre-toothed",
+      "position": "bottom_right",
+      "source": "atlas-023-3.png",
+      "sha256": "5fe5f884bb6e7db0913ce347f73ed1fb4450cb8047cda9332c58798e5975f037",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

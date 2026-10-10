@@ -1,0 +1,145 @@
+{
+  "format_version": 1,
+  "verified_at_utc": "2026-10-06 02:46:22 UTC",
+  "conclusion": {
+    "technical_resource_completion": true,
+    "automated_checks_passed": true,
+    "human_content_acceptance_complete": false
+  },
+  "fresh_build": {
+    "project": "NCE_ALL.xcodeproj",
+    "scheme": "NCE_NEW",
+    "configuration": "Debug",
+    "sdk": "iphonesimulator",
+    "code_signing": false,
+    "derived_data": "/private/tmp/NCEWordImagesSecondCheck",
+    "exit_code": 0,
+    "log": "/private/tmp/NCEWordImagesSecondCheck-build.log"
+  },
+  "database": {
+    "word_rows": 3332,
+    "unique_word_keys": 3104,
+    "empty_word_keys": 0,
+    "unchanged_from_baseline": true,
+    "packaged_database_identical": true
+  },
+  "coverage": {
+    "image_files": 3099,
+    "audio_files": 3099,
+    "word_keys_with_image": 3104,
+    "word_keys_with_audio": 3104,
+    "image_missing": 0,
+    "audio_missing": 0,
+    "image_invalid": 0,
+    "audio_invalid": 0,
+    "image_ambiguous": 0,
+    "audio_ambiguous": 0,
+    "image_case_aliases": 5,
+    "audio_case_aliases": 6
+  },
+  "new_images": {
+    "count": 1320,
+    "width": 128,
+    "height": 128,
+    "total_bytes": 3508389,
+    "max_bytes": 5570,
+    "max_allowed_bytes": 8192,
+    "original_images_unchanged": 1779,
+    "kinds": {
+      "ai_illustration": 108,
+      "context": 499,
+      "diagram": 124,
+      "illustration": 183,
+      "meaning_card": 406
+    }
+  },
+  "independent_package_check": {
+    "method": "Enumerate complete source/package resource file lists and compare SHA-256 for every learning resource file; exclude only .DS_Store metadata from source.",
+    "identical_files": 6202,
+    "differences": 0,
+    "excluded_source_metadata": [
+      ".DS_Store",
+      "jpg/.DS_Store",
+      "wav/.DS_Store"
+    ],
+    "production_pngs_in_app": 0
+  },
+  "independent_atlas_check": {
+    "method": "Re-cut every atlas using the native cutter in a fresh temporary directory; compare source/cell hashes and each cell's final ledger word assignment.",
+    "atlases": 26,
+    "matching_recut_cells": 104,
+    "mismatches": 0,
+    "newest_production_plan_atlases": 25,
+    "newest_production_plan_words": 100
+  },
+  "tests": {
+    "source_word_tests": {
+      "command": "bash Tools/test_word_resources.sh",
+      "exit_code": 0,
+      "unit_tests": 9
+    },
+    "fresh_app_word_tests": {
+      "command": "bash Tools/test_word_resources.sh /private/tmp/NCEWordImagesSecondCheck/Build/Products/Debug-iphonesimulator/NCE_ALL.app/data/words",
+      "exit_code": 0,
+      "unit_tests": 9
+    },
+    "fresh_app_lesson_tests": {
+      "command": "bash Tools/test_lesson_packs.sh /private/tmp/NCEWordImagesSecondCheck/Build/Products/Debug-iphonesimulator/NCE_ALL.app/data/lesson-packs",
+      "exit_code": 0,
+      "unit_tests": 15,
+      "hashed_entries": 8890,
+      "decoded_audio_samples": 8,
+      "error_cases": 9,
+      "concurrency_passed": true
+    },
+    "browser_gallery": {
+      "command": "NODE_PATH=/Users/lizi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules node Tools/test_word_image_review.cjs",
+      "exit_code": 0,
+      "loaded_images": 1320,
+      "ai_filter_count": 108,
+      "viewport_widths": [
+        1440,
+        390,
+        320
+      ],
+      "filter_search_passed": true,
+      "horizontal_overflow": false,
+      "ai_full_gallery_screenshot": "/private/tmp/NCEWordImagesAI-second-full.png"
+    },
+    "git_diff_check": {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  },
+  "content_acceptance": {
+    "image_status": "pending_semantic_review",
+    "image_pending": 1320,
+    "image_approved_review_rows": 0,
+    "audio_status": "pending_listening_review",
+    "audio_pending": 210,
+    "audio_approved_review_rows": 0,
+    "editorial_holds": [
+      "Justiteombudsman",
+      "Mew Jersey",
+      "St.Petersbrug",
+      "anchor"
+    ],
+    "additional_semantic_review": [
+      "vole",
+      "bulrush",
+      "glider",
+      "hip",
+      "jigsaw",
+      "capsule",
+      "print",
+      "plough",
+      "superstructure"
+    ],
+    "notes": [
+      "Meaning cards are an approved fallback, not AI object illustrations.",
+      "Successful decode, correct file assignment and visual rendering do not certify pronunciation or word-sense accuracy.",
+      "Existing case aliases still require word-sense review.",
+      "No real-device comprehensive functional test or rights authorization review was performed in this validation."
+    ]
+  }
+}

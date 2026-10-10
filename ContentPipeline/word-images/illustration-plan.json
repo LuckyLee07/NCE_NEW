@@ -1,0 +1,636 @@
+{
+  "format_version": 1,
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "retained_cards": "Function words, abstract senses, uncertain proper names and specialized technical/medical labels retain explicitly labelled meaning cards rather than misleading literal pictures.",
+  "batches": [
+    {
+      "id": "atlas-002",
+      "cells": [
+        {
+          "index": 0,
+          "word": "blackberry",
+          "description": "a small cluster of ripe blackberries with dark purple-black aggregate drupelets and one green leaf; not blue blueberries"
+        },
+        {
+          "index": 1,
+          "word": "aphid",
+          "description": "a small pale green pear-shaped aphid on a leaf, six legs and two visible rear cornicles, simple enlarged insect illustration"
+        },
+        {
+          "index": 2,
+          "word": "bluebottle",
+          "description": "a blue-green metallic blowfly with six legs and two clear wings, enlarged simple insect illustration"
+        },
+        {
+          "index": 3,
+          "word": "termite",
+          "description": "a pale soft-bodied termite with six legs, straight antennae and thick waist; not an ant"
+        }
+      ]
+    },
+    {
+      "id": "atlas-003",
+      "cells": [
+        {
+          "index": 0,
+          "word": "albatross",
+          "description": "a white-and-gray albatross in flight with very long narrow outstretched wings and hooked bill"
+        },
+        {
+          "index": 1,
+          "word": "lark",
+          "description": "a small brown lark standing, short beak and a slight crest, simple side view"
+        },
+        {
+          "index": 2,
+          "word": "partridge",
+          "description": "a plump brown-gray partridge with a short tail and orange face, simple side view"
+        },
+        {
+          "index": 3,
+          "word": "tadpole",
+          "description": "a dark tadpole with a round head and long tapering tail, no frog legs"
+        }
+      ]
+    },
+    {
+      "id": "atlas-004",
+      "cells": [
+        {
+          "index": 0,
+          "word": "puma",
+          "description": "a tawny adult puma/cougar with long tail and unspotted coat, full body side view, no mane"
+        },
+        {
+          "index": 1,
+          "word": "porcupine",
+          "description": "one porcupine with a dense fan of long quills, full body side view"
+        },
+        {
+          "index": 2,
+          "word": "St.Bernard",
+          "description": "a friendly Saint Bernard dog with white and reddish-brown coat, broad head and floppy ears, full body, no barrel or logos"
+        },
+        {
+          "index": 3,
+          "word": "vole",
+          "description": "a small brown field vole rodent with rounded ears and short tail, full body side view, not a mole"
+        }
+      ]
+    },
+    {
+      "id": "atlas-005",
+      "cells": [
+        {
+          "index": 0,
+          "word": "cobra",
+          "description": "a single cobra with raised head and expanded hood, full coiled body visible"
+        },
+        {
+          "index": 1,
+          "word": "rattlesnake",
+          "description": "a single coiled rattlesnake with a clearly visible segmented rattle at its tail"
+        },
+        {
+          "index": 2,
+          "word": "viper",
+          "description": "a short thick-bodied viper with triangular head and a zigzag dorsal pattern, simple side view"
+        },
+        {
+          "index": 3,
+          "word": "mamba",
+          "description": "a slender green mamba snake stretched along a plain branch, no expanded hood"
+        }
+      ]
+    },
+    {
+      "id": "atlas-006",
+      "cells": [
+        {
+          "index": 0,
+          "word": "sardine",
+          "description": "a small silver sardine fish with subtle blue back, full body side view"
+        },
+        {
+          "index": 1,
+          "word": "skate",
+          "description": "a skate ray with flat diamond-shaped body, winglike fins and long thin tail, top view"
+        },
+        {
+          "index": 2,
+          "word": "oarfish",
+          "description": "a very long ribbon-like silver oarfish with red dorsal fin and red head crest, whole body curved to fit"
+        },
+        {
+          "index": 3,
+          "word": "bulrush",
+          "description": "a clump of tall green reeds with long upright leaves and brown cylindrical seed heads"
+        }
+      ]
+    },
+    {
+      "id": "atlas-007",
+      "cells": [
+        {
+          "index": 0,
+          "word": "clavichord",
+          "description": "a small historical clavichord: rectangular wooden case, short keyboard, visible horizontal strings inside, no modern grand-piano body"
+        },
+        {
+          "index": 1,
+          "word": "harp",
+          "description": "one upright triangular harp with a curved neck and clearly separated vertical strings"
+        },
+        {
+          "index": 2,
+          "word": "ashtray",
+          "description": "a simple round ashtray with notches, empty, no lit cigarettes"
+        },
+        {
+          "index": 3,
+          "word": "ammeter",
+          "description": "an analog electrical ammeter with needle, arc scale and wire terminals; no labels or letters"
+        }
+      ]
+    },
+    {
+      "id": "atlas-008",
+      "cells": [
+        {
+          "index": 0,
+          "word": "jigsaw",
+          "description": "a handheld powered jigsaw tool with a short thin vertical reciprocating blade and flat base; not a puzzle"
+        },
+        {
+          "index": 1,
+          "word": "clamp",
+          "description": "one C-shaped metal clamp with a screw and small handle"
+        },
+        {
+          "index": 2,
+          "word": "winch",
+          "description": "a manual winch with a drum wound with cable and a turning handle"
+        },
+        {
+          "index": 3,
+          "word": "block and tackle",
+          "description": "a simple block-and-tackle pulley pair connected by multiple rope loops, no assembly instructions or labels"
+        }
+      ]
+    },
+    {
+      "id": "atlas-009",
+      "cells": [
+        {
+          "index": 0,
+          "word": "cable",
+          "description": "a thick braided steel cable coiled into a loop, metal strands visible"
+        },
+        {
+          "index": 1,
+          "word": "hawser",
+          "description": "a heavy thick ship rope coiled on a plain surface, twisted fiber strands"
+        },
+        {
+          "index": 2,
+          "word": "latch",
+          "description": "a simple horizontal sliding bolt latch mounted on a small wooden door section"
+        },
+        {
+          "index": 3,
+          "word": "strap",
+          "description": "one plain adjustable fabric strap with a small metal buckle, laid out in a gentle curve"
+        }
+      ]
+    },
+    {
+      "id": "atlas-010",
+      "cells": [
+        {
+          "index": 0,
+          "word": "cutting bit",
+          "description": "a solid spiral drill cutting bit, isolated side view, recognizably a metal drill bit"
+        },
+        {
+          "index": 1,
+          "word": "coring bit",
+          "description": "a hollow cylindrical core drilling bit with toothed cutting rim, isolated side view; clearly hollow"
+        },
+        {
+          "index": 2,
+          "word": "penholder",
+          "description": "a classic dip-pen holder shaft fitted with a metal writing nib, isolated diagonally"
+        },
+        {
+          "index": 3,
+          "word": "ninepin",
+          "description": "one wooden ninepin bowling skittle with narrow neck and rounded body, upright"
+        }
+      ]
+    },
+    {
+      "id": "atlas-011",
+      "cells": [
+        {
+          "index": 0,
+          "word": "tobacco",
+          "description": "a small pile of dry shredded tobacco leaves with one whole brown leaf; no lit cigarette or branding"
+        },
+        {
+          "index": 1,
+          "word": "mink coat",
+          "description": "a simple dark brown fur coat hanging on a hanger, full coat visible, no wearer or logos"
+        },
+        {
+          "index": 2,
+          "word": "overalls",
+          "description": "a pair of blue work overalls with bib and shoulder straps, full garment on a hanger"
+        },
+        {
+          "index": 3,
+          "word": "uniform",
+          "description": "a neat matching work-uniform shirt and trousers, plain unbranded, full clothing set"
+        }
+      ]
+    },
+    {
+      "id": "atlas-012",
+      "cells": [
+        {
+          "index": 0,
+          "word": "underclothes",
+          "description": "a modest plain cotton undershirt and folded briefs laid flat, no wearer"
+        },
+        {
+          "index": 1,
+          "word": "sack",
+          "description": "a simple burlap sack tied at the top, full bag visible"
+        },
+        {
+          "index": 2,
+          "word": "safe",
+          "description": "a metal safe/strongbox with thick door and round combination dial, no numbers or labels"
+        },
+        {
+          "index": 3,
+          "word": "note",
+          "description": "a generic banknote with ornamental border and oval blank portrait area, no currency symbol, readable text or real-bank branding"
+        }
+      ]
+    },
+    {
+      "id": "atlas-013",
+      "cells": [
+        {
+          "index": 0,
+          "word": "macaroni",
+          "description": "a small bowl of elbow-shaped macaroni pasta, distinct hollow tubes"
+        },
+        {
+          "index": 1,
+          "word": "chip",
+          "description": "a small portion of golden fried potato chips/slices in a plain bowl, no packaging"
+        },
+        {
+          "index": 2,
+          "word": "sauerkraut",
+          "description": "a plain bowl of pale finely shredded fermented cabbage, not red kimchi"
+        },
+        {
+          "index": 3,
+          "word": "pastry",
+          "description": "one small golden filled pastry pie with crimped edge and a cut section showing filling"
+        }
+      ]
+    },
+    {
+      "id": "atlas-014",
+      "cells": [
+        {
+          "index": 0,
+          "word": "gel",
+          "description": "a plain open jar with a translucent mound of hair gel and a detached lid, no labels"
+        },
+        {
+          "index": 1,
+          "word": "roast",
+          "description": "a small roasted joint of meat on a plain plate, browned exterior and one sliced piece"
+        },
+        {
+          "index": 2,
+          "word": "capsule",
+          "description": "a small cylindrical metal container with a removable lid, empty, no medicine or spacecraft"
+        },
+        {
+          "index": 3,
+          "word": "bronze",
+          "description": "a small bronze metal ingot and a bronze-colored decorative cup, recognizable copper-gold metal sheen, no labels"
+        }
+      ]
+    },
+    {
+      "id": "atlas-015",
+      "cells": [
+        {
+          "index": 0,
+          "word": "cannon",
+          "description": "an old cannon barrel on a simple two-wheel carriage, isolated, unloaded, no battle"
+        },
+        {
+          "index": 1,
+          "word": "rifle",
+          "description": "an isolated ordinary historical bolt-action rifle with wooden stock, full object, no person, no ammunition or operational detail"
+        },
+        {
+          "index": 2,
+          "word": "bomber",
+          "description": "a generic historical twin-engine bomber aircraft in flight, full outline, no bombs, insignia, combat or readable text"
+        },
+        {
+          "index": 3,
+          "word": "glider",
+          "description": "a small human-scale unpowered glider aircraft with long slender wings, no engine or propeller, full outline"
+        }
+      ]
+    },
+    {
+      "id": "atlas-016",
+      "cells": [
+        {
+          "index": 0,
+          "word": "robot-arm",
+          "description": "a simple industrial articulated robot arm with three joints and a small gripper, unbranded"
+        },
+        {
+          "index": 1,
+          "word": "airfield",
+          "description": "a tiny airfield scene with a runway strip, one small parked aircraft and a low hangar, no labels"
+        },
+        {
+          "index": 2,
+          "word": "platform",
+          "description": "a railway station platform with a canopy, bench and the side of one stationary train"
+        },
+        {
+          "index": 3,
+          "word": "mine",
+          "description": "a small mine entrance in rock with timber supports, a rail track and an ore cart, no people"
+        }
+      ]
+    },
+    {
+      "id": "atlas-017",
+      "cells": [
+        {
+          "index": 0,
+          "word": "courtyard",
+          "description": "a simple courtyard enclosed by three low building walls, tiled open ground and a central small plant"
+        },
+        {
+          "index": 1,
+          "word": "oceanarium",
+          "description": "a large aquarium viewing window with blue water and two fish silhouettes inside, no visitor text"
+        },
+        {
+          "index": 2,
+          "word": "labyrinth",
+          "description": "a small simple top-down maze with clear walls and one entrance and exit, no letters or numbers"
+        },
+        {
+          "index": 3,
+          "word": "milestone",
+          "description": "an upright roadside stone distance marker beside a small road, blank face with no lettering"
+        }
+      ]
+    },
+    {
+      "id": "atlas-018",
+      "cells": [
+        {
+          "index": 0,
+          "word": "stalactite",
+          "description": "a cave ceiling cross-section with one tapered mineral formation hanging DOWN from the ceiling, the hanging tip clearly central"
+        },
+        {
+          "index": 1,
+          "word": "stalagmite",
+          "description": "a cave floor cross-section with one tapered mineral formation growing UP from the floor, the upright tip clearly central"
+        },
+        {
+          "index": 2,
+          "word": "crevasse",
+          "description": "a deep narrow crack in blue-white glacier ice viewed obliquely, simple recognizable opening"
+        },
+        {
+          "index": 3,
+          "word": "cleft",
+          "description": "a narrow visible split between two rocky faces, isolated geological rock cleft, no glacier ice"
+        }
+      ]
+    },
+    {
+      "id": "atlas-019",
+      "cells": [
+        {
+          "index": 0,
+          "word": "nostril",
+          "description": "a simple external nose close-up with a small arrow pointing to one visible nostril opening, clean neutral skin-tone diagram"
+        },
+        {
+          "index": 1,
+          "word": "hip",
+          "description": "a clothed standing adult wearing plain trousers, a small outline circle indicates the side hip area; no nudity"
+        },
+        {
+          "index": 2,
+          "word": "freckle",
+          "description": "a simple face close-up with a few small brown freckles across cheeks and nose, no exaggerated features"
+        },
+        {
+          "index": 3,
+          "word": "vertebrate",
+          "description": "a simplified fish outline with an internal highlighted segmented backbone, explanatory category diagram, no labels"
+        }
+      ]
+    },
+    {
+      "id": "atlas-020",
+      "cells": [
+        {
+          "index": 0,
+          "word": "album",
+          "description": "an open photo album showing several small rectangular photo frames on its pages, unbranded"
+        },
+        {
+          "index": 1,
+          "word": "print",
+          "description": "a single dark shoe footprint imprint in a small patch of sand, not a printing machine"
+        },
+        {
+          "index": 2,
+          "word": "inflatable",
+          "description": "a small inflated rubber dinghy with clearly air-filled tubular sides, unbranded"
+        },
+        {
+          "index": 3,
+          "word": "torchlight",
+          "description": "a small handheld flashlight casting a visible cone of light onto a plain surface"
+        }
+      ]
+    },
+    {
+      "id": "atlas-021",
+      "cells": [
+        {
+          "index": 0,
+          "word": "paratrooper",
+          "description": "a fully clothed paratrooper descending beneath an open round parachute, no combat or weapons"
+        },
+        {
+          "index": 1,
+          "word": "flight attendant",
+          "description": "a fully clothed adult flight attendant in a plain uniform beside an airplane-cabin service cart, no airline logos"
+        },
+        {
+          "index": 2,
+          "word": "porter",
+          "description": "a fully clothed station porter carrying two suitcases on a small trolley, unbranded"
+        },
+        {
+          "index": 3,
+          "word": "vicar",
+          "description": "a fully clothed parish vicar in a plain clerical shirt with small white collar, beside a simple church doorway"
+        }
+      ]
+    },
+    {
+      "id": "atlas-022",
+      "cells": [
+        {
+          "index": 0,
+          "word": "marquis",
+          "description": "a fully clothed historical European nobleman in a formal coat with a small simple coronet, generic not a real person"
+        },
+        {
+          "index": 1,
+          "word": "matador",
+          "description": "a fully clothed matador holding a folded red cape in a relaxed pose, no bull, injuries or combat"
+        },
+        {
+          "index": 2,
+          "word": "teenager",
+          "description": "a fully clothed adolescent with backpack and casual shirt and trousers, generic respectful appearance"
+        },
+        {
+          "index": 3,
+          "word": "grandson",
+          "description": "a small family relationship vignette: an older grandparent beside an adult parent and a young boy; a small outline highlights the boy, no text"
+        }
+      ]
+    },
+    {
+      "id": "atlas-023",
+      "cells": [
+        {
+          "index": 0,
+          "word": "spear",
+          "description": "an isolated underwater fishing speargun with a slender spear shaft along the barrel, no person or instructions; not a medieval spear"
+        },
+        {
+          "index": 1,
+          "word": "plough",
+          "description": "a simple agricultural plough with curved metal blades turning a strip of soil, no brand"
+        },
+        {
+          "index": 2,
+          "word": "eagle eye",
+          "description": "a clear close-up of an eagle head in profile with its sharp eye emphasized, no threatening expression"
+        },
+        {
+          "index": 3,
+          "word": "sabre-toothed",
+          "description": "a generic prehistoric cat head profile with two very long saber-shaped upper canine teeth clearly visible, no blood or action"
+        }
+      ]
+    },
+    {
+      "id": "atlas-024",
+      "cells": [
+        {
+          "index": 0,
+          "word": "Easter",
+          "description": "a small basket of three decorated Easter eggs beside a green leaf, simple holiday icon, no words or religious claims"
+        },
+        {
+          "index": 1,
+          "word": "Equator",
+          "description": "a simple spherical globe with an emphasized ring around the exact middle, representing the equator; no labels or detailed national boundaries"
+        },
+        {
+          "index": 2,
+          "word": "storey",
+          "description": "a small three-storey building cutaway with three clearly separated floor levels; highlight the middle floor"
+        },
+        {
+          "index": 3,
+          "word": "superstructure",
+          "description": "a small side-view ship diagram: highlight the bridge/cabins ABOVE the main deck while the hull stays gray, no labels"
+        }
+      ]
+    },
+    {
+      "id": "atlas-025",
+      "cells": [
+        {
+          "index": 0,
+          "word": "Medusa",
+          "description": "an original gentle non-gory Greek-myth-inspired woman head with snake-shaped hair, no famous-character likeness or nudity"
+        },
+        {
+          "index": 1,
+          "word": "Gorgon",
+          "description": "an original Greek-myth-inspired snake-haired female mask/head, stylized and non-gory, distinct from the other cells"
+        },
+        {
+          "index": 2,
+          "word": "Apollo",
+          "description": "an original fully clothed Greek-myth-inspired sun god with a laurel wreath and small lyre, no famous art copy or nudity"
+        },
+        {
+          "index": 3,
+          "word": "fortune-teller",
+          "description": "a fully clothed adult fortune teller seated at a plain table with a crystal ball, generic respectful depiction"
+        }
+      ]
+    },
+    {
+      "id": "atlas-026",
+      "cells": [
+        {
+          "index": 0,
+          "word": "antique",
+          "description": "a single old ornamental ceramic vase with a worn surface on a plain base, no specific copyrighted pattern"
+        },
+        {
+          "index": 1,
+          "word": "beauty spot",
+          "description": "a simple scenic lake, mountain and a small lookout path, generic picturesque place not a real location"
+        },
+        {
+          "index": 2,
+          "word": "bar",
+          "description": "a small bar counter with two stools and a few unlabelled bottles on shelves, no patrons or brands"
+        },
+        {
+          "index": 3,
+          "word": "bullfight",
+          "description": "a distant simple arena vignette with a bull and a fully clothed matador holding a red cape, no contact, wounds, blood or suffering"
+        }
+      ]
+    }
+  ]
+}

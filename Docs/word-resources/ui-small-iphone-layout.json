@@ -1,0 +1,42 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "0E56F8E5-5E40-44FD-B49F-7FE923BBCE03",
+        "deviceName" : "NCE Word Resources Small QA",
+        "modelName" : "iPhone 13 mini",
+        "osBuildNumber" : "23C54",
+        "osVersion" : "26.2",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 0,
+      "passedTests" : 2,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "NCE_Content_QA · Built with macOS 15.7.3",
+  "expectedFailures" : 0,
+  "failedTests" : 0,
+  "finishTime" : 1791258704.862,
+  "passedTests" : 2,
+  "result" : "Passed",
+  "skippedTests" : 0,
+  "startTime" : 1791258588.632,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+
+  ],
+  "title" : "Test - NCE_Content_QA",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 2
+}

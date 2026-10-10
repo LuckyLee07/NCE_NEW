@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-025",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-025.png",
+  "source_sha256": "654fe5f266933344e50721a3c4853668ef229b1557a5249ecd1605e3266b938a",
+  "original_generated": "exec-abb87457-1f2b-4a11-a53e-c790aed874dc.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = an original gentle non-gory Greek-myth-inspired woman head with snake-shaped hair, no famous-character likeness or nudity; TOP RIGHT = an original Greek-myth-inspired snake-haired female mask/head, stylized and non-gory, distinct from the other cells; BOTTOM LEFT = an original fully clothed Greek-myth-inspired sun god with a laurel wreath and small lyre, no famous art copy or nudity; BOTTOM RIGHT = a fully clothed adult fortune teller seated at a plain table with a crystal ball, generic respectful depiction. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "Medusa",
+      "position": "top_left",
+      "source": "atlas-025-0.png",
+      "sha256": "d051382040e2762930ab18b98db1b1d4032a430c2d72eed2874fb323486b3862",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "Gorgon",
+      "position": "top_right",
+      "source": "atlas-025-1.png",
+      "sha256": "fde8de689979f685989042eb49da2997481b710b0b13958a23a27b2210eebb45",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "Apollo",
+      "position": "bottom_left",
+      "source": "atlas-025-2.png",
+      "sha256": "1cc719be9d2a2523ecc34de52296e9530531e9d09670d93c0f666d094ab800d5",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "fortune-teller",
+      "position": "bottom_right",
+      "source": "atlas-025-3.png",
+      "sha256": "3a45c83959601e13a0ba79002d2810b6d0689992a2e87df36b5a8e35baff650c",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

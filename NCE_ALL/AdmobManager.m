@@ -37,6 +37,16 @@ static NSString * const kDebugTestDeviceIDKey = @"AdmobDebugTestDeviceID";
 
 @implementation AdmobManager
 
++ (BOOL)isOfflineResourceQA
+{
+#if DEBUG
+    return [NSBundle.mainBundle.bundleIdentifier containsString:@".resourceqa"] &&
+           [NSProcessInfo.processInfo.arguments containsObject:@"-NCEOfflineResourceQA"];
+#else
+    return NO;
+#endif
+}
+
 + (NSDictionary *)appInfoDictionary
 {
     static NSDictionary *info = nil;
@@ -52,6 +62,7 @@ static NSString * const kDebugTestDeviceIDKey = @"AdmobDebugTestDeviceID";
 
 + (NSString *)interstitialAdUnitID
 {
+    if ([self isOfflineResourceQA]) return nil;
     NSString *adUnitID = [self.appInfoDictionary objectForKey:kInterstitialAdUnitIDKey];
     if ([adUnitID isKindOfClass:[NSString class]] && adUnitID.length > 0) {
         return adUnitID;
@@ -62,6 +73,7 @@ static NSString * const kDebugTestDeviceIDKey = @"AdmobDebugTestDeviceID";
 
 + (NSString *)bannerAdUnitID
 {
+    if ([self isOfflineResourceQA]) return nil;
     NSString *adUnitID = [self.appInfoDictionary objectForKey:kBannerAdUnitIDKey];
     if ([adUnitID isKindOfClass:[NSString class]] && adUnitID.length > 0) {
         return adUnitID;
@@ -107,6 +119,7 @@ static NSString * const kDebugTestDeviceIDKey = @"AdmobDebugTestDeviceID";
     self.completedBreakCount = 0;
     self.lastInterstitialDate = nil;
     self.pendingCompletion = nil;
+    if ([AdmobManager isOfflineResourceQA]) return;
 
 #if DEBUG
     NSString *testDeviceID = [AdmobManager debugTestDeviceID];

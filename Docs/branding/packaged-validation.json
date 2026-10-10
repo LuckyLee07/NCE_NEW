@@ -1,0 +1,111 @@
+{
+  "app_path": "/private/tmp/NCEBranding-20261006/Build/Products/Debug-iphonesimulator/NCE_ALL.app",
+  "bundle_identifier": "com.palmgame.NCEALL.resourceqa.localization",
+  "compiled_asset_catalog_present": true,
+  "decoder": "native ImageIO/CoreGraphics; accepts Xcode optimized PNG",
+  "design_revision": "20261006-approved-ink",
+  "format_version": 1,
+  "production_records_touched": false,
+  "records": [
+    {
+      "normalized_pixel_sha256": "ddcd3e65d606d7637806787e505c6ad7570957e02448d029b4ebbe7ad24ece8e",
+      "packaged_file": "book1.jpg",
+      "pixels_equal": true,
+      "size": [
+        540,
+        756
+      ],
+      "source": "NCE_ALL/images/book1.jpg"
+    },
+    {
+      "normalized_pixel_sha256": "9f4ca8df6801da72da72021d129b5c1df91e30594be8f45c194b341323495a06",
+      "packaged_file": "book1_iPad.png",
+      "pixels_equal": true,
+      "size": [
+        630,
+        882
+      ],
+      "source": "NCE_ALL/images/book1_iPad.png"
+    },
+    {
+      "normalized_pixel_sha256": "31173dc4072c50eabf04ba629a6829c3d9bf9106b98c252e1fb6dd0ba4d7a9e0",
+      "packaged_file": "book2.jpg",
+      "pixels_equal": true,
+      "size": [
+        540,
+        756
+      ],
+      "source": "NCE_ALL/images/book2.jpg"
+    },
+    {
+      "normalized_pixel_sha256": "2fb45930d656b174d79ef4582f67484a1d94690526baa39718308b69a5caf181",
+      "packaged_file": "book2_iPad.png",
+      "pixels_equal": true,
+      "size": [
+        630,
+        882
+      ],
+      "source": "NCE_ALL/images/book2_iPad.png"
+    },
+    {
+      "normalized_pixel_sha256": "339f559c386f6a275ae431a5d6793af2a727f2a86deb26c65132e76c10e79241",
+      "packaged_file": "book3.jpg",
+      "pixels_equal": true,
+      "size": [
+        540,
+        756
+      ],
+      "source": "NCE_ALL/images/book3.jpg"
+    },
+    {
+      "normalized_pixel_sha256": "a2504f5fcbb8d88ae16eb7c6e469197429e18bd683a71419fd778ddd82c12155",
+      "packaged_file": "book3_iPad.png",
+      "pixels_equal": true,
+      "size": [
+        630,
+        882
+      ],
+      "source": "NCE_ALL/images/book3_iPad.png"
+    },
+    {
+      "normalized_pixel_sha256": "e9acbacd385bb757a25e6c03df0abaea4c95ca771b0cc2b8855636f11cbd5a9f",
+      "packaged_file": "book4.jpg",
+      "pixels_equal": true,
+      "size": [
+        540,
+        756
+      ],
+      "source": "NCE_ALL/images/book4.jpg"
+    },
+    {
+      "normalized_pixel_sha256": "4f8e9a13dd8b9f57e6aaa16586636c0d2a7d6d86ea06b46e84f4ab3c828492b2",
+      "packaged_file": "book4_iPad.png",
+      "pixels_equal": true,
+      "size": [
+        630,
+        882
+      ],
+      "source": "NCE_ALL/images/book4_iPad.png"
+    },
+    {
+      "normalized_pixel_sha256": "7d4a75cb9ee3c07a03bd8cf51cd0d56743146f69c1a6df77f26700e6b4f49af3",
+      "packaged_file": "AppIcon60x60@2x.png",
+      "pixels_equal": true,
+      "size": [
+        120,
+        120
+      ],
+      "source": "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-120.png"
+    },
+    {
+      "normalized_pixel_sha256": "d61105b3ce19973c88ed2f65066b468cdd0cd8f5ee66b0febd618727c6aa6870",
+      "packaged_file": "AppIcon76x76@2x~ipad.png",
+      "pixels_equal": true,
+      "size": [
+        152,
+        152
+      ],
+      "source": "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-152.png"
+    }
+  ]
+}

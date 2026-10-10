@@ -62,18 +62,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if ([Utility isPad]) {
+        // Tablet layouts start at y=0 and must not extend beneath the navigation bar.
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
     // Do any additional setup after loading the view.
-    self.navigationItem.title = self.titleString;
+    self.navigationItem.title = NCEChineseText(self.titleString);
     self.view.backgroundColor = [UIColor colorWithRed:98/255.f green:215/255.f blue:150/255.f alpha:1.f];
 
     // add back button
     self.navigationItem.hidesBackButton = YES;
     self.navigationItem.leftItemsSupplementBackButton = NO;
     UIImage *backImage = [[UIImage imageNamed:@"btn_back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:backImage
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithImage:backImage
                                                                               style:UIBarButtonItemStylePlain
                                                                              target:self
                                                                              action:@selector(goBack)];
+    backButton.accessibilityIdentifier = @"back";
+    backButton.accessibilityLabel = NCELocalizedString(@"返回");
+    self.navigationItem.leftBarButtonItem = backButton;
 
     [self performSelector:@selector(addBanner) withObject:nil afterDelay:0.1f];
     

@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-restaurant-order",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Dinner at a Restaurant",
+    "title_zh": "餐厅晚餐",
+    "level": "A1",
+    "topic": "daily conversation",
+    "estimated_duration_seconds": 75,
+    "tags": [
+      "restaurant",
+      "food",
+      "ordering",
+      "dinner"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Good evening. A table for two, please.",
+      "chinese": "晚上好。请给我们一张两人桌。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "This way, please.",
+      "chinese": "请这边走。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Can we see the menu?",
+      "chinese": "我们可以看一下菜单吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "Of course. Here you are.",
+      "chinese": "当然。给您。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "I would like chicken and rice.",
+      "chinese": "我想要鸡肉和米饭。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "I want a bowl of soup.",
+      "chinese": "我想要一碗汤。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "Would you like water?",
+      "chinese": "你们要水吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "Yes, two glasses of water, please.",
+      "chinese": "是的，请来两杯水。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Is everything okay?",
+      "chinese": "一切都好吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Yes, the food is very good.",
+      "chinese": "是的，食物很好。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "table",
+      "part_of_speech": "noun",
+      "meaning_zh": "桌子",
+      "example_en": "A table for two, please.",
+      "example_zh": "请给我们一张两人桌。"
+    },
+    {
+      "word": "menu",
+      "part_of_speech": "noun",
+      "meaning_zh": "菜单",
+      "example_en": "Can we see the menu?",
+      "example_zh": "我们可以看一下菜单吗？"
+    },
+    {
+      "word": "chicken",
+      "part_of_speech": "noun",
+      "meaning_zh": "鸡肉",
+      "example_en": "I would like chicken and rice.",
+      "example_zh": "我想要鸡肉和米饭。"
+    },
+    {
+      "word": "rice",
+      "part_of_speech": "noun",
+      "meaning_zh": "米饭",
+      "example_en": "I would like chicken and rice.",
+      "example_zh": "我想要鸡肉和米饭。"
+    },
+    {
+      "word": "bowl",
+      "part_of_speech": "noun",
+      "meaning_zh": "碗",
+      "example_en": "I want a bowl of soup.",
+      "example_zh": "我想要一碗汤。"
+    },
+    {
+      "word": "soup",
+      "part_of_speech": "noun",
+      "meaning_zh": "汤",
+      "example_en": "I want a bowl of soup.",
+      "example_zh": "我想要一碗汤。"
+    },
+    {
+      "word": "glass",
+      "part_of_speech": "noun",
+      "meaning_zh": "玻璃杯；一杯",
+      "example_en": "Two glasses of water, please.",
+      "example_zh": "请来两杯水。"
+    },
+    {
+      "word": "food",
+      "part_of_speech": "noun",
+      "meaning_zh": "食物",
+      "example_en": "The food is very good.",
+      "example_zh": "食物很好。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "How many people need a table?",
+        "prompt_zh": "几个人需要一张桌子？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "One"
+          },
+          {
+            "id": "B",
+            "text": "Two"
+          },
+          {
+            "id": "C",
+            "text": "Three"
+          },
+          {
+            "id": "D",
+            "text": "Four"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "What does one person order?",
+        "prompt_zh": "其中一个人点了什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Chicken and rice"
+          },
+          {
+            "id": "B",
+            "text": "Fish and bread"
+          },
+          {
+            "id": "C",
+            "text": "Coffee and cake"
+          },
+          {
+            "id": "D",
+            "text": "Tea and eggs"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "How many glasses of water do they want?",
+        "prompt_zh": "他们要几杯水？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "One"
+          },
+          {
+            "id": "B",
+            "text": "Two"
+          },
+          {
+            "id": "C",
+            "text": "Three"
+          },
+          {
+            "id": "D",
+            "text": "Four"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "How is the food?",
+        "prompt_zh": "食物怎么样？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Very good"
+          },
+          {
+            "id": "B",
+            "text": "Too cold"
+          },
+          {
+            "id": "C",
+            "text": "Too hot"
+          },
+          {
+            "id": "D",
+            "text": "Very bad"
+          }
+        ],
+        "answer": "A"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Good evening. A table for two, please."
+      },
+      {
+        "id": "dict-2",
+        "line_order": 5,
+        "answer": "I would like chicken and rice."
+      },
+      {
+        "id": "dict-3",
+        "line_order": 8,
+        "answer": "Yes, two glasses of water, please."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 7,
+    "import_ready": false
+  }
+}
+

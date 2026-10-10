@@ -1,0 +1,36 @@
+{
+  "format_version": 1,
+  "overrides": {
+    "Mrs.": {"text": "Missus", "note": "Speak the title, not individual letters."},
+    "hot(title)": {"text": "hot", "note": "Do not read the editorial title marker."},
+    "fantasy(title)": {"text": "fantasy", "note": "Do not read the editorial title marker."},
+    "espionage(title)": {"text": "espionage", "note": "Do not read the editorial title marker."},
+    "secrecy (title)": {"text": "secrecy", "note": "Do not read the editorial title marker."},
+    "porpoise(title)": {"text": "porpoise", "note": "Do not read the editorial title marker."},
+    "ex- prefix.": {"text": "ex", "note": "Speak the prefix only."},
+    "St.Bernard": {"text": "Saint Bernard", "note": "Expand the Saint abbreviation."},
+    "IBM": {"text": "I B M", "note": "Read as initial letters."},
+    "AT&T": {"text": "A T and T", "phonemes": "ˈeɪ tˈiː and tˈiː", "note": "Read initial A as /eɪ/, not the weak article /ə/.", "source": "https://dictionary.cambridge.org/pronunciation/english/a"},
+    "Antipodes": {"text": "Antipodes", "phonemes": "anˈtɪpədiːz", "note": "Four syllables with second-syllable stress; correct the tokenizer's antipodes/antipode plural confusion.", "source": "https://www.oxfordlearnersdictionaries.com/definition/english/the-antipodes"},
+    "praying mantis": {"text": "praying mantis", "phonemes": "pɹˈeɪɪŋ mˈantɪs", "note": "Mantis ends in unvoiced /s/, not /z/.", "source": "https://dictionary.cambridge.org/pronunciation/english/mantis"},
+    "cm": {"text": "centimetre", "note": "Expand the abbreviation using its database meaning."},
+    "Mew Jersey": {
+      "text": "New Jersey",
+      "note": "The database says New Jersey in Chinese but its English label is misspelled. Audio uses the intended name; the database is unchanged and needs editorial correction.",
+      "editorial_review_required": true,
+      "source": "https://www.nj.gov/"
+    },
+    "St.Petersbrug": {
+      "text": "Saint Petersburg",
+      "note": "The database meaning identifies Saint Petersburg. Audio uses the intended name; the misspelled database label is unchanged.",
+      "editorial_review_required": true,
+      "source": "https://kvs.gov.spb.ru/en/information/"
+    },
+    "Justiteombudsman": {
+      "text": "Justiteombudsman",
+      "note": "Unconfirmed foreign title in the legacy word list. This is only a synthetic reading of the stored label, not an authoritative pronunciation. Hold for editorial and pronunciation review.",
+      "editorial_review_required": true,
+      "source": "https://www.jo.se/en/about-jo/"
+    }
+  }
+}

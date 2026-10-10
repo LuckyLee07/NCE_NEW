@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-002",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-002.png",
+  "source_sha256": "f31be7495a6774f660257748c28206d3267eec3c6cc039535bab34796d6bfed0",
+  "original_generated": "exec-06c54e36-d717-4b36-96c6-157616639980.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a small cluster of ripe blackberries with dark purple-black aggregate drupelets and one green leaf; not blue blueberries; TOP RIGHT = a small pale green pear-shaped aphid on a leaf, six legs and two visible rear cornicles, simple enlarged insect illustration; BOTTOM LEFT = a blue-green metallic blowfly with six legs and two clear wings, enlarged simple insect illustration; BOTTOM RIGHT = a pale soft-bodied termite with six legs, straight antennae and thick waist; not an ant. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "blackberry",
+      "position": "top_left",
+      "source": "atlas-002-0.png",
+      "sha256": "eb7256f3e7ab83b6d8ef0610900c703ea0fb0c87f5019d6710c8d7e7a59468b4",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "aphid",
+      "position": "top_right",
+      "source": "atlas-002-1.png",
+      "sha256": "248283ec06e94533dbf9603e25586362cdfbaeeefc86a0bfbe1067e4df47dff8",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "bluebottle",
+      "position": "bottom_left",
+      "source": "atlas-002-2.png",
+      "sha256": "c1e9b428ba36b8c03d00b167505febee0f5eade461c80c42a6d6c0cea95b23c9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "termite",
+      "position": "bottom_right",
+      "source": "atlas-002-3.png",
+      "sha256": "2258f0b22dcb84f1e7ea49f2d88db44971f16413a9f7afe834bb563bbadeb4ad",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

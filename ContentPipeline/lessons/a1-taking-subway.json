@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-taking-subway",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Taking the Subway",
+    "title_zh": "坐地铁",
+    "level": "A1",
+    "topic": "transportation",
+    "estimated_duration_seconds": 75,
+    "tags": [
+      "subway",
+      "transportation",
+      "city",
+      "directions"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Which train goes to City Center?",
+      "chinese": "哪趟车去市中心？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "Take line two.",
+      "chinese": "坐二号线。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Where is the station entrance?",
+      "chinese": "车站入口在哪里？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "It is downstairs.",
+      "chinese": "在楼下。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "Do I need a ticket?",
+      "chinese": "我需要车票吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "You can use this card.",
+      "chinese": "你可以用这张卡。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "How many stops is it?",
+      "chinese": "有几站？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "It is five stops.",
+      "chinese": "有五站。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Please get off at Green Street.",
+      "chinese": "请在绿街站下车。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Thank you for the information.",
+      "chinese": "谢谢你的信息。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "train",
+      "part_of_speech": "noun",
+      "meaning_zh": "列车；火车",
+      "example_en": "Which train goes to City Center?",
+      "example_zh": "哪趟车去市中心？"
+    },
+    {
+      "word": "line",
+      "part_of_speech": "noun",
+      "meaning_zh": "线路",
+      "example_en": "Take line two.",
+      "example_zh": "坐二号线。"
+    },
+    {
+      "word": "entrance",
+      "part_of_speech": "noun",
+      "meaning_zh": "入口",
+      "example_en": "Where is the station entrance?",
+      "example_zh": "车站入口在哪里？"
+    },
+    {
+      "word": "downstairs",
+      "part_of_speech": "adverb",
+      "meaning_zh": "在楼下",
+      "example_en": "It is downstairs.",
+      "example_zh": "在楼下。"
+    },
+    {
+      "word": "ticket",
+      "part_of_speech": "noun",
+      "meaning_zh": "票",
+      "example_en": "Do I need a ticket?",
+      "example_zh": "我需要车票吗？"
+    },
+    {
+      "word": "card",
+      "part_of_speech": "noun",
+      "meaning_zh": "卡",
+      "example_en": "You can use this card.",
+      "example_zh": "你可以用这张卡。"
+    },
+    {
+      "word": "stop",
+      "part_of_speech": "noun",
+      "meaning_zh": "车站；站",
+      "example_en": "It is five stops.",
+      "example_zh": "有五站。"
+    },
+    {
+      "word": "information",
+      "part_of_speech": "noun",
+      "meaning_zh": "信息",
+      "example_en": "Thank you for the information.",
+      "example_zh": "谢谢你的信息。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "Where does the person want to go?",
+        "prompt_zh": "这个人想去哪里？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "City Center"
+          },
+          {
+            "id": "B",
+            "text": "The airport"
+          },
+          {
+            "id": "C",
+            "text": "The hotel"
+          },
+          {
+            "id": "D",
+            "text": "The hospital"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "Which line should the person take?",
+        "prompt_zh": "这个人应该坐哪条线？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Line one"
+          },
+          {
+            "id": "B",
+            "text": "Line two"
+          },
+          {
+            "id": "C",
+            "text": "Line three"
+          },
+          {
+            "id": "D",
+            "text": "Line four"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "How many stops is it?",
+        "prompt_zh": "有几站？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Three stops"
+          },
+          {
+            "id": "B",
+            "text": "Four stops"
+          },
+          {
+            "id": "C",
+            "text": "Five stops"
+          },
+          {
+            "id": "D",
+            "text": "Six stops"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "Where should the person get off?",
+        "prompt_zh": "这个人应该在哪里下车？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Green Street"
+          },
+          {
+            "id": "B",
+            "text": "Blue Street"
+          },
+          {
+            "id": "C",
+            "text": "North Park"
+          },
+          {
+            "id": "D",
+            "text": "West Gate"
+          }
+        ],
+        "answer": "A"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Which train goes to City Center?"
+      },
+      {
+        "id": "dict-2",
+        "line_order": 5,
+        "answer": "Do I need a ticket?"
+      },
+      {
+        "id": "dict-3",
+        "line_order": 9,
+        "answer": "Please get off at Green Street."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 9,
+    "import_ready": false
+  }
+}
+

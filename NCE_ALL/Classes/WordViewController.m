@@ -13,6 +13,8 @@
 #import "CKAlertView.h"
 #import "OnlineDictionaryViewController.h"
 #import "AdmobManager.h"
+#import "NCEWordResourceStore.h"
+#import "NCELocalization.h"
 
 @interface WordViewController () <AVAudioPlayerDelegate, CKAlertViewDelegate, UIAlertViewDelegate>
 {
@@ -94,6 +96,9 @@
     _englishLabel.font = [UIFont systemFontOfSize:headerHeight*24/50];
     _englishLabel.textColor = [UIColor whiteColor];
     _englishLabel.textAlignment = NSTextAlignmentCenter;
+    _englishLabel.accessibilityIdentifier = @"word-english";
+    _englishLabel.adjustsFontSizeToFitWidth = YES;
+    _englishLabel.minimumScaleFactor = 0.45;
     [self.view addSubview:_englishLabel];
     
     
@@ -108,9 +113,15 @@
     _chineseLabel.textAlignment = NSTextAlignmentLeft;
     _chineseLabel.numberOfLines = 0;
     _chineseLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    _chineseLabel.accessibilityIdentifier = @"word-translation";
+    _chineseLabel.adjustsFontSizeToFitWidth = YES;
+    _chineseLabel.minimumScaleFactor = 0.6;
     [_chineseView addSubview:_chineseLabel];
     
     _wordImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+    _wordImageView.contentMode = UIViewContentModeScaleAspectFit;
+    _wordImageView.isAccessibilityElement = YES;
+    _wordImageView.accessibilityIdentifier = @"word-image";
     [_chineseView addSubview:_wordImageView];
     
     CGFloat labelHeight = _englishLabel.frame.size.height;
@@ -124,6 +135,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self pause];
 }
 
 #pragma mark -
@@ -188,27 +205,44 @@
     sqlite3_close(database);
 }
 
-	- (void)showWordInformation
+- (void)localizeLegacyIconButton:(UIButton *)button systemName:(NSString *)name
 {
+    if (![@[@"ja", @"ko"] containsObject:NCELocalization.sharedLocalization.languageCode]) return;
+    UIImageSymbolConfiguration *configuration = [UIImageSymbolConfiguration configurationWithPointSize:26 weight:UIImageSymbolWeightRegular];
+    UIImage *image = [UIImage systemImageNamed:name withConfiguration:configuration];
+    if (!image) return;
+    [button setImage:image forState:UIControlStateNormal];
+    [button setImage:image forState:UIControlStateHighlighted];
+    button.tintColor = [UIColor colorWithRed:0.46 green:0.49 blue:0.56 alpha:1];
+    if (@available(iOS 15.0, *)) {
+        [button addInteraction:[[UIToolTipInteraction alloc] initWithDefaultToolTip:button.accessibilityLabel]];
+    }
+}
+
+- (void)showWordInformation
+{
+    if (_currentIndex < 0 || _currentIndex >= _items.count) return;
     NSDictionary *item = [_items objectAtIndex:_currentIndex];
     
-    if (_function != 3) _englishLabel.text = [item objectForKey:@"english"];
+    if (_function != 3) _englishLabel.text = [[NCEWordResourceStore sharedStore] displayNameForWord:item[@"english"]];
     else _englishLabel.text = nil;
     
     
-    _chineseLabel.text = [item objectForKey:@"chinese"];
+    _chineseLabel.text = [[NCEWordResourceStore sharedStore] translationForWord:item[@"english"] fallback:item[@"chinese"]];
     
-    NSString *imageName = [NSString stringWithFormat:@"data/words/jpg/%@.jpg",[item objectForKey:@"english"]];
-    NSString *imagePath =  [[NSBundle mainBundle] pathForResource:imageName ofType:nil];
+    NSString *imagePath = [[NCEWordResourceStore sharedStore] imagePathForWord:item[@"english"]];
+    CGFloat headerHeight = [self getConstHeight];
     if (imagePath) {
-        CGFloat headerHeight = [self getConstHeight];
         UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
-        int width = image.size.width*headerHeight*2/image.size.height;
-        _wordImageView.frame = CGRectMake(self.view.frame.size.width-width, 0, width, headerHeight*2);
+        CGFloat width = MIN(headerHeight * 2, self.view.bounds.size.width * 0.38);
+        _wordImageView.frame = CGRectMake(self.view.bounds.size.width-width-8, 0, width, headerHeight*2);
         _wordImageView.image = image;
     } else {
         _wordImageView.image = nil;
     }
+    _wordImageView.accessibilityLabel = _chineseLabel.text;
+    CGFloat rightEdge = _wordImageView.image ? CGRectGetMinX(_wordImageView.frame) - 8 : _chineseView.bounds.size.width - 8;
+    _chineseLabel.frame = CGRectMake(headerHeight * 2 / 5, 0, MAX(0, rightEdge-headerHeight * 2 / 5), _chineseView.bounds.size.height);
     
     if (_function == 2) {
         _chineseLabel.hidden = YES;
@@ -217,8 +251,7 @@
     
     _countLabel.text = [NSString stringWithFormat:@"%d/%d", _currentIndex+1, (int)_items.count];
     
-    NSString *soundName = [NSString stringWithFormat:@"data/words/wav/%@.wav",[item objectForKey:@"english"]];
-    NSString *soundPath =  [[NSBundle mainBundle] pathForResource:soundName ofType:nil];
+    NSString *soundPath = [[NCEWordResourceStore sharedStore] audioPathForWord:item[@"english"]];
     
     if (soundPath) {
         _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundPath] error:nil];
@@ -231,7 +264,7 @@
     if (_function) {
         UILabel *lessonLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 60, 40)];
         lessonLabel.font = [UIFont systemFontOfSize:14.f];
-        lessonLabel.text = [NSString stringWithFormat:@"第%@课",[item objectForKey:@"lesson_id"]];
+        lessonLabel.text = [NSString stringWithFormat:NCELocalizedString(@"第%@课"),[item objectForKey:@"lesson_id"]];
         lessonLabel.textColor = [UIColor whiteColor];
         lessonLabel.textAlignment = NSTextAlignmentRight;
         
@@ -262,6 +295,9 @@
     [strangeButton setImage:[UIImage imageNamed:@"strange_click"] forState:UIControlStateHighlighted];
     [strangeButton addTarget:self action:@selector(signWord:) forControlEvents:UIControlEventTouchUpInside];
     strangeButton.tag = 101;
+    strangeButton.accessibilityIdentifier = @"word-strange";
+    strangeButton.accessibilityLabel = NCELocalizedString(@"标记陌生");
+    [self localizeLegacyIconButton:strangeButton systemName:@"questionmark.circle"];
     [backgroundView addSubview:strangeButton];
     
     UIButton *vagueButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -270,6 +306,9 @@
     [vagueButton setImage:[UIImage imageNamed:@"vague_click"] forState:UIControlStateHighlighted];
     [vagueButton addTarget:self action:@selector(signWord:) forControlEvents:UIControlEventTouchUpInside];
     vagueButton.tag = 103;
+    vagueButton.accessibilityIdentifier = @"word-vague";
+    vagueButton.accessibilityLabel = NCELocalizedString(@"标记待复习");
+    [self localizeLegacyIconButton:vagueButton systemName:@"clock.arrow.circlepath"];
     [backgroundView addSubview:vagueButton];
     
     UIButton *familiarButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -278,6 +317,9 @@
     [familiarButton setImage:[UIImage imageNamed:@"familiar_click"] forState:UIControlStateHighlighted];
     [familiarButton addTarget:self action:@selector(signWord:) forControlEvents:UIControlEventTouchUpInside];
     familiarButton.tag = 102;
+    familiarButton.accessibilityIdentifier = @"word-familiar";
+    familiarButton.accessibilityLabel = NCELocalizedString(@"标记熟悉");
+    [self localizeLegacyIconButton:familiarButton systemName:@"checkmark.circle"];
     [backgroundView addSubview:familiarButton];
     
     if (_function == 3) {
@@ -286,14 +328,19 @@
         [originButton setImage:[UIImage imageNamed:@"origin_normal"] forState:UIControlStateNormal];
         [originButton setImage:[UIImage imageNamed:@"origin_click"] forState:UIControlStateHighlighted];
         [originButton addTarget:self action:@selector(showEnglish) forControlEvents:UIControlEventTouchUpInside];
+        originButton.accessibilityIdentifier = @"word-show-english";
+        originButton.accessibilityLabel = NCELocalizedString(@"显示或隐藏英文");
+        [self localizeLegacyIconButton:originButton systemName:@"textformat.abc"];
         [backgroundView addSubview:originButton];
     }
     
     if (_function == 2) {
         UIButton *translateButton = [UIButton buttonWithType:UIButtonTypeCustom];
         translateButton.frame = CGRectMake(self.view.frame.size.width-90.f, buttonY, 40.f, 40.f);
-        [translateButton setImage:[UIImage imageNamed:@"translate_normal"] forState:UIControlStateNormal];
-        [translateButton setImage:[UIImage imageNamed:@"translate_click"] forState:UIControlStateHighlighted];
+        [translateButton setImage:[UIImage systemImageNamed:@"text.bubble"] forState:UIControlStateNormal];
+        translateButton.tintColor = UIColor.grayColor;
+        translateButton.accessibilityIdentifier = @"word-show-translation";
+        translateButton.accessibilityLabel = NCELocalizedString(@"显示或隐藏释义");
         [translateButton addTarget:self action:@selector(showChinese) forControlEvents:UIControlEventTouchUpInside];
         [backgroundView addSubview:translateButton];
     }
@@ -303,6 +350,9 @@
     [volumeButton setImage:[UIImage imageNamed:@"volume_normal"] forState:UIControlStateNormal];
     [volumeButton setImage:[UIImage imageNamed:@"volume_click"] forState:UIControlStateHighlighted];
     [volumeButton addTarget:self action:@selector(repeat) forControlEvents:UIControlEventTouchUpInside];
+    volumeButton.accessibilityIdentifier = @"word-repeat";
+    volumeButton.accessibilityLabel = NCELocalizedString(@"重读单词");
+    [self localizeLegacyIconButton:volumeButton systemName:@"speaker.wave.2"];
     [backgroundView addSubview:volumeButton];
     
     
@@ -318,6 +368,8 @@
     [shareButton setImage:[UIImage imageNamed:@"share_normal"] forState:UIControlStateNormal];
     [shareButton setImage:[UIImage imageNamed:@"share_click"] forState:UIControlStateHighlighted];
     [shareButton addTarget:self action:@selector(showOnlineDictionarys) forControlEvents:UIControlEventTouchUpInside];
+    shareButton.accessibilityIdentifier = @"word-online-dictionary";
+    shareButton.accessibilityLabel = NCELocalizedString(@"在线词典");
     [backgroundView addSubview:shareButton];
     
     // count
@@ -334,6 +386,8 @@
     [prevButton setImage:[UIImage imageNamed:@"prev_normal"] forState:UIControlStateNormal];
     [prevButton setImage:[UIImage imageNamed:@"prev_click"] forState:UIControlStateHighlighted];
     [prevButton addTarget:self action:@selector(prev) forControlEvents:UIControlEventTouchUpInside];
+    prevButton.accessibilityIdentifier = @"word-prev";
+    prevButton.accessibilityLabel = NCELocalizedString(@"上一个单词");
     [backgroundView addSubview:prevButton];
     
     // pause
@@ -342,6 +396,8 @@
     [_pauseButton setImage:[UIImage imageNamed:@"pause_normal"] forState:UIControlStateNormal];
     [_pauseButton setImage:[UIImage imageNamed:@"pause_click"] forState:UIControlStateHighlighted];
     [_pauseButton addTarget:self action:@selector(pause) forControlEvents:UIControlEventTouchUpInside];
+    _pauseButton.accessibilityIdentifier = @"word-pause";
+    _pauseButton.accessibilityLabel = NCELocalizedString(@"暂停");
     [backgroundView addSubview:_pauseButton];
     
     // continue
@@ -350,6 +406,8 @@
     [_continueButton setImage:[UIImage imageNamed:@"play_normal"] forState:UIControlStateNormal];
     [_continueButton setImage:[UIImage imageNamed:@"play_click"] forState:UIControlStateHighlighted];
     [_continueButton addTarget:self action:@selector(continue) forControlEvents:UIControlEventTouchUpInside];
+    _continueButton.accessibilityIdentifier = @"word-play";
+    _continueButton.accessibilityLabel = NCELocalizedString(@"播放");
     [backgroundView addSubview:_continueButton];
     _continueButton.hidden = YES;
     
@@ -359,6 +417,8 @@
     [nextButton setImage:[UIImage imageNamed:@"next_normal"] forState:UIControlStateNormal];
     [nextButton setImage:[UIImage imageNamed:@"next_click"] forState:UIControlStateHighlighted];
     [nextButton addTarget:self action:@selector(next) forControlEvents:UIControlEventTouchUpInside];
+    nextButton.accessibilityIdentifier = @"word-next";
+    nextButton.accessibilityLabel = NCELocalizedString(@"下一个单词");
     [backgroundView addSubview:nextButton];
 }
 
@@ -374,7 +434,7 @@
         
         // Configure for text only and offset down
         hud.mode = MBProgressHUDModeText;
-        hud.label.text = @"已是第一个";
+        hud.label.text = NCELocalizedString(@"已是第一个");
         hud.removeFromSuperViewOnHide = YES;
         
         [hud hideAnimated:YES afterDelay:0.75f];
@@ -410,7 +470,7 @@
         
         // Configure for text only and offset down
         hud.mode = MBProgressHUDModeText;
-        hud.label.text = @"已是最后一个";
+        hud.label.text = NCELocalizedString(@"已是最后一个");
         hud.removeFromSuperViewOnHide = YES;
         
         [hud hideAnimated:YES afterDelay:0.75f];
@@ -435,6 +495,7 @@
 
 - (void)signWord:(id)sender
 {
+    if (_currentIndex < 0 || _currentIndex >= _items.count) return;
     UIButton *button = (UIButton *)sender;
     int status = (int)button.tag-100;
     
@@ -446,17 +507,11 @@
         //        NSLog(@"ok");
     }
     
-    NSString *updateSql = [NSString stringWithFormat:@"update words set `word_status`=%d where `word_name`='%@'",status,[[_items objectAtIndex:_currentIndex] objectForKey:@"english"]];
-    
-    sqlite3_stmt *statement;
-    if (sqlite3_prepare_v2(database, [updateSql UTF8String], -1, &statement, nil)==SQLITE_OK) {
-        //        NSLog(@"select ok.");
-    }
-    
-    if (sqlite3_step(statement) == SQLITE_DONE) {
-        //        NSLog(@"done.");
-    } else {
-        //        NSLog(@"%@, %s",updateSql, sqlite3_errmsg(database));
+    sqlite3_stmt *statement = NULL;
+    if (sqlite3_prepare_v2(database, "UPDATE words SET word_status=? WHERE word_name=?", -1, &statement, NULL) == SQLITE_OK) {
+        sqlite3_bind_int(statement, 1, status);
+        sqlite3_bind_text(statement, 2, [_items[_currentIndex][@"english"] UTF8String], -1, SQLITE_TRANSIENT);
+        sqlite3_step(statement);
     }
     
     sqlite3_finalize(statement);
@@ -467,7 +522,7 @@
 - (void)showEnglish
 {
     if (_englishLabel.text) _englishLabel.text = nil;
-    else _englishLabel.text = [[_items objectAtIndex:_currentIndex] objectForKey:@"english"];
+    else _englishLabel.text = [[NCEWordResourceStore sharedStore] displayNameForWord:_items[_currentIndex][@"english"]];
 }
 
 - (void)showChinese
@@ -478,10 +533,10 @@
 
 - (void)repeat
 {
-    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(next) object:nil];
+    if (_currentIndex < 0 || _currentIndex >= _items.count) return;
+    [self willShowWordInformation];
     
-    NSString *soundName = [NSString stringWithFormat:@"data/words/wav/%@.wav",[[_items objectAtIndex:_currentIndex] objectForKey:@"english"]];
-    NSString *soundPath =  [[NSBundle mainBundle] pathForResource:soundName ofType:nil];
+    NSString *soundPath = [[NCEWordResourceStore sharedStore] audioPathForWord:_items[_currentIndex][@"english"]];
     
     if (soundPath) {
         _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundPath] error:nil];
@@ -494,11 +549,11 @@
 {
     [self pause];
     
-    CKAlertView *alertView = [[CKAlertView alloc] initWithTitle:@"在线词典"
+    CKAlertView *alertView = [[CKAlertView alloc] initWithTitle:NCELocalizedString(@"在线词典")
                                                         message:nil
                                                        delegate:self
                                               cancelButtonTitle:nil
-                                              otherButtonTitles:@"有道在线词典", @"爱词霸在线词典", @"百度在线词典", @"海词在线词典", nil];
+                                              otherButtonTitles:NCELocalizedString(@"有道在线词典"), NCELocalizedString(@"爱词霸在线词典"), NCELocalizedString(@"百度在线词典"), NCELocalizedString(@"海词在线词典"), nil];
     [alertView show];
 }
 

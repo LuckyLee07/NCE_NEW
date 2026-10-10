@@ -25,7 +25,7 @@
 {
     self = [super init];
     if (self) {
-        self.titleString = @"在线词典";
+        self.titleString = NCELocalizedString(@"在线词典");
         
         NSArray *dictionarys = [NSArray arrayWithObjects:@"https://dict.youdao.com/search?q=",  @"https://www.iciba.com/",@"https://dict.baidu.com/s?wd=", @"https://dict.cn/", nil];
         
@@ -44,7 +44,7 @@
     
     // Configure for text only and offset down
     //    _hud.mode = MBProgressHUDModeText;
-    _hud.label.text = @"loading...";
+    _hud.label.text = NCELocalizedString(@"载入中…");
     _hud.removeFromSuperViewOnHide = YES;
 }
 

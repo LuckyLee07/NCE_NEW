@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "word": "praying mantis",
+      "source": "praying-mantis.png",
+      "generated_original": "exec-d45de456-4c90-4e9e-881d-33308f7c308e.png",
+      "processing": "sips proportional resize to 128 pixels, then native composition and JPEG quality 0.55",
+      "prompt": "Use case: scientific-educational. Create one square vocabulary illustration of a praying mantis (螳螂) for an offline English-learning app, a single green praying mantis shown side-on, its triangular head and folded raptorial forelegs unmistakable, six legs anatomically correct. Simple flat color illustration with clear silhouette, broad shapes and minimal internal detail that remains recognizable at 128 x 128 pixels. Center the entire insect with generous white space on a pure white background. No text, no numbers, no borders, no watermark, no logos, no gradients, no decorative elements. It should match a plain, lightweight classroom icon, not a photograph.",
+      "review_status": "pending_semantic_review"
+    },
+    {
+      "words": [
+        "shuttle",
+        "Endeavour"
+      ],
+      "source": "space-shuttle.png",
+      "generated_original": "exec-591fc050-69f7-47cd-b495-de57d26e23af.png",
+      "processing": "sips proportional resize to 128 pixels, then native composition and JPEG quality 0.55",
+      "prompt": "Use case: scientific-educational. Create one square vocabulary icon for an offline English-learning app. Subject: a NASA-era space shuttle orbiter, shown fully from slightly above at three-quarter angle: white fuselage, black heat-shield underside and black nose, short delta wings, a single vertical tail fin and three main engine bells at the rear. No external fuel tank, no booster rockets, no upright rocket. This is a generic recognizable orbiter vocabulary illustration, not a historical photograph and not a brand/logo asset. Simple flat color illustration, broad clean shapes, minimal detail, readable at 128 x 128 pixels. Center the entire object with generous white space on a pure white background. No text, labels, numbers, borders, watermarks, logos, decorative elements or gradients. Only one subject.",
+      "review_status": "pending_semantic_review"
+    },
+    {
+      "words": [
+        "binoculars"
+      ],
+      "source": "binoculars.png",
+      "generated_original": "exec-1884916b-7867-42c0-9caa-af0f7feab711.png",
+      "processing": "sips proportional resize to 128 pixels, then native composition and JPEG quality 0.55",
+      "prompt": "Use case: scientific-educational. Create one square vocabulary icon for an offline English-learning app. Subject: one pair of ordinary black binoculars, with two parallel cylindrical optical barrels, two large round front lenses, a central connecting bridge and focus wheel, and two small eyepieces. Both barrels clearly visible at three-quarter angle. No telescope, no tripod, no camera. Simple flat color illustration, broad clean shapes, minimal detail, readable at 128 x 128 pixels. Center the entire object with generous white space on a pure white background. No text, labels, numbers, borders, watermarks, logos, decorative elements or gradients. Only one subject.",
+      "review_status": "pending_semantic_review"
+    }
+  ]
+}

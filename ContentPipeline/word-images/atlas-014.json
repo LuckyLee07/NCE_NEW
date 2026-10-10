@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-014",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-014.png",
+  "source_sha256": "2fb32cfee3488a513915531d6f1cc2ba87508b1bb1a1d06803c9056753fa31d8",
+  "original_generated": "exec-fd66d356-4863-4c4e-8c1b-1100f61c8002.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a plain open jar with a translucent mound of hair gel and a detached lid, no labels; TOP RIGHT = a small roasted joint of meat on a plain plate, browned exterior and one sliced piece; BOTTOM LEFT = a small cylindrical metal container with a removable lid, empty, no medicine or spacecraft; BOTTOM RIGHT = a small bronze metal ingot and a bronze-colored decorative cup, recognizable copper-gold metal sheen, no labels. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "gel",
+      "position": "top_left",
+      "source": "atlas-014-0.png",
+      "sha256": "59f5eda48925bf557d157745dd83047a982406fafbd61d31ebfcdacd15421d95",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "roast",
+      "position": "top_right",
+      "source": "atlas-014-1.png",
+      "sha256": "58929c4c0a8bb93b3aa4af8ada58327a6903c6914b7511b757a20be1be38ced9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "capsule",
+      "position": "bottom_left",
+      "source": "atlas-014-2.png",
+      "sha256": "f832e1e9e85fc51f9066a5b02925bc5e2982a173fb2b945f97912ea3e38e0fc6",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "bronze",
+      "position": "bottom_right",
+      "source": "atlas-014-3.png",
+      "sha256": "13b77c635793df61797f25e3eb24264fe41a3e8473427e47d2b291d6e5690fb1",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

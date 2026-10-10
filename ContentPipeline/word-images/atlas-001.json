@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-001",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-001.png",
+  "source_sha256": "5e9ad3c54b7f2089d9bab68982912bacf79c782a9b138ab3ec98ca733505886c",
+  "original_generated": "exec-04005d16-3e36-45a8-97da-b9b11b284058.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a cloakroom coat-check area with a simple clothing rail carrying two coats and a small check-in counter; TOP RIGHT = one tall street lamp-post, clearly a pole with a lamp at the top and a small ground base; BOTTOM LEFT = one red portable fire extinguisher with cylindrical tank, black short hose, handle and nozzle; BOTTOM RIGHT = a car windscreen, shown head-on with a blue-tinted front windshield glass, two wipers and just enough front car body to make the windshield unambiguous. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. It must be safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "cloakroom",
+      "position": "top_left",
+      "source": "atlas-001-0.png",
+      "sha256": "1e31571cc3eb58b8424a7743017b5f8f82298a1e2e18bfb6479d5c060a2a41dd",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "lamp-post",
+      "position": "top_right",
+      "source": "atlas-001-1.png",
+      "sha256": "52a7709ef207b84c8186c23a4b99bf1d9c7d42d4da4c51ee1cec3353e6204a05",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "fire extinguisher",
+      "position": "bottom_left",
+      "source": "atlas-001-2.png",
+      "sha256": "68c428123849d7ea68366443d947b3c7c811e6a99f339139ce5e7ec584a903e9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "windscreen",
+      "position": "bottom_right",
+      "source": "atlas-001-3.png",
+      "sha256": "aa8974bed6127f737a7c26369d02bea4a79668918608225895627694f785b263",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

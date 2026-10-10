@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-doctor-visit",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "At the Doctor's Office",
+    "title_zh": "看医生",
+    "level": "A1",
+    "topic": "health",
+    "estimated_duration_seconds": 75,
+    "tags": [
+      "doctor",
+      "health",
+      "symptoms",
+      "appointment"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Hello. I have an appointment at ten.",
+      "chinese": "您好。我预约了十点。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "Please take a seat.",
+      "chinese": "请坐。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "What is the problem today?",
+      "chinese": "今天哪里不舒服？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "I have a sore throat.",
+      "chinese": "我嗓子疼。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "Do you have a fever?",
+      "chinese": "你发烧吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "No, I do not.",
+      "chinese": "不，我没有。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "Please drink warm water.",
+      "chinese": "请喝温水。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "Can I go to work tomorrow?",
+      "chinese": "我明天可以去上班吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Rest at home if you feel tired.",
+      "chinese": "如果你觉得累，就在家休息。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Thank you, doctor.",
+      "chinese": "谢谢您，医生。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "appointment",
+      "part_of_speech": "noun",
+      "meaning_zh": "预约",
+      "example_en": "I have an appointment at ten.",
+      "example_zh": "我预约了十点。"
+    },
+    {
+      "word": "seat",
+      "part_of_speech": "noun",
+      "meaning_zh": "座位",
+      "example_en": "Please take a seat.",
+      "example_zh": "请坐。"
+    },
+    {
+      "word": "problem",
+      "part_of_speech": "noun",
+      "meaning_zh": "问题",
+      "example_en": "What is the problem today?",
+      "example_zh": "今天有什么问题？"
+    },
+    {
+      "word": "sore",
+      "part_of_speech": "adjective",
+      "meaning_zh": "疼痛的",
+      "example_en": "I have a sore throat.",
+      "example_zh": "我嗓子疼。"
+    },
+    {
+      "word": "throat",
+      "part_of_speech": "noun",
+      "meaning_zh": "喉咙；嗓子",
+      "example_en": "My throat hurts.",
+      "example_zh": "我嗓子疼。"
+    },
+    {
+      "word": "fever",
+      "part_of_speech": "noun",
+      "meaning_zh": "发烧",
+      "example_en": "Do you have a fever?",
+      "example_zh": "你发烧吗？"
+    },
+    {
+      "word": "warm",
+      "part_of_speech": "adjective",
+      "meaning_zh": "温暖的；温的",
+      "example_en": "Drink warm water.",
+      "example_zh": "喝温水。"
+    },
+    {
+      "word": "rest",
+      "part_of_speech": "verb",
+      "meaning_zh": "休息",
+      "example_en": "Rest at home.",
+      "example_zh": "在家休息。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "What time is the appointment?",
+        "prompt_zh": "预约是几点？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "At nine"
+          },
+          {
+            "id": "B",
+            "text": "At ten"
+          },
+          {
+            "id": "C",
+            "text": "At eleven"
+          },
+          {
+            "id": "D",
+            "text": "At twelve"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "What problem does the patient have?",
+        "prompt_zh": "病人哪里不舒服？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "A sore throat"
+          },
+          {
+            "id": "B",
+            "text": "A headache"
+          },
+          {
+            "id": "C",
+            "text": "A stomachache"
+          },
+          {
+            "id": "D",
+            "text": "A backache"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "Does the patient have a fever?",
+        "prompt_zh": "病人发烧了吗？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Yes"
+          },
+          {
+            "id": "B",
+            "text": "No"
+          },
+          {
+            "id": "C",
+            "text": "Maybe"
+          },
+          {
+            "id": "D",
+            "text": "The lesson does not say"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "What does the doctor suggest?",
+        "prompt_zh": "医生建议什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Drink warm water"
+          },
+          {
+            "id": "B",
+            "text": "Run outside"
+          },
+          {
+            "id": "C",
+            "text": "Eat ice cream"
+          },
+          {
+            "id": "D",
+            "text": "Travel today"
+          }
+        ],
+        "answer": "A"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Hello. I have an appointment at ten."
+      },
+      {
+        "id": "dict-2",
+        "line_order": 4,
+        "answer": "I have a sore throat."
+      },
+      {
+        "id": "dict-3",
+        "line_order": 9,
+        "answer": "Rest at home if you feel tired."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 4,
+    "import_ready": false
+  }
+}
+

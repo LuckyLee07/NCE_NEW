@@ -1,0 +1,290 @@
+{
+  "content_id": "a1-airport-checkin",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Airport Check-In",
+    "title_zh": "机场值机",
+    "level": "A1",
+    "topic": "travel",
+    "estimated_duration_seconds": 75,
+    "tags": [
+      "airport",
+      "travel",
+      "check-in",
+      "flight"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Good morning. May I see your passport?",
+      "chinese": "早上好。我可以看一下您的护照吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "Here is my passport.",
+      "chinese": "这是我的护照。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Where are you flying today?",
+      "chinese": "您今天飞往哪里？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "I am flying to London.",
+      "chinese": "我要飞往伦敦。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "Do you have any bags?",
+      "chinese": "您有行李吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "Yes, I have one bag.",
+      "chinese": "是的，我有一个包。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "Please put it on the scale.",
+      "chinese": "请把它放到秤上。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "Your gate is number twelve.",
+      "chinese": "您的登机口是十二号。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "When does boarding start?",
+      "chinese": "什么时候开始登机？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Boarding starts at eight thirty.",
+      "chinese": "八点半开始登机。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "passport",
+      "part_of_speech": "noun",
+      "meaning_zh": "护照",
+      "example_en": "May I see your passport?",
+      "example_zh": "我可以看一下您的护照吗？"
+    },
+    {
+      "word": "fly",
+      "part_of_speech": "verb",
+      "meaning_zh": "飞；乘飞机",
+      "example_en": "I am flying to London.",
+      "example_zh": "我要飞往伦敦。"
+    },
+    {
+      "word": "London",
+      "part_of_speech": "noun",
+      "meaning_zh": "伦敦",
+      "example_en": "I am flying to London.",
+      "example_zh": "我要飞往伦敦。"
+    },
+    {
+      "word": "bag",
+      "part_of_speech": "noun",
+      "meaning_zh": "包；行李",
+      "example_en": "I have one bag.",
+      "example_zh": "我有一个包。"
+    },
+    {
+      "word": "scale",
+      "part_of_speech": "noun",
+      "meaning_zh": "秤",
+      "example_en": "Put it on the scale.",
+      "example_zh": "把它放到秤上。"
+    },
+    {
+      "word": "gate",
+      "part_of_speech": "noun",
+      "meaning_zh": "登机口；门",
+      "example_en": "Your gate is number twelve.",
+      "example_zh": "您的登机口是十二号。"
+    },
+    {
+      "word": "boarding",
+      "part_of_speech": "noun",
+      "meaning_zh": "登机",
+      "example_en": "When does boarding start?",
+      "example_zh": "什么时候开始登机？"
+    },
+    {
+      "word": "start",
+      "part_of_speech": "verb",
+      "meaning_zh": "开始",
+      "example_en": "Boarding starts at eight thirty.",
+      "example_zh": "八点半开始登机。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "Where is the passenger flying?",
+        "prompt_zh": "乘客要飞往哪里？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "London"
+          },
+          {
+            "id": "B",
+            "text": "Paris"
+          },
+          {
+            "id": "C",
+            "text": "Rome"
+          },
+          {
+            "id": "D",
+            "text": "Berlin"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "How many bags does the passenger have?",
+        "prompt_zh": "乘客有几个包？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "One"
+          },
+          {
+            "id": "B",
+            "text": "Two"
+          },
+          {
+            "id": "C",
+            "text": "Three"
+          },
+          {
+            "id": "D",
+            "text": "Four"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "What is the gate number?",
+        "prompt_zh": "登机口是几号？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Ten"
+          },
+          {
+            "id": "B",
+            "text": "Eleven"
+          },
+          {
+            "id": "C",
+            "text": "Twelve"
+          },
+          {
+            "id": "D",
+            "text": "Thirteen"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "When does boarding start?",
+        "prompt_zh": "什么时候开始登机？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "At eight"
+          },
+          {
+            "id": "B",
+            "text": "At eight thirty"
+          },
+          {
+            "id": "C",
+            "text": "At nine"
+          },
+          {
+            "id": "D",
+            "text": "At nine thirty"
+          }
+        ],
+        "answer": "B"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Good morning. May I see your passport?"
+      },
+      {
+        "id": "dict-2",
+        "line_order": 4,
+        "answer": "I am flying to London."
+      },
+      {
+        "id": "dict-3",
+        "line_order": 10,
+        "answer": "Boarding starts at eight thirty."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 12,
+    "import_ready": false
+  }
+}

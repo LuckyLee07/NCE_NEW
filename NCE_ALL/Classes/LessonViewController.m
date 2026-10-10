@@ -77,6 +77,7 @@ static NSString* const kLessonViewControllerCellReuseId = @"kLessonViewControlle
     cell.backgroundColor = [UIColor clearColor];
     cell.contentView.backgroundColor = [UIColor clearColor];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.accessibilityIdentifier = [NSString stringWithFormat:@"lesson-%ld", (long)indexPath.row];
     
     NSArray *array = [cell.contentView subviews];
     for (UIView *view in array) {
@@ -93,26 +94,32 @@ static NSString* const kLessonViewControllerCellReuseId = @"kLessonViewControlle
     idLabel.backgroundColor = [self.colorArray objectAtIndex:indexPath.row%9];
     idLabel.font = [UIFont systemFontOfSize:12*height/50];
     idLabel.textColor = [UIColor whiteColor];
-    idLabel.text = [lessonArray objectAtIndex:0];
+    idLabel.text = NCEChineseText([lessonArray objectAtIndex:0]);
     idLabel.textAlignment = NSTextAlignmentCenter;
     [cell.contentView addSubview:idLabel];
     
     // english title
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(height*4/3, height/12, tableView.frame.size.width-height, height/2)];
+    CGFloat titleX = height * 4 / 3;
+    CGFloat titleWidth = MAX(0, tableView.frame.size.width - titleX - 44);
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(titleX, height/12, titleWidth, height/2)];
     titleLabel.backgroundColor = [UIColor clearColor];
     titleLabel.font = [UIFont systemFontOfSize:14*height/50];
     titleLabel.textColor = [UIColor blackColor];
     titleLabel.text = [lessonArray objectAtIndex:1];
     titleLabel.textAlignment = NSTextAlignmentLeft;
+    titleLabel.adjustsFontSizeToFitWidth = YES;
+    titleLabel.minimumScaleFactor = 0.6;
     [cell.contentView addSubview:titleLabel];
     
     // chinese title
-    UILabel *subTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(height*4/3, height*7/12, tableView.frame.size.width-height, height*5/12)];
+    UILabel *subTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(titleX, height*7/12, titleWidth, height*5/12)];
     subTitleLabel.backgroundColor = [UIColor clearColor];
     subTitleLabel.font = [UIFont systemFontOfSize:12*height/50];
     subTitleLabel.textColor = [UIColor darkGrayColor];
-    subTitleLabel.text = [lessonArray objectAtIndex:2];
+    subTitleLabel.text = NCEChineseText([lessonArray objectAtIndex:2]);
     subTitleLabel.textAlignment = NSTextAlignmentLeft;
+    subTitleLabel.adjustsFontSizeToFitWidth = YES;
+    subTitleLabel.minimumScaleFactor = 0.6;
     [cell.contentView addSubview:subTitleLabel];
     
     // show when the cell is selected

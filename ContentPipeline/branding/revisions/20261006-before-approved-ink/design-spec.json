@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "created_on": "2026-10-06",
+  "generation": "built-in image_gen",
+  "app_interface_languages": [
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko"
+  ],
+  "cover_language": "English title and Arabic book numbers; shared across all supported UI languages",
+  "publisher_affiliation_claimed": false,
+  "assets": [
+    {
+      "id": "icon",
+      "source": "source/icon.png",
+      "prompt": "Use case: logo-brand. Asset type: production iOS app icon for a four-book offline English listening and vocabulary app, used in Chinese, Japanese and Korean markets. Create one square 1024 x 1024 full-bleed bitmap icon, not a mockup. A bold ivory open book fills the central 65 percent of the square, with a clean ivory over-ear headphone arch wrapping above it. Four short book/page accents in golden yellow, coral red, sky blue and mint green sit along the lower edge of the open book, visually indicating four volumes. Refined matte dimensional illustration, clean crisp silhouette, softly beveled edges, restrained natural depth, not glossy or childish. Solid rich jade-green background, slightly lighter than the darkest accents, with no decorative particles. Strong contrast and easy recognition at 40 pixels. Balanced central composition, substantial simple shapes, generous edge clearance. No text or letters anywhere, no numbers, no flags, no publisher marks, no watermark. No enclosing tile, no device frame, no rounded outside corners: iOS applies the mask. Entire square must be opaque."
+    },
+    {
+      "id": "book1",
+      "source": "source/book1.png",
+      "prompt": "Use case: illustration-story. Asset type: final front cover bitmap for Book 1 of a four-volume English learning app; shared by Chinese, Japanese and Korean UI. Create a single flat front-cover design, portrait aspect ratio 5:7, ideally 1000 x 1400, filling every edge; not a physical book mockup. Contemporary educational editorial design. Background pale golden yellow. Top fifth: clean dark charcoal bold sans-serif typography on two lines, exact text 'NEW CONCEPT' then 'ENGLISH'; readable and perfectly spelled. Large bold ivory numeral '1' anchors the middle-left, with dark warm ochre edge shading, consuming approximately a third of the cover height. Middle-right and lower half: a beautiful simple matte dimensional illustration of an ivory open book, coral over-ear headphones, and one sky-blue speech bubble, coordinated, unobscured, with warm gentle grounded shadows. Bottom aligned small dark charcoal text exactly 'BOOK 1'. Consistent generous margins and uncluttered hierarchy. Restrained shapes, tactile matte finish, confident rather than childish. No Chinese/Japanese/Korean text, no flags, no logos, no publisher marks, no CEFR labels or claimed certifications, no extra copy, no watermark, no outside frame, no rounded cover corners. Number and illustration must be separated and clearly distinguishable at small size."
+    },
+    {
+      "id": "book2",
+      "source": "source/book2.png",
+      "prompt": "Use case: illustration-story. Asset type: final front cover bitmap for Book 2 in the same four-volume English learning app. Create a single flat front-cover design portrait aspect ratio 5:7, ideally 1000 x 1400, filling every edge; not a physical book mockup. Use precisely the same hierarchy as a coordinated Book 1: title in the top fifth, oversized numeral middle-left, simple matte dimensional learning illustration middle-right/lower half, small bottom book label. Background warm light coral. Top title in dark charcoal bold clean sans-serif, on two lines, exact text 'NEW CONCEPT' then 'ENGLISH'. Huge ivory numeral '2' with muted darker coral edge shading, approximately a third of the cover height. Illustration: two substantial overlapping speech bubbles in ivory and golden yellow above a simple sky-blue open book, a small green bookmark, gentle grounded shadows; no writing or letters in the bubbles. Bottom aligned exact small dark charcoal text 'BOOK 2'. Modern educational editorial design, restrained tactile matte three-dimensional objects, generous margins and highly legible at thumbnail size. No Chinese/Japanese/Korean text, flags, publisher logos, certification labels, additional copy, watermarks, outside frame, or rounded outside corners. EDIT TARGET: the attached Book 1 cover. Preserve its exact typography, header alignment, margins, image proportions, bottom label placement and matte illustration style. Replace 1 with 2, BOOK 1 with BOOK 2, yellow background with light coral, and replace the headphones illustration with the requested dialogue/book illustration. This is a sister cover, not a collage.",
+      "reference": "source/book1.png",
+      "reference_role": "edit target; retain typography and layout, replace number, background and illustration"
+    },
+    {
+      "id": "book3",
+      "source": "source/book3.png",
+      "prompt": "Use case: illustration-story. Asset type: final front cover bitmap for Book 3 in a coordinated four-volume offline English learning app. Create a single flat front-cover design portrait aspect ratio 5:7, ideally 1000 x 1400, full bleed, not a physical book mockup. Same consistent editorial hierarchy: top fifth title, massive ivory numeral middle-left, learning illustration middle-right/lower half, small bottom book label. Background fresh light sky blue, not navy or purple. Title dark charcoal bold clean sans-serif, two lines, exact text 'NEW CONCEPT' then 'ENGLISH'. Huge ivory numeral '3' with medium-blue subtle dimensional edge shading, approximately a third of cover height. Learning illustration: an open ivory writing notebook with three thick minimal gray line marks (no literal writing), an elegant coral pen resting diagonally beside it, and one small golden-yellow page tab. Beautiful restrained matte dimensional rendering with soft grounded shadows and generous clear space; numeral remains separate and unobscured. Bottom aligned exact small dark charcoal text 'BOOK 3'. No Chinese/Japanese/Korean text, flags, publisher marks, CEFR labels, extra copy, watermark, enclosing tile or rounded outside corners. Strong legibility and mature educational look. EDIT TARGET: the attached Book 1 cover. Preserve its exact title typography, header alignment, margins, full-cover proportions, bottom label placement and matte illustration style. Replace 1 with 3, BOOK 1 with BOOK 3, yellow background with light sky blue, and replace the headphones/speech bubble illustration with the requested writing notebook and pen illustration. This is a sister cover, not a collage. Do not turn the notebook into a tablet screen.",
+      "reference": "source/book1.png",
+      "reference_role": "edit target; retain typography and layout, replace number, background and illustration"
+    },
+    {
+      "id": "book4",
+      "source": "source/book4.png",
+      "prompt": "Use case: illustration-story. Asset type: final front cover bitmap for Book 4 in a coordinated four-volume English learning app for Chinese, Japanese and Korean audiences. Create a single flat front-cover design portrait aspect ratio 5:7, ideally 1000 x 1400, full bleed, not a physical book mockup. Precisely coordinate hierarchy: dark charcoal top title in the top fifth, oversized ivory numeral middle-left, simple learning illustration middle-right/lower half, small bottom book label. Background light mint green. Exact bold sans-serif title on two lines: 'NEW CONCEPT' then 'ENGLISH'. Huge ivory numeral '4' with rich green subtle dimensional edge shading, approximately a third of cover height. Illustration: an ivory open reading book with a coral bookmark, one elegant golden-yellow reading lamp shining gently onto the pages, and a small sky-blue closed book beneath it. Refined simple matte dimensional objects, soft grounded shadows, ample margins, clear silhouette, no clutter or toy-like excess. Keep large numeral unobscured and distinct. Bottom aligned exact small dark charcoal text 'BOOK 4'. No Chinese/Japanese/Korean text, no flags, no publisher marks, no CEFR claims, no extra words or watermark, no outer border or rounded outside corners. EDIT TARGET: the attached Book 1 cover. Preserve its exact title typography, header alignment, margins, full-cover proportions, bottom label placement and matte illustration style. Replace 1 with 4, BOOK 1 with BOOK 4, yellow background with light mint green, and replace the headphones/speech bubble illustration with the requested reading book and lamp illustration. This is a sister cover, not a collage.",
+      "reference": "source/book1.png",
+      "reference_role": "edit target; retain typography and layout, replace number, background and illustration"
+    }
+  ]
+}

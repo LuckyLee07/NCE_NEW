@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-weather-plan",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "A Sunny Day Plan",
+    "title_zh": "晴天计划",
+    "level": "A1",
+    "topic": "daily conversation",
+    "estimated_duration_seconds": 70,
+    "tags": [
+      "weather",
+      "plans",
+      "walking",
+      "park"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "It is sunny today.",
+      "chinese": "今天阳光明媚。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "Yes, the sky is very clear.",
+      "chinese": "是的，天空很晴朗。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Do you want to take a walk?",
+      "chinese": "你想去散步吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "That sounds good.",
+      "chinese": "听起来不错。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "Should I bring a jacket?",
+      "chinese": "我应该带件夹克吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "No, it is warm outside.",
+      "chinese": "不用，外面很暖和。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "Let's meet at three.",
+      "chinese": "我们三点见吧。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "Can we go to the river park?",
+      "chinese": "我们可以去河边公园吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Sure. It is quiet there.",
+      "chinese": "当然。那里很安静。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Great. See you later.",
+      "chinese": "太好了。一会儿见。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "sunny",
+      "part_of_speech": "adjective",
+      "meaning_zh": "晴朗的",
+      "example_en": "It is sunny today.",
+      "example_zh": "今天阳光明媚。"
+    },
+    {
+      "word": "sky",
+      "part_of_speech": "noun",
+      "meaning_zh": "天空",
+      "example_en": "The sky is very clear.",
+      "example_zh": "天空很晴朗。"
+    },
+    {
+      "word": "clear",
+      "part_of_speech": "adjective",
+      "meaning_zh": "晴朗的；清楚的",
+      "example_en": "The sky is clear.",
+      "example_zh": "天空很晴朗。"
+    },
+    {
+      "word": "walk",
+      "part_of_speech": "noun",
+      "meaning_zh": "散步",
+      "example_en": "Do you want to take a walk?",
+      "example_zh": "你想去散步吗？"
+    },
+    {
+      "word": "jacket",
+      "part_of_speech": "noun",
+      "meaning_zh": "夹克",
+      "example_en": "Should I bring a jacket?",
+      "example_zh": "我应该带件夹克吗？"
+    },
+    {
+      "word": "warm",
+      "part_of_speech": "adjective",
+      "meaning_zh": "温暖的",
+      "example_en": "It is warm outside.",
+      "example_zh": "外面很暖和。"
+    },
+    {
+      "word": "meet",
+      "part_of_speech": "verb",
+      "meaning_zh": "见面",
+      "example_en": "Let's meet at three.",
+      "example_zh": "我们三点见吧。"
+    },
+    {
+      "word": "quiet",
+      "part_of_speech": "adjective",
+      "meaning_zh": "安静的",
+      "example_en": "It is quiet there.",
+      "example_zh": "那里很安静。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "What is the weather like?",
+        "prompt_zh": "天气怎么样？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Sunny"
+          },
+          {
+            "id": "B",
+            "text": "Rainy"
+          },
+          {
+            "id": "C",
+            "text": "Snowy"
+          },
+          {
+            "id": "D",
+            "text": "Windy"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "What do they want to do?",
+        "prompt_zh": "他们想做什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Take a walk"
+          },
+          {
+            "id": "B",
+            "text": "Watch a movie"
+          },
+          {
+            "id": "C",
+            "text": "Cook dinner"
+          },
+          {
+            "id": "D",
+            "text": "Clean the room"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "Do they need a jacket?",
+        "prompt_zh": "他们需要夹克吗？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Yes"
+          },
+          {
+            "id": "B",
+            "text": "No"
+          },
+          {
+            "id": "C",
+            "text": "Maybe"
+          },
+          {
+            "id": "D",
+            "text": "The lesson does not say"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "Where do they want to go?",
+        "prompt_zh": "他们想去哪里？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "The river park"
+          },
+          {
+            "id": "B",
+            "text": "The train station"
+          },
+          {
+            "id": "C",
+            "text": "The hotel"
+          },
+          {
+            "id": "D",
+            "text": "The bank"
+          }
+        ],
+        "answer": "A"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "It is sunny today."
+      },
+      {
+        "id": "dict-2",
+        "line_order": 5,
+        "answer": "Should I bring a jacket?"
+      },
+      {
+        "id": "dict-3",
+        "line_order": 10,
+        "answer": "Great. See you later."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 6,
+    "import_ready": false
+  }
+}
+

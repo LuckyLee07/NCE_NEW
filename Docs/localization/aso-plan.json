@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "status": "metadata_saved_in_app_store_connect_1_3_draft_media_generated_locally_not_uploaded_no_acquisition_data",
+  "screenshot_status": "60 supported-size native screenshots and 12 real App previews generated locally; technical and generated-asset visual checks passed; native editorial review and small-device compatibility confirmation remain separate release gates",
+  "audience_hypothesis": "Keep Chinese-reading learners in US/other overseas storefronts as the existing hypothesis; test Japanese- and Korean-reading learners separately, without assuming storefront establishes user language",
+  "constraints": [
+    "Keep the existing Simplified Chinese name for the first release; the screenshot is evidence of its current wording, not of current keywords or ranking.",
+    "Do not change the primary language to English solely because US storefront downloads dominate.",
+    "Traditional Chinese is one shared localization in this batch, not separate Taiwan/Hong Kong translations.",
+    "Use only real existing features, with no official-publisher, authorization, AI tutor, subscription or speech-scoring claims.",
+    "Five metadata localizations were saved in the App Store Connect 1.3 draft on 2026-10-06. en-US is store-only; the app still has four interface languages. Existing en-CA metadata was retained. No new screenshots or build were uploaded, no review was submitted, and availability was not changed."
+  ],
+  "first_release": {
+    "metadata_file": "Docs/localization/store-metadata.json",
+    "locales": ["zh-Hans", "zh-Hant", "ja", "ko", "en-US"],
+    "app_interface_locales": ["zh-Hans", "zh-Hant", "ja", "ko"],
+    "retained_store_locale": "en-CA",
+    "priority": ["US Chinese-language storefront presentation and dedicated en-US copy explaining the supported UI languages", "Traditional Chinese presentation for TW/HK/MO", "Japanese presentation for JP", "Korean presentation for KR", "Other storefronts accepting these metadata localizations"],
+    "keywords": "Feature-led candidates only, expanded and saved on 2026-10-06. No measured search-volume or ranking evidence; the prior 1.2 text remains in the filling record. Preserve/export current live metadata before later revisions.",
+    "avoid": ["keyword repetition from the name/subtitle", "unrelated popular keywords", "competitor names", "unverified pricing claims", "invented search-volume estimates"]
+  },
+  "store_assets": {
+    "directory": "StoreAssets/1.3/upload",
+    "preview_page": "StoreAssets/1.3/index.html",
+    "upload_guide": "StoreAssets/README.md",
+    "manifest": "StoreAssets/1.3/manifest.json",
+    "store_locales": ["zh-Hans", "zh-Hant", "ja", "ko", "en-US", "en-CA"],
+    "screenshots": 60,
+    "preview_videos": 12,
+    "poster_references": 12,
+    "iphone_screenshot_pixels": [1290, 2796],
+    "ipad_screenshot_pixels": [2048, 2732],
+    "iphone_preview_pixels": [886, 1920],
+    "ipad_preview_pixels": [1200, 1600],
+    "preview_duration_seconds": 24.022,
+    "preview_audio": "silent AAC; no simulated app audio or external music",
+    "english_store_actual_ui": "zh-Hans; English video captions; no English app interface",
+    "technical_checks": "6 artifact tests passed; all frames decoded; real lesson navigation and wordbook scrolling verified; 90 OCR images with zero flags; 60 images and 12 videos loaded in browser with nonblank playback and no desktop/mobile horizontal overflow",
+    "generated_asset_visual_review": "passed",
+    "native_editorial_review": "pending",
+    "uploaded": false,
+    "production_records_touched": false,
+    "version_guidance": "Final inspection found local Debug/Release set to 1.3 (1), matching the ASC draft. iOS Build can remain 1 if 1.3 (1) has not been uploaded; increment for subsequent uploads under the same Version. Captured QA bundle metadata is 1.2 (1); the agent did not change the project version."
+  },
+  "screenshots": [
+    {"order": 1, "screen": "book-home", "message_hans": "四册学习，离线使用", "message_hant": "四冊學習，離線使用", "message_ja": "全4巻、オフライン学習", "message_ko": "전 4권, 오프라인 학습"},
+    {"order": 2, "screen": "lesson-with-translation", "message_hans": "逐句播放，中英对照", "message_hant": "逐句播放，中英對照", "message_ja": "一文ずつ再生、英日対訳", "message_ko": "문장별 재생, 영한 대조"},
+    {"order": 3, "screen": "word-with-picture", "message_hans": "单词发音，配图辅助", "message_hant": "單詞發音，配圖輔助", "message_ja": "発音と画像で単語学習", "message_ko": "발음과 이미지로 단어 학습"},
+    {"order": 4, "screen": "word-choice-test", "message_hans": "词义选择，学练结合", "message_hant": "詞義測驗，學習練習", "message_ja": "選択問題で意味を確認", "message_ko": "선택 문제로 뜻 확인"},
+    {"order": 5, "screen": "wordbook", "message_hans": "单词分组，集中复习", "message_hant": "單詞分組，集中複習", "message_ja": "単語帳でまとめて復習", "message_ko": "단어장으로 모아서 복습"}
+  ],
+  "measurement": {
+    "baseline": "Record the 30 days before the update; screenshot period 2026-09-05 through 2026-10-04 has 645 total app units, with no exact US count supplied.",
+    "review_window_days": [14, 28],
+    "metrics_if_available": ["US absolute first downloads", "search versus browse and referrals", "product page conversion", "retention", "AdMob actual-country revenue"],
+    "minimum_when_analytics_unavailable": ["daily app units by storefront", "total absolute app units", "ratings and support feedback"],
+    "limits": ["Do not attribute all changes to ASO without acquisition data", "Do not treat storefront share as geographic user share", "Do not treat downloads as paid sales or ad revenue", "Do not infer actual search phrases from a source-type chart"]
+  },
+  "release_checklist": [
+    "Export and retain live Simplified name, subtitle, keywords, description and screenshots before editing.",
+    "Check App Store Connect language display and all five updated store localizations, including US, Japan and Korea storefront previews; review the retained en-CA separately.",
+    "Review and upload the locally generated en-US creatives showing real Simplified Chinese UI with English video captions; retained en-CA assets are identical. Do not portray an English-language interface that does not exist.",
+    "Review Traditional wording and Japanese/Korean machine translation drafts, screenshots, feature accuracy and content rights.",
+    "Upload the generated 1290x2796 iPhone and 2048x2732 iPad screenshots in supported size groups; upload MP4 files as App previews, not screenshots, and do not upload review frames or poster-reference PNGs.",
+    "Keep the primary title stable for the initial update and record all changed fields and the release date.",
+    "Compare absolute acquisition after 14 and 28 days, using the same storefront and metric definitions."
+  ],
+  "sources": [
+    "https://developer.apple.com/app-store/search/",
+    "https://developer.apple.com/help/app-store-connect/reference/app-information/app-store-localizations/",
+    "https://developer.apple.com/help/app-store-connect-analytics/acquisition/acquisition/"
+  ]
+}

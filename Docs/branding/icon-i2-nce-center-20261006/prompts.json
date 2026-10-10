@@ -1,0 +1,27 @@
+{
+  "format_version": 1,
+  "created_on": "2026-10-06",
+  "status": "approved_exported_to_project",
+  "production_spec": "../../../ContentPipeline/branding/design-spec.json",
+  "generation": "built-in image_gen",
+  "runtime_assets_changed": true,
+  "edit_reference": "../icon-i2-nce-20261006/i2-nce-preview.png",
+  "preview": "i2-nce-center-preview.png",
+  "original_generated_file": "/Users/lizi/.codex/generated_images/019eb45a-85cd-7cd2-9185-8b05f6dfcb31/exec-93b0f03c-d774-46e0-a52a-02ba9b891b6f.png",
+  "selected_cover_direction": "../concepts-20261006/c-line-art.png",
+  "selected_icon": "i2-nce-center",
+  "supersedes": "../icon-i2-nce-20261006/prompts.json",
+  "requirements": [
+    "Remove the upper-left NCE wordmark.",
+    "Design a bold original ink-style serif NCE wordmark centered on the shared blank book-spine area.",
+    "Preserve four recognizable rising book spines and the original four colored bands."
+  ],
+  "notes": [
+    "This is custom lettering for the NCE mark, not a complete installable font.",
+    "The main and small copies were visually checked for central lettering, exact NCE spelling, four-book count and unobscured colored bands.",
+    "Small copies are generated design previews, not exact-size production or device tests.",
+    "The white presentation board and rounded mask must not be used directly as a production AppIcon.",
+    "The user approved this preview; finalized artwork has been exported through the linked production spec."
+  ],
+  "prompt": "Use case: precise-object-edit.\nAsset type: iOS icon concept refinement with a custom lettered NCE logo.\nInput image 1 is the EXACT EDIT TARGET: the burgundy rounded-square icon with four original illustrated book spines, plus two small copies on a white board. Preserve this specific icon, do not replace it with a different book illustration.\n\nUser correction: The NCE name must be ON THE BOOKS, centered in their broad blank middle area, NOT in the upper-left background. The lettering itself should be deliberately designed, not just ordinary type placed in a corner.\n\nRequired edits:\n1. Completely REMOVE the existing white NCE from the upper-left burgundy area, restoring that empty burgundy background.\n2. Add exactly one cohesive custom uppercase \"NCE\" wordmark across the shared WARM-WHITE CENTRAL REGION of the four book spines. Center the whole word horizontally on the four-book group, and vertically between the short charcoal title rules above and the four colored waist bands below. This is about the visual CENTER of the icon, slightly below its midpoint. The entire lettering must be ON the books, not floating above them, at the bottom, or in the surrounding burgundy field.\n3. Wordmark color: deep burgundy ink, clearly contrasting with the white book surfaces. It is a confident original inked literary logo, with substantial strokes and a little handcrafted character. Custom broad bracketed/slab serif capitals, elegant open curved C, a slightly expressive diagonal on N, E with a shorter middle arm and subtly page-cut terminal details. Keep all three letters unquestionably readable as N C E. Avoid a stock thin Times-style word, flourishes, cursive, blackletter, or ornamental calligraphy. The logo should feel lettered for a printed book collection, not an unrelated UI font.\n4. Lettering is ONE horizontal continuous word, with calm balanced spacing, roughly 68-74 percent of the book group's width and 15-19 percent of the icon height. Make its overall optical center coincide with the center of all FOUR books, not just the left three. Do not place one separate letter on each spine, do not add \"4\", and do not rotate or stair-step the letters with the book heights. The tiny natural gaps between books must not cause letters to become missing or illegible. Treat the name as a coordinated collection imprint across the book group, with no plaque, badge, enclosing box or extra paper strip.\n\nPreserve rigorously: EXACTLY FOUR books in the same rising-height arrangement, rightmost book's slight lean, original warm-white book bodies, charcoal hand-ink outer contours, page-top details, short title rules near the tops, and all four original burgundy/teal/blue/gold bands near the bottom. The center wordmark must not cover those colored bands, book tops or the short rules. Preserve the burgundy rounded-square background and its print-like texture. Do not resize or rearrange the books to make room for a heading.\n\nOutput: preserve the existing white square presentation board with the one large edited icon and TWO smaller copies beneath. Apply the SAME central custom NCE wordmark to all three copies, with the upper-left NCE removed in each. Preserve small board heading \"I2\". No other text, numbers, Chinese/Japanese/Korean text, slogans, watermarks, new images or publisher logo. No glossy 3D, shadows, gradients, stickers or ornate frame. All icon elements entirely visible. This is a precise central-book typography revision, not a new icon direction."
+}

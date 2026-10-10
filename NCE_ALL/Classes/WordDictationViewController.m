@@ -11,6 +11,7 @@
 #import "CKAlertView.h"
 #import "MBProgressHUD.h"
 #import "AdmobManager.h"
+#import "NCEWordResourceStore.h"
 #import <AVFoundation/AVFoundation.h>
 
 static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictationViewControllerCellReuseId";
@@ -59,7 +60,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
 {
     self = [super init];
     if (self) {
-        self.titleString = @"单词听写";
+        self.titleString = NCELocalizedString(@"单词听写");
         _bookId = bookId;
         _lessonId = lessonId;
         
@@ -81,7 +82,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
     
     // Configure for text only and offset down
     //    _hud.mode = MBProgressHUDModeText;
-    _hud.label.text = @"loading...";
+    _hud.label.text = NCELocalizedString(@"载入中…");
     _hud.removeFromSuperViewOnHide = YES;
     
     [self performSelector:@selector(showWordInformation) withObject:nil afterDelay:0.1f];
@@ -147,6 +148,9 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
         _questionLabel.font = [UIFont systemFontOfSize:8*height/50];
         _questionLabel.textColor = [UIColor darkGrayColor];
         _questionLabel.textAlignment = NSTextAlignmentCenter;
+        _questionLabel.numberOfLines = 0;
+        _questionLabel.adjustsFontSizeToFitWidth = YES;
+        _questionLabel.minimumScaleFactor = 0.6;
         [cell.contentView addSubview:_questionLabel];
     } else if (indexPath.row > 1) {
         UIView *background = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, height)];
@@ -163,6 +167,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
         _answerField.font = [UIFont systemFontOfSize:14.f];
         _answerField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
         _answerField.delegate = self;
+        _answerField.accessibilityIdentifier = @"dictation-answer";
         _answerField.returnKeyType = UIReturnKeyDone;
         _answerField.clearButtonMode = UITextFieldViewModeWhileEditing;
         _answerField.layer.cornerRadius = 6;
@@ -170,7 +175,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
         _answerField.layer.borderWidth = 1;
         _answerField.layer.borderColor = [color CGColor];
         _answerField.textColor = [UIColor blackColor];
-        _answerField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"  请输入答案" attributes:@{NSForegroundColorAttributeName:[UIColor lightGrayColor],NSFontAttributeName:[UIFont systemFontOfSize:14.f]}];
+        _answerField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:NCELocalizedString(@"请输入答案") attributes:@{NSForegroundColorAttributeName:[UIColor lightGrayColor],NSFontAttributeName:[UIFont systemFontOfSize:14.f]}];
         [cell.contentView addSubview:_answerField];
         
         
@@ -180,10 +185,13 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
         submitButton.layer.masksToBounds = YES;
         submitButton.layer.borderWidth = 1;
         submitButton.layer.borderColor = [color CGColor];
-        [submitButton setTitle:@"Submit" forState:UIControlStateNormal];
+        [submitButton setTitle:NCELocalizedString(@"提交") forState:UIControlStateNormal];
         [submitButton setTitleColor:color forState:UIControlStateNormal];
         submitButton.titleLabel.font = [UIFont systemFontOfSize:12.f];
+        submitButton.titleLabel.adjustsFontSizeToFitWidth = YES;
+        submitButton.titleLabel.minimumScaleFactor = 0.65;
         [submitButton addTarget:self action:@selector(submit) forControlEvents:UIControlEventTouchUpInside];
+        submitButton.accessibilityIdentifier = @"dictation-submit";
         [cell.contentView addSubview:submitButton];
         
         UIButton *passButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -192,17 +200,28 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
         passButton.layer.masksToBounds = YES;
         passButton.layer.borderWidth = 1;
         passButton.layer.borderColor = [color CGColor];
-        [passButton setTitle:@"Pass" forState:UIControlStateNormal];
+        [passButton setTitle:NCELocalizedString(@"跳过") forState:UIControlStateNormal];
         [passButton setTitleColor:color forState:UIControlStateNormal];
         passButton.titleLabel.font = [UIFont systemFontOfSize:12.f];
+        passButton.titleLabel.adjustsFontSizeToFitWidth = YES;
+        passButton.titleLabel.minimumScaleFactor = 0.65;
         [passButton addTarget:self action:@selector(pass) forControlEvents:UIControlEventTouchUpInside];
+        passButton.accessibilityIdentifier = @"dictation-pass";
         [cell.contentView addSubview:passButton];
         
         _volumeButton = [UIButton buttonWithType:UIButtonTypeCustom];
         _volumeButton.frame = CGRectMake(self.view.frame.size.width-50.f, height/2-20, 40.f, 40.f);
-        [_volumeButton setImage:[UIImage imageNamed:@"volume_click"] forState:UIControlStateNormal];
+        UIImage *volumeImage = [UIImage imageNamed:@"volume_click"];
+        if ([@[@"ja", @"ko"] containsObject:NCELocalization.sharedLocalization.languageCode]) {
+            UIImageSymbolConfiguration *configuration = [UIImageSymbolConfiguration configurationWithPointSize:22 weight:UIImageSymbolWeightRegular];
+            volumeImage = [UIImage systemImageNamed:@"speaker.wave.2" withConfiguration:configuration] ?: volumeImage;
+            _volumeButton.tintColor = color;
+        }
+        [_volumeButton setImage:volumeImage forState:UIControlStateNormal];
         //        [_volumeButton setImage:[UIImage imageNamed:@"volume_click"] forState:UIControlStateHighlighted];
         [_volumeButton addTarget:self action:@selector(repeat) forControlEvents:UIControlEventTouchUpInside];
+        _volumeButton.accessibilityIdentifier = @"dictation-repeat";
+        _volumeButton.accessibilityLabel = NCELocalizedString(@"重读单词");
         [cell.contentView addSubview:_volumeButton];
     } else {
         _scoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(height/4, 0, height*2, height)];
@@ -287,7 +306,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
         [item setObject:englishString forKey:@"english"];
         
         NSString *chineseString = [[NSString alloc] initWithCString:(char *)sqlite3_column_text(statement, 1) encoding:NSUTF8StringEncoding];
-        [item setObject:chineseString forKey:@"chinese"];
+        [item setObject:[[NCEWordResourceStore sharedStore] translationForWord:englishString fallback:chineseString] forKey:@"chinese"];
         
         [_items addObject:item];
     }
@@ -298,10 +317,10 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
 
 - (void)showResult
 {
-    CKAlertView *alertView = [[CKAlertView alloc] initWithTitle:@"测验结果"
-                                                        message:[NSString stringWithFormat:@"一共 %d 单词，答对 %d 个", (int)_items.count, _correctAnswers]
+    CKAlertView *alertView = [[CKAlertView alloc] initWithTitle:NCELocalizedString(@"测验结果")
+                                                        message:[NSString stringWithFormat:NCELocalizedString(@"一共 %d 单词，答对 %d 个"), (int)_items.count, _correctAnswers]
                                                        delegate:self
-                                              cancelButtonTitle:@"返回"
+                                              cancelButtonTitle:NCELocalizedString(@"返回")
                                               otherButtonTitles:nil];
     [alertView show];
 }
@@ -313,14 +332,13 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
     if (_currentIndex >= _items.count) {
         [self showResult];
     } else {
-        _scoreLabel.text = [NSString stringWithFormat:@"%d 分",_correctAnswers*100/(int)_items.count];
+        _scoreLabel.text = [NSString stringWithFormat:NCELocalizedString(@"%d 分"),_correctAnswers*100/(int)_items.count];
         _countLabel.text = [NSString stringWithFormat:@"%d / %d",_currentIndex+1, (int)_items.count];
         
         NSDictionary *item = [_items objectAtIndex:_currentIndex];
         _questionLabel.text = [item objectForKey:@"chinese"];
         
-        NSString *soundName = [NSString stringWithFormat:@"data/words/wav/%@.wav",[item objectForKey:@"english"]];
-        NSString *soundPath =  [[NSBundle mainBundle] pathForResource:soundName ofType:nil];
+        NSString *soundPath = [[NCEWordResourceStore sharedStore] audioPathForWord:item[@"english"]];
         
         if (soundPath) {
             _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundPath] error:nil];
@@ -355,6 +373,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
 
 - (void)isAnswerWrong:(BOOL)wrong
 {
+    if (_currentIndex < 0 || _currentIndex >= _items.count) return;
     sqlite3 *database;
     //    NSString *dbPath = [[NSBundle mainBundle] pathForResource:@"data/NCE" ofType:@"db"];
     NSString *dbPath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"NCE.db"];
@@ -363,14 +382,11 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
         //        NSLog(@"ok");
     }
     
-    NSString *updateSql = [NSString stringWithFormat:@"update words set `wrong`=%d where `word_name`='%@'",wrong,[[_items objectAtIndex:_currentIndex] objectForKey:@"english"]];
-    sqlite3_stmt *statement;
-    if (sqlite3_prepare_v2(database, [updateSql UTF8String], -1, &statement, nil)==SQLITE_OK) {
-        //        NSLog(@"select ok.");
-    }
-    
-    if (sqlite3_step(statement) == SQLITE_DONE) {
-        //        NSLog(@"done.");
+    sqlite3_stmt *statement = NULL;
+    if (sqlite3_prepare_v2(database, "UPDATE words SET wrong=? WHERE word_name=?", -1, &statement, NULL) == SQLITE_OK) {
+        sqlite3_bind_int(statement, 1, wrong);
+        sqlite3_bind_text(statement, 2, [_items[_currentIndex][@"english"] UTF8String], -1, SQLITE_TRANSIENT);
+        sqlite3_step(statement);
     }
     
     sqlite3_finalize(statement);
@@ -379,6 +395,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
 
 - (void)submit
 {
+    if (_currentIndex < 0 || _currentIndex >= _items.count) return;
     MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     
     // Configure for text only and offset down
@@ -388,7 +405,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
     NSDictionary *item = [_items objectAtIndex:_currentIndex];
     NSString *answerString = [_answerField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
-    if ([answerString isEqualToString:[item objectForKey:@"english"]]) {
+    if ([[NCEWordResourceStore sharedStore] answer:answerString matchesWord:item[@"english"]]) {
         HUD.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"answer_correct"]];
         
         _correctAnswers++;
@@ -407,6 +424,7 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
 
 - (void)pass
 {
+    if (_currentIndex < 0 || _currentIndex >= _items.count) return;
     _answerField.text = nil;
     
     [_answerField resignFirstResponder];
@@ -417,8 +435,8 @@ static NSString* const kWordDictationViewControllerCellReuseId = @"kWordDictatio
 
 - (void)repeat
 {
-    NSString *soundName = [NSString stringWithFormat:@"data/words/wav/%@.wav",[[_items objectAtIndex:_currentIndex] objectForKey:@"english"]];
-    NSString *soundPath =  [[NSBundle mainBundle] pathForResource:soundName ofType:nil];
+    if (_currentIndex < 0 || _currentIndex >= _items.count) return;
+    NSString *soundPath = [[NCEWordResourceStore sharedStore] audioPathForWord:_items[_currentIndex][@"english"]];
     
     if (soundPath) {
         _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundPath] error:nil];

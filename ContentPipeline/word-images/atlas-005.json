@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-005",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-005.png",
+  "source_sha256": "11323d902032131750ff8470d8ee033747da07d0bd8b9260debdf4f3d56ba4cb",
+  "original_generated": "exec-c5239c16-b723-4871-9317-c3c8c0c11ad2.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a single cobra with raised head and expanded hood, full coiled body visible; TOP RIGHT = a single coiled rattlesnake with a clearly visible segmented rattle at its tail; BOTTOM LEFT = a short thick-bodied viper with triangular head and a zigzag dorsal pattern, simple side view; BOTTOM RIGHT = a slender green mamba snake stretched along a plain branch, no expanded hood. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "cobra",
+      "position": "top_left",
+      "source": "atlas-005-0.png",
+      "sha256": "6d3919d7fa51647e1a3ff4d164169ce47ddb556e40e9f0dc484ae9052cd2aa92",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "rattlesnake",
+      "position": "top_right",
+      "source": "atlas-005-1.png",
+      "sha256": "a7b4cfca76dfab22816c42f5a092e51cac1054ffd7c01371d2889a1eec19066b",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "viper",
+      "position": "bottom_left",
+      "source": "atlas-005-2.png",
+      "sha256": "35c4fc9af45feea629c995d4a65b51e0b34c77064a0999c2ac94b9c73f2dfc1d",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "mamba",
+      "position": "bottom_right",
+      "source": "atlas-005-3.png",
+      "sha256": "cb8af9039bc5af66bb393f8cc46c7720aa2fae802552bd392e9d68233f81ebd1",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

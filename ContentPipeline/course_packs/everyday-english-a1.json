@@ -1,0 +1,77 @@
+{
+  "course_id": "everyday-english-a1",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "title_en": "Everyday English A1",
+  "title_zh": "日常英语 A1",
+  "description": "A pilot pack of short, AI-assisted, human-review-required daily English lessons for listening, dictation, and vocabulary practice.",
+  "target_level": "A1",
+  "content_policy": {
+    "source_method": "AI-assisted original drafts for this project",
+    "textbook_imitation_allowed": false,
+    "third_party_audio_allowed_without_license": false,
+    "release_requires_human_review": true
+  },
+  "lessons": [
+    {
+      "order": 1,
+      "content_id": "a1-cafe-order",
+      "path": "../lessons/a1-cafe-order.json"
+    },
+    {
+      "order": 2,
+      "content_id": "a1-asking-directions",
+      "path": "../lessons/a1-asking-directions.json"
+    },
+    {
+      "order": 3,
+      "content_id": "a1-hotel-checkin",
+      "path": "../lessons/a1-hotel-checkin.json"
+    },
+    {
+      "order": 4,
+      "content_id": "a1-doctor-visit",
+      "path": "../lessons/a1-doctor-visit.json"
+    },
+    {
+      "order": 5,
+      "content_id": "a1-self-introduction",
+      "path": "../lessons/a1-self-introduction.json"
+    },
+    {
+      "order": 6,
+      "content_id": "a1-weather-plan",
+      "path": "../lessons/a1-weather-plan.json"
+    },
+    {
+      "order": 7,
+      "content_id": "a1-restaurant-order",
+      "path": "../lessons/a1-restaurant-order.json"
+    },
+    {
+      "order": 8,
+      "content_id": "a1-shopping-shirt",
+      "path": "../lessons/a1-shopping-shirt.json"
+    },
+    {
+      "order": 9,
+      "content_id": "a1-taking-subway",
+      "path": "../lessons/a1-taking-subway.json"
+    },
+    {
+      "order": 10,
+      "content_id": "a1-phone-message",
+      "path": "../lessons/a1-phone-message.json"
+    },
+    {
+      "order": 11,
+      "content_id": "a1-making-appointment",
+      "path": "../lessons/a1-making-appointment.json"
+    },
+    {
+      "order": 12,
+      "content_id": "a1-airport-checkin",
+      "path": "../lessons/a1-airport-checkin.json"
+    }
+  ]
+}

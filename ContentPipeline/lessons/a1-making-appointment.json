@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-making-appointment",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Making an Appointment",
+    "title_zh": "预约时间",
+    "level": "A1",
+    "topic": "daily conversation",
+    "estimated_duration_seconds": 75,
+    "tags": [
+      "appointment",
+      "schedule",
+      "time",
+      "office"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Good afternoon. I need an appointment.",
+      "chinese": "下午好。我需要预约。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "What day is good for you?",
+      "chinese": "哪一天适合你？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Is Tuesday morning available?",
+      "chinese": "周二上午有空吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "Yes, we have ten thirty.",
+      "chinese": "有，我们有十点半。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "That works for me.",
+      "chinese": "这个时间适合我。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "May I have your name?",
+      "chinese": "请问您的姓名？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "My name is Lily Chen.",
+      "chinese": "我的名字是莉莉·陈。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "Please arrive ten minutes early.",
+      "chinese": "请提前十分钟到达。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Okay. Should I bring anything?",
+      "chinese": "好的。我需要带什么东西吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Please bring your ID card.",
+      "chinese": "请带上您的身份证件。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "appointment",
+      "part_of_speech": "noun",
+      "meaning_zh": "预约",
+      "example_en": "I need an appointment.",
+      "example_zh": "我需要预约。"
+    },
+    {
+      "word": "day",
+      "part_of_speech": "noun",
+      "meaning_zh": "天；日子",
+      "example_en": "What day is good for you?",
+      "example_zh": "哪一天适合你？"
+    },
+    {
+      "word": "Tuesday",
+      "part_of_speech": "noun",
+      "meaning_zh": "星期二",
+      "example_en": "Is Tuesday morning available?",
+      "example_zh": "周二上午有空吗？"
+    },
+    {
+      "word": "morning",
+      "part_of_speech": "noun",
+      "meaning_zh": "上午；早晨",
+      "example_en": "Tuesday morning is available.",
+      "example_zh": "周二上午有空。"
+    },
+    {
+      "word": "available",
+      "part_of_speech": "adjective",
+      "meaning_zh": "有空的；可用的",
+      "example_en": "Is Tuesday morning available?",
+      "example_zh": "周二上午有空吗？"
+    },
+    {
+      "word": "arrive",
+      "part_of_speech": "verb",
+      "meaning_zh": "到达",
+      "example_en": "Please arrive ten minutes early.",
+      "example_zh": "请提前十分钟到达。"
+    },
+    {
+      "word": "early",
+      "part_of_speech": "adverb",
+      "meaning_zh": "提前；早",
+      "example_en": "Arrive early.",
+      "example_zh": "早点到达。"
+    },
+    {
+      "word": "ID card",
+      "part_of_speech": "noun",
+      "meaning_zh": "身份证件",
+      "example_en": "Please bring your ID card.",
+      "example_zh": "请带上您的身份证件。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "What does Lily need?",
+        "prompt_zh": "莉莉需要什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "An appointment"
+          },
+          {
+            "id": "B",
+            "text": "A ticket"
+          },
+          {
+            "id": "C",
+            "text": "A sandwich"
+          },
+          {
+            "id": "D",
+            "text": "A map"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "When is the appointment?",
+        "prompt_zh": "预约是什么时候？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Tuesday morning"
+          },
+          {
+            "id": "B",
+            "text": "Tuesday afternoon"
+          },
+          {
+            "id": "C",
+            "text": "Friday morning"
+          },
+          {
+            "id": "D",
+            "text": "Sunday evening"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "What time is available?",
+        "prompt_zh": "哪个时间有空？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Nine thirty"
+          },
+          {
+            "id": "B",
+            "text": "Ten thirty"
+          },
+          {
+            "id": "C",
+            "text": "Eleven thirty"
+          },
+          {
+            "id": "D",
+            "text": "Twelve thirty"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "What should Lily bring?",
+        "prompt_zh": "莉莉应该带什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Her ID card"
+          },
+          {
+            "id": "B",
+            "text": "A book"
+          },
+          {
+            "id": "C",
+            "text": "A jacket"
+          },
+          {
+            "id": "D",
+            "text": "A phone"
+          }
+        ],
+        "answer": "A"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 1,
+        "answer": "Good afternoon. I need an appointment."
+      },
+      {
+        "id": "dict-2",
+        "line_order": 3,
+        "answer": "Is Tuesday morning available?"
+      },
+      {
+        "id": "dict-3",
+        "line_order": 8,
+        "answer": "Please arrive ten minutes early."
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 11,
+    "import_ready": false
+  }
+}
+

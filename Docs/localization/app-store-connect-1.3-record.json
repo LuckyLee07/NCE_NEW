@@ -1,0 +1,76 @@
+{
+  "format_version": 1,
+  "recorded_on": "2026-10-06",
+  "app_id": "1282049993",
+  "operation": "Native Computer Use in the user's signed-in Chrome App Store Connect tab",
+  "version_created": "1.3",
+  "version_status": "prepare_for_submission",
+  "version_url": "https://appstoreconnect.apple.com/apps/1282049993/distribution/ios/version/inflight",
+  "source_metadata_file": "store-metadata.json",
+  "saved_locales": ["zh-Hans", "zh-Hant", "ja", "ko", "en-US"],
+  "saved_fields_per_locale": ["name", "subtitle", "keywords", "promotional_text", "description", "whats_new"],
+  "primary_language": "zh-Hans",
+  "simplified_name_changed": false,
+  "existing_other_localizations_untouched": ["en-CA"],
+  "keyword_revision": {
+    "recorded_on": "2026-10-06",
+    "scope": "Expanded feature-related Simplified/Traditional Chinese, Japanese and Korean keywords; added complete en-US store metadata with explicit user approval, retaining en-CA.",
+    "character_counts": {"zh-Hans": 96, "zh-Hant": 96, "ja": 94, "ko": 83, "en-US": 99},
+    "source_of_current_values": "store-metadata.json",
+    "previous_draft_keywords": {
+      "zh-Hans": "词汇,生词本,发音,英汉,汉英,错题,自学,复习,课文,词义,记忆,初学者",
+      "zh-Hant": "詞彙,生詞本,發音,英中,中英,答錯,自學,複習,課文,詞義,記憶,初學者",
+      "ja": "単語帳,英語学習,発音,英日,日英,英文,意味,独学,初級,テスト,語彙,学習記録",
+      "ko": "영어단어,단어장,발음,영한,한영,독학,기초영어,영어회화,영어듣기,어휘,테스트,학습기록"
+    },
+    "measured_search_volume_or_ranking": false,
+    "english_app_interface_added": false
+  },
+  "new_build_uploaded": false,
+  "new_screenshots_uploaded": false,
+  "review_submitted": false,
+  "release_triggered": false,
+  "pricing_changed": false,
+  "availability_changed": false,
+  "privacy_or_content_rights_declarations_changed": false,
+  "support_url_unchanged": "http://www.jianshu.com/p/b4f238fa0f4c",
+  "verification": {
+    "version_metadata": "All five updated locale saves completed without a visible validation error. The expanded Simplified keywords and all four en-US version text fields persisted after navigating away and reopening the 1.3 version page. The earlier Japanese metadata was also checked after navigation before the keyword revision.",
+    "app_information": "Each updated locale's name/subtitle save showed the Saved confirmation, including en-US. The Simplified name was retained, not replaced. The locale menu confirmed en-US and en-CA both present.",
+    "proof_screenshots": [
+      "/private/tmp/NCE-AppStoreConnect-1.3-ko-info-saved.png",
+      "/private/tmp/NCE-AppStoreConnect-1.3-ja-version-saved.png",
+      "/private/tmp/NCE-AppStoreConnect-1.3-en-US-info-saved.png",
+      "/private/tmp/NCE-AppStoreConnect-1.3-en-US-keywords-verified.png"
+    ]
+  },
+  "remaining": [
+    "Native editorial review of Japanese/Korean copy and learning translations",
+    "Final supported-size localized store screenshots",
+    "Update the local Xcode marketing version from 1.2 to 1.3 before building for upload",
+    "Upload and select the new build; no build was selected during this metadata task",
+    "Review the retained en-CA localization for release completeness",
+    "Verify actual content authorization and correct the existing third-party-content declaration as appropriate; no authorization was asserted by this operation",
+    "Verify privacy, support URL availability and other release gates before requesting review",
+    "Storefront preview and post-release acquisition measurement"
+  ],
+  "observed_existing_content_rights_declaration": "No, this app does not contain, show, or access third-party content. Left unchanged; developer verification required.",
+  "baseline_1_2_observed": {
+    "scope": "Visible public metadata observed before replacing draft text; not an API export or a screenshot asset backup. No contact or credential fields recorded.",
+    "shared_description_zh_Hans_and_zh_Hant": "=====应用简介=====\n《新概念英语》（New Concept English），是享誉全球的最为经典地道的英语学习教材。编著者是路易斯·乔治·亚历山大，最早出版于1967年。\n《新概念英语全四册》以经典教材《新概念英语》最新版本2015版为蓝本，从学生最关心也最需要掌握的听说读写四个方面入手，通过课文有声同步、单词学习、听写练习等功能，帮助你实现从英语初学者到流利英语的飞跃！\n\n=====应用内容=====\n【课文有声同步】: 中英译文有声同步，可单句循环，可顺序朗读往复循环，方便你自己控制，反复跟读和背诵。\n【单词学习】: 单词真人发声，同时配有图文例句；点读功能，可单个单词反复朗读，强化记忆；多种在线词典查询，供联网时深入学习。\n【词义、单词回想】: 这里专门用于强化单词记忆，显示单词或词义，点击『译』或『原』按钮即可看到对应的译文或单词。\n【听写练习】: 采取听写练习，可有效地巩固已经学过的单词。可选择根据课文的单元测试，也可选择随机测试。\n【英汉、汉语练习】: 根据英语选汉语或者根据汉语选英语，答错的单词会记录到【单词本】中。\n【单词搜索】: 全四册所有核心词汇，本地搜索，也可通过百度在线词典、有道在线词典、海词在线词典、爱词霸在线词典搜索。\n【单词本】: 未学单词、陌生单词、模糊单词、熟悉单词、做错单词，可针对单独一项进行强化单词学习。\n\n=====应用特点=====\n--内容丰富，条理清晰，功能简洁不累赘。\n--界面淡雅温暖，让学生在睡前也可以轻松阅读。\n--用心制作，精心编排。",
+    "shared_whats_new": "优化了 iPad 设备的界面适配与显示效果\n降低了广告展示频率，提升使用体验\n修复了部分已知问题，提升了整体稳定性",
+    "zh-Hans": {
+      "name": "新概念英语全四册 - 零基础英语入门王",
+      "subtitle": "",
+      "promotional_text": "",
+      "keywords": "新概念英语大全闽教英语流利说美式英语口语8000句轻松学英语软件初级英语秘方可可英语趣配音绿豆蛙学习英语单词大全每日英语听力之王日常英语魔方秀新东方在线走遍美国之音中文多邻国快译通掌上新华字典谷歌翻译"
+    },
+    "zh-Hant": {
+      "name": "新概念英语全四册(零基础) - 超值英语8000句",
+      "subtitle": "",
+      "promotional_text": "",
+      "keywords": "海词词典中文翻译英文翻译官完全版小站托福单词本美语听力闹钟沪江小d词典金山词霸牛津版知米背单词管家超星学习通微课掌上通漫听naver词典有道四六级词汇学习机完美规划背单词同声译酷狗翻译神器记单词学霸君"
+    },
+    "ja_and_ko": "Not present in the original version locale menu"
+  }
+}

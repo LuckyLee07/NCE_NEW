@@ -1,0 +1,85 @@
+{
+  "format_version": 1,
+  "app_id": "1282049993",
+  "target_store_version": "1.3",
+  "selected_build": "1",
+  "verified_on": "2026-10-07",
+  "status_observed_at_utc": "2026-10-07T07:44:36Z",
+  "verification_method": "Computer Use: native Chrome accessibility, OS file selection, media frame inspection and submission page verification",
+  "status": "resubmitted_waiting_for_review",
+  "submission": {
+    "id": "a4aa7d98-1521-4d7c-b649-c5f985205c4f",
+    "url": "https://appstoreconnect.apple.com/apps/1282049993/distribution/reviewsubmissions/details/a4aa7d98-1521-4d7c-b649-c5f985205c4f",
+    "displayed_submission_time_local": "2026-10-07 15:42",
+    "displayed_time_precision": "minute",
+    "timezone": "Asia/Shanghai",
+    "submission_status_observed": "等待审核",
+    "app_version_status_observed": "等待审核",
+    "build_label_observed": "1.3 (1)",
+    "status_verified_after_page_refresh": true,
+    "apple_approval_verified": false,
+    "published": false
+  },
+  "source_root": "upload",
+  "uploaded_locales": ["zh-Hans", "zh-Hant", "ja", "ko", "en-CA"],
+  "skipped_locales": ["en-US"],
+  "totals": {
+    "previews_replaced": 10,
+    "screenshots_retained": 50,
+    "screenshots_uploaded_by_this_task": 0,
+    "poster_reference_pngs_uploaded": 0
+  },
+  "checks": [
+    {"locale": "zh-Hans", "device": "iphone", "selected_file": "upload/zh-Hans/iphone/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "zh-Hans", "device": "ipad", "selected_file": "upload/zh-Hans/ipad/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "zh-Hant", "device": "iphone", "selected_file": "upload/zh-Hant/iphone/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "zh-Hant", "device": "ipad", "selected_file": "upload/zh-Hant/ipad/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "ja", "device": "iphone", "selected_file": "upload/ja/iphone/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "ja", "device": "ipad", "selected_file": "upload/ja/ipad/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "ko", "device": "iphone", "selected_file": "upload/ko/iphone/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "ko", "device": "ipad", "selected_file": "upload/ko/ipad/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "en-CA", "device": "iphone", "selected_file": "upload/en-CA/iphone/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true},
+    {"locale": "en-CA", "device": "ipad", "selected_file": "upload/en-CA/ipad/app-preview.mp4", "selected_path_verified": true, "previews": 1, "screenshots": 5, "native_frame_visible": true, "homepage_poster_saved": true, "poster_time_seconds": 1, "other_sizes_checked": true}
+  ],
+  "media_verification_scope": {
+    "all_primary_groups_show_1_of_3_previews_and_5_of_10_screenshots": true,
+    "outer_framing_and_separate_title_bands_removed": true,
+    "all_ten_processed_previews_displayed_native_homepage_frames": true,
+    "all_ten_homepage_poster_selections_saved": true,
+    "full_duration_playback_of_all_previews_in_asc_verified": false,
+    "local_full_decode_and_scene_checks": "preview-fix-record.json",
+    "other_size_groups_have_no_explicit_legacy_previews": true,
+    "supported_legacy_groups_inherit_primary_assets": true,
+    "iphone_duo_group": "Empty; no explicit previews or screenshots were added.",
+    "initial_player_loading_failures": "Resolved by reopening the editor or refreshing the page before checking and saving poster frames."
+  },
+  "old_preview_removal": {
+    "references_removed": 10,
+    "original_files_retained_in_asset_library": true,
+    "asset_library_files_permanently_deleted": false,
+    "historical_local_assets_or_upload_record_overwritten": false
+  },
+  "review_reply": {
+    "sent": true,
+    "displayed_time_local": "2026-10-07 15:40",
+    "message_count_after_reply": 2,
+    "text": "Hello App Review Team,\n\nWe have addressed the issue under Guideline 2.3.4 by replacing the iPhone and iPad app previews for Simplified Chinese, Traditional Chinese, Japanese, Korean, and English (Canada).\n\nThe revised previews use only actual full-screen recordings of the app. We removed the outer framing, margins, and separate title/subtitle areas. We also updated the preview poster frames to show the app homepage.\n\nThe existing screenshots and app binary 1.3 (1) remain unchanged. Please review the revised app previews.\n\nThank you."
+  },
+  "release_settings_retained": {
+    "automatically_release_after_approval": true,
+    "release_to_all_users_immediately": true,
+    "preserve_existing_ratings": true
+  },
+  "boundaries": {
+    "app_code_changed": false,
+    "version_or_build_changed": false,
+    "binary_uploaded_or_build_selection_changed": false,
+    "store_text_changed_by_this_task": false,
+    "availability_changed": false,
+    "pricing_changed": false,
+    "privacy_or_legal_declarations_changed": false,
+    "us_english_locale_created_or_deleted": false,
+    "review_submitted": true,
+    "new_legal_agreement_accepted": false
+  }
+}

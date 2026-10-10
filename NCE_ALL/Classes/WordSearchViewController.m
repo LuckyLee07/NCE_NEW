@@ -10,6 +10,7 @@
 #import "sqlite3.h"
 #import "MBProgressHUD.h"
 #import "WordViewController.h"
+#import "NCEWordResourceStore.h"
 
 static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewControllerCellReuseId";
 
@@ -41,7 +42,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
         _items = [[NSMutableArray alloc] init];
         _originData = [[NSMutableArray alloc] init];
         
-        self.titleString = @"单词搜索";
+        self.titleString = NCELocalizedString(@"单词搜索");
         
         _bookId = bookId;
     }
@@ -56,7 +57,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
     
     // Configure for text only and offset down
     //    _hud.mode = MBProgressHUDModeText;
-    _hud.label.text = @"loading...";
+    _hud.label.text = NCELocalizedString(@"载入中…");
     _hud.removeFromSuperViewOnHide = YES;
     
     [self initData];
@@ -105,13 +106,14 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
     CGFloat height = tableView.frame.size.height/10;
     
     NSDictionary *item = [_items objectAtIndex:indexPath.row];
+    cell.accessibilityIdentifier = [@"search-word-" stringByAppendingString:item[@"english"]];
     
     // english title
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20.f, height/12, tableView.frame.size.width-height, height/2)];
     titleLabel.backgroundColor = [UIColor clearColor];
     titleLabel.font = [UIFont systemFontOfSize:14*height/50];
     titleLabel.textColor = [UIColor blackColor];
-    titleLabel.text = [item objectForKey:@"english"];
+    titleLabel.text = [[NCEWordResourceStore sharedStore] displayNameForWord:item[@"english"]];
     titleLabel.textAlignment = NSTextAlignmentLeft;
     [cell.contentView addSubview:titleLabel];
     
@@ -122,6 +124,9 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
     subTitleLabel.textColor = [UIColor darkGrayColor];
     subTitleLabel.text = [item objectForKey:@"chinese"];
     subTitleLabel.textAlignment = NSTextAlignmentLeft;
+    subTitleLabel.numberOfLines = 2;
+    subTitleLabel.adjustsFontSizeToFitWidth = YES;
+    subTitleLabel.minimumScaleFactor = 0.65;
     [cell.contentView addSubview:subTitleLabel];
     
     // show when the cell is selected
@@ -185,7 +190,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
 {
-    searchBar.placeholder = @"单词";
+    searchBar.placeholder = NCELocalizedString(@"单词或释义");
     //_items = nil;
     //[self.tableView reloadData];
 }
@@ -197,9 +202,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
     {
         _items = [[NSMutableArray alloc] init];
         for (NSDictionary *dic in _originData) {
-            NSString *word = [dic objectForKey:@"english"];
-            NSRange rang = [word rangeOfString:searchText];
-            if (rang.location != NSNotFound) {
+            if ([self wordItem:dic matchesSearchText:searchText]) {
                 [_items addObject:dic];
             }
         }
@@ -220,9 +223,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
     _items = [[NSMutableArray alloc] init];
     
     for (NSDictionary *dic in _originData) {
-        NSString *word = [dic objectForKey:@"english"];
-        NSRange rang = [word rangeOfString:searchBar.text];
-        if (rang.location != NSNotFound) {
+        if ([self wordItem:dic matchesSearchText:searchBar.text]) {
             [_items addObject:dic];
         }
     }
@@ -244,6 +245,22 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
 
 #pragma mark -
 #pragma mark Private Methods
+
+- (BOOL)wordItem:(NSDictionary *)item matchesSearchText:(NSString *)text
+{
+    if (!text.length) return YES;
+    NSString *word = item[@"english"];
+    NSString *display = [NCEWordResourceStore.sharedStore displayNameForWord:word];
+    NSString *simplified = item[@"simplified"];
+    NSString *traditional = [NCELocalization.sharedLocalization traditionalChineseText:simplified];
+    NSString *sourceMeaning = [NCEWordResourceStore.sharedStore sourceTranslationForWord:word fallback:simplified];
+    NSString *traditionalMeaning = [NCELocalization.sharedLocalization traditionalChineseText:sourceMeaning];
+    NSString *localizedMeaning = [NCEWordResourceStore.sharedStore translationForWord:word fallback:simplified];
+    for (NSString *candidate in @[word, display, simplified, traditional, sourceMeaning, traditionalMeaning, localizedMeaning ?: @""]) {
+        if ([candidate rangeOfString:text options:NSCaseInsensitiveSearch].location != NSNotFound) return YES;
+    }
+    return NO;
+}
 
 - (void)initData
 {
@@ -268,7 +285,8 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
         [item setObject:englishString forKey:@"english"];
         
         NSString *chineseString = [[NSString alloc] initWithCString:(char *)sqlite3_column_text(statement, 1) encoding:NSUTF8StringEncoding];
-        [item setObject:chineseString forKey:@"chinese"];
+        [item setObject:chineseString forKey:@"simplified"];
+        [item setObject:[[NCEWordResourceStore sharedStore] translationForWord:englishString fallback:chineseString] forKey:@"chinese"];
         
         NSString *lessonId = [NSString stringWithFormat:@"%d",sqlite3_column_int(statement, 2)];
         [item setObject:lessonId forKey:@"lesson_id"];
@@ -286,7 +304,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
 {
     CGRect barframe = CGRectMake(0.f, [self getHeaderPosY], self.view.frame.size.width, 40.f);
     _searchBar = [[UISearchBar alloc] initWithFrame:barframe];
-    _searchBar.placeholder = @"搜索单词";
+    _searchBar.placeholder = NCELocalizedString(@"搜索单词或释义");
     _searchBar.backgroundColor = [UIColor colorWithRed:156/255.f
                                                  green:229/255.f
                                                   blue:201/255.f
@@ -301,7 +319,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
     
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-    [[UIBarButtonItem appearanceWhenContainedIn:[UISearchBar class], nil] setTitle:@"取消"];
+    [[UIBarButtonItem appearanceWhenContainedIn:[UISearchBar class], nil] setTitle:NCELocalizedString(@"取消")];
     [[UIBarButtonItem appearanceWhenContainedIn:[UISearchBar class], nil] setTitleTextAttributes:dicts forState:UIControlStateNormal];
 #pragma clang diagnostic pop
     
@@ -336,4 +354,3 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
 }
 
 @end
-

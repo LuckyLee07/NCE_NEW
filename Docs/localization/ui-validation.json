@@ -1,0 +1,491 @@
+{
+  "format_version": 1,
+  "qa_bundle_identifier": "com.palmgame.NCEALL.resourceqa.localization",
+  "production_records_touched": false,
+  "ads_enabled": false,
+  "store_assets_uploaded": false,
+  "screenshots_upload_ready": false,
+  "physical_device_test": "pending",
+  "native_editorial_review": "pending",
+  "runs": [
+    {
+      "label": "iphone",
+      "xcresult_path": "/private/tmp/NCEChineseLocalization-iPhone-retest.xcresult",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "6B43B26F-187A-44DD-BAAB-6B07EA140D6D",
+              "deviceName": "NCE Word Resources QA",
+              "modelName": "iPhone 12 Pro",
+              "osBuildNumber": "23C54",
+              "osVersion": "26.2",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 3,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "NCE_Content_QA · Built with macOS 15.7.3",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791278656.242,
+        "passedTests": 3,
+        "result": "Passed",
+        "skippedTests": 0,
+        "startTime": 1791278196.709,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - NCE_Content_QA",
+        "topInsights": [],
+        "totalTestCount": 3
+      }
+    },
+    {
+      "label": "ipad",
+      "xcresult_path": "/private/tmp/NCEChineseLocalization-iPad.xcresult",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "FD923AFE-C1A6-47CD-B83B-CDCD702EC725",
+              "deviceName": "NCE Word Resources iPad QA",
+              "modelName": "iPad Pro 13-inch (M5)",
+              "osBuildNumber": "23C54",
+              "osVersion": "26.2",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 1,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "NCE_Content_QA · Built with macOS 15.7.3",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791278771.065,
+        "passedTests": 1,
+        "result": "Passed",
+        "skippedTests": 0,
+        "startTime": 1791278525.928,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - NCE_Content_QA",
+        "topInsights": [],
+        "totalTestCount": 1
+      }
+    },
+    {
+      "label": "small-iphone",
+      "xcresult_path": "/private/tmp/NCEChineseLocalization-small.xcresult",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "0E56F8E5-5E40-44FD-B49F-7FE923BBCE03",
+              "deviceName": "NCE Word Resources Small QA",
+              "modelName": "iPhone 13 mini",
+              "osBuildNumber": "23C54",
+              "osVersion": "26.2",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 2,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "NCE_Content_QA · Built with macOS 15.7.3",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791279141.251,
+        "passedTests": 2,
+        "result": "Passed",
+        "skippedTests": 0,
+        "startTime": 1791278856.685,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - NCE_Content_QA",
+        "topInsights": [],
+        "totalTestCount": 2
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "ui-screenshots/ipad-zh-Hans-layout-home.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "425287b685cdd8249b22cbc8b689f40ebfd2c244167351bf858fc00c68a40169",
+      "label": "ipad",
+      "capture_timestamp": 1791278649.569
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hans-layout-lesson.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "fb86aeeb5cad6c8822abda0d9d46bd12c82f37fe55ca3c03aa1e29bd461621e4",
+      "label": "ipad",
+      "capture_timestamp": 1791278658.897
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hans-layout-settings.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "c1d68e57e4b9536611ef19c6c90d1e9dc722512cb4195e72f34f01045e74db26",
+      "label": "ipad",
+      "capture_timestamp": 1791278691.594
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hans-layout-word.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "71714bac1093a303ad0117e09772ea6af85a522cccd7bd496cfc30222dea57a6",
+      "label": "ipad",
+      "capture_timestamp": 1791278682.53
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hant-layout-home.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "590b0e36ddc1c03d1c6e70e618df2504642f3e7ed715a7076f0cd22a449ae40e",
+      "label": "ipad",
+      "capture_timestamp": 1791278703.419
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hant-layout-lesson.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "15697250f2d8a8efe6804376d49576d1c4b4fb63935a5520b110f861979118a1",
+      "label": "ipad",
+      "capture_timestamp": 1791278712.432
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hant-layout-settings.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "902bc8cc4f93a15ce6cf41465ced5fec96f2b8dd93225162e7ac1686a6a04ba0",
+      "label": "ipad",
+      "capture_timestamp": 1791278744.116
+    },
+    {
+      "path": "ui-screenshots/ipad-zh-Hant-layout-word.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "28aec1f4ee4ae62492ec697c8fe612742dc9a9d84d69b323b8e1bdf68da368ef",
+      "label": "ipad",
+      "capture_timestamp": 1791278735.086
+    },
+    {
+      "path": "ui-screenshots/iphone-en-US-system-default.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "ed0a015bacd9ddd771173505ac8c12f8dfa799b51f5446e790061a4acbef01be",
+      "label": "iphone",
+      "capture_timestamp": 1791278626.808
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-SG-system-default.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "2cd450d22b031c996fba9aaa83d1739466d6501b42ab1b2da6d3296c8199ba0f",
+      "label": "iphone",
+      "capture_timestamp": 1791278640.581
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-book-1-lesson.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "d0af51e1f1fb86f6cc4bf0b75c2ab1096d17b79a5b23f563ff1f1a5727e50f2e",
+      "label": "iphone",
+      "capture_timestamp": 1791278251.845
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-book-2-lesson.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "9834422fb83318750ce46ad6e7c90d082fe26b695287207a4563a143bd7a3698",
+      "label": "iphone",
+      "capture_timestamp": 1791278273.079
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-book-3-lesson.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "7b7881e6e82e494b180209c652bdd1eee969bb3e92c810b88104f0b937df53b6",
+      "label": "iphone",
+      "capture_timestamp": 1791278293.592
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-book-4-lesson.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "8f54e166806b4e8a7a8aacc3a8eac526c6ea461338e87942a61f6a86f6c6d9b4",
+      "label": "iphone",
+      "capture_timestamp": 1791278313.906
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-home.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "abfdcabb60aa6676cde0b21c32e6ec7820778c133c339c4cb8e4f1aee93d81f1",
+      "label": "iphone",
+      "capture_timestamp": 1791278243
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-lesson-list.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "48e36ca8121173b1153bad9ddad7861c3d8ca4b4c4455ebef3fc9469a2a1ef0c",
+      "label": "iphone",
+      "capture_timestamp": 1791278247.252
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-settings.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "25aa1127d8ff05f623f0fe3023e57ae27b5f162e40d7eb09e0fbb75b22a70bc2",
+      "label": "iphone",
+      "capture_timestamp": 1791278365.636
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hans-word-search.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "bea35f4505d0bb7e7a15d3ccf61d874e72ea8e8dd6d6377f6e532ce1ff1b0d70",
+      "label": "iphone",
+      "capture_timestamp": 1791278352.882
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-book-1-lesson.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "02c20c72408ab9be675d3ac0b47f7ede950a29730ec697d25839cc0f1b54e939",
+      "label": "iphone",
+      "capture_timestamp": 1791278387.022
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-book-2-lesson.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "1175a42d6e6bde1d4b56507cc1276bd182e612192fc2dfb8050c40a5b3143997",
+      "label": "iphone",
+      "capture_timestamp": 1791278407.464
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-book-3-lesson.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "8fb2ab48053a74921fc525dfae3afd3ed8bdc86c9b033041567c3823f2db74b4",
+      "label": "iphone",
+      "capture_timestamp": 1791278428.234
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-book-4-lesson.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "90bece725b54996c9a18d908cffcbea858664540b4c72e46d82fc2c1a7809291",
+      "label": "iphone",
+      "capture_timestamp": 1791278448.574
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-home.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "6dddaf0b23c8d92f47177264fd407c7dc52f8c61a2581c35da2b5bafac03fcf7",
+      "label": "iphone",
+      "capture_timestamp": 1791278378.115
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-lesson-list.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "bd65f62ded250a648c47b240cc19b053c1645aa97b6ed5bbc0ff499ba69888e9",
+      "label": "iphone",
+      "capture_timestamp": 1791278382.592
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-progress-retained.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "5004b5d25948c2939f69d04f0778fadbe6067fd2db4c3f3bf21fbc407d48687f",
+      "label": "iphone",
+      "capture_timestamp": 1791278577.067
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-settings.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "9cbb63660d82cbefbd16b75a2d9dc9c1d6082d31a4429ed018be979123fd5f78",
+      "label": "iphone",
+      "capture_timestamp": 1791278498.439
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-system-default.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "ee66c1c05afa84d439a4ea8fbfd9cc5f6b7a98a4e78659cbb66dd4d78a0fa863",
+      "label": "iphone",
+      "capture_timestamp": 1791278613.495
+    },
+    {
+      "path": "ui-screenshots/iphone-zh-Hant-word-search.png",
+      "width": 1170,
+      "height": 2532,
+      "sha256": "519584ca1c98eda4b18127c5c0856571f41b1ee2987a48122841bfc3a309f1ea",
+      "label": "iphone",
+      "capture_timestamp": 1791278485.557
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hans-layout-home.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "a151ce6f0800e8971f98d26df5d0b495c6691b5a47c398f9138a9829df4425cb",
+      "label": "small-iphone",
+      "capture_timestamp": 1791278905.578
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hans-layout-lesson.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "00f7615f3e229f682777a5c7337879b9486f00257079c4807c32bd4fa787cd9c",
+      "label": "small-iphone",
+      "capture_timestamp": 1791278914.313
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hans-layout-settings.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "0d80496d551a2e72bc3283cd9d7699fd905f6e007bc21ed31586ef8061dc93ff",
+      "label": "small-iphone",
+      "capture_timestamp": 1791278945.738
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hans-layout-word.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "73f9a8bcdd25c01e5f575dc0de3989f6403b83e0d250173deadbf067e8ab11f2",
+      "label": "small-iphone",
+      "capture_timestamp": 1791278937.009
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hans-practice-4.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "8952ad4f24285d399c9904e886e06bd52e6c2769e2887ba615faeea4aa8728fd",
+      "label": "small-iphone",
+      "capture_timestamp": 1791279029.901
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hans-practice-5.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "9b733c4a466289b8b486f93eccdd25491dde80961b831613bc3664e0c0bf9cb4",
+      "label": "small-iphone",
+      "capture_timestamp": 1791279040.963
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hans-practice-6.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "4243e9416d2e27555c9a322ea2157c0e8442bfa180f7358a62e29dd457a64fd9",
+      "label": "small-iphone",
+      "capture_timestamp": 1791279051.904
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hans-wordbook.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "cf0ae9653fc323c92d8eda197d53ea1e94f59ca2d4afff7e9d5f4a09a738b819",
+      "label": "small-iphone",
+      "capture_timestamp": 1791279060.436
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hant-layout-home.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "5f4a0375ac60bd325e1cdaf269ca0a821d2afd77c45ecbbedb4105b4fcd71c62",
+      "label": "small-iphone",
+      "capture_timestamp": 1791278957.915
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hant-layout-lesson.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "e7e24db050ddae642f4602d3333ee08769658adfe227d298e5caa953a9e5ce15",
+      "label": "small-iphone",
+      "capture_timestamp": 1791278966.541
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hant-layout-settings.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "2950dbadcd43e51f93ed942f59579c9bc02970edd10dc49bd7fef9d1b6790f8f",
+      "label": "small-iphone",
+      "capture_timestamp": 1791278997.027
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hant-layout-word.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "f20bf4c03d7b5881b818a5c3226a465b08607704a83fd0b9691c35ad84a9e49a",
+      "label": "small-iphone",
+      "capture_timestamp": 1791278988.347
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hant-practice-4.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "34408f2217e561276e074fe8344586382c07c4f414100d9d20324f5738305ebd",
+      "label": "small-iphone",
+      "capture_timestamp": 1791279081.44
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hant-practice-5.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "8466d20d24822ac5ef52beeb6c5ad42219a7516b5a5b4052e93d74b1ba54b213",
+      "label": "small-iphone",
+      "capture_timestamp": 1791279092.697
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hant-practice-6.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "9b49768abe2266880556f4610b360929544131fc67c66dbd8b2954cf55e1cb47",
+      "label": "small-iphone",
+      "capture_timestamp": 1791279103.923
+    },
+    {
+      "path": "ui-screenshots/small-iphone-zh-Hant-wordbook.png",
+      "width": 1080,
+      "height": 2340,
+      "sha256": "ccbefef2fff62b9f87ba25a050f5c4b803c34b6cbf5592de39ec55bb6a110a2a",
+      "label": "small-iphone",
+      "capture_timestamp": 1791279112.605
+    }
+  ],
+  "visual_followups": [
+    "iPhone 13 mini on iOS 26.2 shows a red rdar:45025538 compatibility banner and black borders; passing interaction checks do not resolve this visual issue.",
+    "Confirm on physical devices and prepare supported App Store screenshot sizes before upload."
+  ],
+  "total_passed_ui_tests": 6
+}

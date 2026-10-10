@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-012",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-012.png",
+  "source_sha256": "e171cf5530cd1022cebac851c3fc1343ae8d5e1496af4a9f272b38dce4958a1a",
+  "original_generated": "exec-3416edd2-798a-4286-9bcd-af5639623a4c.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a modest plain cotton undershirt and folded briefs laid flat, no wearer; TOP RIGHT = a simple burlap sack tied at the top, full bag visible; BOTTOM LEFT = a metal safe/strongbox with thick door and round combination dial, no numbers or labels; BOTTOM RIGHT = a generic banknote with ornamental border and oval blank portrait area, no currency symbol, readable text or real-bank branding. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "underclothes",
+      "position": "top_left",
+      "source": "atlas-012-0.png",
+      "sha256": "630874e2640949324dafadcd215d80d65483ac55b7c3971ea24a46a99dd75af5",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "sack",
+      "position": "top_right",
+      "source": "atlas-012-1.png",
+      "sha256": "e16fe400fdbd7de7c55d13d051b47ab964ce33cccbf3cfa798213e3e17869cb2",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "safe",
+      "position": "bottom_left",
+      "source": "atlas-012-2.png",
+      "sha256": "57b71aec0ac2aa76f4ef16210b512a99b60d2f75de1a8e91f5c7fc7a329263f8",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "note",
+      "position": "bottom_right",
+      "source": "atlas-012-3.png",
+      "sha256": "2e0bd17e2e1df8605c82b79bedb4b41f1d8c6081f5bc8d08fcd2f10100a0dfa3",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-017",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-017.png",
+  "source_sha256": "a9e3457b58c6898de6cde0e1b66d7f96e5226628452f45dcea26a7208b4b33b3",
+  "original_generated": "exec-70c49bae-5f1f-44a4-a633-4e20a54e38b4.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a simple courtyard enclosed by three low building walls, tiled open ground and a central small plant; TOP RIGHT = a large aquarium viewing window with blue water and two fish silhouettes inside, no visitor text; BOTTOM LEFT = a small simple top-down maze with clear walls and one entrance and exit, no letters or numbers; BOTTOM RIGHT = an upright roadside stone distance marker beside a small road, blank face with no lettering. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "courtyard",
+      "position": "top_left",
+      "source": "atlas-017-0.png",
+      "sha256": "66074a597f9f063e7593256421389ea09f9c57ef1eea86f064807124f25041db",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "oceanarium",
+      "position": "top_right",
+      "source": "atlas-017-1.png",
+      "sha256": "5467be0cde1c22ecb4983263afa211e8ed59fa62d1d8d7f439a9719c9395ef9b",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "labyrinth",
+      "position": "bottom_left",
+      "source": "atlas-017-2.png",
+      "sha256": "4f4d18c867bf675f98fb14e757f082494e1132a2c7c5a0ad3be86e057cd73338",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "milestone",
+      "position": "bottom_right",
+      "source": "atlas-017-3.png",
+      "sha256": "6427a2a5c06d8431f023d91c3e7d553f68222e9dc94eab012f9d274133ffbcb6",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

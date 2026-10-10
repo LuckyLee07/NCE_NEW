@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "id": "atlas-019",
+  "mode": "built-in image_gen",
+  "grid": [
+    2,
+    2
+  ],
+  "source": "atlas-019.png",
+  "source_sha256": "4ffb89f03eb72d19831c3dc138a77f25566756c41aee7dc9f350ad0bbb353757",
+  "original_generated": "exec-3888c24e-94c1-40bd-aac5-46d415093630.png",
+  "prompt": "Use case: scientific-educational. Produce ONE square 2-by-2 vocabulary illustration atlas with exactly four equal square cells. Cell positions are fixed: TOP LEFT = a simple external nose close-up with a small arrow pointing to one visible nostril opening, clean neutral skin-tone diagram; TOP RIGHT = a clothed standing adult wearing plain trousers, a small outline circle indicates the side hip area; no nudity; BOTTOM LEFT = a simple face close-up with a few small brown freckles across cheeks and nose, no exaggerated features; BOTTOM RIGHT = a simplified fish outline with an internal highlighted segmented backbone, explanatory category diagram, no labels. Each subject is centered in its own quadrant with at least 15 percent white padding inside the cell. Nothing crosses the horizontal or vertical halfway lines. White gutters and pure white background throughout. No drawn grid lines or cell borders. Flat simple educational clip-art, consistent broad shapes, minimal detail, readable when each cell is cut out and reduced to 128 by 128 pixels. No words, labels, letters, numbers, logos or watermarks. No additional subjects. Safely divisible by straight cuts at the horizontal and vertical midpoints.",
+  "cell_order": "row-major from top left; midpoint cuts; no AI labels",
+  "cells": [
+    {
+      "index": 0,
+      "word": "nostril",
+      "position": "top_left",
+      "source": "atlas-019-0.png",
+      "sha256": "2444b014377a64923d7445cc7cf6b6d3310d916c4b8370e988469170202d2269",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 1,
+      "word": "hip",
+      "position": "top_right",
+      "source": "atlas-019-1.png",
+      "sha256": "a40326ac71b4d28ad432c9140bb293e023c761840b70485772950042f7afe7db",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 2,
+      "word": "freckle",
+      "position": "bottom_left",
+      "source": "atlas-019-2.png",
+      "sha256": "8cd063f2d50e49ff01299ee31c2dd8f79ac9836b1e822beffe2436a5f05afe8f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "index": 3,
+      "word": "vertebrate",
+      "position": "bottom_right",
+      "source": "atlas-019-3.png",
+      "sha256": "465b2d71ff7495d05f9b27b95e3f9f3ce2ef3ab7977e50136cda6a8deaa96663",
+      "width": 128,
+      "height": 128
+    }
+  ]
+}

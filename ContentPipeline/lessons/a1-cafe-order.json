@@ -1,0 +1,291 @@
+{
+  "content_id": "a1-cafe-order",
+  "version": "0.1.0",
+  "review_status": "needs_human_review",
+  "metadata": {
+    "title_en": "Ordering Coffee",
+    "title_zh": "在咖啡店点单",
+    "level": "A1",
+    "topic": "daily conversation",
+    "estimated_duration_seconds": 75,
+    "tags": [
+      "coffee",
+      "ordering",
+      "polite requests",
+      "daily life"
+    ]
+  },
+  "lines": [
+    {
+      "order": 1,
+      "english": "Good morning. What would you like?",
+      "chinese": "早上好。您想要点什么？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 2,
+      "english": "I would like a small coffee, please.",
+      "chinese": "我想要一小杯咖啡，谢谢。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 3,
+      "english": "Do you want milk or sugar?",
+      "chinese": "您要加牛奶或糖吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 4,
+      "english": "Milk, please. No sugar.",
+      "chinese": "请加牛奶，不要糖。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 5,
+      "english": "Would you like anything else?",
+      "chinese": "您还想要别的吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 6,
+      "english": "Yes, a sandwich, please.",
+      "chinese": "是的，请再来一个三明治。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 7,
+      "english": "That is six dollars in total.",
+      "chinese": "一共六美元。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 8,
+      "english": "Can I pay by card?",
+      "chinese": "我可以刷卡付款吗？",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 9,
+      "english": "Of course. Please tap your card here.",
+      "chinese": "当然可以。请在这里刷卡。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    },
+    {
+      "order": 10,
+      "english": "Thank you. Have a nice day.",
+      "chinese": "谢谢。祝您今天愉快。",
+      "audio_start_ms": null,
+      "audio_end_ms": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "coffee",
+      "part_of_speech": "noun",
+      "meaning_zh": "咖啡",
+      "example_en": "I would like a small coffee.",
+      "example_zh": "我想要一小杯咖啡。"
+    },
+    {
+      "word": "small",
+      "part_of_speech": "adjective",
+      "meaning_zh": "小的",
+      "example_en": "She buys a small tea.",
+      "example_zh": "她买了一小杯茶。"
+    },
+    {
+      "word": "milk",
+      "part_of_speech": "noun",
+      "meaning_zh": "牛奶",
+      "example_en": "Do you want milk?",
+      "example_zh": "你要牛奶吗？"
+    },
+    {
+      "word": "sugar",
+      "part_of_speech": "noun",
+      "meaning_zh": "糖",
+      "example_en": "No sugar, please.",
+      "example_zh": "请不要糖。"
+    },
+    {
+      "word": "sandwich",
+      "part_of_speech": "noun",
+      "meaning_zh": "三明治",
+      "example_en": "He wants a sandwich.",
+      "example_zh": "他想要一个三明治。"
+    },
+    {
+      "word": "total",
+      "part_of_speech": "noun",
+      "meaning_zh": "总数；合计",
+      "example_en": "The total is six dollars.",
+      "example_zh": "合计是六美元。"
+    },
+    {
+      "word": "pay",
+      "part_of_speech": "verb",
+      "meaning_zh": "付款",
+      "example_en": "Can I pay by card?",
+      "example_zh": "我可以刷卡付款吗？"
+    },
+    {
+      "word": "card",
+      "part_of_speech": "noun",
+      "meaning_zh": "卡；银行卡",
+      "example_en": "Please tap your card here.",
+      "example_zh": "请在这里刷卡。"
+    }
+  ],
+  "exercises": {
+    "multiple_choice": [
+      {
+        "id": "mcq-1",
+        "prompt_en": "What does the customer order first?",
+        "prompt_zh": "顾客首先点了什么？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "A small coffee"
+          },
+          {
+            "id": "B",
+            "text": "A large tea"
+          },
+          {
+            "id": "C",
+            "text": "A glass of water"
+          },
+          {
+            "id": "D",
+            "text": "A bowl of soup"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "id": "mcq-2",
+        "prompt_en": "The customer wants milk but no ____.",
+        "prompt_zh": "顾客要牛奶，但不要____。",
+        "choices": [
+          {
+            "id": "A",
+            "text": "card"
+          },
+          {
+            "id": "B",
+            "text": "sugar"
+          },
+          {
+            "id": "C",
+            "text": "sandwich"
+          },
+          {
+            "id": "D",
+            "text": "coffee"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "id": "mcq-3",
+        "prompt_en": "How much is the total?",
+        "prompt_zh": "一共多少钱？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Four dollars"
+          },
+          {
+            "id": "B",
+            "text": "Five dollars"
+          },
+          {
+            "id": "C",
+            "text": "Six dollars"
+          },
+          {
+            "id": "D",
+            "text": "Seven dollars"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "id": "mcq-4",
+        "prompt_en": "How does the customer want to pay?",
+        "prompt_zh": "顾客想怎么付款？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "By card"
+          },
+          {
+            "id": "B",
+            "text": "By phone"
+          },
+          {
+            "id": "C",
+            "text": "With cash"
+          },
+          {
+            "id": "D",
+            "text": "With a ticket"
+          }
+        ],
+        "answer": "A"
+      }
+    ],
+    "dictation": [
+      {
+        "id": "dict-1",
+        "line_order": 2,
+        "answer": "I would like a small coffee, please."
+      },
+      {
+        "id": "dict-2",
+        "line_order": 5,
+        "answer": "Would you like anything else?"
+      },
+      {
+        "id": "dict-3",
+        "line_order": 8,
+        "answer": "Can I pay by card?"
+      }
+    ]
+  },
+  "rights": {
+    "source_method": "AI-assisted original draft produced for this project",
+    "rights_status": "project draft; requires final human editorial approval before release",
+    "attribution_required": false,
+    "commercial_use_allowed": true,
+    "modification_allowed": true,
+    "human_review_required": true,
+    "prohibited_references": [
+      "New Concept English",
+      "NCE",
+      "specific textbook imitation",
+      "third-party recorded audio"
+    ]
+  },
+  "audio_plan": {
+    "status": "not_recorded",
+    "recommended_voice": "clear neutral adult voice",
+    "commercial_rights_evidence_required": true,
+    "line_timing_required": true
+  },
+  "packaging": {
+    "target_course": "Everyday English A1",
+    "target_lesson_order": 1,
+    "import_ready": false
+  }
+}
+

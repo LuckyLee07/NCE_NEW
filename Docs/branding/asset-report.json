@@ -1,0 +1,392 @@
+{
+  "app_interface_languages" : [
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko"
+  ],
+  "assets" : [
+    {
+      "bytes" : 13352,
+      "format" : "PNG",
+      "height" : 100,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-100.png",
+      "sha256" : "6911091c6f1b494757cb6d5887bbd74d63b0bcc4bd121bdf2d011b3e951b0251",
+      "width" : 100
+    },
+    {
+      "bytes" : 1093147,
+      "format" : "PNG",
+      "height" : 1024,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-1024.png",
+      "sha256" : "0493ca4330d57f7cc15e10cb0bdf2125baaa9971c63da5aa2c766a1dd837e59d",
+      "width" : 1024
+    },
+    {
+      "bytes" : 18311,
+      "format" : "PNG",
+      "height" : 120,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-120.png",
+      "sha256" : "45746a3430d6ae811200dd169903f4142ab20d87f303b86323959e96e1148a71",
+      "width" : 120
+    },
+    {
+      "bytes" : 25552,
+      "format" : "PNG",
+      "height" : 144,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-144.png",
+      "sha256" : "0740d28d31e6182c92de661615ad81b2a94660f8d1a05e783242cad0967e7ac9",
+      "width" : 144
+    },
+    {
+      "bytes" : 28021,
+      "format" : "PNG",
+      "height" : 152,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-152.png",
+      "sha256" : "ca72c42f6638f377a761d323d0591e3c7451dcffd886951101075ca0b6afef2d",
+      "width" : 152
+    },
+    {
+      "bytes" : 33741,
+      "format" : "PNG",
+      "height" : 167,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-167.png",
+      "sha256" : "c59c16d0eb7dc022da36e0f22bf4b75798f83213e970b87aebd3e57dd2a8df3e",
+      "width" : 167
+    },
+    {
+      "bytes" : 38855,
+      "format" : "PNG",
+      "height" : 180,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-180.png",
+      "sha256" : "ba6c2568bad31ebe2b341d020d3b7ff52decd9137ab249f32d35907f5b45989c",
+      "width" : 180
+    },
+    {
+      "bytes" : 1042,
+      "format" : "PNG",
+      "height" : 20,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-20.png",
+      "sha256" : "2a9aae3fc2ed92d32df68acd269848d856c7b614dbd3d16ae0fed237fe3ae2f8",
+      "width" : 20
+    },
+    {
+      "bytes" : 1775,
+      "format" : "PNG",
+      "height" : 29,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-29.png",
+      "sha256" : "f3b1d3b8de6aeec1c36772583608ed63301c0d6ec93a6979491a2a2ef4ea5a0f",
+      "width" : 29
+    },
+    {
+      "bytes" : 2970,
+      "format" : "PNG",
+      "height" : 40,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-40.png",
+      "sha256" : "d38ad787460e528a4439bc1628a1b4302baa575e959c201cf3c1c1e10548d44d",
+      "width" : 40
+    },
+    {
+      "bytes" : 4231,
+      "format" : "PNG",
+      "height" : 50,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-50.png",
+      "sha256" : "7771aea9e1a9001647c2d7b7e0582d174fec9d915815b21807e7ee447d6dbdb0",
+      "width" : 50
+    },
+    {
+      "bytes" : 5350,
+      "format" : "PNG",
+      "height" : 58,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-58.png",
+      "sha256" : "d3f9eb55dedc29e7094c54449c19efbf3abbbf66054dbbd5aec668f3c884fb34",
+      "width" : 58
+    },
+    {
+      "bytes" : 5610,
+      "format" : "PNG",
+      "height" : 60,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-60.png",
+      "sha256" : "c3a0bca1114e6625a05e7f72f070886052f9f2671faab99c2199f8b5fa2b87dc",
+      "width" : 60
+    },
+    {
+      "bytes" : 7577,
+      "format" : "PNG",
+      "height" : 72,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-72.png",
+      "sha256" : "652a94f40d401127d713e6235feda95aebc4790e481d77769a3ee0863bc0ba90",
+      "width" : 72
+    },
+    {
+      "bytes" : 8381,
+      "format" : "PNG",
+      "height" : 76,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-76.png",
+      "sha256" : "fe1b9042e0a11d6e25f5686b7335fe5cb6f07ec9442a11195760e39707dc2ec6",
+      "width" : 76
+    },
+    {
+      "bytes" : 9053,
+      "format" : "PNG",
+      "height" : 80,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-80.png",
+      "sha256" : "433d5345de0d70ac838844cdb40a11f83d5774960af8ab6c3fca59545a4cdb24",
+      "width" : 80
+    },
+    {
+      "bytes" : 10543,
+      "format" : "PNG",
+      "height" : 87,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-87.png",
+      "sha256" : "46c9ec7fbafa0e4f128eb2bda7d085cb9ab2cd6924eb29d34486e818371fe55a",
+      "width" : 87
+    },
+    {
+      "bytes" : 5168,
+      "format" : "PNG",
+      "height" : 57,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon.png",
+      "sha256" : "d70ad07b8e42683bc3b10a70ac2e4721f3933005b5a9cbf6fd7c15764258f6e9",
+      "width" : 57
+    },
+    {
+      "bytes" : 16755,
+      "format" : "PNG",
+      "height" : 114,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon@2x.png",
+      "sha256" : "c208620a3d3bf33b73a1c8b9d2b72eeaa698ed27cc3cceafb9fc89fdd414005c",
+      "width" : 114
+    },
+    {
+      "bytes" : 95482,
+      "format" : "JPEG",
+      "height" : 756,
+      "path" : "NCE_ALL/images/book1.jpg",
+      "sha256" : "c88673baa1c8157a0d7ca95baa841566a7f45f2c1aa38f0d0ba70bc96ed3c41f",
+      "width" : 540
+    },
+    {
+      "bytes" : 690279,
+      "format" : "PNG",
+      "height" : 882,
+      "path" : "NCE_ALL/images/book1_iPad.png",
+      "sha256" : "e4053fa7bf306432018d21ee36593ea98c7fa77c71d7b0a942f1240811d49e19",
+      "width" : 630
+    },
+    {
+      "bytes" : 100897,
+      "format" : "JPEG",
+      "height" : 756,
+      "path" : "NCE_ALL/images/book2.jpg",
+      "sha256" : "215503bc7c84ef9f0a5fbb75c45abc6cecd6edd9e63d4a28e6728befe436200e",
+      "width" : 540
+    },
+    {
+      "bytes" : 697339,
+      "format" : "PNG",
+      "height" : 882,
+      "path" : "NCE_ALL/images/book2_iPad.png",
+      "sha256" : "54ccb8ea1afdf3774aef0e85ff9a43ed3c5eba45794ae7e797413b861c91f236",
+      "width" : 630
+    },
+    {
+      "bytes" : 111076,
+      "format" : "JPEG",
+      "height" : 756,
+      "path" : "NCE_ALL/images/book3.jpg",
+      "sha256" : "facba315a71b71b33a0a5dac9519f042907b7231e7913fb5036b33b0fa1469e2",
+      "width" : 540
+    },
+    {
+      "bytes" : 733100,
+      "format" : "PNG",
+      "height" : 882,
+      "path" : "NCE_ALL/images/book3_iPad.png",
+      "sha256" : "67ff63c84df1e9ab050deed88ce6dc6a338d3d2f6a1541cb3d744de5eed54f77",
+      "width" : 630
+    },
+    {
+      "bytes" : 105720,
+      "format" : "JPEG",
+      "height" : 756,
+      "path" : "NCE_ALL/images/book4.jpg",
+      "sha256" : "82df7dbc3a06f73dce2978d26b866cdaf97e58cd83e21197cf12e5e34c9bdfec",
+      "width" : 540
+    },
+    {
+      "bytes" : 721712,
+      "format" : "PNG",
+      "height" : 882,
+      "path" : "NCE_ALL/images/book4_iPad.png",
+      "sha256" : "e45efacaf9ebdc58cda1983d509d317931544c062d5fedfb6d69148d6a756b40",
+      "width" : 630
+    }
+  ],
+  "design_spec" : "ContentPipeline/branding/design-spec.json",
+  "english_interface_added" : false,
+  "format_version" : 1,
+  "home_layout_changed" : false,
+  "previous_app_asset_bytes" : 5138884,
+  "previous_assets" : [
+    {
+      "bytes" : 24122,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-100.png",
+      "sha256" : "f420707665d8bbd84bb9960376a07bc456d3936f7064bf0a97fff34947001eca"
+    },
+    {
+      "bytes" : 1289864,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-1024.png",
+      "sha256" : "7c431e3f5f55b19033438d0dfc2e9e4904b7b367d371b79939e772c48f8b4138"
+    },
+    {
+      "bytes" : 34338,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-120.png",
+      "sha256" : "ed417a9b2747cad3fe121bdc04bc1f3aca0ec9e372255592e5d66410604b7cd6"
+    },
+    {
+      "bytes" : 48705,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-144.png",
+      "sha256" : "338257682039ca0650bfea86850781d8969142ea52ad657da330ed66d2d8bdbc"
+    },
+    {
+      "bytes" : 54123,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-152.png",
+      "sha256" : "d604726d8af73babd124d5691514e38a28219d800259bcb8eb370296f336c693"
+    },
+    {
+      "bytes" : 60904,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-167.png",
+      "sha256" : "26f0340ef5260269971a2d21277a6594a27bf690eedabb87564218a265fd56c6"
+    },
+    {
+      "bytes" : 74801,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-180.png",
+      "sha256" : "4456f2bdb98e25253e7a2fb29366fb28889dcaf2c38df07f2547ed7ec267b324"
+    },
+    {
+      "bytes" : 2366,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-29.png",
+      "sha256" : "113a7bfe7e49b4da2996fa6b68898bf8b0b2a934f5d7f31d8fe596d8cdbfb183"
+    },
+    {
+      "bytes" : 4214,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-40.png",
+      "sha256" : "841e6f6dc8a9574600ec87098a51abc7b536865d013b7e71f90f9837b8d3daa2"
+    },
+    {
+      "bytes" : 6359,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-50.png",
+      "sha256" : "eaf9844540a385fd5475715c273914184fc68171c299ae96e8fdb0c8c5fedc2d"
+    },
+    {
+      "bytes" : 8468,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-58.png",
+      "sha256" : "cfd81940537d69d4bf34a09c4d8776c2d2aa9e585a8c4ad7822970d743b45e9c"
+    },
+    {
+      "bytes" : 12741,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-72.png",
+      "sha256" : "1030170ab7a278b32dd39a869280f5f7b549f9e6145be2817f5b6845a972661f"
+    },
+    {
+      "bytes" : 14200,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-76.png",
+      "sha256" : "734f54e66343404fcad728d33cef59738e20bdfb3ac25fca84d1712a2704a36b"
+    },
+    {
+      "bytes" : 15699,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-80.png",
+      "sha256" : "ed0934f85d29bbd36d10ad7a5476cf38739376d3ea9246d883de479c0033ccbd"
+    },
+    {
+      "bytes" : 18417,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-87.png",
+      "sha256" : "1e6c8e42780961ab19ba19691b2ab646eb49999d3c49bc50ac42cad744732eb3"
+    },
+    {
+      "bytes" : 8146,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon.png",
+      "sha256" : "0abed830ee9e63c28c037c9b90e3b74dc98e8644761006059988329c3ff79dc2"
+    },
+    {
+      "bytes" : 31126,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon@2x.png",
+      "sha256" : "bef8970378110612197619c057f10fbcdb6dd1bb909ddc968f059b6f690dd9be"
+    },
+    {
+      "bytes" : 29816,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/images/book1.jpg",
+      "sha256" : "1083734c9dd1b6a8c4e1da97440a409f3bc0a747635d53189f02620d132938f5"
+    },
+    {
+      "bytes" : 843358,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/images/book1_iPad.png",
+      "sha256" : "eb2a39336f7fc830b3483c1ac2016a24fe8948c3c7319fcf5e324bab9a2ce2c1"
+    },
+    {
+      "bytes" : 26619,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/images/book2.jpg",
+      "sha256" : "a7d128eb8ea6cde71d2a58ef1d638816ef9d6c58331bd2a437abed8afc6839f3"
+    },
+    {
+      "bytes" : 828530,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/images/book2_iPad.png",
+      "sha256" : "4f3a359843b9f3c9b4a0ae8b99348e86d7970b8ce03464927b2cbffc077e5c29"
+    },
+    {
+      "bytes" : 29138,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/images/book3.jpg",
+      "sha256" : "5fbe92473cc65fae6a731e31a92dab3e96efaa5e137e57be579d80e74ade2d43"
+    },
+    {
+      "bytes" : 830205,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/images/book3_iPad.png",
+      "sha256" : "34d5e3321f42fa7ec403e70a7e63c219e419efe5f101b39965578f2fcd1d695b"
+    },
+    {
+      "bytes" : 27108,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/images/book4.jpg",
+      "sha256" : "dd38450cbb3f2f841f284b4cb2608564dab30295721c52a2efa3aee31e0ac8cd"
+    },
+    {
+      "bytes" : 815517,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/images/book4_iPad.png",
+      "sha256" : "0102c4b88e2568ab8bdea28404235a8bb7b5508a7f0ec6658f64dc9dced54ea9"
+    }
+  ],
+  "sources" : [
+    {
+      "height" : 1254,
+      "path" : "ContentPipeline/branding/source/icon.png",
+      "sha256" : "95f4eab40562560e2b8f0c55ba6b00e7c04c1f153cbc1e832446778f228f5343",
+      "width" : 1254
+    },
+    {
+      "height" : 1484,
+      "path" : "ContentPipeline/branding/source/book1.png",
+      "sha256" : "5fc3374e9254e5f64fdcfd9b74a400592351ee023e8c31f2ce6ebdaf4c2fb17e",
+      "width" : 1060
+    },
+    {
+      "height" : 1484,
+      "path" : "ContentPipeline/branding/source/book2.png",
+      "sha256" : "62fc89f2b1ac548e24d9dd24308b715c7bd0ac7795897231cbdc57852b7a3369",
+      "width" : 1060
+    },
+    {
+      "height" : 1484,
+      "path" : "ContentPipeline/branding/source/book3.png",
+      "sha256" : "bfe60f241fde8158e58de72a56bcbf1ed975cf4050bfec3884aa8e9058ae4314",
+      "width" : 1060
+    },
+    {
+      "height" : 1484,
+      "path" : "ContentPipeline/branding/source/book4.png",
+      "sha256" : "fe9aeacc3b5ce01bbdd44eaca327cc5c331db1b82dbdb45fae692d80ad784d34",
+      "width" : 1060
+    }
+  ],
+  "store_assets_uploaded" : false,
+  "total_app_asset_bytes" : 4585039
+}
