@@ -1,0 +1,187 @@
+{
+  "count": 21,
+  "contact_sheet": "ContentPipeline/word-images/academy-book3/diagram-contact-1.png",
+  "notes": "Actual renderer cases were inspected. Book 3 series highlights the entire sequence; incessantly uses an uninterrupted waveform. Proportion and fraction are exact 1/4 and 1/20 sectors.",
+  "words": [
+    {
+      "word": "equal",
+      "diagram": {
+        "type": "same"
+      },
+      "filename": "academy-b3-f9d6cd1ed5cf1ead.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "consist",
+      "diagram": {
+        "type": "container"
+      },
+      "filename": "academy-b3-cac787df74af316a.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "alike",
+      "diagram": {
+        "type": "same"
+      },
+      "filename": "academy-b3-c0bd51e0416194e1.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "dozen",
+      "diagram": {
+        "type": "quantity",
+        "value": 12
+      },
+      "filename": "academy-b3-bed7ef56035a9e4e.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "invariably",
+      "diagram": {
+        "type": "frequency",
+        "value": 7
+      },
+      "filename": "academy-b3-44a43b475350a5f1.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "series",
+      "diagram": {
+        "type": "sequence",
+        "value": 2,
+        "mode": "series"
+      },
+      "filename": "academy-b3-9cda38ea3a2bd78c.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "rarity",
+      "diagram": {
+        "type": "rarity"
+      },
+      "filename": "academy-b3-c7f1128804bcdaa4.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "assorted",
+      "diagram": {
+        "type": "sorting"
+      },
+      "filename": "academy-b3-9801ea0bf4f6ea74.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "miniature",
+      "diagram": {
+        "type": "size",
+        "mode": "tiny"
+      },
+      "filename": "academy-b3-409664d46246de83.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "resemblance",
+      "diagram": {
+        "type": "same"
+      },
+      "filename": "academy-b3-eb233c738048666f.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "direct",
+      "diagram": {
+        "type": "motion",
+        "mode": "straight"
+      },
+      "filename": "academy-b3-d15690f08a575024.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "steadily",
+      "diagram": {
+        "type": "increase"
+      },
+      "filename": "academy-b3-5ef838712d722596.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "correlate",
+      "diagram": {
+        "type": "connect"
+      },
+      "filename": "academy-b3-735b841b230dd74b.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "untold",
+      "diagram": {
+        "type": "endless"
+      },
+      "filename": "academy-b3-465033712645a492.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "incessantly",
+      "diagram": {
+        "type": "frequency",
+        "value": 7,
+        "mode": "continuous"
+      },
+      "filename": "academy-b3-9b410e81b9b74678.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "regularity",
+      "diagram": {
+        "type": "pattern"
+      },
+      "filename": "academy-b3-2ec3bb17df1c8ce6.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "diminish",
+      "diagram": {
+        "type": "compare",
+        "mode": "less"
+      },
+      "filename": "academy-b3-ef527ccc32ee6df9.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "infinitely",
+      "diagram": {
+        "type": "endless"
+      },
+      "filename": "academy-b3-7795e0c122d24dd0.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "proportion",
+      "diagram": {
+        "type": "fraction",
+        "value": 0.25
+      },
+      "filename": "academy-b3-40b149bf4da1c2ad.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "fraction",
+      "diagram": {
+        "type": "fraction",
+        "value": 0.05
+      },
+      "filename": "academy-b3-2c0f0f4581aa813b.png",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "microscopic",
+      "diagram": {
+        "type": "size",
+        "mode": "tiny"
+      },
+      "filename": "academy-b3-84c68146afc208c0.png",
+      "review_status": "assistant_visual_reviewed"
+    }
+  ]
+}

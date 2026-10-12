@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-049",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-9ac9ab4c-8624-461b-a9ce-2c4f891b2882.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — succeed (v.成功): A student reaches the final step of a challenging climb and raises arms in success, small flag at summit.\nTOP RIGHT — train (v.训练): A coach trains a runner doing drills beside cones on an athletics track. Verb training, no railway train.\nBOTTOM LEFT — anxiously (ad.焦急地): A parent waits outside a closed door, hands clasped and face worried, glancing at a clock.\nBOTTOM RIGHT — intend (v.打算): An adult studies a map and points to a planned destination, packed bag ready.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "succeed",
+      "meaning": "v.成功",
+      "filename": "academy-b2-6998ec8d781ca3a0.png",
+      "scene": "A student reaches the final step of a challenging climb and raises arms in success, small flag at summit."
+    },
+    {
+      "index": 1,
+      "word": "train",
+      "meaning": "v.训练",
+      "filename": "academy-b2-116f54c41d0405db.png",
+      "scene": "A coach trains a runner doing drills beside cones on an athletics track. Verb training, no railway train."
+    },
+    {
+      "index": 2,
+      "word": "anxiously",
+      "meaning": "ad.焦急地",
+      "filename": "academy-b2-06108a895cc4adde.png",
+      "scene": "A parent waits outside a closed door, hands clasped and face worried, glancing at a clock."
+    },
+    {
+      "index": 3,
+      "word": "intend",
+      "meaning": "v.打算",
+      "filename": "academy-b2-eec4c34a8bcdb24b.png",
+      "scene": "An adult studies a map and points to a planned destination, packed bag ready."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

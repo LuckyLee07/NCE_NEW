@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-037",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-24f29a22-fcdc-4c81-8b47-29df8b3781e5.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — teapot (n.茶壶): A clear compact educational illustration of 'teapot', specifically its curriculum meaning 'n.茶壶'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — find (v.找到): A clear compact educational illustration of 'find', specifically its curriculum meaning 'v.找到'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — boil (v.沸腾，开): a small open pot of water with clearly visible rising bubbles and modest steam on a hob\nBOTTOM RIGHT — boss (n.老板，上司): A clear compact educational illustration of 'boss', specifically its curriculum meaning 'n.老板，上司'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "teapot",
+      "meaning": "n.茶壶",
+      "lessons": [
+        43
+      ],
+      "filename": "academy-b1-33f38545e00a507f.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'teapot', specifically its curriculum meaning 'n.茶壶'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "find",
+      "meaning": "v.找到",
+      "lessons": [
+        43
+      ],
+      "filename": "academy-b1-e6640de835ad09fb.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'find', specifically its curriculum meaning 'v.找到'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "boil",
+      "meaning": "v.沸腾，开",
+      "lessons": [
+        43
+      ],
+      "filename": "academy-b1-9a692cc5ecc3c159.png",
+      "kind": "ai_illustration",
+      "scene": "a small open pot of water with clearly visible rising bubbles and modest steam on a hob",
+      "index": 2
+    },
+    {
+      "word": "boss",
+      "meaning": "n.老板，上司",
+      "lessons": [
+        45
+      ],
+      "filename": "academy-b1-a5e7c002443743c5.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'boss', specifically its curriculum meaning 'n.老板，上司'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

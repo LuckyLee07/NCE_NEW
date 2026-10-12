@@ -15,6 +15,7 @@ enum ExportError: Error {
 let files = FileManager.default
 let root = URL(fileURLWithPath:CommandLine.arguments.count > 1 ? CommandLine.arguments[1] : files.currentDirectoryPath)
 let pipeline = root.appendingPathComponent("ContentPipeline/branding")
+let iconsOnly = CommandLine.arguments.contains("--icons-only")
 let docs = root.appendingPathComponent("Docs/branding")
 let backup = pipeline.appendingPathComponent("previous")
 let isRepeatExport = files.fileExists(atPath:docs.appendingPathComponent("asset-report.json").path)
@@ -70,7 +71,7 @@ func preserve(_ relative: String) throws {
 
 var assets: [[String:Any]] = []
 var sources: [[String:Any]] = []
-for name in ["icon", "book1", "book2", "book3", "book4"] {
+for name in (iconsOnly ? ["icon"] : ["icon", "book1", "book2", "book3", "book4"]) {
     let source = pipeline.appendingPathComponent("source/\(name).png")
     let image = try readImage(source)
     sources.append(["path":"ContentPipeline/branding/source/\(name).png", "sha256":try digest(source),
@@ -101,7 +102,7 @@ for filename in iconSizes.keys.sorted() {
     let pixels = iconSizes[filename]!
     try export(icon, relative:"NCE_ALL/Images.xcassets/AppIcon.appiconset/\(filename)", width:pixels, height:pixels, jpeg:false)
 }
-for book in 1...4 {
+for book in (iconsOnly ? [] : Array(1...4)) {
     let source = try readImage(pipeline.appendingPathComponent("source/book\(book).png"))
     try export(source, relative:"NCE_ALL/images/book\(book).jpg", width:540, height:756, jpeg:true)
     try export(source, relative:"NCE_ALL/images/book\(book)_iPad.png", width:630, height:882, jpeg:false)
@@ -127,5 +128,5 @@ let report: [String:Any] = [
 try files.createDirectory(at:docs, withIntermediateDirectories:true)
 var data = try JSONSerialization.data(withJSONObject:report, options:[.prettyPrinted, .sortedKeys, .withoutEscapingSlashes])
 data.append(0x0a)
-try data.write(to:docs.appendingPathComponent("asset-report.json"), options:.atomic)
+try data.write(to:docs.appendingPathComponent(iconsOnly ? "icon-asset-report.json" : "asset-report.json"), options:.atomic)
 print("Exported \(assets.count) opaque icon/cover assets; \(report["total_app_asset_bytes"]!) bytes bundled. Original bitmaps retained outside the app.")

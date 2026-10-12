@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-011",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-81ebfde1-17d1-4f60-85e9-93a8243a7d24.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — customs (n.海关): an airport customs officer checking an open suitcase on a counter, no police chase or text\nTOP RIGHT — officer (n.官员): an adult official at a customs desk with a plain badge, no weapons or military context\nBOTTOM LEFT — girl (n.女孩，姑娘): A clear compact educational illustration of 'girl', specifically its curriculum meaning 'n.女孩，姑娘'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — Danish (a.& n.丹麦人): an adult beside a simplified Copenhagen Nyhavn harbor house, nationality mnemonic only",
+  "cells": [
+    {
+      "word": "customs",
+      "meaning": "n.海关",
+      "lessons": [
+        15
+      ],
+      "filename": "academy-b1-45e285133b891bc3.png",
+      "kind": "ai_illustration",
+      "scene": "an airport customs officer checking an open suitcase on a counter, no police chase or text",
+      "index": 0
+    },
+    {
+      "word": "officer",
+      "meaning": "n.官员",
+      "lessons": [
+        15
+      ],
+      "filename": "academy-b1-d71f0bd623e5e0b4.png",
+      "kind": "ai_illustration",
+      "scene": "an adult official at a customs desk with a plain badge, no weapons or military context",
+      "index": 1
+    },
+    {
+      "word": "girl",
+      "meaning": "n.女孩，姑娘",
+      "lessons": [
+        15
+      ],
+      "filename": "academy-b1-431ba1c6936744f6.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'girl', specifically its curriculum meaning 'n.女孩，姑娘'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "Danish",
+      "meaning": "a.& n.丹麦人",
+      "lessons": [
+        15
+      ],
+      "filename": "academy-b1-fe4338ad620c8d7c.png",
+      "kind": "ai_illustration",
+      "scene": "an adult beside a simplified Copenhagen Nyhavn harbor house, nationality mnemonic only",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

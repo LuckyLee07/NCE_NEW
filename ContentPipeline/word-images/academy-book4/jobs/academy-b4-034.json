@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-034",
+  "cells": [
+    {
+      "index": 0,
+      "word": "justification",
+      "meaning": "n.正当理由",
+      "filename": "academy-b4-9c4bb1e727db675d.png",
+      "scene": "A late traveller points to a broken-down bus as a reason for arriving late."
+    },
+    {
+      "index": 1,
+      "word": "justifiably",
+      "meaning": "ad.无可非议地",
+      "filename": "academy-b4-cc0294d2c0bf362d.png",
+      "scene": "A judge fairly awards a prize to the runner who clearly crossed first."
+    },
+    {
+      "index": 2,
+      "word": "cheat",
+      "meaning": "v.欺骗",
+      "filename": "academy-b4-3a1b45d4778cc8a6.png",
+      "scene": "A student secretly looks at another student's exam paper, invigilator notices."
+    },
+    {
+      "index": 3,
+      "word": "abject",
+      "meaning": "a.可怜的",
+      "filename": "academy-b4-7f1d7653f585b05d.png",
+      "scene": "A person in a state of abject misery after losing their home, seated beside a packed bag; dignified depiction."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — justification (n.正当理由): A late traveller points to a broken-down bus as a reason for arriving late.\nTOP RIGHT — justifiably (ad.无可非议地): A judge fairly awards a prize to the runner who clearly crossed first.\nBOTTOM LEFT — cheat (v.欺骗): A student secretly looks at another student's exam paper, invigilator notices.\nBOTTOM RIGHT — abject (a.可怜的): A person in a state of abject misery after losing their home, seated beside a packed bag; dignified depiction.\nCROP SAFETY: central 65% of each quadrant only, generous WHITE margins. Nothing crosses midlines. Bottom scenes begin below 58% total height including heads and thought bubbles. Sparse background detail. No labels.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-034.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: superseded circuit excluded because lamp is lit with disconnected wiring. Active planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "d069e2608644cb2bb9bda2f449cdb3132f2b69d8434d91997070af98d78fadd5"
+}

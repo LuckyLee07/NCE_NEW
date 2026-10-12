@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-154",
+  "cells": [
+    {
+      "index": 0,
+      "word": "endearing",
+      "meaning": "a.惹人喜爱的",
+      "filename": "academy-b4-8156126c0dd2672e.png",
+      "scene": "A playful baby elephant curls its trunk toward a smiling caretaker."
+    },
+    {
+      "index": 1,
+      "word": "blandishment",
+      "meaning": "n.奉承",
+      "filename": "academy-b4-27f810d0ccb50fb2.png",
+      "scene": "A flatterer praises a manager with exaggerated smile while seeking a favour."
+    },
+    {
+      "index": 2,
+      "word": "lash",
+      "meaning": "v.猛烈地甩",
+      "filename": "academy-b4-1c1e366a18160655.png",
+      "scene": "An elephant lashes its tail sideways, strong curved motion stroke, no contact."
+    },
+    {
+      "index": 3,
+      "word": "curl",
+      "meaning": "v.使卷曲",
+      "filename": "academy-b4-427e4b79b1f0fc90.png",
+      "scene": "An elephant curls its trunk into a gentle spiral."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — endearing (a.惹人喜爱的): A playful baby elephant curls its trunk toward a smiling caretaker.\nTOP RIGHT — blandishment (n.奉承): A flatterer praises a manager with exaggerated smile while seeking a favour.\nBOTTOM LEFT — lash (v.猛烈地甩): An elephant lashes its tail sideways, strong curved motion stroke, no contact.\nBOTTOM RIGHT — curl (v.使卷曲): An elephant curls its trunk into a gentle spiral.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-154.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "5f310369d2bd4894d37fa9186a481554b9bbad7334e183e9810fa8d49ba8590a"
+}

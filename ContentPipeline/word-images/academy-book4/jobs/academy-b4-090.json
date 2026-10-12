@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-090",
+  "cells": [
+    {
+      "index": 0,
+      "word": "discredit",
+      "meaning": "v.怀疑",
+      "filename": "academy-b4-c1efcdcebe87965e.png",
+      "scene": "A researcher compares a false claim with clear contradictory evidence and shakes their head."
+    },
+    {
+      "index": 1,
+      "word": "allegation",
+      "meaning": "n.断言",
+      "filename": "academy-b4-afdc03d0f0e179a1.png",
+      "scene": "One person makes an accusation while a listener waits for supporting evidence, small question mark."
+    },
+    {
+      "index": 2,
+      "word": "caption",
+      "meaning": "n.插图说明",
+      "filename": "academy-b4-176ca52906b001da.png",
+      "scene": "A printed picture with a short explanatory line directly beneath it, abstract strokes only."
+    },
+    {
+      "index": 3,
+      "word": "wreck",
+      "meaning": "n.残废人",
+      "filename": "academy-b4-7e4353d9a9b2d35e.png",
+      "scene": "An exhausted adult recovering in a chair after severe strain, cared for respectfully by a friend; no disability caricature."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — discredit (v.怀疑): A researcher compares a false claim with clear contradictory evidence and shakes their head.\nTOP RIGHT — allegation (n.断言): One person makes an accusation while a listener waits for supporting evidence, small question mark.\nBOTTOM LEFT — caption (n.插图说明): A printed picture with a short explanatory line directly beneath it, abstract strokes only.\nBOTTOM RIGHT — wreck (n.残废人): An exhausted adult recovering in a chair after severe strain, cared for respectfully by a friend; no disability caricature.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-090.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "599db0a9a10311dea93a6d1676e92be1e15ecc655dc0931c3dfdc42179bb5a0b"
+}

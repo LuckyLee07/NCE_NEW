@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-032",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-88da6015-68f3-4463-a4b5-9b061d76b2bf.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — critic (n.评论家): An art critic studies a painting closely while taking notes in a small notebook, thoughtful evaluative expression.\nTOP RIGHT — paint (v.画): An artist uses a brush to paint a landscape on an easel. Not painting a wall.\nBOTTOM LEFT — pretend (v.假装): A child holds an empty cardboard tube as if it were a telescope, playing at being an explorer.\nBOTTOM RIGHT — curtain (n.窗帘，幕布): A pair of blue curtains tied back on either side of a window.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "critic",
+      "meaning": "n.评论家",
+      "filename": "academy-b2-db113508c7cb409c.png",
+      "scene": "An art critic studies a painting closely while taking notes in a small notebook, thoughtful evaluative expression."
+    },
+    {
+      "index": 1,
+      "word": "paint",
+      "meaning": "v.画",
+      "filename": "academy-b2-297e619db5ee855a.png",
+      "scene": "An artist uses a brush to paint a landscape on an easel. Not painting a wall."
+    },
+    {
+      "index": 2,
+      "word": "pretend",
+      "meaning": "v.假装",
+      "filename": "academy-b2-0c6321751759867e.png",
+      "scene": "A child holds an empty cardboard tube as if it were a telescope, playing at being an explorer."
+    },
+    {
+      "index": 3,
+      "word": "curtain",
+      "meaning": "n.窗帘，幕布",
+      "filename": "academy-b2-05e884950dccb9aa.png",
+      "scene": "A pair of blue curtains tied back on either side of a window."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

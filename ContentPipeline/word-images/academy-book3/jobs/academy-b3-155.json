@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-155",
+  "cells": [
+    {
+      "index": 0,
+      "word": "sleeper",
+      "meaning": "n.(火车等的)卧铺",
+      "filename": "academy-b3-467f6325e44a77a0.png",
+      "scene": "A railway sleeping compartment with a made-up lower bunk, pillow, blanket and narrow window, no sleeping human required."
+    },
+    {
+      "index": 1,
+      "word": "fumble",
+      "meaning": "v.乱摸，摸索",
+      "filename": "academy-b3-dc8ebb505a2b75c7.png",
+      "scene": "An adult awkwardly feels through a cluttered bag trying to find a small key, uncertain searching hands and scattered contents."
+    },
+    {
+      "index": 2,
+      "word": "inevitably",
+      "meaning": "ad.必然地，不可避免地",
+      "filename": "academy-b3-337752635b11968d.png",
+      "scene": "A row of standing dominoes has begun to topple and the next piece is already touched by the falling one, a simple arrow continues the unavoidable chain."
+    },
+    {
+      "index": 3,
+      "word": "destination",
+      "meaning": "n.目的地",
+      "filename": "academy-b3-b5c755aaab1038b3.png",
+      "scene": "A traveler arrives at a small seaside hotel, suitcase in hand, route map ending at that exact building."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — sleeper (n.(火车等的)卧铺): A railway sleeping compartment with a made-up lower bunk, pillow, blanket and narrow window, no sleeping human required.\nTOP RIGHT — fumble (v.乱摸，摸索): An adult awkwardly feels through a cluttered bag trying to find a small key, uncertain searching hands and scattered contents.\nBOTTOM LEFT — inevitably (ad.必然地，不可避免地): A row of standing dominoes has begun to topple and the next piece is already touched by the falling one, a simple arrow continues the unavoidable chain.\nBOTTOM RIGHT — destination (n.目的地): A traveler arrives at a small seaside hotel, suitcase in hand, route map ending at that exact building.\nCRITICAL SAFE COMPOSITION: Make subjects SMALLER than the style reference. Every subject fits within central 65% of its own quadrant, with large 20% white margins on all sides. Bottom-row subjects including heads and thought bubbles begin BELOW 58% of entire canvas height; top subjects end ABOVE 42%. Keep central horizontal 42–58% totally blank white. No head, limb, object or speech bubble crosses either exact 50% midline.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-155.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Four cells visually checked: railway sleeper bunk, fumbling search in bag, inevitable domino sequence, and arrival at mapped seaside destination. Correct sleeper/inevitably senses, complete contained figures.",
+  "source_sha256": "9fbf4559c1c427a2fedc2d9f8f2542095685ac182e82ecd36beb847162e4d34b"
+}

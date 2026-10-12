@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-048",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-54b86505-a2fe-4b86-a284-85332df8023b.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — late (ad.晚，迟): A clear compact educational illustration of 'late', specifically its curriculum meaning 'ad.晚，迟'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — interesting (a.有趣的，有意思的): A clear compact educational illustration of 'interesting', specifically its curriculum meaning 'a.有趣的，有意思的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — subject (n.话题,主题): two people discussing with a speech bubble containing a small tree picture, topic of conversation not school subject\nBOTTOM RIGHT — conversation (n.谈话): A clear compact educational illustration of 'conversation', specifically its curriculum meaning 'n.谈话'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "late",
+      "meaning": "ad.晚，迟",
+      "lessons": [
+        53
+      ],
+      "filename": "academy-b1-089001a35679a33e.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'late', specifically its curriculum meaning 'ad.晚，迟'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "interesting",
+      "meaning": "a.有趣的，有意思的",
+      "lessons": [
+        53
+      ],
+      "filename": "academy-b1-637ab2808704d851.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'interesting', specifically its curriculum meaning 'a.有趣的，有意思的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "subject",
+      "meaning": "n.话题,主题",
+      "lessons": [
+        53
+      ],
+      "filename": "academy-b1-a9491f4c1bf7b0cf.png",
+      "kind": "ai_illustration",
+      "scene": "two people discussing with a speech bubble containing a small tree picture, topic of conversation not school subject",
+      "index": 2
+    },
+    {
+      "word": "conversation",
+      "meaning": "n.谈话",
+      "lessons": [
+        53
+      ],
+      "filename": "academy-b1-8b34dbc2c05eb4d7.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'conversation', specifically its curriculum meaning 'n.谈话'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

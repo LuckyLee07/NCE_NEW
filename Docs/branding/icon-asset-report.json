@@ -1,0 +1,264 @@
+{
+  "app_interface_languages" : [
+    "zh-Hans",
+    "zh-Hant",
+    "ja",
+    "ko"
+  ],
+  "assets" : [
+    {
+      "bytes" : 19105,
+      "format" : "PNG",
+      "height" : 100,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-100.png",
+      "sha256" : "25aef009bb5ee8437356a741ee4105dc81aeec5eee20e393d19aff519340b31a",
+      "width" : 100
+    },
+    {
+      "bytes" : 1349607,
+      "format" : "PNG",
+      "height" : 1024,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-1024.png",
+      "sha256" : "cd2087b32635e3a27aeb40a876b83073eb474f2aff7182a7c7ea86e1ed087335",
+      "width" : 1024
+    },
+    {
+      "bytes" : 26558,
+      "format" : "PNG",
+      "height" : 120,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-120.png",
+      "sha256" : "17247961accd3ebcaf9e8e373825a9266743c6452d1df15e89d4440fea5fc40d",
+      "width" : 120
+    },
+    {
+      "bytes" : 36744,
+      "format" : "PNG",
+      "height" : 144,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-144.png",
+      "sha256" : "e4281d08f514d8c3fe655595c64d42bb3faf260966d50d21122e3d6509b25785",
+      "width" : 144
+    },
+    {
+      "bytes" : 40438,
+      "format" : "PNG",
+      "height" : 152,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-152.png",
+      "sha256" : "5bfdc213a38b2c81b54fb27cba8c371f3d384e2c0adb47b240ffc88edfa7a99f",
+      "width" : 152
+    },
+    {
+      "bytes" : 47603,
+      "format" : "PNG",
+      "height" : 167,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-167.png",
+      "sha256" : "77f03aae5cef8b1e8eeafb8dc025bbdaeff0d7323a269ad805a53125eced04dd",
+      "width" : 167
+    },
+    {
+      "bytes" : 54542,
+      "format" : "PNG",
+      "height" : 180,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-180.png",
+      "sha256" : "d83a1733a9e3c6d5e07f9f1c9a482bbb2ade3b415c069628511055c2d82727eb",
+      "width" : 180
+    },
+    {
+      "bytes" : 1206,
+      "format" : "PNG",
+      "height" : 20,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-20.png",
+      "sha256" : "073666b9eaf9b865c00cbe903d103a528b6a6f05fbb9b99427859834c5d71f97",
+      "width" : 20
+    },
+    {
+      "bytes" : 2205,
+      "format" : "PNG",
+      "height" : 29,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-29.png",
+      "sha256" : "ed02ce61ad0d73b7eb17b293aa30aaf4f1f0dc3fcd8ef5179958ba646267c18a",
+      "width" : 29
+    },
+    {
+      "bytes" : 3808,
+      "format" : "PNG",
+      "height" : 40,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-40.png",
+      "sha256" : "0ef31c4996051db3b9f5f4aad55064923e293721e56ab1bb31045a14970597f9",
+      "width" : 40
+    },
+    {
+      "bytes" : 5612,
+      "format" : "PNG",
+      "height" : 50,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-50.png",
+      "sha256" : "e548393414e1a62ccf334933a1c4b9dc8ead3a02d3f89ae7ade163b34eb0e646",
+      "width" : 50
+    },
+    {
+      "bytes" : 7237,
+      "format" : "PNG",
+      "height" : 58,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-58.png",
+      "sha256" : "872ad2a3f1c7bcc11fc298ff796022d2190acc4c23c2bc059c59574d5e2be24f",
+      "width" : 58
+    },
+    {
+      "bytes" : 7686,
+      "format" : "PNG",
+      "height" : 60,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-60.png",
+      "sha256" : "7b240b6cedc2f631b1b6934ebc27daada7b5c5c01887c0ebdb5ef7b1be86947e",
+      "width" : 60
+    },
+    {
+      "bytes" : 10657,
+      "format" : "PNG",
+      "height" : 72,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-72.png",
+      "sha256" : "78c6212fb673c0977f6f3701603ef961f2e0be715cde9511fe48315cfa9b4b9a",
+      "width" : 72
+    },
+    {
+      "bytes" : 11692,
+      "format" : "PNG",
+      "height" : 76,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-76.png",
+      "sha256" : "b7ddd7386821d39951c3a028299c7bb86c5b12345dc21cdf909699ddac67a1d8",
+      "width" : 76
+    },
+    {
+      "bytes" : 12830,
+      "format" : "PNG",
+      "height" : 80,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-80.png",
+      "sha256" : "984bee0e013acff6bc67dd5663b6b0fb6c906c5344263c3bcf4d6a59d35f7da2",
+      "width" : 80
+    },
+    {
+      "bytes" : 14915,
+      "format" : "PNG",
+      "height" : 87,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-87.png",
+      "sha256" : "5cc3c19389d4d4118a32a600a5527a44c852068a597717243fec0b5a4726bfb8",
+      "width" : 87
+    },
+    {
+      "bytes" : 7036,
+      "format" : "PNG",
+      "height" : 57,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon.png",
+      "sha256" : "1e44695d238282c4a780938fce4fbc3b8e8c38f5b65a1c5f4565d28814ebdccd",
+      "width" : 57
+    },
+    {
+      "bytes" : 24162,
+      "format" : "PNG",
+      "height" : 114,
+      "path" : "NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon@2x.png",
+      "sha256" : "cb86b8b20f035e89a7d647d6ba63c6cec1b5607edddfafafe3c1b3a50f9fa521",
+      "width" : 114
+    }
+  ],
+  "design_spec" : "ContentPipeline/branding/design-spec.json",
+  "english_interface_added" : false,
+  "format_version" : 1,
+  "home_layout_changed" : false,
+  "previous_app_asset_bytes" : 1708593,
+  "previous_assets" : [
+    {
+      "bytes" : 24122,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-100.png",
+      "sha256" : "f420707665d8bbd84bb9960376a07bc456d3936f7064bf0a97fff34947001eca"
+    },
+    {
+      "bytes" : 1289864,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-1024.png",
+      "sha256" : "7c431e3f5f55b19033438d0dfc2e9e4904b7b367d371b79939e772c48f8b4138"
+    },
+    {
+      "bytes" : 34338,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-120.png",
+      "sha256" : "ed417a9b2747cad3fe121bdc04bc1f3aca0ec9e372255592e5d66410604b7cd6"
+    },
+    {
+      "bytes" : 48705,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-144.png",
+      "sha256" : "338257682039ca0650bfea86850781d8969142ea52ad657da330ed66d2d8bdbc"
+    },
+    {
+      "bytes" : 54123,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-152.png",
+      "sha256" : "d604726d8af73babd124d5691514e38a28219d800259bcb8eb370296f336c693"
+    },
+    {
+      "bytes" : 60904,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-167.png",
+      "sha256" : "26f0340ef5260269971a2d21277a6594a27bf690eedabb87564218a265fd56c6"
+    },
+    {
+      "bytes" : 74801,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-180.png",
+      "sha256" : "4456f2bdb98e25253e7a2fb29366fb28889dcaf2c38df07f2547ed7ec267b324"
+    },
+    {
+      "bytes" : 2366,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-29.png",
+      "sha256" : "113a7bfe7e49b4da2996fa6b68898bf8b0b2a934f5d7f31d8fe596d8cdbfb183"
+    },
+    {
+      "bytes" : 4214,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-40.png",
+      "sha256" : "841e6f6dc8a9574600ec87098a51abc7b536865d013b7e71f90f9837b8d3daa2"
+    },
+    {
+      "bytes" : 6359,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-50.png",
+      "sha256" : "eaf9844540a385fd5475715c273914184fc68171c299ae96e8fdb0c8c5fedc2d"
+    },
+    {
+      "bytes" : 8468,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-58.png",
+      "sha256" : "cfd81940537d69d4bf34a09c4d8776c2d2aa9e585a8c4ad7822970d743b45e9c"
+    },
+    {
+      "bytes" : 12741,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-72.png",
+      "sha256" : "1030170ab7a278b32dd39a869280f5f7b549f9e6145be2817f5b6845a972661f"
+    },
+    {
+      "bytes" : 14200,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-76.png",
+      "sha256" : "734f54e66343404fcad728d33cef59738e20bdfb3ac25fca84d1712a2704a36b"
+    },
+    {
+      "bytes" : 15699,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-80.png",
+      "sha256" : "ed0934f85d29bbd36d10ad7a5476cf38739376d3ea9246d883de479c0033ccbd"
+    },
+    {
+      "bytes" : 18417,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon-87.png",
+      "sha256" : "1e6c8e42780961ab19ba19691b2ab646eb49999d3c49bc50ac42cad744732eb3"
+    },
+    {
+      "bytes" : 8146,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon.png",
+      "sha256" : "0abed830ee9e63c28c037c9b90e3b74dc98e8644761006059988329c3ff79dc2"
+    },
+    {
+      "bytes" : 31126,
+      "path" : "ContentPipeline/branding/previous/NCE_ALL/Images.xcassets/AppIcon.appiconset/Icon@2x.png",
+      "sha256" : "bef8970378110612197619c057f10fbcdb6dd1bb909ddc968f059b6f690dd9be"
+    }
+  ],
+  "sources" : [
+    {
+      "height" : 1254,
+      "path" : "ContentPipeline/branding/source/icon.png",
+      "sha256" : "ad9d4b0c0d1b00125c544988fca93ab32645647c316e5d568c4fef22f13f5982",
+      "width" : 1254
+    }
+  ],
+  "store_assets_uploaded" : false,
+  "total_app_asset_bytes" : 1683643
+}

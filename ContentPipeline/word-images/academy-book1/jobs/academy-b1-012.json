@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-012",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-73ee0aed-58a8-4e1e-8a4b-36d84de11439.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — friend (n.朋友): A clear compact educational illustration of 'friend', specifically its curriculum meaning 'n.朋友'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — Norwegian (a.& n.挪威人): an adult beside a compact steep fjord and wooden waterside house, nationality mnemonic only\nBOTTOM LEFT — passport (n.护照): A clear compact educational illustration of 'passport', specifically its curriculum meaning 'n.护照'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — brown (a.棕色的): a single brown watercolor paint swatch and brush; actual brown",
+  "cells": [
+    {
+      "word": "friend",
+      "meaning": "n.朋友",
+      "lessons": [
+        15
+      ],
+      "filename": "academy-b1-cde48537ca2c2808.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'friend', specifically its curriculum meaning 'n.朋友'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "Norwegian",
+      "meaning": "a.& n.挪威人",
+      "lessons": [
+        15
+      ],
+      "filename": "academy-b1-71f4cf5c7a2308d0.png",
+      "kind": "ai_illustration",
+      "scene": "an adult beside a compact steep fjord and wooden waterside house, nationality mnemonic only",
+      "index": 1
+    },
+    {
+      "word": "passport",
+      "meaning": "n.护照",
+      "lessons": [
+        15
+      ],
+      "filename": "academy-b1-cbc471ca60092bbe.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'passport', specifically its curriculum meaning 'n.护照'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "brown",
+      "meaning": "a.棕色的",
+      "lessons": [
+        15
+      ],
+      "filename": "academy-b1-5eb67f9f8409b9c3.png",
+      "kind": "ai_illustration",
+      "scene": "a single brown watercolor paint swatch and brush; actual brown",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

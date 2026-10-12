@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-118",
+  "cells": [
+    {
+      "index": 0,
+      "word": "faith",
+      "meaning": "n.信任",
+      "filename": "academy-b3-2b93b177b55445f5.png",
+      "scene": "An adult trustingly places a valuable parcel in a reliable friend's hands, both exchanging reassuring expressions."
+    },
+    {
+      "index": 1,
+      "word": "cancel",
+      "meaning": "v.取消",
+      "filename": "academy-b3-2374d91794b79f4f.png",
+      "scene": "A planned outdoor picnic basket sits untouched beside a calendar event crossed out with a clear red diagonal, rain outside."
+    },
+    {
+      "index": 2,
+      "word": "dislocate",
+      "meaning": "v.打乱(计划等)",
+      "filename": "academy-b3-020e4ad8ee28a057.png",
+      "scene": "A neatly planned travel itinerary is disrupted by a broken train on the track, traveler looking at rearranged tickets and crossed-out times."
+    },
+    {
+      "index": 3,
+      "word": "blame",
+      "meaning": "v.责怪",
+      "filename": "academy-b3-5e7434f45c5ecbda.png",
+      "scene": "An adult angrily points at a second person beside a broken vase, second person raises open palms, responsibility dispute."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — faith (n.信任): An adult trustingly places a valuable parcel in a reliable friend's hands, both exchanging reassuring expressions.\nTOP RIGHT — cancel (v.取消): A planned outdoor picnic basket sits untouched beside a calendar event crossed out with a clear red diagonal, rain outside.\nBOTTOM LEFT — dislocate (v.打乱(计划等)): A neatly planned travel itinerary is disrupted by a broken train on the track, traveler looking at rearranged tickets and crossed-out times.\nBOTTOM RIGHT — blame (v.责怪): An adult angrily points at a second person beside a broken vase, second person raises open palms, responsibility dispute.\nEXTRA CROP SAFETY: Draw noticeably SMALLER compact subjects. Every object, mast, roof, thought bubble and entire person must have an empty white border of at least 12% of its quadrant on ALL FOUR sides. Top row ends above 44% canvas height; bottom row starts below 58%. Never let a background tower extend upward into the midline. No part is clipped by a quadrant edge.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-118.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Reviewed course senses, expressive actions, natural anatomy, and white crop margins. Express is a fast train; condition shows a trained bell response; dislocate represents disruption of train services.",
+  "source_sha256": "c827b0842c37464fa803a56e2f1861ea84a37759193b137b1b90fedb8ff3b31a"
+}

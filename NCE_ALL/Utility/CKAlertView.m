@@ -1,182 +1,64 @@
-//
-//  CKAlertView.m
-//  NCE2
-//
-//  Created by Lizi on 15/12/21.
-//  Copyright (c) 2015年 PalmGame. All rights reserved.
-//
-
 #import "CKAlertView.h"
-#import "Utility.h"
+#import "NCEAcademyTheme.h"
 
 @interface CKAlertView ()
-
-- (void)buttonClick:(UIButton *)button;
-- (void)removeSelf;
-
+@property(nonatomic,strong) UIView *panel;
+@property(nonatomic,strong) UIStackView *stack;
+@property(nonatomic,strong) UIButton *cancelAction;
+@property(nonatomic,assign) BOOL dismissible;
 @end
 
 @implementation CKAlertView
-
 - (UIWindow *)getKeyWindow
 {
-    if (@available(iOS 13.0, *))
-    {
-        for (UIWindowScene* windowScene in [UIApplication sharedApplication].connectedScenes) {
-            if (windowScene.activationState == UISceneActivationStateForegroundActive)
-            {
-                for (UIWindow *window in windowScene.windows)
-                {
-                    if (window.isKeyWindow)
-                    {
-                        return window;
-                    }
-                }
-            }
-        }
+    for(UIWindowScene *scene in UIApplication.sharedApplication.connectedScenes){
+        if(![scene isKindOfClass:UIWindowScene.class])continue;
+        for(UIWindow *window in scene.windows)if(window.isKeyWindow)return window;
     }
-    else
-    {
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-        return [UIApplication sharedApplication].keyWindow;
-#pragma clang diagnostic pop
-    }
-    
     return nil;
 }
-
 - (id)initWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitle, ...
 {
-    CGRect frame = [self getKeyWindow].bounds;
-    self = [super initWithFrame:frame];
-    if (self) {
-        self.delegate = delegate;
-        self.backgroundColor = [UIColor colorWithWhite:0.f alpha:0.3];
-        
-        int width = [Utility isPad] ? 320 : 270;
-        int titleHeight = 54.f;
-        if (message) titleHeight += 26;
-        
-        int height = titleHeight;
-        
-        UIView *background = [[UIView alloc] initWithFrame:CGRectMake(self.frame.size.width/2-width/2, frame.size.height/2-height/2, width, height)];
-        background.backgroundColor = [UIColor colorWithWhite:1.f alpha:0.9];
-        background.layer.cornerRadius = 8;
-        background.layer.masksToBounds = YES;
-        [self addSubview:background];
-        
-        if (!cancelButtonTitle) {
-            UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(removeSelf)];
-            tapGesture.numberOfTapsRequired    = 1;
-            tapGesture.numberOfTouchesRequired = 1;
-            [self addGestureRecognizer:tapGesture];
-        }
-        
-        UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.f, 0.f, background.frame.size.width, 44.f)];
-        titleLabel.text     = title;
-        titleLabel.backgroundColor = [UIColor clearColor];
-        titleLabel.textAlignment = NSTextAlignmentCenter;
-        titleLabel.textColor     = [UIColor grayColor];
-        titleLabel.font          = [UIFont systemFontOfSize:14.f];
-        [background addSubview:titleLabel];
-        
-        if (message) {
-            UILabel *messageLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.f, 36.f, background.frame.size.width, 44.f)];
-            messageLabel.text     = message;
-            messageLabel.backgroundColor = [UIColor clearColor];
-            messageLabel.textAlignment = NSTextAlignmentCenter;
-            messageLabel.textColor = [UIColor darkGrayColor];
-            messageLabel.font          = [UIFont boldSystemFontOfSize:18.f];
-            [background addSubview:messageLabel];
-        }
-        
-        va_list ap;
-        va_start(ap, otherButtonTitle);
-        int ii = 0;
-        while (otherButtonTitle) {
-            height += 44.f;
-            
-            UIButton *otherButton = [UIButton buttonWithType:UIButtonTypeCustom];
-            otherButton.frame = CGRectMake(0.f, titleHeight+ii*44.f, background.frame.size.width, 44.f);
-            otherButton.backgroundColor = [UIColor clearColor];
-            otherButton.tag = 100+ii;
-            otherButton.accessibilityIdentifier = [NSString stringWithFormat:@"alert-choice-%d", ii];
-            [otherButton setTitle:otherButtonTitle forState:UIControlStateNormal];
-            [otherButton setTitleColor:[UIColor colorWithRed:0.f green:122/255.f blue:1.f alpha:1.f] forState:UIControlStateNormal];
-            otherButton.titleLabel.font = [UIFont systemFontOfSize:18.f];
-            [otherButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
-            [background addSubview:otherButton];
-            
-            CGRect lineFrame = otherButton.frame;
-            lineFrame.size.height = 1.f;
-            UIView *line = [[UIView alloc] initWithFrame:lineFrame];
-            //            line.backgroundColor = [UIColor colorWithRed:200/255.f
-            //                                                   green:199/255.f
-            //                                                    blue:204/255.f
-            //                                                   alpha:1.f];
-            line.backgroundColor = [UIColor colorWithRed:61/255.f
-                                                   green:205/255.f
-                                                    blue:122/255.f
-                                                   alpha:1.f];
-            [background addSubview:line];
-            
-            otherButtonTitle = va_arg(ap, NSString*);
-            ii++;
-        }
+    if((self=[super initWithFrame:[self getKeyWindow].bounds])){
+        self.delegate=delegate;self.backgroundColor=[UIColor colorWithRed:0.05 green:0.12 blue:0.22 alpha:0.4];self.accessibilityViewIsModal=YES;
+        self.autoresizingMask=UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
+        _dismissible=cancelButtonTitle==nil;
+        if(_dismissible){UIControl *background=[[UIControl alloc] initWithFrame:self.bounds];background.autoresizingMask=UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;[background addTarget:self action:@selector(removeSelf) forControlEvents:UIControlEventTouchUpInside];[self addSubview:background];}
+        _panel=[UIView new];NCECard(_panel,28);_panel.translatesAutoresizingMaskIntoConstraints=NO;[self addSubview:_panel];
+        UIScrollView *scroll=[UIScrollView new];scroll.translatesAutoresizingMaskIntoConstraints=NO;[_panel addSubview:scroll];
+        _stack=[UIStackView new];_stack.axis=UILayoutConstraintAxisVertical;_stack.spacing=12;_stack.translatesAutoresizingMaskIntoConstraints=NO;[scroll addSubview:_stack];
+        if(message.length){UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"academy-books"]];image.contentMode=UIViewContentModeScaleAspectFit;[_stack addArrangedSubview:image];[image.heightAnchor constraintEqualToConstant:94].active=YES;}
+        UILabel *heading=NCELabel(title,22,UIFontWeightBold,NCEInk());heading.textAlignment=NSTextAlignmentCenter;[_stack addArrangedSubview:heading];
+        if(message.length){UILabel *detail=NCELabel(message,17,UIFontWeightMedium,NCEMuted());detail.textAlignment=NSTextAlignmentCenter;[_stack addArrangedSubview:detail];[_stack setCustomSpacing:22 afterView:detail];}
+        va_list ap;va_start(ap,otherButtonTitle);NSInteger index=0;
+        while(otherButtonTitle){UIButton *button=NCEButton(otherButtonTitle,nil,NO,self,@selector(buttonClick:));button.tag=100+index;button.accessibilityIdentifier=[NSString stringWithFormat:@"alert-choice-%ld",(long)index];[_stack addArrangedSubview:button];[button.heightAnchor constraintGreaterThanOrEqualToConstant:48].active=YES;otherButtonTitle=va_arg(ap,NSString *);index++;}
         va_end(ap);
-        
-        if (cancelButtonTitle) {
-            height += 44.f;
-            
-            UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
-            cancelButton.frame = CGRectMake(0.f, titleHeight+ii*44.f, background.frame.size.width, 44);
-            cancelButton.backgroundColor = [UIColor clearColor];
-            cancelButton.tag = 100+ii;
-            cancelButton.accessibilityIdentifier = @"alert-cancel";
-            [cancelButton setTitle:cancelButtonTitle forState:UIControlStateNormal];
-            [cancelButton setTitleColor:[UIColor colorWithRed:0.f green:122/255.f blue:1.f alpha:1.f] forState:UIControlStateNormal];
-            cancelButton.titleLabel.font = [UIFont systemFontOfSize:18.f];
-            [cancelButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
-            [background addSubview:cancelButton];
-            
-            CGRect lineFrame = cancelButton.frame;
-            lineFrame.size.height = 1.f;
-            UIView *line = [[UIView alloc] initWithFrame:lineFrame];
-            //            line.backgroundColor = [UIColor colorWithRed:200/255.f
-            //                                                   green:199/255.f
-            //                                                    blue:204/255.f
-            //                                                   alpha:1.f];
-            line.backgroundColor = [UIColor colorWithRed:61/255.f
-                                                   green:205/255.f
-                                                    blue:122/255.f
-                                                   alpha:1.f];
-            [background addSubview:line];
-        }
-        
-        background.frame = CGRectMake(self.frame.size.width/2-width/2, frame.size.height/2-height/2, width, height);
-    }
-    return self;
+        if(cancelButtonTitle){_cancelAction=NCEButton(cancelButtonTitle,nil,YES,self,@selector(buttonClick:));_cancelAction.tag=100+index;_cancelAction.accessibilityIdentifier=@"alert-cancel";[_stack addArrangedSubview:_cancelAction];[_cancelAction.heightAnchor constraintGreaterThanOrEqualToConstant:50].active=YES;}
+        NSLayoutConstraint *width=[_panel.widthAnchor constraintEqualToConstant:356];width.priority=UILayoutPriorityDefaultHigh;
+        NSLayoutConstraint *height=[_panel.heightAnchor constraintEqualToAnchor:_stack.heightAnchor constant:48];height.priority=UILayoutPriorityDefaultHigh;
+        [NSLayoutConstraint activateConstraints:@[
+            [_panel.topAnchor constraintGreaterThanOrEqualToAnchor:self.safeAreaLayoutGuide.topAnchor constant:16],
+            [_panel.bottomAnchor constraintLessThanOrEqualToAnchor:self.safeAreaLayoutGuide.bottomAnchor constant:-16],height,
+            [scroll.topAnchor constraintEqualToAnchor:_panel.topAnchor],[scroll.bottomAnchor constraintEqualToAnchor:_panel.bottomAnchor],
+            [scroll.leadingAnchor constraintEqualToAnchor:_panel.leadingAnchor],[scroll.trailingAnchor constraintEqualToAnchor:_panel.trailingAnchor],
+            [_panel.centerXAnchor constraintEqualToAnchor:self.centerXAnchor],[_panel.centerYAnchor constraintEqualToAnchor:self.centerYAnchor],width,
+            [_panel.widthAnchor constraintLessThanOrEqualToAnchor:self.widthAnchor constant:-36],
+            [_stack.topAnchor constraintEqualToAnchor:scroll.contentLayoutGuide.topAnchor constant:24],[_stack.bottomAnchor constraintEqualToAnchor:scroll.contentLayoutGuide.bottomAnchor constant:-24],[_stack.leadingAnchor constraintEqualToAnchor:scroll.contentLayoutGuide.leadingAnchor constant:22],[_stack.trailingAnchor constraintEqualToAnchor:scroll.contentLayoutGuide.trailingAnchor constant:-22],[_stack.widthAnchor constraintEqualToAnchor:scroll.frameLayoutGuide.widthAnchor constant:-44]
+        ]];
+    }return self;
 }
-
 - (void)show
 {
-    UIWindow *window = [self getKeyWindow];
-    [window addSubview:self];
+    [[self getKeyWindow] addSubview:self];UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification,_stack.arrangedSubviews.firstObject);
 }
-
 - (void)buttonClick:(UIButton *)button
 {
-    if ([self.delegate respondsToSelector:@selector(alertView:customClickedButtonAtIndex:)]) {
-        [self.delegate alertView:self customClickedButtonAtIndex:button.tag-100];
-    }
-    
-    [self removeSelf];
+    id<CKAlertViewDelegate> delegate=self.delegate;[self removeSelf];
+    if([delegate respondsToSelector:@selector(alertView:customClickedButtonAtIndex:)])[delegate alertView:self customClickedButtonAtIndex:button.tag-100];
 }
-
-- (void)removeSelf
+- (BOOL)accessibilityPerformEscape
 {
-    [self removeFromSuperview];
+    if(_cancelAction){[self buttonClick:_cancelAction];return YES;}if(_dismissible){[self removeSelf];return YES;}return NO;
 }
-
+- (void)removeSelf { [self removeFromSuperview]; }
 @end

@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-002",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-31b14da0-991f-4fa7-97f9-a929159d6a77.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — thank you (vt.感谢): a grateful adult placing hand over chest and smiling at a person offering a small gift, polite gratitude\nTOP RIGHT — please (int.请): a person politely requesting an offered cup with open palms, friendly and non-commanding\nBOTTOM LEFT — here (ad.这里): a large blue downward arrow points to a clearly marked blue spot directly beneath it, location here\nBOTTOM RIGHT — sorry (a.对不起的): an apologetic person with lowered head and open palms next to an accidentally knocked-over empty cup, no injury",
+  "cells": [
+    {
+      "word": "thank you",
+      "meaning": "vt.感谢",
+      "lessons": [
+        1
+      ],
+      "filename": "academy-b1-844347e54f00c4b9.png",
+      "kind": "ai_illustration",
+      "scene": "a grateful adult placing hand over chest and smiling at a person offering a small gift, polite gratitude",
+      "index": 0
+    },
+    {
+      "word": "please",
+      "meaning": "int.请",
+      "lessons": [
+        3
+      ],
+      "filename": "academy-b1-56ccc4dcfc96534b.png",
+      "kind": "ai_illustration",
+      "scene": "a person politely requesting an offered cup with open palms, friendly and non-commanding",
+      "index": 1
+    },
+    {
+      "word": "here",
+      "meaning": "ad.这里",
+      "lessons": [
+        3
+      ],
+      "filename": "academy-b1-fcec91509759ad99.png",
+      "kind": "ai_illustration",
+      "scene": "a large blue downward arrow points to a clearly marked blue spot directly beneath it, location here",
+      "index": 2
+    },
+    {
+      "word": "sorry",
+      "meaning": "a.对不起的",
+      "lessons": [
+        3
+      ],
+      "filename": "academy-b1-484aab2f2cd0f77b.png",
+      "kind": "ai_illustration",
+      "scene": "an apologetic person with lowered head and open palms next to an accidentally knocked-over empty cup, no injury",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

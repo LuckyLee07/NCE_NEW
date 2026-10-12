@@ -33,7 +33,7 @@ def main():
                "-destination", f"platform=iOS Simulator,id={args.device}", "-derivedDataPath", "/private/tmp/NCEStoreMedia-20261006",
                "-resultBundlePath", str(result), "-parallel-testing-enabled", "NO",
                "-only-testing:NCEContentUITests/NCEContentUITests/testCaptureStoreMedia",
-               f"NCE_APP_BUNDLE_IDENTIFIER={BUNDLE}", "CODE_SIGNING_ALLOWED=NO",
+               f"NCE_APP_BUNDLE_IDENTIFIER={BUNDLE}", "CODE_SIGNING_ALLOWED=YES", "CODE_SIGN_IDENTITY=-",
                "test-without-building" if args.without_building else "test"]
     session = {"device": args.device, "label": args.label, "bundle_identifier": BUNDLE, "xcresult": str(result), "recordings": {}}
     recorder = None

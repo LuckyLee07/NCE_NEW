@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-020",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-a9a6799c-f158-47be-beb3-f3ce5500aa27.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — window (n.窗户): A clear compact educational illustration of 'window', specifically its curriculum meaning 'n.窗户'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — armchair (n.手扶椅): A clear compact educational illustration of 'armchair', specifically its curriculum meaning 'n.手扶椅'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — door (n.门): A clear compact educational illustration of 'door', specifically its curriculum meaning 'n.门'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — picture (n.图画): A clear compact educational illustration of 'picture', specifically its curriculum meaning 'n.图画'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "window",
+      "meaning": "n.窗户",
+      "lessons": [
+        27
+      ],
+      "filename": "academy-b1-44ff7b02c80d38b2.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'window', specifically its curriculum meaning 'n.窗户'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "armchair",
+      "meaning": "n.手扶椅",
+      "lessons": [
+        27
+      ],
+      "filename": "academy-b1-5a948ffe5f0f6384.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'armchair', specifically its curriculum meaning 'n.手扶椅'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "door",
+      "meaning": "n.门",
+      "lessons": [
+        27
+      ],
+      "filename": "academy-b1-2534e2de1dec24fe.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'door', specifically its curriculum meaning 'n.门'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "picture",
+      "meaning": "n.图画",
+      "lessons": [
+        27
+      ],
+      "filename": "academy-b1-2cea274d0bedc39e.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'picture', specifically its curriculum meaning 'n.图画'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

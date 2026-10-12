@@ -1,0 +1,41 @@
+{
+  "purpose": "Primary-source checks for specialized equipment and animal anatomy depicted in Book 2 illustrations.",
+  "sources": [
+    {
+      "words": [
+        "Lancaster"
+      ],
+      "url": "https://www.raf.mod.uk/aircraft/lancaster/",
+      "checked_cues": "Four propeller engines and twin vertical tail fins."
+    },
+    {
+      "words": [
+        "Hubble"
+      ],
+      "url": "https://science.nasa.gov/mission/hubble/observatory/design/electrical-power/",
+      "checked_cues": "Cylindrical space telescope with two solar-array wings."
+    },
+    {
+      "words": [
+        "Endeavour"
+      ],
+      "url": "https://www.nasa.gov/mission/sts-61/",
+      "checked_cues": "Space shuttle used for the first Hubble servicing mission."
+    },
+    {
+      "words": [
+        "Pilatus Porter"
+      ],
+      "url": "https://www.pilatus-aircraft.com/assets/files/Model-Building-Plans/PC-6-Model-Building-Plan.pdf",
+      "checked_cues": "PC-6 high wing, single propeller, fixed landing gear, utility-aircraft silhouette."
+    },
+    {
+      "words": [
+        "oarfish"
+      ],
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/oarfish/",
+      "checked_cues": "Long ribbon-like silver body, red dorsal fin and elongated front dorsal rays."
+    }
+  ],
+  "fictional_locations": "Wayle, Kituro and Escalopia use contextual story illustrations, not invented geographic locator maps."
+}

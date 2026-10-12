@@ -1,0 +1,749 @@
+{
+  "format_version": 1,
+  "count": 82,
+  "contact_sheets": [
+    "ContentPipeline/word-images/academy-book3/reuse-contact-1.png",
+    "ContentPipeline/word-images/academy-book3/reuse-contact-2.png",
+    "ContentPipeline/word-images/academy-book3/reuse-contact-3.png"
+  ],
+  "words": [
+    {
+      "word": "vicar",
+      "meaning": "n.牧师",
+      "source_book_id": 2,
+      "source_word": "vicar",
+      "source_filename": "academy-b2-7a1935988aabaeec.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "reconstruct",
+      "meaning": "v.修复",
+      "source_book_id": 2,
+      "source_word": "restore",
+      "source_filename": "academy-b2-f329e3a317eee6a8.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "corporation",
+      "meaning": "n.公司",
+      "source_book_id": 1,
+      "source_word": "company",
+      "source_filename": "academy-b1-f168ccdd91548c5a.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "journalist",
+      "meaning": "n.新闻记者",
+      "source_book_id": 1,
+      "source_word": "reporter",
+      "source_filename": "academy-b1-41d6d5322a9b546a.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "palace",
+      "meaning": "n.王宫；宏伟的住宅",
+      "source_book_id": 2,
+      "source_word": "palace",
+      "source_filename": "academy-b2-ee2aa44805b51b10.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "impatient",
+      "meaning": "a.不耐烦的",
+      "source_book_id": 2,
+      "source_word": "impatiently",
+      "source_filename": "academy-b2-f61e644d10c117e2.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "fantastic",
+      "meaning": "a.非常大的",
+      "source_book_id": 2,
+      "source_word": "immense",
+      "source_filename": "academy-b2-07f33781121e1765.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "high-rise",
+      "meaning": "a.高层的",
+      "source_book_id": 2,
+      "source_word": "block",
+      "source_filename": "academy-b2-496aca80e4d8f29f.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "colossal",
+      "meaning": "a.庞大的,巨大的",
+      "source_book_id": 2,
+      "source_word": "immense",
+      "source_filename": "academy-b2-07f33781121e1765.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "horror",
+      "meaning": "n.恐惧",
+      "source_book_id": 2,
+      "source_word": "fright",
+      "source_filename": "academy-b2-4c3cc494be55f486.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "confidently",
+      "meaning": "ad.自信地",
+      "source_book_id": 2,
+      "source_word": "confidence",
+      "source_filename": "academy-b2-ff0139d07c592e9a.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "dreadful",
+      "meaning": "a.可怕的，一团糟的",
+      "source_book_id": 2,
+      "source_word": "frightful",
+      "source_filename": "academy-b1-fcfebb572f03efe3.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "chalk",
+      "meaning": "n.粉笔",
+      "source_book_id": 1,
+      "source_word": "chalk",
+      "source_filename": "academy-b1-c886ff11f6a51b61.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "comfortable",
+      "meaning": "a.舒适的",
+      "source_book_id": 2,
+      "source_word": "comfortable",
+      "source_filename": "academy-b2-46fd05f35b5591e2.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "promptly",
+      "meaning": "ad.准时地；迅速的",
+      "source_book_id": 2,
+      "source_word": "promptly",
+      "source_filename": "academy-b1-2c1c3733626507b9.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "remarkable",
+      "meaning": "a.不寻常的",
+      "source_book_id": 2,
+      "source_word": "extraordinary",
+      "source_filename": "academy-b2-8ce1449767372eac.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "hire",
+      "meaning": "v.租出，雇佣",
+      "source_book_id": 2,
+      "source_word": "employ",
+      "source_filename": "academy-b2-b0688a56fae3ddb4.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "appreciate",
+      "meaning": "v.欣赏，感激",
+      "source_book_id": 2,
+      "source_word": "appreciate",
+      "source_filename": "academy-b2-f3e8234402a37d50.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "prize",
+      "meaning": "a.珍贵的，宝贵的",
+      "source_book_id": 2,
+      "source_word": "precious",
+      "source_filename": "academy-b2-157fc55121ab2c59.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "theft",
+      "meaning": "n.偷盗行为，偷盗案",
+      "source_book_id": 2,
+      "source_word": "steal",
+      "source_filename": "academy-b2-a0fd408352bd19a2.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "ashamed",
+      "meaning": "a.感到羞耻，惭愧",
+      "source_book_id": 2,
+      "source_word": "shame",
+      "source_filename": "academy-b2-bf197ff3615054b0.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "apologize",
+      "meaning": "v.道歉",
+      "source_book_id": 1,
+      "source_word": "sorry",
+      "source_filename": "academy-b1-484aab2f2cd0f77b.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "agreeable",
+      "meaning": "a.宜人的",
+      "source_book_id": 1,
+      "source_word": "pleasant",
+      "source_filename": "academy-b1-54c0bcab0e733437.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "locate",
+      "meaning": "v.位于",
+      "source_book_id": 2,
+      "source_word": "lie",
+      "source_filename": "academy-b2-c8b1a1a3e6bcee86.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "suspend",
+      "meaning": "v.悬挂",
+      "source_book_id": 2,
+      "source_word": "hang",
+      "source_filename": "academy-b2-e3ccbe1f95156325.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "immensity",
+      "meaning": "n.巨大",
+      "source_book_id": 2,
+      "source_word": "immense",
+      "source_filename": "academy-b2-07f33781121e1765.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "peculiar",
+      "meaning": "a.奇异的",
+      "source_book_id": 2,
+      "source_word": "peculiar",
+      "source_filename": "academy-b2-9f7439aa4e2b5d34.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "shock",
+      "meaning": "v.令人震惊，刺激人",
+      "source_book_id": 2,
+      "source_word": "shock",
+      "source_filename": "academy-b2-74cac794aefecdbb.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "astound",
+      "meaning": "v.使吃惊",
+      "source_book_id": 2,
+      "source_word": "astonish",
+      "source_filename": "academy-b2-6fffebff6f41ffc5.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "fame",
+      "meaning": "n.名声",
+      "source_book_id": 1,
+      "source_word": "famous",
+      "source_filename": "academy-b1-79b1bc81314de30f.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "proceed",
+      "meaning": "v.继续进行",
+      "source_book_id": 2,
+      "source_word": "continue",
+      "source_filename": "academy-b2-e256ee8e7aff6957.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "varying",
+      "meaning": "a.不同的",
+      "source_book_id": 2,
+      "source_word": "various",
+      "source_filename": "academy-b2-1d35a94841cbfca1.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "stack",
+      "meaning": "v.(整齐地)堆放，排放；n.堆",
+      "source_book_id": 2,
+      "source_word": "pile",
+      "source_filename": "academy-b2-2eb8272d48d13634.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "vessel",
+      "meaning": "n.轮船，大木船",
+      "source_book_id": 1,
+      "source_word": "ship",
+      "source_filename": "academy-b1-e5d5b971139eefeb.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "temporary",
+      "meaning": "a.临时的",
+      "source_book_id": 2,
+      "source_word": "temporarily",
+      "source_filename": "academy-b2-c06a4f8f0647f5ab.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "pride",
+      "meaning": "v.骄傲",
+      "source_book_id": 2,
+      "source_word": "proud",
+      "source_filename": "academy-b2-d069c85283b98c2c.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "classify",
+      "meaning": "v.分类",
+      "source_book_id": 2,
+      "source_word": "sort",
+      "source_filename": "academy-b2-646964943fd22711.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "priest",
+      "meaning": "n.牧师",
+      "source_book_id": 2,
+      "source_word": "vicar",
+      "source_filename": "academy-b2-7a1935988aabaeec.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "consequence",
+      "meaning": "n.后果，结果",
+      "source_book_id": 2,
+      "source_word": "effect",
+      "source_filename": "academy-b2-dcb576426a17b7df.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "wares",
+      "meaning": "n.货物，商品",
+      "source_book_id": 2,
+      "source_word": "goods",
+      "source_filename": "academy-b2-089857f9c4079417.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "console",
+      "meaning": "v.安慰，慰问",
+      "source_book_id": 2,
+      "source_word": "sympathetic",
+      "source_filename": "academy-b2-f536242334900183.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "lovable",
+      "meaning": "a.可爱的",
+      "source_book_id": 1,
+      "source_word": "lovely",
+      "source_filename": "academy-b1-f85b43067a280d4c.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "apologetic",
+      "meaning": "a.道歉的",
+      "source_book_id": 1,
+      "source_word": "sorry",
+      "source_filename": "academy-b1-484aab2f2cd0f77b.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "contents",
+      "meaning": "n.(复数)所装的东西",
+      "source_book_id": 2,
+      "source_word": "contents",
+      "source_filename": "academy-b2-d1b2a59fbea7e200.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "item",
+      "meaning": "n.物件",
+      "source_book_id": 2,
+      "source_word": "article",
+      "source_filename": "academy-b2-84393add8c489d33.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "blacken",
+      "meaning": "v.使变黑",
+      "source_book_id": 2,
+      "source_word": "blacken",
+      "source_filename": "academy-b2-7cb92fa9e68bad14.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "odd",
+      "meaning": "a.奇怪的，异常的",
+      "source_book_id": 2,
+      "source_word": "strange",
+      "source_filename": "academy-b2-41b3ab146fd06719.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "complaint",
+      "meaning": "n.抱怨",
+      "source_book_id": 2,
+      "source_word": "complain",
+      "source_filename": "academy-b2-41aa311d555b8ad0.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "petrol",
+      "meaning": "n.汽油",
+      "source_book_id": 2,
+      "source_word": "petrol",
+      "source_filename": "academy-b2-b92cb4dd1f184c7e.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "clump",
+      "meaning": "n.丛，簇",
+      "source_book_id": 2,
+      "source_word": "bush",
+      "source_filename": "academy-b2-749a1a16c343bf7b.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "permission",
+      "meaning": "n.许可",
+      "source_book_id": 2,
+      "source_word": "allow",
+      "source_filename": "academy-b2-410083735735a10e.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "grant",
+      "meaning": "v.同意，准予",
+      "source_book_id": 2,
+      "source_word": "allow",
+      "source_filename": "academy-b2-410083735735a10e.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "rapture",
+      "meaning": "n.欣喜",
+      "source_book_id": 2,
+      "source_word": "delighted",
+      "source_filename": "academy-b1-8d1c8a7a12c3739b.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "misery",
+      "meaning": "n.苦难",
+      "source_book_id": 2,
+      "source_word": "suffer",
+      "source_filename": "academy-b2-4cf14180a81b04a1.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "purchase",
+      "meaning": "v.买",
+      "source_book_id": 1,
+      "source_word": "buy",
+      "source_filename": "academy-b1-e8197b20f8e71e42.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "monotonous",
+      "meaning": "a.枯燥的，乏味的，单调的",
+      "source_book_id": 2,
+      "source_word": "dull",
+      "source_filename": "academy-b2-8f68ea0282db3790.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "inspection",
+      "meaning": "n.检查",
+      "source_book_id": 2,
+      "source_word": "check",
+      "source_filename": "academy-b2-20f65c28671b4093.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "exhaust",
+      "meaning": "v.使精疲力尽",
+      "source_book_id": 1,
+      "source_word": "tired",
+      "source_filename": "academy-b1-c405760daf9bc32b.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "landscape",
+      "meaning": "n.景色",
+      "source_book_id": 2,
+      "source_word": "view",
+      "source_filename": "academy-b1-b29493e2e9765cb6.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "consumer",
+      "meaning": "n.消费者，顾客",
+      "source_book_id": 1,
+      "source_word": "customer",
+      "source_filename": "academy-b1-b6c45863875e3448.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "rust",
+      "meaning": "v.生锈",
+      "source_book_id": 1,
+      "source_word": "rusty",
+      "source_filename": "academy-b1-91c0b7c9c0fa9864.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "helicopter",
+      "meaning": "n.直升飞机",
+      "source_book_id": 2,
+      "source_word": "helicopter",
+      "source_filename": "academy-b2-cbde83173a31f4f2.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "hospitable",
+      "meaning": "a.好客的",
+      "source_book_id": 2,
+      "source_word": "welcome",
+      "source_filename": "academy-b2-280d44ab1e9f79b5.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "industriousness",
+      "meaning": "n.勤奋",
+      "source_book_id": 1,
+      "source_word": "hard-working",
+      "source_filename": "academy-b1-8acc0c52aca12e88.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "mirth",
+      "meaning": "n.欢笑，高兴",
+      "source_book_id": 2,
+      "source_word": "laugh",
+      "source_filename": "academy-b2-31e289f536683cb9.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "cellar",
+      "meaning": "n.地窖",
+      "source_book_id": 2,
+      "source_word": "basement",
+      "source_filename": "academy-b2-a6f91dfd2c7321f3.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "resolution",
+      "meaning": "n.决心",
+      "source_book_id": 2,
+      "source_word": "determined",
+      "source_filename": "academy-b2-891af2861ee60192.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "relieve",
+      "meaning": "v.减轻",
+      "source_book_id": 2,
+      "source_word": "relieve",
+      "source_filename": "academy-b2-be169a7e712b89de.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "repetitive",
+      "meaning": "a.重复的",
+      "source_book_id": 2,
+      "source_word": "repeat",
+      "source_filename": "academy-b2-25e2b6b106523880.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "outlandish",
+      "meaning": "a.稀奇古怪的",
+      "source_book_id": 2,
+      "source_word": "peculiar",
+      "source_filename": "academy-b2-9f7439aa4e2b5d34.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "prompt",
+      "meaning": "v.敦促，激励",
+      "source_book_id": 2,
+      "source_word": "urge",
+      "source_filename": "academy-b2-f7ecefc770b921cd.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "weird",
+      "meaning": "a.奇异的，古怪的",
+      "source_book_id": 2,
+      "source_word": "strange",
+      "source_filename": "academy-b2-41b3ab146fd06719.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "safeguard",
+      "meaning": "v.保护",
+      "source_book_id": 2,
+      "source_word": "preserve",
+      "source_filename": "academy-b2-1daf82f62247f3a1.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "revulsion",
+      "meaning": "n.厌恶",
+      "source_book_id": 1,
+      "source_word": "hate",
+      "source_filename": "academy-b1-f2e9a23ac36c4b22.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "colony",
+      "meaning": "n.一群",
+      "source_book_id": 2,
+      "source_word": "colony",
+      "source_filename": "academy-b2-f7786e1f40e8a578.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "sticky",
+      "meaning": "a.粘的",
+      "source_book_id": 2,
+      "source_word": "sticky",
+      "source_filename": "academy-b2-964a9431ff491fd7.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "boundary",
+      "meaning": "n.界线；边界",
+      "source_book_id": 2,
+      "source_word": "border",
+      "source_filename": "academy-b2-4f1a55de40bce901.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "predecessor",
+      "meaning": "n.前任",
+      "source_book_id": 2,
+      "source_word": "former",
+      "source_filename": "academy-b2-2a36430635e75054.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "grapple",
+      "meaning": "v.抓住",
+      "source_book_id": 2,
+      "source_word": "grab",
+      "source_filename": "academy-b2-234afbd5f044f363.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "toss",
+      "meaning": "v.扔",
+      "source_book_id": 1,
+      "source_word": "throw",
+      "source_filename": "academy-b1-7b0456581bef4cb1.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "amass",
+      "meaning": "v.积聚，收集",
+      "source_book_id": 2,
+      "source_word": "collect",
+      "source_filename": "academy-b2-81824c90f8a5276b.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    },
+    {
+      "word": "boredom",
+      "meaning": "n.烦恼，无聊",
+      "source_book_id": 2,
+      "source_word": "dull",
+      "source_filename": "academy-b2-8f68ea0282db3790.png",
+      "review_status": "assistant_visual_reviewed",
+      "review_method": "Viewed all 82 actual source images in three labelled native contact sheets; checked curriculum sense, source content and word-specific caption."
+    }
+  ]
+}

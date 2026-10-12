@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-093",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-4e1b1fe1-0ddb-4442-a450-f42ae65b9d9b.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — faulty (a.有错误的): A desk lamp with a visibly cracked bulb and damaged switch sits unplugged on a table, crossed-out light symbol; faulty equipment, no repair instructions.\nTOP RIGHT — astronaut (n.宇航员): An astronaut in a white spacesuit floating above a small Earth curve, visor and life-support pack visible.\nBOTTOM LEFT — shuttle (n.航天飞机): A white space shuttle orbiter with black thermal underside, delta wings and vertical tail, gliding above Earth, no launch stack.\nBOTTOM RIGHT — Endeavour (n.“奋进”号): A NASA Space Shuttle Endeavour style orbiter in orbit with open payload bay and robotic arm reaching toward a small telescope; delta wings and black underside, no lettering.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "faulty",
+      "meaning": "a.有错误的",
+      "filename": "academy-b2-9ec1600e60d2aba3.png",
+      "scene": "A desk lamp with a visibly cracked bulb and damaged switch sits unplugged on a table, crossed-out light symbol; faulty equipment, no repair instructions."
+    },
+    {
+      "index": 1,
+      "word": "astronaut",
+      "meaning": "n.宇航员",
+      "filename": "academy-b2-df0c29d39619e8cf.png",
+      "scene": "An astronaut in a white spacesuit floating above a small Earth curve, visor and life-support pack visible."
+    },
+    {
+      "index": 2,
+      "word": "shuttle",
+      "meaning": "n.航天飞机",
+      "filename": "academy-b2-48f42260a8448caa.png",
+      "scene": "A white space shuttle orbiter with black thermal underside, delta wings and vertical tail, gliding above Earth, no launch stack."
+    },
+    {
+      "index": 3,
+      "word": "Endeavour",
+      "meaning": "n.“奋进”号",
+      "filename": "academy-b2-34673def428fde30.png",
+      "scene": "A NASA Space Shuttle Endeavour style orbiter in orbit with open payload bay and robotic arm reaching toward a small telescope; delta wings and black underside, no lettering."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

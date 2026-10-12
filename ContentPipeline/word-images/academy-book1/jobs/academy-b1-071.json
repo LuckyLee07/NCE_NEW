@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-071",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-44334853-a515-49cd-b2bf-a9b2cb4eb9b5.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — money (n.钱): A clear compact educational illustration of 'money', specifically its curriculum meaning 'n.钱'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — bath (n.洗澡): a white bathtub with water, towel and modest bubbles, no exposed person\nBOTTOM LEFT — ready (a.准备好的，完好的): A clear compact educational illustration of 'ready', specifically its curriculum meaning 'a.准备好的，完好的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — dinner (n.正餐，晚餐): A clear compact educational illustration of 'dinner', specifically its curriculum meaning 'n.正餐，晚餐'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "money",
+      "meaning": "n.钱",
+      "lessons": [
+        79
+      ],
+      "filename": "academy-b1-8d2ac8b58ead9744.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'money', specifically its curriculum meaning 'n.钱'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "bath",
+      "meaning": "n.洗澡",
+      "lessons": [
+        81
+      ],
+      "filename": "academy-b1-0de8ab6315488d30.png",
+      "kind": "ai_illustration",
+      "scene": "a white bathtub with water, towel and modest bubbles, no exposed person",
+      "index": 1
+    },
+    {
+      "word": "ready",
+      "meaning": "a.准备好的，完好的",
+      "lessons": [
+        81
+      ],
+      "filename": "academy-b1-b24d6d33736ecd56.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'ready', specifically its curriculum meaning 'a.准备好的，完好的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2,
+      "superseded_by": "academy-b1-repair-002"
+    },
+    {
+      "word": "dinner",
+      "meaning": "n.正餐，晚餐",
+      "lessons": [
+        81
+      ],
+      "filename": "academy-b1-dda209044ad44962.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'dinner', specifically its curriculum meaning 'n.正餐，晚餐'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted_with_replaced_cells",
+  "review_status": "assistant_visual_reviewed"
+}

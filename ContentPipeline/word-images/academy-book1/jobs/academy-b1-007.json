@@ -1,0 +1,56 @@
+{
+  "id": "academy-b1-007",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-0eb7d7e5-725c-4d9b-8cf7-2cd86b3ec2e7.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — job (n.工作): a worker holding a briefcase beside a small office desk, paid employment\nTOP RIGHT — operator (n.操作人员): an adult keyboard/computer operator seated at a desk typing on desktop keyboard, not heavy machinery\nBOTTOM LEFT — hello (int.喂(表示问候)): A clear compact educational illustration of 'hello', specifically its curriculum meaning 'int.喂(表示问候)'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — today (ad.今天): A clear compact educational illustration of 'today', specifically its curriculum meaning 'ad.今天'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "job",
+      "meaning": "n.工作",
+      "lessons": [
+        7,
+        123
+      ],
+      "filename": "academy-b1-5e8c9902207afaeb.png",
+      "kind": "ai_illustration",
+      "scene": "a worker holding a briefcase beside a small office desk, paid employment",
+      "index": 0
+    },
+    {
+      "word": "operator",
+      "meaning": "n.操作人员",
+      "lessons": [
+        7
+      ],
+      "filename": "academy-b1-06e55b633481f7bb.png",
+      "kind": "ai_illustration",
+      "scene": "an adult keyboard/computer operator seated at a desk typing on desktop keyboard, not heavy machinery",
+      "index": 1
+    },
+    {
+      "word": "hello",
+      "meaning": "int.喂(表示问候)",
+      "lessons": [
+        9
+      ],
+      "filename": "academy-b1-2cf24dba5fb0a30e.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'hello', specifically its curriculum meaning 'int.喂(表示问候)'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "today",
+      "meaning": "ad.今天",
+      "lessons": [
+        9
+      ],
+      "filename": "academy-b1-e0f4f767ac88a930.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'today', specifically its curriculum meaning 'ad.今天'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

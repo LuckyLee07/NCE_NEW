@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-105",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-0d642722-a83d-4976-a098-89c034beba71.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — enthusiast (n.热心人): A hobby enthusiast happily works on a small model aircraft, focused delighted expression, tools neatly arranged.\nTOP RIGHT — restore (v.修复): A craftsperson restores an old damaged chair, one half repaired and polished, the other still worn.\nBOTTOM LEFT — imagine (v.想像): A child looks at a cardboard box and imagines it as a rocket in a thought bubble.\nBOTTOM RIGHT — packing (包装箱): A sturdy wooden packing crate with lid open and protective straw inside, shipping container sense.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "enthusiast",
+      "meaning": "n.热心人",
+      "filename": "academy-b2-29b54aac9e16810b.png",
+      "scene": "A hobby enthusiast happily works on a small model aircraft, focused delighted expression, tools neatly arranged."
+    },
+    {
+      "index": 1,
+      "word": "restore",
+      "meaning": "v.修复",
+      "filename": "academy-b2-f329e3a317eee6a8.png",
+      "scene": "A craftsperson restores an old damaged chair, one half repaired and polished, the other still worn."
+    },
+    {
+      "index": 2,
+      "word": "imagine",
+      "meaning": "v.想像",
+      "filename": "academy-b2-7fdd65bbaaa687d4.png",
+      "scene": "A child looks at a cardboard box and imagines it as a rocket in a thought bubble."
+    },
+    {
+      "index": 3,
+      "word": "packing",
+      "meaning": "包装箱",
+      "filename": "academy-b2-7c6e059c91d86331.png",
+      "scene": "A sturdy wooden packing crate with lid open and protective straw inside, shipping container sense."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

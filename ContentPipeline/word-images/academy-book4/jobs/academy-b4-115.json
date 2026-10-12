@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-115",
+  "cells": [
+    {
+      "index": 0,
+      "word": "bud",
+      "meaning": "n.花蕾",
+      "filename": "academy-b4-eb354856ade3a627.png",
+      "scene": "A closed rose bud at the tip of a stem, sepals visible."
+    },
+    {
+      "index": 1,
+      "word": "lark",
+      "meaning": "n.云雀",
+      "filename": "academy-b4-c8916e65e41f2329.png",
+      "scene": "A realistic skylark, small streaked brown songbird with short crest, perched on grass."
+    },
+    {
+      "index": 2,
+      "word": "ladybird",
+      "meaning": "n.瓢虫",
+      "filename": "academy-b4-d8875d72c39a408c.png",
+      "scene": "A red ladybird with black spots, six small legs and black head on a leaf."
+    },
+    {
+      "index": 3,
+      "word": "bulrush",
+      "meaning": "n.香蒲等水生高茎植物",
+      "filename": "academy-b4-aa4cb4535ff84584.png",
+      "scene": "Cattail bulrushes with tall narrow leaves and distinctive brown cylindrical flower heads beside water."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — bud (n.花蕾): A closed rose bud at the tip of a stem, sepals visible.\nTOP RIGHT — lark (n.云雀): A realistic skylark, small streaked brown songbird with short crest, perched on grass.\nBOTTOM LEFT — ladybird (n.瓢虫): A red ladybird with black spots, six small legs and black head on a leaf.\nBOTTOM RIGHT — bulrush (n.香蒲等水生高茎植物): Cattail bulrushes with tall narrow leaves and distinctive brown cylindrical flower heads beside water.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-115.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "a4db448349f6476549d6cd75110689c54d904fc92bb9b847c4e7e2faded5367d"
+}

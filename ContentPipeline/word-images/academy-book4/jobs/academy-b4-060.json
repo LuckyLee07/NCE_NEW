@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-060",
+  "cells": [
+    {
+      "index": 0,
+      "word": "shark",
+      "meaning": "n.鲨鱼",
+      "filename": "academy-b4-31fc15942b0c47f6.png",
+      "scene": "A recognizable streamlined shark with gill slits, prominent dorsal fin and heterocercal tail."
+    },
+    {
+      "index": 1,
+      "word": "formation",
+      "meaning": "n.队形",
+      "filename": "academy-b4-3eb95cbef2662002.png",
+      "scene": "Five geese flying in a clear V formation."
+    },
+    {
+      "index": 2,
+      "word": "dolphin",
+      "meaning": "n.海豚科动物",
+      "filename": "academy-b4-532f011ec89ff0e2.png",
+      "scene": "A bottlenose dolphin with elongated beak, curved dorsal fin and horizontal tail flukes."
+    },
+    {
+      "index": 3,
+      "word": "unconscious",
+      "meaning": "a.不省人事的",
+      "filename": "academy-b4-30bc67a73501de3d.png",
+      "scene": "An unconscious adult lying safely on a stretcher with an attendant checking them; calm non-graphic scene."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — shark (n.鲨鱼): A recognizable streamlined shark with gill slits, prominent dorsal fin and heterocercal tail.\nTOP RIGHT — formation (n.队形): Five geese flying in a clear V formation.\nBOTTOM LEFT — dolphin (n.海豚科动物): A bottlenose dolphin with elongated beak, curved dorsal fin and horizontal tail flukes.\nBOTTOM RIGHT — unconscious (a.不省人事的): An unconscious adult lying safely on a stretcher with an attendant checking them; calm non-graphic scene.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge white margins. No midline crossings.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-060.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "93419ae46d367c2b9bd10329225ee964a263aabffe673ee7cab469ca5ed6c2dc"
+}

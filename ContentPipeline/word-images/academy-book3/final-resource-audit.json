@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "reviewed_atlas_receipts": 247,
+  "main_atlases": 229,
+  "repair_atlases": 18,
+  "active_ai_words": 913,
+  "all_ai_words_have_exactly_one_active_reviewed_receipt": true,
+  "all_atlas_hashes_match": true,
+  "unique_pngs_decoded": 1008,
+  "all_png_hashes_dimensions_and_budgets_valid": true,
+  "preserved_book1_book2_resources": 1308,
+  "database_unchanged": true
+}

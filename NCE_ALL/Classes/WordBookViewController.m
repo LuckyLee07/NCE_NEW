@@ -1,253 +1,71 @@
-//
-//  WordBookViewController.m
-//  NEC_ALL
-//
-//  Created by Lizi on 02/11/26.
-//  Copyright © 2026年 FancyGame. All rights reserved.
-//
-
 #import "WordBookViewController.h"
-#import "sqlite3.h"
-#import "WordBookDetailViewController.h"
+#import "NCEStudyStore.h"
+#import "NCEStudyViews.h"
+#import "NCEPracticeViewController.h"
+#import "WordViewController.h"
+#import "NCEWordResourceStore.h"
 
-static NSString* const kWordBookViewControllerCellReuseId = @"kWordBookViewControllerCellReuseId";
-
-@interface WordBookViewController () <UITableViewDataSource, UITableViewDelegate>
-{
-    NSMutableArray *_items;
-    int _bookId;
-    
-    NSMutableDictionary *_wordBook;
-}
-
-@property (nonatomic, strong) UITableView *tableView;
-
-- (void)initData;
-- (void)addTableView;
-
+@interface WordBookViewController () <UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate>
 @end
-
-@implementation WordBookViewController
-
-- (id)initWithBookId:(int)bookId withTitle:(NSString *)title
-{
-    self = [super init];
-    if (self) {
-        _bookId = bookId;
-        self.titleString = title;
-        
-        [self initData];
-    }
-    return self;
+@implementation WordBookViewController {
+    NSInteger _book;
+    NSArray *_words,*_visible;
+    UITableView *_table;
+    UIView *_header;
+    NCEVolumeControl *_volume;
+    UISearchBar *_search;
+    UISegmentedControl *_filters;
+    UILabel *_count;
+    UIButton *_review;
 }
-
+- (id)initWithBookId:(int)bookId withTitle:(NSString *)title {if((self=[super init])){_book=bookId;self.titleString=title;}return self;}
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    [self addTableView];
+    [super viewDidLoad];self.navigationController.navigationBar.prefersLargeTitles=YES;self.navigationItem.largeTitleDisplayMode=UINavigationItemLargeTitleDisplayModeAlways;_table=[[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];NCEPrepareTable(_table);_table.separatorStyle=UITableViewCellSeparatorStyleSingleLine;_table.delegate=self;_table.dataSource=self;_table.rowHeight=UITableViewAutomaticDimension;_table.estimatedRowHeight=76;_table.keyboardDismissMode=UIScrollViewKeyboardDismissModeOnDrag;[_table registerClass:NCEStudyRow.class forCellReuseIdentifier:@"word"];[self.view addSubview:_table];
+    _header=[UIView new];_volume=[NCEVolumeControl new];[_volume addTarget:self action:@selector(pickBook) forControlEvents:UIControlEventTouchUpInside];[_header addSubview:_volume];_volume.hidden=!self.showsBookSwitcher;
+    _search=[UISearchBar new];_search.searchBarStyle=UISearchBarStyleMinimal;_search.placeholder=NCELocalizedString(@"搜索单词或释义");_search.delegate=self;_search.accessibilityIdentifier=@"wordbook-search";[_header addSubview:_search];
+    _filters=[[UISegmentedControl alloc] initWithItems:@[NCELocalizedString(@"全部"),NCELocalizedString(@"待复习"),NCELocalizedString(@"熟悉"),NCELocalizedString(@"错词"),NCELocalizedString(@"收藏")]];_filters.selectedSegmentIndex=0;_filters.accessibilityIdentifier=@"wordbook-filters";[_filters addTarget:self action:@selector(filter) forControlEvents:UIControlEventValueChanged];[_header addSubview:_filters];
+    _count=NCELabel(nil,13,UIFontWeightRegular,NCEMuted());[_header addSubview:_count];[self.view addSubview:_header];
+    _review=NCEButton(NCELocalizedString(@"开始复习"),@"arrow.right",YES,self,@selector(review));_review.accessibilityIdentifier=@"wordbook-review";[self.view addSubview:_review];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {[super viewWillAppear:animated];if(self.showsBookSwitcher)_book=[NCEStudyStore selectedBook];_volume.book=_book;_words=[NCEStudyStore wordsForBook:_book lesson:0];[self filter];}
+- (void)filter {
+    NSInteger filter=_filters.selectedSegmentIndex;NSString *query=[_search.text stringByTrimmingCharactersInSet:NSCharacterSet.whitespaceAndNewlineCharacterSet] ?: @"";
+    _visible=[_words filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(NSDictionary *word,NSDictionary *bindings){NSInteger status=[word[@"status"] integerValue];BOOL selected=filter==0 || (filter==1 && (status==1 || status==3)) || (filter==2 && status==2) || (filter==3 && [word[@"wrong"] boolValue]) || (filter==4 && [NCEStudyStore isBookmarked:word]);return selected && (!query.length || [[NCEWordResourceStore.sharedStore displayNameForWord:word[@"english"]] localizedCaseInsensitiveContainsString:query] || [[NCEStudyStore meaningForWord:word] localizedCaseInsensitiveContainsString:query]);}]];
+    _count.text=[NSString stringWithFormat:NCELocalizedString(@"%@ 个单词"),@(_visible.count)];_review.hidden=_visible.count==0;_review.enabled=_visible.count>0;
+    _table.backgroundView=nil;
+    if(!_visible.count){BOOL emptyWrong=filter==3 && !query.length;NCEStudyEmptyView *empty=[[NCEStudyEmptyView alloc] initWithSymbol:query.length ? @"magnifyingglass" : @"bookmark" title:NCELocalizedString(emptyWrong ? @"暂无错词" : query.length ? @"没有找到单词" : @"这里还没有单词") message:NCELocalizedString(emptyWrong ? @"练习中答错的单词会出现在这里。" : query.length ? @"试试其他拼写或释义。" : @"学习时标记或收藏单词，就能在这里复习。") action:NCELocalizedString(emptyWrong ? @"查看本册课程" : @"查看全部") target:self selector:emptyWrong ? @selector(showCourses) : @selector(clearFilters)];empty.frame=CGRectMake(0,0,_table.bounds.size.width,260);_table.tableFooterView=empty;}else _table.tableFooterView=[UIView new];
+    [_table reloadData];[self.view setNeedsLayout];
 }
-
-#pragma mark -
-#pragma mark UITableViewDataSource
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return _items.count;
+- (void)showCourses {self.tabBarController.selectedIndex=1;}
+- (void)clearFilters {_search.text=@"";_filters.selectedSegmentIndex=0;[self.view endEditing:YES];[self filter];}
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {[self filter];}
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {[searchBar resignFirstResponder];}
+- (void)pickBook {NCEShowBookPicker(self,_book,^(NSInteger book){self->_book=book;[NCEStudyStore selectBook:book];self->_volume.book=book;self->_search.text=@"";self->_words=[NCEStudyStore wordsForBook:book lesson:0];[self filter];});}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{return _visible.count;}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSDictionary *word=_visible[indexPath.row];NCEStudyRow *cell=[tableView dequeueReusableCellWithIdentifier:@"word" forIndexPath:indexPath];
+    [cell configureTitle:[NCEWordResourceStore.sharedStore displayNameForWord:word[@"english"]] subtitle:[NCEStudyStore meaningForWord:word] number:nil current:NO];cell.accessibilityIdentifier=[@"wordbook-word-" stringByAppendingString:word[@"english"]];return cell;
 }
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kWordBookViewControllerCellReuseId
-                                                            forIndexPath:indexPath];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.backgroundColor = [UIColor clearColor];
-    cell.contentView.backgroundColor = [UIColor clearColor];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.accessibilityIdentifier = [NSString stringWithFormat:@"wordbook-%ld", (long)indexPath.row];
-    
-    NSArray *array = [cell.contentView subviews];
-    for (UIView *view in array) {
-        [view removeFromSuperview];
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {[self.view endEditing:YES];WordViewController *page=[[WordViewController alloc] initWithData:_visible withIndex:(int)indexPath.row];page.titleString=NCELocalizedString(@"单词本");[self.navigationController pushViewController:page animated:YES];}
+- (void)review {if(!_visible.count)return;[self.view endEditing:YES];NCEPracticeViewController *page=[[NCEPracticeViewController alloc] initWithWords:_visible key:[NSString stringWithFormat:@"wordbook-%ld-%ld-%@",(long)_book,(long)_filters.selectedSegmentIndex,_search.text ?: @""] mode:0];[self.navigationController pushViewController:page animated:YES];}
+- (void)layoutAcademyViews {
+    CGRect frame=[self academyContentFrame];CGFloat w=frame.size.width,y=0;
+    if(self.showsBookSwitcher){CGFloat h=[_volume sizeThatFits:CGSizeMake(w-48,CGFLOAT_MAX)].height;_volume.frame=CGRectMake(24,0,w-48,h);y=h+8;}
+    _search.frame=CGRectMake(16,y,w-32,52);y+=64;
+    _filters.frame=CGRectMake(24,y,w-48,44);y+=60;
+    _count.frame=CGRectMake(24,y,w-48,24);y+=36;
+    CGFloat reviewHeight=_review.hidden ? 0 : 72;
+    BOOL compact=frame.size.height<y+reviewHeight+150 || UIContentSizeCategoryIsAccessibilityCategory(self.traitCollection.preferredContentSizeCategory);
+    if(compact){
+        BOOL headerChanged=_table.tableHeaderView!=_header || fabs(_header.bounds.size.height-y)>0.5 || fabs(_header.bounds.size.width-w)>0.5;
+        _header.frame=CGRectMake(0,0,w,y);
+        if(headerChanged)_table.tableHeaderView=_header;
+        _table.frame=CGRectMake(frame.origin.x,frame.origin.y,w,MAX(0,frame.size.height-reviewHeight));
+    }else{
+        if(_table.tableHeaderView){_table.tableHeaderView=nil;[self.view addSubview:_header];}
+        _header.frame=CGRectMake(frame.origin.x,frame.origin.y,w,y);
+        _table.frame=CGRectMake(frame.origin.x,frame.origin.y+y,w,MAX(0,frame.size.height-y-reviewHeight));
     }
-    
-    CGFloat height = tableView.frame.size.height/8;
-    
-    UILabel *idLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, height, height)];
-    idLabel.backgroundColor = [self.colorArray objectAtIndex:indexPath.row];
-    idLabel.font = [UIFont systemFontOfSize:20*height/50];
-    idLabel.textColor = [UIColor whiteColor];
-    idLabel.text = [NSString stringWithFormat:@"%ld",(long)indexPath.row+1];
-    idLabel.textAlignment = NSTextAlignmentCenter;
-    [cell.contentView addSubview:idLabel];
-    
-    // title
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(height*4/3, height/12, tableView.frame.size.width-height, height/2)];
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.font = [UIFont systemFontOfSize:14*height/50];
-    titleLabel.textColor = [UIColor blackColor];
-    titleLabel.text = NCEChineseText([_items objectAtIndex:indexPath.row]);
-    titleLabel.textAlignment = NSTextAlignmentLeft;
-    [cell.contentView addSubview:titleLabel];
-    
-    // count
-    NSString *count = [_wordBook objectForKey:[NSString stringWithFormat:@"%d",(int)indexPath.row]];
-    if (!count) count = @"0";
-    
-    UILabel *countLabel = [[UILabel alloc] initWithFrame:CGRectMake(height*4/3, height*7/12, tableView.frame.size.width-height, height*5/12)];
-    countLabel.backgroundColor = [UIColor clearColor];
-    countLabel.font = [UIFont systemFontOfSize:12*height/50];
-    countLabel.textColor = [UIColor darkGrayColor];
-    countLabel.text = count;
-    countLabel.textAlignment = NSTextAlignmentLeft;
-    [cell.contentView addSubview:countLabel];
-    
-    // show when the cell is selected
-    UIView *maskView = [[UIView alloc] initWithFrame:CGRectMake(height, 0, tableView.frame.size.width-height, height)];
-    maskView.backgroundColor = [UIColor clearColor];
-    maskView.tag = 1000+indexPath.row;
-    [cell.contentView addSubview:maskView];
-    
-    return cell;
+    _review.frame=CGRectMake(frame.origin.x+24,CGRectGetMaxY(frame)-56,w-48,52);
 }
-
-#pragma mark -
-#pragma mark UITableViewDelegate
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return tableView.frame.size.height/8;
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [self.view viewWithTag:1000+indexPath.row].backgroundColor = [UIColor colorWithWhite:0.3f alpha:0.15f];
-    
-    
-    NSDictionary *whereDictionary;
-    if (indexPath.row == 4) {
-        whereDictionary = [[NSDictionary alloc] initWithObjectsAndKeys:@(1), @"value", @"wrong", @"key", nil];
-    } else {
-        NSString *value = [NSString stringWithFormat:@"%d", (int)indexPath.row];
-        whereDictionary = [[NSDictionary alloc] initWithObjectsAndKeys:value, @"value", @"word_status", @"key", nil];
-    }
-    
-    WordBookDetailViewController *detailController = [[WordBookDetailViewController alloc] initWithBookId:_bookId
-                                                                                                withTitle:[_items objectAtIndex:indexPath.row]
-                                                                                            withCondition:whereDictionary];
-    [self.navigationController pushViewController:detailController animated:YES];
-}
-
-- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [self.view viewWithTag:1000+indexPath.row].backgroundColor = [UIColor clearColor];
-}
-
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if ([tableView respondsToSelector:@selector(setSeparatorInset:)])
-    {
-        [tableView setSeparatorInset:UIEdgeInsetsMake(0, 0, 0, 0)];
-    }
-    
-    else if ([tableView respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [tableView setLayoutMargins:UIEdgeInsetsMake(0, 0, 0, 0)];
-    }
-    
-    else if ([cell respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [cell setLayoutMargins:UIEdgeInsetsMake(0, 0, 0, 0)];
-    }
-}
-
-#pragma mark -
-#pragma mark Private Methods
-
-- (void)initData
-{
-    _items = [[NSMutableArray alloc] init];
-    
-    sqlite3 *database;
-    //    NSString *dbPath = [[NSBundle mainBundle] pathForResource:@"data/NCE" ofType:@"db"];
-    NSString *dbPath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"NCE.db"];
-    
-    if (sqlite3_open([dbPath UTF8String], &database) == SQLITE_OK) {
-        NSLog(@"ok");
-    }
-    
-    NSString *selectSql = @"select `name_cn` from word_book order by order_id";
-    sqlite3_stmt *statement;
-    if (sqlite3_prepare_v2(database, [selectSql UTF8String], -1, &statement, nil)==SQLITE_OK) {
-        NSLog(@"select ok.");
-    } else {
-        NSAssert1(0, @"Error:%s", sqlite3_errmsg(database));
-    }
-    
-    while (sqlite3_step(statement)==SQLITE_ROW) {
-        NSString *nameString = [[NSString alloc] initWithCString:(char *)sqlite3_column_text(statement, 0) encoding:NSUTF8StringEncoding];
-        
-        [_items addObject:nameString];
-    }
-    
-    sqlite3_finalize(statement);
-    
-    
-    _wordBook = [[NSMutableDictionary alloc] init];
-    NSString *groupSql = [NSString stringWithFormat:@"select `word_status`,count(`id`) from words where `book_id`=%d group by `word_status` order by `word_status`",(int)_bookId+1];
-    sqlite3_stmt *groupStatement;
-    if (sqlite3_prepare_v2(database, [groupSql UTF8String], -1, &groupStatement, nil)==SQLITE_OK) {
-        //        NSLog(@"select ok.");
-    }
-    
-    while (sqlite3_step(groupStatement)==SQLITE_ROW) {
-        NSString *statusString = [NSString stringWithFormat:@"%d",sqlite3_column_int(groupStatement, 0)];
-        NSString *countString = [NSString stringWithFormat:@"%d", sqlite3_column_int(groupStatement, 1)];
-        
-        [_wordBook setObject:countString forKey:statusString];
-    }
-    
-    sqlite3_finalize(groupStatement);
-    
-    
-    NSString *wrongSql = [NSString stringWithFormat:@"select count(`id`) from words where `book_id`=%d and `wrong`=1",(int)_bookId+1];
-    sqlite3_stmt *wrongStatement;
-    if (sqlite3_prepare_v2(database, [wrongSql UTF8String], -1, &wrongStatement, nil)==SQLITE_OK) {
-        //        NSLog(@"select ok.");
-    }
-    
-    while (sqlite3_step(wrongStatement)==SQLITE_ROW) {
-        NSString *countString = [NSString stringWithFormat:@"%d",sqlite3_column_int(wrongStatement, 0)];
-        
-        [_wordBook setObject:countString forKey:@"4"];
-    }
-    
-    sqlite3_finalize(wrongStatement);
-    
-    sqlite3_close(database);
-}
-
-- (void)addTableView
-{
-    UIView *view = [[UIView alloc] initWithFrame:CGRectZero];
-    [self.view addSubview:view];
-    
-    CGRect tableViewFrame = [self getTableViewFrame];
-    self.tableView = [[UITableView alloc] initWithFrame:tableViewFrame style:UITableViewStylePlain];
-    
-    self.tableView.backgroundColor = [UIColor colorWithWhite:1.f alpha:0.9f];
-    self.tableView.dataSource = self;
-    self.tableView.delegate = self;
-    
-    [self.tableView registerClass:[UITableViewCell class]
-           forCellReuseIdentifier:kWordBookViewControllerCellReuseId];
-    
-    [self.view addSubview:self.tableView];
-}
-
 @end

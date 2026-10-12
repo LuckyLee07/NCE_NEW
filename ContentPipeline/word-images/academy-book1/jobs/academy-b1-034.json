@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-034",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-22c0b930-77da-4a6b-b219-2deb38744f6c.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — drop (v.掉下): a cup slipping down from an open hand with a simple downward movement cue, no shattered glass\nTOP RIGHT — flower (n.花): A clear compact educational illustration of 'flower', specifically its curriculum meaning 'n.花'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — cheese (n.乳酪，干酪): A clear compact educational illustration of 'cheese', specifically its curriculum meaning 'n.乳酪，干酪'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — bread (n.面包): A clear compact educational illustration of 'bread', specifically its curriculum meaning 'n.面包'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "drop",
+      "meaning": "v.掉下",
+      "lessons": [
+        39
+      ],
+      "filename": "academy-b1-d90ee9ccf6bea1d2.png",
+      "kind": "ai_illustration",
+      "scene": "a cup slipping down from an open hand with a simple downward movement cue, no shattered glass",
+      "index": 0
+    },
+    {
+      "word": "flower",
+      "meaning": "n.花",
+      "lessons": [
+        39
+      ],
+      "filename": "academy-b1-c06b0cfe0cc5e900.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'flower', specifically its curriculum meaning 'n.花'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "cheese",
+      "meaning": "n.乳酪，干酪",
+      "lessons": [
+        41
+      ],
+      "filename": "academy-b1-873ac9ffea4dd04f.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'cheese', specifically its curriculum meaning 'n.乳酪，干酪'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "bread",
+      "meaning": "n.面包",
+      "lessons": [
+        41
+      ],
+      "filename": "academy-b1-985604c2b6024312.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'bread', specifically its curriculum meaning 'n.面包'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

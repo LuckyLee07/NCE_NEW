@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-054",
+  "cells": [
+    {
+      "index": 0,
+      "word": "disappearance",
+      "meaning": "n.失踪",
+      "filename": "academy-b3-e23e46ab5bbaa5ca.png",
+      "scene": "An empty pet basket and a worried owner holding the pet's photograph, dotted fading pawprints lead away."
+    },
+    {
+      "index": 1,
+      "word": "anonymous",
+      "meaning": "a.匿名的",
+      "filename": "academy-b3-2f183a4e64493af3.png",
+      "scene": "A sealed letter has a blank sender area with a small question-mark symbol, no name or writing."
+    },
+    {
+      "index": 2,
+      "word": "ransom",
+      "meaning": "n.赎金",
+      "filename": "academy-b3-96dfc5bedbd41385.png",
+      "scene": "An anxious adult holds a missing pet photograph beside an envelope and a stack of money; ransom concept, no threats or procedure."
+    },
+    {
+      "index": 3,
+      "word": "cardboard",
+      "meaning": "n.硬纸板",
+      "filename": "academy-b3-2fb41c42cec5d64a.png",
+      "scene": "A folded brown cardboard box with a small cut edge showing the corrugated layers."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — disappearance (n.失踪): An empty pet basket and a worried owner holding the pet's photograph, dotted fading pawprints lead away.\nTOP RIGHT — anonymous (a.匿名的): A sealed letter has a blank sender area with a small question-mark symbol, no name or writing.\nBOTTOM LEFT — ransom (n.赎金): An anxious adult holds a missing pet photograph beside an envelope and a stack of money; ransom concept, no threats or procedure.\nBOTTOM RIGHT — cardboard (n.硬纸板): A folded brown cardboard box with a small cut edge showing the corrugated layers.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-054.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "All four cells visually checked: specified textbook senses, coherent anatomy, complete primary subjects and safe cell boundaries.",
+  "source_sha256": "f03401db6f803d1873d4017298655ffbbdf171f6e5229affe4f6bd781a3b50fd"
+}

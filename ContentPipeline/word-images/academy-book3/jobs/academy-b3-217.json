@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-217",
+  "cells": [
+    {
+      "index": 0,
+      "word": "alien",
+      "meaning": "a.异国的，外国的",
+      "filename": "academy-b3-a49c1d0380688dd9.png",
+      "scene": "A traveler in an unfamiliar foreign town examines different architecture and a map with puzzled interest, respectful scene without extraterrestrial creature."
+    },
+    {
+      "index": 1,
+      "word": "emigrate",
+      "meaning": "v.移居(国外)",
+      "filename": "academy-b3-b77b7bd9a4bcde4d.png",
+      "scene": "An adult family leaves their home country for another country with suitcases and passports at an airport, departure gate behind and hopeful faces."
+    },
+    {
+      "index": 2,
+      "word": "absorb",
+      "meaning": "v.全神贯注于",
+      "filename": "academy-b3-22b090dd46c756d3.png",
+      "scene": "An adult is completely absorbed in reading a book, ignoring a nearby clock and untouched cup, focused eyes and still posture."
+    },
+    {
+      "index": 3,
+      "word": "embedded",
+      "meaning": "a.扎牢的",
+      "filename": "academy-b3-9289140b1ac28dbd.png",
+      "scene": "A stone marker is embedded firmly in the ground with much of its base buried, cutaway shows soil holding it in place."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — alien (a.异国的，外国的): A traveler in an unfamiliar foreign town examines different architecture and a map with puzzled interest, respectful scene without extraterrestrial creature.\nTOP RIGHT — emigrate (v.移居(国外)): An adult family leaves their home country for another country with suitcases and passports at an airport, departure gate behind and hopeful faces.\nBOTTOM LEFT — absorb (v.全神贯注于): An adult is completely absorbed in reading a book, ignoring a nearby clock and untouched cup, focused eyes and still posture.\nBOTTOM RIGHT — embedded (a.扎牢的): A stone marker is embedded firmly in the ground with much of its base buried, cutaway shows soil holding it in place.\nCROP SAFETY: each scene is SMALL, at most 60% of its quadrant, with 20% white margins. Top drawings fully end ABOVE 45% image height. Bottom-row heads, hair, thought bubbles and main objects begin BELOW 58% total image height. Nothing crosses midlines. Sparse background detail, light watercolor.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-217.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Reviewed semantic sense, anatomy and contained crop. Foundation/embedded cutaways legible, retrace return arrow clear, reservoir dam and fingerprint recognizable.",
+  "source_sha256": "dab5f390a98b0aa750fba5f37e95315892697a7b1d1f7ffe094b07ce295f104f"
+}

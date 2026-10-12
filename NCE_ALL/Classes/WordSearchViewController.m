@@ -91,60 +91,24 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kWordSearchViewControllerCellReuseId
-                                                            forIndexPath:indexPath];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.backgroundColor = [UIColor clearColor];
-    cell.contentView.backgroundColor = [UIColor clearColor];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    NCEAcademyCell *cell=[tableView dequeueReusableCellWithIdentifier:kWordSearchViewControllerCellReuseId forIndexPath:indexPath];
     
-    NSArray *array = [cell.contentView subviews];
-    for (UIView *view in array) {
-        [view removeFromSuperview];
-    }
-    
-    CGFloat height = tableView.frame.size.height/10;
-    
-    NSDictionary *item = [_items objectAtIndex:indexPath.row];
-    cell.accessibilityIdentifier = [@"search-word-" stringByAppendingString:item[@"english"]];
-    
-    // english title
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20.f, height/12, tableView.frame.size.width-height, height/2)];
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.font = [UIFont systemFontOfSize:14*height/50];
-    titleLabel.textColor = [UIColor blackColor];
-    titleLabel.text = [[NCEWordResourceStore sharedStore] displayNameForWord:item[@"english"]];
-    titleLabel.textAlignment = NSTextAlignmentLeft;
-    [cell.contentView addSubview:titleLabel];
-    
-    // chinese title
-    UILabel *subTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20.f, height*7/12, tableView.frame.size.width-height, height*5/12)];
-    subTitleLabel.backgroundColor = [UIColor clearColor];
-    subTitleLabel.font = [UIFont systemFontOfSize:12*height/50];
-    subTitleLabel.textColor = [UIColor darkGrayColor];
-    subTitleLabel.text = [item objectForKey:@"chinese"];
-    subTitleLabel.textAlignment = NSTextAlignmentLeft;
-    subTitleLabel.numberOfLines = 2;
-    subTitleLabel.adjustsFontSizeToFitWidth = YES;
-    subTitleLabel.minimumScaleFactor = 0.65;
-    [cell.contentView addSubview:subTitleLabel];
-    
-    // show when the cell is selected
-    UIView *maskView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, tableView.frame.size.width, height)];
-    maskView.backgroundColor = [UIColor clearColor];
-    maskView.tag = 1000+indexPath.row;
-    [cell.contentView addSubview:maskView];
-    
+    NSDictionary *item=_items[indexPath.row];
+    [cell configureTitle:[NCEWordResourceStore.sharedStore displayNameForWord:item[@"english"]] subtitle:item[@"chinese"] badge:nil symbol:@"speaker.wave.2"];
+    cell.accessibilityIdentifier=[@"search-word-" stringByAppendingString:item[@"english"]];
+
     return cell;
 }
+
 
 #pragma mark -
 #pragma mark UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return tableView.frame.size.height/10;
+    return UITableViewAutomaticDimension;
 }
+
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -162,28 +126,16 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if ([tableView respondsToSelector:@selector(setSeparatorInset:)])
-    {
-        [tableView setSeparatorInset:UIEdgeInsetsZero];
-    }
-    
-    else if ([tableView respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [tableView setLayoutMargins:UIEdgeInsetsZero];
-    }
-    
-    else if ([cell respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [cell setLayoutMargins:UIEdgeInsetsZero];
-    }
 }
+
 
 #pragma mark -
 #pragma mark UITableViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    [self dismissKeyBoard];
+    if (scrollView.dragging) [self dismissKeyBoard];
 }
+
 
 #pragma mark -
 #pragma mark UISearchBarDelegate
@@ -192,7 +144,8 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
 {
     searchBar.placeholder = NCELocalizedString(@"单词或释义");
     //_items = nil;
-    //[self.tableView reloadData];
+    //self.tableView.backgroundView=_items.count ? nil : NCEEmptyState(NCELocalizedString(@"没有找到这个单词"),NCELocalizedString(@"试试英文拼写，或换一个释义关键词。"));
+    [self.tableView reloadData];
 }
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
@@ -212,6 +165,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
         _items = [_originData copy];
     }
     
+    self.tableView.backgroundView=_items.count ? nil : NCEEmptyState(NCELocalizedString(@"没有找到这个单词"),NCELocalizedString(@"试试英文拼写，或换一个释义关键词。"));
     [self.tableView reloadData];
 }
 
@@ -228,6 +182,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
         }
     }
     
+    self.tableView.backgroundView=_items.count ? nil : NCEEmptyState(NCELocalizedString(@"没有找到这个单词"),NCELocalizedString(@"试试英文拼写，或换一个释义关键词。"));
     [self.tableView reloadData];
 }
 
@@ -240,6 +195,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
     _items = nil;
     _items = [_originData copy];
     
+    self.tableView.backgroundView=_items.count ? nil : NCEEmptyState(NCELocalizedString(@"没有找到这个单词"),NCELocalizedString(@"试试英文拼写，或换一个释义关键词。"));
     [self.tableView reloadData];
 }
 
@@ -290,6 +246,7 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
         
         NSString *lessonId = [NSString stringWithFormat:@"%d",sqlite3_column_int(statement, 2)];
         [item setObject:lessonId forKey:@"lesson_id"];
+        item[@"book_id"]=@(_bookId+1);
         
         [_originData addObject:item];
     }
@@ -302,29 +259,15 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
 
 - (void)addSearchBar
 {
-    CGRect barframe = CGRectMake(0.f, [self getHeaderPosY], self.view.frame.size.width, 40.f);
-    _searchBar = [[UISearchBar alloc] initWithFrame:barframe];
-    _searchBar.placeholder = NCELocalizedString(@"搜索单词或释义");
-    _searchBar.backgroundColor = [UIColor colorWithRed:156/255.f
-                                                 green:229/255.f
-                                                  blue:201/255.f
-                                                 alpha:1.f];
-    _searchBar.backgroundImage = [UIImage imageNamed:@"clear"];
-    _searchBar.delegate = self;
-    
-    _searchBar.showsCancelButton = YES;
-    UIColor* itemColor = [UIColor colorWithRed:23/255.f green:191/255.f blue:169/255.f alpha:1.f];
-    NSDictionary* dicts = [NSDictionary dictionaryWithObjectsAndKeys: itemColor, NSForegroundColorAttributeName,
-                           [UIFont systemFontOfSize:14.f], NSFontAttributeName, nil];
-    
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-    [[UIBarButtonItem appearanceWhenContainedIn:[UISearchBar class], nil] setTitle:NCELocalizedString(@"取消")];
-    [[UIBarButtonItem appearanceWhenContainedIn:[UISearchBar class], nil] setTitleTextAttributes:dicts forState:UIControlStateNormal];
-#pragma clang diagnostic pop
-    
+    _searchBar=[[UISearchBar alloc] initWithFrame:CGRectZero];
+    _searchBar.placeholder=NCELocalizedString(@"搜索单词或释义");
+    _searchBar.delegate=self; _searchBar.searchBarStyle=UISearchBarStyleMinimal;
+    _searchBar.tintColor=NCEBlue();_searchBar.searchTextField.backgroundColor=NCESurface();
+    _searchBar.searchTextField.textColor=NCEInk();_searchBar.searchTextField.font=NCEFont(16,UIFontWeightRegular);
+    _searchBar.showsCancelButton=NO;
     [self.view addSubview:_searchBar];
 }
+
 
 - (void)dismissKeyBoard
 {
@@ -345,12 +288,19 @@ static NSString* const kWordSearchViewControllerCellReuseId = @"kWordSearchViewC
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
-    [self.tableView registerClass:[UITableViewCell class]
+    [self.tableView registerClass:[NCEAcademyCell class]
            forCellReuseIdentifier:kWordSearchViewControllerCellReuseId];
     
+    NCEPrepareTable(self.tableView);
     [self.view addSubview:self.tableView];
     
     [_hud hideAnimated:YES];
+}
+
+- (void)layoutAcademyViews
+{
+    CGRect frame=[self academyContentFrame];
+    _searchBar.frame=CGRectMake(frame.origin.x+8,frame.origin.y+4,frame.size.width-16,56);
 }
 
 @end

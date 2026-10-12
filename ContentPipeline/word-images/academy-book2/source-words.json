@@ -1,0 +1,5892 @@
+[
+  {
+    "word": "inform",
+    "meaning": "v.告诉，通知",
+    "lessons": [
+      null
+    ]
+  },
+  {
+    "word": "private",
+    "meaning": "a.私人的",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "conversation",
+    "meaning": "n.谈话",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "theatre",
+    "meaning": "n.剧场，戏院",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "seat",
+    "meaning": "n.座位",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "play",
+    "meaning": "n.戏；v.玩,游戏",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "loudly",
+    "meaning": "ad.大声地",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "angry",
+    "meaning": "a.生气的",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "angrily",
+    "meaning": "ad.生气地",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "attention",
+    "meaning": "n.注意",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "bear",
+    "meaning": "v.容忍",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "business",
+    "meaning": "n.事；商业,生意",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "rudely",
+    "meaning": "ad.无礼地，粗鲁地",
+    "lessons": [
+      1
+    ]
+  },
+  {
+    "word": "until",
+    "meaning": "prep.直到",
+    "lessons": [
+      2
+    ]
+  },
+  {
+    "word": "outside",
+    "meaning": "ad.外面",
+    "lessons": [
+      2
+    ]
+  },
+  {
+    "word": "ring",
+    "meaning": "v.(铃、电话等)响",
+    "lessons": [
+      2,
+      70
+    ]
+  },
+  {
+    "word": "aunt",
+    "meaning": "n.姑母，姨母",
+    "lessons": [
+      2
+    ]
+  },
+  {
+    "word": "repeat",
+    "meaning": "v./n.重复",
+    "lessons": [
+      2
+    ]
+  },
+  {
+    "word": "send",
+    "meaning": "v.寄，送",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "postcard",
+    "meaning": "n.明信片",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "spoil",
+    "meaning": "v.毁掉",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "museum",
+    "meaning": "n.博物馆",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "public",
+    "meaning": "a.公共的",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "friendly",
+    "meaning": "a.友好的",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "waiter",
+    "meaning": "n.服务员，招待员",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "lend",
+    "meaning": "vt.借给",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "decision",
+    "meaning": "n.决定",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "whole",
+    "meaning": "a.整个的",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "single",
+    "meaning": "a.唯一的，单一的",
+    "lessons": [
+      3
+    ]
+  },
+  {
+    "word": "exciting",
+    "meaning": "a.令人兴奋的",
+    "lessons": [
+      4
+    ]
+  },
+  {
+    "word": "receive",
+    "meaning": "v.接受，收到",
+    "lessons": [
+      4
+    ]
+  },
+  {
+    "word": "firm",
+    "meaning": "n.商行，公司",
+    "lessons": [
+      4
+    ]
+  },
+  {
+    "word": "different",
+    "meaning": "a.不同的",
+    "lessons": [
+      4
+    ]
+  },
+  {
+    "word": "centre",
+    "meaning": "n.中心",
+    "lessons": [
+      4
+    ]
+  },
+  {
+    "word": "abroad",
+    "meaning": "ad.在国外",
+    "lessons": [
+      4
+    ]
+  },
+  {
+    "word": "pigeon",
+    "meaning": "n.鸽子",
+    "lessons": [
+      5
+    ]
+  },
+  {
+    "word": "message",
+    "meaning": "n.信息",
+    "lessons": [
+      5
+    ]
+  },
+  {
+    "word": "over",
+    "meaning": "v.越过",
+    "lessons": [
+      5
+    ]
+  },
+  {
+    "word": "distance",
+    "meaning": "n.距离",
+    "lessons": [
+      5
+    ]
+  },
+  {
+    "word": "request",
+    "meaning": "n.要求，请求",
+    "lessons": [
+      5
+    ]
+  },
+  {
+    "word": "spare",
+    "meaning": "备件",
+    "lessons": [
+      5
+    ]
+  },
+  {
+    "word": "service",
+    "meaning": "n.业务，服务",
+    "lessons": [
+      5
+    ]
+  },
+  {
+    "word": "beggar",
+    "meaning": "n.乞丐",
+    "lessons": [
+      6
+    ]
+  },
+  {
+    "word": "food",
+    "meaning": "n.食物",
+    "lessons": [
+      6
+    ]
+  },
+  {
+    "word": "pocket",
+    "meaning": "n.衣服口袋",
+    "lessons": [
+      6
+    ]
+  },
+  {
+    "word": "call",
+    "meaning": "v.拜访，光顾",
+    "lessons": [
+      6
+    ]
+  },
+  {
+    "word": "detective",
+    "meaning": "n.侦探",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "airport",
+    "meaning": "n.机场",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "expect",
+    "meaning": "v.期待，等待",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "valuable",
+    "meaning": "a.有价值的",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "parcel",
+    "meaning": "n.包裹",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "diamond",
+    "meaning": "n.钻石",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "steal",
+    "meaning": "v.偷窃",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "main",
+    "meaning": "a.主要的",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "airfield",
+    "meaning": "n.飞机起落的场地",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "guard",
+    "meaning": "n.警戒，守卫",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "precious",
+    "meaning": "a.珍贵的",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "stone",
+    "meaning": "n.石子",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "sand",
+    "meaning": "n.沙子",
+    "lessons": [
+      7
+    ]
+  },
+  {
+    "word": "competition",
+    "meaning": "n.比赛，竞赛",
+    "lessons": [
+      8
+    ]
+  },
+  {
+    "word": "neat",
+    "meaning": "a.整齐的，整洁的",
+    "lessons": [
+      8
+    ]
+  },
+  {
+    "word": "path",
+    "meaning": "n.小路，小径",
+    "lessons": [
+      8
+    ]
+  },
+  {
+    "word": "wooden",
+    "meaning": "a.木头的",
+    "lessons": [
+      8,
+      46
+    ]
+  },
+  {
+    "word": "pool",
+    "meaning": "n.水池",
+    "lessons": [
+      8
+    ]
+  },
+  {
+    "word": "welcome",
+    "meaning": "n.欢迎;v.欢迎",
+    "lessons": [
+      9
+    ]
+  },
+  {
+    "word": "crowd",
+    "meaning": "n.一群",
+    "lessons": [
+      9
+    ]
+  },
+  {
+    "word": "gather",
+    "meaning": "vt.聚集",
+    "lessons": [
+      9,
+      76
+    ]
+  },
+  {
+    "word": "hand",
+    "meaning": "n.(表或机器的)指针",
+    "lessons": [
+      9
+    ]
+  },
+  {
+    "word": "shout",
+    "meaning": "v./n.喊叫",
+    "lessons": [
+      9
+    ]
+  },
+  {
+    "word": "refuse",
+    "meaning": "v.拒绝",
+    "lessons": [
+      9
+    ]
+  },
+  {
+    "word": "laugh",
+    "meaning": "v.笑",
+    "lessons": [
+      9
+    ]
+  },
+  {
+    "word": "jazz",
+    "meaning": "n.爵士音乐",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "musical",
+    "meaning": "a.音乐的",
+    "lessons": [
+      10,
+      42
+    ]
+  },
+  {
+    "word": "instrument",
+    "meaning": "n.乐器,器械",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "clavichord",
+    "meaning": "n.古钢琴",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "recently",
+    "meaning": "ad.最近",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "damage",
+    "meaning": "v.损坏",
+    "lessons": [
+      10,
+      66
+    ]
+  },
+  {
+    "word": "key",
+    "meaning": "n.琴键",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "string",
+    "meaning": "n.(乐器的)弦",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "shock",
+    "meaning": "v.使不悦或生气，震惊",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "allow",
+    "meaning": "v.允许，让",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "touch",
+    "meaning": "v.触摸",
+    "lessons": [
+      10
+    ]
+  },
+  {
+    "word": "turn",
+    "meaning": "vi.转身",
+    "lessons": [
+      11
+    ]
+  },
+  {
+    "word": "deserve",
+    "meaning": "vt.应得到，值得",
+    "lessons": [
+      11
+    ]
+  },
+  {
+    "word": "lawyer",
+    "meaning": "n.律师",
+    "lessons": [
+      11
+    ]
+  },
+  {
+    "word": "bank",
+    "meaning": "n.银行",
+    "lessons": [
+      11
+    ]
+  },
+  {
+    "word": "salary",
+    "meaning": "n.工资",
+    "lessons": [
+      11
+    ]
+  },
+  {
+    "word": "immediately",
+    "meaning": "ad.立刻",
+    "lessons": [
+      11
+    ]
+  },
+  {
+    "word": "luck",
+    "meaning": "n.运气，幸运",
+    "lessons": [
+      12
+    ]
+  },
+  {
+    "word": "captain",
+    "meaning": "n.船长，首领",
+    "lessons": [
+      12
+    ]
+  },
+  {
+    "word": "sail",
+    "meaning": "vi.航行",
+    "lessons": [
+      12
+    ]
+  },
+  {
+    "word": "harbour",
+    "meaning": "n.港口",
+    "lessons": [
+      12
+    ]
+  },
+  {
+    "word": "proud",
+    "meaning": "a.自豪的",
+    "lessons": [
+      12
+    ]
+  },
+  {
+    "word": "important",
+    "meaning": "a.重要的",
+    "lessons": [
+      12
+    ]
+  },
+  {
+    "word": "group",
+    "meaning": "n.小组，团体",
+    "lessons": [
+      13
+    ]
+  },
+  {
+    "word": "pop singer",
+    "meaning": "流行歌手",
+    "lessons": [
+      13
+    ]
+  },
+  {
+    "word": "club",
+    "meaning": "n.俱乐部",
+    "lessons": [
+      13
+    ]
+  },
+  {
+    "word": "performance",
+    "meaning": "n.演出",
+    "lessons": [
+      13
+    ]
+  },
+  {
+    "word": "occasion",
+    "meaning": "n.场合",
+    "lessons": [
+      13
+    ]
+  },
+  {
+    "word": "amusing",
+    "meaning": "a.好笑的，有趣的",
+    "lessons": [
+      14
+    ]
+  },
+  {
+    "word": "experience",
+    "meaning": "n.经历",
+    "lessons": [
+      14
+    ]
+  },
+  {
+    "word": "wave",
+    "meaning": "v.招手",
+    "lessons": [
+      14
+    ]
+  },
+  {
+    "word": "lift",
+    "meaning": "n.搭便车",
+    "lessons": [
+      14
+    ]
+  },
+  {
+    "word": "reply",
+    "meaning": "vi.回答",
+    "lessons": [
+      14
+    ]
+  },
+  {
+    "word": "language",
+    "meaning": "n.语言",
+    "lessons": [
+      14
+    ]
+  },
+  {
+    "word": "journey",
+    "meaning": "n.旅行",
+    "lessons": [
+      14
+    ]
+  },
+  {
+    "word": "secretary",
+    "meaning": "n.秘书",
+    "lessons": [
+      15
+    ]
+  },
+  {
+    "word": "nervous",
+    "meaning": "a.精神紧张的",
+    "lessons": [
+      15
+    ]
+  },
+  {
+    "word": "afford",
+    "meaning": "vt.负担得起",
+    "lessons": [
+      15
+    ]
+  },
+  {
+    "word": "weak",
+    "meaning": "a.弱的",
+    "lessons": [
+      15
+    ]
+  },
+  {
+    "word": "interrupt",
+    "meaning": "v.插话，打断",
+    "lessons": [
+      15
+    ]
+  },
+  {
+    "word": "park",
+    "meaning": "v.停放(汽车)",
+    "lessons": [
+      16
+    ]
+  },
+  {
+    "word": "traffic",
+    "meaning": "n.交通",
+    "lessons": [
+      16
+    ]
+  },
+  {
+    "word": "ticket",
+    "meaning": "n.交通违规罚款单;传票",
+    "lessons": [
+      16
+    ]
+  },
+  {
+    "word": "note",
+    "meaning": "n.便条,笔记",
+    "lessons": [
+      16
+    ]
+  },
+  {
+    "word": "area",
+    "meaning": "n.地段，面积",
+    "lessons": [
+      16
+    ]
+  },
+  {
+    "word": "sign",
+    "meaning": "n.指示牌",
+    "lessons": [
+      16,
+      54
+    ]
+  },
+  {
+    "word": "reminder",
+    "meaning": "n.提示",
+    "lessons": [
+      16
+    ]
+  },
+  {
+    "word": "fail",
+    "meaning": "v.无视,忘记；失败,不及格",
+    "lessons": [
+      16
+    ]
+  },
+  {
+    "word": "obey",
+    "meaning": "v.服从",
+    "lessons": [
+      16
+    ]
+  },
+  {
+    "word": "appear",
+    "meaning": "vi.登场，扮演",
+    "lessons": [
+      17
+    ]
+  },
+  {
+    "word": "stage",
+    "meaning": "n.舞台",
+    "lessons": [
+      17
+    ]
+  },
+  {
+    "word": "bright",
+    "meaning": "a.鲜艳的",
+    "lessons": [
+      17
+    ]
+  },
+  {
+    "word": "stocking",
+    "meaning": "n.(女用)长筒袜",
+    "lessons": [
+      17
+    ]
+  },
+  {
+    "word": "sock",
+    "meaning": "n.短袜",
+    "lessons": [
+      17
+    ]
+  },
+  {
+    "word": "pub",
+    "meaning": "n.小酒店",
+    "lessons": [
+      18
+    ]
+  },
+  {
+    "word": "landlord",
+    "meaning": "n.店主",
+    "lessons": [
+      18
+    ]
+  },
+  {
+    "word": "bill",
+    "meaning": "n.账单",
+    "lessons": [
+      18
+    ]
+  },
+  {
+    "word": "hurry",
+    "meaning": "v./n.匆忙",
+    "lessons": [
+      19
+    ]
+  },
+  {
+    "word": "ticket office",
+    "meaning": "售票处",
+    "lessons": [
+      19
+    ]
+  },
+  {
+    "word": "pity",
+    "meaning": "n.令人遗憾的事",
+    "lessons": [
+      19
+    ]
+  },
+  {
+    "word": "exclaim",
+    "meaning": "v.大声说",
+    "lessons": [
+      19
+    ]
+  },
+  {
+    "word": "return",
+    "meaning": "n.报答",
+    "lessons": [
+      19
+    ]
+  },
+  {
+    "word": "sadly",
+    "meaning": "ad.悲哀地，丧气地",
+    "lessons": [
+      19
+    ]
+  },
+  {
+    "word": "catch",
+    "meaning": "v.抓到",
+    "lessons": [
+      20
+    ]
+  },
+  {
+    "word": "fisherman",
+    "meaning": "n.钓鱼人，渔民",
+    "lessons": [
+      20
+    ]
+  },
+  {
+    "word": "boot",
+    "meaning": "n.靴子",
+    "lessons": [
+      20
+    ]
+  },
+  {
+    "word": "waste",
+    "meaning": "n.浪费",
+    "lessons": [
+      20
+    ]
+  },
+  {
+    "word": "realize",
+    "meaning": "v.意识到",
+    "lessons": [
+      20
+    ]
+  },
+  {
+    "word": "mad",
+    "meaning": "a.发疯的",
+    "lessons": [
+      21
+    ]
+  },
+  {
+    "word": "reason",
+    "meaning": "n.原因",
+    "lessons": [
+      21
+    ]
+  },
+  {
+    "word": "sum",
+    "meaning": "n.总量",
+    "lessons": [
+      21
+    ]
+  },
+  {
+    "word": "determined",
+    "meaning": "a.坚定的，下决心的",
+    "lessons": [
+      21
+    ]
+  },
+  {
+    "word": "dream",
+    "meaning": "v./n.做梦，梦想",
+    "lessons": [
+      22
+    ]
+  },
+  {
+    "word": "age",
+    "meaning": "n.年龄",
+    "lessons": [
+      22
+    ]
+  },
+  {
+    "word": "channel",
+    "meaning": "n.海峡",
+    "lessons": [
+      22
+    ]
+  },
+  {
+    "word": "throw",
+    "meaning": "v.扔，抛",
+    "lessons": [
+      22
+    ]
+  },
+  {
+    "word": "complete",
+    "meaning": "vt.完成",
+    "lessons": [
+      23
+    ]
+  },
+  {
+    "word": "modern",
+    "meaning": "a.新式的，现代的，与以往不同的",
+    "lessons": [
+      23
+    ]
+  },
+  {
+    "word": "strange",
+    "meaning": "a.奇怪的",
+    "lessons": [
+      23
+    ]
+  },
+  {
+    "word": "district",
+    "meaning": "n.地区",
+    "lessons": [
+      23
+    ]
+  },
+  {
+    "word": "manager",
+    "meaning": "n.经理",
+    "lessons": [
+      24
+    ]
+  },
+  {
+    "word": "upset",
+    "meaning": "a.不安",
+    "lessons": [
+      24
+    ]
+  },
+  {
+    "word": "sympathetic",
+    "meaning": "a.表示同情的",
+    "lessons": [
+      24
+    ]
+  },
+  {
+    "word": "complain",
+    "meaning": "v.抱怨",
+    "lessons": [
+      24,
+      38
+    ]
+  },
+  {
+    "word": "wicked",
+    "meaning": "a.很坏的，邪恶的",
+    "lessons": [
+      24
+    ]
+  },
+  {
+    "word": "contain",
+    "meaning": "v.包含，内装",
+    "lessons": [
+      24
+    ]
+  },
+  {
+    "word": "honesty",
+    "meaning": "n.诚实",
+    "lessons": [
+      24
+    ]
+  },
+  {
+    "word": "railway",
+    "meaning": "n.铁路",
+    "lessons": [
+      25
+    ]
+  },
+  {
+    "word": "porter",
+    "meaning": "n.搬运工",
+    "lessons": [
+      25
+    ]
+  },
+  {
+    "word": "several",
+    "meaning": "几个",
+    "lessons": [
+      25
+    ]
+  },
+  {
+    "word": "foreigner",
+    "meaning": "n.外国人",
+    "lessons": [
+      25
+    ]
+  },
+  {
+    "word": "wonder",
+    "meaning": "v.感到奇怪",
+    "lessons": [
+      25
+    ]
+  },
+  {
+    "word": "art",
+    "meaning": "n.艺术",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "critic",
+    "meaning": "n.评论家",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "paint",
+    "meaning": "v.画",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "pretend",
+    "meaning": "v.假装",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "pattern",
+    "meaning": "n.图案",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "curtain",
+    "meaning": "n.窗帘，幕布",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "material",
+    "meaning": "n.材料",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "appreciate",
+    "meaning": "v.鉴赏",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "notice",
+    "meaning": "v.注意到",
+    "lessons": [
+      26,
+      74
+    ]
+  },
+  {
+    "word": "whether",
+    "meaning": "conj.是否",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "hang",
+    "meaning": "v.悬挂，吊",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "critically",
+    "meaning": "ad.批评地",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "upside",
+    "meaning": "上下颠倒地",
+    "lessons": [
+      26
+    ]
+  },
+  {
+    "word": "tent",
+    "meaning": "n.帐篷",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "field",
+    "meaning": "n.田地，田野",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "smell",
+    "meaning": "v.闻起来",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "wonderful",
+    "meaning": "a.极好的",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "campfire",
+    "meaning": "n.营火，篝火",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "creep",
+    "meaning": "v.爬行，无声无息地移动",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "sleeping bag",
+    "meaning": "睡袋",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "comfortable",
+    "meaning": "a.舒适的，安逸的",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "soundly",
+    "meaning": "ad.香甜地",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "leap",
+    "meaning": "v.跳跃，跳起",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "heavily",
+    "meaning": "ad.大量地",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "stream",
+    "meaning": "n.小溪",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "form",
+    "meaning": "v.形成",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "wind",
+    "meaning": "v.蜿蜒",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "right",
+    "meaning": "ad.正好",
+    "lessons": [
+      27
+    ]
+  },
+  {
+    "word": "rare",
+    "meaning": "a.罕见的",
+    "lessons": [
+      28
+    ]
+  },
+  {
+    "word": "ancient",
+    "meaning": "a.古代的，古老的",
+    "lessons": [
+      28
+    ]
+  },
+  {
+    "word": "myth",
+    "meaning": "n.神话故事",
+    "lessons": [
+      28
+    ]
+  },
+  {
+    "word": "trouble",
+    "meaning": "n.麻烦",
+    "lessons": [
+      28
+    ]
+  },
+  {
+    "word": "effect",
+    "meaning": "n.结果，效果",
+    "lessons": [
+      28
+    ]
+  },
+  {
+    "word": "Medusa",
+    "meaning": "n.美杜莎(古希腊神话中3位蛇发女怪之一)",
+    "lessons": [
+      28
+    ]
+  },
+  {
+    "word": "Gorgon",
+    "meaning": "n.(古希腊神话中的)3位蛇发女怪之一",
+    "lessons": [
+      28
+    ]
+  },
+  {
+    "word": "taxi",
+    "meaning": "n.出租汽车",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "Pilatus Porter",
+    "meaning": "皮勒特斯·波特(飞机机名)",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "land",
+    "meaning": "v.着陆",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "plough",
+    "meaning": "v.耕地",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "lonely",
+    "meaning": "a.偏僻的，人迹罕至的",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "Welsh",
+    "meaning": "a.威尔士的",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "roof",
+    "meaning": "n.楼顶",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "block",
+    "meaning": "n.一座大楼",
+    "lessons": [
+      29,
+      47
+    ]
+  },
+  {
+    "word": "flat",
+    "meaning": "n.公寓房",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "desert",
+    "meaning": "v.废弃",
+    "lessons": [
+      29
+    ]
+  },
+  {
+    "word": "polo",
+    "meaning": "n.水球",
+    "lessons": [
+      30
+    ]
+  },
+  {
+    "word": "Wayle",
+    "meaning": "n.威尔(河名)",
+    "lessons": [
+      30
+    ]
+  },
+  {
+    "word": "cut",
+    "meaning": "v.穿过",
+    "lessons": [
+      30
+    ]
+  },
+  {
+    "word": "row",
+    "meaning": "v.划(船)",
+    "lessons": [
+      30
+    ]
+  },
+  {
+    "word": "kick",
+    "meaning": "v.踢",
+    "lessons": [
+      30
+    ]
+  },
+  {
+    "word": "towards",
+    "meaning": "prep.朝，向",
+    "lessons": [
+      30,
+      33
+    ]
+  },
+  {
+    "word": "nearly",
+    "meaning": "ad.几乎",
+    "lessons": [
+      30
+    ]
+  },
+  {
+    "word": "sight",
+    "meaning": "n.眼界，视域",
+    "lessons": [
+      30,
+      82
+    ]
+  },
+  {
+    "word": "retire",
+    "meaning": "v.退休",
+    "lessons": [
+      31
+    ]
+  },
+  {
+    "word": "company",
+    "meaning": "n.公司",
+    "lessons": [
+      31
+    ]
+  },
+  {
+    "word": "bicycle",
+    "meaning": "n.自行车",
+    "lessons": [
+      31
+    ]
+  },
+  {
+    "word": "save",
+    "meaning": "v.积蓄",
+    "lessons": [
+      31
+    ]
+  },
+  {
+    "word": "workshop",
+    "meaning": "n.车间",
+    "lessons": [
+      31
+    ]
+  },
+  {
+    "word": "helper",
+    "meaning": "n.帮手，助手",
+    "lessons": [
+      31
+    ]
+  },
+  {
+    "word": "employ",
+    "meaning": "v.雇佣",
+    "lessons": [
+      31
+    ]
+  },
+  {
+    "word": "grandson",
+    "meaning": "n.孙子",
+    "lessons": [
+      31
+    ]
+  },
+  {
+    "word": "once",
+    "meaning": "ad.一次",
+    "lessons": [
+      32
+    ]
+  },
+  {
+    "word": "temptation",
+    "meaning": "n.诱惑",
+    "lessons": [
+      32
+    ]
+  },
+  {
+    "word": "article",
+    "meaning": "n.物品，东西",
+    "lessons": [
+      32
+    ]
+  },
+  {
+    "word": "wrap",
+    "meaning": "v.包裹",
+    "lessons": [
+      32
+    ]
+  },
+  {
+    "word": "simply",
+    "meaning": "ad.仅仅",
+    "lessons": [
+      32
+    ]
+  },
+  {
+    "word": "arrest",
+    "meaning": "v.逮捕",
+    "lessons": [
+      32
+    ]
+  },
+  {
+    "word": "darkness",
+    "meaning": "n.黑暗",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "explain",
+    "meaning": "v.解释，叙述",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "coast",
+    "meaning": "n.海岸",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "storm",
+    "meaning": "n.暴风雨",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "rock",
+    "meaning": "n.岩石，礁石",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "shore",
+    "meaning": "n.海岸",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "light",
+    "meaning": "n.灯光",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "ahead",
+    "meaning": "ad.在前面",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "cliff",
+    "meaning": "n.峭壁",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "struggle",
+    "meaning": "v.挣扎",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "hospital",
+    "meaning": "n.医院",
+    "lessons": [
+      33
+    ]
+  },
+  {
+    "word": "station",
+    "meaning": "n.站",
+    "lessons": [
+      34
+    ]
+  },
+  {
+    "word": "most",
+    "meaning": "ad.相当，非常",
+    "lessons": [
+      34
+    ]
+  },
+  {
+    "word": "while",
+    "meaning": "n.一段时间",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "regret",
+    "meaning": "v.后悔",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "far",
+    "meaning": "ad.非常",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "rush",
+    "meaning": "vi.冲",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "act",
+    "meaning": "v.行动",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "straight",
+    "meaning": "ad.径直",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "fright",
+    "meaning": "n.害怕",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "battered",
+    "meaning": "a.撞坏的",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "shortly",
+    "meaning": "ad.很快，不久",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "afterwards",
+    "meaning": "ad.以后",
+    "lessons": [
+      35
+    ]
+  },
+  {
+    "word": "record",
+    "meaning": "n.记录",
+    "lessons": [
+      36
+    ]
+  },
+  {
+    "word": "strong",
+    "meaning": "a.强壮的",
+    "lessons": [
+      36
+    ]
+  },
+  {
+    "word": "swimmer",
+    "meaning": "n.游泳运动员",
+    "lessons": [
+      36
+    ]
+  },
+  {
+    "word": "succeed",
+    "meaning": "v.成功",
+    "lessons": [
+      36
+    ]
+  },
+  {
+    "word": "train",
+    "meaning": "v.训练",
+    "lessons": [
+      36
+    ]
+  },
+  {
+    "word": "anxiously",
+    "meaning": "ad.焦急地",
+    "lessons": [
+      36
+    ]
+  },
+  {
+    "word": "intend",
+    "meaning": "v.打算",
+    "lessons": [
+      36
+    ]
+  },
+  {
+    "word": "solid",
+    "meaning": "a.固体的，硬的",
+    "lessons": [
+      36
+    ]
+  },
+  {
+    "word": "Olympic",
+    "meaning": "a.奥林匹克的",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "hold",
+    "meaning": "v.召开",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "government",
+    "meaning": "n.政府",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "immense",
+    "meaning": "a.巨大的",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "stadium",
+    "meaning": "n.露天体育场",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "standard",
+    "meaning": "n.标准",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "capital",
+    "meaning": "n.首都",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "fantastic",
+    "meaning": "a.巨大的，极好的",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "design",
+    "meaning": "v.设计",
+    "lessons": [
+      37
+    ]
+  },
+  {
+    "word": "except",
+    "meaning": "prep.除了",
+    "lessons": [
+      38
+    ]
+  },
+  {
+    "word": "Mediterranean",
+    "meaning": "n.(the ～)地中海",
+    "lessons": [
+      38
+    ]
+  },
+  {
+    "word": "continually",
+    "meaning": "ad.不断地",
+    "lessons": [
+      38
+    ]
+  },
+  {
+    "word": "bitterly",
+    "meaning": "ad.刺骨地",
+    "lessons": [
+      38
+    ]
+  },
+  {
+    "word": "sunshine",
+    "meaning": "n.阳光",
+    "lessons": [
+      38
+    ]
+  },
+  {
+    "word": "operation",
+    "meaning": "n.手术",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "successful",
+    "meaning": "a.成功的",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "following",
+    "meaning": "a.下一个",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "patient",
+    "meaning": "n.病人",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "alone",
+    "meaning": "a.独自的",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "exchange",
+    "meaning": "n.(电话的)交换台",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "inquire",
+    "meaning": "v.询问，打听",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "certain",
+    "meaning": "a. 某个",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "caller",
+    "meaning": "n.打电话的人",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "relative",
+    "meaning": "n.亲戚",
+    "lessons": [
+      39
+    ]
+  },
+  {
+    "word": "hostess",
+    "meaning": "n.女主人",
+    "lessons": [
+      40
+    ]
+  },
+  {
+    "word": "unsmiling",
+    "meaning": "a.不笑的，严肃的",
+    "lessons": [
+      40
+    ]
+  },
+  {
+    "word": "tight",
+    "meaning": "a.紧身的；紧的",
+    "lessons": [
+      40
+    ]
+  },
+  {
+    "word": "fix",
+    "meaning": "v.凝视",
+    "lessons": [
+      40
+    ]
+  },
+  {
+    "word": "globe",
+    "meaning": "n.地球",
+    "lessons": [
+      40
+    ]
+  },
+  {
+    "word": "despair",
+    "meaning": "n.绝望",
+    "lessons": [
+      40
+    ]
+  },
+  {
+    "word": "rude",
+    "meaning": "a.无礼的",
+    "lessons": [
+      41
+    ]
+  },
+  {
+    "word": "mirror",
+    "meaning": "n.镜子",
+    "lessons": [
+      41
+    ]
+  },
+  {
+    "word": "hole",
+    "meaning": "n.孔",
+    "lessons": [
+      41
+    ]
+  },
+  {
+    "word": "remark",
+    "meaning": "v.评说",
+    "lessons": [
+      41,
+      70
+    ]
+  },
+  {
+    "word": "remind",
+    "meaning": "v.提醒",
+    "lessons": [
+      41
+    ]
+  },
+  {
+    "word": "lighthouse",
+    "meaning": "n.灯塔",
+    "lessons": [
+      41
+    ]
+  },
+  {
+    "word": "market",
+    "meaning": "n.市场，集市",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "snake",
+    "meaning": "n.蛇",
+    "lessons": [
+      42,
+      42
+    ]
+  },
+  {
+    "word": "pipe",
+    "meaning": "n.(吹奏的)管乐器",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "tune",
+    "meaning": "n.曲调",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "glimpse",
+    "meaning": "n.一瞥",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "movement",
+    "meaning": "n.动作",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "continue",
+    "meaning": "v.继续",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "dance",
+    "meaning": "v.跳舞",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "obviously",
+    "meaning": "ad.显然",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "difference",
+    "meaning": "n.差别",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "Indian",
+    "meaning": "a.印度的",
+    "lessons": [
+      42
+    ]
+  },
+  {
+    "word": "pole",
+    "meaning": "n.(地球的)极",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "flight",
+    "meaning": "n.飞行",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "explorer",
+    "meaning": "n.探险家",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "lie",
+    "meaning": "v.处于",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "serious",
+    "meaning": "a.严重的",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "point",
+    "meaning": "n.地点",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "seem",
+    "meaning": "v.似乎，好像",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "crash",
+    "meaning": "v.坠毁",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "sack",
+    "meaning": "n.袋子",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "clear",
+    "meaning": "v.越过",
+    "lessons": [
+      43,
+      45
+    ]
+  },
+  {
+    "word": "aircraft",
+    "meaning": "n.飞机",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "endless",
+    "meaning": "a.无尽的",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "plain",
+    "meaning": "n.平原",
+    "lessons": [
+      43
+    ]
+  },
+  {
+    "word": "forest",
+    "meaning": "n.森林",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "risk",
+    "meaning": "n.危险，冒险",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "picnic",
+    "meaning": "n.野餐",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "edge",
+    "meaning": "n.边缘",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "strap",
+    "meaning": "n.带，皮带",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "possession",
+    "meaning": "n.所有，占有",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "breath",
+    "meaning": "n.呼吸",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "contents",
+    "meaning": "n.(常用复数)内有的物品",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "mend",
+    "meaning": "v.修理",
+    "lessons": [
+      44
+    ]
+  },
+  {
+    "word": "conscience",
+    "meaning": "n.良心，道德心",
+    "lessons": [
+      45
+    ]
+  },
+  {
+    "word": "wallet",
+    "meaning": "n.皮夹，钱夹",
+    "lessons": [
+      45
+    ]
+  },
+  {
+    "word": "savings",
+    "meaning": "n.存款",
+    "lessons": [
+      45
+    ]
+  },
+  {
+    "word": "villager",
+    "meaning": "n.村民",
+    "lessons": [
+      45
+    ]
+  },
+  {
+    "word": "per cent",
+    "meaning": "百分之…",
+    "lessons": [
+      45
+    ]
+  },
+  {
+    "word": "unload",
+    "meaning": "v.卸(货)",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "extremely",
+    "meaning": "ad.非常，极其",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "occur",
+    "meaning": "v.发生",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "astonish",
+    "meaning": "v.使惊讶",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "pile",
+    "meaning": "n.堆",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "woollen",
+    "meaning": "n.羊毛的",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "goods",
+    "meaning": "n.(常用复数)货物，商品",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "discover",
+    "meaning": "v.发现",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "admit",
+    "meaning": "v.承认",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "confine",
+    "meaning": "v.关在 (往往指关在一个狭小的空间里)",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "normal",
+    "meaning": "a.正常的，通常的",
+    "lessons": [
+      46
+    ]
+  },
+  {
+    "word": "thirsty",
+    "meaning": "a.贪杯的，口渴的",
+    "lessons": [
+      47
+    ]
+  },
+  {
+    "word": "ghost",
+    "meaning": "n.鬼魂",
+    "lessons": [
+      47
+    ]
+  },
+  {
+    "word": "haunt",
+    "meaning": "v.（鬼）来访，闹鬼",
+    "lessons": [
+      47
+    ]
+  },
+  {
+    "word": "furniture",
+    "meaning": "n.家具",
+    "lessons": [
+      47
+    ]
+  },
+  {
+    "word": "whisky",
+    "meaning": "n.威士忌酒",
+    "lessons": [
+      47
+    ]
+  },
+  {
+    "word": "suggest",
+    "meaning": "v.暗示",
+    "lessons": [
+      47,
+      87
+    ]
+  },
+  {
+    "word": "shake",
+    "meaning": "v.摇动",
+    "lessons": [
+      47
+    ]
+  },
+  {
+    "word": "accept",
+    "meaning": "v.接受",
+    "lessons": [
+      47
+    ]
+  },
+  {
+    "word": "pull",
+    "meaning": "v.拔",
+    "lessons": [
+      48
+    ]
+  },
+  {
+    "word": "cotton",
+    "meaning": "药棉",
+    "lessons": [
+      48
+    ]
+  },
+  {
+    "word": "collect",
+    "meaning": "v.搜集",
+    "lessons": [
+      48
+    ]
+  },
+  {
+    "word": "collection",
+    "meaning": "n.收藏品，收集品",
+    "lessons": [
+      48
+    ]
+  },
+  {
+    "word": "nod",
+    "meaning": "v.点头",
+    "lessons": [
+      48
+    ]
+  },
+  {
+    "word": "meanwhile",
+    "meaning": "ad.同时",
+    "lessons": [
+      48
+    ]
+  },
+  {
+    "word": "tired",
+    "meaning": "a.厌烦的",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "real",
+    "meaning": "a.真正的",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "owner",
+    "meaning": "n.主人",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "spring",
+    "meaning": "n.弹簧",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "mattress",
+    "meaning": "n.床垫",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "gust",
+    "meaning": "n.一阵风",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "sweep",
+    "meaning": "v.扫，刮",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "courtyard",
+    "meaning": "n.院子",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "smash",
+    "meaning": "v.碰碎，摔碎",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "miraculously",
+    "meaning": "ad.奇迹般地",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "unhurt",
+    "meaning": "a.没有受伤的",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "glance",
+    "meaning": "v.扫视",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "promptly",
+    "meaning": "ad. 迅速地",
+    "lessons": [
+      49
+    ]
+  },
+  {
+    "word": "ride",
+    "meaning": "n.旅行",
+    "lessons": [
+      50
+    ]
+  },
+  {
+    "word": "excursion",
+    "meaning": "n.远足",
+    "lessons": [
+      50
+    ]
+  },
+  {
+    "word": "conductor",
+    "meaning": "n.(公共汽车等)售票员",
+    "lessons": [
+      50
+    ]
+  },
+  {
+    "word": "view",
+    "meaning": "n.景色",
+    "lessons": [
+      50
+    ]
+  },
+  {
+    "word": "reward",
+    "meaning": "n.报偿",
+    "lessons": [
+      51,
+      51
+    ]
+  },
+  {
+    "word": "virtue",
+    "meaning": "n.美德",
+    "lessons": [
+      51
+    ]
+  },
+  {
+    "word": "diet",
+    "meaning": "n.节食",
+    "lessons": [
+      51
+    ]
+  },
+  {
+    "word": "forbid",
+    "meaning": "v.禁止",
+    "lessons": [
+      51
+    ]
+  },
+  {
+    "word": "hurriedly",
+    "meaning": "ad.匆忙地",
+    "lessons": [
+      51
+    ]
+  },
+  {
+    "word": "embarrass",
+    "meaning": "v.使尴尬",
+    "lessons": [
+      51
+    ]
+  },
+  {
+    "word": "guiltily",
+    "meaning": "ad.内疚地",
+    "lessons": [
+      51
+    ]
+  },
+  {
+    "word": "strict",
+    "meaning": "a.严格的",
+    "lessons": [
+      51
+    ]
+  },
+  {
+    "word": "occasionally",
+    "meaning": "ad.偶尔地",
+    "lessons": [
+      51
+    ]
+  },
+  {
+    "word": "temporarily",
+    "meaning": "ad.暂时地",
+    "lessons": [
+      52
+    ]
+  },
+  {
+    "word": "inch",
+    "meaning": "n.英寸(度量单位)",
+    "lessons": [
+      52
+    ]
+  },
+  {
+    "word": "space",
+    "meaning": "n.空间",
+    "lessons": [
+      52,
+      61
+    ]
+  },
+  {
+    "word": "actually",
+    "meaning": "ad.实际上",
+    "lessons": [
+      52
+    ]
+  },
+  {
+    "word": "hot(title)",
+    "meaning": "a.带电的，充电的",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "fireman",
+    "meaning": "n.消防队员",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "cause",
+    "meaning": "v.引起;n.原因",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "examine",
+    "meaning": "v.检查",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "accidentally",
+    "meaning": "ad.意外地，偶然地",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "remains",
+    "meaning": "n.尸体，残骸",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "wire",
+    "meaning": "n.电线",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "volt",
+    "meaning": "n.伏特(电压单位)",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "power line",
+    "meaning": "电力线",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "solve",
+    "meaning": "v.解决",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "mystery",
+    "meaning": "n.谜",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "snatch",
+    "meaning": "v.抓住",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "spark",
+    "meaning": "n.电火花",
+    "lessons": [
+      53
+    ]
+  },
+  {
+    "word": "sticky",
+    "meaning": "a.粘的",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "finger",
+    "meaning": "n.手指",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "pie",
+    "meaning": "n.馅饼",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "mix",
+    "meaning": "v.混合，拌和",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "pastry",
+    "meaning": "n.面糊，甜馅饼",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "annoying",
+    "meaning": "a.恼人的",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "receiver",
+    "meaning": "n.电话的话筒",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "dismay",
+    "meaning": "v.失望，泄气",
+    "lessons": [
+      54,
+      86
+    ]
+  },
+  {
+    "word": "recognize",
+    "meaning": "v.认出，听出",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "persuade",
+    "meaning": "v.说服，劝说",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "mess",
+    "meaning": "n.乱七八糟",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "doorknob",
+    "meaning": "n.门把手",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "register",
+    "meaning": "v.挂号邮寄",
+    "lessons": [
+      54
+    ]
+  },
+  {
+    "word": "gold",
+    "meaning": "n.金子",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "mine",
+    "meaning": "n.矿",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "treasure",
+    "meaning": "n.财宝",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "revealer",
+    "meaning": "n.探测器",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "invent",
+    "meaning": "v.发明",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "detect",
+    "meaning": "v.探测，发现",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "bury",
+    "meaning": "v.埋藏",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "cave",
+    "meaning": "n.山洞",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "seashore",
+    "meaning": "n.海岸",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "pirate",
+    "meaning": "n.海盗",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "arm",
+    "meaning": "v.武装",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "soil",
+    "meaning": "n.泥土",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "entrance",
+    "meaning": "n.入口",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "finally",
+    "meaning": "ad.最后",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "worthless",
+    "meaning": "a.毫无价值的",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "thoroughly",
+    "meaning": "ad.彻底地",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "trunk",
+    "meaning": "n.行李箱",
+    "lessons": [
+      55,
+      58
+    ]
+  },
+  {
+    "word": "confident",
+    "meaning": "a.自信的",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "value",
+    "meaning": "n.价值",
+    "lessons": [
+      55
+    ]
+  },
+  {
+    "word": "sound",
+    "meaning": "n.声音",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "excitement",
+    "meaning": "n.激动，兴奋",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "handsome",
+    "meaning": "a.漂亮的，美观的",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "Rolls-Royce",
+    "meaning": "罗尔斯-罗伊斯(劳斯莱斯)",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "Benz",
+    "meaning": "n.奔驰",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "wheel",
+    "meaning": "n.轮子",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "explosion",
+    "meaning": "n.爆炸，轰响",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "course",
+    "meaning": "n.跑道，路程",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "rival",
+    "meaning": "n.对手",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "speed",
+    "meaning": "v.疾驶",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "downhill",
+    "meaning": "ad.下坡",
+    "lessons": [
+      56
+    ]
+  },
+  {
+    "word": "madam",
+    "meaning": "n.(对妇女的尊称)太太，夫人",
+    "lessons": [
+      57
+    ]
+  },
+  {
+    "word": "jeans",
+    "meaning": "n.牛仔裤",
+    "lessons": [
+      57
+    ]
+  },
+  {
+    "word": "hesitate",
+    "meaning": "v.犹豫，迟疑",
+    "lessons": [
+      57
+    ]
+  },
+  {
+    "word": "serve",
+    "meaning": "v.接待(顾客)",
+    "lessons": [
+      57
+    ]
+  },
+  {
+    "word": "scornfully",
+    "meaning": "ad.轻蔑地",
+    "lessons": [
+      57
+    ]
+  },
+  {
+    "word": "punish",
+    "meaning": "v.惩罚",
+    "lessons": [
+      57
+    ]
+  },
+  {
+    "word": "fur",
+    "meaning": "n.裘皮",
+    "lessons": [
+      57
+    ]
+  },
+  {
+    "word": "eager",
+    "meaning": "a.热切的，热情的",
+    "lessons": [
+      57
+    ]
+  },
+  {
+    "word": "blessing",
+    "meaning": "n.福分，福气",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "disguise",
+    "meaning": "n.伪装",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "tiny",
+    "meaning": "a.极小的",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "possess",
+    "meaning": "v.拥有",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "cursed",
+    "meaning": "a.可恨的",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "increase",
+    "meaning": "v.增加",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "plant",
+    "meaning": "v.种植",
+    "lessons": [
+      58,
+      79
+    ]
+  },
+  {
+    "word": "church",
+    "meaning": "n.教堂",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "evil",
+    "meaning": "a.坏的",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "reputation",
+    "meaning": "n.名声",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "claim",
+    "meaning": "v.以…为其后果",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "victim",
+    "meaning": "n.受害者，牺牲品",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "vicar",
+    "meaning": "n.教区牧师",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "source",
+    "meaning": "n.来源",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "income",
+    "meaning": "n.收入",
+    "lessons": [
+      58
+    ]
+  },
+  {
+    "word": "bark",
+    "meaning": "v.狗叫",
+    "lessons": [
+      59
+    ]
+  },
+  {
+    "word": "press",
+    "meaning": "v.按, 压",
+    "lessons": [
+      59
+    ]
+  },
+  {
+    "word": "paw",
+    "meaning": "n.脚爪",
+    "lessons": [
+      59
+    ]
+  },
+  {
+    "word": "latch",
+    "meaning": "n.门闩",
+    "lessons": [
+      59
+    ]
+  },
+  {
+    "word": "expert",
+    "meaning": "n.专家",
+    "lessons": [
+      59
+    ]
+  },
+  {
+    "word": "develop",
+    "meaning": "v.养成",
+    "lessons": [
+      59
+    ]
+  },
+  {
+    "word": "habit",
+    "meaning": "n.习惯",
+    "lessons": [
+      59
+    ]
+  },
+  {
+    "word": "remove",
+    "meaning": "v.拆掉，取下",
+    "lessons": [
+      59
+    ]
+  },
+  {
+    "word": "future",
+    "meaning": "n.未来，前途",
+    "lessons": [
+      60
+    ]
+  },
+  {
+    "word": "fair",
+    "meaning": "n.集市",
+    "lessons": [
+      60
+    ]
+  },
+  {
+    "word": "fortune-teller",
+    "meaning": "n.算命人",
+    "lessons": [
+      60
+    ]
+  },
+  {
+    "word": "crystal",
+    "meaning": "n.水晶",
+    "lessons": [
+      60
+    ]
+  },
+  {
+    "word": "relation",
+    "meaning": "n.亲属",
+    "lessons": [
+      60
+    ]
+  },
+  {
+    "word": "impatiently",
+    "meaning": "ad.不耐烦地",
+    "lessons": [
+      60
+    ]
+  },
+  {
+    "word": "Hubble",
+    "meaning": "n.哈勃（望远镜）",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "telescope",
+    "meaning": "n.望远镜",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "launch",
+    "meaning": "v.发射",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "NASA",
+    "meaning": "国家航空航天局",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "billion",
+    "meaning": "n.10亿",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "faulty",
+    "meaning": "a.有错误的",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "astronaut",
+    "meaning": "n.宇航员",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "shuttle",
+    "meaning": "n.航天飞机",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "Endeavour",
+    "meaning": "n.“奋进”号",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "robot-arm",
+    "meaning": "n.机器手",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "grab",
+    "meaning": "v.抓（一把抓住）",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "atmosphere",
+    "meaning": "n.大气层",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "distant",
+    "meaning": "a.遥远的",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "galaxy",
+    "meaning": "n.星系",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "universe",
+    "meaning": "n.宇宙",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "eagle eye",
+    "meaning": "鹰眼",
+    "lessons": [
+      61
+    ]
+  },
+  {
+    "word": "control",
+    "meaning": "n.控制",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "smoke",
+    "meaning": "n.烟",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "desolate",
+    "meaning": "a.荒凉的",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "threaten",
+    "meaning": "v.威胁",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "surrounding",
+    "meaning": "a.周围的",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "destruction",
+    "meaning": "n.破坏，毁灭",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "flood",
+    "meaning": "n.洪水，水灾",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "authority",
+    "meaning": "n.(常用复数)当局",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "grass-seed",
+    "meaning": "n.草籽",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "spray",
+    "meaning": "v.喷撒",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "quantity",
+    "meaning": "n.量",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "root",
+    "meaning": "n.根",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "century",
+    "meaning": "n.世纪",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "patch",
+    "meaning": "n.小片",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "blacken",
+    "meaning": "v.变黑，发暗",
+    "lessons": [
+      62
+    ]
+  },
+  {
+    "word": "circle",
+    "meaning": "n.圈子",
+    "lessons": [
+      63
+    ]
+  },
+  {
+    "word": "admire",
+    "meaning": "v.赞美，钦佩",
+    "lessons": [
+      63
+    ]
+  },
+  {
+    "word": "close",
+    "meaning": "a.亲密的",
+    "lessons": [
+      63
+    ]
+  },
+  {
+    "word": "wedding",
+    "meaning": "n.婚礼",
+    "lessons": [
+      63
+    ]
+  },
+  {
+    "word": "reception",
+    "meaning": "n.招待会",
+    "lessons": [
+      63
+    ]
+  },
+  {
+    "word": "sort",
+    "meaning": "n.种类",
+    "lessons": [
+      63
+    ]
+  },
+  {
+    "word": "tunnel",
+    "meaning": "n.隧道",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "port",
+    "meaning": "n.港口",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "ventilate",
+    "meaning": "v.通风",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "chimney",
+    "meaning": "n.烟囱",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "sea level",
+    "meaning": "海平面",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "double",
+    "meaning": "a.双的",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "ventilation",
+    "meaning": "n.通风",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "fear",
+    "meaning": "v.害怕",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "invasion",
+    "meaning": "n.入侵，侵略",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "officially",
+    "meaning": "ad.正式地",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "connect",
+    "meaning": "v.连接",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "European",
+    "meaning": "a.欧洲的",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "continent",
+    "meaning": "n.大陆",
+    "lessons": [
+      64
+    ]
+  },
+  {
+    "word": "versus",
+    "meaning": "prep. 对",
+    "lessons": [
+      65
+    ]
+  },
+  {
+    "word": "Christmas",
+    "meaning": "n.圣诞节",
+    "lessons": [
+      65
+    ]
+  },
+  {
+    "word": "circus",
+    "meaning": "n.马戏团",
+    "lessons": [
+      65
+    ]
+  },
+  {
+    "word": "present",
+    "meaning": "n.礼物",
+    "lessons": [
+      65,
+      76,
+      89,
+      93
+    ]
+  },
+  {
+    "word": "accompany",
+    "meaning": "v.陪伴，随行；伴奏",
+    "lessons": [
+      65
+    ]
+  },
+  {
+    "word": "approach",
+    "meaning": "v.走近",
+    "lessons": [
+      65
+    ]
+  },
+  {
+    "word": "ought",
+    "meaning": "aux.v 应该",
+    "lessons": [
+      65
+    ]
+  },
+  {
+    "word": "weigh",
+    "meaning": "v.重，衡量",
+    "lessons": [
+      65
+    ]
+  },
+  {
+    "word": "fortunate",
+    "meaning": "a.幸运的",
+    "lessons": [
+      65
+    ]
+  },
+  {
+    "word": "Lancaster",
+    "meaning": "n.兰开斯特",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "bomber",
+    "meaning": "n.轰炸机",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "remote",
+    "meaning": "a.偏僻的",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "Pacific",
+    "meaning": "n.太平洋",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "wreck",
+    "meaning": "n.残骸",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "rediscover",
+    "meaning": "v.重新发现",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "aerial",
+    "meaning": "a.航空的",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "survey",
+    "meaning": "n.调查",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "rescue",
+    "meaning": "v.营救",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "package",
+    "meaning": "v.把…打包",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "enthusiast",
+    "meaning": "n.热心人",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "restore",
+    "meaning": "v.修复",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "imagine",
+    "meaning": "v.想像",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "packing",
+    "meaning": "包装箱",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "colony",
+    "meaning": "n.群",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "bee",
+    "meaning": "n.蜜蜂",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "hive",
+    "meaning": "n.蜂房",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "preserve",
+    "meaning": "v.保护",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "beeswax",
+    "meaning": "n.蜂蜡",
+    "lessons": [
+      66
+    ]
+  },
+  {
+    "word": "volcano",
+    "meaning": "n.火山",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "active",
+    "meaning": "a.活动的",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "Kivu",
+    "meaning": "n.基伍湖",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "Congo",
+    "meaning": "n.(the～)刚果",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "Kituro",
+    "meaning": "n.基图罗",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "erupt",
+    "meaning": "v.(火山)喷发",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "violently",
+    "meaning": "ad.猛烈地，剧烈地",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "manage",
+    "meaning": "v.设法",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "brilliant",
+    "meaning": "a.精彩的",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "liquid",
+    "meaning": "a.液态的",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "escape",
+    "meaning": "v.逃脱",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "alive",
+    "meaning": "a.活着的",
+    "lessons": [
+      67
+    ]
+  },
+  {
+    "word": "persistent",
+    "meaning": "a.坚持的，固执的",
+    "lessons": [
+      68
+    ]
+  },
+  {
+    "word": "avoid",
+    "meaning": "v.避开",
+    "lessons": [
+      68
+    ]
+  },
+  {
+    "word": "insist",
+    "meaning": "v.坚持",
+    "lessons": [
+      68
+    ]
+  },
+  {
+    "word": "murder",
+    "meaning": "n.谋杀",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "instruct",
+    "meaning": "v.命令，指示",
+    "lessons": [
+      69,
+      94
+    ]
+  },
+  {
+    "word": "acquire",
+    "meaning": "v.取得，获得",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "confidence",
+    "meaning": "n.信心",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "examiner",
+    "meaning": "n.主考人",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "suppose",
+    "meaning": "v.假设",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "tap",
+    "meaning": "v.轻敲",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "react",
+    "meaning": "v.反应",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "brake",
+    "meaning": "n.刹车",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "pedal",
+    "meaning": "n.踏板",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "mournful",
+    "meaning": "a.悲哀的",
+    "lessons": [
+      69
+    ]
+  },
+  {
+    "word": "bullfight",
+    "meaning": "n.斗牛",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "drunk",
+    "meaning": "n.醉汉",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "wander",
+    "meaning": "v.溜达，乱走",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "unaware",
+    "meaning": "a.不知道的，无觉察的",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "bull",
+    "meaning": "n.公牛",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "matador",
+    "meaning": "n.斗牛士",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "apparently",
+    "meaning": "ad.明显地",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "sensitive",
+    "meaning": "a.敏感的",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "criticism",
+    "meaning": "n.批评",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "charge",
+    "meaning": "v.冲上去",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "clumsily",
+    "meaning": "ad.笨拙地",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "bow",
+    "meaning": "v.鞠躬",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "safety",
+    "meaning": "n.安全地带",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "sympathetically",
+    "meaning": "ad.同情地",
+    "lessons": [
+      70
+    ]
+  },
+  {
+    "word": "parliament",
+    "meaning": "n.议会，国会",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "erect",
+    "meaning": "v.建立",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "accurate",
+    "meaning": "a.准确的",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "official",
+    "meaning": "n.官员，行政人员",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "Greenwich",
+    "meaning": "n.格林威治",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "observatory",
+    "meaning": "n.天文台",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "check",
+    "meaning": "v.检查",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "microphone",
+    "meaning": "n.扩音器，麦克风",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "tower",
+    "meaning": "n.塔",
+    "lessons": [
+      71
+    ]
+  },
+  {
+    "word": "racing",
+    "meaning": "n.竞赛",
+    "lessons": [
+      72
+    ]
+  },
+  {
+    "word": "per",
+    "meaning": "prep.每",
+    "lessons": [
+      72
+    ]
+  },
+  {
+    "word": "Utah",
+    "meaning": "n.犹他(美国州名)",
+    "lessons": [
+      72
+    ]
+  },
+  {
+    "word": "horsepower",
+    "meaning": "n.马力",
+    "lessons": [
+      72
+    ]
+  },
+  {
+    "word": "burst",
+    "meaning": "v.爆裂",
+    "lessons": [
+      72
+    ]
+  },
+  {
+    "word": "average",
+    "meaning": "a.平均的",
+    "lessons": [
+      72
+    ]
+  },
+  {
+    "word": "footstep",
+    "meaning": "n.足迹，脚步声",
+    "lessons": [
+      72
+    ]
+  },
+  {
+    "word": "record-holder",
+    "meaning": "纪录保持者",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "truant",
+    "meaning": "n.逃学的孩子",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "unimaginative",
+    "meaning": "a.缺乏想象力的",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "shame",
+    "meaning": "n.惭愧，羞耻",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "hitchhike",
+    "meaning": "v.搭便车旅行",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "meantime",
+    "meaning": "n.期间",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "lorry",
+    "meaning": "n.卡车",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "border",
+    "meaning": "n.边界",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "evade",
+    "meaning": "v.逃避，逃离",
+    "lessons": [
+      73
+    ]
+  },
+  {
+    "word": "limelight",
+    "meaning": "n.舞台灯光",
+    "lessons": [
+      74
+    ]
+  },
+  {
+    "word": "precaution",
+    "meaning": "n.预防措施",
+    "lessons": [
+      74
+    ]
+  },
+  {
+    "word": "fan",
+    "meaning": "n.狂热者，迷",
+    "lessons": [
+      74
+    ]
+  },
+  {
+    "word": "shady",
+    "meaning": "a.遮荫的",
+    "lessons": [
+      74
+    ]
+  },
+  {
+    "word": "sheriff",
+    "meaning": "n.司法长官",
+    "lessons": [
+      74
+    ]
+  },
+  {
+    "word": "sneer",
+    "meaning": "n.冷笑",
+    "lessons": [
+      74
+    ]
+  },
+  {
+    "word": "thick",
+    "meaning": "a.厚的",
+    "lessons": [
+      75
+    ]
+  },
+  {
+    "word": "signal",
+    "meaning": "n.信号",
+    "lessons": [
+      75
+    ]
+  },
+  {
+    "word": "stamp",
+    "meaning": "v.跺，踩",
+    "lessons": [
+      75
+    ]
+  },
+  {
+    "word": "helicopter",
+    "meaning": "n.直升飞机",
+    "lessons": [
+      75
+    ]
+  },
+  {
+    "word": "scene",
+    "meaning": "n.现场",
+    "lessons": [
+      75
+    ]
+  },
+  {
+    "word": "survivor",
+    "meaning": "n.幸存者",
+    "lessons": [
+      75
+    ]
+  },
+  {
+    "word": "fool",
+    "meaning": "n.傻瓜",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "bulletin",
+    "meaning": "n.新闻简报",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "announcer",
+    "meaning": "n.(电视、电台)播音员",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "macaroni",
+    "meaning": "n.通心面，空心面条",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "leading",
+    "meaning": "a.主要的",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "grower",
+    "meaning": "n.种植者",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "splendid",
+    "meaning": "a.极好的",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "stalk",
+    "meaning": "n.梗",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "thresh",
+    "meaning": "v.打(庄稼)",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "process",
+    "meaning": "v.加工",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "Signor",
+    "meaning": "n.(意大利语)先生",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "champion",
+    "meaning": "n.冠军",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "studio",
+    "meaning": "n.播音室",
+    "lessons": [
+      76
+    ]
+  },
+  {
+    "word": "mummy",
+    "meaning": "n.木乃伊",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "Egyptian",
+    "meaning": "a.埃及的",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "temple",
+    "meaning": "n.庙",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "mark",
+    "meaning": "n.斑点",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "plate",
+    "meaning": "n.(照相)底片",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "disease",
+    "meaning": "n.疾病",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "last",
+    "meaning": "v.持续",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "prove",
+    "meaning": "v.证明",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "resin",
+    "meaning": "n.树脂",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "skin",
+    "meaning": "n.皮，皮肤",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "section",
+    "meaning": "n.切片",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "figure",
+    "meaning": "n.(人的)体形；人像",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "normally",
+    "meaning": "ad.通常地",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "survive",
+    "meaning": "v.幸免于",
+    "lessons": [
+      77
+    ]
+  },
+  {
+    "word": "entitle",
+    "meaning": "v.以…为名",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "calm",
+    "meaning": "v.使镇定",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "nerve",
+    "meaning": "n.神经",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "concentration",
+    "meaning": "n.集中，专心",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "suffer",
+    "meaning": "v.受苦，受害",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "symptom",
+    "meaning": "n.症状",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "temper",
+    "meaning": "n.脾气",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "appetite",
+    "meaning": "n.胃口，食欲",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "produce",
+    "meaning": "v.拿出",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "urge",
+    "meaning": "v.力劝，怂恿",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "satisfaction",
+    "meaning": "n.满意，满足",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "delighted",
+    "meaning": "a.欣喜的",
+    "lessons": [
+      78
+    ]
+  },
+  {
+    "word": "parent",
+    "meaning": "n.父(母)亲",
+    "lessons": [
+      79
+    ]
+  },
+  {
+    "word": "flight attendant",
+    "meaning": "空中乘务员",
+    "lessons": [
+      79
+    ]
+  },
+  {
+    "word": "frightened",
+    "meaning": "a.害怕，担惊",
+    "lessons": [
+      79
+    ]
+  },
+  {
+    "word": "curious",
+    "meaning": "a.急于了解，好奇的",
+    "lessons": [
+      79
+    ]
+  },
+  {
+    "word": "bomb",
+    "meaning": "n.炸弹",
+    "lessons": [
+      79
+    ]
+  },
+  {
+    "word": "palace",
+    "meaning": "n.宫殿",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "extraordinary",
+    "meaning": "a.不平常的，非凡的",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "exhibition",
+    "meaning": "n.展览",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "iron",
+    "meaning": "n.铁",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "various",
+    "meaning": "a.各种各样的",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "machinery",
+    "meaning": "n.机器",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "display",
+    "meaning": "n.展览",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "steam",
+    "meaning": "n.蒸汽",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "profit",
+    "meaning": "n.利润",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "college",
+    "meaning": "n.学院",
+    "lessons": [
+      80
+    ]
+  },
+  {
+    "word": "prisoner",
+    "meaning": "n.囚犯",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "bush",
+    "meaning": "n.灌木丛",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "rapidly",
+    "meaning": "ad.迅速地",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "uniform",
+    "meaning": "n.制服",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "rifle",
+    "meaning": "n.来福枪，步枪",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "shoulder",
+    "meaning": "n.肩",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "march",
+    "meaning": "v.行进",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "boldly",
+    "meaning": "ad.大胆地",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "blaze",
+    "meaning": "v.闪耀",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "salute",
+    "meaning": "v.行礼",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "elderly",
+    "meaning": "a.上了年纪的",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "grey",
+    "meaning": "a.灰白的",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "sharp",
+    "meaning": "a.猛烈的",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "blow",
+    "meaning": "n.打击",
+    "lessons": [
+      81
+    ]
+  },
+  {
+    "word": "monster",
+    "meaning": "n.怪物",
+    "lessons": [
+      82
+    ]
+  },
+  {
+    "word": "sailor",
+    "meaning": "n.海员",
+    "lessons": [
+      82
+    ]
+  },
+  {
+    "word": "creature",
+    "meaning": "n.动物，生物",
+    "lessons": [
+      82
+    ]
+  },
+  {
+    "word": "peculiar",
+    "meaning": "a.奇怪的，不寻常的",
+    "lessons": [
+      82
+    ]
+  },
+  {
+    "word": "shining",
+    "meaning": "a.闪闪发光的",
+    "lessons": [
+      82
+    ]
+  },
+  {
+    "word": "oarfish",
+    "meaning": "n.桨鱼",
+    "lessons": [
+      82
+    ]
+  },
+  {
+    "word": "election",
+    "meaning": "n.选举",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "former",
+    "meaning": "a.从前的",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "defeat",
+    "meaning": "v.打败",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "fanatical",
+    "meaning": "a.狂热的",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "opponent",
+    "meaning": "n.反对者，对手",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "radical",
+    "meaning": "a.激进的",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "progressive",
+    "meaning": "a.进步的",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "ex- prefix.",
+    "meaning": "(前缀，用于名词前)前…",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "suspicious",
+    "meaning": "a.怀疑的",
+    "lessons": [
+      83
+    ]
+  },
+  {
+    "word": "strike",
+    "meaning": "vt.报时",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "busman",
+    "meaning": "n.公共汽车司机",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "state",
+    "meaning": "v.正式提出，宣布",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "agreement",
+    "meaning": "n.协议",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "relieve",
+    "meaning": "v.减轻",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "pressure",
+    "meaning": "n.压力，麻烦",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "extent",
+    "meaning": "n.程度",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "volunteer",
+    "meaning": "v.自动提出，自愿",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "gratitude",
+    "meaning": "n.感激",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "Press",
+    "meaning": "n.新闻界",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "object",
+    "meaning": "v.不赞成，反对",
+    "lessons": [
+      84
+    ]
+  },
+  {
+    "word": "headmaster",
+    "meaning": "n.校长",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "contribute",
+    "meaning": "v.捐助，援助",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "gift",
+    "meaning": "n.礼物，赠品",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "album",
+    "meaning": "n.签名簿，相册",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "patience",
+    "meaning": "n.耐心",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "encouragement",
+    "meaning": "n.鼓励",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "farewell",
+    "meaning": "n.告别",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "honour",
+    "meaning": "n.敬意, 荣幸",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "coincidence",
+    "meaning": "n.巧合",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "total",
+    "meaning": "n.总数",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "devote",
+    "meaning": "v.致力于",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "gardening",
+    "meaning": "n.园艺",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "hobby",
+    "meaning": "n.爱好，嗜好",
+    "lessons": [
+      85
+    ]
+  },
+  {
+    "word": "swing",
+    "meaning": "v.转向",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "speedboat",
+    "meaning": "n.快艇",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "desperately",
+    "meaning": "ad.绝望地",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "companion",
+    "meaning": "n.同伙，同伴",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "water ski",
+    "meaning": "(由快艇牵引水橇)滑水",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "buoy",
+    "meaning": "n.浮标",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "tremendous",
+    "meaning": "a.巨大的",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "petrol",
+    "meaning": "n.汽油",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "drift",
+    "meaning": "v.漂动，漂流",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "gently",
+    "meaning": "ad.缓慢地，轻轻地",
+    "lessons": [
+      86
+    ]
+  },
+  {
+    "word": "alibi",
+    "meaning": "n.不在犯罪现场的证据",
+    "lessons": [
+      87
+    ]
+  },
+  {
+    "word": "commit",
+    "meaning": "v.犯(罪、错)",
+    "lessons": [
+      87
+    ]
+  },
+  {
+    "word": "inspector",
+    "meaning": "n.探长",
+    "lessons": [
+      87
+    ]
+  },
+  {
+    "word": "employer",
+    "meaning": "n.雇主",
+    "lessons": [
+      87
+    ]
+  },
+  {
+    "word": "confirm",
+    "meaning": "v.确认，证实",
+    "lessons": [
+      87
+    ]
+  },
+  {
+    "word": "truth",
+    "meaning": "n.真相",
+    "lessons": [
+      87
+    ]
+  },
+  {
+    "word": "trap",
+    "meaning": "v.陷入，使陷于困境",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "surface",
+    "meaning": "n.地面，表面",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "explosive",
+    "meaning": "n.炸药",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "vibration",
+    "meaning": "n.震动",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "collapse",
+    "meaning": "v.坍塌",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "drill",
+    "meaning": "v.钻孔",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "capsule",
+    "meaning": "n.容器",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "layer",
+    "meaning": "n.层",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "beneath",
+    "meaning": "prep.在…之下",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "lower",
+    "meaning": "v.放下，降低",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "smoothly",
+    "meaning": "ad.顺利地",
+    "lessons": [
+      88
+    ]
+  },
+  {
+    "word": "slip",
+    "meaning": "n.小错误",
+    "lessons": [
+      89
+    ]
+  },
+  {
+    "word": "comedy",
+    "meaning": "n.喜剧",
+    "lessons": [
+      89
+    ]
+  },
+  {
+    "word": "queue",
+    "meaning": "v.排队",
+    "lessons": [
+      89
+    ]
+  },
+  {
+    "word": "dull",
+    "meaning": "a.枯燥，无味",
+    "lessons": [
+      89
+    ]
+  },
+  {
+    "word": "artiste",
+    "meaning": "n.艺人",
+    "lessons": [
+      89
+    ]
+  },
+  {
+    "word": "advertiser",
+    "meaning": "n.报幕员",
+    "lessons": [
+      89
+    ]
+  },
+  {
+    "word": "chip",
+    "meaning": "n.油炸土豆片",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "overfish",
+    "meaning": "v.过度捕捞",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "giant",
+    "meaning": "a.巨大的",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "terrify",
+    "meaning": "v.吓，使恐怖",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "diver",
+    "meaning": "n.潜水员",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "oil rig",
+    "meaning": "石油钻塔",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "wit",
+    "meaning": "n.(复数)理智，头脑",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "cage",
+    "meaning": "n.笼",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "shark",
+    "meaning": "n.鲨鱼",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "whale",
+    "meaning": "n.鲸",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "variety",
+    "meaning": "n.品种",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "cod",
+    "meaning": "n.鳕",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "skate",
+    "meaning": "n.鳐",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "factor",
+    "meaning": "n.因素",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "crew",
+    "meaning": "n.全体工作人员",
+    "lessons": [
+      90
+    ]
+  },
+  {
+    "word": "balloon",
+    "meaning": "n.气球",
+    "lessons": [
+      91
+    ]
+  },
+  {
+    "word": "royal",
+    "meaning": "a.皇家",
+    "lessons": [
+      91
+    ]
+  },
+  {
+    "word": "spy",
+    "meaning": "v.侦察",
+    "lessons": [
+      91
+    ]
+  },
+  {
+    "word": "track",
+    "meaning": "n.轨迹，踪迹",
+    "lessons": [
+      91
+    ]
+  },
+  {
+    "word": "binoculars",
+    "meaning": "n.望远镜",
+    "lessons": [
+      91
+    ]
+  },
+  {
+    "word": "fast",
+    "meaning": "ad.熟(睡)",
+    "lessons": [
+      92
+    ]
+  },
+  {
+    "word": "ladder",
+    "meaning": "n.梯子",
+    "lessons": [
+      92
+    ]
+  },
+  {
+    "word": "shed",
+    "meaning": "n.棚子",
+    "lessons": [
+      92
+    ]
+  },
+  {
+    "word": "sarcastic",
+    "meaning": "a.讽刺的，讥笑的",
+    "lessons": [
+      92
+    ]
+  },
+  {
+    "word": "tone",
+    "meaning": "n.语气，腔调",
+    "lessons": [
+      92
+    ]
+  },
+  {
+    "word": "noble",
+    "meaning": "a.高尚的，壮丽的",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "monument",
+    "meaning": "n.纪念碑",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "statue",
+    "meaning": "n.雕像",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "liberty",
+    "meaning": "n.自由",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "sculptor",
+    "meaning": "n.雕刻家",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "actual",
+    "meaning": "a.实际的，真实的",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "copper",
+    "meaning": "n.铜",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "support",
+    "meaning": "v.支持，支撑",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "framework",
+    "meaning": "n.构架，框架",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "transport",
+    "meaning": "v.运送",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "site",
+    "meaning": "n.场地",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "pedestal",
+    "meaning": "n.底座",
+    "lessons": [
+      93
+    ]
+  },
+  {
+    "word": "Los Angeles",
+    "meaning": "洛杉矶",
+    "lessons": [
+      94
+    ]
+  },
+  {
+    "word": "reluctant",
+    "meaning": "a.勉强的，不愿意的",
+    "lessons": [
+      94
+    ]
+  },
+  {
+    "word": "weight",
+    "meaning": "n.重物",
+    "lessons": [
+      94
+    ]
+  },
+  {
+    "word": "underwater",
+    "meaning": "a.水下的;ad. 在水下",
+    "lessons": [
+      94
+    ]
+  },
+  {
+    "word": "tricycle",
+    "meaning": "n.三轮车",
+    "lessons": [
+      94
+    ]
+  },
+  {
+    "word": "compete",
+    "meaning": "v.比赛，对抗",
+    "lessons": [
+      94
+    ]
+  },
+  {
+    "word": "yard",
+    "meaning": "n.码",
+    "lessons": [
+      94
+    ]
+  },
+  {
+    "word": "gasp",
+    "meaning": "v.喘气",
+    "lessons": [
+      94
+    ]
+  },
+  {
+    "word": "fantasy(title)",
+    "meaning": "n.幻想故事",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "ambassador",
+    "meaning": "n.大使",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "Escalopia",
+    "meaning": "n.艾斯卡罗比亚(虚构的国名)",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "frightful",
+    "meaning": "a.可怕的，令人吃惊的",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "fire extinguisher",
+    "meaning": "灭火器",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "drily",
+    "meaning": "ad.冷淡地，枯燥无味地",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "embassy",
+    "meaning": "n.大使馆",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "heaven",
+    "meaning": "n.天，天堂",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "basement",
+    "meaning": "n.地下室",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "definitely",
+    "meaning": "ad.肯定地",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "post",
+    "meaning": "v.派任",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "shot",
+    "meaning": "n.子弹",
+    "lessons": [
+      95
+    ]
+  },
+  {
+    "word": "festival",
+    "meaning": "n.节日",
+    "lessons": [
+      96
+    ]
+  },
+  {
+    "word": "lantern",
+    "meaning": "n.灯笼",
+    "lessons": [
+      96
+    ]
+  },
+  {
+    "word": "spectacle",
+    "meaning": "n.景象，壮观，场面",
+    "lessons": [
+      96
+    ]
+  }
+]

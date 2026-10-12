@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-020",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-ced37035-5c96-4509-bc5c-ae9a1ba368fa.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — experience (n.经历): An adult traveler looks back at a small album of three different past journeys, memories of things personally done.\nTOP RIGHT — lift (n.搭便车): A friendly driver stops a car and offers a waiting traveler a ride; passenger opens door, no elevator.\nBOTTOM LEFT — reply (vi.回答): One person asks a question with a small question-mark bubble; the other responds with an open hand and a blank speech bubble.\nBOTTOM RIGHT — language (n.语言): Two people communicate with speech bubbles containing different abstract glyph-like marks, not readable words, shared understanding.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "experience",
+      "meaning": "n.经历",
+      "filename": "academy-b2-53e5e7c5a8848937.png",
+      "scene": "An adult traveler looks back at a small album of three different past journeys, memories of things personally done."
+    },
+    {
+      "index": 1,
+      "word": "lift",
+      "meaning": "n.搭便车",
+      "filename": "academy-b2-5364b92e50b1944f.png",
+      "scene": "A friendly driver stops a car and offers a waiting traveler a ride; passenger opens door, no elevator."
+    },
+    {
+      "index": 2,
+      "word": "reply",
+      "meaning": "vi.回答",
+      "filename": "academy-b2-5782b18687e6cf8a.png",
+      "scene": "One person asks a question with a small question-mark bubble; the other responds with an open hand and a blank speech bubble."
+    },
+    {
+      "index": 3,
+      "word": "language",
+      "meaning": "n.语言",
+      "filename": "academy-b2-a4ef304ba42a200b.png",
+      "scene": "Two people communicate with speech bubbles containing different abstract glyph-like marks, not readable words, shared understanding."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

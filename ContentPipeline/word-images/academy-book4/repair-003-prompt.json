@@ -1,0 +1,27 @@
+{
+  "id": "academy-b4-repair-003",
+  "cells": [
+    {
+      "index": 0,
+      "word": "circuit",
+      "meaning": "n.线路，电路",
+      "filename": "academy-b4-4666a3f66bc600ad.png",
+      "scene": "A simple CLOSED loop of wire connects a battery to both terminals of a small bulb holder. NO SWITCH ANYWHERE. Battery has exactly two terminals. Bulb glows. Every wire visibly touches a terminal, no gaps. Small isolated circuit."
+    },
+    {
+      "index": 1,
+      "word": "patent",
+      "meaning": "n.专利 v.得到专利权",
+      "filename": "academy-b4-4cd6b391db6a118b.png",
+      "scene": "An inventor holds a sealed official document beside a small original machine model. Compact bust-and-desk scene, entirely within TOP RIGHT quadrant."
+    },
+    {
+      "index": 2,
+      "word": "physiological",
+      "meaning": "a.生理的",
+      "filename": "academy-b4-d5552dbb68681b97.png",
+      "scene": "Small complete human silhouette with lungs, heart and stomach visible, simplified educational body-functions image. The top of the HEAD must be BELOW 62% of total image height, feet above 94%. Entire figure comfortably within bottom-left cell."
+    }
+  ],
+  "prompt": "Square 2x2 educational ink-and-watercolor atlas. Attached image STYLE ONLY. Pure white background, blue-charcoal outlines, restrained pale watercolor. Each drawing occupies only central 60% of its quadrant. No text, no labels or grid. Very wide white midline bands. Row-major cells:\nTOP LEFT: A simple CLOSED loop of wire connects a battery to both terminals of a small bulb holder. NO SWITCH ANYWHERE. Battery has exactly two terminals. Bulb glows. Every wire visibly touches a terminal, no gaps. Small isolated circuit.\nTOP RIGHT: An inventor holds a sealed official document beside a small original machine model. Compact bust-and-desk scene, entirely within TOP RIGHT quadrant.\nBOTTOM LEFT: Small complete human silhouette with lungs, heart and stomach visible, simplified educational body-functions image. The top of the HEAD must be BELOW 62% of total image height, feet above 94%. Entire figure comfortably within bottom-left cell.\nBOTTOM RIGHT: completely empty white."
+}

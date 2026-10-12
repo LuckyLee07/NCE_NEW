@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-094",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-25ebede9-23d4-4346-8e28-195b37d456ca.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — knock (v.敲，打): A clear compact educational illustration of 'knock', specifically its curriculum meaning 'v.敲，打'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — quiet (a.宁静的，安静的): A clear compact educational illustration of 'quiet', specifically its curriculum meaning 'a.宁静的，安静的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — impossible (a.不可能的): A clear compact educational illustration of 'impossible', specifically its curriculum meaning 'a.不可能的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — invite (v.邀请): A clear compact educational illustration of 'invite', specifically its curriculum meaning 'v.邀请'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "knock",
+      "meaning": "v.敲，打",
+      "lessons": [
+        115
+      ],
+      "filename": "academy-b1-392245974134021a.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'knock', specifically its curriculum meaning 'v.敲，打'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "quiet",
+      "meaning": "a.宁静的，安静的",
+      "lessons": [
+        115
+      ],
+      "filename": "academy-b1-008f0747f4e27c84.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'quiet', specifically its curriculum meaning 'a.宁静的，安静的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "impossible",
+      "meaning": "a.不可能的",
+      "lessons": [
+        115
+      ],
+      "filename": "academy-b1-1298a63b90dc1097.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'impossible', specifically its curriculum meaning 'a.不可能的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "invite",
+      "meaning": "v.邀请",
+      "lessons": [
+        115
+      ],
+      "filename": "academy-b1-5014f9af3a684fdd.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'invite', specifically its curriculum meaning 'v.邀请'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

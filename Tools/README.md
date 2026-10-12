@@ -110,6 +110,72 @@ imprecise drafts, including the lesson-specific gliding bird, and explicitly
 record the shared bookcase/shelf cell. There are 120 AI illustrations and 415
 labelled meaning cards. Start future IDs at `atlas-030` to preserve history.
 
+### Academy Book 1 visuals (2026-10-11)
+
+`ContentPipeline/word-images/academy-book1/plan.json` covers all 605 Book 1
+word keys: 581 words with visuals (565 distinct PNGs, including 62 native
+diagrams, 30 supplemental context scenes, 12 approved pilot images and 16
+explicit shared illustrations) plus 24 native grammar/discourse hints.
+The 116-word audit and previous hints are retained in `supplement.json`. Runtime selection uses `academy-image-map.json` and the
+book-aware resource-store API. Each book has a separate map, so shared spellings
+do not override a different book's word sense.
+Every new image is a 320×320 PNG, at most 200,000 bytes, with no JPEG encoding.
+Native hints and context captions leave the target word blank and use the same
+visibility as meanings. Supplemental diagrams/scenes display at up to 200 pt
+in the wordbook and 160 pt within lessons;
+context captions are native, accessible text and wrap independently of the art.
+
+The initial 116 generation receipts, five original correction receipts, eight
+supplemental receipts and one supplemental correction receipt in `jobs/` retain
+prompts, original generated atlas locations, cell order and assistant visual
+review status. Replaced cells are marked `superseded_by`. The exporter
+skips those cells, so receipts can be replayed in filename order into an empty
+output directory. Original atlases live at their recorded local generation paths;
+keep those files when moving or reproducing the pipeline. They are not bundled.
+
+```sh
+xcrun clang -fobjc-arc -framework Foundation -framework ImageIO -framework CoreGraphics \
+  Tools/export_academy_word_atlas.m -o /tmp/nce-export-academy-atlas
+# For each receipt, export into the same empty staging directory, then install PNGs.
+/tmp/nce-export-academy-atlas <receipt.json> <staging-directory>
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcrun swift \
+  -module-cache-path /tmp/nce-academy-swift-cache Tools/render_academy_word_diagrams.swift
+python3 Tools/build_academy_word_images.py
+bash Tools/test_academy_word_images.sh
+```
+
+The strict builder requires complete coverage and reviewed source receipts.
+`Docs/word-resources/academy-book1-review.html` is a searchable gallery of all
+images and hints; the adjacent JSON report records file hashes, sizes and source
+receipts. The Swift renderer creates deterministic calendar, count and relation
+diagrams directly; it does not edit generated illustrations.
+`testAcademyBookOneVisuals` checks grammar hints, scene captions, calendar/timeline
+loading and nonoverlapping layout in the isolated QA app.
+
+### Academy Book 2 visuals
+
+`ContentPipeline/word-images/academy-book2/plan.json` maps 838 independent word
+keys to 660 new scene illustrations, 81 native diagrams, 69 explicitly reviewed
+Book 1 reuses, six within-book aliases and 22 native grammar/discourse hints.
+Its 165 initial atlas jobs use the same approved reference and PNG constraints.
+`references.json` records primary references for specialized aircraft and space
+equipment. Generation receipts and correction history follow the Book 1 format.
+
+```sh
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcrun swift \
+  -module-cache-path /tmp/nce-academy-swift-cache Tools/render_academy_word_diagrams.swift 2
+python3 Tools/build_academy_word_images.py --book 2
+bash Tools/test_academy_word_images.sh NCE_ALL/data/words 2
+```
+
+The strict builder writes `academy-book2-image-map.json`, a per-word report and
+`Docs/word-resources/academy-book2-review.html`. Use `--allow-partial` only during
+generation; a partial report lists every missing word and is not completion
+evidence. The resource test checks all words, image budgets and decoding, scoped
+captions/hints and different-sense words such as bank, pool, key, hand and spring.
+`testAcademyBookTwoVisuals` and `testAcademyBookTwoEmbedded` exercise the wordbook
+and lesson views in the isolated QA app. Books 3–4 retain their existing resources.
+
 ## Review Evidence
 
 `review_word_audio.py` uses a pre-existing local Whisper model and directly
@@ -133,7 +199,38 @@ answer aliases without migrating raw database/progress keys. `semantic-repairs.j
 allows five original wrong-sense mappings to use new case-safe pictures without
 overwriting any original JPEG. Tests verify that these scopes remain explicit.
 
+## App icon export
+
+`export_brand_assets.swift <repository-root> --icons-only` exports the approved
+`ContentPipeline/branding/source/icon.png` to every slot in the AppIcon catalog
+without regenerating book covers. It writes opaque sRGB PNGs and records their
+dimensions and hashes in `Docs/branding/icon-asset-report.json`. Run with the
+Swift toolchain and macOS SDK from the same Xcode installation.
+
+The current icon is the user-approved lighter-background revision of concept 05,
+耳机书本精灵 (2026-10-12), from `Design/2026-10-12-icon-lighter/`.
+The earlier darker background and specification are preserved in
+`ContentPipeline/branding/revisions/20261012-before-lighter-background/`.
+The previous icon and design specification are preserved in
+`ContentPipeline/branding/revisions/20261012-before-book-companion/`.
+
 ## Independent UI QA
+
+Keep simulator ad-hoc signing enabled (`CODE_SIGNING_ALLOWED=YES
+CODE_SIGN_IDENTITY=-`). An unsigned resource bundle can run but fail
+SplashBoard's launch-storyboard validation, producing a black launch screen.
+The app creates its main window in AppDelegate; LaunchScreen must only be set
+as `UILaunchStoryboardName`, not `UIMainStoryboardFile`.
+
+Startup/loading checks (2026-10-12): `testStartupLoadingAndRecovery`,
+`testStartupSlowPreparation`, and `testAudioPreparationCancellation` cover
+preparation feedback, retry, relaunch, and stale audio cancellation. The QA-only
+arguments `-NCEStartupPreview` (12-second preview), `-NCEStartupFailOnce`,
+`-NCEStartupReduceMotion`, and `-NCEAudioPreparationPreview` require both Debug
+and `-NCEOfflineResourceQA` on a `.resourceqa` bundle. Cold startup shows a 0.8-second brand introduction while preparation runs
+concurrently. Real work taking longer keeps the loading state visible; failures
+show retry immediately. Retries and foreground restoration add no minimum wait. Preview captures and the generated transparent
+mascot source are in `Design/2026-10-12-loading/`.
 
 The shared `NCE_Content_QA` scheme launches a separate App identity. Tests refuse
 to run without a `.resourceqa` bundle identifier, so the production App's records
@@ -146,7 +243,7 @@ xcodebuild -project NCE_ALL.xcodeproj -scheme NCE_Content_QA \
   -derivedDataPath /tmp/NCEContentQA -resultBundlePath /tmp/NCEContentQA.xcresult \
   -parallel-testing-enabled NO \
   NCE_APP_BUNDLE_IDENTIFIER=com.palmgame.NCEALL.resourceqa.local \
-  CODE_SIGNING_ALLOWED=NO test
+  CODE_SIGNING_ALLOWED=YES CODE_SIGN_IDENTITY=- test
 ```
 
 The test-only launch argument `-NCEOfflineResourceQA` suppresses SDK startup and
@@ -165,3 +262,26 @@ testing remains deferred until the user can unlock the device.
 --output <REPORT_JSON>` compares the real packaged files with source, validates
 the database and preserved JPEGs, and optionally verifies original WAVs against
 an earlier independently built App. This is packaging evidence, not content approval.
+
+
+### Study interface QA (2026-10-11)
+
+The current UI suite follows the three root tabs and the shared lesson sections.
+It covers four volumes, current-volume search and empty results, dictation drafts
+across section switches and relaunches, explicit grading, skips, wrong-only retry,
+all-correct results, recall modes, saved bookmarks, corrected word names, and four
+interface languages. Compact/iPad and accessibility text-size checks are separate
+selectable test methods. The store capture test retains the host recorder markers
+and runs only with the `.resourceqa.storemedia` identity.
+
+The temporary `-NCEPreviewBanner` implementation was removed when the user asked
+to retain the submitted 1.3 (1) advertising behavior. Offline tests no longer
+simulate a banner. `-NCEResetStudyQA` clears study UI preferences and practice drafts
+only in the isolated Debug QA app; relaunch-resume tests remove that flag.
+Tests do not validate live ad delivery.
+
+Run the Foundation-only practice state checks with:
+
+```sh
+bash Tools/test_practice_session.sh
+```

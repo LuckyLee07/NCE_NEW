@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-067",
+  "cells": [
+    {
+      "index": 0,
+      "word": "psychiatrist",
+      "meaning": "n.精神病学家",
+      "filename": "academy-b4-db20d1a5865eb62c.png",
+      "scene": "A psychiatrist listens attentively to an adult patient in a calm consultation room."
+    },
+    {
+      "index": 1,
+      "word": "punctuate",
+      "meaning": "v.不时介入",
+      "filename": "academy-b4-116b84b0e1d80651.png",
+      "scene": "A quiet talk repeatedly interrupted by a ringing small bell, pause markers."
+    },
+    {
+      "index": 2,
+      "word": "jerky",
+      "meaning": "a.急动的",
+      "filename": "academy-b4-4e605ba19bb9781a.png",
+      "scene": "A toy cart moves in short uneven jolts, separated short motion arrows."
+    },
+    {
+      "index": 3,
+      "word": "disorder",
+      "meaning": "n.失调",
+      "filename": "academy-b4-4dbaa586691a70d8.png",
+      "scene": "A disrupted sleep pattern shown with a restless sleeper and alternating small moon and wakeful-eye icons."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — psychiatrist (n.精神病学家): A psychiatrist listens attentively to an adult patient in a calm consultation room.\nTOP RIGHT — punctuate (v.不时介入): A quiet talk repeatedly interrupted by a ringing small bell, pause markers.\nBOTTOM LEFT — jerky (a.急动的): A toy cart moves in short uneven jolts, separated short motion arrows.\nBOTTOM RIGHT — disorder (n.失调): A disrupted sleep pattern shown with a restless sleeper and alternating small moon and wakeful-eye icons.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-067.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "ed906b6ecc435c3c134f9e98856d96392a8169647b134aded357e04015887e6e"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-046",
+  "cells": [
+    {
+      "index": 0,
+      "word": "suspension",
+      "meaning": "n.悬，吊",
+      "filename": "academy-b3-f06e8488f1a61914.png",
+      "scene": "A small bridge deck hangs from overhead cables between two towers; hanging support clearly visible."
+    },
+    {
+      "index": 1,
+      "word": "situation",
+      "meaning": "n.地点，地方",
+      "filename": "academy-b3-fc097e65503cb3ad.png",
+      "scene": "A small house is located between a river and a hill, its position emphasized by a blue map pin without text."
+    },
+    {
+      "index": 2,
+      "word": "immortal",
+      "meaning": "a.永生的，流芳百世的",
+      "filename": "academy-b3-556f9cb498932264.png",
+      "scene": "A sculpted bust of a respected historical author remains on a pedestal while several calendar pages pass beside it; enduring memory, symbolic."
+    },
+    {
+      "index": 3,
+      "word": "Brooklyn",
+      "meaning": "n.布鲁克林",
+      "filename": "academy-b3-a1ff4142da5b7577.png",
+      "scene": "A compact view of Brooklyn Bridge stone Gothic towers and suspension cables with modest city buildings behind; place mnemonic, no map or labels."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — suspension (n.悬，吊): A small bridge deck hangs from overhead cables between two towers; hanging support clearly visible.\nTOP RIGHT — situation (n.地点，地方): A small house is located between a river and a hill, its position emphasized by a blue map pin without text.\nBOTTOM LEFT — immortal (a.永生的，流芳百世的): A sculpted bust of a respected historical author remains on a pedestal while several calendar pages pass beside it; enduring memory, symbolic.\nBOTTOM RIGHT — Brooklyn (n.布鲁克林): A compact view of Brooklyn Bridge stone Gothic towers and suspension cables with modest city buildings behind; place mnemonic, no map or labels.",
+  "review_notes": "All cells viewed: suspended bridge deck, house location beside hill and river, historical author's lasting bust with passing blank calendar sheets, and Brooklyn Bridge Gothic towers. Clear meanings, no text or clipping.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-046.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-11b34cbc-4fc2-4cbb-b9d3-9560b5ba7112.png",
+  "source_sha256": "585ed50987712da74d6b8f448777292fe83c0e1c7d0152deaaa0fad79a04c7a8",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

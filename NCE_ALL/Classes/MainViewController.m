@@ -69,55 +69,26 @@ static NSString* const kMainViewControllerCellReuseId = @"kMainViewControllerCel
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kMainViewControllerCellReuseId
-                                                            forIndexPath:indexPath];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.backgroundColor = [UIColor clearColor];
-    cell.contentView.backgroundColor = [UIColor clearColor];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.accessibilityIdentifier = [NSString stringWithFormat:@"mode-%ld", (long)indexPath.row];
+    NCEAcademyCell *cell=[tableView dequeueReusableCellWithIdentifier:kMainViewControllerCellReuseId forIndexPath:indexPath];
     
-    NSArray *array = [cell.contentView subviews];
-    for (UIView *view in array) {
-        [view removeFromSuperview];
-    }
-    
-    CGFloat height = tableView.frame.size.height/_items.count;
-    
-    UILabel *idLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, height, height)];
-    idLabel.backgroundColor = [self.colorArray objectAtIndex:indexPath.row];
-    idLabel.font = [UIFont systemFontOfSize:20*height/50];
-    idLabel.textColor = [UIColor whiteColor];
-    idLabel.text = [NSString stringWithFormat:@"%ld",(long)indexPath.row+1];
-    idLabel.textAlignment = NSTextAlignmentCenter;
-    [cell.contentView addSubview:idLabel];
-    
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(height*4/3, 0, tableView.frame.size.width-height, height)];
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.font = [UIFont systemFontOfSize:14*height/50];
-    titleLabel.textColor = [self.colorArray objectAtIndex:indexPath.row];
-    titleLabel.text = NCEChineseText([_items objectAtIndex:indexPath.row]);
-    titleLabel.textAlignment = NSTextAlignmentLeft;
-    titleLabel.adjustsFontSizeToFitWidth = YES;
-    titleLabel.minimumScaleFactor = 0.65;
-    [cell.contentView addSubview:titleLabel];
-    
-    // show when the cell is selected
-    UIView *maskView = [[UIView alloc] initWithFrame:CGRectMake(height, 0, tableView.frame.size.width-height, height)];
-    maskView.backgroundColor = [UIColor clearColor];
-    maskView.tag = 1000+indexPath.row;
-    [cell.contentView addSubview:maskView];
-    
+    NSArray *symbols=@[@"headphones",@"square.stack.3d.up",@"text.bubble",@"textformat.abc",@"waveform",@"character.bubble",@"character.book.closed",@"magnifyingglass",@"square.and.pencil"];
+    NSArray *hints=@[@"听一句，再读一句",@"图片、释义与发音一起记",@"先想一想，再看释义",@"看释义，回想英文",@"听发音，写下单词",@"根据英文选择释义",@"根据释义选择英文",@"查找本册的单词或释义",@"按熟悉程度安排复习"];
+    [cell configureTitle:NCEChineseText(_items[indexPath.row]) subtitle:NCELocalizedString(hints[indexPath.row]) badge:nil symbol:symbols[indexPath.row]];
+    cell.accessibilityIdentifier=[NSString stringWithFormat:@"mode-%ld",(long)indexPath.row];
+    [cell setEmphasized:indexPath.row==0];
+
     return cell;
 }
+
 
 #pragma mark -
 #pragma mark UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return tableView.frame.size.height/_items.count;
+    return UITableViewAutomaticDimension;
 }
+
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -152,23 +123,8 @@ static NSString* const kMainViewControllerCellReuseId = @"kMainViewControllerCel
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CGFloat height = tableView.frame.size.height/_items.count;
-    
-    if ([tableView respondsToSelector:@selector(setSeparatorInset:)])
-    {
-        [tableView setSeparatorInset:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
-    
-    else if ([tableView respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [tableView setLayoutMargins:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
-    
-    else if ([cell respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [cell setLayoutMargins:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
 }
+
 
 #pragma mark -
 #pragma mark CKAlertViewDelegate
@@ -235,11 +191,13 @@ static NSString* const kMainViewControllerCellReuseId = @"kMainViewControllerCel
     self.tableView.backgroundColor = [UIColor colorWithWhite:1.f alpha:0.9f];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
-    self.tableView.scrollEnabled = NO;
+    self.tableView.scrollEnabled = YES;
     
-    [self.tableView registerClass:[UITableViewCell class]
+    [self.tableView registerClass:[NCEAcademyCell class]
            forCellReuseIdentifier:kMainViewControllerCellReuseId];
     
+    NCEPrepareTable(self.tableView);
+    self.tableView.tableHeaderView=[[NCEAcademyHeader alloc] initWithEyebrow:@"NEW CONCEPT ENGLISH" title:self.titleString subtitle:NCELocalizedString(@"听、记、练，找到适合你的学习方式。") image:@"academy-books"];
     [self.view addSubview:self.tableView];
 }
 

@@ -1,0 +1,42 @@
+{
+  "id": "academy-b3-025",
+  "cells": [
+    {
+      "index": 0,
+      "word": "Southampton",
+      "meaning": "n.南安普敦(英国港口城市)",
+      "filename": "academy-b3-3c1def48af45cb97.png",
+      "scene": "A British harbour-city vignette with a large passenger liner at a dock and a medieval stone gateway in the distance; geography cue."
+    },
+    {
+      "index": 1,
+      "word": "watertight",
+      "meaning": "a.不漏水的",
+      "filename": "academy-b3-8bba3ca371ae7f44.png",
+      "scene": "A closed ship compartment hatch seals blue water on one side while the other side remains completely dry; clear leak-proof barrier.",
+      "superseded_by": "academy-b3-repair-025-01"
+    },
+    {
+      "index": 2,
+      "word": "compartment",
+      "meaning": "n.(轮船的)密封舱",
+      "filename": "academy-b3-d955ef4df6a02f22.png",
+      "scene": "A simple ship cutaway shows three enclosed rectangular compartments, one central compartment highlighted blue, dividing walls clear."
+    },
+    {
+      "index": 3,
+      "word": "flood",
+      "meaning": "v.充满水",
+      "filename": "academy-b3-d8864644c15d33be.png",
+      "scene": "Water pours through a ship opening and fills one enclosed cabin to mid-height, upward water-level arrow, no people."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — Southampton (n.南安普敦(英国港口城市)): A British harbour-city vignette with a large passenger liner at a dock and a medieval stone gateway in the distance; geography cue.\nTOP RIGHT — watertight (a.不漏水的): A closed ship compartment hatch seals blue water on one side while the other side remains completely dry; clear leak-proof barrier.\nBOTTOM LEFT — compartment (n.(轮船的)密封舱): A simple ship cutaway shows three enclosed rectangular compartments, one central compartment highlighted blue, dividing walls clear.\nBOTTOM RIGHT — flood (v.充满水): Water pours through a ship opening and fills one enclosed cabin to mid-height, upward water-level arrow, no people.",
+  "review_notes": "Reviewed Southampton harbour/gateway cue, ship compartment cutaway and rising flood water. Watertight draft hatch angle makes closure ambiguous and is superseded by academy-b3-repair-025-01; retained cells contained and readable.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-025.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-4196d943-6eea-4d67-bf06-502e8e1c6bb3.png",
+  "source_sha256": "b2f842df19877b335f81c8c4244ec264e081df5446447944b1d1937e74ca1485",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

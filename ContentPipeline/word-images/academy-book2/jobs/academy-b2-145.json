@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-145",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-90e64b0b-8e53-45b0-95a1-0aa88d7299ed.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — encouragement (n.鼓励): A coach gives a reassuring thumbs-up to a hesitant runner, supportive encouragement.\nTOP RIGHT — honour (n.敬意, 荣幸): An adult respectfully presents a medal to an older community helper, solemn appreciative ceremony.\nBOTTOM LEFT — coincidence (n.巧合): Two strangers unexpectedly meet wearing identical patterned scarves and look surprised, coincidence.\nBOTTOM RIGHT — devote (v.致力于): A gardener spends focused time caring for plants with notebook and tools, dedicated effort.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "encouragement",
+      "meaning": "n.鼓励",
+      "filename": "academy-b2-a0bc08f0f6c66dcc.png",
+      "scene": "A coach gives a reassuring thumbs-up to a hesitant runner, supportive encouragement."
+    },
+    {
+      "index": 1,
+      "word": "honour",
+      "meaning": "n.敬意, 荣幸",
+      "filename": "academy-b2-a8e0fe140ed8c623.png",
+      "scene": "An adult respectfully presents a medal to an older community helper, solemn appreciative ceremony."
+    },
+    {
+      "index": 2,
+      "word": "coincidence",
+      "meaning": "n.巧合",
+      "filename": "academy-b2-7836790352e86b98.png",
+      "scene": "Two strangers unexpectedly meet wearing identical patterned scarves and look surprised, coincidence."
+    },
+    {
+      "index": 3,
+      "word": "devote",
+      "meaning": "v.致力于",
+      "filename": "academy-b2-2483f281f1555930.png",
+      "scene": "A gardener spends focused time caring for plants with notebook and tools, dedicated effort."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

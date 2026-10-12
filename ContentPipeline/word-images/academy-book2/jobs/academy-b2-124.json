@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-124",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-aedc8f62-751b-4ef9-bd04-369b6498ebea.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — bulletin (n.新闻简报): A short news sheet on a notice board with a small globe picture and blank text lines.\nTOP RIGHT — announcer (n.(电视、电台)播音员): A radio announcer speaks into a studio microphone wearing headphones, no text.\nBOTTOM LEFT — macaroni (n.通心面，空心面条): A small bowl of elbow macaroni pasta, curved hollow tubes clearly visible.\nBOTTOM RIGHT — grower (n.种植者): A vegetable grower tends neat rows of seedlings with a watering can.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "bulletin",
+      "meaning": "n.新闻简报",
+      "filename": "academy-b2-24c5f5564184a4fb.png",
+      "scene": "A short news sheet on a notice board with a small globe picture and blank text lines."
+    },
+    {
+      "index": 1,
+      "word": "announcer",
+      "meaning": "n.(电视、电台)播音员",
+      "filename": "academy-b2-41a449142a692021.png",
+      "scene": "A radio announcer speaks into a studio microphone wearing headphones, no text."
+    },
+    {
+      "index": 2,
+      "word": "macaroni",
+      "meaning": "n.通心面，空心面条",
+      "filename": "academy-b2-50def4b1d9accabb.png",
+      "scene": "A small bowl of elbow macaroni pasta, curved hollow tubes clearly visible."
+    },
+    {
+      "index": 3,
+      "word": "grower",
+      "meaning": "n.种植者",
+      "filename": "academy-b2-91917c5c87ad5619.png",
+      "scene": "A vegetable grower tends neat rows of seedlings with a watering can."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

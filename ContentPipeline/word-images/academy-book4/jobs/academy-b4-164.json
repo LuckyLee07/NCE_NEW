@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-164",
+  "cells": [
+    {
+      "index": 0,
+      "word": "controversial",
+      "meaning": "a.引起争论的",
+      "filename": "academy-b4-188aa6ae3ca8746e.png",
+      "scene": "An audience is divided between approving and objecting to one proposed design."
+    },
+    {
+      "index": 1,
+      "word": "cactus",
+      "meaning": "n.仙人掌",
+      "filename": "academy-b4-caaeac3184e90c7f.png",
+      "scene": "A recognizable cactus with fleshy ribbed stem, small spines and one flower."
+    },
+    {
+      "index": 2,
+      "word": "termite",
+      "meaning": "n.白蚁",
+      "filename": "academy-b4-03897489a16c7de3.png",
+      "scene": "A termite with pale soft body, straight beaded antennae and six legs beside damaged wood; not an ant."
+    },
+    {
+      "index": 3,
+      "word": "variant",
+      "meaning": "a.不同的",
+      "filename": "academy-b4-cb7bf562420b82e9.png",
+      "scene": "Three slightly different versions of the same leaf shape."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — controversial (a.引起争论的): An audience is divided between approving and objecting to one proposed design.\nTOP RIGHT — cactus (n.仙人掌): A recognizable cactus with fleshy ribbed stem, small spines and one flower.\nBOTTOM LEFT — termite (n.白蚁): A termite with pale soft body, straight beaded antennae and six legs beside damaged wood; not an ant.\nBOTTOM RIGHT — variant (a.不同的): Three slightly different versions of the same leaf shape.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-164.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "da16bb54e7dc9963456598e8c8e37c3132c712cb84889b12dcdded445d62cbc9"
+}

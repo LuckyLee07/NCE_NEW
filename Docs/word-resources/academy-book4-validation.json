@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "book_id": 4,
+  "summary": {
+    "book_id": 4,
+    "word_count": 782,
+    "covered_words": 782,
+    "illustrated_words": 739,
+    "native_hints": 43,
+    "native_diagrams": 0,
+    "context_scenes": 550,
+    "unique_image_files": 739,
+    "image_bytes": 96436021,
+    "largest_image_bytes": 192291,
+    "image_size": [
+      320,
+      320
+    ],
+    "image_format": "PNG",
+    "lossy_compression": false,
+    "max_bytes_per_image": 200000,
+    "missing_words": [],
+    "kinds": {
+      "ai_illustration": 739,
+      "native_hint": 43
+    }
+  },
+  "generation": {
+    "mode": "built-in image_gen",
+    "style": "restrained ink and watercolor, white background, matching approved reference",
+    "prompt_set": "ContentPipeline/word-images/academy-book4/prompt-jobs.json",
+    "actual_prompts_and_reviewed_replacements": "ContentPipeline/word-images/academy-book4/jobs",
+    "main_atlases": 185,
+    "repair_atlases": 11,
+    "new_illustrations": 739
+  },
+  "resource_audit": {
+    "status": "passed",
+    "reviewed_atlas_receipts": 196,
+    "active_ai_words": 739,
+    "all_ai_words_have_exactly_one_active_reviewed_receipt": true,
+    "all_atlas_hashes_match": true,
+    "all_referenced_png_hashes_and_budgets_valid": true,
+    "preserved_book1_book2_book3_resources": 2243,
+    "database_unchanged": true
+  },
+  "resource_checks": {
+    "source_book4": "passed:782 keys, PNG decoding/dimensions/budget, hints, captions and book isolation",
+    "packaged_book4": "passed:782 keys; map and all739 PNG byte-identical to source",
+    "book1_regression": "passed:605 keys",
+    "book2_regression": "passed:838 keys",
+    "book3_regression": "passed:1040 keys",
+    "database_unchanged": true,
+    "book1_book2_book3_resources_unchanged": 2243
+  },
+  "build": {
+    "status": "passed",
+    "scheme": "NCE_Content_QA",
+    "configuration": "Debug simulator",
+    "bundle_id": "com.palmgame.NCEALL.resourceqa.book4",
+    "log": "/tmp/nce-academy-book4-ui-final.log",
+    "packaged_images": "739 unique Book4 PNG; generation atlas sources excluded"
+  },
+  "ui_tests": {
+    "status": "passed",
+    "passed": 2,
+    "failed": 0,
+    "result_bundle": "/tmp/nce-academy-book4-ui-final.xcresult",
+    "device": "NCE Word Resources QA",
+    "OS": "iOS 26.2",
+    "coverage": [
+      "Book4 wordbook: fossil man, recount, court, glider, port, Indonesia",
+      "Book4 lesson1 embedded recount image, caption and translation"
+    ],
+    "screenshots": "Docs/word-resources/academy-book4-ui",
+    "screenshot_count": 7,
+    "visual_review": "assistant_visual_reviewed; image, caption, word meaning and controls remain readable; long course examples use scrollable content"
+  },
+  "physical_device_tested": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-036",
+  "cells": [
+    {
+      "index": 0,
+      "word": "Caribbean",
+      "meaning": "n.加勒比海",
+      "filename": "academy-b3-2e6faf4c3a43ae02.png",
+      "scene": "A tropical turquoise sea with three small green islands, palm tree and coral reef visible in foreground; Caribbean geography mnemonic."
+    },
+    {
+      "index": 1,
+      "word": "spear",
+      "meaning": "捕鱼枪",
+      "filename": "academy-b3-8f2cc936b1968c90.png",
+      "scene": "A single recognizable underwater fishing speargun displayed horizontally: a slender blue-gray barrel, a pistol-style molded grip at the rear, a long spear shaft resting along the top and short rubber loops at the front. Whole device isolated beside a tiny fish silhouette. No firearm cartridges, no shooting, no use instructions, no brand or labels."
+    },
+    {
+      "index": 2,
+      "word": "lobster",
+      "meaning": "n.龙虾",
+      "filename": "academy-b3-a2e1c40da1ae335d.png",
+      "scene": "A red-brown lobster with two large claws, segmented tail and long antennae on a small seabed patch."
+    },
+    {
+      "index": 3,
+      "word": "tanker",
+      "meaning": "n.油轮",
+      "filename": "academy-b3-a1c8f4590a880655.png",
+      "scene": "A large oil tanker at sea with broad deck, visible pipe-like deck fittings and rear bridge, no passenger windows or sails."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — Caribbean (n.加勒比海): A tropical turquoise sea with three small green islands, palm tree and coral reef visible in foreground; Caribbean geography mnemonic.\nTOP RIGHT — spear (捕鱼枪): A single recognizable underwater fishing speargun displayed horizontally: a slender blue-gray barrel, a pistol-style molded grip at the rear, a long spear shaft resting along the top and short rubber loops at the front. Whole device isolated beside a tiny fish silhouette. No firearm cartridges, no shooting, no use instructions, no brand or labels.\nBOTTOM LEFT — lobster (n.龙虾): A red-brown lobster with two large claws, segmented tail and long antennae on a small seabed patch.\nBOTTOM RIGHT — tanker (n.油轮): A large oil tanker at sea with broad deck, visible pipe-like deck fittings and rear bridge, no passenger windows or sails.",
+  "review_notes": "Reviewed Caribbean sea cue, recognizable underwater speargun with barrel/grip matching lesson's fishing-gun sense and official Cressi equipment reference, full lobster anatomy and oil tanker deck. Whole objects contained.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-036.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-f4a15905-85a9-402f-8036-b7938ab5f9e9.png",
+  "source_sha256": "e49aaeb048b90a8e733614fda1f7367ee4a5a63d9073d3ead4c36f6f87d8365b",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

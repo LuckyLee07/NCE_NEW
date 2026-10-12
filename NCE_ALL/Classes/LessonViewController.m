@@ -71,73 +71,29 @@ static NSString* const kLessonViewControllerCellReuseId = @"kLessonViewControlle
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kLessonViewControllerCellReuseId
-                                                            forIndexPath:indexPath];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.backgroundColor = [UIColor clearColor];
-    cell.contentView.backgroundColor = [UIColor clearColor];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.accessibilityIdentifier = [NSString stringWithFormat:@"lesson-%ld", (long)indexPath.row];
+    NCEAcademyCell *cell=[tableView dequeueReusableCellWithIdentifier:kLessonViewControllerCellReuseId forIndexPath:indexPath];
     
-    NSArray *array = [cell.contentView subviews];
-    for (UIView *view in array) {
-        [view removeFromSuperview];
-    }
-    
-    CGFloat height = tableView.frame.size.height/10;
-    
-    NSString *nameString = [[_items objectAtIndex:indexPath.row] objectForKey:@"name"];
-    NSArray *lessonArray = [nameString componentsSeparatedByString:@"－"];
-    
-    // lesson name
-    UILabel *idLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, height, height)];
-    idLabel.backgroundColor = [self.colorArray objectAtIndex:indexPath.row%9];
-    idLabel.font = [UIFont systemFontOfSize:12*height/50];
-    idLabel.textColor = [UIColor whiteColor];
-    idLabel.text = NCEChineseText([lessonArray objectAtIndex:0]);
-    idLabel.textAlignment = NSTextAlignmentCenter;
-    [cell.contentView addSubview:idLabel];
-    
-    // english title
-    CGFloat titleX = height * 4 / 3;
-    CGFloat titleWidth = MAX(0, tableView.frame.size.width - titleX - 44);
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(titleX, height/12, titleWidth, height/2)];
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.font = [UIFont systemFontOfSize:14*height/50];
-    titleLabel.textColor = [UIColor blackColor];
-    titleLabel.text = [lessonArray objectAtIndex:1];
-    titleLabel.textAlignment = NSTextAlignmentLeft;
-    titleLabel.adjustsFontSizeToFitWidth = YES;
-    titleLabel.minimumScaleFactor = 0.6;
-    [cell.contentView addSubview:titleLabel];
-    
-    // chinese title
-    UILabel *subTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(titleX, height*7/12, titleWidth, height*5/12)];
-    subTitleLabel.backgroundColor = [UIColor clearColor];
-    subTitleLabel.font = [UIFont systemFontOfSize:12*height/50];
-    subTitleLabel.textColor = [UIColor darkGrayColor];
-    subTitleLabel.text = NCEChineseText([lessonArray objectAtIndex:2]);
-    subTitleLabel.textAlignment = NSTextAlignmentLeft;
-    subTitleLabel.adjustsFontSizeToFitWidth = YES;
-    subTitleLabel.minimumScaleFactor = 0.6;
-    [cell.contentView addSubview:subTitleLabel];
-    
-    // show when the cell is selected
-    UIView *maskView = [[UIView alloc] initWithFrame:CGRectMake(height, 0, tableView.frame.size.width-height, height)];
-    maskView.backgroundColor = [UIColor clearColor];
-    maskView.tag = 1000+indexPath.row;
-    [cell.contentView addSubview:maskView];
-    
+    NSArray *parts=[_items[indexPath.row][@"name"] componentsSeparatedByString:@"－"];
+    NSString *title=parts.count>1 ? parts[1] : _items[indexPath.row][@"name"];
+    NSString *subtitle=parts.count>2 ? NCEChineseText(parts[2]) : @"";
+    NSString *badge=[NSString stringWithFormat:@"%03d",[_items[indexPath.row][@"id"] intValue]];
+    [cell configureTitle:title subtitle:subtitle badge:badge symbol:nil];
+    NSDictionary *resume=[NSUserDefaults.standardUserDefaults dictionaryForKey:@"NCEAcademyResume"];
+    [cell setEmphasized:[resume[@"book"] intValue]==_bookId && [resume[@"lesson"][@"id"] isEqual:_items[indexPath.row][@"id"]]];
+    cell.accessibilityIdentifier=[NSString stringWithFormat:@"lesson-%ld",(long)indexPath.row];
+
     return cell;
 }
+
 
 #pragma mark -
 #pragma mark UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return tableView.frame.size.height/10;
+    return UITableViewAutomaticDimension;
 }
+
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -177,23 +133,8 @@ static NSString* const kLessonViewControllerCellReuseId = @"kLessonViewControlle
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CGFloat height = tableView.frame.size.height/10;
-    
-    if ([tableView respondsToSelector:@selector(setSeparatorInset:)])
-    {
-        [tableView setSeparatorInset:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
-    
-    else if ([tableView respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [tableView setLayoutMargins:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
-    
-    else if ([cell respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [cell setLayoutMargins:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
 }
+
 
 #pragma mark -
 #pragma mark Private Methods
@@ -243,9 +184,11 @@ static NSString* const kLessonViewControllerCellReuseId = @"kLessonViewControlle
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
-    [self.tableView registerClass:[UITableViewCell class]
+    [self.tableView registerClass:[NCEAcademyCell class]
            forCellReuseIdentifier:kLessonViewControllerCellReuseId];
     
+    NCEPrepareTable(self.tableView);
+    self.tableView.tableHeaderView=[[NCEAcademyHeader alloc] initWithEyebrow:@"MY COURSE" title:[NSString stringWithFormat:NCELocalizedString(@"第%d册"),_bookId+1] subtitle:self.titleString image:@"academy-books"];
     [self.view addSubview:self.tableView];
 }
 

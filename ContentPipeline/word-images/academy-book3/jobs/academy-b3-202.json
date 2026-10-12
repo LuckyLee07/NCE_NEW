@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-202",
+  "cells": [
+    {
+      "index": 0,
+      "word": "accusation",
+      "meaning": "n.谴责，指控",
+      "filename": "academy-b3-35bf75021158f423.png",
+      "scene": "One adult formally points out suspected wrongdoing using a document while another stands defending themselves with open palms, no violence."
+    },
+    {
+      "index": 1,
+      "word": "ascertain",
+      "meaning": "v.查出，查明",
+      "filename": "academy-b3-44ea8bc2a14c5611.png",
+      "scene": "An investigator carefully checks the same date on two records and confirms agreement with a small tick mark."
+    },
+    {
+      "index": 2,
+      "word": "prejudiced",
+      "meaning": "a.有偏见的，不公平的",
+      "filename": "academy-b3-90febdc9c2c61d2f.png",
+      "scene": "A judge unfairly listens only to one person and turns away from another who has equally clear evidence, imbalance in attention emphasized without identity stereotypes."
+    },
+    {
+      "index": 3,
+      "word": "insect",
+      "meaning": "n.昆虫",
+      "filename": "academy-b3-db7304319ed7d941.png",
+      "scene": "A recognizable six-legged grasshopper with three body sections, two antennae and wings, isolated educational object view."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — accusation (n.谴责，指控): One adult formally points out suspected wrongdoing using a document while another stands defending themselves with open palms, no violence.\nTOP RIGHT — ascertain (v.查出，查明): An investigator carefully checks the same date on two records and confirms agreement with a small tick mark.\nBOTTOM LEFT — prejudiced (a.有偏见的，不公平的): A judge unfairly listens only to one person and turns away from another who has equally clear evidence, imbalance in attention emphasized without identity stereotypes.\nBOTTOM RIGHT — insect (n.昆虫): A recognizable six-legged grasshopper with three body sections, two antennae and wings, isolated educational object view.",
+  "review_notes": "All cells viewed: formal accusation and denial, confirming matching calendar records, one-sided judicial attention, and recognizable grasshopper with head/thorax/abdomen, antennae, wings and jointed legs. No gross anatomy defects or clipping.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-202.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-9670437b-cb0d-4ac2-9b28-b28f82a76608.png",
+  "source_sha256": "614da740561787e4eb016b4250f0097f2050b7250fcaae229e45f7bcf529c5e4",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

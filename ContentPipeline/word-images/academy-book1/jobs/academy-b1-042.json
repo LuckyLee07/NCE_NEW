@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-042",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-9efb0b27-00ba-4c50-8c8e-a3d882bd50eb.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — climate (n.气候): a small landscape enclosed by a circular sequence of sun, rain cloud and snowflake, long-term seasonal patterns\nTOP RIGHT — country (n.国家; 乡村): a peaceful rural house and field, countryside sense rather than arbitrary political map\nBOTTOM LEFT — pleasant (a.宜人的): A clear compact educational illustration of 'pleasant', specifically its curriculum meaning 'a.宜人的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — weather (n.天气): a single sky vignette combining a sun and small rain cloud, weather conditions",
+  "cells": [
+    {
+      "word": "climate",
+      "meaning": "n.气候",
+      "lessons": [
+        51
+      ],
+      "filename": "academy-b1-10db699812d02cc5.png",
+      "kind": "ai_illustration",
+      "scene": "a small landscape enclosed by a circular sequence of sun, rain cloud and snowflake, long-term seasonal patterns",
+      "index": 0
+    },
+    {
+      "word": "country",
+      "meaning": "n.国家; 乡村",
+      "lessons": [
+        51,
+        67
+      ],
+      "filename": "academy-b1-aff64e4fd520bd18.png",
+      "kind": "ai_illustration",
+      "scene": "a peaceful rural house and field, countryside sense rather than arbitrary political map",
+      "index": 1
+    },
+    {
+      "word": "pleasant",
+      "meaning": "a.宜人的",
+      "lessons": [
+        51
+      ],
+      "filename": "academy-b1-54c0bcab0e733437.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'pleasant', specifically its curriculum meaning 'a.宜人的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "weather",
+      "meaning": "n.天气",
+      "lessons": [
+        51
+      ],
+      "filename": "academy-b1-e5e72beb4e3c6926.png",
+      "kind": "ai_illustration",
+      "scene": "a single sky vignette combining a sun and small rain cloud, weather conditions",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-068",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-bf428e3e-7bca-4419-badf-9bf3e646057a.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — pair (n.双，对): two matching shoes side by side, unmistakable pair\nTOP RIGHT — fashion (n.(服装的)流行式样): A clear compact educational illustration of 'fashion', specifically its curriculum meaning 'n.(服装的)流行式样'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — uncomfortable (a.不舒服的): A clear compact educational illustration of 'uncomfortable', specifically its curriculum meaning 'a.不舒服的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — wear (v.穿着): A clear compact educational illustration of 'wear', specifically its curriculum meaning 'v.穿着'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "pair",
+      "meaning": "n.双，对",
+      "lessons": [
+        75
+      ],
+      "filename": "academy-b1-47d8bd46877831cc.png",
+      "kind": "ai_illustration",
+      "scene": "two matching shoes side by side, unmistakable pair",
+      "index": 0
+    },
+    {
+      "word": "fashion",
+      "meaning": "n.(服装的)流行式样",
+      "lessons": [
+        75
+      ],
+      "filename": "academy-b1-309d267f086d5fe5.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'fashion', specifically its curriculum meaning 'n.(服装的)流行式样'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "uncomfortable",
+      "meaning": "a.不舒服的",
+      "lessons": [
+        75
+      ],
+      "filename": "academy-b1-7b617aac7d2b7df9.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'uncomfortable', specifically its curriculum meaning 'a.不舒服的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "wear",
+      "meaning": "v.穿着",
+      "lessons": [
+        75
+      ],
+      "filename": "academy-b1-c47fbc5d87a12981.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'wear', specifically its curriculum meaning 'v.穿着'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "academy-b3-209",
+  "cells": [
+    {
+      "index": 0,
+      "word": "Venus",
+      "meaning": "n.金星",
+      "filename": "academy-b3-4f1c63f9aba8ccb6.png",
+      "scene": "Planet Venus appears as a pale yellow-white globe almost completely covered in smooth opaque clouds against dark space; no Earth-like oceans or red Mars surface."
+    },
+    {
+      "index": 1,
+      "word": "Mars",
+      "meaning": "n.火星",
+      "filename": "academy-b3-a0a6ca091c70a952.png",
+      "scene": "Planet Mars appears as a small rust-red rocky globe with dark surface patches and a pale polar cap against dark space."
+    },
+    {
+      "index": 2,
+      "word": "orbit",
+      "meaning": "n.运行轨道",
+      "filename": "academy-b3-4fa1a13ac468ac49.png",
+      "scene": "One small planet travels along an elliptical orbital path around a central star, current planet and subtle curved direction marker on the track.",
+      "superseded_by": "academy-b3-repair-209-01"
+    },
+    {
+      "index": 3,
+      "word": "astronomical",
+      "meaning": "a.天文学的",
+      "filename": "academy-b3-890c6c8e309d9e47.png",
+      "scene": "An astronomer studies a telescope image of a galaxy beside a star chart in an observatory, unmistakable astronomy context.",
+      "superseded_by": "academy-b3-repair-209-01"
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — Venus (n.金星): Planet Venus appears as a pale yellow-white globe almost completely covered in smooth opaque clouds against dark space; no Earth-like oceans or red Mars surface.\nTOP RIGHT — Mars (n.火星): Planet Mars appears as a small rust-red rocky globe with dark surface patches and a pale polar cap against dark space.\nBOTTOM LEFT — orbit (n.运行轨道): One small planet travels along an elliptical orbital path around a central star, current planet and subtle curved direction marker on the track.\nBOTTOM RIGHT — astronomical (a.天文学的): An astronomer studies a telescope image of a galaxy beside a star chart in an observatory, unmistakable astronomy context.",
+  "review_notes": "Venus and Mars viewed and accepted: opaque pale cloud-covered Venus, red rocky Mars with pale polar cap. Orbit and astronomical are superseded: the original elliptical orbit places Sun at center; the observatory dome crosses the horizontal crop midpoint.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-209.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-c737a9ca-f1a8-4608-bd89-b5b425f1e0d8.png",
+  "source_sha256": "1634d24652faa55c58f42fa2732f908e8c119227c92ab2f6c3d5e8da053ffe4f",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-059",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-c53accb1-0856-4cf5-8239-82d4d7df2613.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — better (a.较好的；ad.更好): A clear compact educational illustration of 'better', specifically its curriculum meaning 'a.较好的；ad.更好'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — certainly (ad.当然): A clear compact educational illustration of 'certainly', specifically its curriculum meaning 'ad.当然'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — get up (起床): an adult getting OUT OF BED in the morning, sitting at bed edge and placing feet into slippers, fully clothed in pajamas; not merely standing from a chair\nBOTTOM RIGHT — rich (a.油腻的): a buttery creamy slice of cake with cream, rich/oily FOOD sense; no wealthy person",
+  "cells": [
+    {
+      "word": "better",
+      "meaning": "a.较好的；ad.更好",
+      "lessons": [
+        63
+      ],
+      "filename": "academy-b1-d7d5dcc369426e2e.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'better', specifically its curriculum meaning 'a.较好的；ad.更好'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "certainly",
+      "meaning": "ad.当然",
+      "lessons": [
+        63
+      ],
+      "filename": "academy-b1-00fd2615de994cb3.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'certainly', specifically its curriculum meaning 'ad.当然'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "get up",
+      "meaning": "起床",
+      "lessons": [
+        63
+      ],
+      "filename": "academy-b1-4553dee862f05c9f.png",
+      "kind": "ai_illustration",
+      "scene": "an adult getting OUT OF BED in the morning, sitting at bed edge and placing feet into slippers, fully clothed in pajamas; not merely standing from a chair",
+      "index": 2
+    },
+    {
+      "word": "rich",
+      "meaning": "a.油腻的",
+      "lessons": [
+        63
+      ],
+      "filename": "academy-b1-7baa68f2418ba82d.png",
+      "kind": "ai_illustration",
+      "scene": "a buttery creamy slice of cake with cream, rich/oily FOOD sense; no wealthy person",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

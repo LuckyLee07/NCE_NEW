@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-070",
+  "cells": [
+    {
+      "index": 0,
+      "word": "vivid",
+      "meaning": "a.生动的",
+      "filename": "academy-b3-685ee53b55aa432d.png",
+      "scene": "A storyteller's open book gives rise to a richly colored imagined landscape, vivid imagery against a pale real room."
+    },
+    {
+      "index": 1,
+      "word": "dramatic",
+      "meaning": "a.令人激动的，扣人心弦的",
+      "filename": "academy-b3-9c51288ab4f6ae0c.png",
+      "scene": "An audience leans forward with suspense as a stage performer reaches toward a falling prop vase, theatrical tension without danger."
+    },
+    {
+      "index": 2,
+      "word": "ruin",
+      "meaning": "v.毁坏",
+      "filename": "academy-b3-4a38d08340cba469.png",
+      "scene": "A spilled cup of dark ink has ruined a carefully painted picture on a desk; disappointed artist nearby."
+    },
+    {
+      "index": 3,
+      "word": "heroine",
+      "meaning": "n.女主人公",
+      "filename": "academy-b3-1d4e4796f6a2a2ab.png",
+      "scene": "A female protagonist in a simple adventure story helps another traveler across a stream, centered confidently in the scene."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — vivid (a.生动的): A storyteller's open book gives rise to a richly colored imagined landscape, vivid imagery against a pale real room.\nTOP RIGHT — dramatic (a.令人激动的，扣人心弦的): An audience leans forward with suspense as a stage performer reaches toward a falling prop vase, theatrical tension without danger.\nBOTTOM LEFT — ruin (v.毁坏): A spilled cup of dark ink has ruined a carefully painted picture on a desk; disappointed artist nearby.\nBOTTOM RIGHT — heroine (n.女主人公): A female protagonist in a simple adventure story helps another traveler across a stream, centered confidently in the scene.\nCROP SAFETY: scale every scene down enough to leave 15% whitespace inside EACH cell. Bottom-row subjects including heads and hair start BELOW 58% of total canvas height. Keep all heads, hands and main objects entirely visible.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-070.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Four cells inspected: concrete textbook meanings, full principal subjects, safe boundaries and natural anatomy; no baked vocabulary labels.",
+  "source_sha256": "a130dd90fcca33dbc0b8fd27cf3932962319377d247c8102320fc7b565246c3b"
+}

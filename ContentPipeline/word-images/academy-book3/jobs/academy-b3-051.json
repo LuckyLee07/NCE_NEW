@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-051",
+  "cells": [
+    {
+      "index": 0,
+      "word": "magnetize",
+      "meaning": "v.使磁化",
+      "filename": "academy-b3-15788c15b925a45c.png",
+      "scene": "An unmagnetized grey steel bar on the left does not attract paperclips; the same bar blue on the right attracts several paperclips, one arrow between."
+    },
+    {
+      "index": 1,
+      "word": "repel",
+      "meaning": "v.排斥",
+      "filename": "academy-b3-53499abbfdfb4ad6.png",
+      "scene": "Two bar magnets face like-colored ends toward each other and move apart, outward arrows show repulsion, no letters.",
+      "superseded_by": "academy-b3-repair-002"
+    },
+    {
+      "index": 2,
+      "word": "flicker",
+      "meaning": "v.闪烁",
+      "filename": "academy-b3-e18dff93da444b37.png",
+      "scene": "A candle flame is shown with two faint offset outlines and tiny changing rays to suggest unsteady flickering light."
+    },
+    {
+      "index": 3,
+      "word": "emit",
+      "meaning": "v.放射",
+      "filename": "academy-b3-967dd4a091e2d8c8.png",
+      "scene": "A small glowing lamp sends blue rays outward in all directions, emphasis on giving off light."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — magnetize (v.使磁化): An unmagnetized grey steel bar on the left does not attract paperclips; the same bar blue on the right attracts several paperclips, one arrow between.\nTOP RIGHT — repel (v.排斥): Two bar magnets face like-colored ends toward each other and move apart, outward arrows show repulsion, no letters.\nBOTTOM LEFT — flicker (v.闪烁): A candle flame is shown with two faint offset outlines and tiny changing rays to suggest unsteady flickering light.\nBOTTOM RIGHT — emit (v.放射): A small glowing lamp sends blue rays outward in all directions, emphasis on giving off light.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-051.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected all cells for textbook sense, legibility, anatomy and crop boundaries; excluded cells explicitly superseded for repair.",
+  "source_sha256": "ce48682cf2b573b8bf5659d690a481da1dd29d6698272c97b04bb4f24dae4b5b"
+}

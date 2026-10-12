@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-repair-01",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-a8948adc-654a-4588-982f-a0d188a89d55.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — fail (v.无视,忘记；失败,不及格): A disappointed adult student holds an exam paper showing ONLY 40/100 and one red cross, teacher gently points at the score. No other writing.\nTOP RIGHT — reward (n.报偿): A smiling teacher places a gold star-shaped medal on a proud adult student as a reward for excellent work. Clear medal on blue ribbon, no writing.\nBOTTOM LEFT — accidentally (ad.意外地，偶然地): One adult reaches with their LEFT hand for a blue book while their RIGHT elbow accidentally knocks over a water glass on a table. Exactly two arms and two hands, no hand holding the glass, surprised face.\nBOTTOM RIGHT — remove (v.拆掉，取下): Hands hold a framed landscape clearly away from a bare wall hook. The empty wall hook is on the RIGHT, the removed picture in hands is on the LEFT. One clear blue arrow starts beside the wall hook and points LEFT toward the picture, showing taking it OFF the wall.\nThe TOP LEFT exam score 40/100 is explicitly allowed text. Carefully obey arrow direction in bottom right.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "fail",
+      "meaning": "v.无视,忘记；失败,不及格",
+      "filename": "academy-b2-51280dabfbc880cd.png",
+      "scene": "A disappointed adult student holds an exam paper showing ONLY 40/100 and one red cross, teacher gently points at the score. No other writing."
+    },
+    {
+      "index": 1,
+      "word": "reward",
+      "meaning": "n.报偿",
+      "filename": "academy-b2-7696fff84f26472a.png",
+      "scene": "A smiling teacher places a gold star-shaped medal on a proud adult student as a reward for excellent work. Clear medal on blue ribbon, no writing."
+    },
+    {
+      "index": 2,
+      "word": "accidentally",
+      "meaning": "ad.意外地，偶然地",
+      "filename": "academy-b2-9b60bf1026e0936e.png",
+      "scene": "One adult reaches with their LEFT hand for a blue book while their RIGHT elbow accidentally knocks over a water glass on a table. Exactly two arms and two hands, no hand holding the glass, surprised face."
+    },
+    {
+      "index": 3,
+      "word": "remove",
+      "meaning": "v.拆掉，取下",
+      "filename": "academy-b2-7e5608ab610017af.png",
+      "scene": "Hands hold a framed landscape clearly away from a bare wall hook. The empty wall hook is on the RIGHT, the removed picture in hands is on the LEFT. One clear blue arrow starts beside the wall hook and points LEFT toward the picture, showing taking it OFF the wall."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

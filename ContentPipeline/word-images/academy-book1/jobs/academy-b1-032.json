@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-032",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-cb292ce1-2def-404d-a808-51a1125db2c1.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — bookcase (n.书橱，书架): A clear compact educational illustration of 'bookcase', specifically its curriculum meaning 'n.书橱，书架'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — hammer (n.锤子): A clear compact educational illustration of 'hammer', specifically its curriculum meaning 'n.锤子'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — paint (v.上漆，涂): a hand holding a paintbrush applying a pale-blue coat to a wooden chair, verb painting a surface\nBOTTOM RIGHT — pink (n.& a.粉红色): a single pink watercolor paint swatch and brush; actual pink",
+  "cells": [
+    {
+      "word": "bookcase",
+      "meaning": "n.书橱，书架",
+      "lessons": [
+        37
+      ],
+      "filename": "academy-b1-a2d683d6d25d9908.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'bookcase', specifically its curriculum meaning 'n.书橱，书架'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "hammer",
+      "meaning": "n.锤子",
+      "lessons": [
+        37
+      ],
+      "filename": "academy-b1-3ef81cb18bdaac2f.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'hammer', specifically its curriculum meaning 'n.锤子'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "paint",
+      "meaning": "v.上漆，涂",
+      "lessons": [
+        37
+      ],
+      "filename": "academy-b1-297e619db5ee855a.png",
+      "kind": "ai_illustration",
+      "scene": "a hand holding a paintbrush applying a pale-blue coat to a wooden chair, verb painting a surface",
+      "index": 2
+    },
+    {
+      "word": "pink",
+      "meaning": "n.& a.粉红色",
+      "lessons": [
+        37
+      ],
+      "filename": "academy-b1-a67a41c8bc79d5da.png",
+      "kind": "ai_illustration",
+      "scene": "a single pink watercolor paint swatch and brush; actual pink",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-159",
+  "cells": [
+    {
+      "index": 0,
+      "word": "refinement",
+      "meaning": "n.精心的安排",
+      "filename": "academy-b3-1a53d443677f82ec.png",
+      "scene": "A travel attendant carefully arranges a clean pillow, folded blanket, flowers and a small glass on a passenger's table, thoughtful comfort details."
+    },
+    {
+      "index": 1,
+      "word": "breathtaking",
+      "meaning": "a.激动人心的；不寻常的",
+      "filename": "academy-b3-e80679cf1c9eeddf.png",
+      "scene": "An adult gazes in awed silence from a mountain lookout over dramatic peaks and a brilliant valley."
+    },
+    {
+      "index": 2,
+      "word": "soar",
+      "meaning": "v.高飞，翱翔",
+      "filename": "academy-b3-3388452318b2e722.png",
+      "scene": "A large bird soars high above a mountain ridge with wings extended and no flapping, open sky around it."
+    },
+    {
+      "index": 3,
+      "word": "effortlessly",
+      "meaning": "ad.不费力地",
+      "filename": "academy-b3-111b9c0a4e8545fb.png",
+      "scene": "A bird glides smoothly on outstretched wings without visible effort, calm sky and tiny motion curve."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — refinement (n.精心的安排): A travel attendant carefully arranges a clean pillow, folded blanket, flowers and a small glass on a passenger's table, thoughtful comfort details.\nTOP RIGHT — breathtaking (a.激动人心的；不寻常的): An adult gazes in awed silence from a mountain lookout over dramatic peaks and a brilliant valley.\nBOTTOM LEFT — soar (v.高飞，翱翔): A large bird soars high above a mountain ridge with wings extended and no flapping, open sky around it.\nBOTTOM RIGHT — effortlessly (ad.不费力地): A bird glides smoothly on outstretched wings without visible effort, calm sky and tiny motion curve.\nCRITICAL SAFE COMPOSITION: Make subjects SMALLER than the style reference. Every subject fits within central 65% of its own quadrant, with large 20% white margins on all sides. Bottom-row subjects including heads and thought bubbles begin BELOW 58% of entire canvas height; top subjects end ABOVE 42%. Keep central horizontal 42–58% totally blank white. No head, limb, object or speech bubble crosses either exact 50% midline.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-159.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Four cells visually checked: attendant provides thoughtful travel refinements, dramatic mountain view, eagle soaring high and seagull gliding effortlessly. Bird wings complete and no cropped tips; all cells clear.",
+  "source_sha256": "bfe3955b8cd85a179f07abc7de132d6258f35e34d03f1cca348cd70d7d1d2ad5"
+}

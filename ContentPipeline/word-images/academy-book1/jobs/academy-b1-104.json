@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-104",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-0c3f30d0-d5bc-4be2-9164-a8d7b53f0468.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — driving licence (驾驶执照): A clear compact educational illustration of 'driving licence', specifically its curriculum meaning '驾驶执照'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — charge (v.罚款): a traffic officer handing a fine notice to a driver, fine/penalty sense, no battery or charging cable\nBOTTOM LEFT — Egypt (n.埃及): A clear compact educational illustration of 'Egypt', specifically its curriculum meaning 'n.埃及'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — abroad (ad.国外): A clear compact educational illustration of 'abroad', specifically its curriculum meaning 'ad.国外'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "driving licence",
+      "meaning": "驾驶执照",
+      "lessons": [
+        129
+      ],
+      "filename": "academy-b1-44919a180493c188.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'driving licence', specifically its curriculum meaning '驾驶执照'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0,
+      "superseded_by": "academy-b1-repair-004"
+    },
+    {
+      "word": "charge",
+      "meaning": "v.罚款",
+      "lessons": [
+        129
+      ],
+      "filename": "academy-b1-97488fbab3282166.png",
+      "kind": "ai_illustration",
+      "scene": "a traffic officer handing a fine notice to a driver, fine/penalty sense, no battery or charging cable",
+      "index": 1
+    },
+    {
+      "word": "Egypt",
+      "meaning": "n.埃及",
+      "lessons": [
+        131
+      ],
+      "filename": "academy-b1-557c1599d9a04895.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'Egypt', specifically its curriculum meaning 'n.埃及'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "abroad",
+      "meaning": "ad.国外",
+      "lessons": [
+        131
+      ],
+      "filename": "academy-b1-a6278590a4ba1f3c.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'abroad', specifically its curriculum meaning 'ad.国外'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted_with_replaced_cells",
+  "review_status": "assistant_visual_reviewed"
+}

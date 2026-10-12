@@ -1,0 +1,343 @@
+{
+  "blackFrameSampleCount" : 0,
+  "blackSampleTimes" : [
+
+  ],
+  "duration" : 6.9483333333333333,
+  "samples" : [
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 0
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 0.083333333333333329
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 0.16666666666666666
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 0.25
+    },
+    {
+      "blackContentFraction" : 0.00036982248520710058,
+      "seconds" : 0.33333333333333331
+    },
+    {
+      "blackContentFraction" : 0.00036982248520710058,
+      "seconds" : 0.41666666666666669
+    },
+    {
+      "blackContentFraction" : 0.0011094674556213018,
+      "seconds" : 0.5
+    },
+    {
+      "blackContentFraction" : 0.0022189349112426036,
+      "seconds" : 0.58333333333333337
+    },
+    {
+      "blackContentFraction" : 0.0022189349112426036,
+      "seconds" : 0.66666666666666663
+    },
+    {
+      "blackContentFraction" : 0.0022189349112426036,
+      "seconds" : 0.75
+    },
+    {
+      "blackContentFraction" : 0.0022189349112426036,
+      "seconds" : 0.83333333333333337
+    },
+    {
+      "blackContentFraction" : 0.0022189349112426036,
+      "seconds" : 0.91666666666666663
+    },
+    {
+      "blackContentFraction" : 0.0022189349112426036,
+      "seconds" : 1
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.0833333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.1666666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.25
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.3333333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.4166666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.5
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.5833333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.6666666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.75
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.8333333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 1.9166666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.0833333333333335
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.1666666666666665
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.25
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.3333333333333335
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.4166666666666665
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.5
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.5833333333333335
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.6666666666666665
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.75
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.8333333333333335
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 2.9166666666666665
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.0833333333333335
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.1666666666666665
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.25
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.3333333333333335
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.4166666666666665
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.5
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.5833333333333335
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.6666666666666665
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.75
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.8333333333333335
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 3.9166666666666665
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.083333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.166666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.25
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.333333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.416666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.5
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.583333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.666666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.75
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.833333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 4.916666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.083333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.166666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.25
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.333333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.416666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.5
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.583333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.666666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.75
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.833333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 5.916666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.083333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.166666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.25
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.333333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.416666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.5
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.583333333333333
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.666666666666667
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.75
+    },
+    {
+      "blackContentFraction" : 0,
+      "seconds" : 6.833333333333333
+    }
+  ],
+  "samplingFPS" : 12,
+  "video" : "\/Users\/lizi\/Desktop\/NCE_Dev\/NCE_ALL\/Design\/2026-10-12-loading\/cold-start\/signed-normal.mp4"
+}

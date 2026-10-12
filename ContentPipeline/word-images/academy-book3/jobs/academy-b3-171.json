@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-171",
+  "cells": [
+    {
+      "index": 0,
+      "word": "worldwide",
+      "meaning": "ad.在全世界",
+      "filename": "academy-b3-7aca9b2c4a361291.png",
+      "scene": "A globe surrounded by small communication points on several continents, lines gently linking distant places all around the world."
+    },
+    {
+      "index": 1,
+      "word": "overwhelm",
+      "meaning": "v.制服，使不知所措",
+      "filename": "academy-b3-0e4fe0f9cec42dc7.png",
+      "scene": "An office worker faces a mountain of paperwork that fills the desk and rises beyond their head, overwhelmed hands at temples."
+    },
+    {
+      "index": 2,
+      "word": "pollute",
+      "meaning": "v.污染",
+      "filename": "academy-b3-f16075a9eba806a6.png",
+      "scene": "Dirty wastewater flows from a factory pipe into a formerly clear river, visible change from blue upstream to cloudy brown downstream."
+    },
+    {
+      "index": 3,
+      "word": "pesticide",
+      "meaning": "n.杀虫剂",
+      "filename": "academy-b3-8e5457251d6d3e1d.png",
+      "scene": "A plain sealed agricultural pesticide container stands beside a crop field and protective gloves, warning triangle visible, no spraying directions or readable brand."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — worldwide (ad.在全世界): A globe surrounded by small communication points on several continents, lines gently linking distant places all around the world.\nTOP RIGHT — overwhelm (v.制服，使不知所措): An office worker faces a mountain of paperwork that fills the desk and rises beyond their head, overwhelmed hands at temples.\nBOTTOM LEFT — pollute (v.污染): Dirty wastewater flows from a factory pipe into a formerly clear river, visible change from blue upstream to cloudy brown downstream.\nBOTTOM RIGHT — pesticide (n.杀虫剂): A plain sealed agricultural pesticide container stands beside a crop field and protective gloves, warning triangle visible, no spraying directions or readable brand.\nCRITICAL SAFE COMPOSITION: Make subjects SMALLER than the style reference. Every subject fits within central 65% of its own quadrant, with large 20% white margins on all sides. Bottom-row subjects including heads and thought bubbles begin BELOW 58% of entire canvas height; top subjects end ABOVE 42%. Keep central horizontal 42–58% totally blank white. No head, limb, object or speech bubble crosses either exact 50% midline.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-171.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Four cells visually checked: global connections, overwhelmed worker with excessive paperwork, dirty river discharge, and a sealed pesticide container with protective gloves. No readable wording or crop overlap.",
+  "source_sha256": "82fce1fdaa99406c1d4b5e4921d7c89bbbd3d481447e5d0913d633c364d31ce1"
+}

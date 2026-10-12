@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-014",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-c40820a0-f092-4bf1-8efe-6b92237897e8.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — man (n.男人): A clear compact educational illustration of 'man', specifically its curriculum meaning 'n.男人'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — office (n.办公室): A clear compact educational illustration of 'office', specifically its curriculum meaning 'n.办公室'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — assistant (n.助手): A clear compact educational illustration of 'assistant', specifically its curriculum meaning 'n.助手'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — children (n.孩子们): A clear compact educational illustration of 'children', specifically its curriculum meaning 'n.孩子们'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "man",
+      "meaning": "n.男人",
+      "lessons": [
+        17
+      ],
+      "filename": "academy-b1-48b676e2b107da67.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'man', specifically its curriculum meaning 'n.男人'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "office",
+      "meaning": "n.办公室",
+      "lessons": [
+        17
+      ],
+      "filename": "academy-b1-5cc3f82838ba7260.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'office', specifically its curriculum meaning 'n.办公室'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "assistant",
+      "meaning": "n.助手",
+      "lessons": [
+        17
+      ],
+      "filename": "academy-b1-a39a7ffad4a3013f.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'assistant', specifically its curriculum meaning 'n.助手'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "children",
+      "meaning": "n.孩子们",
+      "lessons": [
+        19
+      ],
+      "filename": "academy-b1-10910087de24bfca.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'children', specifically its curriculum meaning 'n.孩子们'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

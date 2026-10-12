@@ -1,0 +1,8 @@
+{
+  "mode": "builtin-imagegen",
+  "source": "../../ContentPipeline/branding/revisions/20261012-before-lighter-background/icon.png",
+  "output": "icon-lighter-preview.png",
+  "status": "approved_production_artwork",
+  "prompt": "Use case: precise-object-edit. Input image 1 is the edit target: the approved square iOS English-learning app icon, a smiling cream book wearing turquoise headphones and holding a yellow pencil, lavender A flashcard behind it, two pale yellow stars, teal-blue background with a lighter circular halo. Make ONE very subtle background-only color revision. Lighten only the teal-blue backdrop and its circular halo slightly, approximately a 6% blend toward white (outer blue around RGB 18,148,189 instead of 3,141,185). It should look a little lighter and fresher but remain recognizably the same saturated teal-blue, not pastel or washed out. Preserve the exact existing composition, crop, character size, pose, face, cream paper coloring, headphones coloring, pencil, flashcard letter A, bookmarks, stars, dark outlines, texture, and illustration details. Do not globally brighten the image. Do not redraw or restyle the subject. Do not add elements or text. Output only the full square opaque icon artwork, edge-to-edge blue background, without rounded corner masking, margins, labels, comparison layout, or mockup.",
+  "approved_on": "2026-10-12"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "academy-b1-repair-002",
+  "cells": [
+    {
+      "word": "ready",
+      "meaning": "a.准备好的，完好的",
+      "lessons": [
+        81
+      ],
+      "filename": "academy-b1-b24d6d33736ecd56.png",
+      "kind": "ai_illustration",
+      "scene": "a fully dressed student wearing packed blue backpack and giving thumbs up beside doorway, ready to leave.",
+      "index": 0,
+      "repair_reason": "Backpack alone suggests bag more than prepared. Show a fully dressed student wearing packed blue backpack and giving thumbs up beside doorway, ready to leave."
+    },
+    {
+      "word": "cinema",
+      "meaning": "n.电影院",
+      "lessons": [
+        85
+      ],
+      "filename": "academy-b1-b815843425f6ac6c.png",
+      "kind": "ai_illustration",
+      "scene": "interior movie theater, rows of seats and audience facing large screen with simple mountain scene, no words or signs anywhere.",
+      "index": 1,
+      "repair_reason": "Generated sign spells target CINEMA. Replace with interior movie theater, rows of seats and audience facing large screen with simple mountain scene, no words or signs anywhere."
+    },
+    {
+      "word": "back",
+      "meaning": "n.背",
+      "lessons": [
+        99
+      ],
+      "filename": "academy-b1-3c482346f3750276.png",
+      "kind": "ai_illustration",
+      "scene": "rear-view upper-body person showing back, entire head and torso safely inside quadrant with generous margins.",
+      "index": 2,
+      "repair_reason": "Head crosses the horizontal midpoint in atlas082. Regenerate rear-view upper-body person showing back, entire head and torso safely inside quadrant with generous margins."
+    },
+    {
+      "word": "hostel",
+      "meaning": "n.招待所，旅馆",
+      "lessons": [
+        101
+      ],
+      "filename": "academy-b1-a6188622aab1dfdb.png",
+      "kind": "ai_illustration",
+      "scene": "shared hostel room with two bunk beds and traveler backpack, no words or signs anywhere.",
+      "index": 3,
+      "repair_reason": "Generated sign spells target HOSTEL. Replace with shared hostel room with two bunk beds and traveler backpack, no words or signs anywhere."
+    }
+  ],
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-30cee85c-e227-41e4-85a7-7abb431745e3.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — ready (a.准备好的，完好的): a fully dressed student wearing packed blue backpack and giving thumbs up beside doorway, ready to leave.\nTOP RIGHT — cinema (n.电影院): interior movie theater, rows of seats and audience facing large screen with simple mountain scene, no words or signs anywhere.\nBOTTOM LEFT — back (n.背): rear-view upper-body person showing back, entire head and torso safely inside quadrant with generous margins.\nBOTTOM RIGHT — hostel (n.招待所，旅馆): shared hostel room with two bunk beds and traveler backpack, no words or signs anywhere.\nAll unlisted quadrants must be blank white.",
+  "review_status": "assistant_visual_reviewed",
+  "status": "accepted"
+}

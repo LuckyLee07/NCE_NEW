@@ -1,0 +1,589 @@
+{
+  "puma": {
+    "scene": "A recognizable tawny puma with small round ears, muscular slender body and a very long curved tail, standing in side three-quarter view; plain unspotted coat, not lion or leopard."
+  },
+  "spot": {
+    "scene": "An adult hiker notices a small animal footprint on the ground, points directly at it with one hand while looking at it, clear discovery expression; no spotted fabric.",
+    "caption": "The hiker can ___ a footprint."
+  },
+  "evidence": {
+    "scene": "An investigator compares a clearly visible animal paw print in mud with a photograph of an identical paw print using a magnifying glass; blank notebook nearby; evidence from matching traces, not court verdict.",
+    "caption": "The matching prints are ___ of the animal's visit."
+  },
+  "accumulate": {
+    "scene": "Three short successive piles of identical round coins from small to medium to large with two small blue rightward arrows; clean readable increasing accumulation, no text or numerals.",
+    "caption": "Coins ___ over time."
+  },
+  "oblige": {
+    "scene": "A tired adult worker looks at a compulsory task clipboard held by a supervisor, reluctantly puts on a work apron and begins the task; sense of feeling bound to do something, no gift or gratitude.",
+    "caption": "The rules ___ him to finish the task."
+  },
+  "hunt": {
+    "scene": "A wildlife tracker follows a trail of large animal paw prints across grass while searching through binoculars, attentive searching posture. No weapon, no killed animal.",
+    "caption": "They ___ for the missing animal."
+  },
+  "blackberry": {
+    "scene": "One short blackberry bramble sprig with two ripe dark purple-black aggregate berries, one red unripe berry and serrated green leaves; recognizable natural fruit, no device."
+  },
+  "human": {
+    "scene": "A compact group of four ordinary humans of diverse appearances standing upright together, contrasted with a small cat beside them; clear people as a species, natural adult proportions.",
+    "caption": "People belong to the ___ family."
+  },
+  "corner": {
+    "scene": "A worried cat stands where two garden walls meet in a corner, two approaching dogs block its only forward route; no injury or violence. Clear being trapped with no escape, not merely a geometric corner.",
+    "caption": "The dogs have ___ed the cat."
+  },
+  "trail": {
+    "scene": "A long curving sequence of distinct muddy animal footprints leads away through sparse grass; the whole series of traces is clear, one tiny animal silhouette at the far end.",
+    "caption": "A ___ of prints leads across the ground."
+  },
+  "print": {
+    "scene": "Close view of one clearly indented large animal paw print pressed into soft brown mud, small paw shown lifted just above it; an impression left behind, no printer or book.",
+    "caption": "The paw left a ___ in the mud."
+  },
+  "cling": {
+    "scene": "A wet leaf adheres tightly to the side of a blue raincoat sleeve; the person tries gently to peel it away. Focus on sticking closely to a surface, no embrace.",
+    "caption": "The wet leaf will ___ to the coat."
+  },
+  "convince": {
+    "scene": "A skeptical listener changes to an understanding nod as another person points to matching paw prints and a photograph; evidence persuades the listener.",
+    "caption": "The matching traces ___ her."
+  },
+  "disturb": {
+    "scene": "An adult lies awake in bed as a loud alarm clock rings nearby, eyebrows worried and hands over ears.",
+    "caption": "The noise will ___ him."
+  },
+  "raise": {
+    "scene": "A volunteer holds a collection box while several people each add one coin, pooled funds for a community project.",
+    "caption": "They ___ money for a new roof."
+  },
+  "torchlight": {
+    "scene": "A handheld electric torch casts a narrow pale blue cone of light onto a small stone in a dark patch."
+  },
+  "goddess": {
+    "scene": "A dignified classical female deity statue in a draped robe, a simple golden halo and small laurel wreath, respectful mythological figure."
+  },
+  "archaeologist": {
+    "scene": "An archaeologist kneels at an excavation and carefully brushes earth away from an ancient pottery fragment."
+  },
+  "Aegean": {
+    "scene": "A simple coastline vignette of calm blue sea, a Greek island white house and an ancient column; Aegean cultural geography cue.",
+    "caption": "The ___ Sea lies near Greece."
+  },
+  "explore": {
+    "scene": "An explorer with backpack and map examines a rocky cave entrance using a torch, careful discovery of unknown terrain."
+  },
+  "promontory": {
+    "scene": "A pointed rocky headland projects prominently from a mainland coast into the blue sea; viewed obliquely from above."
+  },
+  "prosperous": {
+    "scene": "A thriving town market with well-kept shops, full fruit baskets and smiling traders exchanging goods.",
+    "caption": "The town is ___."
+  },
+  "civilization": {
+    "scene": "A compact ancient town scene with a temple, paved street, water channel and people trading; organized settled society."
+  },
+  "storey": {
+    "scene": "A simple three-floor house in cutaway, one whole middle floor highlighted pale blue; clearly separate levels."
+  },
+  "drainage": {
+    "scene": "A rainwater gutter runs down a house into a covered drain that carries water away, two blue downward arrows."
+  },
+  "worship": {
+    "scene": "A person kneels respectfully with clasped hands before a small sacred statue in a simple sanctuary."
+  },
+  "sacred": {
+    "scene": "A carefully protected altar with a small candle and a reverently placed religious book; respectful sacred setting.",
+    "caption": "This place is ___ to the community."
+  },
+  "fragment": {
+    "scene": "Three broken pieces of an ancient terracotta pot, one curved shard prominently isolated."
+  },
+  "remains": {
+    "scene": "Ruined ancient stone foundations and a broken classical column emerging from soil; archaeological remains, no body."
+  },
+  "classical": {
+    "scene": "A Greek-style white marble column and draped classical statue beside a small Roman arch."
+  },
+  "rest": {
+    "scene": "A person's hand rests lightly on their hip while the other arm hangs relaxed; clear placement, no sleeping.",
+    "caption": "She ___s one hand on her hip."
+  },
+  "hip": {
+    "scene": "A clothed adult torso from waist to upper thighs, one hip region highlighted pale blue and indicated with a small arrow; respectful anatomical cue."
+  },
+  "full-length": {
+    "scene": "A complete ankle-to-floor-length dress on a mannequin, hem just touching the floor, full silhouette visible."
+  },
+  "graceful": {
+    "scene": "A dancer in a long simple dress holds an elegant balanced pose with one arm curved and feet lightly placed."
+  },
+  "identity": {
+    "scene": "A visitor shows a portrait identification card to a receptionist; only photograph and blank lines on the card.",
+    "caption": "The card proves her ___."
+  },
+  "manual": {
+    "scene": "A worker lifts a sack by hand beside a shovel and wooden crate; physical labour without machinery.",
+    "caption": "This job involves ___ work."
+  },
+  "collar": {
+    "scene": "Close view of a plain blue shirt on a hanger, folded shirt collar highlighted with ink outlines."
+  },
+  "sacrifice": {
+    "scene": "A person gives their only packed lunch to a hungry friend and keeps an empty plate, willingly giving up something valued.",
+    "caption": "She will ___ her lunch to help."
+  },
+  "privilege": {
+    "scene": "One guest is allowed through a special entrance while others wait in the ordinary queue, a host checks a special invitation card.",
+    "caption": "Entry here is a special ___."
+  },
+  "dustman": {
+    "scene": "A municipal refuse collector in work overalls empties a rubbish bin into a collection truck; dignified ordinary work."
+  },
+  "overalls": {
+    "scene": "A pair of sturdy blue work overalls with bib, shoulder straps and full trousers hanging on a hook."
+  },
+  "shower": {
+    "scene": "A simple bathroom showerhead sends water onto an empty tiled shower tray; no person or bathtub."
+  },
+  "secret": {
+    "scene": "Two adults whisper privately behind a closed door while one holds a sealed envelope close to their chest.",
+    "caption": "They share a ___."
+  },
+  "status": {
+    "scene": "An organisation chart showing one leader at the top above three staff members, top leader highlighted blue and lower staff grey; simple people symbols with no labels.",
+    "caption": "The leader has a high ___."
+  },
+  "editor": {
+    "scene": "An editor sits at a desk reviewing manuscript pages with a red pencil and carefully arranging corrected pages into a folder; no readable writing."
+  },
+  "extreme": {
+    "scene": "A horizontal scale with a marker at the far right endpoint, center moderate position pale grey; endpoint clearly emphasized blue.",
+    "caption": "This is one ___ of the range."
+  },
+  "statistics": {
+    "scene": "A clipboard shows three simple bars of different heights alongside rows of small tally strokes, gathered numeric data represented visually."
+  },
+  "president": {
+    "scene": "A formal national leader stands at a lectern before a plain civic building, two generic flags with geometric shapes; no real likeness or national claims."
+  },
+  "publish": {
+    "scene": "Fresh identical books emerge from a printing press onto a stack, a publisher checks one copy."
+  },
+  "fax": {
+    "scene": "A desktop fax machine with paper feeding into the top and a received sheet emerging from the front, blank paper lines only."
+  },
+  "fire": {
+    "scene": "A manager hands a disappointed employee a dismissal envelope while the employee carries a small box of personal desk items away.",
+    "caption": "The firm will ___ the employee."
+  },
+  "originally": {
+    "scene": "Three tiny successive house scenes: an old cottage on the left, renovation in middle, modern shop right; the first cottage emphasized blue.",
+    "caption": "The building was ___ a cottage."
+  },
+  "smash-and-grab": {
+    "scene": "A shop display window is shattered and a jewelry tray is empty, a fleeing generic silhouette in the distance; aftermath only, no method detail."
+  },
+  "arcade": {
+    "scene": "A small covered street with three repeated stone arches and compact shopfronts beneath them, clear pedestrian arcade."
+  },
+  "Piccadilly": {
+    "scene": "A London street vignette with curved classical shopfronts, a red double-decker bus and an Eros-like fountain silhouette; no readable names."
+  },
+  "jewellery": {
+    "scene": "A small arranged group of jewelry on a display cushion: a necklace, a ring and a pair of earrings."
+  },
+  "necklace": {
+    "scene": "One fine gold necklace with a small blue pendant, complete loop and pendant visible on a white display background."
+  },
+  "ring": {
+    "scene": "One gold finger ring with a small blue gemstone, clear jewelry object, no ringing phone."
+  },
+  "background": {
+    "scene": "A small blue flower stands prominently in front of a pale distant hill and tree; rear landscape highlighted softly, foreground flower clearly separate.",
+    "caption": "The hills are in the ___."
+  },
+  "velvet": {
+    "scene": "A folded deep red velvet cloth with soft dense nap and gentle luminous folds, beside a smooth cotton swatch for contrast."
+  },
+  "headlight": {
+    "scene": "Front three-quarter view of a car, one front headlight highlighted pale yellow and casting a short beam."
+  },
+  "blare": {
+    "scene": "A car horn beside a front grille sends broad bold sound-wave marks outward; nearby pedestrian covers their ears.",
+    "caption": "The horn will ___."
+  },
+  "staff": {
+    "scene": "Four shop staff stand together behind a counter wearing matching aprons, manager alongside them; whole workforce group."
+  },
+  "raid": {
+    "scene": "A group of police officers arrives suddenly at a closed building entrance, calm nonviolent action, no weapons or tactics.",
+    "caption": "Police carried out a ___."
+  },
+  "scramble": {
+    "scene": "An adult climbs awkwardly over low rocks using hands and feet, knees bent and gripping a safe ledge."
+  },
+  "ashtray": {
+    "scene": "An empty small round ceramic ashtray with shallow bowl and three rim notches, no cigarette or smoker."
+  },
+  "mutilate": {
+    "scene": "A once intact banknote-shaped paper now torn into irregular pieces with a bitten ragged edge, blank decorative curves only; clear physical mutilation."
+  },
+  "chew": {
+    "scene": "An adult chews a small mouthful of bread, cheek slightly rounded, hand holding remaining bread; natural closed mouth."
+  },
+  "fiance": {
+    "scene": "A recently engaged adult couple smiles while the man holds his partner's hand and her engagement ring is visible; respectful relationship cue.",
+    "caption": "He is her ___."
+  },
+  "microwave": {
+    "scene": "A compact kitchen microwave oven with windowed door, buttons as plain circles and a plate visible inside."
+  },
+  "oven": {
+    "scene": "A kitchen oven with closed glass door, handle, knobs and a baking tray visible inside; no microwave."
+  },
+  "safekeeping": {
+    "scene": "A caretaker places a treasured small box securely in a locked cabinet; key and careful hands visible.",
+    "caption": "The box is held for ___."
+  },
+  "Newcastle": {
+    "scene": "A British port-city vignette featuring an arched steel bridge over a river and quayside warehouses, simple Newcastle geography cue."
+  },
+  "identify": {
+    "scene": "An expert compares a damaged banknote-shaped paper with an intact sample under a magnifying glass, focusing on matching design features.",
+    "caption": "They ___ the damaged note."
+  },
+  "spokeswoman": {
+    "scene": "A professional woman addresses two reporters at a lectern with a microphone, blank speech bubble and folders nearby."
+  },
+  "monastery": {
+    "scene": "A peaceful stone monastery with cloister arches, a small bell tower and enclosed courtyard garden."
+  },
+  "St.Bernard": {
+    "scene": "A large friendly Saint Bernard dog with white and brown coat, broad head, drooping ears and small barrel attached to its collar."
+  },
+  "pass": {
+    "scene": "A narrow mountain pass between two high rocky slopes, a footpath crosses the low saddle; no exam or ticket."
+  },
+  "watchdog": {
+    "scene": "An alert dog sits beside a closed garden gate and kennel, ears raised, calmly watching the entrance."
+  },
+  "rashly": {
+    "scene": "A hiker rushes forward without looking at a visibly muddy path, companion raises a cautioning hand; impulsive unsafe choice, no injury.",
+    "caption": "He stepped forward ___."
+  },
+  "enclosure": {
+    "scene": "A fenced grassy enclosure containing a sheep, complete surrounding fence and gate clearly visible."
+  },
+  "monk": {
+    "scene": "A respectful monk in a plain brown robe with rope belt sits quietly reading in a stone cloister, simple Christian monastic setting."
+  },
+  "privacy": {
+    "scene": "A person reads peacefully alone behind a garden screen, distant visitors kept outside by a closed gate.",
+    "caption": "She enjoys her ___."
+  },
+  "skier": {
+    "scene": "A skier in warm jacket and goggles glides on two parallel skis with two poles, small snowy slope."
+  },
+  "Easter": {
+    "scene": "A simple decorated Easter egg in a basket beside a small spring flower and a plain wooden cross, respectful holiday cue."
+  },
+  "fascinate": {
+    "scene": "A visitor gazes transfixed at a luminous unusual sculpture, wide attentive eyes, body leaning slightly toward it.",
+    "caption": "The sculpture will ___ visitors."
+  },
+  "affectionate": {
+    "scene": "An adult gently hugs a beloved cat against their chest, warm tender expression and the cat relaxed."
+  },
+  "mysterious": {
+    "scene": "A closed old wooden box casts a soft blue glow through a crack while a curious viewer looks puzzled; unexplained mystery."
+  },
+  "submissive": {
+    "scene": "One adult accepts another person's firm instruction with a lowered gaze and quiet nod, hands together; obedient manner, no humiliation."
+  },
+  "feline": {
+    "scene": "A cat with whiskers, triangular ears and raised curved tail stands beside a small outline of a cat paw; unmistakably cat-related."
+  },
+  "independence": {
+    "scene": "An adult solves a practical task alone with their own tools while an offered helping hand remains unused, calm capable posture.",
+    "caption": "She values her ___."
+  },
+  "windowsill": {
+    "scene": "A close view of a window with a broad horizontal windowsill, small potted plant resting on the sill; sill highlighted blue."
+  },
+  "paratrooper": {
+    "scene": "A parachutist in a simple olive uniform descends beneath an open round parachute; no weapon, no battle."
+  },
+  "squirrel": {
+    "scene": "A small red-brown squirrel with a large bushy tail sits holding an acorn between its front paws."
+  },
+  "air-resistance": {
+    "scene": "A parachutist suspended beneath an open parachute, one large upward blue arrow against a small downward grey arrow; opposing air drag.",
+    "caption": "The parachute increases ___."
+  },
+  "impact": {
+    "scene": "A rubber ball hits a soft cushion which visibly compresses at the contact point, short blue impact rays and a downward arrow."
+  },
+  "Southampton": {
+    "scene": "A British harbour-city vignette with a large passenger liner at a dock and a medieval stone gateway in the distance; geography cue."
+  },
+  "watertight": {
+    "scene": "A closed ship compartment hatch seals blue water on one side while the other side remains completely dry; clear leak-proof barrier."
+  },
+  "compartment": {
+    "scene": "A simple ship cutaway shows three enclosed rectangular compartments, one central compartment highlighted blue, dividing walls clear."
+  },
+  "flood": {
+    "scene": "Water pours through a ship opening and fills one enclosed cabin to mid-height, upward water-level arrow, no people.",
+    "caption": "The compartment begins to ___."
+  },
+  "float": {
+    "scene": "A wooden block rests on the surface of calm blue water, half above the surface line; no directional drift arrow."
+  },
+  "tragic": {
+    "scene": "An adult stands sorrowfully beside an empty ship's lifebuoy and wilted flower, solemn loss symbol; no body or violence."
+  },
+  "liner": {
+    "scene": "A large ocean passenger liner with rows of portholes, multiple decks and two funnels on calm water."
+  },
+  "voyage": {
+    "scene": "A passenger ship follows a dotted curved route across a small sea between two coastlines, start and destination ports visible."
+  },
+  "iceberg": {
+    "scene": "A large white iceberg floats with a small peak above water and a much larger pale blue section below the clear surface line."
+  },
+  "lookout": {
+    "scene": "A ship lookout stands high on a small mast platform using binoculars to scan the sea, entire figure and platform visible."
+  },
+  "collision": {
+    "scene": "Two empty toy-like model ships visibly touch at their bows with small impact marks, nonviolent schematic collision."
+  },
+  "miss": {
+    "scene": "A ship passes an iceberg with a visible narrow gap between them, a curved blue path goes around the ice rather than into it.",
+    "caption": "The ship will ___ the iceberg."
+  },
+  "slight": {
+    "scene": "Two wooden panels side by side, one intact and the other bearing only a tiny shallow scratch highlighted with an arrow; minimal damage.",
+    "caption": "The scratch is ___."
+  },
+  "tremble": {
+    "scene": "A person's hands visibly tremble while holding a teacup, several tiny paired oscillation marks around fingers, no spill."
+  },
+  "faint": {
+    "scene": "A small distant lighthouse beam appears barely visible in pale grey while a nearby lamp is clearly brighter; weak light comparison."
+  },
+  "lifeboat": {
+    "scene": "A small orange enclosed ship lifeboat with a blue lifebuoy and short oars, floating on calm water."
+  },
+  "abandon": {
+    "scene": "A person leaves an old suitcase behind on an empty station bench and walks away, blue arrow moves away from the abandoned item."
+  },
+  "plunge": {
+    "scene": "A diver jumps down from a low platform into blue water with a steep downward motion arrow, safe simple sports scene."
+  },
+  "guilty": {
+    "scene": "A person caught with a stolen wallet stands shamefaced before an officer who points to the wallet and its owner's matching photograph; wrongdoing clearly established.",
+    "caption": "He is ___ of the theft."
+  },
+  "tolerant": {
+    "scene": "An adult remains calm and smiles understandingly while a child makes a harmless noisy mess nearby, open relaxed hands.",
+    "caption": "She is ___ of the noise."
+  },
+  "declare": {
+    "scene": "A traveler opens a suitcase at customs and honestly presents a bottle to an officer with a declaration form containing blank lines.",
+    "caption": "Please ___ the goods at customs."
+  },
+  "hardened": {
+    "scene": "An experienced customs officer calmly examines luggage while a nervous novice watches, practiced confident method with no procedural detail.",
+    "caption": "He is a ___ customs officer."
+  },
+  "professional": {
+    "scene": "A qualified violinist performs confidently on stage in formal clothes, instrument case and simple music stand beside them.",
+    "caption": "She is a ___ musician."
+  },
+  "smuggler": {
+    "scene": "A customs officer has discovered undeclared bottles inside a traveler's open suitcase; traveler looks apprehensive, no concealment method."
+  },
+  "officious": {
+    "scene": "A self-important bystander repeatedly points and gives unwanted instructions while two competent workers carry a box, workers look annoyed."
+  },
+  "pounce": {
+    "scene": "A cat springs suddenly with both front paws reaching toward a harmless toy mouse, short forward arc and energetic pose."
+  },
+  "perfume": {
+    "scene": "An elegant small glass perfume bottle with atomizer and pale pink liquid, tiny flower beside it; blank bottle, no brand."
+  },
+  "duty": {
+    "scene": "At a customs desk a traveler pays coins beside an imported bottle while an official checks a blank receipt; import tax context.",
+    "caption": "He must pay ___ on the goods."
+  },
+  "gel": {
+    "scene": "A small open jar of translucent blue hair gel beside a comb, one smooth gelatinous scoop visible on a spatula."
+  },
+  "mixture": {
+    "scene": "A clear glass bowl contains a blended mixture of sand and small pebbles, spoon beside it; components visually intermixed.",
+    "caption": "This is a ___ of sand and stones."
+  },
+  "unscrew": {
+    "scene": "Two hands twist a bottle cap counterclockwise above the neck, a short curved blue arrow and separated cap show opening; exactly two hands."
+  },
+  "nostril": {
+    "scene": "Respectful close view of a human nose in slight upward three-quarter view, one nostril highlighted pale blue with a small arrow; no disembodied gore."
+  },
+  "baggage": {
+    "scene": "Two travel suitcases, a duffel and a small handbag grouped at a station platform, luggage collection clearly visible."
+  },
+  "desert": {
+    "scene": "A soldier in plain uniform quietly leaves an empty military camp at night carrying a small bag, backward glance, no battle or weapons.",
+    "caption": "He ___ed from the army."
+  },
+  "unrealistic": {
+    "scene": "A person imagines an impossible tiny balloon lifting a huge stone, thought bubble contrasted with the grounded stone below.",
+    "caption": "The plan is ___."
+  },
+  "paradise": {
+    "scene": "A peaceful tropical island with white beach, palm trees, clear blue water and a relaxed traveler in shade; idyllic earthly haven."
+  },
+  "wretched": {
+    "scene": "A weary traveler in torn damp clothes sits under a makeshift shelter beside an empty food tin, respectful hardship portrayal."
+  },
+  "starve": {
+    "scene": "A hungry adult sits beside an empty bowl and empty cupboard holding their stomach, no emaciation or distressing detail."
+  },
+  "element": {
+    "scene": "A simple layered mixture in a glass jar with one small ingredient portion highlighted separately and a blue arrow pointing into the mixture.",
+    "caption": "This is one ___ in the mixture."
+  },
+  "opportunity": {
+    "scene": "An open door leads to a welcoming work desk while a hopeful applicant steps toward it holding a portfolio; chance to begin.",
+    "caption": "This is a good ___."
+  },
+  "coral": {
+    "scene": "A small branching red-pink coral growing on an underwater rock, two small reef fish nearby, natural coral structure."
+  },
+  "Virgin": {
+    "scene": "A calm Caribbean island cluster viewed from above with turquoise bays and palm-lined beaches, Virgin Islands geography cue, no invented labels."
+  },
+  "Miami": {
+    "scene": "A coastal city vignette with pastel Art Deco buildings, palm trees and blue sea; Miami mnemonic, no fabricated city map."
+  },
+  "dinghy": {
+    "scene": "A small open inflatable dinghy with grey tubes, a wooden seat and two oars, floating on calm water."
+  },
+  "Caribbean": {
+    "scene": "A tropical turquoise sea with three small green islands, palm tree and coral reef visible in foreground; Caribbean geography mnemonic."
+  },
+  "spear": {
+    "scene": "A single recognizable underwater fishing speargun displayed horizontally: a slender blue-gray barrel, a pistol-style molded grip at the rear, a long spear shaft resting along the top and short rubber loops at the front. Whole device isolated beside a tiny fish silhouette. No firearm cartridges, no shooting, no use instructions, no brand or labels."
+  },
+  "lobster": {
+    "scene": "A red-brown lobster with two large claws, segmented tail and long antennae on a small seabed patch."
+  },
+  "tanker": {
+    "scene": "A large oil tanker at sea with broad deck, visible pipe-like deck fittings and rear bridge, no passenger windows or sails."
+  },
+  "Robinson Crusoe": {
+    "scene": "A generic fictional castaway in simple worn clothes on an island, handmade hut, goats and a small canoe nearby; no film likeness."
+  },
+  "costume": {
+    "scene": "A theatrical pirate costume displayed on a mannequin: striped shirt, long coat and tricorne hat, no weapon."
+  },
+  "sheet": {
+    "scene": "One plain white bed sheet draped over the corner of a neatly made bed, fold and fabric emphasized, no ghost."
+  },
+  "effective": {
+    "scene": "A blue umbrella keeps a smiling person completely dry in rain while the wet ground surrounds them, clear successful protection.",
+    "caption": "The umbrella is ___ in the rain."
+  },
+  "storeroom": {
+    "scene": "An orderly small storeroom with shelving, cartons, spare chairs and a mop, narrow doorway visible."
+  },
+  "electricity": {
+    "scene": "A simple closed circuit of battery, insulated wire and glowing light bulb, small blue lightning symbol near battery; no technical instructions."
+  },
+  "ammeter": {
+    "scene": "An analog ammeter with a semicircular dial, central letter A explicitly allowed and pointer at mid-scale, two terminals; no other labels."
+  },
+  "pace": {
+    "scene": "An adult takes one clear walking step with two footprint marks beneath their feet and a short bracket between them, single step distance."
+  },
+  "flee": {
+    "scene": "An adult hurries away from a harmless sudden smoke cloud through an open exit, forward motion and anxious glance backward."
+  },
+  "gangster": {
+    "scene": "A generic storybook criminal in a dark suit lurks near a closed warehouse holding a stolen bag, no weapon or instructions, no ethnic stereotype."
+  },
+  "Chicago": {
+    "scene": "A city vignette of a tall modern skyline beside a blue lake, elevated railway and steel bridge; Chicago geographic mnemonic."
+  },
+  "protection": {
+    "scene": "A broad umbrella shelters a person and a fragile parcel from heavy rain, umbrella forms a protective cover.",
+    "caption": "The umbrella provides ___."
+  },
+  "destroy": {
+    "scene": "A once finished toy house lies completely broken into scattered parts beside its intact outline shown pale grey; total destruction, no active violence."
+  },
+  "band": {
+    "scene": "A small group of three generic storybook robbers wearing dark coats gathers around stolen sacks, no weapons or criminal method.",
+    "caption": "A ___ of robbers gathered."
+  },
+  "Florence": {
+    "scene": "A Tuscan city vignette with an orange-tiled cathedral dome and a stone bridge over a river; Florence geographic mnemonic."
+  },
+  "city-state": {
+    "scene": "A compact walled ancient city with temple, houses and its own gate stands alone amid surrounding fields; independent city polity."
+  },
+  "prince": {
+    "scene": "A dignified storybook young prince wearing a small crown and formal cloak stands near a castle gate, no real royal likeness."
+  },
+  "Florentine": {
+    "scene": "A fictional resident in simple historical Tuscan clothing stands by Florence's cathedral dome and stone river bridge; no stereotype or real likeness."
+  },
+  "funeral": {
+    "scene": "A respectful small group dressed in muted clothing stands solemnly beside a closed coffin with flowers, simple non-graphic farewell ceremony."
+  },
+  "dedicate": {
+    "scene": "An author respectfully presents a finished book to a mentor with a grateful gesture, open dedication page with blank lines.",
+    "caption": "She will ___ the book to her teacher."
+  },
+  "memory": {
+    "scene": "An adult places a flower beside a memorial portrait of a departed relative, respectful remembrance, no body or readable inscription.",
+    "caption": "They honour his ___."
+  },
+  "valiant": {
+    "scene": "A brave firefighter in protective clothing helps a frightened person out of a smoky doorway, restrained smoke, no injury."
+  },
+  "pocket": {
+    "scene": "A parent places a few coins into a child's outstretched hand beside a small coin purse, regular spending allowance, no clothing pocket."
+  },
+  "rattle": {
+    "scene": "A small tin containing several coins shakes from side to side, paired motion marks and small sound-wave strokes; no baby toy."
+  },
+  "thrifty": {
+    "scene": "An adult repairs a worn shirt and carefully puts saved coins into a jar instead of buying a new shirt shown in a thought bubble.",
+    "caption": "She is ___ with her money."
+  },
+  "nephew": {
+    "scene": "A smiling uncle stands with his sibling and the sibling's young son, uncle gestures affectionately toward the boy; simple three-person family relationship.",
+    "caption": "My sister's son is my ___."
+  },
+  "bounce": {
+    "scene": "A blue rubber ball hits the ground then springs upward, two faint sequential ball positions and curved blue up-down arrow."
+  },
+  "pavement": {
+    "scene": "A pedestrian walks on a paved sidewalk beside a road and curb, sidewalk emphasized blue-grey, cars remain on the road."
+  },
+  "stick": {
+    "scene": "A hand tries to pull a coin from a narrow crack between floorboards, coin visibly wedged and unable to move; no glue or branch.",
+    "caption": "The coin may ___ in the gap."
+  },
+  "brigade": {
+    "scene": "Three uniformed firefighters stand together beside a fire engine and coiled hose, organized fire service team."
+  },
+  "grease": {
+    "scene": "A small open grease tin holds thick amber lubricant, a gear beside it bears a thin shiny coating; no cooking food."
+  },
+  "slam": {
+    "scene": "A person forcefully closes a wooden door, short curved motion arc and bold sound marks at the door frame; no injured hand."
+  }
+}

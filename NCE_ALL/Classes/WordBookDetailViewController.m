@@ -66,7 +66,11 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    [super viewDidAppear:animated];
     [self initData];
+    self.tableView.backgroundView=_items.count ? nil : NCEEmptyState(NCELocalizedString(@"这里还没有单词"),NCELocalizedString(@"学习时标记熟悉程度，单词会自动归入这里。"));
+    self.tableView.tableHeaderView=[[NCEAcademyHeader alloc] initWithEyebrow:@"MY WORDS" title:self.titleString subtitle:[NSString stringWithFormat:NCELocalizedString(@"%@ 个单词"),@(_items.count)] image:@"academy-books"];
+    [self.view setNeedsLayout];
     [self.tableView reloadData];
     
     //    _hud.mode = MBProgressHUDModeText;
@@ -85,67 +89,24 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kWordBookDetailViewControllerCellReuseId
-                                                            forIndexPath:indexPath];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.backgroundColor = [UIColor clearColor];
-    cell.contentView.backgroundColor = [UIColor clearColor];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    NCEAcademyCell *cell=[tableView dequeueReusableCellWithIdentifier:kWordBookDetailViewControllerCellReuseId forIndexPath:indexPath];
     
-    NSArray *array = [cell.contentView subviews];
-    for (UIView *view in array) {
-        [view removeFromSuperview];
-    }
-    
-    CGFloat height = tableView.frame.size.height/12;
-    NSDictionary *item = [_items objectAtIndex:indexPath.row];
-    cell.accessibilityIdentifier = [@"wordbook-word-" stringByAppendingString:item[@"english"]];
-    
-    UILabel *idLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, height, height)];
-    idLabel.backgroundColor = [self.colorArray objectAtIndex:indexPath.row%9];
-    idLabel.font = [UIFont systemFontOfSize:20*height/50];
-    idLabel.textColor = [UIColor whiteColor];
-    idLabel.text = [NSString stringWithFormat:@"%ld",(long)indexPath.row+1];
-    idLabel.textAlignment = NSTextAlignmentCenter;
-    [cell.contentView addSubview:idLabel];
-    
-    // english
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(height*4/3, height/12, tableView.frame.size.width-height, height/2)];
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.font = [UIFont systemFontOfSize:14*height/50];
-    titleLabel.textColor = [UIColor blackColor];
-    titleLabel.text = [[NCEWordResourceStore sharedStore] displayNameForWord:item[@"english"]];
-    titleLabel.textAlignment = NSTextAlignmentLeft;
-    [cell.contentView addSubview:titleLabel];
-    
-    // chinese
-    UILabel *subTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(height*4/3, height*7/12, tableView.frame.size.width-height, height*5/12)];
-    subTitleLabel.backgroundColor = [UIColor clearColor];
-    subTitleLabel.font = [UIFont systemFontOfSize:12*height/50];
-    subTitleLabel.textColor = [UIColor darkGrayColor];
-    subTitleLabel.text = [item objectForKey:@"chinese"];
-    subTitleLabel.textAlignment = NSTextAlignmentLeft;
-    subTitleLabel.numberOfLines = 2;
-    subTitleLabel.adjustsFontSizeToFitWidth = YES;
-    subTitleLabel.minimumScaleFactor = 0.65;
-    [cell.contentView addSubview:subTitleLabel];
-    
-    // show when the cell is selected
-    UIView *maskView = [[UIView alloc] initWithFrame:CGRectMake(height, 0, tableView.frame.size.width-height, height)];
-    maskView.backgroundColor = [UIColor clearColor];
-    maskView.tag = 1000+indexPath.row;
-    [cell.contentView addSubview:maskView];
-    
+    NSDictionary *item=_items[indexPath.row];
+    [cell configureTitle:[NCEWordResourceStore.sharedStore displayNameForWord:item[@"english"]] subtitle:item[@"chinese"] badge:nil symbol:@"speaker.wave.2"];
+    cell.accessibilityIdentifier=[@"wordbook-word-" stringByAppendingString:item[@"english"]];
+
     return cell;
 }
+
 
 #pragma mark -
 #pragma mark UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return tableView.frame.size.height/12;
+    return UITableViewAutomaticDimension;
 }
+
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -163,23 +124,8 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CGFloat height = tableView.frame.size.height/12;
-    
-    if ([tableView respondsToSelector:@selector(setSeparatorInset:)])
-    {
-        [tableView setSeparatorInset:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
-    
-    else if ([tableView respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [tableView setLayoutMargins:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
-    
-    else if ([cell respondsToSelector:@selector(setLayoutMargins:)])
-    {
-        [cell setLayoutMargins:UIEdgeInsetsMake(0, height, 0, 0)];
-    }
 }
+
 
 #pragma mark -
 #pragma mark Private Methods
@@ -213,6 +159,7 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
         
         NSString *lessonId = [NSString stringWithFormat:@"%d",sqlite3_column_int(statement, 2)];
         [item setObject:lessonId forKey:@"lesson_id"];
+        item[@"book_id"]=@(_bookId+1);
         
         [_items addObject:item];
     }
@@ -233,9 +180,10 @@ static NSString* const kWordBookDetailViewControllerCellReuseId = @"kWordBookDet
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
-    [self.tableView registerClass:[UITableViewCell class]
+    [self.tableView registerClass:[NCEAcademyCell class]
            forCellReuseIdentifier:kWordBookDetailViewControllerCellReuseId];
     
+    NCEPrepareTable(self.tableView);
     [self.view addSubview:self.tableView];
 }
 

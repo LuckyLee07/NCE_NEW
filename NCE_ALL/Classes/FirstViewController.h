@@ -6,8 +6,10 @@
 //  Copyright © 2026年 FancyGame. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface FirstViewController : UIViewController
+UITabBarController *NCECreateLearningRoot(void);
+
+@interface FirstViewController : BaseViewController
 
 @end

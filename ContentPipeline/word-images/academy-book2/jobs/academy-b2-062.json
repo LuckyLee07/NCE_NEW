@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-062",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-817f9421-5cc8-4bea-a891-131245703d24.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — strap (n.带，皮带): A shoulder bag with its long carrying strap highlighted blue while bag is pale grey.\nTOP RIGHT — breath (n.呼吸): A person takes a deep breath with a hand on chest, gentle airflow arrows near nose, no medical instructions.\nBOTTOM LEFT — conscience (n.良心，道德心): A person pauses before taking a lost wallet, then holds it out to return to its owner; small heart icon by chest.\nBOTTOM RIGHT — wallet (n.皮夹，钱夹): One open leather wallet with a few banknotes and card slots, no readable card numbers.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "strap",
+      "meaning": "n.带，皮带",
+      "filename": "academy-b2-833a63294a4cb1fc.png",
+      "scene": "A shoulder bag with its long carrying strap highlighted blue while bag is pale grey."
+    },
+    {
+      "index": 1,
+      "word": "breath",
+      "meaning": "n.呼吸",
+      "filename": "academy-b2-367a1c592458c1b0.png",
+      "scene": "A person takes a deep breath with a hand on chest, gentle airflow arrows near nose, no medical instructions."
+    },
+    {
+      "index": 2,
+      "word": "conscience",
+      "meaning": "n.良心，道德心",
+      "filename": "academy-b2-0abf920cbcf2b571.png",
+      "scene": "A person pauses before taking a lost wallet, then holds it out to return to its owner; small heart icon by chest."
+    },
+    {
+      "index": 3,
+      "word": "wallet",
+      "meaning": "n.皮夹，钱夹",
+      "filename": "academy-b2-e8d44050873dba86.png",
+      "scene": "One open leather wallet with a few banknotes and card slots, no readable card numbers."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

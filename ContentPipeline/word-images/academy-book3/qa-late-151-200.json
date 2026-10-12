@@ -1,0 +1,17 @@
+{
+  "scope": "academy-b3-151 through academy-b3-200",
+  "complete_receipts": 53,
+  "final_word_assets": 200,
+  "replaced_cells": [
+    "motorway",
+    "handyman",
+    "resourceful",
+    "delusion",
+    "dismantle",
+    "fickleness"
+  ],
+  "dimensions": "320x320 PNG",
+  "maximum_bytes": 175226,
+  "source_hashes_verified": true,
+  "result": "pass"
+}

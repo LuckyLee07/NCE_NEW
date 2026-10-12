@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-011",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-4085e9f9-4888-435e-8063-53d552134e1b.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — sand (n.沙子): A small mound of golden sand with a simple seashell and a few fine grains.\nTOP RIGHT — competition (n.比赛，竞赛): Two runners reach for a finish ribbon, friendly race, one small trophy nearby.\nBOTTOM LEFT — neat (a.整齐的，整洁的): A very neatly arranged desk with aligned books and pencils in a holder.\nBOTTOM RIGHT — path (n.小路，小径): A narrow footpath winds between grass and small bushes toward a simple gate.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "sand",
+      "meaning": "n.沙子",
+      "filename": "academy-b2-f79d7d24558304d8.png",
+      "scene": "A small mound of golden sand with a simple seashell and a few fine grains."
+    },
+    {
+      "index": 1,
+      "word": "competition",
+      "meaning": "n.比赛，竞赛",
+      "filename": "academy-b2-4721819b2bf3e332.png",
+      "scene": "Two runners reach for a finish ribbon, friendly race, one small trophy nearby."
+    },
+    {
+      "index": 2,
+      "word": "neat",
+      "meaning": "a.整齐的，整洁的",
+      "filename": "academy-b2-60f858c0625d7b41.png",
+      "scene": "A very neatly arranged desk with aligned books and pencils in a holder."
+    },
+    {
+      "index": 3,
+      "word": "path",
+      "meaning": "n.小路，小径",
+      "filename": "academy-b2-a0af9f865bf637e6.png",
+      "scene": "A narrow footpath winds between grass and small bushes toward a simple gate."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

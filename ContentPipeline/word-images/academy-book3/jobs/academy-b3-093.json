@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-093",
+  "cells": [
+    {
+      "index": 0,
+      "word": "routine",
+      "meaning": "n.常规；惯例; a.常规的",
+      "filename": "academy-b3-fde55b36ec36cbcd.png",
+      "scene": "One adult performs a familiar morning sequence at a sink, a toothbrush, face towel and comb neatly waiting beside them."
+    },
+    {
+      "index": 1,
+      "word": "shrewd",
+      "meaning": "a.精明的",
+      "filename": "academy-b3-c80a4a59b31c918e.png",
+      "scene": "A shopper examines a cracked antique bowl carefully with a magnifier before agreeing on a price with the seller."
+    },
+    {
+      "index": 2,
+      "word": "eccentricity",
+      "meaning": "n.怪癖",
+      "filename": "academy-b3-713547ce73155e2c.png",
+      "scene": "A well-dressed adult carries a tiny watering can to tend a plant growing in an old boot on the office desk; colleagues observe the harmless unusual habit."
+    },
+    {
+      "index": 3,
+      "word": "legendary",
+      "meaning": "a.传奇般的",
+      "filename": "academy-b3-f61e4e48a0a3ce63.png",
+      "scene": "An elderly storyteller recounts an old knight's adventures to listeners; a soft thought vignette shows the knight with a shield on a distant castle hill."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — routine (n.常规；惯例; a.常规的): One adult performs a familiar morning sequence at a sink, a toothbrush, face towel and comb neatly waiting beside them.\nTOP RIGHT — shrewd (a.精明的): A shopper examines a cracked antique bowl carefully with a magnifier before agreeing on a price with the seller.\nBOTTOM LEFT — eccentricity (n.怪癖): A well-dressed adult carries a tiny watering can to tend a plant growing in an old boot on the office desk; colleagues observe the harmless unusual habit.\nBOTTOM RIGHT — legendary (a.传奇般的): An elderly storyteller recounts an old knight's adventures to listeners; a soft thought vignette shows the knight with a shield on a distant castle hill.\nCROP SAFETY: each scene has 20% white margins inside its own quadrant. Top drawings fully end ABOVE 45% image height. Bottom-row heads, hair, thought bubbles and main objects begin BELOW 58% total image height. Nothing crosses midlines.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-093.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Reviewed scene meanings, anatomy and crop containment. Cave and hiking equipment recognizable; all subjects remain within their quadrants.",
+  "source_sha256": "bf254b0de8cd02c2214ae524c52846558120805346a0ea2fefdbde86eb49df88"
+}

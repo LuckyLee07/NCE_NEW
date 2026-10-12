@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-076",
+  "cells": [
+    {
+      "index": 0,
+      "word": "Equator",
+      "meaning": "n.赤道",
+      "filename": "academy-b3-cf5fc59a99eb25d2.png",
+      "scene": "A simple globe with continents as pale silhouettes and a bold blue horizontal circle around its exact middle, no labels."
+    },
+    {
+      "index": 1,
+      "word": "delay",
+      "meaning": "v./n.耽误",
+      "filename": "academy-b3-6e16db102267e6e7.png",
+      "scene": "Passengers wait beside a station clock while a train remains motionless at the platform, one traveler checks their watch."
+    },
+    {
+      "index": 2,
+      "word": "influence",
+      "meaning": "v.影响",
+      "filename": "academy-b3-22fefa8cf4bda918.png",
+      "scene": "One person enthusiastically recommends a book; a listening friend then reaches for the same book, social influence."
+    },
+    {
+      "index": 3,
+      "word": "taste",
+      "meaning": "n.鉴赏力;品尝",
+      "filename": "academy-b3-814e6bcc41679ddd.png",
+      "scene": "An adult thoughtfully compares two framed paintings and chooses a refined composition, aesthetic judgement rather than eating."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — Equator (n.赤道): A simple globe with continents as pale silhouettes and a bold blue horizontal circle around its exact middle, no labels.\nTOP RIGHT — delay (v./n.耽误): Passengers wait beside a station clock while a train remains motionless at the platform, one traveler checks their watch.\nBOTTOM LEFT — influence (v.影响): One person enthusiastically recommends a book; a listening friend then reaches for the same book, social influence.\nBOTTOM RIGHT — taste (n.鉴赏力;品尝): An adult thoughtfully compares two framed paintings and chooses a refined composition, aesthetic judgement rather than eating.\nCROP SAFETY: scale every scene down enough to leave 15% whitespace inside EACH cell. Bottom-row subjects including heads and hair start BELOW 58% of total canvas height. Keep all heads, hands and main objects entirely visible.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-076.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "All four cells visually checked for subject/sense and crop boundaries. Medical symbols, maritime parts/actions, time period and globe concept legible.",
+  "source_sha256": "61bd73dd8d5393cdd96b30d888486fb00730ec855f9068674b7bc935a9c5701d"
+}

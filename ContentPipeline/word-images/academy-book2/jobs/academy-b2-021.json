@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-021",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-c10a4bc4-ea84-463b-b830-c78edf8a5c77.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — secretary (n.秘书): An office secretary sits at a desk with appointment book and telephone, organizing papers professionally.\nTOP RIGHT — weak (a.弱的): A person struggles to lift a small light shopping bag, visibly lacking strength without caricature.\nBOTTOM LEFT — interrupt (v.插话，打断): Two people are talking when a third person suddenly raises a hand and speaks between them, first pair look surprised.\nBOTTOM RIGHT — park (v.停放(汽车)): A car carefully backing into a marked parking bay with clear white boundary lines. Verb parking, no garden.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "secretary",
+      "meaning": "n.秘书",
+      "filename": "academy-b2-a8148532caf68476.png",
+      "scene": "An office secretary sits at a desk with appointment book and telephone, organizing papers professionally."
+    },
+    {
+      "index": 1,
+      "word": "weak",
+      "meaning": "a.弱的",
+      "filename": "academy-b2-481ba4019c9d2710.png",
+      "scene": "A person struggles to lift a small light shopping bag, visibly lacking strength without caricature."
+    },
+    {
+      "index": 2,
+      "word": "interrupt",
+      "meaning": "v.插话，打断",
+      "filename": "academy-b2-a2090fd63782e9c3.png",
+      "scene": "Two people are talking when a third person suddenly raises a hand and speaks between them, first pair look surprised."
+    },
+    {
+      "index": 3,
+      "word": "park",
+      "meaning": "v.停放(汽车)",
+      "filename": "academy-b2-4d3971de62245c94.png",
+      "scene": "A car carefully backing into a marked parking bay with clear white boundary lines. Verb parking, no garden."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

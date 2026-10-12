@@ -1,0 +1,19 @@
+{
+  "id": "academy-b3-repair-005",
+  "cells": [
+    {
+      "index": 0,
+      "word": "contented",
+      "meaning": "a.心满意足的",
+      "filename": "academy-b3-2d013703fc875ef8.png",
+      "scene": "A small waist-up adult sitting comfortably in an armchair, relaxed satisfied smile, eyes gently closed, holding warm tea. Only upper body and armrests visible, no legs or feet. Compact centered composition with large white margins. Simple light watercolor."
+    }
+  ],
+  "prompt": "Create a SQUARE 2x2 atlas. Attached image is STYLE REFERENCE ONLY. Fine dark blue ink, pale restrained watercolor, pure white background. ONLY TOP LEFT quadrant has ONE SMALL contented scene: A small waist-up adult sitting comfortably in an armchair, relaxed satisfied smile, eyes gently closed, holding warm tea. Only upper body and armrests visible, no legs or feet. Compact centered composition with large white margins. Simple light watercolor. All other three quadrants COMPLETELY BLANK WHITE. No words, text, grids, borders. Large white margin around drawing inside top-left quadrant. All ink ends ABOVE40% of overall image height and LEFT OF40% overall image width.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-005.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Contented now has a compact fully contained upper-body seated scene, relaxed satisfied face and safe whitespace.",
+  "source_sha256": "8d7a1389b52154fe19e3ef179984942d7670271afd78b59515358c3153aaa90a"
+}

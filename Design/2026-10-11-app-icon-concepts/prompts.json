@@ -1,0 +1,38 @@
+[
+  {
+    "id": "01-four-volumes",
+    "name": "四册书脊",
+    "description": "四本书逐级升高，延续旧图标的四册记忆。",
+    "prompt": "Use case: logo-brand. Create ONE polished color concept sketch for an iOS English-learning app icon, square full-bleed artwork. Reference1 is current APP UI for palette and personality only, never copy interface. Reference2 is existing four-volume icon for brand history only, freely redesign. App palette: #087EA4 teal blue, #E7F7FF pale sky, white, charcoal #15191E; restrained ochre accents. Calm, literate, welcoming adult learning. A confident compact emblem of EXACTLY FOUR upright book spines, increasing slightly in height from left to right. Warm ivory spines, rounded friendly shapes, very subtle paper thickness. Each spine has a small colored bottom band: muted burgundy, teal, blue, ochre, referencing four volumes. No letters on books. Bold modern graphic reduction of a classic scholarly book collection. Deep ocean teal full-bleed square background, extremely restrained soft tonal lighting. Four books form one unified centered silhouette, cover about 66% width and 64%height. Mostly flat graphic with subtle tactile paper relief, no black outlines. Deliver a SINGLE square icon filling entire image; background extends to all four edges. NO rounded outer mask, NO external margins or presentation board, no phone mockup, no captions, no badges, no watermark, no tiny detail. Strong recognition at 48 pixels.",
+    "source": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-9cc370f4-48bd-4b2c-8570-6bd2ff8b64db.png",
+    "file": "01-four-volumes.png",
+    "mode": "built-in image_gen"
+  },
+  {
+    "id": "02-listening-book",
+    "name": "听读之书",
+    "description": "打开的书与两道声波，突出听读体验。",
+    "prompt": "Use case: logo-brand. Create ONE polished color concept sketch for an iOS English-learning app icon, square full-bleed artwork. Reference1 is current APP UI for palette and personality only, never copy interface. Reference2 is existing four-volume icon for brand history only, freely redesign. App palette: #087EA4 teal blue, #E7F7FF pale sky, white, charcoal #15191E; restrained ochre accents. Calm, literate, welcoming adult learning. One strong ivory open-book silhouette with two broad flowing pages and a deep teal central fold. Above the right page, EXACTLY TWO short thick curved sound-wave arcs visually continue the upward page curve. Integrate reading and listening as one beautifully balanced compact mark, NOT headphones. Small ochre bookmark at center bottom optional only if minimal. Saturated ocean teal full-bleed square background with very subtle upperleft light. Sculpted soft paper edges, understated depth, crisp silhouette. Mark covers 64% of square, generous safe margin. Elegant adult education identity. Deliver a SINGLE square icon filling entire image; background extends to all four edges. NO rounded outer mask, NO external margins or presentation board, no phone mockup, no captions, no badges, no watermark, no tiny detail. Strong recognition at 48 pixels.",
+    "source": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-bf4728c0-fa4f-49fb-8879-e80fb607c8ef.png",
+    "file": "02-listening-book.png",
+    "mode": "built-in image_gen"
+  },
+  {
+    "id": "03-folded-n",
+    "name": "折页 N",
+    "description": "一本折页构成 N，探索更独立的品牌符号。",
+    "prompt": "Use case: logo-brand. Create ONE polished color concept sketch for an iOS English-learning app icon, square full-bleed artwork. Reference1 is current APP UI for palette and personality only, never copy interface. Reference2 is existing four-volume icon for brand history only, freely redesign. App palette: #087EA4 teal blue, #E7F7FF pale sky, white, charcoal #15191E; restrained ochre accents. Calm, literate, welcoming adult learning. A single bold custom uppercase N monogram constructed from one broad folded ivory paper ribbon, suggesting pages of a book. Clear legible N: two vertical stems joined by a diagonal. Fold plane on diagonal is a slightly paler teal shadow; small restrained warm ochre reverse-paper edge. Premium editorial modernism, exact simple geometric silhouette, refined gentle rounded corners. Deep ocean teal full-bleed square background, subtle satin paper relief, flat frontal composition. N occupies 58%width and62%height. No other letters or text, no separate book objects, no waves. Deliver a SINGLE square icon filling entire image; background extends to all four edges. NO rounded outer mask, NO external margins or presentation board, no phone mockup, no captions, no badges, no watermark, no tiny detail. Strong recognition at 48 pixels.",
+    "source": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-5a2af649-b52b-43a9-94af-e008afebfa76.png",
+    "file": "03-folded-n.png",
+    "mode": "built-in image_gen"
+  },
+  {
+    "id": "04-page-bird",
+    "name": "书页飞鸟",
+    "description": "书页化作飞鸟，呼应插图的水彩与探索感。",
+    "prompt": "Use case: logo-brand. Create ONE polished color concept sketch for an iOS English-learning app icon, square full-bleed artwork. Reference1 is current APP UI for palette and personality only, never copy interface. Reference2 is existing four-volume icon for brand history only, freely redesign. App palette: #087EA4 teal blue, #E7F7FF pale sky, white, charcoal #15191E; restrained ochre accents. Calm, literate, welcoming adult learning. A poetic minimal open book whose TWO sweeping pages become the TWO wings of a small abstract bird in flight, one integrated symbol, not a bird sitting on a separate book. Deep teal and pale blue restrained watercolor fills, fine confident charcoal-blue ink edge, warm ochre tiny folded bookmark like a tail. Warm ivory full-bleed square background. Adult literary educational illustration, tactile watercolor paper but very sparse texture. Highly simplified strong symmetrical wing/book silhouette with slight natural asymmetry, readable at tiny sizes, one central subject occupying65%width. No landscape, no sky, no extra birds, no realistic feathers, no text. Deliver a SINGLE square icon filling entire image; background extends to all four edges. NO rounded outer mask, NO external margins or presentation board, no phone mockup, no captions, no badges, no watermark, no tiny detail. Strong recognition at 48 pixels.",
+    "source": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-af52232a-65a9-4223-9113-49df87550a3c.png",
+    "file": "04-page-bird.png",
+    "mode": "built-in image_gen"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-058",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-cf3db7fc-1670-4b46-8391-e1513d6728b1.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — temperature (n.温度): A clear compact educational illustration of 'temperature', specifically its curriculum meaning 'n.温度'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — flu (n.流行性感冒): A clear compact educational illustration of 'flu', specifically its curriculum meaning 'n.流行性感冒'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — measles (n.麻疹): a calm child with a sparse red dotted rash on cheeks and arms, simple non-diagnostic illustration, non-graphic\nBOTTOM RIGHT — mumps (n.腮腺炎): a person with gently indicated swelling near both jaw angles, simple non-graphic symptom mnemonic",
+  "cells": [
+    {
+      "word": "temperature",
+      "meaning": "n.温度",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-b314ae60cb741e69.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'temperature', specifically its curriculum meaning 'n.温度'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "flu",
+      "meaning": "n.流行性感冒",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-92f75a33d5898073.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'flu', specifically its curriculum meaning 'n.流行性感冒'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "measles",
+      "meaning": "n.麻疹",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-83fb135d6b71a84b.png",
+      "kind": "ai_illustration",
+      "scene": "a calm child with a sparse red dotted rash on cheeks and arms, simple non-diagnostic illustration, non-graphic",
+      "index": 2
+    },
+    {
+      "word": "mumps",
+      "meaning": "n.腮腺炎",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-1482a2ac2d84c3c1.png",
+      "kind": "ai_illustration",
+      "scene": "a person with gently indicated swelling near both jaw angles, simple non-graphic symptom mnemonic",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

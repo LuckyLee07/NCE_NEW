@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-084",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-dfe16bf5-bbfd-445d-b47f-dc9f6b3f04c2.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — explosion (n.爆炸，轰响): A distant non-graphic burst of orange smoke and debris from an empty object, no people or construction details.\nTOP RIGHT — course (n.跑道，路程): An oval motor-racing course with a small vintage car following the route, no golf course.\nBOTTOM LEFT — rival (n.对手): Two runners face forward side by side before a race, equal determined competitors.\nBOTTOM RIGHT — speed (v.疾驶): A car travels quickly along an empty road, short motion lines, no speed-limit sign. Verb speeding.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "explosion",
+      "meaning": "n.爆炸，轰响",
+      "filename": "academy-b2-4e33d57d8955b313.png",
+      "scene": "A distant non-graphic burst of orange smoke and debris from an empty object, no people or construction details."
+    },
+    {
+      "index": 1,
+      "word": "course",
+      "meaning": "n.跑道，路程",
+      "filename": "academy-b2-a908043ed469f361.png",
+      "scene": "An oval motor-racing course with a small vintage car following the route, no golf course."
+    },
+    {
+      "index": 2,
+      "word": "rival",
+      "meaning": "n.对手",
+      "filename": "academy-b2-1db147fa22abae8a.png",
+      "scene": "Two runners face forward side by side before a race, equal determined competitors."
+    },
+    {
+      "index": 3,
+      "word": "speed",
+      "meaning": "v.疾驶",
+      "filename": "academy-b2-bbccb9c002d5ed59.png",
+      "scene": "A car travels quickly along an empty road, short motion lines, no speed-limit sign. Verb speeding."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

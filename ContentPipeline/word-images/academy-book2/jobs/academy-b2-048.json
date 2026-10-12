@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-048",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-b284ea61-eb45-4ed9-bf82-54d87efdebc6.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — fright (n.害怕): An adult reacts in fright to a sudden harmless shadow, wide eyes and hand to chest.\nTOP RIGHT — battered (a.撞坏的): An old car with dented panels, bent bumper and scratched paint, no injured person.\nBOTTOM LEFT — record (n.记录): A stopwatch beside a finish-line ribbon and a small record sheet with blank lines, sporting record sense.\nBOTTOM RIGHT — strong (a.强壮的): An adult lifts a heavy box steadily with good posture, visibly strong but realistic.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "fright",
+      "meaning": "n.害怕",
+      "filename": "academy-b2-4c3cc494be55f486.png",
+      "scene": "An adult reacts in fright to a sudden harmless shadow, wide eyes and hand to chest."
+    },
+    {
+      "index": 1,
+      "word": "battered",
+      "meaning": "a.撞坏的",
+      "filename": "academy-b2-49a19109da594b70.png",
+      "scene": "An old car with dented panels, bent bumper and scratched paint, no injured person."
+    },
+    {
+      "index": 2,
+      "word": "record",
+      "meaning": "n.记录",
+      "filename": "academy-b2-70ce871f8a3d3fb4.png",
+      "scene": "A stopwatch beside a finish-line ribbon and a small record sheet with blank lines, sporting record sense."
+    },
+    {
+      "index": 3,
+      "word": "strong",
+      "meaning": "a.强壮的",
+      "filename": "academy-b2-eda15ce4834ac303.png",
+      "scene": "An adult lifts a heavy box steadily with good posture, visibly strong but realistic."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

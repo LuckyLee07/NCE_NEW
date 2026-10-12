@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-070",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-c07857a9-586a-4389-be7f-172ebecf8d08.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — vegetable (n.蔬菜): A clear compact educational illustration of 'vegetable', specifically its curriculum meaning 'n.蔬菜'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — need (v.需要): A clear compact educational illustration of 'need', specifically its curriculum meaning 'v.需要'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — hope (v.希望): A clear compact educational illustration of 'hope', specifically its curriculum meaning 'v.希望'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — thing (n.事情): A clear compact educational illustration of 'thing', specifically its curriculum meaning 'n.事情'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "vegetable",
+      "meaning": "n.蔬菜",
+      "lessons": [
+        79
+      ],
+      "filename": "academy-b1-4715b734085d8d9c.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'vegetable', specifically its curriculum meaning 'n.蔬菜'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "need",
+      "meaning": "v.需要",
+      "lessons": [
+        79
+      ],
+      "filename": "academy-b1-be8dff00b0d468b2.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'need', specifically its curriculum meaning 'v.需要'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "hope",
+      "meaning": "v.希望",
+      "lessons": [
+        79
+      ],
+      "filename": "academy-b1-c29277f55fb31aeb.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'hope', specifically its curriculum meaning 'v.希望'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "thing",
+      "meaning": "n.事情",
+      "lessons": [
+        79
+      ],
+      "filename": "academy-b1-5de94d691ae3039a.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'thing', specifically its curriculum meaning 'n.事情'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3,
+      "superseded_by": "academy-b1-repair-001"
+    }
+  ],
+  "status": "accepted_with_replaced_cells",
+  "review_status": "assistant_visual_reviewed"
+}

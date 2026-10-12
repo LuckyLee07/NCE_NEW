@@ -1,0 +1,80 @@
+{
+  "book_id": 1,
+  "summary": {
+    "book_id": 1,
+    "word_count": 605,
+    "covered_words": 605,
+    "illustrated_words": 581,
+    "native_hints": 24,
+    "native_diagrams": 62,
+    "context_scenes": 30,
+    "unique_image_files": 565,
+    "image_bytes": 70581457,
+    "largest_image_bytes": 183281,
+    "image_size": [
+      320,
+      320
+    ],
+    "image_format": "PNG",
+    "lossy_compression": false,
+    "max_bytes_per_image": 200000,
+    "missing_words": [],
+    "kinds": {
+      "ai_illustration": 491,
+      "native_hint": 24,
+      "native_diagram": 62,
+      "pilot_illustration": 12,
+      "shared_illustration": 16
+    }
+  },
+  "resource_check": "passed: source and built app; 605 visual keys; all PNGs decoded; Book 2–4 legacy lookup unchanged",
+  "legacy_resource_check": "passed: 3104 keys, 3099 audio and 6835 existing image files decoded; invalid=0",
+  "ui_check": {
+    "status": "passed",
+    "device": "iPhone 12 Pro, iOS 26.2",
+    "tests": [
+      "NCEContentUITests/testAcademyBookOneVisuals",
+      "NCEContentUITests/testAcademyContextEmbedded"
+    ],
+    "samples": [
+      "me",
+      "January",
+      "may",
+      "during",
+      "is",
+      "cinema"
+    ],
+    "result_bundles": [
+      "/tmp/nce-academy-supplement-tests.xcresult",
+      "/tmp/nce-academy-supplement-embedded-r2.xcresult"
+    ],
+    "screenshots": "Docs/word-resources/academy-book1-ui/supplement",
+    "layout_checks": "image/caption/meaning separation; caption removed on word change; meaning fully visible in lesson viewport after reducing new embedded art from 200 to 160 pt"
+  },
+  "build": "passed, NCE_Content_QA Debug simulator, isolated com.palmgame.NCEALL.resourceqa.academy",
+  "visual_review": "assistant inspected 116 initial atlases and 5 repair atlases; 17 cells replaced; pilot approved by user",
+  "physical_device_tested": false,
+  "exporter_replay": "passed: initial atlas 006 plus correction atlas 001; 7 byte-identical PNGs; superseded cell skipped",
+  "initial_ui_check": {
+    "status": "passed",
+    "test": "NCEContentUITests/testAcademyBookOneVisuals",
+    "device": "iPhone 12 Pro, iOS 26.2",
+    "samples": [
+      "me",
+      "January",
+      "cinema"
+    ],
+    "result_bundle": "/tmp/nce-academy-book1-tests-r2.xcresult",
+    "screenshots": "Docs/word-resources/academy-book1-ui"
+  },
+  "supplement": {
+    "reviewed_former_hints": 116,
+    "converted_to_diagrams": 62,
+    "converted_to_scenes": 30,
+    "retained_hints": 24,
+    "hint_fraction": 0.03966942148760331,
+    "visual_review": "assistant inspected all 62 native diagrams, 8 supplemental atlases, 1 correction atlas; must replaced to show pedestrian standing behind curb; 8 final UI screenshots",
+    "generation": "built-in image_gen for illustrations; native AppKit drawing for diagrams",
+    "prompt_set": "ContentPipeline/word-images/academy-book1/supplement-prompts.json"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "academy-b4-repair-006",
+  "cells": [
+    {
+      "index": 0,
+      "word": "counteract",
+      "meaning": "v.抵消",
+      "filename": "academy-b4-f4ac005b1ff39e9e.png",
+      "scene": "A single perfectly LEVEL balance scale with one IDENTICAL weight on each side, equal weights on equal arms counteract each other. Two equally sized downward force arrows point at the two weights. No unbalanced before-state."
+    }
+  ],
+  "prompt": "2x2 ink watercolor educational atlas matching reference. Pure white background. ONLY top-left quadrant has a SMALL balanced scale scene; fit scene between 8%-40% total width and 10%-40% total height. Other3quadrantswhite. NO letters or numbers. A single perfectly LEVEL balance scale with one IDENTICAL weight on each side, equal weights on equal arms counteract each other. Two equally sized downward force arrows point at the two weights. No unbalanced before-state.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-repair-006.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Level beam, equal masses at symmetric positions, equal downward force arrows. Balanced torques illustrate counteract; drawing safely inside cell.",
+  "source_sha256": "b82d32ac315332cc0b23a4ad6dc380d94ea41906869bc8ede836a8d9b6488f28"
+}

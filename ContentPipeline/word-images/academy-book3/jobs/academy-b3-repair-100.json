@@ -1,0 +1,19 @@
+{
+  "id": "academy-b3-repair-100",
+  "cells": [
+    {
+      "index": 0,
+      "word": "naval",
+      "meaning": "a.海军的",
+      "filename": "academy-b3-a839ee0a1d14bee0.png",
+      "scene": "ONE complete adult navy sailor in a white sailor uniform with navy-blue collar and white cap stands proudly at a small dock. A VERY SMALL SHORT grey navy patrol boat is moored behind him, no tall masts. The entire person, the entire compact boat, dock and all water are grouped very tightly in the CENTER of the TOP LEFT quadrant, occupying ONLY MIDDLE 45% of that quadrant's width and height. Absolutely large white empty margin on right of bow and below shoes. Do not make ship long. No detail crosses or comes close to any quadrant edge."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with ONLY TOP LEFT quadrant containing the naval scene below. All other THREE quadrants remain entirely EMPTY PURE WHITE. Style reference attached: restrained blue-charcoal ink and pale watercolor, white background. No words, borders, grid. Draw the scene VERY SMALL and compact, with generous EMPTY WHITE padding 25% of the quadrant on ALL FOUR sides. The complete group must stay FAR to the LEFT of the vertical canvas midline and FAR above horizontal canvas midline. No ship bow, shoes, water or dock reaches a crop boundary. TOP LEFT — naval (海军的): ONE complete adult navy sailor in a white sailor uniform with navy-blue collar and white cap stands proudly at a small dock. A VERY SMALL SHORT grey navy patrol boat is moored behind him, no tall masts. The entire person, the entire compact boat, dock and all water are grouped very tightly in the CENTER of the TOP LEFT quadrant, occupying ONLY MIDDLE 45% of that quadrant's width and height. Absolutely large white empty margin on right of bow and below shoes. Do not make ship long. No detail crosses or comes close to any quadrant edge.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-100.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Final naval replacement is fully contained with ample right margin beyond bow and water. One complete white-uniformed sailor beside a complete compact grey naval patrol boat, no anatomy or crop defects.",
+  "source_sha256": "77473be93e9566405ed4c46a8d5ae497f1d5e0eef69a0eb1761beb76374c77f1"
+}

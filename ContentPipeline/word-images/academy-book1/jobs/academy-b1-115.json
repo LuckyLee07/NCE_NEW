@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-115",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-0a0e6232-9b10-4475-99e7-d3a3ad02525c.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — piece (n.碎片): A clear compact educational illustration of 'piece', specifically its curriculum meaning 'n.碎片'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — tyre (n.轮胎): A clear compact educational illustration of 'tyre', specifically its curriculum meaning 'n.轮胎'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — rusty (a.生锈的): a small old iron key with visible warm brown-orange rust patches, clearly rust not wood\nBOTTOM RIGHT — among (prep.在…之间): A clear compact educational illustration of 'among', specifically its curriculum meaning 'prep.在…之间'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "piece",
+      "meaning": "n.碎片",
+      "lessons": [
+        143
+      ],
+      "filename": "academy-b1-34235a2c502e3919.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'piece', specifically its curriculum meaning 'n.碎片'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "tyre",
+      "meaning": "n.轮胎",
+      "lessons": [
+        143
+      ],
+      "filename": "academy-b1-767e419e7fe373f1.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'tyre', specifically its curriculum meaning 'n.轮胎'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "rusty",
+      "meaning": "a.生锈的",
+      "lessons": [
+        143
+      ],
+      "filename": "academy-b1-91c0b7c9c0fa9864.png",
+      "kind": "ai_illustration",
+      "scene": "a small old iron key with visible warm brown-orange rust patches, clearly rust not wood",
+      "index": 2
+    },
+    {
+      "word": "among",
+      "meaning": "prep.在…之间",
+      "lessons": [
+        143
+      ],
+      "filename": "academy-b1-766c1d13a3e06c4d.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'among', specifically its curriculum meaning 'prep.在…之间'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

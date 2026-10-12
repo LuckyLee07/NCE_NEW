@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-098",
+  "cells": [
+    {
+      "index": 0,
+      "word": "find",
+      "meaning": "n.找到的物品",
+      "filename": "academy-b3-e6640de835ad09fb.png",
+      "scene": "An archaeologist proudly holds up a small old clay bowl newly uncovered from the soil."
+    },
+    {
+      "index": 1,
+      "word": "log book",
+      "meaning": "航海日志",
+      "filename": "academy-b3-00dee3e5a476a40d.png",
+      "scene": "An open ship's navigation log lies beside a compass on a captain's desk, ruled entries and tiny route sketches without readable writing."
+    },
+    {
+      "index": 2,
+      "word": "piece",
+      "meaning": "v.拼成整体",
+      "filename": "academy-b3-34235a2c502e3919.png",
+      "scene": "Hands join several fragments of one broken ceramic plate until the outline is complete, careful reconstruction."
+    },
+    {
+      "index": 3,
+      "word": "convoy",
+      "meaning": "v./n.护航",
+      "filename": "academy-b3-56dc1a011eb4606c.png",
+      "scene": "A naval escort ship travels protectively beside two merchant cargo ships on calm sea, the group moving together."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — find (n.找到的物品): An archaeologist proudly holds up a small old clay bowl newly uncovered from the soil.\nTOP RIGHT — log book (航海日志): An open ship's navigation log lies beside a compass on a captain's desk, ruled entries and tiny route sketches without readable writing.\nBOTTOM LEFT — piece (v.拼成整体): Hands join several fragments of one broken ceramic plate until the outline is complete, careful reconstruction.\nBOTTOM RIGHT — convoy (v./n.护航): A naval escort ship travels protectively beside two merchant cargo ships on calm sea, the group moving together.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-098.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Checked four exact curriculum meanings, natural anatomy, white crop margins, and separation of quadrants.",
+  "source_sha256": "1e19726b4f3365a3989ee841dcca51f9ea15f5b3324f26351cec2dc46ecb2744"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-025",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-6d9f48c8-1021-4d93-8f3c-e7ecd187bc4d.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — landlord (n.店主): A friendly pub owner stands proudly behind the bar of a small traditional pub. Pubkeeper sense.\nTOP RIGHT — bill (n.账单): A restaurant bill on a small tray with a fork and cup nearby; rows of blank lines and small total numeral only.\nBOTTOM LEFT — hurry (v./n.匆忙): An adult glances at wristwatch while hurrying with coat over arm toward a doorway.\nBOTTOM RIGHT — ticket office (售票处): A theatre ticket office window with clerk handing a small paper ticket to a customer, no legible writing.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "landlord",
+      "meaning": "n.店主",
+      "filename": "academy-b2-c4a11b3a02a7908b.png",
+      "scene": "A friendly pub owner stands proudly behind the bar of a small traditional pub. Pubkeeper sense."
+    },
+    {
+      "index": 1,
+      "word": "bill",
+      "meaning": "n.账单",
+      "filename": "academy-b2-623210167553939c.png",
+      "scene": "A restaurant bill on a small tray with a fork and cup nearby; rows of blank lines and small total numeral only."
+    },
+    {
+      "index": 2,
+      "word": "hurry",
+      "meaning": "v./n.匆忙",
+      "filename": "academy-b2-f6002cbceb8c0327.png",
+      "scene": "An adult glances at wristwatch while hurrying with coat over arm toward a doorway."
+    },
+    {
+      "index": 3,
+      "word": "ticket office",
+      "meaning": "售票处",
+      "filename": "academy-b2-b27f95179ae0d91b.png",
+      "scene": "A theatre ticket office window with clerk handing a small paper ticket to a customer, no legible writing."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

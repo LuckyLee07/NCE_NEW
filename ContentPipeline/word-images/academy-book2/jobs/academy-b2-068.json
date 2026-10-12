@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-068",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-4832fe2d-78c1-4e4d-a359-47d0e5db666e.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — nod (v.点头): An adult nods their head in agreement, a curved downward arrow beside head, calm expression.\nTOP RIGHT — tired (a.厌烦的): An adult looks bored and fed up with repeated paperwork, pushes it aside with weary expression.\nBOTTOM LEFT — real (a.真正的): A real living flower stands beside a pale outline of an artificial paper flower, real flower emphasized with natural details.\nBOTTOM RIGHT — spring (n.弹簧): A shiny coiled metal compression spring, isolated object, no seasonal flowers.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "nod",
+      "meaning": "v.点头",
+      "filename": "academy-b2-4043d35e7dd415e7.png",
+      "scene": "An adult nods their head in agreement, a curved downward arrow beside head, calm expression."
+    },
+    {
+      "index": 1,
+      "word": "tired",
+      "meaning": "a.厌烦的",
+      "filename": "academy-b2-c405760daf9bc32b.png",
+      "scene": "An adult looks bored and fed up with repeated paperwork, pushes it aside with weary expression."
+    },
+    {
+      "index": 2,
+      "word": "real",
+      "meaning": "a.真正的",
+      "filename": "academy-b2-aa33996d60e89311.png",
+      "scene": "A real living flower stands beside a pale outline of an artificial paper flower, real flower emphasized with natural details."
+    },
+    {
+      "index": 3,
+      "word": "spring",
+      "meaning": "n.弹簧",
+      "filename": "academy-b2-622a494d3ea8c7ba.png",
+      "scene": "A shiny coiled metal compression spring, isolated object, no seasonal flowers."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-036",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-e8e24d77-6091-4dde-a79a-ece567dab69b.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — tea (n.茶): A clear compact educational illustration of 'tea', specifically its curriculum meaning 'n.茶'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — tobacco (n.烟草，烟丝): a small bundle of cured brown tobacco leaves with a tiny heap of cut dried strands, no smoking person or branding\nBOTTOM LEFT — kettle (n.水壶): A clear compact educational illustration of 'kettle', specifically its curriculum meaning 'n.水壶'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — behind (prep.在…后面): A clear compact educational illustration of 'behind', specifically its curriculum meaning 'prep.在…后面'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "tea",
+      "meaning": "n.茶",
+      "lessons": [
+        41
+      ],
+      "filename": "academy-b1-a9f74d1ec36ebdeb.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'tea', specifically its curriculum meaning 'n.茶'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "tobacco",
+      "meaning": "n.烟草，烟丝",
+      "lessons": [
+        41
+      ],
+      "filename": "academy-b1-da43f06caa04c6fd.png",
+      "kind": "ai_illustration",
+      "scene": "a small bundle of cured brown tobacco leaves with a tiny heap of cut dried strands, no smoking person or branding",
+      "index": 1
+    },
+    {
+      "word": "kettle",
+      "meaning": "n.水壶",
+      "lessons": [
+        43
+      ],
+      "filename": "academy-b1-20cd4732ae60507a.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'kettle', specifically its curriculum meaning 'n.水壶'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "behind",
+      "meaning": "prep.在…后面",
+      "lessons": [
+        43,
+        69
+      ],
+      "filename": "academy-b1-b1b886ce5f5750a0.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'behind', specifically its curriculum meaning 'prep.在…后面'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

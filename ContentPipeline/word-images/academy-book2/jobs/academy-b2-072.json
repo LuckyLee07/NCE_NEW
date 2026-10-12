@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-072",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-0276ae95-41f6-4e2a-bb0e-b7087de4366a.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — forbid (v.禁止): A parent holds up a firm stopping palm beside a closed cabinet, a simple red prohibition symbol over reaching hand.\nTOP RIGHT — hurriedly (ad.匆忙地): An adult hurriedly puts on a coat while grabbing a bag, motion lines and clock nearby.\nBOTTOM LEFT — guiltily (ad.内疚地): A person looks guilty beside an empty cake plate with crumbs on their fingers, lowered eyes.\nBOTTOM RIGHT — strict (a.严格的): A teacher points firmly to an orderly line of students, disciplined but respectful atmosphere.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "forbid",
+      "meaning": "v.禁止",
+      "filename": "academy-b2-76626ec9e79c1c45.png",
+      "scene": "A parent holds up a firm stopping palm beside a closed cabinet, a simple red prohibition symbol over reaching hand."
+    },
+    {
+      "index": 1,
+      "word": "hurriedly",
+      "meaning": "ad.匆忙地",
+      "filename": "academy-b2-12d3859c745fd952.png",
+      "scene": "An adult hurriedly puts on a coat while grabbing a bag, motion lines and clock nearby."
+    },
+    {
+      "index": 2,
+      "word": "guiltily",
+      "meaning": "ad.内疚地",
+      "filename": "academy-b2-2fd9bbbf23ddc159.png",
+      "scene": "A person looks guilty beside an empty cake plate with crumbs on their fingers, lowered eyes."
+    },
+    {
+      "index": 3,
+      "word": "strict",
+      "meaning": "a.严格的",
+      "filename": "academy-b2-3a3127f5ea0269b5.png",
+      "scene": "A teacher points firmly to an orderly line of students, disciplined but respectful atmosphere."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

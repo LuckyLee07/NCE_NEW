@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-075",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-a57b6003-af5b-458a-8ad3-0cebbfc14807.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — solve (v.解决): A person fits the last piece into a simple puzzle and smiles, solution found.\nTOP RIGHT — mystery (n.谜): A closed old box with a question-mark thought bubble and a magnifying glass beside it, unknown secret.\nBOTTOM LEFT — snatch (v.抓住): A hand quickly snatches a falling hat out of the air, rapid motion, no theft instruction.\nBOTTOM RIGHT — spark (n.电火花): A tiny isolated blue-white electrical spark between two distant stylized metal tips, educational symbol only, no circuit instructions.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "solve",
+      "meaning": "v.解决",
+      "filename": "academy-b2-c14cdb19563cb164.png",
+      "scene": "A person fits the last piece into a simple puzzle and smiles, solution found."
+    },
+    {
+      "index": 1,
+      "word": "mystery",
+      "meaning": "n.谜",
+      "filename": "academy-b2-4f0d9e5f2d159c8b.png",
+      "scene": "A closed old box with a question-mark thought bubble and a magnifying glass beside it, unknown secret."
+    },
+    {
+      "index": 2,
+      "word": "snatch",
+      "meaning": "v.抓住",
+      "filename": "academy-b2-6cd512a819ae26ee.png",
+      "scene": "A hand quickly snatches a falling hat out of the air, rapid motion, no theft instruction."
+    },
+    {
+      "index": 3,
+      "word": "spark",
+      "meaning": "n.电火花",
+      "filename": "academy-b2-92f473809e5979a7.png",
+      "scene": "A tiny isolated blue-white electrical spark between two distant stylized metal tips, educational symbol only, no circuit instructions."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

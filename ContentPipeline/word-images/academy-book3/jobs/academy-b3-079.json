@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-079",
+  "cells": [
+    {
+      "index": 0,
+      "word": "wheelbarrow",
+      "meaning": "n.独轮手推车",
+      "filename": "academy-b3-f7f50a48c3c98ab7.png",
+      "scene": "A garden wheelbarrow with exactly one front wheel, two handles and an empty metal tray, three-quarter view."
+    },
+    {
+      "index": 1,
+      "word": "boot",
+      "meaning": "n.(汽车尾部的)行李箱",
+      "filename": "academy-b3-4509beb0ab401d71.png",
+      "scene": "The rear luggage compartment of a car is open with a suitcase being placed inside, no footwear."
+    },
+    {
+      "index": 2,
+      "word": "ingredient",
+      "meaning": "n.配料",
+      "filename": "academy-b3-d8178aae87b9a429.png",
+      "scene": "A bowl of flour, two eggs, a small jug of milk and butter sit around an empty mixing bowl, cake ingredients."
+    },
+    {
+      "index": 3,
+      "word": "crane",
+      "meaning": "n.起重机",
+      "filename": "academy-b3-2c6ac23e4ffdf95f.png",
+      "scene": "A construction crane lifts a single building beam with a cable, simple recognizable machinery silhouette."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — wheelbarrow (n.独轮手推车): A garden wheelbarrow with exactly one front wheel, two handles and an empty metal tray, three-quarter view.\nTOP RIGHT — boot (n.(汽车尾部的)行李箱): The rear luggage compartment of a car is open with a suitcase being placed inside, no footwear.\nBOTTOM LEFT — ingredient (n.配料): A bowl of flour, two eggs, a small jug of milk and butter sit around an empty mixing bowl, cake ingredients.\nBOTTOM RIGHT — crane (n.起重机): A construction crane lifts a single building beam with a cable, simple recognizable machinery silhouette.\nKeep all primary subjects wholly inside each quadrant with generous white space.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-079.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Reviewed correct textbook objects/actions and cell safety. subtle swatches need less contrast and are excluded for replacement.",
+  "source_sha256": "f5ca3f2d8cbe452da3b29c51be57d0a52ca70b372d64e69f296fed11a375e6ef"
+}

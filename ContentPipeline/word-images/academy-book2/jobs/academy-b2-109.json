@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-109",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-a89ee8d2-a064-4df1-8002-df1c16dc65ad.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — manage (v.设法): A person finally lifts a difficult heavy suitcase onto a shelf after effort, relieved expression.\nTOP RIGHT — brilliant (a.精彩的): A spectacular bright firework display above a small crowd looking up, impressive scene.\nBOTTOM LEFT — escape (v.逃脱): A person safely exits a smoke-filled building through an open doorway into clear air, no injury.\nBOTTOM RIGHT — alive (a.活着的): A small green plant sprouts fresh leaves beside a dry dead twig, living plant emphasized.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "manage",
+      "meaning": "v.设法",
+      "filename": "academy-b2-181229424893bb65.png",
+      "scene": "A person finally lifts a difficult heavy suitcase onto a shelf after effort, relieved expression."
+    },
+    {
+      "index": 1,
+      "word": "brilliant",
+      "meaning": "a.精彩的",
+      "filename": "academy-b2-6255e14abc09aa5c.png",
+      "scene": "A spectacular bright firework display above a small crowd looking up, impressive scene."
+    },
+    {
+      "index": 2,
+      "word": "escape",
+      "meaning": "v.逃脱",
+      "filename": "academy-b2-b3140286ac71ad2a.png",
+      "scene": "A person safely exits a smoke-filled building through an open doorway into clear air, no injury."
+    },
+    {
+      "index": 3,
+      "word": "alive",
+      "meaning": "a.活着的",
+      "filename": "academy-b2-135fc7a09da25f03.png",
+      "scene": "A small green plant sprouts fresh leaves beside a dry dead twig, living plant emphasized."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

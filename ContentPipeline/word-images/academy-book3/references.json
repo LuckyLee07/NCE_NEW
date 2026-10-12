@@ -1,0 +1,47 @@
+{
+  "purpose": "Primary-source checks for specialized Book 3 illustration cues.",
+  "sources": [
+    {
+      "words": [
+        "spear"
+      ],
+      "url": "https://new.cressi.com/catalogue/details.asp?id=1154",
+      "checked_cues": "Underwater speargun silhouette with slender sealed barrel and ergonomic molded grip; lesson translation means a fishing gun, not a hand-thrown spear."
+    },
+    {
+      "words": [
+        "solar"
+      ],
+      "url": "https://science.nasa.gov/solar-system/",
+      "checked_cues": "Eight planets in ordered increasing orbits; schematic sizes and spacing."
+    },
+    {
+      "words": [
+        "Venus"
+      ],
+      "url": "https://science.nasa.gov/venus/venus-facts/",
+      "checked_cues": "Opaque cloud-covered pale yellow-white appearance; no Earth-like visible oceans."
+    },
+    {
+      "words": [
+        "Mars"
+      ],
+      "url": "https://science.nasa.gov/mars/facts/",
+      "checked_cues": "Rust-red rocky surface and pale polar cap."
+    },
+    {
+      "words": [
+        "Jupiter"
+      ],
+      "url": "https://science.nasa.gov/jupiter/jupiter-facts/",
+      "checked_cues": "Alternating cloud bands and Great Red Spot, no solid surface."
+    },
+    {
+      "words": [
+        "orbit"
+      ],
+      "url": "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/",
+      "checked_cues": "Sun belongs at one focus of ellipse; repaired artwork uses top-down circular special case with central Sun."
+    }
+  ]
+}

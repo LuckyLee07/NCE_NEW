@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "created_on": "2026-10-11",
+  "direction": "A - Light Academy",
+  "generation": "built-in image_gen",
+  "export": "PNG with alpha, longest edge 480 pixels",
+  "existing_book_covers_changed": false,
+  "assets": [
+    {
+      "word": "umbrella",
+      "path": "NCE_ALL/Images.xcassets/academy-umbrella.imageset/academy-umbrella.png",
+      "source": "/Users/lizi/.codex/generated_images/019eb45a-85cd-7cd2-9185-8b05f6dfcb31/exec-e6eb3a00-5c41-49d8-a6f9-a40417be23e8.png",
+      "width": 462,
+      "height": 480,
+      "bytes": 237132,
+      "sha256": "4f0d5b53639d3fcc03584c884ae17913250781b48a57063c1828d3d9079dea75",
+      "prompt_summary": "A single open blue umbrella for an English vocabulary screen. Fine black ink contours and restrained sky-blue colored-pencil/watercolor hatching, matching the approved illustrated textbook covers. Center the complete umbrella with curved handle on a transparent background. Legible at 150 pixels. No face, text, letters, extra objects, or glossy 3D rendering."
+    },
+    {
+      "word": "handbag",
+      "path": "NCE_ALL/Images.xcassets/academy-bag.imageset/academy-bag.png",
+      "source": "/Users/lizi/.codex/generated_images/019eb45a-85cd-7cd2-9185-8b05f6dfcb31/exec-39909acd-a0cb-48bc-9d51-ccdf2df18552.png",
+      "width": 472,
+      "height": 480,
+      "bytes": 289155,
+      "sha256": "1568b21af593ac659b3b4b900005494e752bd3db95b70455e96b45610c478319",
+      "prompt_summary": "A single classic structured blue handbag with two handles, not a backpack, for an English vocabulary screen. Fine black ink contours and restrained sky-blue colored-pencil/watercolor hatching, matching the approved illustrated textbook covers. Complete centered object on a transparent background, legible at small size. No face, text, letters, extra objects, or glossy 3D rendering."
+    }
+  ],
+  "notes": [
+    "Only these two vocabulary illustrations were replaced for this direction; remaining word images retain their existing resources.",
+    "AI-assisted artwork is disclosed in the existing offline resource credits.",
+    "QA screenshots remain local under the ignored Docs/**/ui-screenshots/ path."
+  ]
+}

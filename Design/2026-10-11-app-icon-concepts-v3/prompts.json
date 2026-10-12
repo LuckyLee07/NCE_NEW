@@ -1,0 +1,46 @@
+[
+  {
+    "id": "09-publisher-edition",
+    "name": "经典藏书版",
+    "description": "酒红、奶油纸与烫金压印，让经典教材拥有收藏版封面的质感。",
+    "rationale": "突出教材传承与可靠感，适合更成熟的品牌定位。",
+    "prompt": "Use case: logo-brand. Generate one high-craft finished DESIGN SKETCH of an iOS app icon for NCE, an adult English-learning app based on four classic course books, illustrated vocabulary and listening/reading practice. Reference image shows current UI: take only the calm scholarly teal/ivory identity, do not copy the interface. We are exploring distinctly different brand directions; prioritize art direction, a full rich composition and memorable silhouette. Direction 09: premium literary publisher / contemporary heritage BOOK COVER. Full-bleed deep oxblood burgundy linen-textured background, with a large inset warm ivory architectural bookplate panel (not a badge) occupying 76 percent frame, slim embossed gold double rules with refined stepped corners. At center-top of panel a substantial stylized OPEN BOOK with four fanned pages, engraved dark teal silhouettes, one ochre bookmark; the book occupies upper half of panel. In lower half, beautifully typeset large bold high-contrast editorial serif capitals exactly NCE, generously spaced and impeccable. Tiny four rectangular color swatches burgundy, teal, blue, ochre integrated beneath letters. Warm paper embossing, restrained gold foil edge highlights, tactile sophisticated print design. Strong disciplined hierarchy, rich detail in materials rather than clutter, deliberately graphic frontal view. No extra words, no mockup of a physical book, no ornate heraldry, no mascot. Single square full-bleed artwork, no exterior rounded corners (system masks later), no presentation sheet, no phone mockup, no captions/watermark. Keep all meaningful foreground elements within 10 percent edge safe area. Professional designer quality. Clear at 60px; avoid tiny decorative noise.",
+    "source": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-08da9343-c994-4337-9e2d-a8c038935b75.png",
+    "file": "09-publisher-edition.png",
+    "mode": "builtin-imagegen",
+    "reference": "Docs/word-resources/academy-book4-ui/academy-glider.png"
+  },
+  {
+    "id": "10-editorial-monogram",
+    "name": "字母建筑",
+    "description": "用层叠书页构成粗壮的 N，强调现代感与品牌辨识。",
+    "rationale": "适合长期品牌化，轮廓明确，可延展为界面和动效中的标志。",
+    "prompt": "Use case: logo-brand. Generate one high-craft finished DESIGN SKETCH of an iOS app icon for NCE, an adult English-learning app based on four classic course books, illustrated vocabulary and listening/reading practice. Reference image shows current UI: take only the calm scholarly teal/ivory identity, do not copy the interface. We are exploring distinctly different brand directions; prioritize art direction, a full rich composition and memorable silhouette. Direction 10: bold contemporary Swiss editorial meets tactile architectural paper sculpture. An unmistakable large uppercase letter N, not abstract knot, constructed from thick sculptural slabs of layered book pages: two vertical upright piers and strong diagonal stroke. Warm ivory main surfaces, vivid teal #087EA4 exposed layered edges, one coral-orange narrow page and one cobalt edge nestled into the diagonal. A sophisticated 3/4 shallow isometric tilt so letter N is still immediately legible face-on; visible stepped page layering and sculptural soft shadows. Full-bleed warm pale butter-yellow background, flat and luminous. Beneath the N a single dark teal offset shadow anchors it. Strong near-square silhouette fills 76 percent image. Bold geometry, adult design publication aesthetic, digitally rendered matte paper object, rich subtle relief. This is not thin folded ribbon and not plain font on background. No other letters or text, no decorative stars, no frame, no toys, no glossy plastic. Single square full-bleed artwork, no exterior rounded corners (system masks later), no presentation sheet, no phone mockup, no captions/watermark. Keep all meaningful foreground elements within 10 percent edge safe area. Professional designer quality. Clear at 60px; avoid tiny decorative noise.",
+    "source": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-cab17864-cf6f-4bad-81e0-a8a1e968594c.png",
+    "file": "10-editorial-monogram.png",
+    "mode": "builtin-imagegen",
+    "reference": "Docs/word-resources/academy-book4-ui/academy-glider.png"
+  },
+  {
+    "id": "11-story-portal",
+    "name": "书中有世界",
+    "description": "打开的书化成纸雕风景，用海面、日出和飞鸟表达插图理解。",
+    "rationale": "最能呼应 App 的插图特色，表达从词句进入故事的体验。",
+    "prompt": "Use case: logo-brand. Generate one high-craft finished DESIGN SKETCH of an iOS app icon for NCE, an adult English-learning app based on four classic course books, illustrated vocabulary and listening/reading practice. Reference image shows current UI: take only the calm scholarly teal/ivory identity, do not copy the interface. We are exploring distinctly different brand directions; prioritize art direction, a full rich composition and memorable silhouette. Direction 11: exquisite contemporary PAPER CUT DIORAMA illustration. A large OPEN ivory book in lower foreground, its fanned pages curl upward and transform continuously into a tall rounded architectural window/portal made of thick layered cut paper. The book and portal are ONE integrated silhouette, not floating separate objects. Inside portal: three beautifully overlapping teal and turquoise paper-cut sea waves, a large warm apricot rising sun, and ONE bold tiny ivory flying bird silhouette. Outer deep petrol teal background, inner sky warm pale mint. Rich dimensional layering, soft contact shadows between paper planes, precise clean cut edges, premium crafted editorial illustration for an adult English reading app. Compact composition fills 80 percent square, portal top and open book bottom visually balanced, dominant recognizable book/world motif. 5 to 7 broad layers only, no many tiny objects or intricate scenery, no text, no mascot faces, no globe, no photo realism. Attractive light and depth with book edges clearly visible at small scale. Single square full-bleed artwork, no exterior rounded corners (system masks later), no presentation sheet, no phone mockup, no captions/watermark. Keep all meaningful foreground elements within 10 percent edge safe area. Professional designer quality. Clear at 60px; avoid tiny decorative noise.",
+    "source": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-79026f6b-75ef-48c4-8ba7-1afbc1b329e8.png",
+    "file": "11-story-portal.png",
+    "mode": "builtin-imagegen",
+    "reference": "Docs/word-resources/academy-book4-ui/academy-glider.png"
+  },
+  {
+    "id": "12-listening-emblem",
+    "name": "听见语言",
+    "description": "复古珐琅材质，把四册书、声波与耳机合成一个听读符号。",
+    "rationale": "直观强调听读训练，与 App 的音频学习功能建立联系。",
+    "prompt": "Use case: logo-brand. Generate one high-craft finished DESIGN SKETCH of an iOS app icon for NCE, an adult English-learning app based on four classic course books, illustrated vocabulary and listening/reading practice. Reference image shows current UI: take only the calm scholarly teal/ivory identity, do not copy the interface. We are exploring distinctly different brand directions; prioritize art direction, a full rich composition and memorable silhouette. Direction 12: contemporary retro ENAMEL design object, bold sound-and-book symbol. Full-bleed warm apricot-orange background, centered one chunky deep teal over-ear HEADPHONE arch, enclosing EXACTLY FOUR upright rounded BOOK SPINES of alternating heights arranged low-high-high-low to read as an audio waveform. Books in ivory, butter yellow, pale cyan and ivory, each with one restrained inset navy spine rule and tiny page-edge grooves at top; clear thick recognizable books, not equalizer bars only. Headphone ear pads are substantial dark navy at left/right; integrated ivory open-book-shaped base joins the four books at bottom. Single compact coherent emblem occupying 76 percent frame. Softly beveled vitreous enamel surfaces edged in thin cream ceramic trim, tactile realistic material but orthographic clean graphic composition, warm studio light from upper left, subtle contact shadow directly behind entire mark. Adult friendly mid-century radio feel reinterpreted as polished modern app icon; no wire cable, no text, no faces, no sparkles, no outer badge border, not plastic toy, no dramatic mirror reflections. Single square full-bleed artwork, no exterior rounded corners (system masks later), no presentation sheet, no phone mockup, no captions/watermark. Keep all meaningful foreground elements within 10 percent edge safe area. Professional designer quality. Clear at 60px; avoid tiny decorative noise.",
+    "source": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-a998cc4b-3d76-4b51-a6b0-1e88a7d07e66.png",
+    "file": "12-listening-emblem.png",
+    "mode": "builtin-imagegen",
+    "reference": "Docs/word-resources/academy-book4-ui/academy-glider.png"
+  }
+]

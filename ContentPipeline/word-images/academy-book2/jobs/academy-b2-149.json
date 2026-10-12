@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-149",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-08409c83-1e5f-40b7-b6fb-e77213b7ce84.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — alibi (n.不在犯罪现场的证据): A detective compares a clock and a photograph showing a person at a different location, evidence of being elsewhere.\nTOP RIGHT — commit (v.犯(罪、错)): A person is shown after deliberately breaking a shop window, police notebook nearby, non-graphic wrongdoing without method detail.\nBOTTOM LEFT — inspector (n.探长): A police inspector in plain clothes reviews a notebook at a simple investigation desk, no weapon.\nBOTTOM RIGHT — employer (n.雇主): A business owner stands beside their employee at a workbench, offering a work folder, employer role.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "alibi",
+      "meaning": "n.不在犯罪现场的证据",
+      "filename": "academy-b2-2069478c342f81da.png",
+      "scene": "A detective compares a clock and a photograph showing a person at a different location, evidence of being elsewhere."
+    },
+    {
+      "index": 1,
+      "word": "commit",
+      "meaning": "v.犯(罪、错)",
+      "filename": "academy-b2-9505cacb7c710ed1.png",
+      "scene": "A person is shown after deliberately breaking a shop window, police notebook nearby, non-graphic wrongdoing without method detail."
+    },
+    {
+      "index": 2,
+      "word": "inspector",
+      "meaning": "n.探长",
+      "filename": "academy-b2-98fe442255035a14.png",
+      "scene": "A police inspector in plain clothes reviews a notebook at a simple investigation desk, no weapon."
+    },
+    {
+      "index": 3,
+      "word": "employer",
+      "meaning": "n.雇主",
+      "filename": "academy-b2-8efdf55724c97710.png",
+      "scene": "A business owner stands beside their employee at a workbench, offering a work folder, employer role."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

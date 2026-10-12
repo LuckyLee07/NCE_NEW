@@ -1,0 +1,56 @@
+{
+  "id": "academy-b1-078",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-eb8c3a9f-aff4-4c73-a26d-c3b0ecdd588e.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — miss (v.想念，思念): an adult looking wistfully at a framed portrait of a friend, missing someone not failing a target\nTOP RIGHT — neighbour (n.邻居): A clear compact educational illustration of 'neighbour', specifically its curriculum meaning 'n.邻居'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — poor (a.可怜的; 贫穷的): a person in simple worn clothing beside a nearly empty wallet, dignified depiction without caricature\nBOTTOM RIGHT — pilot (n.飞行员): A clear compact educational illustration of 'pilot', specifically its curriculum meaning 'n.飞行员'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "miss",
+      "meaning": "v.想念，思念",
+      "lessons": [
+        91,
+        95
+      ],
+      "filename": "academy-b1-80688fc3d5f88a06.png",
+      "kind": "ai_illustration",
+      "scene": "an adult looking wistfully at a framed portrait of a friend, missing someone not failing a target",
+      "index": 0
+    },
+    {
+      "word": "neighbour",
+      "meaning": "n.邻居",
+      "lessons": [
+        91
+      ],
+      "filename": "academy-b1-968ccf654c356f62.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'neighbour', specifically its curriculum meaning 'n.邻居'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "poor",
+      "meaning": "a.可怜的; 贫穷的",
+      "lessons": [
+        91,
+        137
+      ],
+      "filename": "academy-b1-4e3795d05d9d3ed2.png",
+      "kind": "ai_illustration",
+      "scene": "a person in simple worn clothing beside a nearly empty wallet, dignified depiction without caricature",
+      "index": 2
+    },
+    {
+      "word": "pilot",
+      "meaning": "n.飞行员",
+      "lessons": [
+        93
+      ],
+      "filename": "academy-b1-07ae38b93d8054d8.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'pilot', specifically its curriculum meaning 'n.飞行员'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

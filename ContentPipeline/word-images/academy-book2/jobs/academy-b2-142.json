@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-142",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-60576f36-5aa4-432a-8cd2-be0755df6270.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — busman (n.公共汽车司机): A bus driver in uniform sits at the wheel of a bus, profession portrait.\nTOP RIGHT — state (v.正式提出，宣布): An official stands at a lectern and makes a formal announcement, small blank document.\nBOTTOM LEFT — agreement (n.协议): Two people shake hands over a signed-looking document with blank lines and a blue checkmark.\nBOTTOM RIGHT — relieve (v.减轻): An adult sets down a heavy backpack and visibly relaxes their shoulders, burden relieved.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "busman",
+      "meaning": "n.公共汽车司机",
+      "filename": "academy-b2-5f9778f81e0b9902.png",
+      "scene": "A bus driver in uniform sits at the wheel of a bus, profession portrait."
+    },
+    {
+      "index": 1,
+      "word": "state",
+      "meaning": "v.正式提出，宣布",
+      "filename": "academy-b2-4ba69735ca53765e.png",
+      "scene": "An official stands at a lectern and makes a formal announcement, small blank document."
+    },
+    {
+      "index": 2,
+      "word": "agreement",
+      "meaning": "n.协议",
+      "filename": "academy-b2-46a81739c6ee7c1d.png",
+      "scene": "Two people shake hands over a signed-looking document with blank lines and a blue checkmark."
+    },
+    {
+      "index": 3,
+      "word": "relieve",
+      "meaning": "v.减轻",
+      "filename": "academy-b2-be169a7e712b89de.png",
+      "scene": "An adult sets down a heavy backpack and visibly relaxes their shoulders, burden relieved."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

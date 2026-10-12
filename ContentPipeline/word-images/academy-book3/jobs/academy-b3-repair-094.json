@@ -1,0 +1,19 @@
+{
+  "id": "academy-b3-repair-094",
+  "cells": [
+    {
+      "index": 0,
+      "word": "salvage",
+      "meaning": "v./n.救助，营救，打捞;",
+      "filename": "academy-b3-224829cfb38f6b5e.png",
+      "scene": "A SIMPLE compact side-view salvage scene: an ENTIRE small boat with an ENTIRE short lifting crane, its complete top beam fully visible and safely BELOW the top of the quadrant. A suspended recovered treasure chest hangs from the crane above a thin blue waterline; a tiny wreck silhouette below shows where the chest came from. Clearly lifting a sunken object out of water. No diver needed, no dense underwater backdrop. All boat, crane, hook, ropes and chest have generous empty white margin on all sides, especially a large gap above the crane. Main objects occupy only middle 60% of this quadrant."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas, ONLY TOP LEFT CELL contains the subject below, the other three cells stay EMPTY WHITE. Attached is STYLE REFERENCE ONLY: same restrained blue-charcoal ink and pale watercolor, pure white background. No writing, labels, borders or grid. Exactly top-left square quadrant, composition central 60%, keep generous margins above crane and below chest; NO pixel crosses horizontal or vertical midline. Draw all crane parts completely. TOP LEFT — salvage (打捞): A SIMPLE compact side-view salvage scene: an ENTIRE small boat with an ENTIRE short lifting crane, its complete top beam fully visible and safely BELOW the top of the quadrant. A suspended recovered treasure chest hangs from the crane above a thin blue waterline; a tiny wreck silhouette below shows where the chest came from. Clearly lifting a sunken object out of water. No diver needed, no dense underwater backdrop. All boat, crane, hook, ropes and chest have generous empty white margin on all sides, especially a large gap above the crane. Main objects occupy only middle 60% of this quadrant.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-094.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Replacement fully contains the crane above a recovered chest, with all geometry inside top-left quadrant and white margin on all sides.",
+  "source_sha256": "18890c433605b92b0273475a1d54b1c58ba6a58c7f40563467b11931f61bf5d4"
+}

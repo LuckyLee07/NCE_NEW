@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-065",
+  "cells": [
+    {
+      "index": 0,
+      "word": "illogical",
+      "meaning": "a.不合逻辑的，无章法的",
+      "filename": "academy-b3-eee78869879d21d7.png",
+      "scene": "A person tries to put on a shoe over an already booted foot, a puzzled observer reacts to the unreasonable order."
+    },
+    {
+      "index": 1,
+      "word": "octopus",
+      "meaning": "n.章鱼",
+      "filename": "academy-b3-5633c9b8af6d0898.png",
+      "scene": "A recognizable octopus underwater with a rounded mantle and exactly eight curling arms, suction cups indicated simply.",
+      "superseded_by": "academy-b3-repair-002"
+    },
+    {
+      "index": 2,
+      "word": "delicacy",
+      "meaning": "n.美味，佳肴",
+      "filename": "academy-b3-0a3b4aef22efe91e.png",
+      "scene": "A small beautifully arranged gourmet dish on fine tableware, a diner admires it appreciatively."
+    },
+    {
+      "index": 3,
+      "word": "repulsive",
+      "meaning": "a.令人反感的，令人生厌的",
+      "filename": "academy-b3-4a80d17043da52ef.png",
+      "scene": "An adult recoils with a disgusted expression from a spoiled piece of fruit with mould, no gore."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — illogical (a.不合逻辑的，无章法的): A person tries to put on a shoe over an already booted foot, a puzzled observer reacts to the unreasonable order.\nTOP RIGHT — octopus (n.章鱼): A recognizable octopus underwater with a rounded mantle and exactly eight curling arms, suction cups indicated simply.\nBOTTOM LEFT — delicacy (n.美味，佳肴): A small beautifully arranged gourmet dish on fine tableware, a diner admires it appreciatively.\nBOTTOM RIGHT — repulsive (a.令人反感的，令人生厌的): An adult recoils with a disgusted expression from a spoiled piece of fruit with mould, no gore.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-065.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Reviewed meanings and crop safety. Anatomy, gestures and food/material senses legible. Octopus excluded for a clearer eight-arm replacement.",
+  "source_sha256": "96244672a0cd23f291dbcff381543cae64b19e320444a3e33845a0d7208245b1"
+}

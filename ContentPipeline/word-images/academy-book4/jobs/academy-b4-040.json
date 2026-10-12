@@ -1,0 +1,42 @@
+{
+  "id": "academy-b4-040",
+  "cells": [
+    {
+      "index": 0,
+      "word": "adopt",
+      "meaning": "v.采用",
+      "filename": "academy-b4-b0ad2485845e6b91.png",
+      "scene": "A team selects a new method represented by a wheeled trolley replacing hand-carried boxes."
+    },
+    {
+      "index": 1,
+      "word": "facilitate",
+      "meaning": "v.使便利",
+      "filename": "academy-b4-2c3184ba2d30a35c.png",
+      "scene": "A ramp makes it easy to roll a heavy trolley into a building.",
+      "superseded_by": "academy-b4-repair-002"
+    },
+    {
+      "index": 2,
+      "word": "mineral",
+      "meaning": "a.矿物的",
+      "filename": "academy-b4-df5878eedaa9a3b2.png",
+      "scene": "Three distinct natural mineral crystals embedded in rock, realistic quartz and metallic pyrite."
+    },
+    {
+      "index": 3,
+      "word": "boring",
+      "meaning": "n.钻孔",
+      "filename": "academy-b4-f953f70b9132340e.png",
+      "scene": "A drilling rig boring a narrow vertical hole into a rock cross-section.",
+      "superseded_by": "academy-b4-repair-002"
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — adopt (v.采用): A team selects a new method represented by a wheeled trolley replacing hand-carried boxes.\nTOP RIGHT — facilitate (v.使便利): A ramp makes it easy to roll a heavy trolley into a building.\nBOTTOM LEFT — mineral (a.矿物的): Three distinct natural mineral crystals embedded in rock, realistic quartz and metallic pyrite.\nBOTTOM RIGHT — boring (n.钻孔): A drilling rig boring a narrow vertical hole into a rock cross-section.\nCROP SAFETY: central 65% of each quadrant only, generous WHITE margins. Nothing crosses midlines. Bottom scenes begin below 58% total height including heads and thought bubbles. Sparse background detail. No labels.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-040.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: superseded boring/facilitate cells excluded due drill crossing midline. Active planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "922d06641d1433fd277757b951663085b24265f78122128da8459c7172276b81"
+}

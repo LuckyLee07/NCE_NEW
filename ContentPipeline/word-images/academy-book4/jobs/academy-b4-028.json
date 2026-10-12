@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-028",
+  "cells": [
+    {
+      "index": 0,
+      "word": "commissary",
+      "meaning": "n.军粮供应",
+      "filename": "academy-b4-5552f550a91be66c.png",
+      "scene": "A military supply tent issuing bread and sacks of grain to waiting soldiers; no battle."
+    },
+    {
+      "index": 1,
+      "word": "episode",
+      "meaning": "n.一个事件，片断",
+      "filename": "academy-b4-7e414e6ac41ac7a0.png",
+      "scene": "One framed scene of a traveller rescuing a lost dog, with a larger storybook nearby."
+    },
+    {
+      "index": 2,
+      "word": "epic",
+      "meaning": "n.史诗",
+      "filename": "academy-b4-49a70bd1e731c8cd.png",
+      "scene": "An ancient scroll and small heroic sea-voyage vignette with a ship."
+    },
+    {
+      "index": 3,
+      "word": "harry",
+      "meaning": "v.骚扰",
+      "filename": "academy-b4-df46219531cb5d52.png",
+      "scene": "Repeated small attacks by pursuing birds harrying a larger bird in flight."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — commissary (n.军粮供应): A military supply tent issuing bread and sacks of grain to waiting soldiers; no battle.\nTOP RIGHT — episode (n.一个事件，片断): One framed scene of a traveller rescuing a lost dog, with a larger storybook nearby.\nBOTTOM LEFT — epic (n.史诗): An ancient scroll and small heroic sea-voyage vignette with a ship.\nBOTTOM RIGHT — harry (v.骚扰): Repeated small attacks by pursuing birds harrying a larger bird in flight.\nCROP SAFETY: central 65% of each quadrant only, generous WHITE margins. Nothing crosses midlines. Bottom scenes begin below 58% total height including heads and thought bubbles. Sparse background detail. No labels.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-028.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: superseded circuit excluded because lamp is lit with disconnected wiring. Active planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "43b6510f036e5ead041c82b730c5fd14b993cce5ec48ea10f8fa2e1c931380a1"
+}

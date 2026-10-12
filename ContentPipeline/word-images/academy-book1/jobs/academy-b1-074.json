@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-074",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-8d80a054-97af-4ab2-94b6-54b67a10e698.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — film (n.电影): a short curl of motion-picture film strip with blank frames, not plastic wrapping\nTOP RIGHT — beautiful (a.漂亮的): A clear compact educational illustration of 'beautiful', specifically its curriculum meaning 'a.漂亮的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — city (n.城市): A clear compact educational illustration of 'city', specifically its curriculum meaning 'n.城市'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — attendant (n.接待员): A clear compact educational illustration of 'attendant', specifically its curriculum meaning 'n.接待员'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "film",
+      "meaning": "n.电影",
+      "lessons": [
+        85
+      ],
+      "filename": "academy-b1-d0607f7ad2628b2a.png",
+      "kind": "ai_illustration",
+      "scene": "a short curl of motion-picture film strip with blank frames, not plastic wrapping",
+      "index": 0
+    },
+    {
+      "word": "beautiful",
+      "meaning": "a.漂亮的",
+      "lessons": [
+        85
+      ],
+      "filename": "academy-b1-c6a1427d7119cd3c.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'beautiful', specifically its curriculum meaning 'a.漂亮的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "city",
+      "meaning": "n.城市",
+      "lessons": [
+        85,
+        143
+      ],
+      "filename": "academy-b1-11a62c23412b7747.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'city', specifically its curriculum meaning 'n.城市'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "attendant",
+      "meaning": "n.接待员",
+      "lessons": [
+        87
+      ],
+      "filename": "academy-b1-7c5e0e76beb30963.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'attendant', specifically its curriculum meaning 'n.接待员'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

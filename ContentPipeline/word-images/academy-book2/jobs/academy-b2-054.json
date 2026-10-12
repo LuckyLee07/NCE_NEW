@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-054",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-54f62daf-622f-4b8a-ad96-75d73da64f5d.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — caller (n.打电话的人): An adult speaks into a telephone receiver, call in progress.\nTOP RIGHT — hostess (n.女主人): A female host welcomes dinner guests at her front door beside a laid dining table.\nBOTTOM LEFT — unsmiling (a.不笑的，严肃的): An adult has a serious neutral unsmiling expression, mouth closed straight, not angry.\nBOTTOM RIGHT — tight (a.紧身的；紧的): A person tries to button a shirt that is visibly too tight around the waist; clothed, respectful.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "caller",
+      "meaning": "n.打电话的人",
+      "filename": "academy-b2-61de55ba3388aec4.png",
+      "scene": "An adult speaks into a telephone receiver, call in progress."
+    },
+    {
+      "index": 1,
+      "word": "hostess",
+      "meaning": "n.女主人",
+      "filename": "academy-b2-16103864ac47b5a0.png",
+      "scene": "A female host welcomes dinner guests at her front door beside a laid dining table."
+    },
+    {
+      "index": 2,
+      "word": "unsmiling",
+      "meaning": "a.不笑的，严肃的",
+      "filename": "academy-b2-44b0fffbacd90f46.png",
+      "scene": "An adult has a serious neutral unsmiling expression, mouth closed straight, not angry."
+    },
+    {
+      "index": 3,
+      "word": "tight",
+      "meaning": "a.紧身的；紧的",
+      "filename": "academy-b2-922b53ea837e15ff.png",
+      "scene": "A person tries to button a shirt that is visibly too tight around the waist; clothed, respectful."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

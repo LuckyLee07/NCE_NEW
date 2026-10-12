@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-156",
+  "cells": [
+    {
+      "index": 0,
+      "word": "delicate",
+      "meaning": "a.灵敏的",
+      "filename": "academy-b4-447f7f5c325ea17e.png",
+      "scene": "A sensitive instrument needle responds to a tiny vibration, magnified movement."
+    },
+    {
+      "index": 1,
+      "word": "seismometer",
+      "meaning": "n.地震仪",
+      "filename": "academy-b4-de38059cb8ff7e57.png",
+      "scene": "A simple seismometer: suspended mass, frame and stylus recording vibrations on a rotating drum, physically coherent schematic."
+    },
+    {
+      "index": 2,
+      "word": "penholder",
+      "meaning": "n.笔杆",
+      "filename": "academy-b4-ba08523167cdd364.png",
+      "scene": "A traditional penholder shaft with a dip-pen nib attached, isolated on white."
+    },
+    {
+      "index": 3,
+      "word": "legibly",
+      "meaning": "ad.字迹清楚地",
+      "filename": "academy-b4-af6780f70c462250.png",
+      "scene": "A hand carefully writes clean spaced basic letters on paper; allow only ABC as illustrative sample."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — delicate (a.灵敏的): A sensitive instrument needle responds to a tiny vibration, magnified movement.\nTOP RIGHT — seismometer (n.地震仪): A simple seismometer: suspended mass, frame and stylus recording vibrations on a rotating drum, physically coherent schematic.\nBOTTOM LEFT — penholder (n.笔杆): A traditional penholder shaft with a dip-pen nib attached, isolated on white.\nBOTTOM RIGHT — legibly (ad.字迹清楚地): A hand carefully writes clean spaced basic letters on paper; allow only ABC as illustrative sample.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-156.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "d9a88923a07b7b90c5bb764ee51263b37351de11ee81d604d0f7cac2a3410994"
+}

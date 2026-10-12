@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-001",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-32146aee-5b15-4348-9b23-b9e2bb971bb3.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — extra (a.额外的): three identical pale grey cups in a row plus ONE additional blue cup offset to the right, extra/additional item emphasized\nTOP RIGHT — excuse (v.原谅): a person gently raising an open hand to get another adult's attention politely, friendly interaction\nBOTTOM LEFT — yes (ad.是的): A clear compact educational illustration of 'yes', specifically its curriculum meaning 'ad.是的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — pardon (int.原谅，请再说一遍): a listener cupping one ear and leaning slightly toward a speaker, polite request to repeat, no text",
+  "cells": [
+    {
+      "word": "extra",
+      "meaning": "a.额外的",
+      "lessons": [
+        null
+      ],
+      "filename": "academy-b1-c8dee78f8c7b466c.png",
+      "kind": "ai_illustration",
+      "scene": "three identical pale grey cups in a row plus ONE additional blue cup offset to the right, extra/additional item emphasized",
+      "index": 0
+    },
+    {
+      "word": "excuse",
+      "meaning": "v.原谅",
+      "lessons": [
+        1
+      ],
+      "filename": "academy-b1-b76c1db1f24b29fe.png",
+      "kind": "ai_illustration",
+      "scene": "a person gently raising an open hand to get another adult's attention politely, friendly interaction",
+      "index": 1
+    },
+    {
+      "word": "yes",
+      "meaning": "ad.是的",
+      "lessons": [
+        1
+      ],
+      "filename": "academy-b1-8a798890fe938171.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'yes', specifically its curriculum meaning 'ad.是的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "pardon",
+      "meaning": "int.原谅，请再说一遍",
+      "lessons": [
+        1
+      ],
+      "filename": "academy-b1-5824ab38ef4c506f.png",
+      "kind": "ai_illustration",
+      "scene": "a listener cupping one ear and leaning slightly toward a speaker, polite request to repeat, no text",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

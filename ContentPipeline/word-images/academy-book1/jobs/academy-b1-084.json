@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-084",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-59e772d7-8d54-4493-b6e9-7f041b448373.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — card (n.明信片): one picture POSTCARD front and back with stamp rectangle and dividing line, no writing, not playing card\nTOP RIGHT — youth (n.青年): A clear compact educational illustration of 'youth', specifically its curriculum meaning 'n.青年'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — hostel (n.招待所，旅馆): A clear compact educational illustration of 'hostel', specifically its curriculum meaning 'n.招待所，旅馆'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — write (v.写): A clear compact educational illustration of 'write', specifically its curriculum meaning 'v.写'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "card",
+      "meaning": "n.明信片",
+      "lessons": [
+        101
+      ],
+      "filename": "academy-b1-8367cd66fdd136bb.png",
+      "kind": "ai_illustration",
+      "scene": "one picture POSTCARD front and back with stamp rectangle and dividing line, no writing, not playing card",
+      "index": 0
+    },
+    {
+      "word": "youth",
+      "meaning": "n.青年",
+      "lessons": [
+        101
+      ],
+      "filename": "academy-b1-b5bdafe95dec0c53.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'youth', specifically its curriculum meaning 'n.青年'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "hostel",
+      "meaning": "n.招待所，旅馆",
+      "lessons": [
+        101
+      ],
+      "filename": "academy-b1-a6188622aab1dfdb.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'hostel', specifically its curriculum meaning 'n.招待所，旅馆'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2,
+      "superseded_by": "academy-b1-repair-002"
+    },
+    {
+      "word": "write",
+      "meaning": "v.写",
+      "lessons": [
+        101
+      ],
+      "filename": "academy-b1-10fd874b68dad080.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'write', specifically its curriculum meaning 'v.写'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted_with_replaced_cells",
+  "review_status": "assistant_visual_reviewed"
+}

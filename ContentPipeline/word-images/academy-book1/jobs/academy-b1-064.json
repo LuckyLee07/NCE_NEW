@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-064",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-74b5bb58-c159-461c-9e35-769469763671.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — way (n.路途): A clear compact educational illustration of 'way', specifically its curriculum meaning 'n.路途'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — awful (ad.让人讨厌的，坏的): A clear compact educational illustration of 'awful', specifically its curriculum meaning 'ad.让人讨厌的，坏的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — answer (v.接(电话)): a person picking up a telephone receiver and putting it to their ear, answer a phone not exam answer\nBOTTOM RIGHT — last (a.最后的，前一次的): four people waiting in a line facing right, the LAST/rearmost person on left highlighted blue",
+  "cells": [
+    {
+      "word": "way",
+      "meaning": "n.路途",
+      "lessons": [
+        69
+      ],
+      "filename": "academy-b1-44c5e7071f3a75a2.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'way', specifically its curriculum meaning 'n.路途'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "awful",
+      "meaning": "ad.让人讨厌的，坏的",
+      "lessons": [
+        71
+      ],
+      "filename": "academy-b1-87e1315329cf22c9.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'awful', specifically its curriculum meaning 'ad.让人讨厌的，坏的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "answer",
+      "meaning": "v.接(电话)",
+      "lessons": [
+        71,
+        103
+      ],
+      "filename": "academy-b1-0db52f4076c08251.png",
+      "kind": "ai_illustration",
+      "scene": "a person picking up a telephone receiver and putting it to their ear, answer a phone not exam answer",
+      "index": 2
+    },
+    {
+      "word": "last",
+      "meaning": "a.最后的，前一次的",
+      "lessons": [
+        71
+      ],
+      "filename": "academy-b1-3547cb112ac4489a.png",
+      "kind": "ai_illustration",
+      "scene": "four people waiting in a line facing right, the LAST/rearmost person on left highlighted blue",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

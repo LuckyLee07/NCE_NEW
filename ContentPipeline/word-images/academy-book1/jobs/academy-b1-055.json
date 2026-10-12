@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-055",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-5c5b9083-8393-405a-9b1d-a5d718990656.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — mouth (n.嘴): A clear compact educational illustration of 'mouth', specifically its curriculum meaning 'n.嘴'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — tongue (n.舌头): A clear compact educational illustration of 'tongue', specifically its curriculum meaning 'n.舌头'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — bad (a.坏的，严重的): A clear compact educational illustration of 'bad', specifically its curriculum meaning 'a.坏的，严重的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — cold (a.冷的): a fully clothed person shivering with arms folded and visible scarf, cold temperature adjective not common cold",
+  "cells": [
+    {
+      "word": "mouth",
+      "meaning": "n.嘴",
+      "lessons": [
+        61,
+        117
+      ],
+      "filename": "academy-b1-4cf35cf87435b1ba.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'mouth', specifically its curriculum meaning 'n.嘴'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "tongue",
+      "meaning": "n.舌头",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-b2715212d939ec80.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'tongue', specifically its curriculum meaning 'n.舌头'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "bad",
+      "meaning": "a.坏的，严重的",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-2f05d4b689d270ca.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'bad', specifically its curriculum meaning 'a.坏的，严重的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "cold",
+      "meaning": "a.冷的",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-e272deecde720ffc.png",
+      "kind": "ai_illustration",
+      "scene": "a fully clothed person shivering with arms folded and visible scarf, cold temperature adjective not common cold",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

@@ -33,8 +33,10 @@ def save_json(path, value):
 
 
 def ui_keys():
-    keys = set()
-    for source in [*APP.glob("*.m"), *APP.glob("Classes/*.m")]:
+    # UI overrides also register keys used through arrays/model values in UIKit.
+    # Scanning literal calls alone would silently drop those labels on regeneration.
+    keys = set(read_overrides()["ui"])
+    for source in APP.rglob("*.m"):
         keys.update(json.loads('"' + match + '"') for match in re.findall(r'NCELocalizedString\(@"((?:[^"\\]|\\.)*)"\)', source.read_text()))
     return keys
 

@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-004",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-30e70f87-2553-4dfe-9386-401fc85eb909.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — Miss (小姐): a young adult woman in everyday clothes, respectful portrait, no wedding symbolism\nTOP RIGHT — new (a.新的): a pristine new pair of white shoes next to their open shoe box, no text\nBOTTOM LEFT — student (n.学生): A clear compact educational illustration of 'student', specifically its curriculum meaning 'n.学生'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — French (a.& n.法国人): a small adult traveler beside a simplified Eiffel Tower, nationality mnemonic only; no stereotyped facial features",
+  "cells": [
+    {
+      "word": "Miss",
+      "meaning": "小姐",
+      "lessons": [
+        5
+      ],
+      "filename": "academy-b1-0317c92ad78c13c7.png",
+      "kind": "ai_illustration",
+      "scene": "a young adult woman in everyday clothes, respectful portrait, no wedding symbolism",
+      "index": 0
+    },
+    {
+      "word": "new",
+      "meaning": "a.新的",
+      "lessons": [
+        5
+      ],
+      "filename": "academy-b1-11507a0e2f5e69d5.png",
+      "kind": "ai_illustration",
+      "scene": "a pristine new pair of white shoes next to their open shoe box, no text",
+      "index": 1
+    },
+    {
+      "word": "student",
+      "meaning": "n.学生",
+      "lessons": [
+        5
+      ],
+      "filename": "academy-b1-264c8c381bf16c98.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'student', specifically its curriculum meaning 'n.学生'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "French",
+      "meaning": "a.& n.法国人",
+      "lessons": [
+        5
+      ],
+      "filename": "academy-b1-7458199fe97a1840.png",
+      "kind": "ai_illustration",
+      "scene": "a small adult traveler beside a simplified Eiffel Tower, nationality mnemonic only; no stereotyped facial features",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

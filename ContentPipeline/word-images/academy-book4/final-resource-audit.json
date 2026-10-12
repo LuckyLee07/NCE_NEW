@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "reviewed_atlas_receipts": 196,
+  "active_ai_words": 739,
+  "all_ai_words_have_exactly_one_active_reviewed_receipt": true,
+  "all_atlas_hashes_match": true,
+  "all_referenced_png_hashes_and_budgets_valid": true,
+  "preserved_book1_book2_book3_resources": 2243,
+  "database_unchanged": true
+}

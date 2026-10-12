@@ -6,9 +6,9 @@
 //  Copyright © 2026年 FancyGame. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "NCEPracticeViewController.h"
 
-@interface WordTestViewController : BaseViewController
+@interface WordTestViewController : NCEPracticeViewController
 
 - (id)initWithBookId:(int)bookId withLessonId:(int)lessonId withFunction:(int)function;
 

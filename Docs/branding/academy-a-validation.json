@@ -1,0 +1,56 @@
+{
+  "format_version": 1,
+  "date": "2026-10-11",
+  "direction": "A - Light Academy",
+  "qa_bundle_identifier": "com.palmgame.NCEALL.resourceqa.academya",
+  "installed_production_app_or_learning_records_modified": false,
+  "verification": [
+    {
+      "device": "iPhone 12 Pro, iOS 26.2 simulator",
+      "result_bundle": "/private/tmp/NCEAcademyA-release-check.xcresult",
+      "passed": 3,
+      "failed": 0,
+      "checks": ["learning flow and screenshots", "resume, translation and speed", "accessibility text size and mastery controls"]
+    },
+    {
+      "device": "iPhone SE (3rd generation), iOS 17.2 simulator",
+      "result_bundle": "/private/tmp/NCEAcademyA-small-final.xcresult",
+      "passed": 1,
+      "failed": 0,
+      "checks": ["four language home layouts", "all four volumes above the tab bar", "tab navigation", "wordbook volume menu", "return to settings after reading"]
+    },
+    {
+      "device": "iPad Pro 13-inch, iOS 26.2 simulator, dark appearance",
+      "result_bundle": "/private/tmp/NCEAcademyA-ipad-tabs.xcresult",
+      "passed": 1,
+      "failed": 0,
+      "checks": ["four language layouts", "native top tabs", "wordbook volume menu", "return to settings after reading"]
+    },
+    {
+      "device": "iPhone SE (3rd generation), iOS 17.2 simulator",
+      "result_bundle": "/private/tmp/NCEAcademyA-small.xcresult",
+      "checks": ["testBothRecallModes passed", "testCompactAndTabletWordLayout passed"]
+    },
+    {
+      "device": "iPad Pro 13-inch, iOS 26.2 simulator",
+      "result_bundle": "/private/tmp/NCEAcademyA-ipad-final.xcresult",
+      "checks": ["testTabletLearningContentBelowNavigationBar passed"],
+      "note": "This intermediate bundle also contains a tab-navigation failure; that failure was fixed and the complete four-language tab test passed in NCEAcademyA-ipad-tabs.xcresult."
+    }
+  ],
+  "resource_checks": {
+    "chinese_localization_tests": "passed",
+    "japanese_korean_localization_tests": "passed",
+    "final_localization_verification": "126 UI keys in all four catalogs; preserved source resources verified",
+    "git_diff_check": "passed"
+  },
+  "visual_review": ["home", "continuous reader", "word illustration and examples", "small-screen long words", "large text controls", "Japanese and Korean layouts", "iPad dark appearance"],
+  "screenshots_directory": "Docs/branding/ui-screenshots/academy-a",
+  "screenshots_git_ignored": true,
+  "scope_notes": [
+    "Existing four book covers and AppIcon are unchanged.",
+    "Invisible LRC whitespace/BOM is trimmed for display only; archives are unchanged.",
+    "iPhone hides bottom tabs while learning; iPad retains its native top tabs.",
+    "No App Store submission, version change, Git commit, or physical-device test was performed."
+  ]
+}

@@ -10,6 +10,8 @@
 
 @interface WordBookViewController : BaseViewController
 
+@property(nonatomic,assign) BOOL showsBookSwitcher;
+
 - (id)initWithBookId:(int)bookId withTitle:(NSString *)title;
 
 @end

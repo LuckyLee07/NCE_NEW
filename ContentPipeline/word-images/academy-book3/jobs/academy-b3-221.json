@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-221",
+  "cells": [
+    {
+      "index": 0,
+      "word": "chaos",
+      "meaning": "n.混乱，无秩序",
+      "filename": "academy-b3-5d5bddb577102d0a.png",
+      "scene": "A room after hurried packing contains overturned empty boxes, scattered clothing and disordered furniture, clear lack of order."
+    },
+    {
+      "index": 1,
+      "word": "inconceivable",
+      "meaning": "a.不可思议的",
+      "filename": "academy-b3-d73eebdfa55c6b6a.png",
+      "scene": "An adult tries to imagine an impossibly enormous building extending far beyond the clouds, bewildered face beside a tiny model that cannot express its scale."
+    },
+    {
+      "index": 2,
+      "word": "magpie",
+      "meaning": "n.喜欢收藏物品的人",
+      "filename": "academy-b3-8a88fbb234ec0452.png",
+      "scene": "An adult avidly collects miscellaneous small objects into overflowing drawers and shelves, pleased collector expression; human collector, no bird."
+    },
+    {
+      "index": 3,
+      "word": "discard",
+      "meaning": "v.丢弃",
+      "filename": "academy-b3-109fa9f54c849bb7.png",
+      "scene": "An adult drops a broken worn-out object into a waste bin while retaining useful items on a nearby table."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — chaos (n.混乱，无秩序): A room after hurried packing contains overturned empty boxes, scattered clothing and disordered furniture, clear lack of order.\nTOP RIGHT — inconceivable (a.不可思议的): An adult tries to imagine an impossibly enormous building extending far beyond the clouds, bewildered face beside a tiny model that cannot express its scale.\nBOTTOM LEFT — magpie (n.喜欢收藏物品的人): An adult avidly collects miscellaneous small objects into overflowing drawers and shelves, pleased collector expression; human collector, no bird.\nBOTTOM RIGHT — discard (v.丢弃): An adult drops a broken worn-out object into a waste bin while retaining useful items on a nearby table.\nCROP SAFETY: each scene has 20% white margins inside its own quadrant. Top drawings fully end ABOVE 45% image height. Bottom-row heads, hair, thought bubbles and main objects begin BELOW 58% total image height. Nothing crosses midlines. Sparse background detail, light watercolor.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-221.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Meanings and crop boundaries reviewed. Magpie correctly depicts a human collector; remote uses small-chance sense. Natural two-hand anatomy and clearly separated quadrants.",
+  "source_sha256": "718d86ae5c437a41cc81ba6fb80b86e7f4fecacc3144b2686c0c7aee3518a3f7"
+}

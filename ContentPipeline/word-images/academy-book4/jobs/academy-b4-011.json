@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-011",
+  "cells": [
+    {
+      "index": 0,
+      "word": "splendid",
+      "meaning": "a.灿烂的",
+      "filename": "academy-b4-e08aef19080b45da.png",
+      "scene": "A brilliant sunlit palace facade with restrained golden reflections."
+    },
+    {
+      "index": 1,
+      "word": "rub",
+      "meaning": "n.难题",
+      "filename": "academy-b4-abaa209d9c23bcac.png",
+      "scene": "A plan to cross a stream thwarted by a missing bridge plank, person pointing at the gap."
+    },
+    {
+      "index": 2,
+      "word": "identity",
+      "meaning": "n.身份",
+      "filename": "academy-b4-689f6a627384c7dc.png",
+      "scene": "A person holding a portrait identity card beside their matching face; no writing."
+    },
+    {
+      "index": 3,
+      "word": "dreary",
+      "meaning": "a.沉郁的",
+      "filename": "academy-b4-46ed23e3b747ae9d.png",
+      "scene": "A weary commuter under a grey rainy sky, sparse bare tree."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — splendid (a.灿烂的): A brilliant sunlit palace facade with restrained golden reflections.\nTOP RIGHT — rub (n.难题): A plan to cross a stream thwarted by a missing bridge plank, person pointing at the gap.\nBOTTOM LEFT — identity (n.身份): A person holding a portrait identity card beside their matching face; no writing.\nBOTTOM RIGHT — dreary (a.沉郁的): A weary commuter under a grey rainy sky, sparse bare tree.\nCROP SAFETY: central 65% of each quadrant only, generous WHITE margins. Nothing crosses midlines. Bottom scenes begin below 58% total height including heads and thought bubbles. Sparse background detail. No labels.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-011.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: superseded cells excluded (mean: extra arm; appreciation: violin at edge). Active planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "7968477df14e7f8c2654abc8ac80fec73bb6b3666c1f9aa00dcc8d9125b03715"
+}

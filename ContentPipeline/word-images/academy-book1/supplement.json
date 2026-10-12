@@ -1,0 +1,1207 @@
+{
+  "reviewed_words": 116,
+  "new_scenes": 30,
+  "new_diagrams": 62,
+  "retained_hints": 24,
+  "words": [
+    {
+      "word": "me",
+      "previous_hint": "Please help ___.",
+      "kind": "ai_illustration",
+      "scene": "A person in pale blue who has dropped a heavy box reaches out toward a second person asking for help; speaker hand gestures toward own chest. Two adults, box on floor.",
+      "caption": "Please help ___.",
+      "filename": "academy-b1-2744ccd10c7533bd.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "is",
+      "previous_hint": "She ___ a student.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-fa51fd49abf67705.png"
+    },
+    {
+      "word": "this",
+      "previous_hint": "___ is my bag.\n↓",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "distance"
+      },
+      "filename": "academy-b1-1eb79602411ef02c.png",
+      "caption": "___ cup is near me.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "your",
+      "previous_hint": "Is this ___ bag?",
+      "kind": "ai_illustration",
+      "scene": "Two people face each other: speaker on left hands a blue bag back to its owner on right, pointing to the owner.",
+      "caption": "Is this ___ bag?",
+      "filename": "academy-b1-4d040d3f6466018c.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "it",
+      "previous_hint": "___ is a book.",
+      "kind": "ai_illustration",
+      "scene": "One blue book on a table with a hand pointing directly to this single book. No other objects.",
+      "caption": "___ is a book.",
+      "filename": "academy-b1-2ad8a7049d7c5511.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "very much",
+      "previous_hint": "Thank you ___ ___.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-97301c1bfcaaf11c.png"
+    },
+    {
+      "word": "my",
+      "previous_hint": "I have a bag.\nThis is ___ bag.",
+      "kind": "ai_illustration",
+      "scene": "One adult in blue points to their own chest with one hand and holds their own blue shoulder bag in the other.",
+      "caption": "This is ___ bag.",
+      "filename": "academy-b1-038468518ad8122e.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "number",
+      "previous_hint": "1  2  3",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "number"
+      },
+      "filename": "academy-b1-12886f9d00055adf.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "five",
+      "previous_hint": "● ● ● ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "quantity",
+        "value": 5
+      },
+      "filename": "academy-b1-222b0bd51fcef7e6.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "too",
+      "previous_hint": "I like tea.\nI like tea, ___.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-94c05f1c45a1d1a9.png"
+    },
+    {
+      "word": "I",
+      "previous_hint": "___ am a student.",
+      "kind": "ai_illustration",
+      "scene": "One friendly young adult with an open mouth speaking and an index finger pointing to own chest; waist-up portrait.",
+      "caption": "___ am a student.",
+      "filename": "academy-b1-a83dd0ccbffe39d0.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "am",
+      "previous_hint": "I ___ a student.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-ab6db599234d2636.png"
+    },
+    {
+      "word": "are",
+      "previous_hint": "We ___ students.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-ba78973ddcf98d4e.png"
+    },
+    {
+      "word": "what",
+      "previous_hint": "___ is your name?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-749ab2c0d06c42ae.png"
+    },
+    {
+      "word": "how",
+      "previous_hint": "___ are you?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-8044aae1f86875d9.png"
+    },
+    {
+      "word": "whose",
+      "previous_hint": "___ bag is this?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-55efa0938f9f52fb.png"
+    },
+    {
+      "word": "perhaps",
+      "previous_hint": "___ it will rain.\n☀  /  ☂",
+      "kind": "ai_illustration",
+      "scene": "A person looking up at a small sky with sun partly covered by grey raincloud, unsure expression, hand palm up; possibility of rain.",
+      "caption": "___ it will rain.",
+      "filename": "academy-b1-1ba2ebb275e86668.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "same",
+      "previous_hint": "○ ○\n＝",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "same"
+      },
+      "filename": "academy-b1-0967115f2813a354.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "matter",
+      "previous_hint": "What is the ___?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-57523f642f63eabb.png"
+    },
+    {
+      "word": "one",
+      "previous_hint": "●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "quantity",
+        "value": 1
+      },
+      "filename": "academy-b1-7692c3ad3540bb80.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "which",
+      "previous_hint": "___ one do you want?\n●   ○   ○",
+      "kind": "ai_illustration",
+      "scene": "Three cups in a row, one blue one white one orange. A person considers them with palm up and a question-mark thought bubble, choosing among them.",
+      "caption": "___ one do you want?",
+      "filename": "academy-b1-77bc06c55d29ee3c.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "of",
+      "previous_hint": "a cup ___ tea",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-28391d3bc64ec15c.png"
+    },
+    {
+      "word": "must",
+      "previous_hint": "You ___ stop at a red light.",
+      "kind": "ai_illustration",
+      "scene": "A pedestrian standing fully on the raised SIDEWALK behind the curb, BOTH FEET entirely on sidewalk, waiting obediently at a RED pedestrian signal. Zebra crossing and road begin beyond the curb in front of the pedestrian, NOT under their feet. The red standing-person light is very clear. Quiet simple side view, no other people, no lettering. Person is stopped and must wait.",
+      "caption": "You ___ stop at a red light.",
+      "filename": "academy-b1-4137b01e139589b7.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "who",
+      "previous_hint": "___ is that man?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-6ed0337140bd32b4.png"
+    },
+    {
+      "word": "with",
+      "previous_hint": "Come ___ me.",
+      "kind": "ai_illustration",
+      "scene": "Two friends walking side by side together in the same direction, one in blue and one in warm beige, looking at each other.",
+      "caption": "Come ___ me.",
+      "filename": "academy-b1-0695b563acde461f.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "another",
+      "previous_hint": "This cup is broken.\nMay I have ___ one?",
+      "kind": "ai_illustration",
+      "scene": "A broken white cup on a tabletop to the left, a hand offering an intact blue cup on the right. Clear replacement, no injury.",
+      "caption": "This cup is broken. May I have ___ one?",
+      "filename": "academy-b1-ae448ac86c4e8e4d.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "of course",
+      "previous_hint": "Can I help?\n___ ___!",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-19e240f3698d3fd5.png"
+    },
+    {
+      "word": "now",
+      "previous_hint": "PAST  ·  ●  ·  FUTURE",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "timeline",
+        "mode": "now"
+      },
+      "filename": "academy-b1-ed5eb9a37e2d8231.png",
+      "caption": "Please do it ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "can",
+      "previous_hint": "I ___ swim.",
+      "kind": "ai_illustration",
+      "scene": "An adult swimming confidently using front crawl in a small patch of blue water. Clear swimming action, head above water.",
+      "caption": "I ___ swim.",
+      "filename": "academy-b1-9f584196e7fe6de8.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "minute",
+      "previous_hint": "60 s",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "clock",
+        "mode": "minute"
+      },
+      "filename": "academy-b1-28cdd20eaf134a05.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "either",
+      "previous_hint": "I don't like tea.\nI don't, ___.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-94f106e0117354ce.png"
+    },
+    {
+      "word": "sometimes",
+      "previous_hint": "● ○ ○ ● ○ ○ ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "frequency",
+        "value": 2
+      },
+      "filename": "academy-b1-28e5c066055aeb3d.png",
+      "caption": "I ___ drink tea.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "January",
+      "previous_hint": "01 / 12\n● ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 1
+      },
+      "filename": "academy-b1-37082e68df858e0b.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "February",
+      "previous_hint": "02 / 12\n○ ● ○ ○ ○ ○ ○ ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 2
+      },
+      "filename": "academy-b1-c877c6ff405ec29c.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "March",
+      "previous_hint": "03 / 12\n○ ○ ● ○ ○ ○ ○ ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 3
+      },
+      "filename": "academy-b1-9d95a2cf0d7180b5.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "April",
+      "previous_hint": "04 / 12\n○ ○ ○ ● ○ ○ ○ ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 4
+      },
+      "filename": "academy-b1-4afe6ea150d532c1.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "May",
+      "previous_hint": "05 / 12\n○ ○ ○ ○ ● ○ ○ ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 5
+      },
+      "filename": "academy-b1-8c78fe5b9936488c.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "June",
+      "previous_hint": "06 / 12\n○ ○ ○ ○ ○ ● ○ ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 6
+      },
+      "filename": "academy-b1-d5808c0e0a479813.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "July",
+      "previous_hint": "07 / 12\n○ ○ ○ ○ ○ ○ ● ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 7
+      },
+      "filename": "academy-b1-e9cf7a1ca4a76084.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "August",
+      "previous_hint": "08 / 12\n○ ○ ○ ○ ○ ○ ○ ● ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 8
+      },
+      "filename": "academy-b1-a66d8970e569a944.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "September",
+      "previous_hint": "09 / 12\n○ ○ ○ ○ ○ ○ ○ ○ ● ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 9
+      },
+      "filename": "academy-b1-cd559ea0abca085e.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "October",
+      "previous_hint": "10 / 12\n○ ○ ○ ○ ○ ○ ○ ○ ○ ● ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 10
+      },
+      "filename": "academy-b1-fdd791787b64d223.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "November",
+      "previous_hint": "11 / 12\n○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ● ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 11
+      },
+      "filename": "academy-b1-9de6fe1d72659dae.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "December",
+      "previous_hint": "12 / 12\n○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 12
+      },
+      "filename": "academy-b1-8fb204ca46096847.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "always",
+      "previous_hint": "● ● ● ● ● ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "frequency",
+        "value": 7
+      },
+      "filename": "academy-b1-9cdc6c47aa193ae7.png",
+      "caption": "I ___ drink tea.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "usually",
+      "previous_hint": "● ● ● ○ ● ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "frequency",
+        "value": 6
+      },
+      "filename": "academy-b1-ceb1e2514a1f1b45.png",
+      "caption": "I ___ drink tea.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "o'clock",
+      "previous_hint": "3:00",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "clock",
+        "mode": "hour"
+      },
+      "filename": "academy-b1-102ad29298b7b442.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "moment",
+      "previous_hint": "…  ●  …",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "clock",
+        "mode": "moment"
+      },
+      "filename": "academy-b1-72110207b6499adb.png",
+      "caption": "Wait a ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "yet",
+      "previous_hint": "It is not ready ___.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-cfd96dd92f7e0025.png"
+    },
+    {
+      "word": "remain",
+      "previous_hint": "Please ___ seated.",
+      "kind": "ai_illustration",
+      "scene": "An adult continues sitting patiently in a chair while two other adults stand and walk away. Seated person emphasized blue, others pale grey.",
+      "caption": "Please ___ seated.",
+      "filename": "academy-b1-fc2b6c264e75e681.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "yourself",
+      "previous_hint": "Do it ___.",
+      "kind": "ai_illustration",
+      "scene": "A single adult carefully assembles a small wooden stool alone with a screwdriver, satisfied expression, no helpers.",
+      "caption": "Do it ___.",
+      "filename": "academy-b1-d00d825bba6ba94d.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "ourselves",
+      "previous_hint": "We did it ___.",
+      "kind": "ai_illustration",
+      "scene": "Two adults jointly painting a small fence blue, proud of their own work, roller and brush, no outside helpers.",
+      "caption": "We painted it ___.",
+      "filename": "academy-b1-591e97a713a2e30d.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "Monday",
+      "previous_hint": "01 / 07\n● ○ ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 0
+      },
+      "filename": "academy-b1-6a00dfc1dc867e84.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "Tuesday",
+      "previous_hint": "02 / 07\n○ ● ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 1
+      },
+      "filename": "academy-b1-7d8af1de1262f150.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "Wednesday",
+      "previous_hint": "03 / 07\n○ ○ ● ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 2
+      },
+      "filename": "academy-b1-c0a6cc829cd08735.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "Thursday",
+      "previous_hint": "04 / 07\n○ ○ ○ ● ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 3
+      },
+      "filename": "academy-b1-fc2662062ffdef96.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "keep",
+      "previous_hint": "Eat well and ___ fit.",
+      "kind": "ai_illustration",
+      "scene": "Healthy adult stretching beside a simple bowl of vegetables and a water glass, conveys maintaining fitness with exercise and good food.",
+      "caption": "Eat well and ___ fit.",
+      "filename": "academy-b1-6ca7ea2feefc88ec.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "spend",
+      "previous_hint": "We ___ the weekend at home.",
+      "kind": "ai_illustration",
+      "scene": "Two adults relaxing together at home on a sofa with a book and mug, warm relaxed weekend scene.",
+      "caption": "We ___ the weekend at home.",
+      "filename": "academy-b1-f64a33ff88c38111.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "weekend",
+      "previous_hint": "○ ○ ○ ○ ○ ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 7
+      },
+      "filename": "academy-b1-1197a20df1b4c87b.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "Friday",
+      "previous_hint": "05 / 07\n○ ○ ○ ○ ● ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 4
+      },
+      "filename": "academy-b1-e21f3f372a46d4be.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "Saturday",
+      "previous_hint": "06 / 07\n○ ○ ○ ○ ○ ● ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 5
+      },
+      "filename": "academy-b1-dbe35c7363c2f7ec.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "Sunday",
+      "previous_hint": "07 / 07\n○ ○ ○ ○ ○ ○ ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 6
+      },
+      "filename": "academy-b1-873fef760e5d001b.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "year",
+      "previous_hint": "12 × 1 month",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "month",
+        "value": 0
+      },
+      "filename": "academy-b1-4cb4ea25583c2564.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "just",
+      "previous_hint": "It is ___ right.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-b2c66dfd45dd07f5.png"
+    },
+    {
+      "word": "time",
+      "previous_hint": "× 1     × 2     × 3",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "repeat",
+        "value": 3
+      },
+      "filename": "academy-b1-336074805fc85398.png",
+      "caption": "I drank tea three ___s.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "again",
+      "previous_hint": "① → ② → ①",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "repeat",
+        "value": 2
+      },
+      "filename": "academy-b1-b4c9e14061c2fd45.png",
+      "caption": "I drank tea ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "week",
+      "previous_hint": "7 × 24 h",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "weekday",
+        "value": 8
+      },
+      "filename": "academy-b1-6df37daaa46ce714.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "phrase",
+      "previous_hint": "a cup of tea",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-c00062f7ec9c80e2.png"
+    },
+    {
+      "word": "ago",
+      "previous_hint": "←  2 years  ·  NOW",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "timeline",
+        "mode": "ago"
+      },
+      "filename": "academy-b1-1d8e08fd63268284.png",
+      "caption": "Two years ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "till",
+      "previous_hint": "09:00 ━━━━━ 17:00",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "timeline",
+        "mode": "till"
+      },
+      "filename": "academy-b1-a64e98ff18a83009.png",
+      "caption": "Wait ___ 17:00.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "nearly",
+      "previous_hint": "● ● ● ● ● ● ● ● ● ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "progress",
+        "value": 0.9
+      },
+      "filename": "academy-b1-bf33e11fa2942227.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "already",
+      "previous_hint": "It is ___ finished.",
+      "kind": "ai_illustration",
+      "scene": "A person proudly shows a completely washed tidy stack of dishes beside an empty sink, one finished checkmark icon, task fully complete.",
+      "caption": "It is ___ finished.",
+      "filename": "academy-b1-ea53396caebc40d7.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "never",
+      "previous_hint": "○ ○ ○ ○ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "frequency",
+        "value": 0
+      },
+      "filename": "academy-b1-6497e4b3d7bed169.png",
+      "caption": "I ___ drink tea.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "ever",
+      "previous_hint": "Have you ___ been here?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-63212655f2e25a8f.png"
+    },
+    {
+      "word": "believe",
+      "previous_hint": "I ___ you.",
+      "kind": "ai_illustration",
+      "scene": "Two friends talking face-to-face; speaker hand on chest, listener nods confidently in trust with hand on friends shoulder.",
+      "caption": "I ___ you.",
+      "filename": "academy-b1-f078209dfece9535.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "may",
+      "previous_hint": "___ I come in?",
+      "kind": "ai_illustration",
+      "scene": "A polite adult at an open doorway, one hand gently knocking on door frame and other hand raised to request entry; person inside gestures welcome.",
+      "caption": "___ I come in?",
+      "filename": "academy-b1-ee4d988c65de860f.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "how long",
+      "previous_hint": "START ━━━━━ END\n↔  ?",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "timeline",
+        "mode": "how long"
+      },
+      "filename": "academy-b1-d5b9424086ccce1c.png",
+      "caption": "___ ___ did it take?",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "since",
+      "previous_hint": "2020 ━━━━━ NOW",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "timeline",
+        "mode": "since"
+      },
+      "filename": "academy-b1-6b5a3ded016ab782.png",
+      "caption": "From 2020 to now: ___ 2020.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "why",
+      "previous_hint": "___ are you late?",
+      "kind": "ai_illustration",
+      "scene": "A puzzled person beside a bus stop, looking at wristwatch with a large question mark thought bubble; another person arrives late running.",
+      "caption": "___ are you late?",
+      "filename": "academy-b1-2be23c585f15e5fd.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "because",
+      "previous_hint": "I stayed inside ___ it rained.",
+      "kind": "ai_illustration",
+      "scene": "Two linked mini-scenes inside this cell: rain falling outside a window on left, a person staying indoors reading on right; small arrow from rain to staying indoors.",
+      "caption": "I stayed inside ___ it rained.",
+      "filename": "academy-b1-a511aeeeb8a11993.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "worth",
+      "previous_hint": "This book is ___ £5.",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "worth"
+      },
+      "filename": "academy-b1-c0a6eb55b12b7dfe.png",
+      "caption": "This book is ___ £5.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "still",
+      "previous_hint": "I am ___ waiting.",
+      "kind": "ai_illustration",
+      "scene": "A person continues waiting on a bench looking at a wristwatch, long calm waiting pose, small clock icon above with curved progression arrow.",
+      "caption": "I am ___ waiting.",
+      "filename": "academy-b1-94e8566ddfc123ed.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "plenty",
+      "previous_hint": "● ● ● ● ●\n● ● ● ● ●\n● ● ● ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "quantity",
+        "value": 15
+      },
+      "filename": "academy-b1-82b5f7770097973f.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "describe",
+      "previous_hint": "Can you ___ the bag?",
+      "kind": "ai_illustration",
+      "scene": "A person speaking about a blue bag held up in hand; three small thought-bubble pictograms show its blue color swatch, square shape, and strap. No words.",
+      "caption": "Can you ___ the bag?",
+      "filename": "academy-b1-c52028f34e378d1e.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "address",
+      "previous_hint": "12 King Street",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "address"
+      },
+      "filename": "academy-b1-d80c9bf910f14473.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "belong",
+      "previous_hint": "This bag is mine.\nIt ___s to me.",
+      "kind": "ai_illustration",
+      "scene": "A blue backpack sits beside its owner in a blue shirt, who proudly holds its shoulder strap and points to own chest.",
+      "caption": "This bag ___s to me.",
+      "filename": "academy-b1-6d38f6d6072843ee.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "ow",
+      "previous_hint": "___! That hurts!",
+      "kind": "ai_illustration",
+      "scene": "An adult has just lightly bumped their toe against a table leg, holding their foot with a surprised pained expression, tiny orange impact star near toe, no blood.",
+      "caption": "___! That hurts!",
+      "filename": "academy-b1-153078218f243968.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "at once",
+      "previous_hint": "NOW  →",
+      "kind": "ai_illustration",
+      "scene": "A seated adult springs up immediately to answer a ringing desk telephone, clear motion lines, small ringing marks around phone.",
+      "caption": "Please answer it ___ ___.",
+      "filename": "academy-b1-2c1c3733626507b9.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "sure",
+      "previous_hint": "Are you ___?",
+      "kind": "ai_illustration",
+      "scene": "A confident adult nodding decisively and holding a small card with a large blue checkmark, calm certain expression.",
+      "caption": "Are you ___?",
+      "filename": "academy-b1-c0cafcf0e2d6a236.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "association",
+      "previous_hint": "○ ─ ○ ─ ○\n╲  │  ╱\n○",
+      "kind": "ai_illustration",
+      "scene": "Four diverse adult members gathered around a round table, wearing matching small blue circular badges and collaborating over a blank sheet.",
+      "caption": "They joined a local ___.",
+      "filename": "academy-b1-0b514913789f890c.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "soon",
+      "previous_hint": "NOW  ···→  ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "timeline",
+        "mode": "soon"
+      },
+      "filename": "academy-b1-4a754148b88a68e1.png",
+      "caption": "Tea will be ready ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "enough",
+      "previous_hint": "4 people\n● ● ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "enough"
+      },
+      "filename": "academy-b1-6f6465f9dd068585.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "rest",
+      "previous_hint": "● ● │ ○ ○ ○",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "subset",
+        "mode": "rest"
+      },
+      "filename": "academy-b1-2e09d5210db84177.png",
+      "caption": "Take two cups. Leave the ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "as well",
+      "previous_hint": "She is coming ___ ___.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-9a45b178abdcdb12.png"
+    },
+    {
+      "word": "a little",
+      "previous_hint": "▰ ▱ ▱ ▱ ▱",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "liquid",
+        "value": 0.2
+      },
+      "filename": "academy-b1-9abe0fce365bc56a.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "less",
+      "previous_hint": "● ● ● ● → ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "compare",
+        "left": 6,
+        "right": 3
+      },
+      "filename": "academy-b1-4fdd3b6201a22c78.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "a few",
+      "previous_hint": "● ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "quantity",
+        "value": 3
+      },
+      "filename": "academy-b1-90290ad775ac38d9.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "instead",
+      "previous_hint": "○  →  ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "replace"
+      },
+      "filename": "academy-b1-99262a0284ae7670.png",
+      "caption": "Use the blue cup ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "none",
+      "previous_hint": "∅",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "empty"
+      },
+      "filename": "academy-b1-140bedbf9c3f6d56.png",
+      "caption": "How many cups? ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "neither",
+      "previous_hint": "I don't like it.\n___ do I.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-02566ed5f41493c2.png"
+    },
+    {
+      "word": "except",
+      "previous_hint": "● ● ● ○ ● ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "subset",
+        "mode": "except"
+      },
+      "filename": "academy-b1-b11279547bc49510.png",
+      "caption": "All cups ___ the grey one.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "anyone",
+      "previous_hint": "Can ___ help?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-12ed8d14a55fdb47.png"
+    },
+    {
+      "word": "everything",
+      "previous_hint": "● ● ● ●\n✓ ✓ ✓ ✓",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "subset",
+        "mode": "all"
+      },
+      "filename": "academy-b1-a0a44ed8cfc32b7e.png",
+      "caption": "Pack ___ on the table.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "anything",
+      "previous_hint": "Do you need ___?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-ee0874170b7f6f32.png"
+    },
+    {
+      "word": "nothing",
+      "previous_hint": "There is ___ here.\n∅",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "empty"
+      },
+      "filename": "academy-b1-1785cfc3bc6ac773.png",
+      "caption": "There is ___ in the box.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "later",
+      "previous_hint": "NOW ─────────→ ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "timeline",
+        "mode": "later"
+      },
+      "filename": "academy-b1-1d9283d848ea941a.png",
+      "caption": "We had tea ___.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "happen",
+      "previous_hint": "What will ___ next?",
+      "kind": "ai_illustration",
+      "scene": "A cup tipping off a table with tea spilling while a person reacts in surprise. A specific event visibly taking place, no injury.",
+      "caption": "What will ___ next?",
+      "filename": "academy-b1-9ecfb3a042a271f4.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "during",
+      "previous_hint": "START ├── ● ──┤ END",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "timeline",
+        "mode": "during"
+      },
+      "filename": "academy-b1-76678e40cf8bdb8a.png",
+      "caption": "It happened ___ this period.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "terribly",
+      "previous_hint": "very, very…",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-a6513a114ac02daf.png"
+    },
+    {
+      "word": "mean",
+      "previous_hint": "What does this word ___?",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-82523faea1b0f2da.png"
+    },
+    {
+      "word": "at least",
+      "previous_hint": "≥",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "minimum"
+      },
+      "filename": "academy-b1-e9213756a2e67dcb.png",
+      "caption": "Take ___ ___ three cups.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "mile",
+      "previous_hint": "1 mi ≈ 1.609 km",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "mile"
+      },
+      "filename": "academy-b1-9fede2030631728f.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "darling",
+      "previous_hint": "Good morning, ___.",
+      "kind": "native_hint",
+      "reason": "Requires sentence structure, collocation, discourse or grammatical role to distinguish accurately.",
+      "filename": "academy-b1-fb609bdcdece3f06.png"
+    },
+    {
+      "word": "latest",
+      "previous_hint": "2024 → 2025 → ●",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "latest"
+      },
+      "filename": "academy-b1-5e1e2bcac305958b.png",
+      "caption": "This is the ___ edition.",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    },
+    {
+      "word": "depend",
+      "previous_hint": "It ___s on the weather.",
+      "kind": "ai_illustration",
+      "scene": "A person holds a closed picnic basket and looks out a window at uncertain weather, half sun half rain cloud outside; picnic decision depends on weather.",
+      "caption": "It ___s on the weather.",
+      "filename": "academy-b1-d05c4354368a975e.png",
+      "presentation": "scene"
+    },
+    {
+      "word": "hundred",
+      "previous_hint": "100",
+      "kind": "native_diagram",
+      "diagram": {
+        "type": "quantity",
+        "value": 100
+      },
+      "filename": "academy-b1-97fe8a3749069931.png",
+      "presentation": "diagram",
+      "review_status": "assistant_visual_reviewed"
+    }
+  ],
+  "retained_hint_fraction": 0.03966942148760331,
+  "review_status": "assistant_visual_reviewed",
+  "generation_mode": "built-in image_gen for 30 context scenes; AppKit native drawing for 62 diagrams"
+}

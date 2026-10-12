@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-003",
+  "cells": [
+    {
+      "index": 0,
+      "word": "corner",
+      "meaning": "v.使走投无路，使陷入困境；n.角落",
+      "filename": "academy-b3-45d227c4b297a0ba.png",
+      "scene": "A worried cat stands where two garden walls meet in a corner, two approaching dogs block its only forward route; no injury or violence. Clear being trapped with no escape, not merely a geometric corner."
+    },
+    {
+      "index": 1,
+      "word": "trail",
+      "meaning": "n.一串，一系列",
+      "filename": "academy-b3-897abbb178d59a98.png",
+      "scene": "A long curving sequence of distinct muddy animal footprints leads away through sparse grass; the whole series of traces is clear, one tiny animal silhouette at the far end."
+    },
+    {
+      "index": 2,
+      "word": "print",
+      "meaning": "n.印痕",
+      "filename": "academy-b3-ce953a0eb0824661.png",
+      "scene": "Close view of one clearly indented large animal paw print pressed into soft brown mud, small paw shown lifted just above it; an impression left behind, no printer or book."
+    },
+    {
+      "index": 3,
+      "word": "cling",
+      "meaning": "v.粘",
+      "filename": "academy-b3-4151dc4c63622213.png",
+      "scene": "A wet leaf adheres tightly to the side of a blue raincoat sleeve; the person tries gently to peel it away. Focus on sticking closely to a surface, no embrace.",
+      "superseded_by": "academy-b3-repair-001"
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — corner (v.使走投无路，使陷入困境；n.角落): A worried cat stands where two garden walls meet in a corner, two approaching dogs block its only forward route; no injury or violence. Clear being trapped with no escape, not merely a geometric corner.\nTOP RIGHT — trail (n.一串，一系列): A long curving sequence of distinct muddy animal footprints leads away through sparse grass; the whole series of traces is clear, one tiny animal silhouette at the far end.\nBOTTOM LEFT — print (n.印痕): Close view of one clearly indented large animal paw print pressed into soft brown mud, small paw shown lifted just above it; an impression left behind, no printer or book.\nBOTTOM RIGHT — cling (v.粘): A wet leaf adheres tightly to the side of a blue raincoat sleeve; the person tries gently to peel it away. Focus on sticking closely to a surface, no embrace.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-003.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "corner, trail and print depict the specified senses. cling head touches cell boundary; excluded pending a separate replacement.",
+  "source_sha256": "8bc6d4e050fcc7c413c2057c1d628be43fd9c9e9cecf1edc45c16d18d7a2ed23"
+}

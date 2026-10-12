@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-043",
+  "cells": [
+    {
+      "index": 0,
+      "word": "strata",
+      "meaning": "n.岩层［复］(［单］stratum)",
+      "filename": "academy-b4-82ba7e1f6f4171d3.png",
+      "scene": "An exposed cliff cross-section showing several horizontal sedimentary rock strata."
+    },
+    {
+      "index": 1,
+      "word": "circulate",
+      "meaning": "v.注入，环流",
+      "filename": "academy-b4-510a60e068117bf4.png",
+      "scene": "Blue fluid flows in a clearly closed loop of pipe, with directional arrows."
+    },
+    {
+      "index": 2,
+      "word": "gusher",
+      "meaning": "n.喷油井",
+      "filename": "academy-b4-dfe87e3d97757d98.png",
+      "scene": "An old oil well gushing a vertical jet of dark oil above its derrick, no fire."
+    },
+    {
+      "index": 3,
+      "word": "forecast",
+      "meaning": "n.预报",
+      "filename": "academy-b4-59f0db478528b4c4.png",
+      "scene": "A weather presenter points to rain-cloud and sunshine icons on a forecast chart."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — strata (n.岩层［复］(［单］stratum)): An exposed cliff cross-section showing several horizontal sedimentary rock strata.\nTOP RIGHT — circulate (v.注入，环流): Blue fluid flows in a clearly closed loop of pipe, with directional arrows.\nBOTTOM LEFT — gusher (n.喷油井): An old oil well gushing a vertical jet of dark oil above its derrick, no fire.\nBOTTOM RIGHT — forecast (n.预报): A weather presenter points to rain-cloud and sunshine icons on a forecast chart.\nAll subjects SMALL in central 65% of each cell, generous white margins; no midline crossings, bottom heads and objects start below 58% total height. No target words.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-043.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "23d4ac8e8e5a0f7236a779e461a87c4b0f11a5ae1b845b64edd4d4bbe1764291"
+}

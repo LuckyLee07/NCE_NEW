@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-126",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-b1b3b61d-1adc-4339-823a-ea67f7d06926.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — Signor (n.(意大利语)先生): A respectful portrait of an adult Italian gentleman in an ordinary jacket, small Italian tricolor accent nearby, no stereotyped features.\nTOP RIGHT — studio (n.播音室): A small radio recording studio with microphone, headphones, sound panels and a desk.\nBOTTOM LEFT — mummy (n.木乃伊): An ancient Egyptian wrapped mummy resting in an open decorated sarcophagus in a museum, non-graphic, no exposed body.\nBOTTOM RIGHT — Egyptian (a.埃及的): A small pyramid and sphinx beside a neutral adult traveler, Egypt mnemonic, no stereotyped facial features.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "Signor",
+      "meaning": "n.(意大利语)先生",
+      "filename": "academy-b2-f1505737c13da0a6.png",
+      "scene": "A respectful portrait of an adult Italian gentleman in an ordinary jacket, small Italian tricolor accent nearby, no stereotyped features."
+    },
+    {
+      "index": 1,
+      "word": "studio",
+      "meaning": "n.播音室",
+      "filename": "academy-b2-da0daaba4b156961.png",
+      "scene": "A small radio recording studio with microphone, headphones, sound panels and a desk."
+    },
+    {
+      "index": 2,
+      "word": "mummy",
+      "meaning": "n.木乃伊",
+      "filename": "academy-b2-0863fde42a5746b1.png",
+      "scene": "An ancient Egyptian wrapped mummy resting in an open decorated sarcophagus in a museum, non-graphic, no exposed body."
+    },
+    {
+      "index": 3,
+      "word": "Egyptian",
+      "meaning": "a.埃及的",
+      "filename": "academy-b2-566747aa5892be38.png",
+      "scene": "A small pyramid and sphinx beside a neutral adult traveler, Egypt mnemonic, no stereotyped facial features."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

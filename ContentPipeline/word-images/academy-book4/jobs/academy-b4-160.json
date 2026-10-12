@@ -1,0 +1,41 @@
+{
+  "id": "academy-b4-160",
+  "cells": [
+    {
+      "index": 0,
+      "word": "rational",
+      "meaning": "a.合理的",
+      "filename": "academy-b4-fda503e47e82c440.png",
+      "scene": "A person compares evidence before choosing the sensible safe route.",
+      "superseded_by": "academy-b4-repair-009"
+    },
+    {
+      "index": 1,
+      "word": "radio frequency",
+      "meaning": "n.无线电频率",
+      "filename": "academy-b4-08aa9ba165f30c81.png",
+      "scene": "A radio receiver beside a sinusoidal electromagnetic signal, repeated waves, no sound-wave misconception."
+    },
+    {
+      "index": 2,
+      "word": "emission",
+      "meaning": "n.散发",
+      "filename": "academy-b4-06964dd2fac36383.png",
+      "scene": "An antenna emits expanding electromagnetic wave arcs."
+    },
+    {
+      "index": 3,
+      "word": "interstellar",
+      "meaning": "a.星际的",
+      "filename": "academy-b4-a75c605b5c6bd635.png",
+      "scene": "Two widely separated stars with a small probe travelling through the space between them."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — rational (a.合理的): A person compares evidence before choosing the sensible safe route.\nTOP RIGHT — radio frequency (n.无线电频率): A radio receiver beside a sinusoidal electromagnetic signal, repeated waves, no sound-wave misconception.\nBOTTOM LEFT — emission (n.散发): An antenna emits expanding electromagnetic wave arcs.\nBOTTOM RIGHT — interstellar (a.星际的): Two widely separated stars with a small probe travelling through the space between them.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-160.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "ec621cde43ff101452471f25fbc25ed3bc4e82a029bf51bce90b76526a7b512d"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-031",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-e5d387e7-9a48-4873-b931-e107aeb03d52.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — park (n.公园): A clear compact educational illustration of 'park', specifically its curriculum meaning 'n.公园'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — into (prep.进入): a blue ball with an arrow going INTO an open grey box, entry direction clear\nBOTTOM LEFT — work (v.工作): A clear compact educational illustration of 'work', specifically its curriculum meaning 'v.工作'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — make (n.(产品的)牌号): two otherwise similar cars with DIFFERENT simple geometric badges on their grilles, product make/brand sense; no real logos",
+  "cells": [
+    {
+      "word": "park",
+      "meaning": "n.公园",
+      "lessons": [
+        35
+      ],
+      "filename": "academy-b1-4d3971de62245c94.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'park', specifically its curriculum meaning 'n.公园'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "into",
+      "meaning": "prep.进入",
+      "lessons": [
+        35
+      ],
+      "filename": "academy-b1-6b847a0ed0b2c484.png",
+      "kind": "ai_illustration",
+      "scene": "a blue ball with an arrow going INTO an open grey box, entry direction clear",
+      "index": 1
+    },
+    {
+      "word": "work",
+      "meaning": "v.工作",
+      "lessons": [
+        37
+      ],
+      "filename": "academy-b1-00e13ed7af55b276.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'work', specifically its curriculum meaning 'v.工作'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "make",
+      "meaning": "n.(产品的)牌号",
+      "lessons": [
+        37
+      ],
+      "filename": "academy-b1-d05aa2a15fb3c40e.png",
+      "kind": "ai_illustration",
+      "scene": "two otherwise similar cars with DIFFERENT simple geometric badges on their grilles, product make/brand sense; no real logos",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

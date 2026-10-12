@@ -1,0 +1,19 @@
+{
+  "id": "academy-b3-repair-004",
+  "cells": [
+    {
+      "index": 0,
+      "word": "waterfall",
+      "meaning": "n.瀑布",
+      "filename": "academy-b3-3cb562c897155ca6.png",
+      "scene": "A small clear waterfall dropping over one simple rock ledge into a pale blue pool. Sparse greenery, large smooth pale watercolor areas, very few rocks, no dense leaf texture. Compact central subject."
+    }
+  ],
+  "prompt": "Create a SQUARE 2x2 atlas. Attached image is STYLE REFERENCE ONLY. Fine dark blue ink, light restrained watercolor, plain white background. ONLY TOP LEFT quadrant has ONE SMALL SIMPLE waterfall illustration: A small clear waterfall dropping over one simple rock ledge into a pale blue pool. Sparse greenery, large smooth pale watercolor areas, very few rocks, no dense leaf texture. Compact central subject. All other three quadrants COMPLETELY BLANK WHITE. No words, text, grids, borders. Large white margin around the drawing within its top-left quadrant, nothing near center lines. Minimal texture and simple shading.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-004.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Waterfall is clear and contained; simpler sparse texture replaces oversized previous image.",
+  "source_sha256": "ec2180a1e3965573bd42f6de62bec7ad3d4d87a2fbc87f65e37af169dc2e08b2"
+}

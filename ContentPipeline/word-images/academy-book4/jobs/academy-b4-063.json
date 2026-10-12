@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-063",
+  "cells": [
+    {
+      "index": 0,
+      "word": "shove",
+      "meaning": "v.硬推",
+      "filename": "academy-b4-cb91f54317e86c9a.png",
+      "scene": "A person forcefully shoves a stuck heavy box across the floor."
+    },
+    {
+      "index": 1,
+      "word": "aquaplane",
+      "meaning": "n.驾浪滑水板",
+      "filename": "academy-b4-f320226bd410e4a8.png",
+      "scene": "A rider stands on a single flat aquaplane board being towed on water behind a small distant boat; no skis."
+    },
+    {
+      "index": 2,
+      "word": "oceanarium",
+      "meaning": "n.水族馆",
+      "filename": "academy-b4-3cf64bdc4e9ecdb3.png",
+      "scene": "A spacious oceanarium viewing window with visitors watching large marine animals."
+    },
+    {
+      "index": 3,
+      "word": "swoop",
+      "meaning": "v.猛扑",
+      "filename": "academy-b4-ef2a347adf107523.png",
+      "scene": "A hawk swoops downward toward the ground, curved flight path, no captured prey."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — shove (v.硬推): A person forcefully shoves a stuck heavy box across the floor.\nTOP RIGHT — aquaplane (n.驾浪滑水板): A rider stands on a single flat aquaplane board being towed on water behind a small distant boat; no skis.\nBOTTOM LEFT — oceanarium (n.水族馆): A spacious oceanarium viewing window with visitors watching large marine animals.\nBOTTOM RIGHT — swoop (v.猛扑): A hawk swoops downward toward the ground, curved flight path, no captured prey.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge white margins. No midline crossings.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-063.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "06e056c92ccabb19bc321d92979f8f4f72371cdbc3f7d1d3d2df918529088321"
+}

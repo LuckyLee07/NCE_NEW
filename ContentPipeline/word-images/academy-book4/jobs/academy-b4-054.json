@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-054",
+  "cells": [
+    {
+      "index": 0,
+      "word": "settlement",
+      "meaning": "n.新拓居地",
+      "filename": "academy-b4-a75c433ab2ae1daf.png",
+      "scene": "A small newly established settlement of a few timber houses beside fields."
+    },
+    {
+      "index": 1,
+      "word": "enterprising",
+      "meaning": "a.有事业心的",
+      "filename": "academy-b4-ca5bebfcdc1d920a.png",
+      "scene": "An enterprising person opens a useful small repair stall with thoughtfully organized tools."
+    },
+    {
+      "index": 2,
+      "word": "settler",
+      "meaning": "n.移居者",
+      "filename": "academy-b4-0794955d7269bbc4.png",
+      "scene": "A settler carries tools and luggage toward a newly built home in an open landscape."
+    },
+    {
+      "index": 3,
+      "word": "promiscuous",
+      "meaning": "a.杂乱的",
+      "filename": "academy-b4-85f5d2e0be9805a2.png",
+      "scene": "A jumble of unrelated household objects piled randomly in a basket."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — settlement (n.新拓居地): A small newly established settlement of a few timber houses beside fields.\nTOP RIGHT — enterprising (a.有事业心的): An enterprising person opens a useful small repair stall with thoughtfully organized tools.\nBOTTOM LEFT — settler (n.移居者): A settler carries tools and luggage toward a newly built home in an open landscape.\nBOTTOM RIGHT — promiscuous (a.杂乱的): A jumble of unrelated household objects piled randomly in a basket.\nCROP SAFETY: central 65% of each quadrant only, generous WHITE margins. Nothing crosses midlines. Bottom scenes begin below 58% total height including heads and thought bubbles. Sparse background detail. No labels.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-054.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: patent/physiological excluded because the head crosses the horizontal midline. Active planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "e7ebc04727decc557da3ecf9e316d00e1aa16860a11d8b653ed021816e829740"
+}

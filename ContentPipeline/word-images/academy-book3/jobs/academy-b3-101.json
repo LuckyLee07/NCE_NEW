@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-101",
+  "cells": [
+    {
+      "index": 0,
+      "word": "suburb",
+      "meaning": "n.郊区",
+      "filename": "academy-b3-c47a58e12937ba7d.png",
+      "scene": "A quiet residential suburb with detached houses, front gardens and a tree-lined street, city skyline small in distance."
+    },
+    {
+      "index": 1,
+      "word": "collide",
+      "meaning": "v.猛撞",
+      "filename": "academy-b3-acd9e56b5701c9c5.png",
+      "scene": "Two toy-like cars have just bumped into each other at low speed, touching dented front corners and restrained impact marks; no people hurt."
+    },
+    {
+      "index": 2,
+      "word": "learner",
+      "meaning": "n.初学者",
+      "filename": "academy-b3-1210f10c3412994f.png",
+      "scene": "An adult beginner sits at a piano practicing a simple exercise under a teacher's patient guidance."
+    },
+    {
+      "index": 3,
+      "word": "panic",
+      "meaning": "n.惊慌，恐慌",
+      "filename": "academy-b3-79631cb1b7b63b6e.png",
+      "scene": "An adult looks suddenly alarmed with wide eyes and raised hands while a small kitchen pot boils over; urgent confused reaction, no tragedy."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — suburb (n.郊区): A quiet residential suburb with detached houses, front gardens and a tree-lined street, city skyline small in distance.\nTOP RIGHT — collide (v.猛撞): Two toy-like cars have just bumped into each other at low speed, touching dented front corners and restrained impact marks; no people hurt.\nBOTTOM LEFT — learner (n.初学者): An adult beginner sits at a piano practicing a simple exercise under a teacher's patient guidance.\nBOTTOM RIGHT — panic (n.惊慌，恐慌): An adult looks suddenly alarmed with wide eyes and raised hands while a small kitchen pot boils over; urgent confused reaction, no tragedy.\nEXTRA CROP SAFETY: Draw noticeably SMALLER compact subjects. Every object, mast, roof, thought bubble and entire person must have an empty white border of at least 12% of its quadrant on ALL FOUR sides. Top row ends above 44% canvas height; bottom row starts below 58%. Never let a background tower extend upward into the midline. No part is clipped by a quadrant edge.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-101.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Exact four curriculum senses and natural anatomy checked; every scene has clear white margins and nothing crosses the quadrant crop boundaries.",
+  "source_sha256": "06e4835ff4a7cc5c4add6d548a65e1469335234d66f9f3cf0fa48d3a88523d06"
+}

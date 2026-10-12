@@ -1,0 +1,110 @@
+{
+  "format_version": 1,
+  "mode": "built-in image_gen",
+  "status": "style_pilot_not_installed",
+  "style_reference": "NCE_ALL/Images.xcassets/academy-bag.imageset/academy-bag.png",
+  "grid": [
+    2,
+    2
+  ],
+  "cell_order": "top-left, top-right, bottom-left, bottom-right",
+  "exports": {
+    "preferred_size": 384,
+    "fallback_size": 320,
+    "format": "PNG",
+    "max_bytes_per_tile": 200000,
+    "lossy_compression": false
+  },
+  "atlases": [
+    {
+      "id": "academy-pilot-01",
+      "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-045ef8e1-73e1-4168-90f8-730522b577da.png",
+      "source": "sources/academy-pilot-01.png",
+      "prompt": "Use case: scientific-educational. Asset type: one square 2x2 vocabulary illustration atlas for an adult English-learning app. The attached handbag image is STYLE REFERENCE ONLY: match its delicate charcoal ink contour and restrained pale-blue watercolor, but SIMPLIFY substantially for tiny 128-192 pixel final tiles. Create exactly four separate illustrations in four EQUAL SQUARE quadrants; fixed row-major order given below. Clean pure-white opaque background everywhere, no overall paper texture, no frames or grid lines. Each subject centered in its quadrant, fitting within its central 75%, generous white margin, especially at the horizontal and vertical midpoint cuts. All objects and bodies fully confined to their own quadrant. Editorial hand-drawn educational art, clear medium-weight outlines, sparse watercolor shading; muted blue with small natural warm accents, high silhouette readability. Avoid fine hatching, grain, elaborate scenery, tiny decorative details, gradients filling background, plastic 3D, emoji, photorealism, childish oversized heads. No words, numbers, labels, typography, captions, logos or watermark. Aim for a modest 1024x1024 atlas; do not create a poster or page layout. Keep consistent visual scale and line weight across the four tiles. Subjects: TOP LEFT: one pale blue women's handbag, simple elegant silhouette, two handles and recognizable handbag shape, isolated. TOP RIGHT: one open umbrella with muted blue canopy and clearly curved handle, isolated. BOTTOM LEFT: a single pale ochre admission ticket with scalloped short ends and a perforated stub line; no letters or numbers; clear ticket silhouette. BOTTOM RIGHT: one recognizable desktop computer keyboard in three-quarter view, dark outline, pale grey keys with NO letters, a space bar and separated number pad, subtle blue shadows.",
+      "cells": [
+        {
+          "index": 0,
+          "word": "handbag",
+          "meaning": "手提包"
+        },
+        {
+          "index": 1,
+          "word": "umbrella",
+          "meaning": "伞"
+        },
+        {
+          "index": 2,
+          "word": "ticket",
+          "meaning": "票"
+        },
+        {
+          "index": 3,
+          "word": "keyboard",
+          "meaning": "电脑键盘"
+        }
+      ]
+    },
+    {
+      "id": "academy-pilot-02",
+      "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-d4020dd9-128a-4920-ac78-1e91c527cd75.png",
+      "source": "sources/academy-pilot-02.png",
+      "prompt": "Use case: scientific-educational. Asset type: one square 2x2 vocabulary illustration atlas for an adult English-learning app. The attached handbag image is STYLE REFERENCE ONLY: match its delicate charcoal ink contour and restrained pale-blue watercolor, but SIMPLIFY substantially for tiny 128-192 pixel final tiles. Create exactly four separate illustrations in four EQUAL SQUARE quadrants; fixed row-major order given below. Clean pure-white opaque background everywhere, no overall paper texture, no frames or grid lines. Each subject centered in its quadrant, fitting within its central 75%, generous white margin, especially at the horizontal and vertical midpoint cuts. All objects and bodies fully confined to their own quadrant. Editorial hand-drawn educational art, clear medium-weight outlines, sparse watercolor shading; muted blue with small natural warm accents, high silhouette readability. Avoid fine hatching, grain, elaborate scenery, tiny decorative details, gradients filling background, plastic 3D, emoji, photorealism, childish oversized heads. No words, numbers, labels, typography, captions, logos or watermark. Aim for a modest 1024x1024 atlas; do not create a poster or page layout. Keep consistent visual scale and line weight across the four tiles. Subjects: TOP LEFT: an adult engineer in blue work shirt and pale hard hat studying a simple technical drawing on a drafting board, holding pencil, cropped at waist with complete head/hands/board, no industrial background. BOTTOM LEFT: catch, a person with both hands cupped forward receiving a small orange ball just reaching their palms; simple curved motion marks lead into their hands, complete clear upper body, unmistakably catching rather than throwing. TOP RIGHT: tired, a seated fully clothed adult with slumped shoulders and drooping eyes, one hand supporting their cheek, exhausted posture, no bed. BOTTOM RIGHT: sweep, a fully clothed adult holding a long broom with both hands, angled bristles touching the floor and pushing a small visible pile of dust, minimal ground indication, complete body and broom.",
+      "cells": [
+        {
+          "index": 0,
+          "word": "engineer",
+          "meaning": "工程师"
+        },
+        {
+          "index": 1,
+          "word": "tired",
+          "meaning": "疲倦的"
+        },
+        {
+          "index": 2,
+          "word": "catch",
+          "meaning": "接住"
+        },
+        {
+          "index": 3,
+          "word": "sweep",
+          "meaning": "扫地"
+        }
+      ]
+    },
+    {
+      "id": "academy-pilot-03",
+      "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-fe7f80e2-de60-45ab-9516-17116217fcf3.png",
+      "source": "sources/academy-pilot-03.png",
+      "prompt": "Use case: scientific-educational. Asset type: one square 2x2 vocabulary illustration atlas for an adult English-learning app. The attached handbag image is STYLE REFERENCE ONLY: match its delicate charcoal ink contour and restrained pale-blue watercolor, but SIMPLIFY substantially for tiny 128-192 pixel final tiles. Create exactly four separate illustrations in four EQUAL SQUARE quadrants; fixed row-major order given below. Clean pure-white opaque background everywhere, no overall paper texture, no frames or grid lines. Each subject centered in its quadrant, fitting within its central 75%, generous white margin, especially at the horizontal and vertical midpoint cuts. All objects and bodies fully confined to their own quadrant. Editorial hand-drawn educational art, clear medium-weight outlines, sparse watercolor shading; muted blue with small natural warm accents, high silhouette readability. Avoid fine hatching, grain, elaborate scenery, tiny decorative details, gradients filling background, plastic 3D, emoji, photorealism, childish oversized heads. No words, numbers, labels, typography, captions, logos or watermark. Aim for a modest 1024x1024 atlas; do not create a poster or page layout. Keep consistent visual scale and line weight across the four tiles. Subjects: TOP LEFT: open (adjective), a pale blue wooden door standing visibly wide open within its frame, white space beyond, three-quarter angle that makes opening unmistakable; no person. TOP RIGHT: shut (adjective), the SAME pale blue wooden door fully closed in the same door frame, same scale, simple handle; no person. BOTTOM LEFT: between, one small blue ball positioned centrally BETWEEN two identical upright pale-grey blocks, distinct gaps on both sides, aligned on one baseline, blue ball is the focal point; no other objects. BOTTOM RIGHT: across, a very simple overhead view of a narrow pale-blue river flowing vertically with two grey-green banks left and right; a single dark-blue horizontal arrow crosses the entire river from the LEFT bank to the RIGHT bank, clearly perpendicular to river direction, arrowhead on right bank; no bridge, boats or people.",
+      "cells": [
+        {
+          "index": 0,
+          "word": "open",
+          "meaning": "开着的"
+        },
+        {
+          "index": 1,
+          "word": "shut",
+          "meaning": "关着的"
+        },
+        {
+          "index": 2,
+          "word": "between",
+          "meaning": "在……之间"
+        },
+        {
+          "index": 3,
+          "word": "across",
+          "meaning": "横过、穿过"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "四词图集用于生成，最终单词图片单独导出。",
+    "本轮仅为风格与体积样本，未替换 App 词图。",
+    "纯白底，无内嵌文字；对白底 UI 设计，不是已验证的深色模式方案。",
+    "按用户最新要求使用 PNG，不做 JPEG 有损压缩；每张小图不超过 200,000 字节。"
+  ]
+}

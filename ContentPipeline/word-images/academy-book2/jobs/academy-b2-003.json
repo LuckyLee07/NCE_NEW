@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-003",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-876a6ccc-d0af-4108-be84-c77da5b8c20a.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — business (n.事；商业,生意): Two adults having a private discussion, a third person is politely signaled to stay out; personal affairs sense.\nTOP RIGHT — rudely (ad.无礼地，粗鲁地): A seated person rudely turns their back while another person is speaking, dismissive raised palm; no written insult.\nBOTTOM LEFT — outside (ad.外面): A person stands outdoors beyond the open front door of a small house; inside room visible behind door.\nBOTTOM RIGHT — ring (v.(铃、电话等)响): A desk telephone visibly ringing with curved sound marks, no jewelry or fingers.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "business",
+      "meaning": "n.事；商业,生意",
+      "filename": "academy-b2-11d40417959631d3.png",
+      "scene": "Two adults having a private discussion, a third person is politely signaled to stay out; personal affairs sense."
+    },
+    {
+      "index": 1,
+      "word": "rudely",
+      "meaning": "ad.无礼地，粗鲁地",
+      "filename": "academy-b2-da549d6a0ae18ab7.png",
+      "scene": "A seated person rudely turns their back while another person is speaking, dismissive raised palm; no written insult."
+    },
+    {
+      "index": 2,
+      "word": "outside",
+      "meaning": "ad.外面",
+      "filename": "academy-b2-31207a2065f46a5b.png",
+      "scene": "A person stands outdoors beyond the open front door of a small house; inside room visible behind door."
+    },
+    {
+      "index": 3,
+      "word": "ring",
+      "meaning": "v.(铃、电话等)响",
+      "filename": "academy-b2-16b974583155fdcb.png",
+      "scene": "A desk telephone visibly ringing with curved sound marks, no jewelry or fingers."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

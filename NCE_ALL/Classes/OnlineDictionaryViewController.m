@@ -7,14 +7,17 @@
 //
 
 #import "OnlineDictionaryViewController.h"
-#import "MBProgressHUD.h"
 #import <WebKit/WebKit.h>
 
 @interface OnlineDictionaryViewController () <WKUIDelegate, WKNavigationDelegate>
 {
     NSURL *_url;
-    MBProgressHUD *_hud;
+    UIStackView *_loadingView;
+    UIActivityIndicatorView *_loadingSpinner;
+    NSUInteger _loadingGeneration;
     WKWebView* _webView;
+    UIView *_errorView;
+    UIButton *_retryButton;
 }
 
 @end
@@ -29,7 +32,9 @@
         
         NSArray *dictionarys = [NSArray arrayWithObjects:@"https://dict.youdao.com/search?q=",  @"https://www.iciba.com/",@"https://dict.baidu.com/s?wd=", @"https://dict.cn/", nil];
         
-        _url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [dictionarys objectAtIndex:dictionaryId], word]];
+        NSMutableCharacterSet *allowed=NSCharacterSet.URLQueryAllowedCharacterSet.mutableCopy;[allowed removeCharactersInString:@"&?/#"];
+        NSString *escaped=[word stringByAddingPercentEncodingWithAllowedCharacters:allowed];
+        _url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [dictionarys objectAtIndex:dictionaryId], escaped ?: @""]];
         
     }
     return self;
@@ -37,15 +42,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     [self createWebview];
-    
-    _hud = [MBProgressHUD showHUDAddedTo:_webView animated:YES];
-    
-    // Configure for text only and offset down
-    //    _hud.mode = MBProgressHUDModeText;
-    _hud.label.text = NCELocalizedString(@"载入中…");
-    _hud.removeFromSuperViewOnHide = YES;
+    _loadingSpinner=[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleMedium];
+    _loadingSpinner.color=NCEBlue();
+    UILabel *label=NCELabel(NCELocalizedString(@"正在打开词典…"),14,UIFontWeightRegular,NCEMuted());
+    label.textAlignment=NSTextAlignmentCenter;
+    _loadingView=[[UIStackView alloc] initWithArrangedSubviews:@[_loadingSpinner,label]];
+    _loadingView.axis=UILayoutConstraintAxisVertical;_loadingView.alignment=UIStackViewAlignmentCenter;_loadingView.spacing=12;
+    _loadingView.hidden=YES;_loadingView.userInteractionEnabled=NO;
+    _loadingView.accessibilityIdentifier=@"dictionary-loading";[self.view addSubview:_loadingView];
+    [self retryDictionary];
 }
 
 - (void)dealloc
@@ -87,25 +93,37 @@
     //_webView.allowsBackForwardNavigationGestures = YES;
     
     
-    [_webView loadRequest:[NSURLRequest requestWithURL:_url]];
+    _webView.backgroundColor=NCEBackground();
     [self.view addSubview:_webView];
+    _errorView=NCEEmptyState(NCELocalizedString(@"暂时无法连接词典"),NCELocalizedString(@"检查网络连接后，再试一次。"));_errorView.backgroundColor=NCEBackground();_errorView.hidden=YES;[self.view addSubview:_errorView];
+    _retryButton=NCEButton(NCELocalizedString(@"重新加载"),@"arrow.clockwise",YES,self,@selector(retryDictionary));_retryButton.hidden=YES;[self.view addSubview:_retryButton];
 }
 
 #pragma mark -
 #pragma mark WKUIDelegate
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation
 {
-    [_hud hideAnimated:YES];
-    self.title = webView.title;
+    [self endLoading];
+    _errorView.hidden=YES;_retryButton.hidden=YES;
 }
 
 #pragma mark WKNavigationDelegate
 - (void)webView:(WKWebView *)webView didFailNavigation:(WKNavigation *)navigation withError:(NSError *)error
 {
-    if ([error code] == NSURLErrorCancelled) {
-        return;;
-    }
+    if(error.code==NSURLErrorCancelled)return;[self endLoading];_errorView.hidden=NO;_retryButton.hidden=NO;
 }
+
+- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation {
+    _errorView.hidden=YES;_retryButton.hidden=YES;
+    NSUInteger generation=++_loadingGeneration;
+    __weak typeof(self) weakSelf=self;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW,(int64_t)(0.3*NSEC_PER_SEC)),dispatch_get_main_queue(),^{
+        typeof(self) self=weakSelf;
+        if(self && self->_loadingGeneration==generation && self->_webView.loading){self->_loadingView.hidden=NO;[self->_loadingSpinner startAnimating];}
+    });
+}
+- (void)endLoading { ++_loadingGeneration;_loadingView.hidden=YES;[_loadingSpinner stopAnimating]; }
+
 
 - (void)webViewDidClose:(WKWebView *)webView {
        NSLog(@"%s", __FUNCTION__);
@@ -114,6 +132,23 @@
 -  (void)webViewWebContentProcessDidTerminate:(WKWebView *)webView
 {
     [_webView reload];
+}
+
+- (void)layoutAcademyViews
+{
+    CGRect frame=[self academyContentFrame];_webView.frame=frame;_errorView.frame=frame;
+    _retryButton.frame=CGRectMake(frame.origin.x+32,CGRectGetMaxY(frame)-88,frame.size.width-64,52);
+    CGSize loadingSize=[_loadingView systemLayoutSizeFittingSize:CGSizeMake(MAX(0,frame.size.width-48),UILayoutFittingCompressedSize.height) withHorizontalFittingPriority:UILayoutPriorityRequired verticalFittingPriority:UILayoutPriorityFittingSizeLevel];
+    _loadingView.frame=CGRectMake(frame.origin.x+24,CGRectGetMidY(frame)-loadingSize.height/2,MAX(0,frame.size.width-48),loadingSize.height);
+}
+- (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation withError:(NSError *)error
+{
+    [self webView:webView didFailNavigation:navigation withError:error];
+}
+- (void)retryDictionary
+{
+    _errorView.hidden=YES;_retryButton.hidden=YES;
+    if(_url)[_webView loadRequest:[NSURLRequest requestWithURL:_url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:20]];
 }
 
 @end

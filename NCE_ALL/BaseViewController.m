@@ -16,6 +16,7 @@
 @interface BaseViewController () <GADBannerViewDelegate>
 {
     CGFloat _headerHeight;
+    NCEAcademyBackdrop *_academyBackdrop;
     GADBannerView *_bannerView;
     UIView *_bannerContainerView;
     NSLayoutConstraint *_bannerContainerHeightConstraint;
@@ -39,54 +40,44 @@
 
 - (id)init
 {
-    self = [super init];
-    if (self) {
+    if ((self = [super init])) {
         _viewType = ViewType_Normal;
         [self initHeightData];
-
-        _colorArray = @[[UIColor colorWithRed:226/255.f green:73/255.f blue:65/255.f alpha:1.f],
-                        [UIColor colorWithRed:234/255.f green:155/255.f blue:65/255.f alpha:1.f],
-                        [UIColor colorWithRed:236/255.f green:197/255.f blue:64/255.f alpha:1.f],
-                        [UIColor colorWithRed:107/255.f green:194/255.f blue:68/255.f alpha:1.f],
-                        [UIColor colorWithRed:80/255.f green:175/255.f blue:235/255.f alpha:1.f],
-                        [UIColor colorWithRed:198/255.f green:124/255.f blue:216/255.f alpha:1.f],
-                        [UIColor colorWithRed:130/255.f green:213/255.f blue:216/255.f alpha:1.f],
-                        [UIColor colorWithRed:248/255.f green:137/255.f blue:0.f/255.f alpha:1.f],
-                        [UIColor colorWithRed:136/255.f green:125/255.f blue:221/255.f alpha:1.f],
-                        [UIColor colorWithRed:255/255.f green:86/255.f blue:117/255.f alpha:1.f],
-                        [UIColor colorWithRed:255/255.f green:18/255.f blue:68/255.f alpha:1.f]];
+        // Detail pages use the course sections; root tabs return when leaving the detail.
+        self.hidesBottomBarWhenPushed=YES;
+        _colorArray = @[NCEBlue(), NCEBlue(), NCEBlue(), NCEBlue(), NCEBlue(), NCEBlue(), NCEBlue(), NCEBlue(), NCEBlue(), NCEBlue(), NCEBlue()];
     }
-    
     return self;
 }
 
-- (void)viewDidLoad {
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    if ([Utility isPad]) {
-        // Tablet layouts start at y=0 and must not extend beneath the navigation bar.
-        self.edgesForExtendedLayout = UIRectEdgeNone;
-    }
-    // Do any additional setup after loading the view.
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.navigationItem.largeTitleDisplayMode=UINavigationItemLargeTitleDisplayModeNever;
     self.navigationItem.title = NCEChineseText(self.titleString);
-    self.view.backgroundColor = [UIColor colorWithRed:98/255.f green:215/255.f blue:150/255.f alpha:1.f];
-
-    // add back button
+    self.view.backgroundColor = NCEBackground();
+    _academyBackdrop = [NCEAcademyBackdrop new];
+    [self.view addSubview:_academyBackdrop];
+    NCEConfigureNavigation(self.navigationController.navigationBar);
     self.navigationItem.hidesBackButton = YES;
-    self.navigationItem.leftItemsSupplementBackButton = NO;
-    UIImage *backImage = [[UIImage imageNamed:@"btn_back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithImage:backImage
-                                                                              style:UIBarButtonItemStylePlain
-                                                                             target:self
-                                                                             action:@selector(goBack)];
-    backButton.accessibilityIdentifier = @"back";
-    backButton.accessibilityLabel = NCELocalizedString(@"返回");
-    self.navigationItem.leftBarButtonItem = backButton;
+    UIButton *back = NCEButton(nil, @"chevron.left", NO, self, @selector(goBack));
+    back.frame = CGRectMake(0, 0, 44, 44);
+    back.accessibilityIdentifier = @"back";
+    back.accessibilityLabel = NCELocalizedString(@"返回");
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:back];
+    if (@available(iOS 26.0, *)) self.navigationItem.leftBarButtonItem.hidesSharedBackground=YES;
+    if(self.navigationController.viewControllers.firstObject==self) self.navigationItem.leftBarButtonItem=nil;
+    self.navigationController.interactivePopGestureRecognizer.delegate = nil;
+    [self performSelector:@selector(addBanner) withObject:nil afterDelay:0.1];
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(academyTextSizeChanged:) name:UIContentSizeCategoryDidChangeNotification object:nil];
+}
 
-    [self performSelector:@selector(addBanner) withObject:nil afterDelay:0.1f];
-    
-    NSError *sessionError = nil;
-    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&sessionError];
-    [[AVAudioSession sharedInstance] setActive:YES error:&sessionError];
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if(!self.embeddedInLesson){if(@available(iOS 18.0,*))[self.tabBarController setTabBarHidden:self.navigationController.viewControllers.firstObject!=self animated:animated];}
 }
 
 - (void)didReceiveMemoryWarning {
@@ -103,13 +94,12 @@
     _bannerHeight = [self getDefaultBottomHeight];
 }
 
+
 - (CGFloat)getHeaderPosY
 {
-    if ([Utility isPad]) {
-        return 0.0f;
-    }
-    return [self getHeaderHeight];
+    return self.view.safeAreaInsets.top;
 }
+
 
 - (CGFloat)getHeaderHeight
 {
@@ -121,6 +111,7 @@
     return headerHeight;
 }
 
+
 - (CGFloat)getDefaultBottomHeight
 {
     if ([Utility isPad]) {
@@ -129,38 +120,28 @@
     return 68.0f;
 }
 
+
 - (CGFloat)getConstHeight
 {
-    return 64.0f;
+    return 64;
 }
+
 
 - (CGFloat)getPlayViewHeight
 {
-    return  75.0f;;
+    return 124;
 }
+
 
 - (CGRect)getTableViewFrame
 {
-    CGFloat width = self.view.bounds.size.width;
-    CGFloat height = self.view.bounds.size.height;
-    
-    CGFloat headerHeight = _headerHeight;
-    CGFloat bannerHeight = _bannerHeight;
-    
-    CGFloat headerPosy = [self getHeaderPosY];
-    
-    if (_viewType == ViewType_Searchs) {
-        headerPosy = headerPosy + 40.0f; //单词search
-        height = height - 40.0f;
-    } else if (_viewType == ViewType_Lessons) {
-        height = height - [self getPlayViewHeight];
-    }
-    
-    // 统一分上中下三段处理
-    height = height - headerHeight - bannerHeight;
-    
-    return CGRectMake(0, headerPosy, width, height);
+    CGRect frame = [self academyContentFrame];
+    if (_viewType == ViewType_Searchs) { frame.origin.y += 64; frame.size.height -= 64; }
+    if (_viewType == ViewType_Lessons) frame.size.height -= [self getPlayViewHeight];
+    frame.size.height = MAX(0,frame.size.height);
+    return frame;
 }
+
 
 - (CGFloat)getSafeAreaHeight
 {
@@ -180,6 +161,7 @@
     return 0.0f;
 }
 
+
 #pragma mark -
 #pragma mark Private Methods
 
@@ -190,6 +172,8 @@
 
 - (void)addBanner
 {
+    // The shared lesson owns the banner; embedded sections do not create duplicates.
+    if (self.embeddedInLesson) return;
 #if TARGET_OS_SIMULATOR
     //[self refreshLayoutForBannerHeight];
     //return;
@@ -246,17 +230,11 @@
     if (_bannerContainerHeightConstraint) {
         _bannerContainerHeightConstraint.constant = self.bannerHeight;
     }
-    CGRect tableFrame = [self getTableViewFrame];
-    CGFloat tableHeight = tableFrame.size.height;
-    if ([Utility isPad]) {
-        tableFrame.size.height = tableHeight + _headerHeight;
-    }
-    for (UIView *subview in self.view.subviews) {
-        if ([subview isKindOfClass:[UITableView class]] || [subview isKindOfClass:[UICollectionView class]]) {
-            subview.frame = tableFrame;
-        }
-    }
+    // Refresh the native page layout using the original banner height.
+    [self.view setNeedsLayout];
 }
+
+
 
 - (void)bannerViewDidReceiveAd:(GADBannerView *)bannerView
 {
@@ -277,6 +255,47 @@
         }
         [self->_bannerView loadRequest:[self nonPersonalizedRequest]];
     });
+}
+
+- (CGRect)academyContentFrame
+{
+    UIEdgeInsets safe = self.view.safeAreaInsets;
+    CGFloat available = MAX(0,self.view.bounds.size.width-safe.left-safe.right);
+    CGFloat width = MIN(760,available);
+    CGFloat bottom=MAX(safe.bottom,self.embeddedInLesson ? 0 : self.bannerHeight);
+    return CGRectMake(safe.left+(available-width)/2, safe.top, width,
+                      MAX(0,self.view.bounds.size.height-safe.top-bottom));
+}
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    _academyBackdrop.frame = CGRectMake(0,0,self.view.bounds.size.width,250);
+    for (UIView *view in self.view.subviews) {
+        if ([view isKindOfClass:UITableView.class] && view.translatesAutoresizingMaskIntoConstraints) {
+            UITableView *table = (UITableView *)view;
+            CGRect frame = [self getTableViewFrame];
+            if (!CGRectEqualToRect(table.frame,frame)) table.frame = frame;
+            if ([table.tableHeaderView isKindOfClass:NCEAcademyHeader.class]) {
+                NCEAcademyHeader *header = (NCEAcademyHeader *)table.tableHeaderView;
+                CGFloat height = [header heightForWidth:frame.size.width];
+                if (fabs(header.bounds.size.height-height)>0.5 || fabs(header.bounds.size.width-frame.size.width)>0.5) {
+                    header.frame=CGRectMake(0,0,frame.size.width,height); table.tableHeaderView=header;
+                }
+            }
+        }
+    }
+    [self layoutAcademyViews];
+}
+- (void)layoutAcademyViews {}
+- (void)academyTextSizeChanged:(NSNotification *)notification
+{
+    [self.view setNeedsLayout];
+    for (UIView *view in self.view.subviews) if ([view isKindOfClass:UITableView.class]) [(UITableView *)view reloadData];
+}
+- (void)dealloc
+{
+    [NSObject cancelPreviousPerformRequestsWithTarget:self];
+    [NSNotificationCenter.defaultCenter removeObserver:self];
 }
 
 @end

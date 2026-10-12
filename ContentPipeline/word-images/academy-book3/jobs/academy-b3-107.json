@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-107",
+  "cells": [
+    {
+      "index": 0,
+      "word": "dealer",
+      "meaning": "v.商人",
+      "filename": "academy-b3-8e321a4f4fcdcbe5.png",
+      "scene": "An antique dealer stands behind a counter showing a customer an old porcelain vase, several antiques on nearby shelves."
+    },
+    {
+      "index": 1,
+      "word": "cherish",
+      "meaning": "v.期望，渴望；珍爱",
+      "filename": "academy-b3-70f31781c0a0488d.png",
+      "scene": "An adult holds a faded family photograph close to their chest with a tender smile."
+    },
+    {
+      "index": 2,
+      "word": "amply",
+      "meaning": "ad.足够地",
+      "filename": "academy-b3-6376448ef40f15b4.png",
+      "scene": "A table holds far more bread and fruit than needed for three waiting people, each already has a full plate and extra baskets remain."
+    },
+    {
+      "index": 3,
+      "word": "masterpiece",
+      "meaning": "n.杰作",
+      "filename": "academy-b3-498a5e52b1390914.png",
+      "scene": "Visitors admire a superb framed painting of a luminous landscape in a gallery, one person viewing with obvious wonder."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — dealer (v.商人): An antique dealer stands behind a counter showing a customer an old porcelain vase, several antiques on nearby shelves.\nTOP RIGHT — cherish (v.期望，渴望；珍爱): An adult holds a faded family photograph close to their chest with a tender smile.\nBOTTOM LEFT — amply (ad.足够地): A table holds far more bread and fruit than needed for three waiting people, each already has a full plate and extra baskets remain.\nBOTTOM RIGHT — masterpiece (n.杰作): Visitors admire a superb framed painting of a luminous landscape in a gallery, one person viewing with obvious wonder.\nEXTRA CROP SAFETY: Draw noticeably SMALLER compact subjects. Every object, mast, roof, thought bubble and entire person must have an empty white border of at least 12% of its quadrant on ALL FOUR sides. Top row ends above 44% canvas height; bottom row starts below 58%. Never let a background tower extend upward into the midline. No part is clipped by a quadrant edge.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-107.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "All cells match the intended curriculum sense, human anatomy is natural, and subjects remain wholly within their respective crop quadrants.",
+  "source_sha256": "989f79446a7b7e00918c19a1b1579265c08c6387379bf4b8f63e23305d51b0a6"
+}

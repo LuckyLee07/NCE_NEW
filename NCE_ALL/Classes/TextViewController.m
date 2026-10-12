@@ -9,6 +9,9 @@
 #import "TextViewController.h"
 #import "sqlite3.h"
 #import "AdmobManager.h"
+#import "NCEStudyStore.h"
+#import "NCEStudyViews.h"
+#import "NCECourseViewController.h"
 #import "NCELessonResourceStore.h"
 #import <AVFoundation/AVFoundation.h>
 
@@ -25,6 +28,8 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 	    NSMutableDictionary *_contentDictionary;
 	    
 	    AVAudioPlayer *_audioPlayer;
+    NSUInteger _audioGeneration;
+    BOOL _preparingAudio;
 	    int _currentIndex;
     
     UIButton *_continueButton;
@@ -32,6 +37,15 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
     
     UISlider *_contentSlider;
     UIButton *_circleButton;
+    UIView *_playerView;
+    UIView *_playerSeparator;
+    UILabel *_positionLabel;
+    UIButton *_rateButton;
+    UIButton *_previousButton;
+    UIButton *_nextButton;
+    CGFloat _readingWidth;
+    float _playbackRate;
+    UIButton *_translationButton;
 }
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -68,26 +82,21 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
         _contentDictionary = [[NSMutableDictionary alloc] initWithCapacity:5];
         
 	        _currentIndex = 0;
+        NSDictionary *resume=[NCEStudyStore resumeForBook:bookId];
+        if ([resume[@"book"] intValue]==_bookId && [resume[@"lesson"][@"id"] isEqual:_lesson[@"id"]]) _currentIndex=MIN(MAX(0,[resume[@"sentence"] intValue]),MAX(0,(int)_items.count-1));
+        _playbackRate=[NSUserDefaults.standardUserDefaults floatForKey:@"NCEAcademyRate"];
+        if (_playbackRate<0.5 || _playbackRate>2) _playbackRate=1;
     }
     return self;
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    //self.showTimes = 1;
-    
-    [self addTableView];
-    
-    [self addRightButton];
-
-    [self addBottomView];
-    
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_currentIndex inSection:0];
-    [self tableView:self.tableView didSelectRowAtIndexPath:indexPath];
-    
+    [self addTableView]; [self addRightButton]; [self addBottomView];
+    if (_items.count) [self tableView:self.tableView didSelectRowAtIndexPath:[NSIndexPath indexPathForRow:_currentIndex inSection:0]];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -104,129 +113,67 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kTextViewControllerCellReuseId
-                                                            forIndexPath:indexPath];
-    cell.accessoryType = UITableViewCellAccessoryNone;
-    cell.backgroundColor = [UIColor clearColor];
-    cell.contentView.backgroundColor = [UIColor clearColor];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    
-    NSArray *array = [cell.contentView subviews];
-    for (UIView *view in array) {
-        [view removeFromSuperview];
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:kTextViewControllerCellReuseId forIndexPath:indexPath];
+    for(UIView *view in cell.contentView.subviews) [view removeFromSuperview];
+    cell.backgroundColor=UIColor.clearColor;cell.selectionStyle=UITableViewCellSelectionStyleNone;
+    NSDictionary *item=[self getContentItem:indexPath.row];
+    CGFloat width=tableView.bounds.size.width;
+    CGFloat height=[self tableView:tableView heightForRowAtIndexPath:indexPath];
+    BOOL current=indexPath.row==_currentIndex;
+    if(current) {
+        UIView *highlight=[[UIView alloc] initWithFrame:CGRectMake(12,2,width-24,height-4)];
+        highlight.backgroundColor=NCESky(); highlight.layer.cornerRadius=4; [cell.contentView addSubview:highlight];
+        UIView *marker=[[UIView alloc] initWithFrame:CGRectMake(12,5,3,height-10)]; marker.backgroundColor=NCEBlue(); [cell.contentView addSubview:marker];
+        UIImageView *speaker=[[UIImageView alloc] initWithImage:[UIImage systemImageNamed:@"speaker.wave.2"]];
+        speaker.tintColor=NCEBlue(); speaker.contentMode=UIViewContentModeScaleAspectFit;
+        speaker.frame=CGRectMake(width-42,10,22,24); [cell.contentView addSubview:speaker];
     }
-    CGFloat headerHeight = [self getConstHeight];
-    CGFloat height = (tableView.frame.size.height-headerHeight)/8;
-    NSDictionary *contentItem = [self getContentItem:indexPath.row];
-    
-    // englist title
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(height/3, height/12, tableView.frame.size.width-height*2/3, [[contentItem objectForKey:@"englishHeight"] floatValue])];
-    titleLabel.backgroundColor = [UIColor clearColor];
-    titleLabel.font = [UIFont systemFontOfSize:14*height/50];
-    titleLabel.textColor = [UIColor blackColor];
-    titleLabel.text = [contentItem objectForKey:@"english"];
-    titleLabel.accessibilityIdentifier = [NSString stringWithFormat:@"lesson-english-%ld", (long)indexPath.row];
-    titleLabel.textAlignment = NSTextAlignmentLeft;
-    titleLabel.numberOfLines = 0;
-    titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
-    titleLabel.tag = 100+indexPath.row;
-    [cell.contentView addSubview:titleLabel];
-    
-    // chinese title
-    UILabel *subTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(height/3, height/6+[[contentItem objectForKey:@"englishHeight"] floatValue], tableView.frame.size.width-height*2/3, [[contentItem objectForKey:@"chineseHeight"] floatValue])];
-    subTitleLabel.backgroundColor = [UIColor clearColor];
-    subTitleLabel.font = [UIFont systemFontOfSize:12*height/50];
-    subTitleLabel.textColor = [UIColor darkGrayColor];
-    subTitleLabel.text = [contentItem objectForKey:@"chinese"];
-    subTitleLabel.accessibilityIdentifier = [NSString stringWithFormat:@"lesson-translation-%ld", (long)indexPath.row];
-    subTitleLabel.textAlignment = NSTextAlignmentLeft;
-    subTitleLabel.numberOfLines = 0;
-    subTitleLabel.lineBreakMode = NSLineBreakByWordWrapping;
-    subTitleLabel.tag = 10000+indexPath.row;
-    [cell.contentView addSubview:subTitleLabel];
-    if (!_showChinese) subTitleLabel.hidden = YES;;
-    
-    // show when the cell is selected
-    UIView *maskView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, cell.frame.size.height)];
-    maskView.backgroundColor = [UIColor clearColor];
-    maskView.tag = 1000+indexPath.row;
-    [cell.contentView addSubview:maskView];
-    
-    if (_currentIndex == indexPath.row) {
-        maskView.backgroundColor = [UIColor colorWithWhite:0.3f alpha:0.1f];
-        titleLabel.textColor = [UIColor colorWithRed:16/255.f
-                                               green:165/255.f
-                                                blue:79/255.f
-                                               alpha:1.f];
-        subTitleLabel.textColor = [UIColor colorWithRed:16/255.f
-                                                  green:165/255.f
-                                                   blue:79/255.f
-                                                  alpha:0.7f];
+    UILabel *english=NCELabel(item[@"english"],19,UIFontWeightMedium,NCEInk());
+    english.frame=CGRectMake(24,10,width-76,[item[@"englishHeight"] floatValue]);
+    english.accessibilityIdentifier=[NSString stringWithFormat:@"lesson-english-%ld",(long)indexPath.row];
+    [cell.contentView addSubview:english];
+    if(_showChinese){
+        UILabel *translation=NCELabel(item[@"chinese"],13,UIFontWeightRegular,NCEMuted());
+        translation.frame=CGRectMake(24,CGRectGetMaxY(english.frame)+5,width-76,[item[@"chineseHeight"] floatValue]);
+        translation.accessibilityIdentifier=[NSString stringWithFormat:@"lesson-translation-%ld",(long)indexPath.row];
+        [cell.contentView addSubview:translation];
     }
-    
     return cell;
 }
+
 
 #pragma mark -
 #pragma mark UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSDictionary *contentItem = [self getContentItem:indexPath.row];
-    
-    CGFloat height = (tableView.frame.size.height-[self getConstHeight])/8;
-    CGFloat contentHeight = [[contentItem objectForKey:@"englishHeight"] floatValue]+[[contentItem objectForKey:@"chineseHeight"] floatValue];
-    // Include the same top inset, inter-language gap and bottom inset used by the labels.
-    contentHeight += height/4;
-    
-    return contentHeight;
+    NSDictionary *item=[self getContentItem:indexPath.row];
+    return MAX(44,20+[item[@"englishHeight"] floatValue]+(_showChinese ? 5+[item[@"chineseHeight"] floatValue] : 0));
 }
+
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.view viewWithTag:1000+_currentIndex].backgroundColor = [UIColor clearColor];
-    [self.view viewWithTag:1000+indexPath.row].backgroundColor = [UIColor colorWithWhite:0.3f alpha:0.1f];
-    
-    UILabel *lastTitle = (UILabel *)[self.view viewWithTag:100+_currentIndex];
-    lastTitle.textColor = [UIColor darkGrayColor];
-    UILabel *currentTitle = (UILabel *)[self.view viewWithTag:100+indexPath.row];
-    currentTitle.textColor = [UIColor colorWithRed:16/255.f
-                                             green:165/255.f
-                                              blue:79/255.f
-                                             alpha:1.f];
-    
-    UILabel *lastSubTitle = (UILabel *)[self.view viewWithTag:10000+_currentIndex];
-    lastSubTitle.textColor = [UIColor grayColor];
-    UILabel *currentSubTitle = (UILabel *)[self.view viewWithTag:10000+indexPath.row];
-    currentSubTitle.textColor = [UIColor colorWithRed:16/255.f
-                                                green:165/255.f
-                                                 blue:79/255.f
-                                                alpha:0.7f];
-    
-    _currentIndex = (int)indexPath.row;
-    
+    if(indexPath.row>=_items.count)return;
+    _currentIndex=(int)indexPath.row;
+    [NCEStudyStore recordLesson:_lesson book:_bookId sentence:_currentIndex];
+    [NSUserDefaults.standardUserDefaults setInteger:_bookId forKey:@"NCEAcademyBook"];
     [self play];
-    
-    [tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
-    
-    _contentSlider.value = _currentIndex;
-    
-    _continueButton.hidden = _audioPlayer.isPlaying;
-    _pauseButton.hidden = !_audioPlayer.isPlaying;
+    [tableView reloadData];
+    [tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:!UIAccessibilityIsReduceMotionEnabled()];
+    _contentSlider.value=_currentIndex;
+    _positionLabel.text=[NSString stringWithFormat:@"%d / %d",_currentIndex+1,(int)_items.count];
+    _previousButton.enabled=_currentIndex>0;_nextButton.enabled=_currentIndex<_items.count-1;
+    _continueButton.hidden=_audioPlayer.isPlaying;_pauseButton.hidden=!_audioPlayer.isPlaying;
 }
+
 
 #pragma mark -
 #pragma mark AVAudioPlayerDelegate
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {
-    if (_currentIndex == _items.count-1 && _circleButton.selected) return;
-    
-    [self.view viewWithTag:1000+_currentIndex].backgroundColor = [UIColor clearColor];
-    UILabel *lastTitle = (UILabel *)[self.view viewWithTag:100+_currentIndex];
-    lastTitle.textColor = [UIColor darkGrayColor];
-    UILabel *lastSubTitle = (UILabel *)[self.view viewWithTag:10000+_currentIndex];
-    lastSubTitle.textColor = [UIColor grayColor];
+    if (_circleButton.selected) { [self play]; return; }
     
     if (_currentIndex < _items.count-1) {
         _currentIndex++;
@@ -235,6 +182,8 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
         return;
     }
 
+    [self pause];
+    if(self.embeddedInLesson){[[AdmobManager sharedInstance] handleCompletedCourseBreakWithCompletion:nil];return;}
     NSDictionary *nextLesson = [self nextLessonDictionary];
     __weak typeof(self) weakSelf = self;
     [[AdmobManager sharedInstance] handleCompletedCourseBreakWithCompletion:^{
@@ -279,87 +228,57 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 
 - (void)addTableView
 {
-    UIView *view = [[UIView alloc] initWithFrame:CGRectZero];
-    [self.view addSubview:view];
-    
-    self.viewType = ViewType_Lessons;
-    CGRect tableViewFrame = [self getTableViewFrame];
-    self.tableView = [[UITableView alloc] initWithFrame:tableViewFrame style:UITableViewStylePlain];
-    
-    self.tableView.backgroundColor = [UIColor colorWithWhite:1.f alpha:0.9f];
-    self.tableView.dataSource = self;
-    self.tableView.delegate = self;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    
-    [self.tableView registerClass:[UITableViewCell class]
-           forCellReuseIdentifier:kTextViewControllerCellReuseId];
-    
-    [self.view addSubview:self.tableView];
+    self.viewType=ViewType_Lessons;
+    self.tableView=[[UITableView alloc] initWithFrame:[self getTableViewFrame] style:UITableViewStylePlain];
+    self.tableView.dataSource=self;self.tableView.delegate=self;NCEPrepareTable(self.tableView);
+    [self.tableView registerClass:UITableViewCell.class forCellReuseIdentifier:kTextViewControllerCellReuseId];
+    [self.view addSubview:self.tableView];[self updateReadingHeader];
 }
+
 
 - (void)addRightButton
 {
-    UIButton *showChineseButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    showChineseButton.frame = CGRectMake(0, 0, 40, 40);
-    showChineseButton.titleLabel.font = [UIFont systemFontOfSize:14.f];
-    [showChineseButton setImage:[UIImage systemImageNamed:@"text.bubble"] forState:UIControlStateNormal];
-    showChineseButton.tintColor = UIColor.whiteColor;
-    showChineseButton.accessibilityIdentifier = @"lesson-show-translation";
-    showChineseButton.accessibilityLabel = NCELocalizedString(@"显示或隐藏译文");
-    [showChineseButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [showChineseButton addTarget:self action:@selector(showChinese:) forControlEvents:UIControlEventTouchUpInside];
-    
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:showChineseButton];
+    UIButton *translation=NCEButton(self.embeddedInLesson ? NCELocalizedString(@"显示译文") : nil,@"text.bubble",NO,self,@selector(showChinese:));
+    _translationButton=translation;
+    translation.frame=CGRectMake(0,0,44,44);translation.accessibilityIdentifier=@"lesson-show-translation";
+    translation.accessibilityLabel=NCELocalizedString(@"显示或隐藏译文");translation.accessibilityValue=NCELocalizedString(@"中英对照");
+    if(self.embeddedInLesson){[self.view addSubview:translation];return;}
+    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc] initWithCustomView:translation];
+    if (@available(iOS 26.0, *)) self.navigationItem.rightBarButtonItem.hidesSharedBackground=YES;
 }
+
 
 - (void)showChinese:(UIButton *)button;
 {
     button.selected = !button.selected;
     _showChinese = !_showChinese;
+    button.accessibilityValue=NCELocalizedString(_showChinese ? @"中英对照" : @"仅英文");
+    if(self.embeddedInLesson)NCESetButtonTitle(button,NCELocalizedString(_showChinese ? @"隐藏译文" : @"显示译文"));
     [self.tableView reloadData];
 }
 
 - (NSDictionary *)getContentItem:(NSUInteger)item
 {
-    NSString *name = [_items objectAtIndex:item];
-    
-    NSDictionary *contentItem = [_contentDictionary objectForKey:name];
-    if (!contentItem) {
-        NSError *resourceError = nil;
-        NSString *contentString = [[[NCELessonResourceStore sharedStore] textForSentence:name
-                                                                                bookID:_bookId + 1
-                                                                                 error:&resourceError]
-                                  stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-        NSArray *contentArray = [contentString componentsSeparatedByString:@"－"];
-        if (contentArray.count < 2) {
-            NSLog(@"Unable to read lesson text %@: %@", name, resourceError);
-            contentArray = @[@"", NCELocalizedString(@"课文资源无法读取")];
-        }
-        contentArray = @[contentArray[0], [NCELocalization.sharedLocalization localizedLessonText:name fallback:contentArray[1]]];
-        
-        CGFloat height = (self.tableView.frame.size.height-[self getConstHeight])/8;
-        
-        NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];
-        paragraphStyle.lineBreakMode = NSLineBreakByWordWrapping;
-        NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:14*height/50], NSParagraphStyleAttributeName:paragraphStyle.copy};
-        NSDictionary *attributes1 = @{NSFontAttributeName:[UIFont systemFontOfSize:12*height/50], NSParagraphStyleAttributeName:paragraphStyle.copy};
-        
-        CGSize content0Size = [[contentArray objectAtIndex:0] boundingRectWithSize:CGSizeMake(self.tableView.frame.size.width-height*2/3, MAXFLOAT)
-                                                                           options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
-                                                                        attributes:attributes
-                                                                           context:nil].size;
-        
-        CGSize content1Size = [[contentArray objectAtIndex:1] boundingRectWithSize:CGSizeMake(self.tableView.frame.size.width-height*2/3, MAXFLOAT)
-                                                                           options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
-                                                                        attributes:attributes1
-                                                                           context:nil].size;
-        
-        contentItem = [[NSDictionary alloc] initWithObjectsAndKeys:[contentArray objectAtIndex:0], @"english" ,[contentArray objectAtIndex:1], @"chinese", @(ceil(content0Size.height)), @"englishHeight", @(ceil(content1Size.height)), @"chineseHeight", nil];
-        
-        [_contentDictionary setObject:contentItem forKey:name];
+    NSString *name=_items[item];
+    NSDictionary *cached=_contentDictionary[name];
+    if(!cached){
+        NSString *text=[[NCELessonResourceStore.sharedStore textForSentence:name bookID:_bookId+1 error:nil] stringByTrimmingCharactersInSet:NSCharacterSet.whitespaceAndNewlineCharacterSet];
+        NSArray *parts=[text componentsSeparatedByString:@"－"];
+        NSString *english=parts.count>0 ? parts[0] : @"";
+        NSString *translation=parts.count>1 ? [NCELocalization.sharedLocalization localizedLessonText:name fallback:parts[1]] : NCELocalizedString(@"课文资源无法读取");
+        // Some bundled LRC files end with a blank line containing a BOM.
+        NSMutableCharacterSet *whitespace=[NSCharacterSet.whitespaceAndNewlineCharacterSet mutableCopy];
+        [whitespace addCharactersInString:@"\uFEFF"];
+        cached=@{@"english":[english stringByTrimmingCharactersInSet:whitespace],@"chinese":[translation stringByTrimmingCharactersInSet:whitespace]};
+        _contentDictionary[name]=cached;
     }
-    return contentItem;
+    CGFloat width=self.tableView.bounds.size.width-76;
+    NSMutableDictionary *result=cached.mutableCopy;
+    result[@"englishHeight"]=@(NCETextHeight(cached[@"english"],NCEFont(19,UIFontWeightMedium),width));
+    result[@"chineseHeight"]=@(NCETextHeight(cached[@"chinese"],NCEFont(13,UIFontWeightRegular),width));
+    return result;
 }
+
 
 - (NSDictionary *)nextLessonDictionary
 {
@@ -417,6 +336,7 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
         self.titleString = [lesson objectForKey:@"name"];
     }
     self.navigationItem.title = NCEChineseText(self.titleString);
+    [self updateReadingHeader];
 
     [self initData];
     [_contentDictionary removeAllObjects];
@@ -432,118 +352,76 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
     }
 }
 
+- (void)setAudioLoadingVisible:(BOOL)visible
+{
+    UIButtonConfiguration *configuration=_continueButton.configuration;
+    configuration.showsActivityIndicator=visible;_continueButton.configuration=configuration;
+    _continueButton.enabled=!visible;
+    _continueButton.accessibilityLabel=NCELocalizedString(visible ? @"正在准备音频…" : @"播放课文");
+}
+
 - (void)play
 {
     if (_currentIndex < 0 || _currentIndex >= _items.count) return;
-    [_audioPlayer stop];
-    _audioPlayer = nil;
-    NSError *error = nil;
-    NSData *audioData = [[NCELessonResourceStore sharedStore] audioDataForSentence:_items[_currentIndex]
-                                                                         bookID:_bookId + 1
-                                                                          error:&error];
-    if (audioData) _audioPlayer = [[AVAudioPlayer alloc] initWithData:audioData error:&error];
-    if (!_audioPlayer) {
-        NSLog(@"Unable to play lesson audio: %@", error);
-        if (!self.presentedViewController) {
-            UIAlertController *alert = [UIAlertController alertControllerWithTitle:NCELocalizedString(@"音频无法播放")
-                                                                          message:NCELocalizedString(@"内置音频资源无法读取，请尝试重新打开课程。")
-                                                                   preferredStyle:UIAlertControllerStyleAlert];
-            [alert addAction:[UIAlertAction actionWithTitle:NCELocalizedString(@"确定") style:UIAlertActionStyleDefault handler:nil]];
-            [self presentViewController:alert animated:YES completion:nil];
-        }
-        return;
-    }
-    _audioPlayer.delegate = self;
-    [_audioPlayer prepareToPlay];
-    [_audioPlayer play];
+    [_audioPlayer stop];_audioPlayer=nil;
+    NSUInteger generation=++_audioGeneration;_preparingAudio=YES;
+    [self setAudioLoadingVisible:NO];_continueButton.hidden=NO;_pauseButton.hidden=YES;
+    NSString *sentence=[_items[_currentIndex] copy];NSInteger book=_bookId+1;
+    __weak typeof(self) weakSelf=self;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW,(int64_t)(0.3*NSEC_PER_SEC)),dispatch_get_main_queue(),^{
+        typeof(self) self=weakSelf;
+        if(self && self->_audioGeneration==generation && self->_preparingAudio)[self setAudioLoadingVisible:YES];
+    });
+    NSTimeInterval preparationDelay=0;
+#if DEBUG
+    if([AdmobManager isOfflineResourceQA] && [NSProcessInfo.processInfo.arguments containsObject:@"-NCEAudioPreparationPreview"])preparationDelay=4;
+#endif
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW,(int64_t)(preparationDelay*NSEC_PER_SEC)),dispatch_get_global_queue(QOS_CLASS_USER_INITIATED,0),^{
+        NSError *error=nil;
+        NSData *data=[NCELessonResourceStore.sharedStore audioDataForSentence:sentence bookID:book error:&error];
+        AVAudioPlayer *player=data ? [[AVAudioPlayer alloc] initWithData:data error:&error] : nil;
+        BOOL ready=player && [player prepareToPlay];
+        dispatch_async(dispatch_get_main_queue(),^{
+            typeof(self) self=weakSelf;
+            // A newer sentence, pause, or leaving the reader invalidates this completion.
+            if(!self || self->_audioGeneration!=generation)return;
+            self->_preparingAudio=NO;[self setAudioLoadingVisible:NO];
+            if(!ready) {
+                NSLog(@"Unable to prepare lesson audio: %@",error);
+                if(self.view.window && !self.presentedViewController) {
+                    UIAlertController *alert=[UIAlertController alertControllerWithTitle:NCELocalizedString(@"音频无法播放") message:NCELocalizedString(@"内置音频资源无法读取，请尝试重新打开课程。") preferredStyle:UIAlertControllerStyleAlert];
+                    [alert addAction:[UIAlertAction actionWithTitle:NCELocalizedString(@"确定") style:UIAlertActionStyleDefault handler:nil]];
+                    [self presentViewController:alert animated:YES completion:nil];
+                }
+                return;
+            }
+            self->_audioPlayer=player;player.delegate=self;player.enableRate=YES;player.rate=self->_playbackRate;
+            BOOL playing=[player play];self->_continueButton.hidden=playing;self->_pauseButton.hidden=!playing;
+        });
+    });
 }
 
 - (void)addBottomView
 {
-    CGFloat headerHight = [self getPlayViewHeight];
-    
-    CGFloat bgviewPosy = self.tableView.frame.origin.y + self.tableView.frame.size.height;
-    UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0.f, bgviewPosy, self.view.frame.size.width, headerHight)];
-    backgroundView.backgroundColor = [UIColor colorWithWhite:1.f alpha:0.9f];
-    
-    [self.view addSubview:backgroundView];
-    
-    UIImageView *line = [[UIImageView alloc] initWithFrame:CGRectMake(0.f, 0.5f, self.view.frame.size.width, 0.5f)];
-    line.image = [UIImage imageNamed:@"line"];
-    [backgroundView addSubview:line];
-    
-    // prev
-    UIButton *prevButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    prevButton.frame = CGRectMake(self.view.frame.size.width-headerHight*20/9, headerHight*5/18, headerHight*4/9, headerHight*4/9);
-    [prevButton setImage:[UIImage imageNamed:@"prev_normal"] forState:UIControlStateNormal];
-    [prevButton setImage:[UIImage imageNamed:@"prev_click"] forState:UIControlStateHighlighted];
-    [prevButton addTarget:self action:@selector(prev) forControlEvents:UIControlEventTouchUpInside];
-    prevButton.accessibilityIdentifier = @"lesson-prev";
-    prevButton.accessibilityLabel = NCELocalizedString(@"上一句");
-    [backgroundView addSubview:prevButton];
-    
-    // pause
-    _pauseButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _pauseButton.frame = CGRectMake(self.view.frame.size.width-headerHight*15/9, headerHight*2/9, headerHight*5/9, headerHight*5/9);
-    [_pauseButton setImage:[UIImage imageNamed:@"pause_normal"] forState:UIControlStateNormal];
-    [_pauseButton setImage:[UIImage imageNamed:@"pause_click"] forState:UIControlStateHighlighted];
-    [_pauseButton addTarget:self action:@selector(pause) forControlEvents:UIControlEventTouchUpInside];
-    _pauseButton.accessibilityIdentifier = @"lesson-pause";
-    _pauseButton.accessibilityLabel = NCELocalizedString(@"暂停课文");
-    [backgroundView addSubview:_pauseButton];
-    
-    // continue
-    _continueButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _continueButton.frame = CGRectMake(self.view.frame.size.width-headerHight*15/9, headerHight*2/9, headerHight*5/9, headerHight*5/9);
-    [_continueButton setImage:[UIImage imageNamed:@"play_normal"] forState:UIControlStateNormal];
-    [_continueButton setImage:[UIImage imageNamed:@"play_click"] forState:UIControlStateHighlighted];
-    [_continueButton addTarget:self action:@selector(continue) forControlEvents:UIControlEventTouchUpInside];
-    _continueButton.accessibilityIdentifier = @"lesson-play";
-    _continueButton.accessibilityLabel = NCELocalizedString(@"播放课文");
-    [backgroundView addSubview:_continueButton];
-    _continueButton.hidden = YES;
-    
-    // next
-    UIButton *nextButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    nextButton.frame = CGRectMake(self.view.frame.size.width-headerHight*7/9, headerHight*5/18, headerHight*4/9, headerHight*4/9);
-    [nextButton setImage:[UIImage imageNamed:@"next_normal"] forState:UIControlStateNormal];
-    [nextButton setImage:[UIImage imageNamed:@"next_click"] forState:UIControlStateHighlighted];
-    [nextButton addTarget:self action:@selector(next) forControlEvents:UIControlEventTouchUpInside];
-    nextButton.accessibilityIdentifier = @"lesson-next";
-    nextButton.accessibilityLabel = NCELocalizedString(@"下一句");
-    [backgroundView addSubview:nextButton];
-    
-    // init and add the content slider
-    CGSize size = CGSizeMake(headerHight/9, headerHight/9);
-    
-    UIImage *leftImage = [UIImage imageNamed:@"progressBar_left"];
-    UIImage *newLeftImage = [self OriginImage:leftImage scaleToSize:size];
-    
-    UIImage *rightImage = [UIImage imageNamed:@"progressBar_right"];
-    UIImage *newRightImage = [self OriginImage:rightImage scaleToSize:size];
-    
-    UIImage *bgImage = [UIImage imageNamed:@"progressBar_bg"];
-    UIImage *newbgImage = [self OriginImage:bgImage scaleToSize:size];
-    
-    _contentSlider = [[UISlider alloc] initWithFrame:CGRectMake(headerHight*10/9, headerHight*4/9, self.view.frame.size.width-headerHight*33/9, headerHight/9)];
-    _contentSlider.maximumValue = (float)_items.count-1;
-    _contentSlider.minimumValue = 0.f;
-    _contentSlider.value = 0.f;
-    [_contentSlider setMinimumTrackImage:[newLeftImage resizableImageWithCapInsets:UIEdgeInsetsMake(0, newLeftImage.size.height*0.4, 0, newLeftImage.size.height*0.4)] forState:UIControlStateNormal];
-    [_contentSlider setMaximumTrackImage:[newbgImage resizableImageWithCapInsets:UIEdgeInsetsMake(0, newbgImage.size.height*0.4, 0, newbgImage.size.height*0.4)] forState:UIControlStateNormal];
-    [_contentSlider setThumbImage:newRightImage forState:UIControlStateNormal];
-    [_contentSlider setThumbImage:newRightImage forState:UIControlStateHighlighted];
-    [_contentSlider addTarget:self action:@selector(gotoContentItem:) forControlEvents:UIControlEventValueChanged];
-    [backgroundView addSubview:_contentSlider];
-    
-    // init playing circle setting
-    _circleButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _circleButton.frame = CGRectMake(headerHight/3, headerHight*5/18, headerHight*4/9, headerHight*4/9);
-    [_circleButton setImage:[UIImage imageNamed:@"playing_circle_btn"] forState:UIControlStateNormal];
-    [_circleButton setImage:[UIImage imageNamed:@"playing_single_btn"] forState:UIControlStateSelected];
-    [_circleButton addTarget:self action:@selector(circleOrSingle:) forControlEvents:UIControlEventTouchUpInside];
-    [backgroundView addSubview:_circleButton];
+    _playerView=[UIView new];_playerView.backgroundColor=NCEBackground();[self.view addSubview:_playerView];
+    _playerSeparator=[UIView new];_playerSeparator.backgroundColor=NCELine();[_playerView addSubview:_playerSeparator];
+    _contentSlider=[UISlider new];_contentSlider.minimumValue=0;_contentSlider.maximumValue=MAX(0,(int)_items.count-1);_contentSlider.minimumTrackTintColor=NCEBlue();_contentSlider.maximumTrackTintColor=NCESky();
+    _contentSlider.accessibilityIdentifier=@"lesson-progress";_contentSlider.accessibilityLabel=NCELocalizedString(@"课文进度");
+    [_contentSlider addTarget:self action:@selector(gotoContentItem:) forControlEvents:UIControlEventValueChanged];[_playerView addSubview:_contentSlider];
+    _positionLabel=NCELabel(nil,11,UIFontWeightMedium,NCEMuted());[_playerView addSubview:_positionLabel];
+    _circleButton=NCEButton(nil,@"repeat",NO,self,@selector(circleOrSingle:));_circleButton.accessibilityLabel=NCELocalizedString(@"顺序播放");_circleButton.accessibilityIdentifier=@"lesson-repeat-mode";
+    _previousButton=NCEButton(nil,@"backward.end",NO,self,@selector(prev));_previousButton.accessibilityIdentifier=@"lesson-prev";_previousButton.accessibilityLabel=NCELocalizedString(@"上一句");
+    _continueButton=NCEButton(nil,@"play.fill",YES,self,@selector(continue));_continueButton.accessibilityIdentifier=@"lesson-play";_continueButton.accessibilityLabel=NCELocalizedString(@"播放课文");
+    _pauseButton=NCEButton(nil,@"pause.fill",YES,self,@selector(pause));_pauseButton.accessibilityIdentifier=@"lesson-pause";_pauseButton.accessibilityLabel=NCELocalizedString(@"暂停课文");
+    _nextButton=NCEButton(nil,@"forward.end",NO,self,@selector(next));_nextButton.accessibilityIdentifier=@"lesson-next";_nextButton.accessibilityLabel=NCELocalizedString(@"下一句");
+    _rateButton=NCEButton([NSString stringWithFormat:@"%g×",_playbackRate],nil,NO,self,@selector(changeRate));_rateButton.accessibilityLabel=NCELocalizedString(@"播放速度");_rateButton.accessibilityIdentifier=@"lesson-rate";
+    _rateButton.titleLabel.numberOfLines=1;_rateButton.titleLabel.adjustsFontSizeToFitWidth=YES;_rateButton.titleLabel.minimumScaleFactor=0.5;
+    UIButtonConfiguration *rateConfig=_rateButton.configuration;rateConfig.background.backgroundColor=UIColor.clearColor;_rateButton.configuration=rateConfig;
+    for(UIButton *button in @[_circleButton,_previousButton,_continueButton,_pauseButton,_nextButton,_rateButton]){
+        UIButtonConfiguration *c=button.configuration;c.contentInsets=NSDirectionalEdgeInsetsMake(6,6,6,6);button.configuration=c;[_playerView addSubview:button];
+    }
 }
+
 
 -(UIImage *)OriginImage:(UIImage *)image scaleToSize:(CGSize)size
 {
@@ -568,6 +446,7 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 
 - (void)pause
 {
+    ++_audioGeneration;_preparingAudio=NO;[self setAudioLoadingVisible:NO];
     _pauseButton.hidden = YES;
     _continueButton.hidden = NO;
     
@@ -576,6 +455,8 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 
 - (void)continue
 {
+    if(_preparingAudio)return;
+    if(!_audioPlayer){[self play];return;}
     BOOL playing = [_audioPlayer play];
     _continueButton.hidden = playing;
     _pauseButton.hidden = !playing;
@@ -596,10 +477,58 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
     [self tableView:self.tableView didSelectRowAtIndexPath:index];
 }
 
-- (void)circleOrSingle:(id)sender
+- (void)circleOrSingle:(UIButton *)button
 {
-    UIButton *button = (UIButton *)sender;
-    button.selected = !button.selected;
+    button.selected=!button.selected;
+    UIButtonConfiguration *c=button.configuration;c.image=[UIImage systemImageNamed:button.selected ? @"repeat.1" : @"repeat"];button.configuration=c;
+    button.accessibilityLabel=NCELocalizedString(button.selected ? @"单句循环" : @"顺序播放");
+}
+
+
+- (void)layoutAcademyViews
+{
+    CGRect frame=[self academyContentFrame];CGFloat width=frame.size.width-32;
+    if(self.embeddedInLesson){_translationButton.frame=CGRectMake(frame.origin.x+16,frame.origin.y,width,36);_translationButton.contentHorizontalAlignment=UIControlContentHorizontalAlignmentTrailing;self.tableView.frame=CGRectMake(frame.origin.x,frame.origin.y+40,frame.size.width,MAX(0,frame.size.height-138));}
+    _playerView.frame=CGRectMake(frame.origin.x+16,CGRectGetMaxY(frame)-94,width,90);
+    _playerSeparator.frame=CGRectMake(0,0,width,0.5);
+    _positionLabel.frame=CGRectMake(0,7,48,22);_positionLabel.font=[UIFont systemFontOfSize:12 weight:UIFontWeightMedium];
+    _contentSlider.frame=CGRectMake(54,4,width-54,28);
+    NSArray *buttons=@[_circleButton,_previousButton,_continueButton,_nextButton,_rateButton];
+    NSArray *widths=@[@44,@44,@52,@44,@60];
+    CGFloat gap=MAX(0,(width-244)/4), x=0;
+    for(NSInteger index=0;index<buttons.count;index++) {
+        CGFloat w=[widths[index] doubleValue];
+        [buttons[index] setFrame:CGRectMake(x,index==2 ? 34 : 38,w,index==2 ? 52 : 44)]; x+=w+gap;
+    }
+    _pauseButton.frame=_continueButton.frame;
+    if(fabs(_readingWidth-self.tableView.bounds.size.width)>0.5){_readingWidth=self.tableView.bounds.size.width;[self.tableView reloadData];}
+}
+- (CGFloat)getPlayViewHeight { return 98; }
+- (void)updateReadingHeader
+{
+    NSArray *parts=[_lesson[@"name"] componentsSeparatedByString:@"－"];
+    self.navigationItem.title=[NSString stringWithFormat:@"%@ · %@",[NSString stringWithFormat:NCELocalizedString(@"第%d册"),_bookId+1],parts.count ? NCEChineseText(parts[0]) : @""];
+    if(self.embeddedInLesson){self.tableView.tableHeaderView=nil;return;}
+    self.tableView.tableHeaderView=[[NCEAcademyHeader alloc] initWithEyebrow:@"" title:parts.count>1 ? parts[1] : @"" subtitle:parts.count>2 ? NCEChineseText(parts[2]) : @"" image:nil];
+    [self.view setNeedsLayout];
+}
+- (void)changeRate
+{
+    UIAlertController *sheet=[UIAlertController alertControllerWithTitle:NCELocalizedString(@"播放速度") message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    for(NSNumber *rate in @[@0.75,@1,@1.25,@1.5]){
+        [sheet addAction:[UIAlertAction actionWithTitle:[NSString stringWithFormat:@"%@×",rate] style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+            self->_playbackRate=rate.floatValue;self->_audioPlayer.rate=rate.floatValue;
+            [NSUserDefaults.standardUserDefaults setFloat:rate.floatValue forKey:@"NCEAcademyRate"];
+            UIButtonConfiguration *c=self->_rateButton.configuration;c.title=[NSString stringWithFormat:@"%@×",rate];self->_rateButton.configuration=c;
+        }]];
+    }
+    [sheet addAction:[UIAlertAction actionWithTitle:NCELocalizedString(@"取消") style:UIAlertActionStyleCancel handler:nil]];
+    sheet.popoverPresentationController.sourceView=_rateButton;sheet.popoverPresentationController.sourceRect=_rateButton.bounds;
+    [self presentViewController:sheet animated:YES completion:nil];
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];[self pause];
 }
 
 @end

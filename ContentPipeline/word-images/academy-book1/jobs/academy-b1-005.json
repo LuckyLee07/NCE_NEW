@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-005",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-1b2134c0-d7aa-4043-97e6-0f17e676c61a.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — German (a.& n.德国人): a small adult beside a recognizable Brandenburg Gate, nationality mnemonic; no stereotyped facial features\nTOP RIGHT — nice (a.美好的): A clear compact educational illustration of 'nice', specifically its curriculum meaning 'a.美好的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — meet (v.遇见): A clear compact educational illustration of 'meet', specifically its curriculum meaning 'v.遇见'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — Japanese (a.& n.日本人): an adult beside a red torii gate with simple Mount Fuji silhouette, nationality mnemonic; no stereotyped facial features",
+  "cells": [
+    {
+      "word": "German",
+      "meaning": "a.& n.德国人",
+      "lessons": [
+        5
+      ],
+      "filename": "academy-b1-a659b60d246dce8d.png",
+      "kind": "ai_illustration",
+      "scene": "a small adult beside a recognizable Brandenburg Gate, nationality mnemonic; no stereotyped facial features",
+      "index": 0
+    },
+    {
+      "word": "nice",
+      "meaning": "a.美好的",
+      "lessons": [
+        5
+      ],
+      "filename": "academy-b1-e186022d0931afe9.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'nice', specifically its curriculum meaning 'a.美好的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "meet",
+      "meaning": "v.遇见",
+      "lessons": [
+        5
+      ],
+      "filename": "academy-b1-8ccb033c0e48b27f.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'meet', specifically its curriculum meaning 'v.遇见'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "Japanese",
+      "meaning": "a.& n.日本人",
+      "lessons": [
+        5
+      ],
+      "filename": "academy-b1-be4ee906d3efecfc.png",
+      "kind": "ai_illustration",
+      "scene": "an adult beside a red torii gate with simple Mount Fuji silhouette, nationality mnemonic; no stereotyped facial features",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

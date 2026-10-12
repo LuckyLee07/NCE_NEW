@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-041",
+  "cells": [
+    {
+      "index": 0,
+      "word": "city-state",
+      "meaning": "n.(古代)城邦",
+      "filename": "academy-b3-6aee4dadff27962c.png",
+      "scene": "A compact walled ancient city with temple, houses and its own gate stands alone amid surrounding fields; independent city polity."
+    },
+    {
+      "index": 1,
+      "word": "prince",
+      "meaning": "n.(小附属国的)君主，诸侯；王子",
+      "filename": "academy-b3-9bd2ef7a9ddbb223.png",
+      "scene": "A dignified storybook young prince wearing a small crown and formal cloak stands near a castle gate, no real royal likeness."
+    },
+    {
+      "index": 2,
+      "word": "Florentine",
+      "meaning": "n.佛罗伦萨人",
+      "filename": "academy-b3-f069984129e6af13.png",
+      "scene": "A fictional resident in simple historical Tuscan clothing stands by Florence's cathedral dome and stone river bridge; no stereotype or real likeness."
+    },
+    {
+      "index": 3,
+      "word": "funeral",
+      "meaning": "n.葬礼",
+      "filename": "academy-b3-60e04706c43421be.png",
+      "scene": "A respectful small group dressed in muted clothing stands solemnly beside a closed coffin with flowers, simple non-graphic farewell ceremony."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — city-state (n.(古代)城邦): A compact walled ancient city with temple, houses and its own gate stands alone amid surrounding fields; independent city polity.\nTOP RIGHT — prince (n.(小附属国的)君主，诸侯；王子): A dignified storybook young prince wearing a small crown and formal cloak stands near a castle gate, no real royal likeness.\nBOTTOM LEFT — Florentine (n.佛罗伦萨人): A fictional resident in simple historical Tuscan clothing stands by Florence's cathedral dome and stone river bridge; no stereotype or real likeness.\nBOTTOM RIGHT — funeral (n.葬礼): A respectful small group dressed in muted clothing stands solemnly beside a closed coffin with flowers, simple non-graphic farewell ceremony.",
+  "review_notes": "Viewed all four cells: ancient city-state, crowned prince, fictional Florentine resident with city cue, and respectful funeral scene convey the target meanings. All figures and architectural cues fit within cell boundaries.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-041.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-b2c3a219-69a5-45e8-8fae-2401dd69cbf3.png",
+  "source_sha256": "b5cf6c861e13b8f3cb3b1755e82d472026097b96742e99e0ba8411c5b59807bd",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

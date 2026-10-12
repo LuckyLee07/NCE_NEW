@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-001",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-001.png",
+  "prompt": "Use case: scientific-educational. Asset type: one 2x2 four-word atlas for an adult vocabulary app, to split into 320px illustrations. Primary request: follow the attached STYLE REFERENCE ONLY, restrained dark blue-charcoal ink outlines, pale watercolor, small natural warm color accents, pure WHITE opaque background. Do not copy its subjects. Equal square cells in fixed row-major order; central 75% of each quadrant contains the subject, generous whitespace, nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% bands EMPTY WHITE. Natural anatomy; clear silhouettes, medium simple detail, no elaborate environment. NO text, labels, captions, borders, grid lines, watermark, logos. Meanings below are guidance, never write them. TOP LEFT — puma, 美洲狮: a recognizable tawny puma with small round ears, muscular slender body and a very long curved tail, standing in side three-quarter view; plain unspotted coat, not lion or leopard. TOP RIGHT — spot, 看出发现: an adult hiker notices a small animal footprint on the ground, points directly at it with one hand while looking at it, clear discovery expression; no spotted fabric. BOTTOM LEFT — evidence, 证据: an investigator compares a clearly visible animal paw print in mud with a photograph of an identical paw print using a magnifying glass; blank notebook nearby; evidence from matching traces, not court verdict. BOTTOM RIGHT — accumulate, 积累积聚: three short successive piles of identical round coins from small to medium to large with two small blue rightward arrows; clean readable increasing accumulation, no text or numerals. Each drawing entirely within its own quadrant.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "puma",
+      "meaning": "n.美洲狮",
+      "scene": "A tawny unspotted puma with small round ears, muscular slender body and a long curved tail.",
+      "filename": "academy-b3-86505085bb4773d5.png"
+    },
+    {
+      "index": 1,
+      "word": "spot",
+      "meaning": "v.看出，发现",
+      "scene": "A hiker discovers a paw print and points directly at it.",
+      "filename": "academy-b3-be2bdbb3100e4119.png"
+    },
+    {
+      "index": 2,
+      "word": "evidence",
+      "meaning": "n.证据",
+      "scene": "An investigator compares a paw print with a matching photograph.",
+      "filename": "academy-b3-ee8250fb76e094b3.png"
+    },
+    {
+      "index": 3,
+      "word": "accumulate",
+      "meaning": "v.积累，积聚",
+      "scene": "Three successive increasing coin piles with rightward arrows.",
+      "filename": "academy-b3-2d1d52c3d18efcfd.png"
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "All subjects correctly depict textbook meanings; pure white margins, no baked labels, subjects safely within quadrants; checked generated atlas.",
+  "source_sha256": "0e87fa0811d0c55ed4fec214f8ff8db7508cbc9fd96c46377ef054a2e845dca8"
+}

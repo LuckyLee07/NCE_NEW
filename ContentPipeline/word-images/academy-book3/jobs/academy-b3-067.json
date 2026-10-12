@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-067",
+  "cells": [
+    {
+      "index": 0,
+      "word": "abuse",
+      "meaning": "n.辱骂，责骂",
+      "filename": "academy-b3-a60a2bb10fad676b.png",
+      "scene": "An angry adult berates another with sharp jagged blank speech bubbles; recipient looks hurt, no written insults or physical violence."
+    },
+    {
+      "index": 1,
+      "word": "snail",
+      "meaning": "n.蜗牛",
+      "filename": "academy-b3-62156a7b494a332c.png",
+      "scene": "A garden snail with a spiral brown shell and two long eye stalks crawls slowly on a leaf."
+    },
+    {
+      "index": 2,
+      "word": "luxury",
+      "meaning": "n.奢侈品，珍品",
+      "filename": "academy-b3-dd8b20c25fa48b06.png",
+      "scene": "An ornate jewel necklace is displayed on a velvet cushion beside a luxurious silk scarf."
+    },
+    {
+      "index": 3,
+      "word": "associate",
+      "meaning": "v.联想到",
+      "filename": "academy-b3-178b6e061a04a75e.png",
+      "scene": "A person sees a seashell and imagines a beach holiday in a small thought bubble, mental connection."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — abuse (n.辱骂，责骂): An angry adult berates another with sharp jagged blank speech bubbles; recipient looks hurt, no written insults or physical violence.\nTOP RIGHT — snail (n.蜗牛): A garden snail with a spiral brown shell and two long eye stalks crawls slowly on a leaf.\nBOTTOM LEFT — luxury (n.奢侈品，珍品): An ornate jewel necklace is displayed on a velvet cushion beside a luxurious silk scarf.\nBOTTOM RIGHT — associate (v.联想到): A person sees a seashell and imagines a beach holiday in a small thought bubble, mental connection.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-067.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Reviewed meanings and crop safety. Anatomy, gestures and food/material senses legible. Octopus excluded for a clearer eight-arm replacement.",
+  "source_sha256": "91d2f5e3723ec9c644e5cd5bbd6c06756814b313aa0e55a3d4f8d37928768e1d"
+}

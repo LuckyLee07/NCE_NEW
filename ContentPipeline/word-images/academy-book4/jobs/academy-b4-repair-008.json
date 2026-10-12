@@ -1,0 +1,19 @@
+{
+  "id": "academy-b4-repair-008",
+  "cells": [
+    {
+      "index": 0,
+      "word": "ethanol",
+      "meaning": "n.乙醇",
+      "filename": "academy-b4-d42741845745036d.png",
+      "scene": "One sealed amber laboratory reagent bottle, a neat cream label bearing ONLY C₂H₅OH, crisp correct chemical formula. No molecular model, no glass for drinking."
+    }
+  ],
+  "prompt": "Square 2x2 atlas, reference STYLE ONLY: pale watercolor, dark blue-charcoal outlines on pure white. ONLY TOP LEFT quadrant contains a small sealed amber laboratory reagent bottle, cream label with exact formula C₂H₅OH. No molecular model or other writing. Bottle wholly within central60% of top left quadrant ending above43% image height. Other three quadrants completely empty white.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-repair-008.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Sealed reagent bottle, correctly written ethanol formula C2H5OH, entirely inside top-left crop.",
+  "source_sha256": "68bed97e3ae5249b06abd230868cd5df81b3e0ccc335d953e733944ec7a0aa64"
+}

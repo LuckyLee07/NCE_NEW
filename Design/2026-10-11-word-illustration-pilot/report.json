@@ -1,0 +1,182 @@
+{
+  "all_tiles_within_limit" : true,
+  "average_tile_bytes" : 126673,
+  "format" : "PNG",
+  "format_version" : 1,
+  "height" : 320,
+  "largest_tile_bytes" : 148865,
+  "limit_bytes_per_tile" : 200000,
+  "lossy_compression" : false,
+  "sources" : [
+    {
+      "bytes" : 1672617,
+      "height" : 1254,
+      "path" : "sources/academy-pilot-01.png",
+      "sha256" : "3e6904458ad8ac3955f3eb65ce5cc64da31a54b76b48155ddc880459e3c353b1",
+      "width" : 1254
+    },
+    {
+      "bytes" : 1775366,
+      "height" : 1254,
+      "path" : "sources/academy-pilot-02.png",
+      "sha256" : "f3e9cb48342d4af2daea91e0f3976901f99b79f79266a5369ab647e883a2cc4e",
+      "width" : 1254
+    },
+    {
+      "bytes" : 1570277,
+      "height" : 1254,
+      "path" : "sources/academy-pilot-03.png",
+      "sha256" : "a8527c3ab2ea3c638fb1f88780b38b912b1996d5bf9400905b8f92b1f082222b",
+      "width" : 1254
+    }
+  ],
+  "tile_count" : 12,
+  "tiles" : [
+    {
+      "atlas" : "academy-pilot-01",
+      "bytes" : 139327,
+      "cell_index" : 0,
+      "height" : 320,
+      "meaning" : "手提包",
+      "path" : "tiles/handbag.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "91ad25687754f96505355df07ab4ed02a513395303a58e0a532ba63e3c5483cf",
+      "width" : 320,
+      "word" : "handbag"
+    },
+    {
+      "atlas" : "academy-pilot-01",
+      "bytes" : 128366,
+      "cell_index" : 1,
+      "height" : 320,
+      "meaning" : "伞",
+      "path" : "tiles/umbrella.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "30a1f56ec74fae806999dbe9e7b19fc06644a809e34fbdd7fe98a93b8290277d",
+      "width" : 320,
+      "word" : "umbrella"
+    },
+    {
+      "atlas" : "academy-pilot-01",
+      "bytes" : 120070,
+      "cell_index" : 2,
+      "height" : 320,
+      "meaning" : "票",
+      "path" : "tiles/ticket.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "8b932d3c139cc24baa52513367ed3f7e0c63dcf921edd16514649ee4a5a25cbf",
+      "width" : 320,
+      "word" : "ticket"
+    },
+    {
+      "atlas" : "academy-pilot-01",
+      "bytes" : 121966,
+      "cell_index" : 3,
+      "height" : 320,
+      "meaning" : "电脑键盘",
+      "path" : "tiles/keyboard.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "0eba2910d52108ce8aa726e2685566fc058842bf3a5ef133c33cab51661a59bc",
+      "width" : 320,
+      "word" : "keyboard"
+    },
+    {
+      "atlas" : "academy-pilot-02",
+      "bytes" : 148865,
+      "cell_index" : 0,
+      "height" : 320,
+      "meaning" : "工程师",
+      "path" : "tiles/engineer.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "5281d095dd305d231e6011f6a622de1cb3eaed63151e9d77beddad35e4dba078",
+      "width" : 320,
+      "word" : "engineer"
+    },
+    {
+      "atlas" : "academy-pilot-02",
+      "bytes" : 138177,
+      "cell_index" : 1,
+      "height" : 320,
+      "meaning" : "疲倦的",
+      "path" : "tiles/tired.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "3693afc169b87fa7620b6fe9f84a43492f1c62f778ce4f2ef560dadf7dcb9acc",
+      "width" : 320,
+      "word" : "tired"
+    },
+    {
+      "atlas" : "academy-pilot-02",
+      "bytes" : 134750,
+      "cell_index" : 2,
+      "height" : 320,
+      "meaning" : "接住",
+      "path" : "tiles/catch.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "0d7c97b6022bf35a5344855d5be29075899dc3e8d96ce04747b5c1158793c350",
+      "width" : 320,
+      "word" : "catch"
+    },
+    {
+      "atlas" : "academy-pilot-02",
+      "bytes" : 128080,
+      "cell_index" : 3,
+      "height" : 320,
+      "meaning" : "扫地",
+      "path" : "tiles/sweep.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "c09cd40d6cb23d501486bd1ad91def4d759f3c6202d47fa9c35f4bc538c6bbe2",
+      "width" : 320,
+      "word" : "sweep"
+    },
+    {
+      "atlas" : "academy-pilot-03",
+      "bytes" : 105733,
+      "cell_index" : 0,
+      "height" : 320,
+      "meaning" : "开着的",
+      "path" : "tiles/open.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "b6a74ce224025839aa313fe8738537568bfc88daf0e8fbc2c190a80ddb76c1e2",
+      "width" : 320,
+      "word" : "open"
+    },
+    {
+      "atlas" : "academy-pilot-03",
+      "bytes" : 111263,
+      "cell_index" : 1,
+      "height" : 320,
+      "meaning" : "关着的",
+      "path" : "tiles/shut.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "19723cb45a1053d43530c46a8803846bf67f6931ff8b6805c7986612254e77ae",
+      "width" : 320,
+      "word" : "shut"
+    },
+    {
+      "atlas" : "academy-pilot-03",
+      "bytes" : 96953,
+      "cell_index" : 2,
+      "height" : 320,
+      "meaning" : "在……之间",
+      "path" : "tiles/between.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "fda7e6902654db3fe7f35a7e22e152e30c8408c0d854fcf3560945d7c6185bd5",
+      "width" : 320,
+      "word" : "between"
+    },
+    {
+      "atlas" : "academy-pilot-03",
+      "bytes" : 146536,
+      "cell_index" : 3,
+      "height" : 320,
+      "meaning" : "横过、穿过",
+      "path" : "tiles/across.png",
+      "review_status" : "pilot_pending_user_style_review",
+      "sha256" : "416419b8a716a00619ef790b95afc23e42ec2be9a5ca0c449009cea13e12b2f3",
+      "width" : 320,
+      "word" : "across"
+    }
+  ],
+  "total_tile_bytes" : 1520086,
+  "width" : 320
+}

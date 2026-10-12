@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-131",
+  "cells": [
+    {
+      "index": 0,
+      "word": "obstacle",
+      "meaning": "n.障碍",
+      "filename": "academy-b3-b42a5cb0b08bd635.png",
+      "scene": "A fallen tree blocks a narrow walking path; a hiker stops and considers how to pass it."
+    },
+    {
+      "index": 1,
+      "word": "fissure",
+      "meaning": "n.(石，地的)深缝",
+      "filename": "academy-b3-6dff991df5642a7a.png",
+      "scene": "A deep narrow fissure splits a rocky hillside, dark depth visible between sharply separated rock faces."
+    },
+    {
+      "index": 2,
+      "word": "renew",
+      "meaning": "v.重复；更新",
+      "filename": "academy-b3-a36a2ce1800626b7.png",
+      "scene": "An adult replaces worn rope on a boat with a fresh strong length of rope, old frayed rope beside the new coil."
+    },
+    {
+      "index": 3,
+      "word": "pleading",
+      "meaning": "n.恳求",
+      "filename": "academy-b3-272478376ddd2d18.png",
+      "scene": "An adult with hands clasped implores a friend for help moving a heavy box, earnest hopeful expression."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — obstacle (n.障碍): A fallen tree blocks a narrow walking path; a hiker stops and considers how to pass it.\nTOP RIGHT — fissure (n.(石，地的)深缝): A deep narrow fissure splits a rocky hillside, dark depth visible between sharply separated rock faces.\nBOTTOM LEFT — renew (v.重复；更新): An adult replaces worn rope on a boat with a fresh strong length of rope, old frayed rope beside the new coil.\nBOTTOM RIGHT — pleading (n.恳求): An adult with hands clasped implores a friend for help moving a heavy box, earnest hopeful expression.\nEXTRA CROP SAFETY: Draw noticeably SMALLER compact subjects. Every object, mast, roof, thought bubble and entire person must have an empty white border of at least 12% of its quadrant on ALL FOUR sides. Top row ends above 44% canvas height; bottom row starts below 58%. Never let a background tower extend upward into the midline. No part is clipped by a quadrant edge.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-131.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Course senses, anatomy and crop boundaries reviewed. Renew replaces worn rope with new rope; gear is a manual car gear lever with a coherent shift pattern; astride places one leg on each side of the horse; crack is a visible fracture and halt is a group stopping at a locked gate.",
+  "source_sha256": "d224568832fe860587fed67172fc11929bb6377615cb0438167f8bbabf0efca9"
+}

@@ -5,6 +5,7 @@
 @property (nonatomic, copy) NSString *rootDirectory;
 @property (nonatomic, copy) NSDictionary *wordIndex;
 @property (nonatomic, copy) NSDictionary *editorialOverrides;
+@property (nonatomic, copy) NSDictionary<NSNumber *, NSDictionary *> *academyBooks;
 - (NSString *)existingPathForRelativePath:(NSString *)relativePath extension:(NSString *)extension;
 @end
 
@@ -40,6 +41,20 @@
             [editorial[@"overrides"] isKindOfClass:NSDictionary.class]) {
             _editorialOverrides = [editorial[@"overrides"] copy];
         }
+        NSMutableDictionary *books = [NSMutableDictionary dictionary];
+        for (NSInteger book = 1; book <= 4; book++) {
+            NSString *filename = book == 1 ? @"academy-image-map.json" : [NSString stringWithFormat:@"academy-book%ld-image-map.json", (long)book];
+            NSData *academyData = [NSData dataWithContentsOfFile:[directory stringByAppendingPathComponent:filename]];
+            id academy = academyData ? [NSJSONSerialization JSONObjectWithData:academyData options:0 error:nil] : nil;
+            if (![academy isKindOfClass:NSDictionary.class] || ![academy[@"format_version"] isKindOfClass:NSNumber.class] ||
+                [academy[@"format_version"] integerValue] != 1 || ![academy[@"images"] isKindOfClass:NSDictionary.class] ||
+                ![academy[@"hints"] isKindOfClass:NSDictionary.class] || ![academy[@"book_id"] isKindOfClass:NSNumber.class] ||
+                [academy[@"book_id"] integerValue] != book) continue;
+            books[@(book)] = @{@"images":academy[@"images"], @"hints":academy[@"hints"],
+                @"captions":[academy[@"captions"] isKindOfClass:NSDictionary.class] ? academy[@"captions"] : @{},
+                @"presentations":[academy[@"presentations"] isKindOfClass:NSDictionary.class] ? academy[@"presentations"] : @{}};
+        }
+        _academyBooks = books.copy;
     }
     return self;
 }
@@ -86,6 +101,50 @@
 - (NSString *)imagePathForWord:(NSString *)word
 {
     return [self pathForWord:word field:@"image" extension:@"jpg"];
+}
+
+- (NSString *)imagePathForWord:(NSString *)word bookId:(NSInteger)bookId
+{
+    if (!word.length || [word containsString:@"/"] || [word containsString:@"\\"] ||
+        [word rangeOfCharacterFromSet:NSCharacterSet.controlCharacterSet].location != NSNotFound) return nil;
+    // Each book owns its sense mapping: bank/pool/key/spring must not cross by spelling.
+    // Reviewed art and native hints take precedence over legacy bitmaps within their book.
+    NSDictionary *academy = self.academyBooks[@(bookId)];
+    if (academy) {
+        if ([self visualHintForWord:word bookId:bookId]) return nil;
+        id relative = academy[@"images"][word];
+        if ([relative isKindOfClass:NSString.class]) {
+            NSString *path = [self existingPathForRelativePath:relative extension:@"png"];
+            if (path) return path;
+        }
+    }
+    return [self imagePathForWord:word];
+}
+
+- (NSString *)visualHintForWord:(NSString *)word bookId:(NSInteger)bookId
+{
+    NSDictionary *academy = self.academyBooks[@(bookId)];
+    if (!academy) return nil;
+    if (!word.length || [word containsString:@"/"] || [word containsString:@"\\"] ||
+        [word rangeOfCharacterFromSet:NSCharacterSet.controlCharacterSet].location != NSNotFound) return nil;
+    id hint = academy[@"hints"][word];
+    return [hint isKindOfClass:NSString.class] && [hint length] ? hint : nil;
+}
+
+- (NSString *)visualCaptionForWord:(NSString *)word bookId:(NSInteger)bookId
+{
+    NSDictionary *academy = self.academyBooks[@(bookId)];
+    if (!academy || ![self imagePathForWord:word bookId:bookId]) return nil;
+    id value = academy[@"captions"][word];
+    return [value isKindOfClass:NSString.class] && [value length] ? value : nil;
+}
+
+- (NSString *)visualPresentationForWord:(NSString *)word bookId:(NSInteger)bookId
+{
+    NSDictionary *academy = self.academyBooks[@(bookId)];
+    if (!academy || ![self imagePathForWord:word bookId:bookId]) return nil;
+    id value = academy[@"presentations"][word];
+    return [value isEqual:@"diagram"] || [value isEqual:@"scene"] ? value : nil;
 }
 
 - (NSString *)displayNameForWord:(NSString *)word

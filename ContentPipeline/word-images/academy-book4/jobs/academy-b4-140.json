@@ -1,0 +1,41 @@
+{
+  "id": "academy-b4-140",
+  "cells": [
+    {
+      "index": 0,
+      "word": "ethanol",
+      "meaning": "n.乙醇",
+      "filename": "academy-b4-d42741845745036d.png",
+      "scene": "A small molecular model of ethanol with two carbon atoms, one oxygen atom and hydrogen atoms; allow C₂H₅OH only.",
+      "superseded_by": "academy-b4-repair-008"
+    },
+    {
+      "index": 1,
+      "word": "bactericidal",
+      "meaning": "a.杀菌的",
+      "filename": "academy-b4-89c08cd00da1336b.png",
+      "scene": "A disinfected surface with bacteria icons disappearing, clean conceptual before/after."
+    },
+    {
+      "index": 2,
+      "word": "negligible",
+      "meaning": "a.可以忽略的，微不足道的",
+      "filename": "academy-b4-967713d0e366db40.png",
+      "scene": "A tiny speck of dust beside a large clean table, almost invisible."
+    },
+    {
+      "index": 3,
+      "word": "methylated",
+      "meaning": "a.加入甲醇的",
+      "filename": "academy-b4-04dc43e2817e2415.png",
+      "scene": "A sealed denatured alcohol container with a poison hazard pictogram, clearly laboratory/cleaning material, never beverage."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — ethanol (n.乙醇): A small molecular model of ethanol with two carbon atoms, one oxygen atom and hydrogen atoms; allow C₂H₅OH only.\nTOP RIGHT — bactericidal (a.杀菌的): A disinfected surface with bacteria icons disappearing, clean conceptual before/after.\nBOTTOM LEFT — negligible (a.可以忽略的，微不足道的): A tiny speck of dust beside a large clean table, almost invisible.\nBOTTOM RIGHT — methylated (a.加入甲醇的): A sealed denatured alcohol container with a poison hazard pictogram, clearly laboratory/cleaning material, never beverage.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-140.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "8f096553da0cb1a908393f5f9bf8c714ad667e737fef9151df32360e2e4ae9b4"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-163",
+  "cells": [
+    {
+      "index": 0,
+      "word": "incumbent",
+      "meaning": "a.义不容辞的，有责任的",
+      "filename": "academy-b4-ffebcf6134797c06.png",
+      "scene": "A responsible official takes charge of repairing a broken public railing."
+    },
+    {
+      "index": 1,
+      "word": "preliminary",
+      "meaning": "a.初步的",
+      "filename": "academy-b4-0e7546ed18407142.png",
+      "scene": "An architect makes an early rough sketch before a detailed blueprint."
+    },
+    {
+      "index": 2,
+      "word": "proposition",
+      "meaning": "n.主张",
+      "filename": "academy-b4-3fb7d1e9ffeb4e48.png",
+      "scene": "A speaker presents a proposed bridge plan for discussion."
+    },
+    {
+      "index": 3,
+      "word": "preferential",
+      "meaning": "a.优先的",
+      "filename": "academy-b4-f8e8c049f81a9532.png",
+      "scene": "A waiting older adult is offered the first available chair."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — incumbent (a.义不容辞的，有责任的): A responsible official takes charge of repairing a broken public railing.\nTOP RIGHT — preliminary (a.初步的): An architect makes an early rough sketch before a detailed blueprint.\nBOTTOM LEFT — proposition (n.主张): A speaker presents a proposed bridge plan for discussion.\nBOTTOM RIGHT — preferential (a.优先的): A waiting older adult is offered the first available chair.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-163.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "e5dedea382a74ba7a0d4ec8086c667ea97239cd7d9dd828ce9452ad37ab18056"
+}

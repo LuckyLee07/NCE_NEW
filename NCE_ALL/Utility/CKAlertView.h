@@ -17,7 +17,7 @@
 
 @interface CKAlertView : UIView
 
-@property (nonatomic, assign) id<CKAlertViewDelegate> delegate;
+@property (nonatomic, weak) id<CKAlertViewDelegate> delegate;
 
 - (id)initWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitle,...;
 

@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-122",
+  "cells": [
+    {
+      "index": 0,
+      "word": "means",
+      "meaning": "n.方法，手段，财产，资力",
+      "filename": "academy-b4-70332d559269a27a.png",
+      "scene": "A family assesses savings and available tools before a house repair."
+    },
+    {
+      "index": 1,
+      "word": "hamper",
+      "meaning": "v.妨碍",
+      "filename": "academy-b4-3c30b30005a1335a.png",
+      "scene": "A heavy tangled cable hampers a worker moving a cart."
+    },
+    {
+      "index": 2,
+      "word": "savannah",
+      "meaning": "n.大草原",
+      "filename": "academy-b4-6c2d908d4726e707.png",
+      "scene": "A savannah landscape with golden grass, scattered acacia trees and a distant antelope."
+    },
+    {
+      "index": 3,
+      "word": "democratic",
+      "meaning": "a.民主的",
+      "filename": "academy-b4-f9070e8db0018ad6.png",
+      "scene": "Citizens place ballots into a transparent ballot box, equal participation."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — means (n.方法，手段，财产，资力): A family assesses savings and available tools before a house repair.\nTOP RIGHT — hamper (v.妨碍): A heavy tangled cable hampers a worker moving a cart.\nBOTTOM LEFT — savannah (n.大草原): A savannah landscape with golden grass, scattered acacia trees and a distant antelope.\nBOTTOM RIGHT — democratic (a.民主的): Citizens place ballots into a transparent ballot box, equal participation.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-122.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "4b3efcb299bb27ff8ccffb833e265d40484f041262711a568a8d6a61fa721c7a"
+}

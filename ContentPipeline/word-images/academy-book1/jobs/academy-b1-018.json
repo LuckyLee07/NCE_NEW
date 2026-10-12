@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-018",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-3755a9a9-b31b-48cd-b620-efe3f1f7a8ed.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — electric (a.带电的，可通电的): a simple plug with two prongs and connected cord beside small lightning bolt, no wiring instructions\nTOP RIGHT — left (n.左边): one dark blue horizontal arrow pointing LEFT\nBOTTOM LEFT — cooker (n.炉子，炊具): A clear compact educational illustration of 'cooker', specifically its curriculum meaning 'n.炉子，炊具'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — middle (n.中间): five small cubes in a row, ONLY the central third cube colored blue, others pale grey",
+  "cells": [
+    {
+      "word": "electric",
+      "meaning": "a.带电的，可通电的",
+      "lessons": [
+        25
+      ],
+      "filename": "academy-b1-44b3c5003d93c5f1.png",
+      "kind": "ai_illustration",
+      "scene": "a simple plug with two prongs and connected cord beside small lightning bolt, no wiring instructions",
+      "index": 0
+    },
+    {
+      "word": "left",
+      "meaning": "n.左边",
+      "lessons": [
+        25
+      ],
+      "filename": "academy-b1-360f84035942243c.png",
+      "kind": "ai_illustration",
+      "scene": "one dark blue horizontal arrow pointing LEFT",
+      "index": 1
+    },
+    {
+      "word": "cooker",
+      "meaning": "n.炉子，炊具",
+      "lessons": [
+        25
+      ],
+      "filename": "academy-b1-0eed4ace4f636b30.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'cooker', specifically its curriculum meaning 'n.炉子，炊具'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "middle",
+      "meaning": "n.中间",
+      "lessons": [
+        25
+      ],
+      "filename": "academy-b1-a4888af4e46c129c.png",
+      "kind": "ai_illustration",
+      "scene": "five small cubes in a row, ONLY the central third cube colored blue, others pale grey",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

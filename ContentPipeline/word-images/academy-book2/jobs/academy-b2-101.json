@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-101",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-294230d9-c615-4cd6-91d4-7cfc6475a033.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — continent (n.大陆): A small globe with one whole continent highlighted blue and other continents pale grey, emphasizes large landmass.\nTOP RIGHT — Christmas (n.圣诞节): A decorated Christmas tree with a few wrapped presents beneath it, no text.\nBOTTOM LEFT — circus (n.马戏团): A striped circus tent with a friendly acrobat balancing nearby, no animal cruelty.\nBOTTOM RIGHT — accompany (v.陪伴，随行；伴奏): An adult walks alongside and supports an older relative, companions moving together.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "continent",
+      "meaning": "n.大陆",
+      "filename": "academy-b2-cbb2210166f26142.png",
+      "scene": "A small globe with one whole continent highlighted blue and other continents pale grey, emphasizes large landmass."
+    },
+    {
+      "index": 1,
+      "word": "Christmas",
+      "meaning": "n.圣诞节",
+      "filename": "academy-b2-a09948e8f6082634.png",
+      "scene": "A decorated Christmas tree with a few wrapped presents beneath it, no text."
+    },
+    {
+      "index": 2,
+      "word": "circus",
+      "meaning": "n.马戏团",
+      "filename": "academy-b2-acd8d61b6983eb35.png",
+      "scene": "A striped circus tent with a friendly acrobat balancing nearby, no animal cruelty."
+    },
+    {
+      "index": 3,
+      "word": "accompany",
+      "meaning": "v.陪伴，随行；伴奏",
+      "filename": "academy-b2-ca661cc657cf16df.png",
+      "scene": "An adult walks alongside and supports an older relative, companions moving together."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

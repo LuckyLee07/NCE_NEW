@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-010",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-edf4e2be-5801-4b6f-b8fb-561f55d30f26.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — upstairs (ad.楼上): A clear compact educational illustration of 'upstairs', specifically its curriculum meaning 'ad.楼上'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — smart (a.时髦的，巧妙的): A clear compact educational illustration of 'smart', specifically its curriculum meaning 'a.时髦的，巧妙的'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — hat (n.帽子): A clear compact educational illustration of 'hat', specifically its curriculum meaning 'n.帽子'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — lovely (a.可爱的，秀丽的): A clear compact educational illustration of 'lovely', specifically its curriculum meaning 'a.可爱的，秀丽的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "upstairs",
+      "meaning": "ad.楼上",
+      "lessons": [
+        13
+      ],
+      "filename": "academy-b1-ab5db4901670272a.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'upstairs', specifically its curriculum meaning 'ad.楼上'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "smart",
+      "meaning": "a.时髦的，巧妙的",
+      "lessons": [
+        13
+      ],
+      "filename": "academy-b1-544e2d6145f6ea1d.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'smart', specifically its curriculum meaning 'a.时髦的，巧妙的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "hat",
+      "meaning": "n.帽子",
+      "lessons": [
+        13
+      ],
+      "filename": "academy-b1-18e1dd392168f601.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'hat', specifically its curriculum meaning 'n.帽子'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "lovely",
+      "meaning": "a.可爱的，秀丽的",
+      "lessons": [
+        13
+      ],
+      "filename": "academy-b1-f85b43067a280d4c.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'lovely', specifically its curriculum meaning 'a.可爱的，秀丽的'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

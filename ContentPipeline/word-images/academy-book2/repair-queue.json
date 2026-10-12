@@ -1,0 +1,50 @@
+[
+  {
+    "word": "fail",
+    "job": "academy-b2-023",
+    "index": 0,
+    "reason": "Parking scene does not visibly show a failure to obey an instruction; choose an unambiguous failed-test sense already present in the textbook meaning.",
+    "scene": "A disappointed adult student holds an exam paper showing ONLY 40/100 and one red cross, teacher gently points at the score. No other writing.",
+    "caption": "He did not pass: he ___ed the test.",
+    "resolution": "academy-b2-repair-01",
+    "status": "assistant_visual_reviewed"
+  },
+  {
+    "word": "reward",
+    "job": "academy-b2-071",
+    "index": 1,
+    "reason": "Gift direction ambiguous: finder holding bag appears to give gift to owner.",
+    "scene": "A smiling teacher places a gold star-shaped medal on a proud adult student as a reward for excellent work. Clear medal on blue ribbon, no writing.",
+    "caption": "She received a ___ for her excellent work.",
+    "resolution": "academy-b2-repair-01",
+    "status": "assistant_visual_reviewed"
+  },
+  {
+    "word": "accidentally",
+    "job": "academy-b2-074",
+    "index": 0,
+    "reason": "Generated person has three arms/hands.",
+    "scene": "One adult reaches with their LEFT hand for a blue book while their RIGHT elbow accidentally knocks over a water glass on a table. Exactly two arms and two hands, no hand holding the glass, surprised face.",
+    "caption": "He knocked the glass over ___.",
+    "resolution": "academy-b2-repair-01",
+    "status": "assistant_visual_reviewed"
+  },
+  {
+    "word": "remove",
+    "job": "academy-b2-090",
+    "index": 3,
+    "reason": "Arrow points toward wall hook, suggesting hanging rather than removal.",
+    "scene": "Hands hold a framed landscape clearly away from a bare wall hook. The empty wall hook is on the RIGHT, the removed picture in hands is on the LEFT. One clear blue arrow starts beside the wall hook and points LEFT toward the picture, showing taking it OFF the wall.",
+    "caption": "They ___d the picture from the wall.",
+    "resolution": "academy-b2-repair-01",
+    "status": "assistant_visual_reviewed"
+  },
+  {
+    "word": "slip",
+    "job": "academy-b2-152",
+    "index": 0,
+    "reason": "Initial arithmetic was correct, contradicting the small-error meaning.",
+    "resolution": "academy-b2-repair-02",
+    "status": "assistant_visual_reviewed"
+  }
+]

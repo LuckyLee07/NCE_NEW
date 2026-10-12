@@ -1,0 +1,56 @@
+{
+  "id": "academy-b1-053",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-2974bde2-e379-4aa1-a16f-d0451a2cba72.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — chalk (n.粉笔): A clear compact educational illustration of 'chalk', specifically its curriculum meaning 'n.粉笔'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — change (n.零钱，找给的钱;v.兑换(钱)): A clear compact educational illustration of 'change', specifically its curriculum meaning 'n.零钱，找给的钱;v.兑换(钱)'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — feel (v.感觉): A clear compact educational illustration of 'feel', specifically its curriculum meaning 'v.感觉'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — look (v.看(起来)): A clear compact educational illustration of 'look', specifically its curriculum meaning 'v.看(起来)'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "chalk",
+      "meaning": "n.粉笔",
+      "lessons": [
+        59
+      ],
+      "filename": "academy-b1-c886ff11f6a51b61.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'chalk', specifically its curriculum meaning 'n.粉笔'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "change",
+      "meaning": "n.零钱，找给的钱;v.兑换(钱)",
+      "lessons": [
+        59,
+        113
+      ],
+      "filename": "academy-b1-12ea12eace7d655f.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'change', specifically its curriculum meaning 'n.零钱，找给的钱;v.兑换(钱)'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "feel",
+      "meaning": "v.感觉",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-116c49130f14f514.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'feel', specifically its curriculum meaning 'v.感觉'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "look",
+      "meaning": "v.看(起来)",
+      "lessons": [
+        61
+      ],
+      "filename": "academy-b1-3c01eba119e00d79.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'look', specifically its curriculum meaning 'v.看(起来)'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3,
+      "superseded_by": "academy-b1-repair-001"
+    }
+  ],
+  "status": "accepted_with_replaced_cells",
+  "review_status": "assistant_visual_reviewed"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "academy-b1-008",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-e40beb8c-cccb-435c-921a-dc208178e699.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — well (a.身体好): an adult looking energetic and healthy with relaxed posture and a small blue check mark, health sense\nTOP RIGHT — goodbye (int.再见): A clear compact educational illustration of 'goodbye', specifically its curriculum meaning 'int.再见'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — see (v.见): A clear compact educational illustration of 'see', specifically its curriculum meaning 'v.见'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — blue (a.蓝色的): a single blue watercolor paint swatch with a small brush; preserve saturated blue exactly",
+  "cells": [
+    {
+      "word": "well",
+      "meaning": "a.身体好",
+      "lessons": [
+        9
+      ],
+      "filename": "academy-b1-a7722b765d15608d.png",
+      "kind": "ai_illustration",
+      "scene": "an adult looking energetic and healthy with relaxed posture and a small blue check mark, health sense",
+      "index": 0
+    },
+    {
+      "word": "goodbye",
+      "meaning": "int.再见",
+      "lessons": [
+        9
+      ],
+      "filename": "academy-b1-82e35a63ceba37e9.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'goodbye', specifically its curriculum meaning 'int.再见'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "see",
+      "meaning": "v.见",
+      "lessons": [
+        9
+      ],
+      "filename": "academy-b1-aa9e9b5c907d50fe.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'see', specifically its curriculum meaning 'v.见'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "blue",
+      "meaning": "a.蓝色的",
+      "lessons": [
+        11
+      ],
+      "filename": "academy-b1-16477688c0e00699.png",
+      "kind": "ai_illustration",
+      "scene": "a single blue watercolor paint swatch with a small brush; preserve saturated blue exactly",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_note": "Atlas meanings and cell order visually inspected by AI; style baseline approved by user, not a separate human content review.",
+  "review_status": "assistant_visual_reviewed"
+}

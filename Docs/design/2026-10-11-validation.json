@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-11",
+  "app_bundle_id": "com.palmgame.NCEALL.resourceqa.design",
+  "ui_runs": [
+    {
+      "name": "main",
+      "device": "iPhone 12 Pro / iOS 26.2",
+      "status": "passed",
+      "test_count": 12,
+      "tests": [
+        "testAllCorrectResult",
+        "testBothRecallModes",
+        "testCatalogSearchAndEmptyStates",
+        "testCompactAndTabletWordLayout",
+        "testDictationAndBothChoiceTestsComplete",
+        "testDraftKeyboardAndBannerRestore",
+        "testFourBooksAndFirstLessonControls",
+        "testFourLanguagesAndProgress",
+        "testGeneratedImagesAndCorrectedNames",
+        "testSettingsCredits",
+        "testWordbookEmptyFilter",
+        "testWordbookMarkSurvivesRelaunch"
+      ],
+      "result_bundle": "/tmp/NCEStudyDesign-full.xcresult",
+      "log": "/tmp/nce-design-full.log"
+    },
+    {
+      "name": "compact-layout",
+      "device": "iPhone SE (3rd generation) / iOS 17.2",
+      "status": "passed",
+      "test_count": 2,
+      "tests": [
+        "testLargeTypeLayout",
+        "testTabletLearningContentBelowNavigationBar"
+      ],
+      "result_bundle": "/tmp/NCEStudyDesign-se-verified.xcresult",
+      "log": "/tmp/nce-design-se-verified.log"
+    },
+    {
+      "name": "ipad-followup",
+      "device": "iPad Pro 13-inch (M5) / iOS 26.2",
+      "status": "passed",
+      "test_count": 3,
+      "tests": [
+        "testDictationAndBothChoiceTestsComplete",
+        "testWordbookEmptyFilter",
+        "testWordbookMarkSurvivesRelaunch"
+      ],
+      "result_bundle": "/tmp/NCEStudyDesign-ipad-verified.xcresult",
+      "log": "/tmp/nce-design-ipad-verified.log"
+    },
+    {
+      "name": "final-result-scroll",
+      "device": "iPhone SE (3rd generation) / iOS 17.2",
+      "status": "passed",
+      "test_count": 1,
+      "tests": [
+        "testDictationAndBothChoiceTestsComplete"
+      ],
+      "result_bundle": "/tmp/NCEStudyDesign-results-verified.xcresult",
+      "log": "/tmp/nce-design-results-verified.log"
+    }
+  ],
+  "additional_passed_cases": {
+    "result_bundle": "/tmp/NCEStudyDesign-final.xcresult",
+    "cases": [
+      {
+        "test": "testDictationAndBothChoiceTestsComplete",
+        "device": "iPhone SE (3rd generation)"
+      },
+      {
+        "test": "testDraftKeyboardAndBannerRestore",
+        "device": "iPad Pro 13-inch (M5)"
+      },
+      {
+        "test": "testDraftKeyboardAndBannerRestore",
+        "device": "iPhone SE (3rd generation)"
+      },
+      {
+        "test": "testLargeTypeLayout",
+        "device": "iPad Pro 13-inch (M5)"
+      },
+      {
+        "test": "testLargeTypeLayout",
+        "device": "iPhone SE (3rd generation)"
+      },
+      {
+        "test": "testTabletLearningContentBelowNavigationBar",
+        "device": "iPad Pro 13-inch (M5)"
+      },
+      {
+        "test": "testWordbookEmptyFilter",
+        "device": "iPhone SE (3rd generation)"
+      },
+      {
+        "test": "testWordbookMarkSurvivesRelaunch",
+        "device": "iPhone SE (3rd generation)"
+      }
+    ],
+    "note": "Earlier failures in this bundle were followed by the passing compact-layout and ipad-followup runs. Test lookup fixes addressed modal-table scrolling and duplicated iPad tab accessibility identifiers."
+  },
+  "other_checks": [
+    {
+      "command": "bash Tools/test_practice_session.sh",
+      "status": "passed"
+    },
+    {
+      "command": "bash Tools/test_chinese_localizations.sh",
+      "status": "passed",
+      "log": "/tmp/nce-chinese-tests.log"
+    },
+    {
+      "command": "bash Tools/test_east_asian_localizations.sh",
+      "status": "passed",
+      "log": "/tmp/nce-asian-final.log"
+    }
+  ],
+  "limitations": [
+    "Screenshots use a Debug-only QA banner preview; live advertising was not validated.",
+    "Physical-device and external-dictionary acceptance were not performed.",
+    "Earlier iPhone 13 mini / iOS 26.2 layout runs did not pass and showed abnormal simulator scaling; final compact coverage uses the iPhone SE / iOS 17.2 listed above."
+  ],
+  "screenshots": [
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/catalog.png",
+      "sha256": "1c2b62418f810eee4352a95275577e1870333ed6ad6c687b9e17a1b46d3a2f54"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/compact-large-type.png",
+      "sha256": "40284bc35492548a41775302df4b33ecc113c79b0910541bbe9643486b15d2a1"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/dictation-feedback.png",
+      "sha256": "897c5ac6047bca2bc182fb6673dbd1ee7c54d943607328d90a6e512966ce55a0"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/dictation-keyboard.png",
+      "sha256": "d6b9df3f701b853a5a222e7fdd5bf2ad714b41b5b6425190104967be2c9bc7a8"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/home.png",
+      "sha256": "bba72d06da4a570a0c3d01ee5a8395d5d1f582f4f8395e255fa63155588dbdd1"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/ipad-practice.png",
+      "sha256": "663c8fcad63aa2e42c096b33121c52d49738116b4a478d395e1b50060c0680e5"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/lesson-words.png",
+      "sha256": "fb27eeb196987a6c9a7f3b8874d37de6bdd2ca265b0859b5b3c38916381ab93d"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/practice-result.png",
+      "sha256": "4ae3215c9af0e9e8b03378460f35c7e62ce2222f0e8a8e811fe5d818a7c31fd3"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/reading.png",
+      "sha256": "41db518f6dc0065511c9b7f84ef9e33c01c19434528a1977a9a8a547996d1a15"
+    },
+    {
+      "path": "Docs/design/ui-screenshots/2026-10-11/wordbook.png",
+      "sha256": "775709922cbfd167445b06b96f8545eda3daa2964b230a5f9b040dc24bee8e76"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-144",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-385ee62a-79d8-4577-a5b4-7f9b4bf115c2.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — headmaster (n.校长): A school headmaster welcomes students beside a school entrance, formal jacket and folder.\nTOP RIGHT — contribute (v.捐助，援助): Several hands each place a coin into a shared donation jar, collective support.\nBOTTOM LEFT — album (n.签名簿，相册): An open photo album containing small family photographs, blank captions.\nBOTTOM RIGHT — patience (n.耐心): An adult waits calmly while a child slowly ties a shoe, relaxed supportive expression.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "headmaster",
+      "meaning": "n.校长",
+      "filename": "academy-b2-013d426819a5cd93.png",
+      "scene": "A school headmaster welcomes students beside a school entrance, formal jacket and folder."
+    },
+    {
+      "index": 1,
+      "word": "contribute",
+      "meaning": "v.捐助，援助",
+      "filename": "academy-b2-8aa73cb60552b99f.png",
+      "scene": "Several hands each place a coin into a shared donation jar, collective support."
+    },
+    {
+      "index": 2,
+      "word": "album",
+      "meaning": "n.签名簿，相册",
+      "filename": "academy-b2-ca7cad8166758cb9.png",
+      "scene": "An open photo album containing small family photographs, blank captions."
+    },
+    {
+      "index": 3,
+      "word": "patience",
+      "meaning": "n.耐心",
+      "filename": "academy-b2-96d61fe343ddf5e0.png",
+      "scene": "An adult waits calmly while a child slowly ties a shoe, relaxed supportive expression."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

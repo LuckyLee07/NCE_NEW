@@ -1,0 +1,42 @@
+{
+  "id": "academy-b3-038",
+  "cells": [
+    {
+      "index": 0,
+      "word": "storeroom",
+      "meaning": "n.储藏室",
+      "filename": "academy-b3-eced3c4a8884f98a.png",
+      "scene": "An orderly small storeroom with shelving, cartons, spare chairs and a mop, narrow doorway visible."
+    },
+    {
+      "index": 1,
+      "word": "electricity",
+      "meaning": "n.电",
+      "filename": "academy-b3-ae80c184961f8640.png",
+      "scene": "A simple closed circuit of battery, insulated wire and glowing light bulb, small blue lightning symbol near battery; no technical instructions."
+    },
+    {
+      "index": 2,
+      "word": "ammeter",
+      "meaning": "n.电表",
+      "filename": "academy-b3-59ace3a32da16350.png",
+      "scene": "An analog ammeter with a semicircular dial, central letter A explicitly allowed and pointer at mid-scale, two terminals; no other labels."
+    },
+    {
+      "index": 3,
+      "word": "pace",
+      "meaning": "n.一步",
+      "filename": "academy-b3-19b87ac5ecb1afe2.png",
+      "scene": "An adult takes one clear walking step with two footprint marks beneath their feet and a short bracket between them, single step distance.",
+      "superseded_by": "academy-b3-repair-038-01"
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — storeroom (n.储藏室): An orderly small storeroom with shelving, cartons, spare chairs and a mop, narrow doorway visible.\nTOP RIGHT — electricity (n.电): A simple closed circuit of battery, insulated wire and glowing light bulb, small blue lightning symbol near battery; no technical instructions.\nBOTTOM LEFT — ammeter (n.电表): An analog ammeter with a semicircular dial, central letter A explicitly allowed and pointer at mid-scale, two terminals; no other labels.\nBOTTOM RIGHT — pace (n.一步): An adult takes one clear walking step with two footprint marks beneath their feet and a short bracket between them, single step distance.",
+  "review_notes": "Reviewed orderly storeroom, closed battery/bulb circuit and analog ammeter with correct A unit marker. Pace figure reaches too high across midpoint and is superseded by academy-b3-repair-038-01.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-038.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-600b7d3a-bc65-4f96-a80d-5dc291706cc1.png",
+  "source_sha256": "021e8488896bbfdcd9c89c99208ef6385aba871827774cd1ebfc9b0029fffba4",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

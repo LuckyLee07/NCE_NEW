@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "ui_tests": {
+    "result_bundle": "/tmp/nce-academy-book2-ui-tests.xcresult",
+    "passed": 2,
+    "failed": 0,
+    "device": "iPhone 12 Pro",
+    "OS": "iOS 26.2",
+    "bundle_id": "com.palmgame.NCEALL.resourceqa.academy",
+    "coverage": [
+      "Book 2 wordbook: private, hand, bank, key, whether, last",
+      "Book 2 lesson 1 embedded private with caption and visible translation"
+    ],
+    "screenshots": "Docs/word-resources/academy-book2-ui",
+    "visual_review": "assistant_visual_reviewed",
+    "resource_stage": "UI tests passed on partial map after atlas 24; no subsequent UI code changes; final complete resource map separately built and verified"
+  },
+  "physical_device_tested": false,
+  "book_id": 2,
+  "summary": {
+    "book_id": 2,
+    "word_count": 838,
+    "covered_words": 838,
+    "illustrated_words": 816,
+    "native_hints": 22,
+    "native_diagrams": 81,
+    "context_scenes": 148,
+    "unique_image_files": 802,
+    "image_bytes": 101715724,
+    "largest_image_bytes": 191162,
+    "image_size": [
+      320,
+      320
+    ],
+    "image_format": "PNG",
+    "lossy_compression": false,
+    "max_bytes_per_image": 200000,
+    "missing_words": [],
+    "kinds": {
+      "shared_book_illustration": 69,
+      "ai_illustration": 660,
+      "shared_illustration": 6,
+      "native_diagram": 81,
+      "native_hint": 22
+    }
+  },
+  "resource_check": "passed: source and built app; 838 keys; all PNGs decode at 320x320 and <=200000 bytes; book-scoped isolation",
+  "book1_regression": "passed: all 605 keys; original report image hashes preserved",
+  "legacy_resource_check": "passed: 3104 keys, 3099 audio and 6835 legacy image files, invalid=0",
+  "build": {
+    "status": "passed",
+    "scheme": "NCE_Content_QA",
+    "configuration": "Debug simulator",
+    "bundle_id": "com.palmgame.NCEALL.resourceqa.academy",
+    "log": "/tmp/nce-academy-book2-final-build.log",
+    "packaged_images": "802 unique Book 2 PNGs byte-identical to source; Book 1 565 PNGs also identical"
+  },
+  "visual_review": "assistant inspected 165 initial atlases, 2 repair atlases, 81 native diagrams, 69 reused Book 1 illustrations; 5 cells replaced"
+}

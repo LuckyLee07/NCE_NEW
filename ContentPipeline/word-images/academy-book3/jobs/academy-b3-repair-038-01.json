@@ -1,0 +1,20 @@
+{
+  "id": "academy-b3-repair-038-01",
+  "cells": [
+    {
+      "index": 3,
+      "word": "pace",
+      "meaning": "n.一步",
+      "filename": "academy-b3-19b87ac5ecb1afe2.png",
+      "scene": "An adult takes one clear walking step with two footprint marks beneath their feet and a short bracket between them, single step distance."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas, equal square cells. ONLY BOTTOM RIGHT contains an illustration; all other three cells entirely blank pure white. Attached image STYLE REFERENCE ONLY, restrained blue-charcoal ink outlines, pale watercolor and natural warm accents. BOTTOM RIGHT: An adult takes one clear walking step with two footprint marks beneath their feet and a short bracket between them, single step distance. CRITICAL: small complete walking figure, feet and two footprint marks all fit within central 65% of bottom-right quadrant. Top of head BELOW 58% of total canvas height, feet and bracket ABOVE 94%. Leave generous white space above hair and at every edge. No text or numbers, no captions, borders, grid, watermark or logos.",
+  "review_notes": "Viewed bottom-right pace replacement: complete small walking adult, two footprints and step-distance bracket stay well below the horizontal midpoint and inside the quadrant. Blank remaining cells. Corrects prior top-of-head clipping.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-038-01.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-ccc462f0-d785-4564-a683-27d44ec82735.png",
+  "source_sha256": "a1bf6f9a80d3a9620c6c40d4adb9511969e0b6ef9848d3cfaa36800c51d23e0c",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

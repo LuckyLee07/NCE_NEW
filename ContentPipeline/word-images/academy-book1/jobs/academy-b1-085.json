@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-085",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-c6df855c-74a8-4844-949e-0994f539215f.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — exam (n.考试): A clear compact educational illustration of 'exam', specifically its curriculum meaning 'n.考试'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — pass (v.及格，通过): A clear compact educational illustration of 'pass', specifically its curriculum meaning 'v.及格，通过'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — mathematics (n.数学): A clear compact educational illustration of 'mathematics', specifically its curriculum meaning 'n.数学'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — question (n.问题): A clear compact educational illustration of 'question', specifically its curriculum meaning 'n.问题'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "exam",
+      "meaning": "n.考试",
+      "lessons": [
+        103
+      ],
+      "filename": "academy-b1-5e89e9d8544af15b.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'exam', specifically its curriculum meaning 'n.考试'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "pass",
+      "meaning": "v.及格，通过",
+      "lessons": [
+        103
+      ],
+      "filename": "academy-b1-d74ff0ee8da3b980.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'pass', specifically its curriculum meaning 'v.及格，通过'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "mathematics",
+      "meaning": "n.数学",
+      "lessons": [
+        103
+      ],
+      "filename": "academy-b1-c90e097e46db1931.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'mathematics', specifically its curriculum meaning 'n.数学'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "question",
+      "meaning": "n.问题",
+      "lessons": [
+        103
+      ],
+      "filename": "academy-b1-1f5087db919ced5c.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'question', specifically its curriculum meaning 'n.问题'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

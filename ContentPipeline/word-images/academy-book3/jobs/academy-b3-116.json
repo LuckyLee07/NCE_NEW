@@ -1,0 +1,40 @@
+{
+  "id": "academy-b3-116",
+  "cells": [
+    {
+      "index": 0,
+      "word": "scorn",
+      "meaning": "n.嘲弄，挖苦",
+      "filename": "academy-b3-c2a9a0e7139cf701.png",
+      "scene": "One adult curls their lip and looks dismissively at another person's modest craft project, the maker looks hurt."
+    },
+    {
+      "index": 1,
+      "word": "acquaint",
+      "meaning": "v.使了解",
+      "filename": "academy-b3-66ac77df5e969edd.png",
+      "scene": "A guide introduces a newcomer to a building's layout by pointing to a simple wall plan as the newcomer listens."
+    },
+    {
+      "index": 2,
+      "word": "reunite",
+      "meaning": "v.使团聚",
+      "filename": "academy-b3-c5c5c584ce597505.png",
+      "scene": "Two adult family members embrace joyfully on a station platform after a long separation, suitcases nearby."
+    },
+    {
+      "index": 3,
+      "word": "assume",
+      "meaning": "v.假定，认为",
+      "filename": "academy-b3-82e05dae00a818a3.png",
+      "scene": "A traveler sees a folded umbrella by a doorway and imagines rain outside in a thought bubble, actual weather hidden behind a closed door."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — scorn (n.嘲弄，挖苦): One adult curls their lip and looks dismissively at another person's modest craft project, the maker looks hurt.\nTOP RIGHT — acquaint (v.使了解): A guide introduces a newcomer to a building's layout by pointing to a simple wall plan as the newcomer listens.\nBOTTOM LEFT — reunite (v.使团聚): Two adult family members embrace joyfully on a station platform after a long separation, suitcases nearby.\nBOTTOM RIGHT — assume (v.假定，认为): A traveler sees a folded umbrella by a doorway and imagines rain outside in a thought bubble, actual weather hidden behind a closed door.\nEXTRA CROP SAFETY: Draw noticeably SMALLER compact subjects. Every object, mast, roof, thought bubble and entire person must have an empty white border of at least 12% of its quadrant on ALL FOUR sides. Top row ends above 44% canvas height; bottom row starts below 58%. Never let a background tower extend upward into the midline. No part is clipped by a quadrant edge.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-116.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Selected course meanings are represented clearly: deception, rejection, circumstances conspiring, amazement; contempt, familiarization, reunion, and assumption. Anatomy and quadrant crop margins checked.",
+  "source_sha256": "a79b0d5e78eef31216872fae99d674a61cfeace629b09ac3375f1dca820ac66a"
+}

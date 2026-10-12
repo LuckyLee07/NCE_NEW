@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-140",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-c7608f0f-370c-4a73-813d-01678e0022bc.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — election (n.选举): A voter places a blank ballot into a ballot box, neutral civic scene, no party symbols.\nTOP RIGHT — defeat (v.打败): A chess player wins while the opponent tips over their king, sportsmanlike nonviolent defeat.\nBOTTOM LEFT — fanatical (a.狂热的): An extremely enthusiastic sports supporter holds a team scarf high and cheers intensely, no extremist symbols.\nBOTTOM RIGHT — opponent (n.反对者，对手): Two chess players face each other across a board, balanced rival roles.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "election",
+      "meaning": "n.选举",
+      "filename": "academy-b2-4b9e99d2bd5e48d9.png",
+      "scene": "A voter places a blank ballot into a ballot box, neutral civic scene, no party symbols."
+    },
+    {
+      "index": 1,
+      "word": "defeat",
+      "meaning": "v.打败",
+      "filename": "academy-b2-5fff5b4eec6c48b6.png",
+      "scene": "A chess player wins while the opponent tips over their king, sportsmanlike nonviolent defeat."
+    },
+    {
+      "index": 2,
+      "word": "fanatical",
+      "meaning": "a.狂热的",
+      "filename": "academy-b2-50adea48162e8cdb.png",
+      "scene": "An extremely enthusiastic sports supporter holds a team scarf high and cheers intensely, no extremist symbols."
+    },
+    {
+      "index": 3,
+      "word": "opponent",
+      "meaning": "n.反对者，对手",
+      "filename": "academy-b2-98c4e5a5e476681c.png",
+      "scene": "Two chess players face each other across a board, balanced rival roles."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

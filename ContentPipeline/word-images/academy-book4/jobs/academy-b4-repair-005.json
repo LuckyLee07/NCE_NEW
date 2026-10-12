@@ -1,0 +1,33 @@
+{
+  "id": "academy-b4-repair-005",
+  "cells": [
+    {
+      "index": 0,
+      "word": "hypocrisy",
+      "meaning": "n.伪善",
+      "filename": "academy-b4-0e10033e587d114e.png",
+      "scene": "A speaker stands SIDEWAYS, ONE arm raised gesturing toward a small honesty halo/check symbol, the OTHER arm behind his back holding stolen coins. Exactly two arms two hands. Small audience listens."
+    },
+    {
+      "index": 1,
+      "word": "morality",
+      "meaning": "n.道德",
+      "filename": "academy-b4-e4b81862039491e1.png",
+      "scene": "A man returns a lost wallet to a woman. Man holds wallet in ONE hand, OTHER arm down. Woman reaches ONE hand for wallet, OTHER arm relaxed down. Exactly two arms per person, no clasped hands or extra gestures."
+    },
+    {
+      "index": 2,
+      "word": "plausible",
+      "meaning": "a.似乎有理的",
+      "filename": "academy-b4-2caa75efae522981.png",
+      "scene": "Two adults next to dripping closed umbrella in stand and small wet footprints. Man points with ONE hand, other arm down. Woman nods with BOTH arms relaxed down. Entire small scene ends BEFORE 92% total image height. No extra hands."
+    }
+  ],
+  "prompt": "Square 2x2 ink and pale watercolor educational atlas matching reference STYLE. White background, BLUE charcoal lines. Each scene SMALL within central 60% of quadrant, lots of white space, wide midline gaps. Top scene ends before43% imageheight; bottom scene starts after62% and endsbefore92%. No text. Top left: A speaker stands SIDEWAYS, ONE arm raised gesturing toward a small honesty halo/check symbol, the OTHER arm behind his back holding stolen coins. Exactly two arms two hands. Small audience listens. Top right: A man returns a lost wallet to a woman. Man holds wallet in ONE hand, OTHER arm down. Woman reaches ONE hand for wallet, OTHER arm relaxed down. Exactly two arms per person, no clasped hands or extra gestures. Bottom left: Two adults next to dripping closed umbrella in stand and small wet footprints. Man points with ONE hand, other arm down. Woman nods with BOTH arms relaxed down. Entire small scene ends BEFORE 92% total image height. No extra hands. Bottom right: EMPTY white.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-repair-005.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Reviewed correct two-arm anatomy for hypocrisy, morality and plausible. All compositions fit crop cells.",
+  "source_sha256": "f16cf28205b6c331259acf99a75be341c6be1d953696eb0120fd8726e8db32fb"
+}

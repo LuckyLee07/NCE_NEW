@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-057",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-dd21b25d-7090-4f42-8fbb-39163b5c7f8b.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — market (n.市场，集市): A small open-air market stall with fruit, vegetables and a shopper.\nTOP RIGHT — snake (n.蛇): A recognizable snake loosely coiled with raised head, natural anatomy, no aggression.\nBOTTOM LEFT — pipe (n.(吹奏的)管乐器): A simple wooden reed wind instrument being held to a musicians mouth, fingers over holes. Not plumbing or smoking pipe.\nBOTTOM RIGHT — tune (n.曲调): A musician hums a melody, a short rising and falling trail of music notes nearby.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "market",
+      "meaning": "n.市场，集市",
+      "filename": "academy-b2-e4d693d24e646cb7.png",
+      "scene": "A small open-air market stall with fruit, vegetables and a shopper."
+    },
+    {
+      "index": 1,
+      "word": "snake",
+      "meaning": "n.蛇",
+      "filename": "academy-b2-538d7d9fe78e7baa.png",
+      "scene": "A recognizable snake loosely coiled with raised head, natural anatomy, no aggression."
+    },
+    {
+      "index": 2,
+      "word": "pipe",
+      "meaning": "n.(吹奏的)管乐器",
+      "filename": "academy-b2-4008294739162e8f.png",
+      "scene": "A simple wooden reed wind instrument being held to a musicians mouth, fingers over holes. Not plumbing or smoking pipe."
+    },
+    {
+      "index": 3,
+      "word": "tune",
+      "meaning": "n.曲调",
+      "filename": "academy-b2-28263836ea961ac7.png",
+      "scene": "A musician hums a melody, a short rising and falling trail of music notes nearby."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

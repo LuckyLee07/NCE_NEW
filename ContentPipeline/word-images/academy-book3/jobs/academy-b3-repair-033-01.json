@@ -1,0 +1,27 @@
+{
+  "id": "academy-b3-repair-033-01",
+  "cells": [
+    {
+      "index": 2,
+      "word": "unrealistic",
+      "meaning": "a.不真实的",
+      "filename": "academy-b3-82762aa3ca03cfb7.png",
+      "scene": "A person imagines an impossible tiny balloon lifting a huge stone, thought bubble contrasted with the grounded stone below."
+    },
+    {
+      "index": 3,
+      "word": "paradise",
+      "meaning": "n.天堂，乐土",
+      "filename": "academy-b3-8b591cc313c07621.png",
+      "scene": "A peaceful tropical island with white beach, palm trees, clear blue water and a relaxed traveler in shade; idyllic earthly haven."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas, equal square cells. ONLY BOTTOM LEFT and BOTTOM RIGHT are filled; TOP two cells entirely blank pure white. Attached image STYLE REFERENCE ONLY, restrained blue-charcoal ink outlines, pale watercolor, natural warm accents, white opaque background. BOTTOM LEFT: A person imagines an impossible tiny balloon lifting a huge stone, thought bubble contrasted with the grounded stone below. BOTTOM RIGHT: A peaceful tropical island with white beach, palm trees, clear blue water and a relaxed traveler in shade; idyllic earthly haven. CRITICAL: drawings SMALL and completely contained in central 65% of their bottom quadrant. Highest pixel of any bottom-row drawing is BELOW 58% of total canvas height. Lowest pixel ABOVE 95% of canvas height. Entire thought bubble and palm fronds must be fully visible with ample white gap above them. All content within its quadrant; broad empty white bands at midlines. No text, labels, caption, border, grid, watermark or logos.",
+  "review_notes": "Reviewed impossible balloon-and-stone thought bubble and peaceful tropical paradise. Complete thought bubble, palm fronds and figures now have white margin above bottom-row drawings and remain within cells.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-033-01.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-d99ad3e8-1dbb-4b8a-8b3d-f3c94d6a298d.png",
+  "source_sha256": "f75712b0bb59ad477c43722f241b4803ed7420f2b68397371b9d0e5d42598594",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

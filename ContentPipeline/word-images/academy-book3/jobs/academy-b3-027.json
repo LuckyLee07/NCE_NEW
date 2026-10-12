@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-027",
+  "cells": [
+    {
+      "index": 0,
+      "word": "iceberg",
+      "meaning": "n.冰山",
+      "filename": "academy-b3-3df2151b4a7a502b.png",
+      "scene": "A large white iceberg floats with a small peak above water and a much larger pale blue section below the clear surface line."
+    },
+    {
+      "index": 1,
+      "word": "lookout",
+      "meaning": "n.瞭望员",
+      "filename": "academy-b3-abc9ac4c60ffb6be.png",
+      "scene": "A ship lookout stands high on a small mast platform using binoculars to scan the sea, entire figure and platform visible."
+    },
+    {
+      "index": 2,
+      "word": "collision",
+      "meaning": "n.碰撞",
+      "filename": "academy-b3-9550e70a7c361922.png",
+      "scene": "Two empty toy-like model ships visibly touch at their bows with small impact marks, nonviolent schematic collision."
+    },
+    {
+      "index": 3,
+      "word": "miss",
+      "meaning": "v.避开",
+      "filename": "academy-b3-80688fc3d5f88a06.png",
+      "scene": "A ship passes an iceberg with a visible narrow gap between them, a curved blue path goes around the ice rather than into it."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — iceberg (n.冰山): A large white iceberg floats with a small peak above water and a much larger pale blue section below the clear surface line.\nTOP RIGHT — lookout (n.瞭望员): A ship lookout stands high on a small mast platform using binoculars to scan the sea, entire figure and platform visible.\nBOTTOM LEFT — collision (n.碰撞): Two empty toy-like model ships visibly touch at their bows with small impact marks, nonviolent schematic collision.\nBOTTOM RIGHT — miss (v.避开): A ship passes an iceberg with a visible narrow gap between them, a curved blue path goes around the ice rather than into it.",
+  "review_notes": "Reviewed iceberg's larger submerged mass, complete lookout with binoculars/platform, bow collision and path avoiding iceberg with gap. Physical directions and no quadrant crossings checked.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-027.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-dabef4a8-a28c-468a-a582-f82723bb27a2.png",
+  "source_sha256": "1abb7d7cad52bb0c686e6fe347e22304d7208143183873c14b007a6d21dc7356",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

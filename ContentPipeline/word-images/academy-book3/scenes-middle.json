@@ -1,0 +1,667 @@
+{
+  "shower": {
+    "scene": "An empty bathroom shower head sprays water into a tiled shower tray, simple blue water and white tiles."
+  },
+  "desert": {
+    "scene": "A uniformed soldier quietly leaves a military camp behind at night carrying a small bag, looking back; desertion, no sandy desert.",
+    "caption": "The soldier decided to ___ his regiment."
+  },
+  "tie": {
+    "scene": "Two hands tie a simple bow of rope around a closed parcel, clear fastening action."
+  },
+  "accuse": {
+    "scene": "A person points at another across a desk while an impartial official listens and takes notes; accusation, not proven guilt.",
+    "caption": "They ___ him of taking the money."
+  },
+  "deny": {
+    "scene": "A person firmly shakes their head and raises both open palms when asked about a broken vase nearby.",
+    "caption": "He will ___ breaking the vase."
+  },
+  "dye": {
+    "scene": "Gloved hands lower pale cloth into a bowl of blue dye, another cloth section visibly turns blue."
+  },
+  "suspension": {
+    "scene": "A small bridge deck hangs from overhead cables between two towers; hanging support clearly visible.",
+    "caption": "The cables hold the bridge in ___."
+  },
+  "situation": {
+    "scene": "A small house is located between a river and a hill, its position emphasized by a blue map pin without text.",
+    "caption": "The house is in a beautiful ___."
+  },
+  "immortal": {
+    "scene": "A sculpted bust of a respected historical author remains on a pedestal while several calendar pages pass beside it; enduring memory, symbolic.",
+    "caption": "His work made his name ___."
+  },
+  "Brooklyn": {
+    "scene": "A compact view of Brooklyn Bridge stone Gothic towers and suspension cables with modest city buildings behind; place mnemonic, no map or labels."
+  },
+  "Staten": {
+    "scene": "A small passenger ferry approaches a green island shore with low buildings and a distant city skyline; Staten Island mnemonic, not a fabricated map."
+  },
+  "span": {
+    "scene": "Two bridge supports with a horizontal blue double-headed measurement arrow between them, emphasize the open distance bridged."
+  },
+  "cable": {
+    "scene": "A thick steel cable with visible twisted metal strands, coiled once beside a short straight section."
+  },
+  "concrete": {
+    "scene": "A cut concrete block with grey aggregate texture beside a small patch of wet concrete and a trowel."
+  },
+  "length": {
+    "scene": "One straight cut length of rope laid horizontally, blue measurement marks at both ends and a double-headed arrow beneath."
+  },
+  "estimate": {
+    "scene": "An adult looks at a jar of many marbles and thoughtfully guesses its quantity, small question-mark thought bubble, no numbers.",
+    "caption": "Can you ___ how many marbles are inside?"
+  },
+  "capacity": {
+    "scene": "A measuring jug is filled exactly to its safe top fill line, with a small pouring pitcher beside it; maximum amount it can hold.",
+    "caption": "The jug is filled to its full ___."
+  },
+  "elegant": {
+    "scene": "A graceful slender vase with a single curved flower stem, restrained refined shape and light blue glaze."
+  },
+  "faintly": {
+    "scene": "A small lamp gives off a very weak pale glow in a dim room; a nearby person can barely see it.",
+    "caption": "The lamp glowed ___."
+  },
+  "current": {
+    "scene": "A small stream flows around a stone with three blue arrows following the water downstream; movement of water.",
+    "caption": "The river's ___ carries the water downstream."
+  },
+  "sculpture": {
+    "scene": "A small abstract sculpted human figure on a stone pedestal, three-dimensional form clearly shaded."
+  },
+  "mistaken": {
+    "scene": "A traveler confidently walks toward a closed door then notices the open entrance beside it, surprised recognition of an error.",
+    "caption": "I thought that was the entrance, but I was ___."
+  },
+  "gallery": {
+    "scene": "Two visitors quietly view framed paintings on the white walls of an art gallery."
+  },
+  "exhibit": {
+    "scene": "A single ancient pottery vase stands in a museum glass display case on a plinth, focus on the displayed object."
+  },
+  "oddly": {
+    "scene": "A person looks puzzled at a teapot that has been oddly hung sideways from a hook; unusual arrangement.",
+    "caption": "The teapot was ___ placed."
+  },
+  "attach": {
+    "scene": "Hands fasten a small luggage tag securely to the handle of a suitcase with a loop."
+  },
+  "sphere": {
+    "scene": "One smooth blue geometric sphere rests beside a faint circular outline, shaded to show a fully round solid."
+  },
+  "magnetize": {
+    "scene": "An unmagnetized grey steel bar on the left does not attract paperclips; the same bar blue on the right attracts several paperclips, one arrow between."
+  },
+  "repel": {
+    "scene": "Two bar magnets face like-colored ends toward each other and move apart, outward arrows show repulsion, no letters."
+  },
+  "flicker": {
+    "scene": "A candle flame is shown with two faint offset outlines and tiny changing rays to suggest unsteady flickering light."
+  },
+  "emit": {
+    "scene": "A small glowing lamp sends blue rays outward in all directions, emphasis on giving off light."
+  },
+  "flash": {
+    "scene": "A camera emits one bright brief star-shaped flash of white and pale yellow light."
+  },
+  "prehistoric": {
+    "scene": "A large dinosaur stands beside tree ferns in a sparse ancient landscape, no humans or modern objects."
+  },
+  "electronic": {
+    "scene": "A simple electronic circuit board with a few recognizable chips and a small digital display showing only abstract bars."
+  },
+  "emotionally": {
+    "scene": "An adult is moved to tears while looking at a treasured family photograph, hand over heart and warm expression.",
+    "caption": "The photograph affected her ___."
+  },
+  "dear": {
+    "scene": "An adult gently holds a worn family photograph close to their chest, expressing that it is precious to them.",
+    "caption": "This photograph is very ___ to me."
+  },
+  "kidnapper": {
+    "scene": "A storybook police identification board shows a shadowed adult suspect beside a missing person's portrait; kidnapping concept without action details or violence."
+  },
+  "considerable": {
+    "scene": "A large stack of packed boxes towers noticeably above a smaller normal stack, substantial amount emphasized.",
+    "caption": "They have a ___ number of boxes."
+  },
+  "wealthy": {
+    "scene": "A well-dressed adult stands beside a large comfortable house and a small chest of coins, restrained depiction of wealth."
+  },
+  "orderly": {
+    "scene": "Shoes and coats are arranged in perfectly straight evenly spaced rows on a tidy rack.",
+    "caption": "Everything is arranged in an ___ way."
+  },
+  "disappearance": {
+    "scene": "An empty pet basket and a worried owner holding the pet's photograph, dotted fading pawprints lead away.",
+    "caption": "The pet's ___ worried its owner."
+  },
+  "anonymous": {
+    "scene": "A sealed letter has a blank sender area with a small question-mark symbol, no name or writing.",
+    "caption": "The letter was ___: it had no sender's name."
+  },
+  "ransom": {
+    "scene": "An anxious adult holds a missing pet photograph beside an envelope and a stack of money; ransom concept, no threats or procedure.",
+    "caption": "Money demanded for a captive's release is a ___."
+  },
+  "cardboard": {
+    "scene": "A folded brown cardboard box with a small cut edge showing the corrugated layers."
+  },
+  "withdraw": {
+    "scene": "A customer receives banknotes from a bank teller across a counter, customer holds a bankbook, focus on taking money out.",
+    "caption": "I want to ___ some money from my account."
+  },
+  "punctually": {
+    "scene": "A person steps through an office doorway exactly as the wall clock reaches nine, both clock hands clear.",
+    "caption": "She arrived ___ at nine."
+  },
+  "pioneer": {
+    "scene": "An early aviation inventor stands beside a primitive propeller aircraft and sketches, a later modern plane appears as a faint distant silhouette."
+  },
+  "lord": {
+    "scene": "A dignified historical British nobleman in formal period clothing stands beside a small heraldic shield, no crown or readable name."
+  },
+  "Calais": {
+    "scene": "A cross-channel passenger ferry approaches a modest French harbor with a lighthouse and low coastal buildings; Calais mnemonic, no fabricated map."
+  },
+  "overland": {
+    "scene": "A small truck follows a road across hills and fields while a separate stretch of sea remains beside the route, land travel emphasized.",
+    "caption": "They travelled ___ by road."
+  },
+  "boxing": {
+    "scene": "Two adult boxers in gloves spar inside a simple boxing ring, sporting stance, no visible injuries."
+  },
+  "boxer": {
+    "scene": "An adult athlete wearing boxing gloves and shorts stands in a balanced training stance beside a ring corner."
+  },
+  "bare": {
+    "scene": "A tree branch has no leaves at all, beside a leafy branch for contrast, clearly bare surface."
+  },
+  "prizefighter": {
+    "scene": "A historical adult prizefighter in simple period sports trousers poses with bare fists in an old boxing ring, no injury."
+  },
+  "crude": {
+    "scene": "A rude diner carelessly puts muddy boots on a dining table while another diner looks displeased; coarse manners.",
+    "caption": "His manners were ___."
+  },
+  "marquis": {
+    "scene": "A dignified historical nobleman in formal coat holds a small ceremonial coronet on a cushion, illustrative noble rank without exact heraldic claim."
+  },
+  "science": {
+    "scene": "A scientist examines a plant specimen with a microscope beside a small flask and notebook."
+  },
+  "popularity": {
+    "scene": "A smiling performer is warmly greeted by a large friendly audience whose hands are raised in applause.",
+    "caption": "The performer's ___ grew with every show."
+  },
+  "adore": {
+    "scene": "An adult gazes fondly at a small puppy held gently in both arms, clear deep affection.",
+    "caption": "She ___s her little dog."
+  },
+  "eminent": {
+    "scene": "An accomplished older scientist receives an award on a small stage while colleagues applaud, distinguished achievement.",
+    "caption": "He is an ___ scientist."
+  },
+  "bitterly": {
+    "scene": "An adult cries intensely after bad news, face in hands and visible tears, non-graphic grief.",
+    "caption": "She wept ___."
+  },
+  "bet": {
+    "scene": "Two adults make a friendly wager about which toy car will win a race, each places one coin beside their chosen car.",
+    "caption": "They made a ___ on the race."
+  },
+  "academy": {
+    "scene": "Adult art students draw at easels in a specialist art school studio, a teacher gives guidance."
+  },
+  "extravagant": {
+    "scene": "A shopper carries many luxury shopping bags and buys yet another ornate hat despite already having several.",
+    "caption": "Buying all those luxuries is ___."
+  },
+  "poverty": {
+    "scene": "A respectfully portrayed family shares a very small simple meal in a sparse room with worn furniture, dignified and non-stereotyped."
+  },
+  "run": {
+    "scene": "A theatre stage with the same play shown on three successive calendar-page icons, repeat performances rather than running feet.",
+    "caption": "The play had a long ___ at the theatre."
+  },
+  "lines": {
+    "scene": "An actor rehearses while holding an open script with blank horizontal lines, points to the passage being spoken.",
+    "caption": "The actor is learning his ___."
+  },
+  "part": {
+    "scene": "An actor wearing a simple crown rehearses a king's part on a stage while holding a script.",
+    "caption": "He plays the ___ of the king."
+  },
+  "falter": {
+    "scene": "A nervous speaker pauses mid-sentence at a lectern, lips hesitant and a broken dotted speech bubble showing interrupted delivery.",
+    "caption": "The nervous speaker began to ___."
+  },
+  "cast": {
+    "scene": "A theatre director points from a row of auditioning actors toward one actor and offers that person a costume.",
+    "caption": "They ___ her as the doctor."
+  },
+  "role": {
+    "scene": "An actor changes from everyday clothes into a recognizable doctor's costume beside a small stage, dramatic role.",
+    "caption": "She has the ___ of a doctor in the play."
+  },
+  "aristocrat": {
+    "scene": "An elegantly dressed historical noblewoman stands in a refined room beside a family portrait, no crown."
+  },
+  "imprison": {
+    "scene": "A clothed adult is seen behind a locked prison cell door while a guard holds a key outside, no violence."
+  },
+  "Bastille": {
+    "scene": "A restrained historical stone fortress with round towers and a moat, illustrative Bastille prison exterior, no modern building or labels."
+  },
+  "gaoler": {
+    "scene": "A historical prison guard carries a large key ring while standing outside a barred cell door."
+  },
+  "colleague": {
+    "scene": "Two office coworkers sit at neighboring desks and discuss a shared document, equal professional roles."
+  },
+  "curtain": {
+    "scene": "A theatre's deep blue stage curtain is partly drawn open, revealing stage floorboards."
+  },
+  "reveal": {
+    "scene": "A person lifts a cloth from a small sculpture, revealing the previously hidden object.",
+    "caption": "Lift the cloth to ___ the statue."
+  },
+  "cell": {
+    "scene": "A small empty single prison cell contains one bed, a stool and a barred window."
+  },
+  "blank": {
+    "scene": "An entirely clean white sheet of paper lies beside a pencil, no marks or text on the paper."
+  },
+  "squint": {
+    "scene": "An adult narrows their eyes and leans forward to see a small distant object more clearly."
+  },
+  "dim": {
+    "scene": "A weak lamp illuminates only a small patch of a darkened room, restrained pale grey shadows."
+  },
+  "sire": {
+    "scene": "A courtier respectfully bows toward a seated crowned king, historical respectful address, no text.",
+    "caption": "Your carriage is ready, ___."
+  },
+  "poison": {
+    "scene": "A tightly sealed generic bottle bears a clear skull-and-crossbones hazard symbol, no ingredients, labels or handling instructions."
+  },
+  "illogical": {
+    "scene": "A person tries to put on a shoe over an already booted foot, a puzzled observer reacts to the unreasonable order.",
+    "caption": "That order of doing things is ___."
+  },
+  "octopus": {
+    "scene": "A recognizable octopus underwater with a rounded mantle and exactly eight curling arms, suction cups indicated simply."
+  },
+  "delicacy": {
+    "scene": "A small beautifully arranged gourmet dish on fine tableware, a diner admires it appreciatively."
+  },
+  "repulsive": {
+    "scene": "An adult recoils with a disgusted expression from a spoiled piece of fruit with mould, no gore."
+  },
+  "stomach": {
+    "scene": "A simple educational torso outline shows the stomach highlighted beneath the left ribs, other organs faint, non-graphic."
+  },
+  "turn": {
+    "scene": "An adult looks nauseated by an unpleasant food smell, hand over stomach and other hand near mouth, no vomiting.",
+    "caption": "The unpleasant smell made his stomach ___."
+  },
+  "fry": {
+    "scene": "A cook shallow-fries a small piece of food in a pan, gentle golden oil bubbles and a spatula."
+  },
+  "fat": {
+    "scene": "A small white block of cooking fat beside a bowl of golden cooking oil, food ingredients only."
+  },
+  "abuse": {
+    "scene": "An angry adult berates another with sharp jagged blank speech bubbles; recipient looks hurt, no written insults or physical violence."
+  },
+  "snail": {
+    "scene": "A garden snail with a spiral brown shell and two long eye stalks crawls slowly on a leaf."
+  },
+  "luxury": {
+    "scene": "An ornate jewel necklace is displayed on a velvet cushion beside a luxurious silk scarf."
+  },
+  "associate": {
+    "scene": "A person sees a seashell and imagines a beach holiday in a small thought bubble, mental connection.",
+    "caption": "I ___ seashells with holidays."
+  },
+  "despise": {
+    "scene": "An adult looks disdainfully at another person's dishonest act of taking a coin, eyebrows raised and body turned away.",
+    "caption": "She ___s dishonesty."
+  },
+  "appeal": {
+    "scene": "An attractive bookstore window catches a passerby's interest, they stop and lean closer with a pleased expression.",
+    "caption": "The books ___ to her."
+  },
+  "stroll": {
+    "scene": "Two adults take a relaxed unhurried walk along a park path, loose arms and easy posture."
+  },
+  "impulse": {
+    "scene": "A shopper suddenly reaches for a colorful treat at a counter while their shopping list remains tucked away, spontaneous urge.",
+    "caption": "He bought the treat on an ___."
+  },
+  "fancy": {
+    "scene": "An adult looks with clear liking at one pastry among several on a tray and points to it with a smile.",
+    "caption": "I ___ that pastry."
+  },
+  "skeleton": {
+    "scene": "An upright educational human skeleton model on a museum stand, accurate overall anatomy and no horror."
+  },
+  "respectable": {
+    "scene": "A neatly dressed adult in modest formal clothing stands confidently at a tidy front door, presentable appearance.",
+    "caption": "He looks neat and ___."
+  },
+  "conceal": {
+    "scene": "A person hides a small wrapped present behind their back while another approaches, harmless concealment.",
+    "caption": "She tries to ___ the present."
+  },
+  "vivid": {
+    "scene": "A storyteller's open book gives rise to a richly colored imagined landscape, vivid imagery against a pale real room.",
+    "caption": "The story creates a ___ picture in the mind."
+  },
+  "dramatic": {
+    "scene": "An audience leans forward with suspense as a stage performer reaches toward a falling prop vase, theatrical tension without danger.",
+    "caption": "The scene was exciting and ___."
+  },
+  "ruin": {
+    "scene": "A spilled cup of dark ink has ruined a carefully painted picture on a desk; disappointed artist nearby.",
+    "caption": "Spilled ink can ___ a painting."
+  },
+  "heroine": {
+    "scene": "A female protagonist in a simple adventure story helps another traveler across a stream, centered confidently in the scene."
+  },
+  "fiction": {
+    "scene": "An open novel reveals a small imagined castle and fictional characters within a soft thought cloud, no written words."
+  },
+  "medicine": {
+    "scene": "A doctor studies anatomy diagrams and a microscope at a medical school desk, field of medicine rather than tablets.",
+    "caption": "She studies ___ at university."
+  },
+  "guestroom": {
+    "scene": "A tidy spare bedroom prepared for a visitor, made bed, small suitcase stand and fresh towel."
+  },
+  "unpack": {
+    "scene": "An adult removes folded clothes from an open suitcase and places them on a bed.",
+    "caption": "Take the clothes out: ___ the suitcase."
+  },
+  "underclothes": {
+    "scene": "A neatly folded plain undershirt and a pair of modest underwear displayed as clothing products, no person."
+  },
+  "drawer": {
+    "scene": "One wooden desk drawer is pulled open to reveal neatly arranged pencils and papers."
+  },
+  "petrify": {
+    "scene": "An adult freezes in astonishment after opening a cupboard and seeing an unexpected skeleton model, wide eyes and rigid posture, no horror.",
+    "caption": "The unexpected sight seemed to ___ him."
+  },
+  "dangle": {
+    "scene": "A key ring hangs loosely from one fingertip, keys suspended below with a small movement arc."
+  },
+  "sway": {
+    "scene": "A slender tree trunk and branches sway gently side to side in the wind, faint alternate positions."
+  },
+  "unsympathetic": {
+    "scene": "One adult remains coldly indifferent with crossed arms while a tired friend explains a problem, blank speech bubble.",
+    "caption": "He was ___ when his friend needed help."
+  },
+  "medical": {
+    "scene": "A stethoscope, medical textbook with an anatomy illustration and a doctor's white coat are arranged together."
+  },
+  "impressive": {
+    "scene": "A visitor looks upward in admiration at a magnificent tall cathedral interior, wide eyes and small human scale."
+  },
+  "steamship": {
+    "scene": "A historical steamship with one large smokestack releases a modest puff of steam while moving across blue water."
+  },
+  "era": {
+    "scene": "Three small historical transport scenes progress from horse carriage to steam train to modern train, the middle period highlighted.",
+    "caption": "It was the ___ of steam trains."
+  },
+  "Java": {
+    "scene": "A green tropical island landscape with a volcanic peak, rice terraces and a small traditional house, Java mnemonic, no invented map."
+  },
+  "rudder": {
+    "scene": "The rear of a small boat is shown above and below water; its submerged vertical rudder is highlighted blue and turned slightly."
+  },
+  "roll": {
+    "scene": "A small ship rocks from side to side on waves, faint tilted outlines and a curved motion arrow, no sinking.",
+    "caption": "The ship began to ___ from side to side."
+  },
+  "steer": {
+    "scene": "A helmsman turns a ship's wheel while looking toward the intended direction, clear control of direction."
+  },
+  "plank": {
+    "scene": "One long thick rectangular wooden plank with natural grain rests on two small supports."
+  },
+  "fit": {
+    "scene": "Hands carefully install a replacement wooden shelf onto its supports inside a cabinet.",
+    "caption": "They will ___ a new shelf."
+  },
+  "Equator": {
+    "scene": "A simple globe with continents as pale silhouettes and a bold blue horizontal circle around its exact middle, no labels."
+  },
+  "delay": {
+    "scene": "Passengers wait beside a station clock while a train remains motionless at the platform, one traveler checks their watch.",
+    "caption": "There was a ___ before the train left."
+  },
+  "influence": {
+    "scene": "One person enthusiastically recommends a book; a listening friend then reaches for the same book, social influence.",
+    "caption": "Her advice may ___ his choice."
+  },
+  "taste": {
+    "scene": "An adult thoughtfully compares two framed paintings and chooses a refined composition, aesthetic judgement rather than eating.",
+    "caption": "She has good ___ in art."
+  },
+  "exert": {
+    "scene": "Two hands press firmly down on a spring-loaded platform, a blue downward arrow shows applied force.",
+    "caption": "The hands ___ pressure on the spring."
+  },
+  "subtle": {
+    "scene": "Two nearly identical blue paint swatches differ only slightly in shade; a careful observer studies the small difference.",
+    "caption": "There is a ___ difference between the shades."
+  },
+  "advertiser": {
+    "scene": "An advertising professional arranges product images on a large blank poster board, planning a campaign rather than stage announcing."
+  },
+  "magic": {
+    "scene": "A plain cleaning cloth transforms a tarnished cup into a sparkling clean one in a before-and-after pair, surprisingly effective result.",
+    "caption": "The cloth has a ___ effect on the dirty cup."
+  },
+  "sample": {
+    "scene": "A shopper receives a very small tasting cup from a larger product container, one representative sample."
+  },
+  "devise": {
+    "scene": "An inventor sketches a clever simple pulley arrangement in a notebook while studying a practical problem, no readable text.",
+    "caption": "They must ___ a way to solve the problem."
+  },
+  "capture": {
+    "scene": "A bright shop display catches a passerby's attention; the person's gaze is drawn directly toward it.",
+    "caption": "The display will ___ people's attention."
+  },
+  "manufacturer": {
+    "scene": "A factory worker supervises a row of identical finished kettles emerging from a small assembly line."
+  },
+  "wheelbarrow": {
+    "scene": "A garden wheelbarrow with exactly one front wheel, two handles and an empty metal tray, three-quarter view."
+  },
+  "boot": {
+    "scene": "The rear luggage compartment of a car is open with a suitcase being placed inside, no footwear.",
+    "caption": "Put the suitcase in the car's ___."
+  },
+  "ingredient": {
+    "scene": "A bowl of flour, two eggs, a small jug of milk and butter sit around an empty mixing bowl, cake ingredients."
+  },
+  "crane": {
+    "scene": "A construction crane lifts a single building beam with a cable, simple recognizable machinery silhouette."
+  },
+  "anticipate": {
+    "scene": "An adult sets the table for a guest while glancing expectantly toward the door, preparing for an expected arrival.",
+    "caption": "We ___ the arrival of our guest."
+  },
+  "philosopher": {
+    "scene": "A thoughtful scholar sits with several open books and a hand on chin, contemplating ideas rather than conducting an experiment."
+  },
+  "wisdom": {
+    "scene": "An older adult calmly guides a younger person to choose a safe bridge instead of a dangerous broken crossing, thoughtful sound judgement."
+  },
+  "spiritual": {
+    "scene": "An adult sits quietly in reflective meditation beside a candle, calm inner life, respectful and nonsectarian.",
+    "caption": "Quiet reflection meets a ___ need."
+  },
+  "grudge": {
+    "scene": "An adult reluctantly offers only one coin while tightly holding a much larger purse, unwillingness to give.",
+    "caption": "He seemed to ___ every coin he gave."
+  },
+  "surgeon": {
+    "scene": "A surgeon in clean surgical scrubs, cap and mask stands beside a covered operating table, no incision or blood."
+  },
+  "passer-by": {
+    "scene": "A pedestrian walks past a shop doorway while another person remains standing inside, passing person emphasized."
+  },
+  "dignity": {
+    "scene": "An older adult in simple clothing stands upright with calm self-respect while being respectfully greeted, no luxury status cues.",
+    "caption": "She faced the situation with calm ___."
+  },
+  "deliberately": {
+    "scene": "An adult carefully and intentionally places a blue block apart from a row of grey blocks, focused chosen action.",
+    "caption": "She placed the block there ___."
+  },
+  "afflict": {
+    "scene": "An adult with recurring knee discomfort sits holding the knee and looking troubled, no visible injury.",
+    "caption": "Knee pain can ___ him for days."
+  },
+  "ease": {
+    "scene": "A person effortlessly lifts a small light box with one hand, relaxed posture and smile.",
+    "caption": "She lifted the box with ___."
+  },
+  "nature": {
+    "scene": "A compact peaceful landscape with trees, river, flowers, birds and hills, no buildings."
+  },
+  "contempt": {
+    "scene": "An adult looks disdainfully at a dishonest deed, chin raised and lips turned down, no target identity stereotype.",
+    "caption": "He looked at the dishonest act with ___."
+  },
+  "envious": {
+    "scene": "One person looks longingly at another person's shiny new bicycle while holding an old bicycle, restrained envy.",
+    "caption": "He felt ___ of his friend's new bicycle."
+  },
+  "anchor": {
+    "scene": "A ship lowers a heavy anchor on a chain into water; side view shows the anchor approaching the seabed.",
+    "caption": "They will ___ the ship near the shore."
+  },
+  "deck": {
+    "scene": "An open ship's deck with wooden planks, railing and a coil of rope, sea beyond."
+  },
+  "silverware": {
+    "scene": "A polished silver teapot, spoon and small serving tray arranged together with restrained metallic highlights."
+  },
+  "tempt": {
+    "scene": "A delicious cake draws the longing gaze of an adult trying to walk past, hand hesitates toward it.",
+    "caption": "The cake may ___ you to stop."
+  },
+  "bargain": {
+    "scene": "A customer and market seller negotiate the price of a small vase using friendly hand gestures, no numerals or text.",
+    "caption": "They began to ___ over the price."
+  },
+  "disembark": {
+    "scene": "A traveler with a small suitcase walks down a gangway from a moored passenger boat onto the quay."
+  },
+  "assail": {
+    "scene": "Several persistent market sellers surround a traveler offering small goods; traveler raises palms, no violence.",
+    "caption": "Persistent sellers began to ___ the traveller."
+  },
+  "marble": {
+    "scene": "Three small glass toy marbles with colored swirls inside, round transparent spheres, not stone slabs."
+  },
+  "inscribe": {
+    "scene": "An artisan carefully carves a simple decorative symbol into a wooden plaque with a small chisel, no text."
+  },
+  "favour": {
+    "scene": "A shopkeeper gives a regular customer an extra small item with their purchase, friendly special consideration.",
+    "caption": "The shopkeeper did her a ___."
+  },
+  "gesticulate": {
+    "scene": "An adult explains something energetically using both hands, broad natural expressive gestures and a blank speech bubble."
+  },
+  "outrageous": {
+    "scene": "A diner reacts with disbelief and displeasure when offered a tiny burnt meal on an oversized plate, unreasonable situation.",
+    "caption": "That offer is ___."
+  },
+  "thrust": {
+    "scene": "A persistent seller abruptly pushes a small object toward an unwilling customer's hands, customer leans back, no injury.",
+    "caption": "The seller tried to ___ the object into his hands."
+  },
+  "comic": {
+    "scene": "A comic actor accidentally wears a hat upside down on stage, audience smiles at the harmless absurdity."
+  },
+  "universal": {
+    "scene": "A diverse group of adults all smile at the same funny scene, shared human response across the group.",
+    "caption": "Laughter is a ___ human response."
+  },
+  "comedian": {
+    "scene": "An adult comedian performs a playful gesture with a microphone on a small stage while the audience laughs."
+  },
+  "distasteful": {
+    "scene": "An adult turns away from a plate of unappealing food with a displeased expression and gently raised palm."
+  },
+  "pester": {
+    "scene": "A child repeatedly tugs at a busy adult's sleeve to ask for a toy, adult looks weary, gentle everyday scene.",
+    "caption": "The child continued to ___ him for a toy."
+  },
+  "dread": {
+    "scene": "An anxious adult waits outside a dentist's door, shoulders tense and hands clasped, anticipating an unpleasant event.",
+    "caption": "She began to ___ the visit."
+  },
+  "recovery": {
+    "scene": "A person who previously used crutches now walks more comfortably beside a chair, a small progress arrow, recovery concept."
+  },
+  "plaster": {
+    "scene": "A small bowl of white plaster powder beside a pale dried plaster cast, clearly material rather than adhesive bandage."
+  },
+  "hobble": {
+    "scene": "An adult with a wrapped ankle walks carefully using one crutch, uneven gait clearly shown, no visible wound."
+  },
+  "compensate": {
+    "scene": "An adult replaces a friend's accidentally broken cup with a new matching cup, broken one visible beside it.",
+    "caption": "The new cup will ___ for the broken one."
+  },
+  "mumble": {
+    "scene": "A shy speaker looks down and speaks with lips barely open, a tiny pale indistinct speech bubble, listener leans closer."
+  },
+  "labourer": {
+    "scene": "A manual construction worker in plain workwear and hard hat carries a stack of bricks at a building site."
+  },
+  "overnight": {
+    "scene": "A small house beneath a moon and stars transitions by an arrow to the same house under the morning sun.",
+    "caption": "The change happened ___."
+  },
+  "hay": {
+    "scene": "A tied bale of dry yellow grass with a few loose stems beside it, farm hay."
+  },
+  "corn": {
+    "scene": "A small bundle of ripe grain stalks with wheat-like ears and a bowl of grain, cereal crop sense."
+  },
+  "moonlight": {
+    "scene": "A crescent moon casts pale blue light onto a quiet garden path, evening shadows and no streetlamp."
+  },
+  "conscientious": {
+    "scene": "A worker carefully checks every detail of a completed chair against a checklist with blank lines and checkmarks.",
+    "caption": "A ___ worker checks every detail."
+  },
+  "suspect": {
+    "scene": "An adult looks doubtfully at an unexpected parcel, one eyebrow raised and a small question-mark thought bubble.",
+    "caption": "I ___ something is wrong."
+  },
+  "regiment": {
+    "scene": "Several neat ranks of uniformed soldiers form one organized unit on a parade ground, no combat or political insignia."
+  },
+  "action": {
+    "scene": "A distant historical battlefield scene with soldiers taking cover behind a low earthwork and smoke on the horizon, no wounds or tactical detail.",
+    "caption": "The soldiers saw ___ during the war."
+  },
+  "recluse": {
+    "scene": "An adult lives quietly in an isolated cottage at the edge of a forest, sitting alone by the doorway with a book."
+  }
+}

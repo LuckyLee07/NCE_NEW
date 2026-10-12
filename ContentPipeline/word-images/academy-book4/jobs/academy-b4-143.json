@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-143",
+  "cells": [
+    {
+      "index": 0,
+      "word": "fathom",
+      "meaning": "n.噚（1噚等于1.8米）",
+      "filename": "academy-b4-a663a6e8a46ccc0d.png",
+      "scene": "A rope segment spans an adult's outstretched arms with a measurement arrow and only ≈1.83 m as text."
+    },
+    {
+      "index": 1,
+      "word": "interminably",
+      "meaning": "ad.没完没了地",
+      "filename": "academy-b4-ff7c44f8d87d059d.png",
+      "scene": "A weary person waits as an extremely long queue winds into the distance."
+    },
+    {
+      "index": 2,
+      "word": "winkle",
+      "meaning": "v.挖掘",
+      "filename": "academy-b4-7e55b05ce9fd6655.png",
+      "scene": "A person carefully extracts a small object wedged deep in a narrow crevice using a simple hook."
+    },
+    {
+      "index": 3,
+      "word": "pertinent",
+      "meaning": "a.中肯的",
+      "filename": "academy-b4-7f672a456c995137.png",
+      "scene": "A speaker points to the one relevant piece of evidence in a discussion."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — fathom (n.噚（1噚等于1.8米）): A rope segment spans an adult's outstretched arms with a measurement arrow and only ≈1.83 m as text.\nTOP RIGHT — interminably (ad.没完没了地): A weary person waits as an extremely long queue winds into the distance.\nBOTTOM LEFT — winkle (v.挖掘): A person carefully extracts a small object wedged deep in a narrow crevice using a simple hook.\nBOTTOM RIGHT — pertinent (a.中肯的): A speaker points to the one relevant piece of evidence in a discussion.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-143.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "a26031767411c0aef9db07f9ba79ba9c3ef43767ba1f7ab658cb66a76e4ce8af"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "academy-b3-repair-099",
+  "cells": [
+    {
+      "index": 0,
+      "word": "naval",
+      "meaning": "a.海军的",
+      "filename": "academy-b3-a839ee0a1d14bee0.png",
+      "scene": "Three naval sailors in plain white uniforms stand together beside a small low ship cabin and a moored grey naval vessel WITHOUT tall masts in the background. Complete sailors and complete low vessel fully contained within central 60% of quadrant, large clear white margin above all hats and below shoes. Navy-related scene, no battle.",
+      "superseded_by": "academy-b3-repair-100",
+      "review_notes": "Second naval scene's bow and water extend through the vertical crop midline; excluded again to require clear right margin."
+    },
+    {
+      "index": 1,
+      "word": "symbol",
+      "meaning": "n.符号",
+      "filename": "academy-b3-b76a7ca153c24671.png",
+      "scene": "Two separate plain rectangular cards stand upright side by side: one card has a simple large blue heart icon, the other has a simple navy outline dove silhouette. These are meaningful visual symbols. Cards only, NO person or hands, no text. Compact centered composition, generous white space."
+    },
+    {
+      "index": 2,
+      "word": "illusion",
+      "meaning": "n.幻想，错觉",
+      "filename": "academy-b3-171aac72c04f6eaa.png",
+      "scene": "An optical illusion with a straight yellow pencil partly immersed in a transparent glass half full of pale blue water. CRITICAL: its visible image MUST have a LARGE, unmistakable apparent kink exactly at the water surface. The dry pencil above the water slopes down-left; the refracted submerged pencil image begins offset sideways at the waterline and follows a distinctly steeper angle, visibly appearing bent. No straight continuous diagonal, no real snapped pencil, no labels or person. Complete glass and pencil centered with generous white margins."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 educational atlas. Only TOP LEFT, TOP RIGHT and BOTTOM LEFT contain the three unrelated subjects below; BOTTOM RIGHT remains EMPTY WHITE. Attached image is STYLE REFERENCE ONLY: use restrained blue-charcoal ink with pale watercolor and small natural color accents on opaque PURE WHITE. Do not reproduce its subjects. No writing, captions, borders, grid, watermark. EXACT 2x2 row-major placement. Entire subjects must be SMALLER, compact and fit the central 60% of EACH quadrant with at least 15% empty white margin on all four sides. A wide horizontal white band occupies 44–58% canvas height; a wide vertical white band occupies 44–56% canvas width. No mast, roof, head, card or pencil may cross the midlines. All people have natural anatomy, exactly two arms and two legs per person.\nTOP LEFT — naval (海军的): Three naval sailors in plain white uniforms stand together beside a small low ship cabin and a moored grey naval vessel WITHOUT tall masts in the background. Complete sailors and complete low vessel fully contained within central 60% of quadrant, large clear white margin above all hats and below shoes. Navy-related scene, no battle.\nTOP RIGHT — symbol (符号): Two separate plain rectangular cards stand upright side by side: one card has a simple large blue heart icon, the other has a simple navy outline dove silhouette. These are meaningful visual symbols. Cards only, NO person or hands, no text. Compact centered composition, generous white space.\nBOTTOM LEFT — illusion (错觉): An optical illusion with a straight yellow pencil partly immersed in a transparent glass half full of pale blue water. CRITICAL: its visible image MUST have a LARGE, unmistakable apparent kink exactly at the water surface. The dry pencil above the water slopes down-left; the refracted submerged pencil image begins offset sideways at the waterline and follows a distinctly steeper angle, visibly appearing bent. No straight continuous diagonal, no real snapped pencil, no labels or person. Complete glass and pencil centered with generous white margins.\nBOTTOM RIGHT — EMPTY WHITE.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-099.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Symbol is two cards with no hands, and illusion now has a clear apparent kink at waterline; both are fully contained. Naval is excluded for another right-edge intrusion.",
+  "source_sha256": "91611a6f7774d82bec2479837faf708c8ba9d1c5234e7c804d2c4e24726e1d7f"
+}

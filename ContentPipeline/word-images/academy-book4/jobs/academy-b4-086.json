@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-086",
+  "cells": [
+    {
+      "index": 0,
+      "word": "omen",
+      "meaning": "n.预兆",
+      "filename": "academy-b4-e2f26e98726bde0e.png",
+      "scene": "Dark clouds gathering before a storm while a walker looks concerned."
+    },
+    {
+      "index": 1,
+      "word": "intense",
+      "meaning": "a.强烈的",
+      "filename": "academy-b4-d0d092b83d4aefab.png",
+      "scene": "A person shields their eyes from an intensely bright lamp."
+    },
+    {
+      "index": 2,
+      "word": "aesthetic",
+      "meaning": "a.审美的",
+      "filename": "academy-b4-e6b80b03ebc086c6.png",
+      "scene": "A viewer thoughtfully admires balanced shapes and colours in a gallery painting."
+    },
+    {
+      "index": 3,
+      "word": "realm",
+      "meaning": "n.世界",
+      "filename": "academy-b4-7d4e02d31a7eb0f8.png",
+      "scene": "A small fantastical world shown through an open storybook, hills and a castle."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — omen (n.预兆): Dark clouds gathering before a storm while a walker looks concerned.\nTOP RIGHT — intense (a.强烈的): A person shields their eyes from an intensely bright lamp.\nBOTTOM LEFT — aesthetic (a.审美的): A viewer thoughtfully admires balanced shapes and colours in a gallery painting.\nBOTTOM RIGHT — realm (n.世界): A small fantastical world shown through an open storybook, hills and a castle.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels. Every human has exactly TWO arms and TWO hands total; never add hands for an extra action.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-086.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "00b32c62fb38902b524c647536ee33ca4ae6c61d6f826cc775c9da042a32681d"
+}

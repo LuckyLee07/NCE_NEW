@@ -21,6 +21,7 @@
 // 广告位配置读取
 + (NSString *)interstitialAdUnitID;
 + (NSString *)bannerAdUnitID;
++ (BOOL)isOfflineResourceQA;
 
 // 初始化广告
 - (void)preInit;

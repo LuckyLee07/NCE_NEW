@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-052",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-afc6c4f1-9f3d-44c9-a3d4-eacd44a8f194.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — shop assistant (售货员): A clear compact educational illustration of 'shop assistant', specifically its curriculum meaning '售货员'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — size (n.尺寸，尺码，大小): A clear compact educational illustration of 'size', specifically its curriculum meaning 'n.尺寸，尺码，大小'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — pad (n.信笺簿): A clear compact educational illustration of 'pad', specifically its curriculum meaning 'n.信笺簿'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — glue (n.胶水): A clear compact educational illustration of 'glue', specifically its curriculum meaning 'n.胶水'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "shop assistant",
+      "meaning": "售货员",
+      "lessons": [
+        59
+      ],
+      "filename": "academy-b1-35130917f1c88090.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'shop assistant', specifically its curriculum meaning '售货员'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "size",
+      "meaning": "n.尺寸，尺码，大小",
+      "lessons": [
+        59
+      ],
+      "filename": "academy-b1-ccdcbe846f3da4eb.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'size', specifically its curriculum meaning 'n.尺寸，尺码，大小'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "pad",
+      "meaning": "n.信笺簿",
+      "lessons": [
+        59
+      ],
+      "filename": "academy-b1-f563fcd3fb857879.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'pad', specifically its curriculum meaning 'n.信笺簿'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "glue",
+      "meaning": "n.胶水",
+      "lessons": [
+        59
+      ],
+      "filename": "academy-b1-99552de9998a2b82.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'glue', specifically its curriculum meaning 'n.胶水'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "academy-b3-repair-209-01",
+  "grid": "2x2",
+  "cells": [
+    {
+      "index": 2,
+      "word": "orbit",
+      "meaning": "n.运行轨道",
+      "filename": "academy-b3-4fa1a13ac468ac49.png",
+      "scene": "A top-down circular orbital path, with the Sun at its center and one small planet and direction marker on the path."
+    },
+    {
+      "index": 3,
+      "word": "astronomical",
+      "meaning": "a.天文学的",
+      "filename": "academy-b3-890c6c8e309d9e47.png",
+      "scene": "A compact complete observatory with astronomer studying galaxy monitor and star chart, wide margin below the horizontal crop midpoint."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas, equal square quadrants. TOP LEFT and TOP RIGHT remain completely blank white. Attached image is STYLE REFERENCE ONLY: blue-charcoal ink lines, pale watercolor and natural warm accents. BOTTOM LEFT, orbit: a simple perfectly CIRCULAR orbital path seen directly from above, not flattened perspective. Small yellow Sun exactly at the circle center. One small blue planet rests on the circular path at right and one small curved direction arrow follows the path. A circular orbit is intended, no oval or ellipse, no words. All marks inside central 65% of bottom-left quadrant. BOTTOM RIGHT, astronomical: a SMALL compact complete observatory vignette. An adult astronomer examines a desktop monitor with spiral galaxy image and a blank star chart. A small rounded observatory dome and telescope behind. CRITICAL: entire dome, telescope, person, monitor and chart fit within central 65% of bottom-right quadrant. Highest dome point BELOW 58% total canvas height; lowest desk ABOVE 94%. Wide white margin all sides. No captions, words, numbers, borders, grid, logos or watermark.",
+  "review_notes": "Viewed both bottom-cell replacements. Orbit is a complete circular top-down path with central Sun and one planet on the track; astronomical has a complete compact dome, telescope, observer, galaxy screen and star chart. Both have generous margin below the horizontal midpoint, no clipping or text.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-209-01.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-2f560f19-a2c9-44c2-bf16-6f7bd58725c0.png",
+  "source_sha256": "998a402bae08629d04d32817ed1456cdf34b9423f5e84b870cd519fb091b3c61",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

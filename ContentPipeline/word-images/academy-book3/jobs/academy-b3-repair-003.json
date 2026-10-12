@@ -1,0 +1,26 @@
+{
+  "id": "academy-b3-repair-003",
+  "cells": [
+    {
+      "index": 0,
+      "word": "subtle",
+      "meaning": "a.微妙的，难以捉摸的",
+      "filename": "academy-b3-2298c2ae6c6faae4.png",
+      "scene": "A small waist-up observer studies two paint cards side by side. Both cards have almost exactly the SAME pale blue color, with an extremely tiny difference in hue, barely perceptible. NOT contrasting dark and light cards. Keep the observer and cards small with wide whitespace."
+    },
+    {
+      "index": 1,
+      "word": "tempt",
+      "meaning": "v.吸引；引诱",
+      "filename": "academy-b3-cf6a53ad2352bf50.png",
+      "scene": "A SMALL waist-up adult reaches hesitantly toward a delicious cake, longing face. Keep entire head, hair, hands, cake and plate within a compact small scene at the center of the top-right quadrant. No legs or feet. At least 20% blank whitespace around the scene inside its quadrant."
+    }
+  ],
+  "prompt": "Create a SQUARE 2x2 atlas of restrained ink and pale watercolor vocabulary art. Attached image is STYLE REFERENCE ONLY. Pure white opaque background. ONLY TWO SMALL SCENES IN TOP ROW. BOTTOM HALF ENTIRELY BLANK WHITE. No text labels borders grids or watermarks. Each scene fully contained in central 60% of its quadrant. Huge white margins.\nTOP LEFT subtle: A small waist-up observer studies two paint cards side by side. Both cards have almost exactly the SAME pale blue color, with an extremely tiny difference in hue, barely perceptible. NOT contrasting dark and light cards. Keep the observer and cards small with wide whitespace.\nTOP RIGHT tempt: A SMALL waist-up adult reaches hesitantly toward a delicious cake, longing face. Keep entire head, hair, hands, cake and plate within a compact small scene at the center of the top-right quadrant. No legs or feet. At least 20% blank whitespace around the scene inside its quadrant.\nBOTTOM LEFT and BOTTOM RIGHT: blank white.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-003.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Subtle now shows almost identical pale blue swatches; tempt uses a complete compact waist-up scene, safe margins.",
+  "source_sha256": "e64e78004229fb7d5315e14bc0451b4d3c79831aac3664a64676cc57c6891310"
+}

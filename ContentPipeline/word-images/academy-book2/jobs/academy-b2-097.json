@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-097",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-c77099ce-fb16-418a-87da-c79f5786ca92.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — grass-seed (n.草籽): A handful of fine grass seeds beside newly sprouting thin grass blades, botanical detail.\nTOP RIGHT — spray (v.喷撒): A gardener sprays a fine mist of water over seedlings with a hand sprayer, no chemicals or instructions.\nBOTTOM LEFT — root (n.根): A small plant shown with roots visible beneath a soil cross-section, roots emphasized.\nBOTTOM RIGHT — blacken (v.变黑，发暗): A wooden board transitions from natural tan on one half to charred black on the other, no fire action.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "grass-seed",
+      "meaning": "n.草籽",
+      "filename": "academy-b2-48beb657a7a82ee5.png",
+      "scene": "A handful of fine grass seeds beside newly sprouting thin grass blades, botanical detail."
+    },
+    {
+      "index": 1,
+      "word": "spray",
+      "meaning": "v.喷撒",
+      "filename": "academy-b2-e28b3a396b9c63a3.png",
+      "scene": "A gardener sprays a fine mist of water over seedlings with a hand sprayer, no chemicals or instructions."
+    },
+    {
+      "index": 2,
+      "word": "root",
+      "meaning": "n.根",
+      "filename": "academy-b2-4813494d137e1631.png",
+      "scene": "A small plant shown with roots visible beneath a soil cross-section, roots emphasized."
+    },
+    {
+      "index": 3,
+      "word": "blacken",
+      "meaning": "v.变黑，发暗",
+      "filename": "academy-b2-7cb92fa9e68bad14.png",
+      "scene": "A wooden board transitions from natural tan on one half to charred black on the other, no fire action."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

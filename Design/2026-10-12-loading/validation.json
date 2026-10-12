@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-12",
+  "mode": "builtin-imagegen",
+  "source": "book-companion.png",
+  "asset": "../../NCE_ALL/Images.xcassets/loading-companion.imageset/loading-companion.png",
+  "build": "/tmp/nce-loading-intro-build.log",
+  "tests": [
+    {
+      "result": "passed",
+      "bundle": "/tmp/nce-loading-tests.xcresult",
+      "cases": [
+        "testStartupLoadingAndRecovery",
+        "testStartupSlowPreparation"
+      ]
+    },
+    {
+      "result": "passed",
+      "bundle": "/tmp/nce-loading-regression.xcresult",
+      "cases": [
+        "testAudioPreparationCancellation",
+        "testFourBooksAndFirstLessonControls"
+      ]
+    },
+    {
+      "result": "passed",
+      "bundle": "/tmp/nce-loading-intro-tests.xcresult",
+      "cases": [
+        "testStartupLoadingAndRecovery",
+        "testStartupSlowPreparation"
+      ],
+      "scope": "0.8-second cold-start introduction"
+    }
+  ],
+  "simulator": "70D597C8-0C59-472B-9B96-BFDF11696EBA",
+  "installedBundle": "com.palmgame.NCEALL.resourceqa.book4",
+  "debugPreviewSeconds": 12,
+  "dictionaryLiveNetworkVerified": false,
+  "launchFix": {
+    "cause": "SplashBoard rejected launch storyboard resources from CODE_SIGNING_ALLOWED=NO simulator bundle (-67056).",
+    "fix": [
+      "Enable simulator ad-hoc code signing",
+      "Remove redundant UIMainStoryboardFile=LaunchScreen; AppDelegate owns the window"
+    ],
+    "signatureVerification": "codesign --verify --deep --strict passed",
+    "systemValidation": "Validated OK",
+    "sampleRateFPS": 12,
+    "beforeNearBlackSamples": 4,
+    "afterFirstLaunchNearBlackSamples": 0,
+    "afterLoadingPreviewNearBlackSamples": 0,
+    "evidence": "cold-start/",
+    "afterNormalLaunchNearBlackSamples": 0,
+    "normalLaunchUsesQAOrPreviewFlags": false,
+    "afterIntroNearBlackSamples": 0,
+    "afterIntroSampleCount": 72
+  },
+  "coldStartupMinimumPresentationSeconds": 0.8,
+  "preparationRunsConcurrently": true,
+  "foregroundReplaysIntro": false,
+  "introVideo": "cold-start/intro-080.mp4",
+  "iconComparison": {
+    "installedIconFilesIdentical": true,
+    "desktopInteriorAverageRGB": {
+      "left": [
+        147.41824,
+        182.72403,
+        188.12158
+      ],
+      "right": [
+        147.41564,
+        182.72373,
+        188.12097
+      ]
+    },
+    "sourceAndExportBackgroundRGB": [
+      3,
+      141,
+      185
+    ],
+    "interpretation": "No global brightness change; observed desktop difference is consistent with surrounding wallpaper contrast."
+  }
+}

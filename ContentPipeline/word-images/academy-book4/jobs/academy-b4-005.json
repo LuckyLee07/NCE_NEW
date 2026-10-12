@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-005",
+  "cells": [
+    {
+      "index": 0,
+      "word": "pioneer",
+      "meaning": "v.开辟，倡导;n.先锋，开辟者",
+      "filename": "academy-b4-d3768aa924677985.png",
+      "scene": "The first explorer cutting a trail through thick grass, others following in the new path."
+    },
+    {
+      "index": 1,
+      "word": "summit",
+      "meaning": "n.顶峰",
+      "filename": "academy-b4-13984a4e7e0edce8.png",
+      "scene": "A tiny climber standing on the very top of a mountain peak; top highlighted with pale warm wash."
+    },
+    {
+      "index": 2,
+      "word": "attain",
+      "meaning": "v.到达",
+      "filename": "academy-b4-5da66250adca0e43.png",
+      "scene": "A climber finally reaching the summit and touching its marker."
+    },
+    {
+      "index": 3,
+      "word": "perilous",
+      "meaning": "a.危险的",
+      "filename": "academy-b4-167f564d83988623.png",
+      "scene": "A mountaineer carefully crossing a narrow rock ledge above a deep drop."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — pioneer (v.开辟，倡导;n.先锋，开辟者): The first explorer cutting a trail through thick grass, others following in the new path.\nTOP RIGHT — summit (n.顶峰): A tiny climber standing on the very top of a mountain peak; top highlighted with pale warm wash.\nBOTTOM LEFT — attain (v.到达): A climber finally reaching the summit and touching its marker.\nBOTTOM RIGHT — perilous (a.危险的): A mountaineer carefully crossing a narrow rock ledge above a deep drop.\nCROP SAFETY: all subjects within central 65% of each quadrant, no elements cross horizontal or vertical midlines. Bottom scenes begin below 58% total height. Sparse detail, generous white margins.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-005.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "388135ce7a411b5c71e9ad603bfd380f721f6a9af6ba969d5d0a42e005dd8416"
+}

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "NCELocalization.h"
+#import "NCEAcademyTheme.h"
 
 typedef NS_ENUM(NSInteger, ViewType) {
     ViewType_Normal = 0,
@@ -22,8 +23,12 @@ typedef NS_ENUM(NSInteger, ViewType) {
 @property (nonatomic, strong) NSString *titleString;
 
 @property (nonatomic, assign) CGFloat bannerHeight;
+@property (nonatomic, assign) BOOL embeddedInLesson;
 
 - (void)initHeightData;
+- (void)addBanner;
+- (CGRect)academyContentFrame;
+- (void)layoutAcademyViews;
 
 - (CGFloat)getSafeAreaHeight;
 

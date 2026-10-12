@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "book_id": 3,
+  "summary": {
+    "book_id": 3,
+    "word_count": 1040,
+    "covered_words": 1040,
+    "illustrated_words": 1016,
+    "native_hints": 24,
+    "native_diagrams": 21,
+    "context_scenes": 484,
+    "unique_image_files": 1008,
+    "image_bytes": 136984542,
+    "largest_image_bytes": 199597,
+    "image_size": [
+      320,
+      320
+    ],
+    "image_format": "PNG",
+    "lossy_compression": false,
+    "max_bytes_per_image": 200000,
+    "missing_words": [],
+    "kinds": {
+      "ai_illustration": 913,
+      "native_hint": 24,
+      "native_diagram": 21,
+      "shared_book_illustration": 82
+    }
+  },
+  "generation": {
+    "mode": "built-in image_gen",
+    "style": "restrained ink and watercolor, white background, matching approved Books 1–2 reference",
+    "prompt_set": "ContentPipeline/word-images/academy-book3/prompt-jobs.json",
+    "actual_prompts_and_reviewed_replacements": "ContentPipeline/word-images/academy-book3/jobs",
+    "main_atlases": 229,
+    "repair_atlases": 18,
+    "new_illustrations": 913,
+    "reviewed_cross_book_reuse": 82,
+    "reviewed_native_diagrams": 21
+  },
+  "resource_audit": {
+    "status": "passed",
+    "reviewed_atlas_receipts": 247,
+    "main_atlases": 229,
+    "repair_atlases": 18,
+    "active_ai_words": 913,
+    "all_ai_words_have_exactly_one_active_reviewed_receipt": true,
+    "all_atlas_hashes_match": true,
+    "unique_pngs_decoded": 1008,
+    "all_png_hashes_dimensions_and_budgets_valid": true,
+    "preserved_book1_book2_resources": 1308,
+    "database_unchanged": true
+  },
+  "resource_checks": {
+    "source_book3": "passed:1040 keys, PNG decode/size/budget, native hints and cross-book isolation",
+    "packaged_book3": "passed:1040 keys, PNG decode/size/budget, native hints and cross-book isolation",
+    "book1_regression": "passed:605 keys",
+    "book2_regression": "passed:838 keys",
+    "database_unchanged": true,
+    "book1_book2_1308_resources_unchanged": true
+  },
+  "build": {
+    "status": "passed",
+    "scheme": "NCE_Content_QA",
+    "configuration": "Debug simulator",
+    "bundle_id": "com.palmgame.NCEALL.resourceqa.book3",
+    "log": "/tmp/nce-academy-book3-ui-verified.log",
+    "packaged_images": "1008 unique referenced Book 3 PNGs and full Book 3 map byte-identical to source; atlas sources excluded"
+  },
+  "ui_tests": {
+    "status": "passed",
+    "passed": 2,
+    "failed": 0,
+    "result_bundle": "/tmp/nce-academy-book3-ui-verified.xcresult",
+    "device": "NCE Word Resources QA",
+    "OS": "iOS 26.2",
+    "coverage": [
+      "Book 3 wordbook: puma, spot, cling, unpack, fraction, IBM",
+      "Book 3 lesson 1 embedded spot image, caption and fully visible translation"
+    ],
+    "screenshots": "Docs/word-resources/academy-book3-ui",
+    "screenshot_count": 7,
+    "visual_review": "assistant_visual_reviewed; no text/image overlap, complete readable captions, translation and controls"
+  },
+  "physical_device_tested": false
+}

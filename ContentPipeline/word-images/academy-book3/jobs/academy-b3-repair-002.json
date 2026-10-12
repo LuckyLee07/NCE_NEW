@@ -1,0 +1,33 @@
+{
+  "id": "academy-b3-repair-002",
+  "cells": [
+    {
+      "index": 0,
+      "word": "repel",
+      "meaning": "v.排斥",
+      "filename": "academy-b3-53499abbfdfb4ad6.png",
+      "scene": "Two horizontal bar magnets REPEL because their facing inner ends are BOTH BLUE. Left magnet is RED at its far left end and BLUE at its right end. Right magnet is BLUE at its left end and RED at its far right end. A generous white gap separates the TWO BLUE INNER ENDS. One arrow above the left magnet points LEFT, one above the right magnet points RIGHT. Four color sections total in this exact left-to-right sequence: RED BLUE [gap] BLUE RED. No letters."
+    },
+    {
+      "index": 1,
+      "word": "dear",
+      "meaning": "a.亲爱的；珍贵的；昂贵的",
+      "filename": "academy-b3-5f4d44dfaa1b1ed7.png",
+      "scene": "One small waist-up adult gently holds a treasured family photograph to her chest, affectionate face; entire head and hair fully contained with 20% white margins."
+    },
+    {
+      "index": 2,
+      "word": "octopus",
+      "meaning": "n.章鱼",
+      "filename": "academy-b3-5633c9b8af6d0898.png",
+      "scene": "One clearly recognizable octopus with a rounded orange mantle and EXACTLY EIGHT DISTINCT ARMS, all eight separated and individually countable, four curling to the left and four to the right, no overlapping arms, no seaweed or bubbles. Simplified educational natural anatomy, visible suction cups, no extra tentacles."
+    }
+  ],
+  "prompt": "Create a square 2x2 vocabulary atlas, restrained ink outlines and pale watercolor matching attached STYLE REFERENCE ONLY. Pure white opaque background. Large 20% whitespace margins INSIDE each cell, nothing crosses central lines. Top drawings end above45% total height; bottom drawings begin below58%. NO text, labels, borders, or grids. Three cells only; BOTTOM RIGHT BLANK WHITE.\nTOP LEFT — repel: Two horizontal bar magnets REPEL because their facing inner ends are BOTH BLUE. Left magnet is RED at its far left end and BLUE at its right end. Right magnet is BLUE at its left end and RED at its far right end. A generous white gap separates the TWO BLUE INNER ENDS. One arrow above the left magnet points LEFT, one above the right magnet points RIGHT. Four color sections total in this exact left-to-right sequence: RED BLUE [gap] BLUE RED. No letters.\nTOP RIGHT — dear: One small waist-up adult gently holds a treasured family photograph to her chest, affectionate face; entire head and hair fully contained with 20% white margins.\nBOTTOM LEFT — octopus: One clearly recognizable octopus with a rounded orange mantle and EXACTLY EIGHT DISTINCT ARMS, all eight separated and individually countable, four curling to the left and four to the right, no overlapping arms, no seaweed or bubbles. Simplified educational natural anatomy, visible suction cups, no extra tentacles.\nKeep all primary subjects wholly inside each quadrant with generous white space.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-repair-002.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Corrected same-blue facing magnetic poles with outward arrows; dear full head contained; octopus now has exactly eight clearly countable arms.",
+  "source_sha256": "f4bb700882613ac257330c6665df1f949c3845acef63f5309a4ef247d0aa2575"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-081",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-53f88614-4262-4b94-9eeb-3498f3eb78f6.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — zip (n.拉链): a close-up of a partly opened zipper with clear metal pull and teeth\nTOP RIGHT — label (n.标签): A clear compact educational illustration of 'label', specifically its curriculum meaning 'n.标签'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — handle (n.提手，把手): a close-up of a hand gripping the curved HANDLE of a suitcase, handle emphasized blue\nBOTTOM RIGHT — slip (v.滑倒，滑了一脚): A clear compact educational illustration of 'slip', specifically its curriculum meaning 'v.滑倒，滑了一脚'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "zip",
+      "meaning": "n.拉链",
+      "lessons": [
+        97
+      ],
+      "filename": "academy-b1-4a70fe9aa6436e02.png",
+      "kind": "ai_illustration",
+      "scene": "a close-up of a partly opened zipper with clear metal pull and teeth",
+      "index": 0
+    },
+    {
+      "word": "label",
+      "meaning": "n.标签",
+      "lessons": [
+        97
+      ],
+      "filename": "academy-b1-1aca80e8b55c802f.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'label', specifically its curriculum meaning 'n.标签'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "handle",
+      "meaning": "n.提手，把手",
+      "lessons": [
+        97
+      ],
+      "filename": "academy-b1-c2a116aa910d147b.png",
+      "kind": "ai_illustration",
+      "scene": "a close-up of a hand gripping the curved HANDLE of a suitcase, handle emphasized blue",
+      "index": 2
+    },
+    {
+      "word": "slip",
+      "meaning": "v.滑倒，滑了一脚",
+      "lessons": [
+        99
+      ],
+      "filename": "academy-b1-1c1480e67eee52c1.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'slip', specifically its curriculum meaning 'v.滑倒，滑了一脚'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

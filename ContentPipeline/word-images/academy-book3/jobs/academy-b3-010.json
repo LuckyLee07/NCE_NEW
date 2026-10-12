@@ -1,0 +1,41 @@
+{
+  "id": "academy-b3-010",
+  "cells": [
+    {
+      "index": 0,
+      "word": "collar",
+      "meaning": "n.衣领",
+      "filename": "academy-b3-8a46854926e5416b.png",
+      "scene": "Close view of a plain blue shirt on a hanger, folded shirt collar highlighted with ink outlines."
+    },
+    {
+      "index": 1,
+      "word": "sacrifice",
+      "meaning": "v.牺牲，献出",
+      "filename": "academy-b3-d17bd922ea9dd141.png",
+      "scene": "A person gives their only packed lunch to a hungry friend and keeps an empty plate, willingly giving up something valued."
+    },
+    {
+      "index": 2,
+      "word": "privilege",
+      "meaning": "n.好处，特权",
+      "filename": "academy-b3-ffa2b8b37132b8d7.png",
+      "scene": "One guest is allowed through a special entrance while others wait in the ordinary queue, a host checks a special invitation card."
+    },
+    {
+      "index": 3,
+      "word": "dustman",
+      "meaning": "n.清洁工",
+      "filename": "academy-b3-45ee67e7f394cd92.png",
+      "scene": "A municipal refuse collector in work overalls empties a rubbish bin into a collection truck; dignified ordinary work."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — collar (n.衣领): Close view of a plain blue shirt on a hanger, folded shirt collar highlighted with ink outlines.\nTOP RIGHT — sacrifice (v.牺牲，献出): A person gives their only packed lunch to a hungry friend and keeps an empty plate, willingly giving up something valued.\nBOTTOM LEFT — privilege (n.好处，特权): One guest is allowed through a special entrance while others wait in the ordinary queue, a host checks a special invitation card.\nBOTTOM RIGHT — dustman (n.清洁工): A municipal refuse collector in work overalls empties a rubbish bin into a collection truck; dignified ordinary work.",
+  "review_notes": "Reviewed shirt collar, giving up own lunch, privileged entrance beside ordinary queue and refuse collection. Word senses and readable natural hands checked; subjects remain within quadrants.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book3/atlases/academy-b3-010.png",
+  "tool_generated_source": "/Users/lizi/.codex/generated_images/01a12a61-6d03-7620-807d-c0880713e6db/exec-09a5d0dd-a66b-490f-8898-e5e955b1e976.png",
+  "source_sha256": "36e6b27459999af653be863dca4273f05d1d0b493b1e1ed0472223868566b9ff",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}

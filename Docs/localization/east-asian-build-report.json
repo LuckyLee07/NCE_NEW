@@ -65,9 +65,9 @@
         }
       },
       "files": {
-        "data/localizations/ja.json": "4fbd802b00a896a3c5de2571b15f13bb0cc7a90208afb0fba94bc7446f89b11e",
+        "data/localizations/ja.json": "c00b73daa2e940267a3e68afe00f599745fdd4673bdb6ef81103477f5ad41470",
         "ja.lproj/InfoPlist.strings": "7aaafcc57325c78c29bfd59d62c9323ac7eab32ebcce997535495d9613bcfae4",
-        "ja.lproj/Localizable.strings": "8c0ad844b39e6608ac97d2e9a9eb974880250d239251a62e6ec58875b808d45b"
+        "ja.lproj/Localizable.strings": "f1f82acfb8aa9388df9925b0681cc980e7edb18915caff928c00aab1e40efe8e"
       },
       "localized_image_bytes": 3577695,
       "localized_images": 1325,
@@ -76,8 +76,8 @@
       "machine_flagged_word_meanings": 0,
       "original_image_fallbacks": 0,
       "sentences": 4445,
-      "text_entries": 9640,
-      "ui_strings": 54,
+      "text_entries": 9770,
+      "ui_strings": 191,
       "word_meaning_variants": 3245,
       "word_name_translation_fallbacks": {},
       "words": 3104
@@ -224,9 +224,9 @@
         }
       },
       "files": {
-        "data/localizations/ko.json": "3b46de3c8ec0d3acf7e9549e5a6dcf5573e7428ecfbfbeb5226d2ae6b3903c00",
+        "data/localizations/ko.json": "635f693e591771ddb4e411a8825e295d5805ce9aaf0419f7bada7a69109795d5",
         "ko.lproj/InfoPlist.strings": "95be5dd19f05353998931355419dd3980e29095d7080874f4789278826eb522f",
-        "ko.lproj/Localizable.strings": "c7060c0f740c128dea292d8d89acd7d1ad2056ecaf842e74b9e01757b79fc8c8"
+        "ko.lproj/Localizable.strings": "c20dbaa6754d9f0efbde02d70bd25bd9231a823b82d22c916354b095d75c7fc7"
       },
       "localized_image_bytes": 3499697,
       "localized_images": 1325,
@@ -235,8 +235,8 @@
       "machine_flagged_word_meanings": 0,
       "original_image_fallbacks": 0,
       "sentences": 4445,
-      "text_entries": 9646,
-      "ui_strings": 54,
+      "text_entries": 9776,
+      "ui_strings": 191,
       "word_meaning_variants": 3245,
       "word_name_translation_fallbacks": {},
       "words": 3104
@@ -247,7 +247,7 @@
   "model_license": "MIT",
   "model_url": "https://huggingface.co/facebook/m2m100_418M",
   "native_editorial_review": "pending",
-  "override_fingerprint": "136547e70839b5ceb64d9b9a511aca20fb830f3ac8d39089689d0b8eabf6cf48",
+  "override_fingerprint": "6f22067513ee47872fff929c0a1e258fda45e4c52bf0ef039aea19c62999e568",
   "phrase_override_fingerprint": "ad5aeb9330c6ea050faa50ae9ea32cdf63caf697cf3f86907141cf357d24d647",
   "revision": "55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636",
   "runtime_network_translation": false,

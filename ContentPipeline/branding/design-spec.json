@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "created_on": "2026-10-06",
-  "revision": "20261006-approved-ink",
+  "revision": "20261012-approved-book-companion-lighter",
   "status": "approved_production_artwork",
   "generation": "built-in image_gen",
   "app_interface_languages": [
@@ -13,19 +13,20 @@
   "cover_language": "English title and Arabic book numbers; shared across all supported UI languages",
   "publisher_affiliation_claimed": false,
   "approved_designs": {
-    "icon": "Docs/branding/icon-i2-nce-center-20261006/i2-nce-center-preview.png",
+    "icon": "Design/2026-10-12-icon-lighter/icon-lighter-preview.png",
     "covers": "Docs/branding/concepts-20261006/c-line-art.png",
-    "icon_placement": "custom NCE centered across four book spines"
+    "icon_placement": "full-bleed lighter teal-blue book companion with headphones, pencil and vocabulary card"
   },
-  "prior_revision": "revisions/20261006-before-approved-ink/design-spec.json",
+  "prior_revision": "revisions/20261012-before-lighter-background/design-spec.json",
   "assets": [
     {
       "id": "icon",
       "source": "source/icon.png",
-      "prompt": "Use case: precise-object-edit. Asset type: FINAL PRODUCTION iOS AppIcon bitmap, a single square full-bleed opaque icon, ideally 1024x1024.\nInput image 1 is the exact USER-APPROVED icon concept. Extract and faithfully finish ONLY the LARGE CENTRAL BURGUNDY ICON from this presentation board. Keep exactly its approved artwork: four warm-white hand-ink book spines increasing gently in height from left to right, fourth leaning slightly out, charcoal contours and page-top strokes, four low waist bands burgundy/teal/blue/gold, and the large custom dark-burgundy serif \"NCE\" wordmark across the blank CENTER OF THE BOOK SPINES. Preserve NCE's expressive thick ink strokes and readable N C E letters, its centered size and position, and the balanced original book arrangement. No text in the upper-left background. Maintain elegant adult literary ink-print illustration and quiet burgundy background.\nProduction transformation ONLY: REMOVE the white presentation board, \"I2\" heading, small duplicate icons and ALL exterior margins. REMOVE the pre-rounded outside icon mask by extending the SAME burgundy background all the way to all FOUR SQUARE CORNERS and every edge. The final image itself is one full square solid burgundy field with the approved book artwork centered and generous original edge clearance. iOS will supply its own rounded mask. No rounded outer tile inside a white or transparent square. No white corner triangles, no frame, no transparency, no drop shadow or alternate graphics. All four books remain entirely visible. NCE remains ON the book centers, not above, below or in a badge. Do not redesign into a toy, glossy 3D, photograph or new book logo. Output exactly ONE icon asset and nothing else.",
-      "reference": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/Docs/branding/icon-i2-nce-center-20261006/i2-nce-center-preview.png",
-      "reference_role": "approved center-NCE icon; remove presentation and system mask for production",
-      "original_generated_file": "/Users/lizi/.codex/generated_images/019eb45a-85cd-7cd2-9185-8b05f6dfcb31/exec-ea3624f3-5638-4f4a-a0ff-81e09bf50ed6.png"
+      "prompt": "Use case: precise-object-edit. Input image 1 is the edit target: the approved square iOS English-learning app icon, a smiling cream book wearing turquoise headphones and holding a yellow pencil, lavender A flashcard behind it, two pale yellow stars, teal-blue background with a lighter circular halo. Make ONE very subtle background-only color revision. Lighten only the teal-blue backdrop and its circular halo slightly, approximately a 6% blend toward white (outer blue around RGB 18,148,189 instead of 3,141,185). It should look a little lighter and fresher but remain recognizably the same saturated teal-blue, not pastel or washed out. Preserve the exact existing composition, crop, character size, pose, face, cream paper coloring, headphones coloring, pencil, flashcard letter A, bookmarks, stars, dark outlines, texture, and illustration details. Do not globally brighten the image. Do not redraw or restyle the subject. Do not add elements or text. Output only the full square opaque icon artwork, edge-to-edge blue background, without rounded corner masking, margins, labels, comparison layout, or mockup.",
+      "reference": "Design/2026-10-12-icon-lighter/icon-lighter-preview.png",
+      "reference_role": "user-approved lighter background revision of concept 05; exact artwork retained, resized for asset catalog",
+      "original_generated_file": "/Users/lizi/.codex/generated_images/01a12a5d-fb39-71a2-81d7-295d07059cc4/exec-3a670f0f-ad40-48b2-a533-28b45e62ce7e.png",
+      "approved_on": "2026-10-12"
     },
     {
       "id": "book1",
@@ -65,5 +66,6 @@
       "secondary_reference": "source/book1.png",
       "secondary_reference_role": "finished series typography and paper layout"
     }
-  ]
+  ],
+  "updated_on": "2026-10-12"
 }

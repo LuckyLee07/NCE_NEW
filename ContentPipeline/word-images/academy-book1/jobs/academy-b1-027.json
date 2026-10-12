@@ -1,0 +1,54 @@
+{
+  "id": "academy-b1-027",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-4c21ffc3-c75e-4c6a-8d51-e52f845b948d.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. The FOUR CELLS are:\nTOP LEFT — bridge (n.桥): A clear compact educational illustration of 'bridge', specifically its curriculum meaning 'n.桥'; show a concrete object or minimal human situation that conveys precisely that meaning.\nTOP RIGHT — boat (n.船): A clear compact educational illustration of 'boat', specifically its curriculum meaning 'n.船'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM LEFT — river (n.河): A clear compact educational illustration of 'river', specifically its curriculum meaning 'n.河'; show a concrete object or minimal human situation that conveys precisely that meaning.\nBOTTOM RIGHT — ship (n.轮船): A clear compact educational illustration of 'ship', specifically its curriculum meaning 'n.轮船'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+  "cells": [
+    {
+      "word": "bridge",
+      "meaning": "n.桥",
+      "lessons": [
+        33
+      ],
+      "filename": "academy-b1-17f29b073143d8cd.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'bridge', specifically its curriculum meaning 'n.桥'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 0
+    },
+    {
+      "word": "boat",
+      "meaning": "n.船",
+      "lessons": [
+        33
+      ],
+      "filename": "academy-b1-25cdb46d8d2115a2.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'boat', specifically its curriculum meaning 'n.船'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 1
+    },
+    {
+      "word": "river",
+      "meaning": "n.河",
+      "lessons": [
+        33
+      ],
+      "filename": "academy-b1-5f5a8ed8f139be6d.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'river', specifically its curriculum meaning 'n.河'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 2
+    },
+    {
+      "word": "ship",
+      "meaning": "n.轮船",
+      "lessons": [
+        33
+      ],
+      "filename": "academy-b1-e5d5b971139eefeb.png",
+      "kind": "ai_illustration",
+      "scene": "A clear compact educational illustration of 'ship', specifically its curriculum meaning 'n.轮船'; show a concrete object or minimal human situation that conveys precisely that meaning.",
+      "index": 3
+    }
+  ],
+  "status": "accepted",
+  "review_status": "assistant_visual_reviewed"
+}

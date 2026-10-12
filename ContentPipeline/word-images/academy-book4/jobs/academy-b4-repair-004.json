@@ -1,0 +1,20 @@
+{
+  "id": "academy-b4-repair-004",
+  "cells": [
+    {
+      "index": 0,
+      "word": "plausible",
+      "meaning": "a.似乎有理的",
+      "filename": "academy-b4-2caa75efae522981.png",
+      "scene": "Two people stand beside a CLOSED dripping umbrella in a freestanding umbrella stand, and wet footprints on floor. One man explains with one pointing hand, his other hand resting at his side. Exactly TWO arms and TWO hands per person. Woman nods. Compact bust scene. No umbrella held by anyone.",
+      "superseded_by": "academy-b4-repair-005"
+    }
+  ],
+  "prompt": "Square 2x2 ink-and-pale-watercolor educational atlas, same style as reference, white background. ONLY top-left cell contains this scene, fully inside its central 65%, all other three quadrants completely white. No labels. Two people stand beside a CLOSED dripping umbrella in a freestanding umbrella stand, and wet footprints on floor. One man explains with one pointing hand, his other hand resting at his side. Exactly TWO arms and TWO hands per person. Woman nods. Compact bust scene. No umbrella held by anyone.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-repair-004.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Correct hands but a low footprint touches crop boundary; superseded with smaller composition.",
+  "source_sha256": "f4dfb82b128e23b33b31a8f579cde2915d927952c9deb6ab7728e635889931fd"
+}

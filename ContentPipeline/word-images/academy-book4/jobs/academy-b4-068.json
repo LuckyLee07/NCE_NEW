@@ -1,0 +1,40 @@
+{
+  "id": "academy-b4-068",
+  "cells": [
+    {
+      "index": 0,
+      "word": "implication",
+      "meaning": "n.表明",
+      "filename": "academy-b4-5c8dc148912ef068.png",
+      "scene": "Wet footprints leading from a door imply someone has entered, observer notices."
+    },
+    {
+      "index": 1,
+      "word": "saliva",
+      "meaning": "n.唾液",
+      "filename": "academy-b4-020ffaad0678c8d6.png",
+      "scene": "A simple side-view mouth with salivary gland highlighted and a clear saliva droplet, clean educational illustration."
+    },
+    {
+      "index": 2,
+      "word": "digestive",
+      "meaning": "a.助消化的",
+      "filename": "academy-b4-dafd8482824fbb2c.png",
+      "scene": "A simplified stomach and intestines receiving food, curved arrows show digestion."
+    },
+    {
+      "index": 3,
+      "word": "defy",
+      "meaning": "v.使不可能",
+      "filename": "academy-b4-98c73bd75ba63d2d.png",
+      "scene": "A locked puzzle box resists every ordinary key tried by a puzzled adult."
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for an adult vocabulary app. Attached image is STYLE REFERENCE ONLY: restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. Pure WHITE opaque background. Central 75% of each quadrant contains its subject with generous margins. Nothing crosses midlines. Leave horizontal 45–55% and vertical 47–53% center bands EMPTY WHITE. Natural human anatomy, recognizable objects, clear 320px silhouettes, restrained detail, no elaborate environment. NO captions, labels, writing, borders, grid lines, watermarks or logos. Only symbols or numerals explicitly requested in a cell are allowed. Meanings are guidance; never write them. Row-major fixed order. FOUR CELLS:\nTOP LEFT — implication (n.表明): Wet footprints leading from a door imply someone has entered, observer notices.\nTOP RIGHT — saliva (n.唾液): A simple side-view mouth with salivary gland highlighted and a clear saliva droplet, clean educational illustration.\nBOTTOM LEFT — digestive (a.助消化的): A simplified stomach and intestines receiving food, curved arrows show digestion.\nBOTTOM RIGHT — defy (v.使不可能): A locked puzzle box resists every ordinary key tried by a puzzled adult.\nCROP SAFETY: all subjects SMALL within central 60% of each quadrant. Bottom objects and heads begin below 60% total height; top scenes end before 43% height. Huge WHITE margins. No midline crossings. Sparse background detail. No labels.",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/Desktop/NCE_Dev/NCE_ALL/ContentPipeline/word-images/academy-book4/atlases/academy-b4-068.png",
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed",
+  "review_notes": "Inspected atlas: planned subjects and curriculum senses are identifiable, anatomy acceptable, no unintended labels; all four illustrations fit their crop cells.",
+  "source_sha256": "8ba7093df8ae5de52916bba69b4a06279ae769bd8aeba2b0051bca87ef00f0ea"
+}

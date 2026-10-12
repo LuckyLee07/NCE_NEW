@@ -8,6 +8,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init NS_UNAVAILABLE;
 - (nullable NSString *)audioPathForWord:(NSString *)word;
 - (nullable NSString *)imagePathForWord:(NSString *)word;
+- (nullable NSString *)imagePathForWord:(NSString *)word bookId:(NSInteger)bookId;
+- (nullable NSString *)visualCaptionForWord:(NSString *)word bookId:(NSInteger)bookId;
+- (nullable NSString *)visualPresentationForWord:(NSString *)word bookId:(NSInteger)bookId;
+- (nullable NSString *)visualHintForWord:(NSString *)word bookId:(NSInteger)bookId;
 - (nullable NSString *)displayNameForWord:(nullable NSString *)word;
 - (NSString *)sourceTranslationForWord:(nullable NSString *)word fallback:(NSString *)translation;
 - (NSString *)translationForWord:(nullable NSString *)word fallback:(NSString *)translation;

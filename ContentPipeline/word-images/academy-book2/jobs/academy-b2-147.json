@@ -1,0 +1,38 @@
+{
+  "id": "academy-b2-147",
+  "mode": "built-in image_gen",
+  "original_generated": "/Users/lizi/.codex/generated_images/01a12913-24ee-7450-b33a-b50fb8229849/exec-0b2e6757-98e5-4aee-a6bd-1ea555d70aaa.png",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE 2x2 atlas with four equal square cells for a vocabulary app. Attached image is STYLE REFERENCE ONLY: match its restrained ink-and-watercolor educational illustrations, clear dark blue-charcoal outlines, pale blue wash, small warm natural color accents. New subjects below, not copies of the reference people. Pure WHITE opaque background, no overall paper grain. Each subject must fit within central 80% of its own quadrant with generous margins; NOTHING crosses the horizontal or vertical midlines. Row-major fixed order. Fully contain hands, feet and objects. Simple silhouettes legible as 320px icons; medium restrained detail, no elaborate environment. Adult-friendly editorial art, realistic recognizable objects, natural human proportions. No captions, labels, writing, borders, grid lines, watermarks or logos. Only a symbol/number explicitly requested in a cell is allowed. Meanings are guidance, DO NOT write them. Avoid illustrating another sense of the word. Fill exactly the specified cells; any unused cell stays blank white. CRITICAL CROP SAFETY: equal cells occupy exactly 0–50% and 50–100% of canvas width/height. Bottom-row drawings start below 55% canvas height. Top-row drawings end above 45% canvas height. Keep a wide EMPTY WHITE horizontal band from 45% to 55% canvas height. No head, hair, limb, or object may enter this band. Similarly leave center vertical band 47–53% white. The FOUR CELLS are:\nTOP LEFT — desperately (ad.绝望地): A stranded hiker urgently waves both arms toward a distant rescue boat, desperate effort, no injury.\nTOP RIGHT — companion (n.同伙，同伴): Two travel companions sit together with backpacks and a shared map, mutual company.\nBOTTOM LEFT — water ski ((由快艇牵引水橇)滑水): A water skier on two skis holds a tow rope behind a small distant speedboat, balanced pose, full skis visible.\nBOTTOM RIGHT — buoy (n.浮标): A bright blue-and-orange floating buoy bobs on water, small anchor chain disappearing below surface.",
+  "cells": [
+    {
+      "index": 0,
+      "word": "desperately",
+      "meaning": "ad.绝望地",
+      "filename": "academy-b2-c13011e781f248a0.png",
+      "scene": "A stranded hiker urgently waves both arms toward a distant rescue boat, desperate effort, no injury."
+    },
+    {
+      "index": 1,
+      "word": "companion",
+      "meaning": "n.同伙，同伴",
+      "filename": "academy-b2-c989edf18246e9c8.png",
+      "scene": "Two travel companions sit together with backpacks and a shared map, mutual company."
+    },
+    {
+      "index": 2,
+      "word": "water ski",
+      "meaning": "(由快艇牵引水橇)滑水",
+      "filename": "academy-b2-672df5bd5920e8d6.png",
+      "scene": "A water skier on two skis holds a tow rope behind a small distant speedboat, balanced pose, full skis visible."
+    },
+    {
+      "index": 3,
+      "word": "buoy",
+      "meaning": "n.浮标",
+      "filename": "academy-b2-7204c35d280a5093.png",
+      "scene": "A bright blue-and-orange floating buoy bobs on water, small anchor chain disappearing below surface."
+    }
+  ],
+  "status": "complete",
+  "review_status": "assistant_visual_reviewed"
+}
