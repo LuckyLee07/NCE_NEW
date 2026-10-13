@@ -1,0 +1,48 @@
+{
+  "feature": "课文长按单词查词",
+  "implemented": [
+    "点击句子保持原有播放入口",
+    "长按词语高亮并暂停课文，打开复用的单词详情",
+    "返回保留当前句、滚动位置及 AVAudioPlayer 时间，等待手动继续",
+    "常见词形还原；优先同课同册，允许跨册匹配",
+    "未收录词提示与在线词典入口",
+    "单词详情显示原文例句，关闭自动发音、自动下一词和完成广告",
+    "VoiceOver 单词查词动作，四语言提示"
+  ],
+  "passed": {
+    "signed_debug_build": "NCE_NEW / iPhone 12 Pro / iOS 26.2",
+    "word_lookup_unit_checks": "passed",
+    "localization_plist_lint": "4 languages passed",
+    "ui_tests": [
+      "testReaderLookupUnknownWordAndScrolling",
+      "testReaderWordLookupDuringPreparation",
+      "testReaderWordLookupRestoresPlayback"
+    ],
+    "ui_test_failures": 0,
+    "ui_result_bundle": "/tmp/nce-reader-final-interactions.xcresult",
+    "audio_resume_result_bundle": "/tmp/nce-reader-unlocked-audio.xcresult",
+    "audio_resume_duration_seconds": 34.18,
+    "audio_resume_checks": [
+      "首次句子实际播放后时间大于 0",
+      "查词返回后句子相同、滚动偏移差小于等于 1 点、播放时间差小于等于 0.08 秒",
+      "返回保持暂停，用户点击后时间继续前进",
+      "播放中直接长按查词，返回仍为暂停"
+    ],
+    "manual_check": "2026-10-13 用户解锁后使用 Simulator 实际检查：课文第 3 句长按 evidence 打开详情与原文例句，返回保留第 3 句、滚动位置和词语高亮；点击继续后恢复播放并进入后续句子。"
+  },
+  "pending": {},
+  "project_note": "本机 Xcode 工程已加入 NCEReaderWordLabel.m 与 NCEWordLookup.m 的 Sources 引用。项目工程文件遵循现有忽略规则。",
+  "previous_blocker": {
+    "description": "先前锁屏期间模拟器间歇停在系统音频准备；用户解锁并重启模拟器后，真实音频续播自动化和手动检查通过。",
+    "failed_test_bundle": "/tmp/nce-reader-flow-v8.xcresult",
+    "diagnostic": "/tmp/nce-audio-stack-89153.txt"
+  },
+  "limitations": [
+    "未进行真机测试；本轮验证设备为 iPhone 12 Pro / iOS 26.2 Simulator。"
+  ],
+  "simulator_cleanup": "验收结束后关闭本任务启动的 70D597C8-0C59-472B-9B96-BFDF11696EBA，保留应用和学习数据。",
+  "user_acceptance": {
+    "date": "2026-10-13",
+    "feedback": "我体验了下没发现问题"
+  }
+}

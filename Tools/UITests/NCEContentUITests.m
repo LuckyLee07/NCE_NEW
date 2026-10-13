@@ -235,6 +235,93 @@
     XCTAssertTrue([self.app.buttons[@"book-picker"] waitForExistenceWithTimeout:8]);
     XCTAssertEqualObjects(selection,self.app.buttons[@"book-picker"].label);
 }
+- (NSDictionary *)readerSnapshot {
+    NSString *value=self.app.buttons[@"lesson-play"].value;
+    NSData *data=[value dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *snapshot=data ? [NSJSONSerialization JSONObjectWithData:data options:0 error:nil] : nil;
+    XCTAssertNotNil(snapshot);return snapshot;
+}
+- (void)testReaderWordLookupRestoresPlayback {
+    [self book:3];[self openCourse];
+    XCUIElement *sentence=self.app.staticTexts[@"lesson-english-0"];
+    [self tap:sentence];
+    XCTAssertTrue([self.app.buttons[@"lesson-pause"] waitForExistenceWithTimeout:5]);
+    [self tap:self.app.buttons[@"lesson-pause"]];
+    NSDictionary *before=[self readerSnapshot];
+    XCTAssertGreaterThan([before[@"time"] doubleValue],0);
+    XCUICoordinate *word=[[sentence coordinateWithNormalizedOffset:CGVectorMake(0.08,0)] coordinateWithOffset:CGVectorMake(0,12)];
+    [word pressForDuration:0.65];
+    XCTAssertTrue([self.app.staticTexts[@"word-english"] waitForExistenceWithTimeout:5]);
+    XCTAssertEqualObjects(self.app.staticTexts[@"word-english"].label,@"puma");
+    [self capture:@"reader-word-lookup-puma"];
+    [self back];XCTAssertTrue([self.app.buttons[@"lesson-play"] waitForExistenceWithTimeout:5]);
+    NSDictionary *after=[self readerSnapshot];
+    XCTAssertEqualObjects(before[@"sentence"],after[@"sentence"]);
+    XCTAssertEqualWithAccuracy([before[@"offset"] doubleValue],[after[@"offset"] doubleValue],1);
+    XCTAssertEqualWithAccuracy([before[@"time"] doubleValue],[after[@"time"] doubleValue],0.08);
+    XCTAssertFalse([after[@"playing"] boolValue]);
+    XCTAssertEqualObjects(sentence.value,@"Pumas");
+    [self capture:@"reader-word-lookup-return"];
+    [self tap:self.app.buttons[@"lesson-play"]];
+    XCTAssertTrue([self.app.buttons[@"lesson-pause"] waitForExistenceWithTimeout:5]);
+    [self tap:self.app.buttons[@"lesson-pause"]];
+    NSDictionary *continued=[self readerSnapshot];
+    if([continued[@"sentence"] isEqual:after[@"sentence"]])XCTAssertGreaterThan([continued[@"time"] doubleValue],[after[@"time"] doubleValue]);
+    // Long-press during playback must pause, while a normal tap still plays the sentence.
+    [self tap:sentence];[word pressForDuration:0.65];
+    XCTAssertTrue([self.app.staticTexts[@"word-english"] waitForExistenceWithTimeout:5]);
+    [self back];XCTAssertTrue(self.app.buttons[@"lesson-play"].exists);
+    XCTAssertFalse(self.app.buttons[@"lesson-pause"].exists);
+}
+- (void)testReaderWordLookupDuringPreparation {
+    [self.app terminate];
+    self.app.launchArguments=@[@"-NCEOfflineResourceQA",@"-NCEResetStudyQA",@"-NCEAudioPreparationPreview",@"-AppleLanguages",@"(zh-Hans)"];
+    [self.app launch];XCTAssertTrue([self.app.buttons[@"book-picker"] waitForExistenceWithTimeout:15]);
+    [self book:3];[self openCourse];
+    XCUIElement *sentence=self.app.staticTexts[@"lesson-english-0"];
+    XCUICoordinate *word=[[sentence coordinateWithNormalizedOffset:CGVectorMake(0.08,0)] coordinateWithOffset:CGVectorMake(0,12)];
+    [word pressForDuration:0.65];
+    XCTAssertTrue([self.app.staticTexts[@"word-english"] waitForExistenceWithTimeout:5]);
+    XCTAssertEqualObjects(self.app.staticTexts[@"word-english"].label,@"puma");
+    XCTAssertTrue(self.app.buttons[@"word-play"].exists);
+    XCTAssertFalse(self.app.buttons[@"word-next"].exists);
+    [self capture:@"reader-word-lookup-puma"];
+    [self back];
+    XCTAssertTrue([self.app.buttons[@"lesson-play"] waitForExistenceWithTimeout:5]);
+    XCTAssertFalse(self.app.buttons[@"lesson-pause"].exists);
+    XCTAssertEqualObjects(sentence.value,@"Pumas");
+    [self capture:@"reader-word-lookup-return"];
+    // A second-line word must use the same wrapping as the displayed label.
+    XCUICoordinate *secondLine=[[sentence coordinateWithNormalizedOffset:CGVectorMake(0.04,0)] coordinateWithOffset:CGVectorMake(0,35)];
+    [secondLine pressForDuration:0.65];
+    XCTAssertTrue([self.app.staticTexts[@"word-english"] waitForExistenceWithTimeout:5]);
+    XCTAssertEqualObjects(self.app.staticTexts[@"word-english"].label,@"which");
+    [self back];XCTAssertTrue(self.app.buttons[@"lesson-play"].exists);
+}
+- (void)testReaderLookupUnknownWordAndScrolling {
+    [self book:3];[self openCourse];
+    XCUIElement *sentence=self.app.staticTexts[@"lesson-english-7"];
+    for(NSInteger i=0;i<6 && !sentence.hittable;i++)[self.app.tables.firstMatch swipeUp];
+    XCTAssertTrue(sentence.hittable);
+    CGRect originalFrame=sentence.frame;
+    NSDictionary *before=[self readerSnapshot];
+    XCUICoordinate *word=[[sentence coordinateWithNormalizedOffset:CGVectorMake(0.08,0)] coordinateWithOffset:CGVectorMake(0,12)];
+    [word pressForDuration:0.65];
+    XCTAssertTrue([self.app.alerts.firstMatch waitForExistenceWithTimeout:5]);
+    XCTAssertTrue(self.app.alerts.staticTexts[@"Wherever"].exists);
+    XCTAssertTrue(self.app.alerts.buttons[@"在线词典"].exists);
+    [self capture:@"reader-word-lookup-unlisted"];
+    [self tap:self.app.alerts.buttons[@"返回课文"]];
+    XCTAssertEqualWithAccuracy(sentence.frame.origin.y,originalFrame.origin.y,1);
+    NSDictionary *after=[self readerSnapshot];
+    XCTAssertEqualObjects(before[@"sentence"],after[@"sentence"]);
+    XCTAssertEqualWithAccuracy([before[@"time"] doubleValue],[after[@"time"] doubleValue],0.08);
+    XCTAssertTrue(self.app.buttons[@"lesson-play"].exists);
+    // A drag and a long press over the blank trailing area must not navigate.
+    XCUICoordinate *blank=[[sentence coordinateWithNormalizedOffset:CGVectorMake(0.99,1)] coordinateWithOffset:CGVectorMake(0,-8)];
+    [blank pressForDuration:0.65];XCTAssertFalse(self.app.alerts.firstMatch.exists);
+    XCTAssertFalse(self.app.staticTexts[@"word-english"].exists);
+}
 - (void)testStartupSlowPreparation {
     [self.app terminate];
     self.app.launchArguments=@[@"-NCEOfflineResourceQA",@"-NCEStartupPreview",@"-NCEStartupReduceMotion",@"-AppleLanguages",@"(zh-Hans)"];

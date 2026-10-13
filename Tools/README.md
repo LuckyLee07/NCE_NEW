@@ -285,3 +285,20 @@ Run the Foundation-only practice state checks with:
 ```sh
 bash Tools/test_practice_session.sh
 ```
+
+
+### Reader word lookup QA
+
+Run `bash Tools/test_word_lookup.sh` for word boundaries, contextual selection,
+spelling aliases and common inflection matching. The UI suite includes
+`testReaderLookupUnknownWordAndScrolling`,
+`testReaderWordLookupDuringPreparation` and
+`testReaderWordLookupRestoresPlayback`. The last test requires working simulator
+audio and checks nonzero playback time before/after a lookup; a preparation stall
+is a failed check, not a successful resume verification.
+
+See `Docs/design/2026-10-13-reader-lookup/validation.json` for the current results
+and device coverage. Audio resume and simulator manual verification passed after
+the user unlocked the Mac. The local Xcode Sources phase includes
+`NCEReaderWordLabel.m` and `NCEWordLookup.m`; add both when reconstructing the
+ignored project file in another checkout.

@@ -13,6 +13,11 @@
 #import "NCEStudyViews.h"
 #import "NCECourseViewController.h"
 #import "NCELessonResourceStore.h"
+#import "NCEReaderWordLabel.h"
+#import "NCEWordLookup.h"
+#import "NCEWordResourceStore.h"
+#import "WordViewController.h"
+#import "OnlineDictionaryViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
 static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCellReuseId";
@@ -46,6 +51,13 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
     CGFloat _readingWidth;
     float _playbackRate;
     UIButton *_translationButton;
+    UILabel *_readingHint;
+    NCEWordLookup *_wordLookup;
+    BOOL _lookupActive;
+    NSInteger _lookupRow, _lookupPlaybackIndex;
+    NSRange _lookupRange;
+    CGPoint _lookupOffset;
+    NSTimeInterval _lookupPlaybackTime;
 }
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -82,6 +94,7 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
         _contentDictionary = [[NSMutableDictionary alloc] initWithCapacity:5];
         
 	        _currentIndex = 0;
+        _lookupRow=NSNotFound;_lookupRange=NSMakeRange(NSNotFound,0);
         NSDictionary *resume=[NCEStudyStore resumeForBook:bookId];
         if ([resume[@"book"] intValue]==_bookId && [resume[@"lesson"][@"id"] isEqual:_lesson[@"id"]]) _currentIndex=MIN(MAX(0,[resume[@"sentence"] intValue]),MAX(0,(int)_items.count-1));
         _playbackRate=[NSUserDefaults.standardUserDefaults floatForKey:@"NCEAcademyRate"];
@@ -128,9 +141,13 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
         speaker.tintColor=NCEBlue(); speaker.contentMode=UIViewContentModeScaleAspectFit;
         speaker.frame=CGRectMake(width-42,10,22,24); [cell.contentView addSubview:speaker];
     }
-    UILabel *english=NCELabel(item[@"english"],19,UIFontWeightMedium,NCEInk());
+    NCEReaderWordLabel *english=[NCEReaderWordLabel new];[english configureText:item[@"english"]];
     english.frame=CGRectMake(24,10,width-76,[item[@"englishHeight"] floatValue]);
     english.accessibilityIdentifier=[NSString stringWithFormat:@"lesson-english-%ld",(long)indexPath.row];
+    if(_lookupRow==indexPath.row)english.highlightedWord=_lookupRange;
+    __weak typeof(self) weakSelf=self;
+    english.lookupWord=^(NSRange range){[weakSelf lookupWordAtRow:indexPath.row range:range];};
+    english.playSentence=^{typeof(self) self=weakSelf;if(self)[self tableView:self.tableView didSelectRowAtIndexPath:indexPath];};
     [cell.contentView addSubview:english];
     if(_showChinese){
         UILabel *translation=NCELabel(item[@"chinese"],13,UIFontWeightRegular,NCEMuted());
@@ -155,6 +172,8 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if(indexPath.row>=_items.count)return;
+    if(_lookupActive)return;
+    _lookupRow=NSNotFound;_lookupRange=NSMakeRange(NSNotFound,0);
     _currentIndex=(int)indexPath.row;
     [NCEStudyStore recordLesson:_lesson book:_bookId sentence:_currentIndex];
     [NSUserDefaults.standardUserDefaults setInteger:_bookId forKey:@"NCEAcademyBook"];
@@ -173,6 +192,7 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {
+    if(_lookupActive || player!=_audioPlayer)return;
     if (_circleButton.selected) { [self play]; return; }
     
     if (_currentIndex < _items.count-1) {
@@ -238,11 +258,16 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 
 - (void)addRightButton
 {
-    UIButton *translation=NCEButton(self.embeddedInLesson ? NCELocalizedString(@"显示译文") : nil,@"text.bubble",NO,self,@selector(showChinese:));
+    UIButton *translation=NCEButton(self.embeddedInLesson ? NCELocalizedString(_showChinese ? @"隐藏译文" : @"显示译文") : nil,@"text.bubble",NO,self,@selector(showChinese:));
     _translationButton=translation;
     translation.frame=CGRectMake(0,0,44,44);translation.accessibilityIdentifier=@"lesson-show-translation";
     translation.accessibilityLabel=NCELocalizedString(@"显示或隐藏译文");translation.accessibilityValue=NCELocalizedString(@"中英对照");
-    if(self.embeddedInLesson){[self.view addSubview:translation];return;}
+    if(self.embeddedInLesson){
+        [self.view addSubview:translation];
+        _readingHint=NCELabel(NCELocalizedString(@"点击朗读 · 长按查词"),11,UIFontWeightRegular,NCEMuted());
+        _readingHint.accessibilityIdentifier=@"reader-word-hint";
+        [self.view addSubview:_readingHint];return;
+    }
     self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc] initWithCustomView:translation];
     if (@available(iOS 26.0, *)) self.navigationItem.rightBarButtonItem.hidesSharedBackground=YES;
 }
@@ -451,10 +476,13 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
     _continueButton.hidden = NO;
     
     [_audioPlayer pause];
+    [self updateReadingQASnapshot];
 }
 
 - (void)continue
 {
+    if(_lookupActive)return;
+    _lookupRow=NSNotFound;_lookupRange=NSMakeRange(NSNotFound,0);[self.tableView reloadData];
     if(_preparingAudio)return;
     if(!_audioPlayer){[self play];return;}
     BOOL playing = [_audioPlayer play];
@@ -488,7 +516,13 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 - (void)layoutAcademyViews
 {
     CGRect frame=[self academyContentFrame];CGFloat width=frame.size.width-32;
-    if(self.embeddedInLesson){_translationButton.frame=CGRectMake(frame.origin.x+16,frame.origin.y,width,36);_translationButton.contentHorizontalAlignment=UIControlContentHorizontalAlignmentTrailing;self.tableView.frame=CGRectMake(frame.origin.x,frame.origin.y+40,frame.size.width,MAX(0,frame.size.height-138));}
+    if(self.embeddedInLesson){
+        CGFloat translationWidth=MIN(width*0.48,MAX(112,[_translationButton sizeThatFits:CGSizeMake(width,36)].width));
+        _translationButton.frame=CGRectMake(CGRectGetMaxX(frame)-16-translationWidth,frame.origin.y,translationWidth,36);
+        _translationButton.contentHorizontalAlignment=UIControlContentHorizontalAlignmentTrailing;
+        _readingHint.frame=CGRectMake(frame.origin.x+24,frame.origin.y,width-translationWidth-16,36);
+        self.tableView.frame=CGRectMake(frame.origin.x,frame.origin.y+40,frame.size.width,MAX(0,frame.size.height-138));
+    }
     _playerView.frame=CGRectMake(frame.origin.x+16,CGRectGetMaxY(frame)-94,width,90);
     _playerSeparator.frame=CGRectMake(0,0,width,0.5);
     _positionLabel.frame=CGRectMake(0,7,48,22);_positionLabel.font=[UIFont systemFontOfSize:12 weight:UIFontWeightMedium];
@@ -529,6 +563,73 @@ static NSString* const kTextViewControllerCellReuseId = @"kTextViewControllerCel
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];[self pause];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    if(_lookupActive)[self restoreReadingAfterLookup];
+    [self updateReadingQASnapshot];
+}
+- (void)updateReadingQASnapshot {
+#if DEBUG
+    if([AdmobManager isOfflineResourceQA]){
+        NSDictionary *snapshot=@{@"sentence":@(_currentIndex),@"offset":@(self.tableView.contentOffset.y),@"time":@(_audioPlayer.currentTime),@"playing":@(_audioPlayer.isPlaying)};
+        NSData *data=[NSJSONSerialization dataWithJSONObject:snapshot options:0 error:nil];
+        _continueButton.accessibilityValue=[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    }
+#endif
+}
+- (void)restoreReadingAfterLookup {
+    [self pause];
+    if(_currentIndex==_lookupPlaybackIndex && _audioPlayer)_audioPlayer.currentTime=_lookupPlaybackTime;
+    [self.view layoutIfNeeded];
+    CGFloat minimum=-self.tableView.adjustedContentInset.top;
+    CGFloat maximum=MAX(minimum,self.tableView.contentSize.height-self.tableView.bounds.size.height+self.tableView.adjustedContentInset.bottom);
+    [self.tableView setContentOffset:CGPointMake(_lookupOffset.x,MIN(maximum,MAX(minimum,_lookupOffset.y))) animated:NO];
+    _lookupActive=NO;[self updateReadingQASnapshot];
+}
+- (void)lookupWordAtRow:(NSInteger)row range:(NSRange)range {
+    if(_lookupActive || row<0 || row>=_items.count || !self.view.window || !self.navigationController)return;
+    NSDictionary *content=[self getContentItem:row];NSString *text=content[@"english"];
+    if(range.location==NSNotFound || !range.length || NSMaxRange(range)>text.length)return;
+    _lookupActive=YES;[self pause];
+    _lookupRow=row;_lookupRange=range;_lookupOffset=self.tableView.contentOffset;
+    _lookupPlaybackIndex=_currentIndex;_lookupPlaybackTime=_audioPlayer.currentTime;
+    UITableViewCell *cell=[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
+    for(UIView *view in cell.contentView.subviews)if([view isKindOfClass:NCEReaderWordLabel.class])((NCEReaderWordLabel *)view).highlightedWord=range;
+    [[[UISelectionFeedbackGenerator alloc] init] selectionChanged];
+    NSString *surface=[text substringWithRange:range];
+    // A brief highlight confirms the exact target before navigation covers the reader.
+    __weak typeof(self) weakSelf=self;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW,(int64_t)(0.12*NSEC_PER_SEC)),dispatch_get_main_queue(),^{
+        typeof(self) self=weakSelf;if(!self || !self->_lookupActive)return;
+        UIViewController *host=self.embeddedInLesson ? self.parentViewController : self;
+        if(self.navigationController.topViewController!=host || !self.view.window){self->_lookupActive=NO;return;}
+        if(!self->_wordLookup){
+            NSMutableArray *words=[NSMutableArray new];
+            for(NSInteger book=0;book<4;book++)for(NSDictionary *word in [NCEStudyStore wordsForBook:book lesson:0]){
+                NSMutableDictionary *entry=word.mutableCopy;entry[@"lookup_name"]=[NCEWordResourceStore.sharedStore displayNameForWord:word[@"english"]];[words addObject:entry];
+            }
+            self->_wordLookup=[[NCEWordLookup alloc] initWithWords:words];
+        }
+        NSDictionary *match=[self->_wordLookup matchWord:surface bookID:self->_bookId+1 lessonID:[self->_lesson[@"id"] integerValue]];
+        if(match){
+            WordViewController *detail=[[WordViewController alloc] initWithData:@[match] withIndex:0];
+            detail.readingLookup=YES;detail.readingSurfaceWord=surface;
+            detail.readingExample=@{@"english":text,@"translation":content[@"chinese"] ?: @""};
+            detail.titleString=NCELocalizedString(@"课文查词");
+            [self.navigationController pushViewController:detail animated:YES];
+        }else{
+            UIAlertController *alert=[UIAlertController alertControllerWithTitle:surface message:NCELocalizedString(@"本地词库暂未收录这个词，可以在在线词典中查询。") preferredStyle:UIAlertControllerStyleAlert];
+            [alert addAction:[UIAlertAction actionWithTitle:NCELocalizedString(@"返回课文") style:UIAlertActionStyleCancel handler:^(UIAlertAction *action){[weakSelf restoreReadingAfterLookup];}]];
+            [alert addAction:[UIAlertAction actionWithTitle:NCELocalizedString(@"在线词典") style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+                typeof(self) self=weakSelf;if(!self)return;
+                OnlineDictionaryViewController *dictionary=[[OnlineDictionaryViewController alloc] initWithDictionaryId:0 withWord:surface];
+                [self.navigationController pushViewController:dictionary animated:YES];
+            }]];
+            [self presentViewController:alert animated:YES completion:nil];
+        }
+    });
 }
 
 @end

@@ -170,6 +170,7 @@
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {
     _continueButton.hidden=self.embeddedInLesson;_pauseButton.hidden=YES;
+    if(self.readingLookup)return;
     if(self.embeddedInLesson){[self handleWordSessionCompletionIfNeeded];return;}
     if (_currentIndex < _items.count-1) {
         [self performSelector:@selector(next) withObject:nil afterDelay:5];
@@ -262,9 +263,10 @@
     _wordImageView.accessibilityLabel=hint.length ? [NSString stringWithFormat:@"%@. %@",_chineseLabel.text,hint] : _chineseLabel.text;
     _wordImageView.hidden=_function==2;_chineseLabel.hidden=_function==2;
     _contextLabel.text=[NSString stringWithFormat:@"%@ · %@",[NSString stringWithFormat:NCELocalizedString(@"第%d册"),_bookId+1],[NSString stringWithFormat:NCELocalizedString(@"第%@课"),item[@"lesson_id"] ?: @""]];
+    if(self.readingLookup)_contextLabel.text=[NSString stringWithFormat:NCELocalizedString(@"原文：%@"),self.readingSurfaceWord ?: word];
     _countLabel.text=[NSString stringWithFormat:@"%d / %lu",_currentIndex+1,(unsigned long)_items.count];
     _progress.progress=(float)(_currentIndex+1)/MAX(1,_items.count);
-    _example=[self exampleForWord:word lesson:item[@"lesson_id"]];
+    _example=self.readingExample ?: [self exampleForWord:word lesson:item[@"lesson_id"]];
     _exampleLabel.text=_example[@"english"];
     _exampleTranslation.text=_example[@"translation"];
     _exampleView.hidden=!_example || _function==2 || _function==3;
@@ -274,7 +276,7 @@
     [self.view setNeedsLayout];
     [_audioPlayer stop];_audioPlayer=nil;
     NSString *soundPath=[NCEWordResourceStore.sharedStore audioPathForWord:word];
-    if(soundPath){_audioPlayer=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundPath] error:nil];_audioPlayer.delegate=self;[_audioPlayer play];}
+    if(soundPath){_audioPlayer=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundPath] error:nil];_audioPlayer.delegate=self;if(!self.readingLookup)[_audioPlayer play];}
     _continueButton.hidden=self.embeddedInLesson || _audioPlayer.isPlaying;_pauseButton.hidden=self.embeddedInLesson || !_audioPlayer.isPlaying;
     if(!soundPath && _currentIndex>=_items.count-1)[self handleWordSessionCompletionIfNeeded];
 }
@@ -331,6 +333,7 @@
 
 - (void)continue
 {
+    if(self.readingLookup){[self repeat];return;}
     [self willShowWordInformation];
     
     [_audioPlayer play];
@@ -364,6 +367,7 @@
 
 - (void)handleWordSessionCompletionIfNeeded
 {
+    if(self.readingLookup)return;
     if (_didHandleCompletionBreak || _currentIndex < _items.count-1) {
         return;
     }
@@ -465,6 +469,7 @@
     _continueButton.frame=_pauseButton.frame=CGRectMake(cw/2-26,y,52,52);
     _wordNext.frame=CGRectMake(cw/2+72,y+4,44,44);
     _countLabel.frame=CGRectMake(0,y+56,cw,countHeight);
+    _wordPrevious.hidden=self.readingLookup;_wordNext.hidden=self.readingLookup;_countLabel.hidden=self.readingLookup;
     if(self.embeddedInLesson){
         _contextLabel.textAlignment=NSTextAlignmentLeft;_contextLabel.frame=CGRectMake(frame.origin.x+24,frame.origin.y+4,width-124,26);
         _countLabel.textAlignment=NSTextAlignmentRight;_countLabel.frame=CGRectMake(CGRectGetMaxX(frame)-104,frame.origin.y+4,80,26);
