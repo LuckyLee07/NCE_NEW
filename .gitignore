@@ -34,6 +34,10 @@ __pycache__/
 /Docs/word-resources/qa-contact-pages/
 /ContentPipeline/**/ui-screenshots/
 
+# Local illustration source atlases and generation records; back up separately
+/ContentPipeline/word-images/academy-book[1-4]/atlases/
+/ContentPipeline/word-images/academy-book[1-4]/jobs/
+
 # Editable local copies; canonical offline lesson resources are the four ZIPs.
 /ResourceSources/lessons/
 /ResourceSources/localization-cache/
