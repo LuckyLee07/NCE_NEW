@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSString *)visualPresentationForWord:(NSString *)word bookId:(NSInteger)bookId;
 - (nullable NSString *)visualHintForWord:(NSString *)word bookId:(NSInteger)bookId;
 - (nullable NSString *)displayNameForWord:(nullable NSString *)word;
+- (nullable NSString *)phoneticForWord:(NSString *)word bookId:(NSInteger)bookId lessonId:(NSInteger)lessonId;
 - (NSString *)sourceTranslationForWord:(nullable NSString *)word fallback:(NSString *)translation;
 - (NSString *)translationForWord:(nullable NSString *)word fallback:(NSString *)translation;
 - (BOOL)answer:(NSString *)answer matchesWord:(NSString *)word;

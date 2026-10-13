@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-13",
+  "scope": "Book 1 local IPA annotation",
+  "annotation": {
+    "contexts": 624,
+    "lessons": 72,
+    "previously_blank_filled": 52,
+    "source_checked": 607,
+    "editorial_checked": 17,
+    "audio_alignment": "624 pending_listening",
+    "teacher_review": "pending",
+    "initial_round_adjustments": [
+      "employee",
+      "vase",
+      "interesting",
+      "association"
+    ],
+    "initial_round_note": "Historical adjustments; association weak-vowel choice was superseded by the independent dictionary audit. Not all differences represent categorical errors.",
+    "second_text_audit_adjustments": [
+      "chocolate",
+      "subject",
+      "medicine",
+      "uncomfortable",
+      "association"
+    ]
+  },
+  "checks": {
+    "source_and_store": "PASS: bash Tools/test_phonetics.sh; 100 pilot + 624 volume lookups, exact curriculum coverage, source checksums/phonemes, homographs, volume precedence/isolation, malformed/missing input",
+    "app_bundle": "PASS: generated phonetics-book1.json byte-identical to file in built QA app",
+    "four_books_and_practice": {
+      "status": "passed",
+      "test": "testPhoneticsFourBooksAndPractice",
+      "result_bundle": "/tmp/NCEPhoneticsBook1-rerun-20261013.xcresult",
+      "seconds": 63.957
+    },
+    "book1_large_type": {
+      "status": "passed",
+      "test": "testPhoneticsBook1CompleteLargeType",
+      "result_bundle": "/tmp/NCEPhoneticsBook1-final-20261013.xcresult",
+      "seconds": 82.69,
+      "samples": [
+        "thank you",
+        "sales reps",
+        "get up",
+        "litter basket"
+      ]
+    },
+    "second_text_audit": {
+      "report": "Docs/phonetics/book1-text-audit.json",
+      "source_and_store": "PASS: bash Tools/test_phonetics.sh; 100 pilot + 624 volume lookups and exact-string high-risk pronunciation regressions",
+      "scope_and_audit_hashes": "PASS: all 624 original curriculum keys preserved and both audited input hashes match",
+      "qa_build": "PASS: xcodebuild NCE_Content_QA build",
+      "qa_build_log": "/tmp/NCEPhoneticsBook1-text-audit-build-20261013.log",
+      "bundle_resource_sha256": "978e93df264087457d385a606f94766b722d82d72a30afb546559a953d84abfe",
+      "bundle_identity": "PASS: bundled phonetics-book1.json is byte-identical to regenerated resource",
+      "ui_retest": "Not rerun for this data-only update; existing layout tests are from the preceding annotation revision."
+    },
+    "prior_ui_scope": "The UI test results and screenshots below belong to the previous annotation revision. No layout code changed in this text audit."
+  },
+  "device": {
+    "name": "NCE Word Resources Small QA",
+    "id": "0E56F8E5-5E40-44FD-B49F-7FE923BBCE03",
+    "runtime": "iOS 26.2",
+    "app_id": "com.palmgame.NCEALL.resourceqa.local",
+    "font_category": "UICTContentSizeCategoryAccessibilityXL"
+  },
+  "test_repairs": [
+    "Initial UI tests compared screen-coordinate maxX against application width; changed to same-coordinate content bounds.",
+    "New test cleared search using backspaces at an uncontrolled insertion point; now selecting the volume resets the query before every sample.",
+    "New test scrolls the IPA into view before screenshots."
+  ],
+  "screenshots": [
+    "Docs/phonetics/book1/ui-screenshots/phonetics-book1-complete-get-up.png",
+    "Docs/phonetics/book1/ui-screenshots/phonetics-book1-complete-litter-basket.png",
+    "Docs/phonetics/book1/ui-screenshots/phonetics-book1-complete-sales-reps.png",
+    "Docs/phonetics/book1/ui-screenshots/phonetics-book1-complete-thank-you.png"
+  ],
+  "visual_review": {
+    "inspected_screenshots": 4,
+    "ipa": "All four samples show IPA within the content width at accessibility size; scrolling is needed on the small display.",
+    "existing_layout_note": "The get up sample shows the speaker control close to/overlapping the large headword; no word-title layout changes were made in this annotation task."
+  },
+  "previous_annotation_input_sha256": {
+    "ContentPipeline/phonetics/book1.tsv": "c9dfc374438cb595ca802a3789bb5009b8b7abefa7aa22fdd0fd4251986b07da",
+    "ContentPipeline/phonetics/book1-supplement.json": "6b5d65ad46cc31b941165eec22c4e07508838ad238585546610a84b37e0b37c3"
+  },
+  "input_sha256": {
+    "ContentPipeline/phonetics/book1.tsv": "084793e8390edc8dc6f8c5e442b8853243f8f41a142c26f16c35964eed3d97f6",
+    "ContentPipeline/phonetics/book1-supplement.json": "1249bc0f6d3d46a775ad60d25f112fee5e2cc6f12959c62620711a909eb66583"
+  },
+  "audio_review_2026_10_13": {
+    "report": "Docs/phonetics/book1-audio-review-summary.json",
+    "phrase_stress_text_reviewed": 17,
+    "audio_files_screened": 602,
+    "audio_contexts_screened": 624,
+    "original_audio_unchanged": true,
+    "actual_listening_complete": false,
+    "phonetics_regression": "passed"
+  }
+}

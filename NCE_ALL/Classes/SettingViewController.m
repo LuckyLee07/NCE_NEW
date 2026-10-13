@@ -55,7 +55,7 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
     cell.accessibilityIdentifier=@[@"settings-contact",@"settings-credits",@"settings-language"][indexPath.row];
     NSString *title,*detail,*symbol;
     if(indexPath.row==0){title=NCELocalizedString(@"联系与反馈");detail=@"071427li@163.com";symbol=@"envelope";}
-    else if(indexPath.row==1){title=NCELocalizedString(@"配图来源与许可");detail=NCELocalizedString(@"查看插画与资源说明");symbol=@"photo.on.rectangle";}
+    else if(indexPath.row==1){title=NCELocalizedString(@"资源来源与许可");detail=NCELocalizedString(@"查看插画与资源说明");symbol=@"photo.on.rectangle";}
     else{title=NCELocalizedString(@"语言");NSDictionary *names=@{@"zh-Hans":@"简体中文",@"zh-Hant":@"繁體中文",@"ja":@"日本語",@"ko":@"한국어"};detail=names[NCELocalization.languagePreference] ?: NCELocalizedString(@"跟随系统");symbol=@"globe";}
     [cell configureTitle:title subtitle:detail badge:nil symbol:symbol];return cell;
 }
@@ -103,7 +103,7 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
         NSString *path = [NSBundle.mainBundle.resourcePath stringByAppendingPathComponent:@"data/words/licenses/attribution.txt"];
         NSString *credits = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
         UIViewController *controller = [[UIViewController alloc] init];
-        controller.title = NCELocalizedString(@"配图来源与许可");
+        controller.title = NCELocalizedString(@"资源来源与许可");
         controller.view.backgroundColor = NCEBackground();
         UITextView *textView = [[UITextView alloc] initWithFrame:CGRectZero];
         textView.translatesAutoresizingMaskIntoConstraints = NO;
@@ -114,6 +114,9 @@ static NSString* const kSettingViewControllerCellReuseId = @"kSettingViewControl
         textView.dataDetectorTypes = UIDataDetectorTypeLink;
         textView.textContainerInset = UIEdgeInsetsMake(16, 16, 16, 16);
         textView.text = [NSString stringWithFormat:@"%@\n\n%@",NCELocalizedString(@"学院风界面的书本角色与配套插画由 AI 辅助创作。"),NCEChineseText(credits) ?: NCELocalizedString(@"配图许可文件暂不可用。")];
+        NSString *phoneticLicensePath = [NSBundle.mainBundle.resourcePath stringByAppendingPathComponent:@"data/words/Britfone-LICENSE.txt"];
+        NSString *phoneticLicense = [NSString stringWithContentsOfFile:phoneticLicensePath encoding:NSUTF8StringEncoding error:nil];
+        if (phoneticLicense.length) textView.text = [textView.text stringByAppendingFormat:@"\n\n%@\nBritfone 3.0.1\nhttps://github.com/JoseLlarena/Britfone\n\n%@", NCELocalizedString(@"英式音标数据"), phoneticLicense];
         [controller.view addSubview:textView];
         UILayoutGuide *guide = controller.view.safeAreaLayoutGuide;
         [NSLayoutConstraint activateConstraints:@[

@@ -1,0 +1,1705 @@
+{
+  "entries": [
+    {
+      "book": 1,
+      "word": "excuse",
+      "ipa": "ɪkˈskjuːz",
+      "selection_note": "Verb 原谅: voiced /z/, not noun /s/.",
+      "lesson": 1,
+      "word_id": 3338,
+      "meaning": "v.原谅",
+      "source": {
+        "key": "EXCUSE(2)",
+        "phonemes": "ɪ k s k j ˈuː z"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/excuse.wav"
+    },
+    {
+      "book": 1,
+      "word": "me",
+      "ipa": "miː",
+      "selection_note": "Citation form.",
+      "lesson": 1,
+      "word_id": 3339,
+      "meaning": "pron.我(宾格)",
+      "source": {
+        "key": "ME",
+        "phonemes": "m ˈiː"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/me.wav"
+    },
+    {
+      "book": 1,
+      "word": "yes",
+      "ipa": "jes",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3340,
+      "meaning": "ad.是的",
+      "source": {
+        "key": "YES",
+        "phonemes": "j ˈɛ s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/yes.wav"
+    },
+    {
+      "book": 1,
+      "word": "is",
+      "ipa": "ɪz",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3341,
+      "meaning": "v.be动词现在时第三人称单数",
+      "source": {
+        "key": "IS(1)",
+        "phonemes": "ɪ z"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/is.wav"
+    },
+    {
+      "book": 1,
+      "word": "this",
+      "ipa": "ðɪs",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3342,
+      "meaning": "pron.这",
+      "source": {
+        "key": "THIS(1)",
+        "phonemes": "ð ɪ s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/this.wav"
+    },
+    {
+      "book": 1,
+      "word": "your",
+      "ipa": "jɔː",
+      "selection_note": "Full form; weak connected-speech forms omitted in this pilot.",
+      "lesson": 1,
+      "word_id": 3343,
+      "meaning": "pron.你的，你们的",
+      "source": {
+        "key": "YOUR(3)",
+        "phonemes": "j ˈɔː"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/your.wav"
+    },
+    {
+      "book": 1,
+      "word": "handbag",
+      "ipa": "ˈhændbæɡ",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3344,
+      "meaning": "n.(女用)手提包",
+      "source": {
+        "key": "HANDBAG",
+        "phonemes": "h ˈæ n d b ˌæ g"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/handbag.wav"
+    },
+    {
+      "book": 1,
+      "word": "pardon",
+      "ipa": "ˈpɑːdən",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3345,
+      "meaning": "int.原谅，请再说一遍",
+      "source": {
+        "key": "PARDON",
+        "phonemes": "p ˈɑː d ə n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/pardon.wav"
+    },
+    {
+      "book": 1,
+      "word": "it",
+      "ipa": "ɪt",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3346,
+      "meaning": "pron.它",
+      "source": {
+        "key": "IT(1)",
+        "phonemes": "ɪ t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/it.wav"
+    },
+    {
+      "book": 1,
+      "word": "umbrella",
+      "ipa": "ʌmˈbrelə",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3349,
+      "meaning": "n.伞",
+      "source": {
+        "key": "UMBRELLA",
+        "phonemes": "ɐ m b ɹ ˈɛ l ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/umbrella.wav"
+    },
+    {
+      "book": 1,
+      "word": "please",
+      "ipa": "pliːz",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3350,
+      "meaning": "int.请",
+      "source": {
+        "key": "PLEASE",
+        "phonemes": "p l ˈiː z"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/please.wav"
+    },
+    {
+      "book": 1,
+      "word": "here",
+      "ipa": "hɪə",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3351,
+      "meaning": "ad.这里",
+      "source": {
+        "key": "HERE",
+        "phonemes": "h ˈɪə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/here.wav"
+    },
+    {
+      "book": 1,
+      "word": "my",
+      "ipa": "maɪ",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3352,
+      "meaning": "pron.我的",
+      "source": {
+        "key": "MY",
+        "phonemes": "m ˈaɪ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/my.wav"
+    },
+    {
+      "book": 1,
+      "word": "ticket",
+      "ipa": "ˈtɪkɪt",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3353,
+      "meaning": "n.票",
+      "source": {
+        "key": "TICKET",
+        "phonemes": "t ˈɪ k ɪ t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/ticket.wav"
+    },
+    {
+      "book": 1,
+      "word": "number",
+      "ipa": "ˈnʌmbə",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3354,
+      "meaning": "n.号码",
+      "source": {
+        "key": "NUMBER",
+        "phonemes": "n ˈɐ m b ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/number.wav"
+    },
+    {
+      "book": 1,
+      "word": "five",
+      "ipa": "faɪv",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3355,
+      "meaning": "num. 五",
+      "source": {
+        "key": "FIVE",
+        "phonemes": "f ˈaɪ v"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/five.wav"
+    },
+    {
+      "book": 1,
+      "word": "sorry",
+      "ipa": "ˈsɒri",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3356,
+      "meaning": "a.对不起的",
+      "source": {
+        "key": "SORRY",
+        "phonemes": "s ˈɒ ɹ i"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/sorry.wav"
+    },
+    {
+      "book": 1,
+      "word": "sir",
+      "ipa": "sɜː",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3357,
+      "meaning": "n.先生",
+      "source": {
+        "key": "SIR",
+        "phonemes": "s ˈɜː"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/sir.wav"
+    },
+    {
+      "book": 1,
+      "word": "good",
+      "ipa": "ɡʊd",
+      "selection_note": "",
+      "lesson": 5,
+      "word_id": 3360,
+      "meaning": "a.好",
+      "source": {
+        "key": "GOOD",
+        "phonemes": "g ˈʊ d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/good.wav"
+    },
+    {
+      "book": 1,
+      "word": "morning",
+      "ipa": "ˈmɔːnɪŋ",
+      "selection_note": "",
+      "lesson": 5,
+      "word_id": 3361,
+      "meaning": "n.早晨",
+      "source": {
+        "key": "MORNING",
+        "phonemes": "m ˈɔː n ɪ ŋ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/morning.wav"
+    },
+    {
+      "book": 1,
+      "word": "Miss",
+      "ipa": "mɪs",
+      "selection_note": "Title; original case preserved.",
+      "lesson": 5,
+      "word_id": 3362,
+      "meaning": "小姐",
+      "source": {
+        "key": "MISS",
+        "phonemes": "m ˈɪ s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/miss.wav"
+    },
+    {
+      "book": 1,
+      "word": "new",
+      "ipa": "njuː",
+      "selection_note": "",
+      "lesson": 5,
+      "word_id": 3363,
+      "meaning": "a.新的",
+      "source": {
+        "key": "NEW",
+        "phonemes": "n j ˈuː"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/new.wav"
+    },
+    {
+      "book": 1,
+      "word": "student",
+      "ipa": "ˈstjuːdənt",
+      "selection_note": "",
+      "lesson": 5,
+      "word_id": 3364,
+      "meaning": "n.学生",
+      "source": {
+        "key": "STUDENT",
+        "phonemes": "s t j ˈuː d ə n t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/student.wav"
+    },
+    {
+      "book": 1,
+      "word": "French",
+      "ipa": "frentʃ",
+      "selection_note": "",
+      "lesson": 5,
+      "word_id": 3365,
+      "meaning": "a.& n.法国人",
+      "source": {
+        "key": "FRENCH",
+        "phonemes": "f ɹ ˈɛ n tʃ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/French.wav"
+    },
+    {
+      "book": 1,
+      "word": "German",
+      "ipa": "ˈdʒɜːmən",
+      "selection_note": "",
+      "lesson": 5,
+      "word_id": 3366,
+      "meaning": "a.& n.德国人",
+      "source": {
+        "key": "GERMAN",
+        "phonemes": "dʒ ˈɜː m ə n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/German.wav"
+    },
+    {
+      "book": 2,
+      "word": "private",
+      "ipa": "ˈpraɪvɪt",
+      "selection_note": "Retain source weak vowel /ɪ/.",
+      "lesson": 1,
+      "word_id": 3965,
+      "meaning": "a.私人的",
+      "source": {
+        "key": "PRIVATE",
+        "phonemes": "p ɹ ˈaɪ v ɪ t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/private.wav"
+    },
+    {
+      "book": 2,
+      "word": "conversation",
+      "ipa": "ˌkɒnvəˈseɪʃən",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3966,
+      "meaning": "n.谈话",
+      "source": {
+        "key": "CONVERSATION",
+        "phonemes": "k ˌɒ n v ə s ˈeɪ ʃ ə n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/conversation.wav"
+    },
+    {
+      "book": 2,
+      "word": "theatre",
+      "ipa": "ˈθɪətə",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3967,
+      "meaning": "n.剧场，戏院",
+      "source": {
+        "key": "THEATRE",
+        "phonemes": "θ ˈɪə t ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/theatre.wav"
+    },
+    {
+      "book": 2,
+      "word": "seat",
+      "ipa": "siːt",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3968,
+      "meaning": "n.座位",
+      "source": {
+        "key": "SEAT",
+        "phonemes": "s ˈiː t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/seat.wav"
+    },
+    {
+      "book": 2,
+      "word": "play",
+      "ipa": "pleɪ",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3969,
+      "meaning": "n.戏；v.玩,游戏",
+      "source": {
+        "key": "PLAY",
+        "phonemes": "p l ˈeɪ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/play.wav"
+    },
+    {
+      "book": 2,
+      "word": "loudly",
+      "ipa": "ˈlaʊdli",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3970,
+      "meaning": "ad.大声地",
+      "source": {
+        "key": "LOUDLY",
+        "phonemes": "l ˈaʊ d l i"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/loudly.wav"
+    },
+    {
+      "book": 2,
+      "word": "angry",
+      "ipa": "ˈæŋɡri",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3971,
+      "meaning": "a.生气的",
+      "source": {
+        "key": "ANGRY",
+        "phonemes": "ˈæ ŋ g ɹ i"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/angry.wav"
+    },
+    {
+      "book": 2,
+      "word": "angrily",
+      "ipa": "ˈæŋɡrɪli",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3972,
+      "meaning": "ad.生气地",
+      "source": {
+        "key": "ANGRILY",
+        "phonemes": "ˈæ ŋ g ɹ ɪ l i"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/angrily.wav"
+    },
+    {
+      "book": 2,
+      "word": "attention",
+      "ipa": "əˈtenʃən",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3973,
+      "meaning": "n.注意",
+      "source": {
+        "key": "ATTENTION",
+        "phonemes": "ə t ˈɛ n ʃ ə n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/attention.wav"
+    },
+    {
+      "book": 2,
+      "word": "bear",
+      "ipa": "beə",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3974,
+      "meaning": "v.容忍",
+      "source": {
+        "key": "BEAR",
+        "phonemes": "b ˈɛə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/bear.wav"
+    },
+    {
+      "book": 2,
+      "word": "business",
+      "ipa": "ˈbɪznɪs",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 3975,
+      "meaning": "n.事；商业,生意",
+      "source": {
+        "key": "BUSINESS",
+        "phonemes": "b ˈɪ z n ɪ s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/business.wav"
+    },
+    {
+      "book": 2,
+      "word": "until",
+      "ipa": "ʌnˈtɪl",
+      "selection_note": "Retain source initial /ʌ/ variant.",
+      "lesson": 2,
+      "word_id": 3977,
+      "meaning": "prep.直到",
+      "source": {
+        "key": "UNTIL",
+        "phonemes": "ɐ n t ˈɪ l"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/until.wav"
+    },
+    {
+      "book": 2,
+      "word": "outside",
+      "ipa": "ˌaʊtˈsaɪd",
+      "selection_note": "Adverb in the lesson; final primary stress.",
+      "lesson": 2,
+      "word_id": 3978,
+      "meaning": "ad.外面",
+      "source": {
+        "key": "OUTSIDE(1)",
+        "phonemes": "ˈaʊ t s aɪ d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/outside.wav"
+    },
+    {
+      "book": 2,
+      "word": "ring",
+      "ipa": "rɪŋ",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 3979,
+      "meaning": "v.(铃、电话等)响",
+      "source": {
+        "key": "RING",
+        "phonemes": "ɹ ˈɪ ŋ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/ring.wav"
+    },
+    {
+      "book": 2,
+      "word": "aunt",
+      "ipa": "ɑːnt",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 3980,
+      "meaning": "n.姑母，姨母",
+      "source": {
+        "key": "AUNT",
+        "phonemes": "ˈɑː n t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/aunt.wav"
+    },
+    {
+      "book": 2,
+      "word": "repeat",
+      "ipa": "rɪˈpiːt",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 3981,
+      "meaning": "v./n.重复",
+      "source": {
+        "key": "REPEAT",
+        "phonemes": "ɹ ɪ p ˈiː t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/repeat.wav"
+    },
+    {
+      "book": 2,
+      "word": "send",
+      "ipa": "send",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3982,
+      "meaning": "v.寄，送",
+      "source": {
+        "key": "SEND",
+        "phonemes": "s ˈɛ n d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/send.wav"
+    },
+    {
+      "book": 2,
+      "word": "postcard",
+      "ipa": "ˈpəʊstkɑːd",
+      "selection_note": "Select variant retaining /t/.",
+      "lesson": 3,
+      "word_id": 3983,
+      "meaning": "n.明信片",
+      "source": {
+        "key": "POSTCARD(2)",
+        "phonemes": "p ˈəʊ s t k ˌɑː d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/postcard.wav"
+    },
+    {
+      "book": 2,
+      "word": "spoil",
+      "ipa": "spɔɪl",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3984,
+      "meaning": "v.毁掉",
+      "source": {
+        "key": "SPOIL",
+        "phonemes": "s p ˈɔɪ l"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/spoil.wav"
+    },
+    {
+      "book": 2,
+      "word": "museum",
+      "ipa": "mjuːˈzɪəm",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3985,
+      "meaning": "n.博物馆",
+      "source": {
+        "key": "MUSEUM",
+        "phonemes": "m j uː z ˈɪə m"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/museum.wav"
+    },
+    {
+      "book": 2,
+      "word": "public",
+      "ipa": "ˈpʌblɪk",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3986,
+      "meaning": "a.公共的",
+      "source": {
+        "key": "PUBLIC",
+        "phonemes": "p ˈɐ b l ɪ k"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/public.wav"
+    },
+    {
+      "book": 2,
+      "word": "friendly",
+      "ipa": "ˈfrendli",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3987,
+      "meaning": "a.友好的",
+      "source": {
+        "key": "FRIENDLY",
+        "phonemes": "f ɹ ˈɛ n d l i"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/friendly.wav"
+    },
+    {
+      "book": 2,
+      "word": "waiter",
+      "ipa": "ˈweɪtə",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3988,
+      "meaning": "n.服务员，招待员",
+      "source": {
+        "key": "WAITER",
+        "phonemes": "w ˈeɪ t ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/waiter.wav"
+    },
+    {
+      "book": 2,
+      "word": "lend",
+      "ipa": "lend",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 3989,
+      "meaning": "vt.借给",
+      "source": {
+        "key": "LEND",
+        "phonemes": "l ˈɛ n d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/lend.wav"
+    },
+    {
+      "book": 2,
+      "word": "Los Angeles",
+      "ipa": "lɒs ˈændʒɪliːz",
+      "selection_note": "Multiword place name; source underscores restored as word spaces.",
+      "lesson": 94,
+      "word_id": 4804,
+      "meaning": "洛杉矶",
+      "source": {
+        "key": "LOS_ANGELES",
+        "phonemes": "l ɒ s ˈæ n dʒ ɪ l ˌiː z"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/Los Angeles.wav"
+    },
+    {
+      "book": 3,
+      "word": "puma",
+      "ipa": "ˈpjuːmə",
+      "selection_note": "British /pj/ pronunciation.",
+      "lesson": 1,
+      "word_id": 4827,
+      "meaning": "n.美洲狮",
+      "source": {
+        "key": "PUMA",
+        "phonemes": "p j ˈuː m ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/puma.wav"
+    },
+    {
+      "book": 3,
+      "word": "spot",
+      "ipa": "spɒt",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4828,
+      "meaning": "v.看出，发现",
+      "source": {
+        "key": "SPOT",
+        "phonemes": "s p ˈɒ t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/spot.wav"
+    },
+    {
+      "book": 3,
+      "word": "evidence",
+      "ipa": "ˈevɪdəns",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4829,
+      "meaning": "n.证据",
+      "source": {
+        "key": "EVIDENCE",
+        "phonemes": "ˈɛ v ɪ d ə n s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/evidence.wav"
+    },
+    {
+      "book": 3,
+      "word": "accumulate",
+      "ipa": "əˈkjuːmjʊleɪt",
+      "selection_note": "Retain source weak vowel /ʊ/.",
+      "lesson": 1,
+      "word_id": 4830,
+      "meaning": "v.积累，积聚",
+      "source": {
+        "key": "ACCUMULATE",
+        "phonemes": "ə k j ˈuː m j ʊ l ˌeɪ t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/accumulate.wav"
+    },
+    {
+      "book": 3,
+      "word": "oblige",
+      "ipa": "əˈblaɪdʒ",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4831,
+      "meaning": "v.使…感到必须",
+      "source": {
+        "key": "OBLIGE",
+        "phonemes": "ə b l ˈaɪ dʒ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/oblige.wav"
+    },
+    {
+      "book": 3,
+      "word": "hunt",
+      "ipa": "hʌnt",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4832,
+      "meaning": "n.追猎；寻找；v.打猎",
+      "source": {
+        "key": "HUNT",
+        "phonemes": "h ˈɐ n t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/hunt.wav"
+    },
+    {
+      "book": 3,
+      "word": "blackberry",
+      "ipa": "ˈblækbəri",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4833,
+      "meaning": "n.黑莓",
+      "source": {
+        "key": "BLACKBERRY",
+        "phonemes": "b l ˈæ k b ə ɹ i"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/blackberry.wav"
+    },
+    {
+      "book": 3,
+      "word": "human",
+      "ipa": "ˈhjuːmən",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4834,
+      "meaning": "人类",
+      "source": {
+        "key": "HUMAN",
+        "phonemes": "h j ˈuː m ə n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/human.wav"
+    },
+    {
+      "book": 3,
+      "word": "corner",
+      "ipa": "ˈkɔːnə",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4835,
+      "meaning": "v.使走投无路，使陷入困境；n.角落",
+      "source": {
+        "key": "CORNER",
+        "phonemes": "k ˈɔː n ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/corner.wav"
+    },
+    {
+      "book": 3,
+      "word": "trail",
+      "ipa": "treɪl",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4836,
+      "meaning": "n.一串，一系列",
+      "source": {
+        "key": "TRAIL",
+        "phonemes": "t ɹ ˈeɪ l"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/trail.wav"
+    },
+    {
+      "book": 3,
+      "word": "print",
+      "ipa": "prɪnt",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4837,
+      "meaning": "n.印痕",
+      "source": {
+        "key": "PRINT",
+        "phonemes": "p ɹ ˈɪ n t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/print.wav"
+    },
+    {
+      "book": 3,
+      "word": "cling",
+      "ipa": "klɪŋ",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4838,
+      "meaning": "v.粘",
+      "source": {
+        "key": "CLING",
+        "phonemes": "k l ˈɪ ŋ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/cling.wav"
+    },
+    {
+      "book": 3,
+      "word": "convince",
+      "ipa": "kənˈvɪns",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4839,
+      "meaning": "v.使…信服",
+      "source": {
+        "key": "CONVINCE",
+        "phonemes": "k ə n v ˈɪ n s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/convince.wav"
+    },
+    {
+      "book": 3,
+      "word": "somehow",
+      "ipa": "ˈsʌmhaʊ",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4840,
+      "meaning": "ad.不知怎么搞的，不知什么原因",
+      "source": {
+        "key": "SOMEHOW",
+        "phonemes": "s ˈɐ m h ˌaʊ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/somehow.wav"
+    },
+    {
+      "book": 3,
+      "word": "disturb",
+      "ipa": "dɪˈstɜːb",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 4841,
+      "meaning": "v.令人不安",
+      "source": {
+        "key": "DISTURB",
+        "phonemes": "d ɪ s t ˈɜː b"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/disturb.wav"
+    },
+    {
+      "book": 3,
+      "word": "equal",
+      "ipa": "ˈiːkwəl",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 4842,
+      "meaning": "v.等于",
+      "source": {
+        "key": "EQUAL",
+        "phonemes": "ˈiː k w ə l"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/equal.wav"
+    },
+    {
+      "book": 3,
+      "word": "vicar",
+      "ipa": "ˈvɪkə",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 4843,
+      "meaning": "n.牧师",
+      "source": {
+        "key": "VICAR",
+        "phonemes": "v ˈɪ k ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/vicar.wav"
+    },
+    {
+      "book": 3,
+      "word": "raise",
+      "ipa": "reɪz",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 4844,
+      "meaning": "v.募集，筹(款)",
+      "source": {
+        "key": "RAISE",
+        "phonemes": "ɹ ˈeɪ z"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/raise.wav"
+    },
+    {
+      "book": 3,
+      "word": "goddess",
+      "ipa": "ˈɡɒdəs",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 4846,
+      "meaning": "n.女神",
+      "source": {
+        "key": "GODDESS",
+        "phonemes": "g ˈɒ d ə s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/goddess.wav"
+    },
+    {
+      "book": 3,
+      "word": "explore",
+      "ipa": "ɪkˈsplɔː",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 4849,
+      "meaning": "v.考察，勘探",
+      "source": {
+        "key": "EXPLORE",
+        "phonemes": "ɪ k s p l ˈɔː"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/explore.wav"
+    },
+    {
+      "book": 3,
+      "word": "civilization",
+      "ipa": "ˌsɪvɪlaɪˈzeɪʃən",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 4852,
+      "meaning": "n.文明",
+      "source": {
+        "key": "CIVILIZATION",
+        "phonemes": "s ˌɪ v ɪ l aɪ z ˈeɪ ʃ ə n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/civilization.wav"
+    },
+    {
+      "book": 3,
+      "word": "drainage",
+      "ipa": "ˈdreɪnɪdʒ",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 4854,
+      "meaning": "n.排水",
+      "source": {
+        "key": "DRAINAGE",
+        "phonemes": "d ɹ ˈeɪ n ɪ dʒ"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/drainage.wav"
+    },
+    {
+      "book": 3,
+      "word": "worship",
+      "ipa": "ˈwɜːʃɪp",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 4855,
+      "meaning": "n.祟拜",
+      "source": {
+        "key": "WORSHIP",
+        "phonemes": "w ˈɜː ʃ ɪ p"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/worship.wav"
+    },
+    {
+      "book": 3,
+      "word": "sacred",
+      "ipa": "ˈseɪkrɪd",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 4856,
+      "meaning": "a.宗教的，神圣的",
+      "source": {
+        "key": "SACRED",
+        "phonemes": "s ˈeɪ k ɹ ɪ d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/sacred.wav"
+    },
+    {
+      "book": 3,
+      "word": "fragment",
+      "ipa": "ˈfræɡmənt",
+      "selection_note": "Noun 碎片.",
+      "lesson": 3,
+      "word_id": 4857,
+      "meaning": "n.碎片",
+      "source": {
+        "key": "FRAGMENT",
+        "phonemes": "f ɹ ˈæ g m ə n t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/fragment.wav"
+    },
+    {
+      "book": 4,
+      "word": "saga",
+      "ipa": "ˈsɑːɡə",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 5883,
+      "meaning": "n.英雄故事",
+      "source": {
+        "key": "SAGA",
+        "phonemes": "s ˈɑː g ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/saga.wav"
+    },
+    {
+      "book": 4,
+      "word": "legend",
+      "ipa": "ˈledʒənd",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 5884,
+      "meaning": "n.传说，传奇",
+      "source": {
+        "key": "LEGEND",
+        "phonemes": "l ˈɛ dʒ ə n d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/legend.wav"
+    },
+    {
+      "book": 4,
+      "word": "migration",
+      "ipa": "maɪˈɡreɪʃən",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 5885,
+      "meaning": "n.迁移，移居",
+      "source": {
+        "key": "MIGRATION",
+        "phonemes": "m aɪ g ɹ ˈeɪ ʃ ə n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/migration.wav"
+    },
+    {
+      "book": 4,
+      "word": "ancestor",
+      "ipa": "ˈænsestə",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 5888,
+      "meaning": "n.祖先",
+      "source": {
+        "key": "ANCESTOR",
+        "phonemes": "ˈæ n s ˌɛ s t ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/ancestor.wav"
+    },
+    {
+      "book": 4,
+      "word": "Indonesia",
+      "ipa": "ˌɪndəˈniːʒə",
+      "selection_note": "Proper name.",
+      "lesson": 1,
+      "word_id": 5890,
+      "meaning": "n.印度尼西亚",
+      "source": {
+        "key": "INDONESIA",
+        "phonemes": "ˌɪ n d ə n ˈiː ʒ ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/Indonesia.wav"
+    },
+    {
+      "book": 4,
+      "word": "flint",
+      "ipa": "flɪnt",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 5891,
+      "meaning": "n.燧石",
+      "source": {
+        "key": "FLINT",
+        "phonemes": "f l ˈɪ n t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/flint.wav"
+    },
+    {
+      "book": 4,
+      "word": "rot",
+      "ipa": "rɒt",
+      "selection_note": "",
+      "lesson": 1,
+      "word_id": 5892,
+      "meaning": "v.烂掉",
+      "source": {
+        "key": "ROT",
+        "phonemes": "ɹ ˈɒ t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/rot.wav"
+    },
+    {
+      "book": 4,
+      "word": "beast",
+      "ipa": "biːst",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 5893,
+      "meaning": "n.野兽",
+      "source": {
+        "key": "BEAST",
+        "phonemes": "b ˈiː s t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/beast.wav"
+    },
+    {
+      "book": 4,
+      "word": "census",
+      "ipa": "ˈsensəs",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 5894,
+      "meaning": "n.统计数字",
+      "source": {
+        "key": "CENSUS",
+        "phonemes": "s ˈɛ n s ə s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/census.wav"
+    },
+    {
+      "book": 4,
+      "word": "acre",
+      "ipa": "ˈeɪkə",
+      "selection_note": "",
+      "lesson": 2,
+      "word_id": 5895,
+      "meaning": "n.英亩",
+      "source": {
+        "key": "ACRE",
+        "phonemes": "ˈeɪ k ə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/acre.wav"
+    },
+    {
+      "book": 4,
+      "word": "content",
+      "ipa": "kənˈtent",
+      "selection_note": "Adjective 满足的; do not use noun /ˈkɒntent/.",
+      "lesson": 2,
+      "word_id": 5896,
+      "meaning": "a.满足的",
+      "source": {
+        "key": "CONTENT(1)",
+        "phonemes": "k ə n t ˈɛ n t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/content.wav"
+    },
+    {
+      "book": 4,
+      "word": "pioneer",
+      "ipa": "ˌpaɪəˈnɪə",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 5899,
+      "meaning": "v.开辟，倡导;n.先锋，开辟者",
+      "source": {
+        "key": "PIONEER",
+        "phonemes": "p ˌaɪ ə n ˈɪə"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/pioneer.wav"
+    },
+    {
+      "book": 4,
+      "word": "summit",
+      "ipa": "ˈsʌmɪt",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 5900,
+      "meaning": "n.顶峰",
+      "source": {
+        "key": "SUMMIT",
+        "phonemes": "s ˈɐ m ɪ t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/summit.wav"
+    },
+    {
+      "book": 4,
+      "word": "attain",
+      "ipa": "əˈteɪn",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 5901,
+      "meaning": "v.到达",
+      "source": {
+        "key": "ATTAIN",
+        "phonemes": "ə t ˈeɪ n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/attain.wav"
+    },
+    {
+      "book": 4,
+      "word": "court",
+      "ipa": "kɔːt",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 5904,
+      "meaning": "v.追求",
+      "source": {
+        "key": "COURT",
+        "phonemes": "k ˈɔː t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/court.wav"
+    },
+    {
+      "book": 4,
+      "word": "Alpine",
+      "ipa": "ˈælpaɪn",
+      "selection_note": "Proper adjective.",
+      "lesson": 3,
+      "word_id": 5907,
+      "meaning": "a.阿尔卑斯山的",
+      "source": {
+        "key": "ALPINE",
+        "phonemes": "ˈæ l p ˌaɪ n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/Alpine.wav"
+    },
+    {
+      "book": 4,
+      "word": "coarse",
+      "ipa": "kɔːs",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 5909,
+      "meaning": "a.粗劣的",
+      "source": {
+        "key": "COARSE",
+        "phonemes": "k ˈɔː s"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/coarse.wav"
+    },
+    {
+      "book": 4,
+      "word": "boast",
+      "ipa": "bəʊst",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 5910,
+      "meaning": "v.自恃有",
+      "source": {
+        "key": "BOAST",
+        "phonemes": "b ˈəʊ s t"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/boast.wav"
+    },
+    {
+      "book": 4,
+      "word": "shepherd",
+      "ipa": "ˈʃepəd",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 5912,
+      "meaning": "n.牧羊人",
+      "source": {
+        "key": "SHEPHERD",
+        "phonemes": "ʃ ˈɛ p ə d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/shepherd.wav"
+    },
+    {
+      "book": 4,
+      "word": "linen",
+      "ipa": "ˈlɪnɪn",
+      "selection_note": "",
+      "lesson": 3,
+      "word_id": 5913,
+      "meaning": "n.亚麻布",
+      "source": {
+        "key": "LINEN",
+        "phonemes": "l ˈɪ n ɪ n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/linen.wav"
+    },
+    {
+      "book": 4,
+      "word": "solid",
+      "ipa": "ˈsɒlɪd",
+      "selection_note": "",
+      "lesson": 4,
+      "word_id": 5915,
+      "meaning": "a.坚实的",
+      "source": {
+        "key": "SOLID",
+        "phonemes": "s ˈɒ l ɪ d"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/solid.wav"
+    },
+    {
+      "book": 4,
+      "word": "safe",
+      "ipa": "seɪf",
+      "selection_note": "",
+      "lesson": 4,
+      "word_id": 5916,
+      "meaning": "n.保险柜",
+      "source": {
+        "key": "SAFE",
+        "phonemes": "s ˈeɪ f"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/safe.wav"
+    },
+    {
+      "book": 4,
+      "word": "commission",
+      "ipa": "kəˈmɪʃən",
+      "selection_note": "",
+      "lesson": 4,
+      "word_id": 5918,
+      "meaning": "n.委员会",
+      "source": {
+        "key": "COMMISSION",
+        "phonemes": "k ə m ˈɪ ʃ ə n"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/commission.wav"
+    },
+    {
+      "book": 4,
+      "word": "leave",
+      "ipa": "liːv",
+      "selection_note": "",
+      "lesson": 5,
+      "word_id": 5923,
+      "meaning": "n.允许",
+      "source": {
+        "key": "LEAVE",
+        "phonemes": "l ˈiː v"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/leave.wav"
+    },
+    {
+      "book": 4,
+      "word": "fundamentals",
+      "ipa": "ˌfʌndəˈmentəlz",
+      "selection_note": "Plural ending retained.",
+      "lesson": 5,
+      "word_id": 5924,
+      "meaning": "n.基本原则",
+      "source": {
+        "key": "FUNDAMENTALS",
+        "phonemes": "f ˌɐ n d ə m ˈɛ n t ə l z"
+      },
+      "reviewer": "assistant",
+      "text_review": "source_checked",
+      "audio_alignment": "pending_listening",
+      "audio_path": "NCE_ALL/data/words/wav/fundamentals.wav"
+    }
+  ],
+  "audio_note": "Dictionary IPA is source-checked; existing recordings are unchanged and not yet certified as matching every IPA."
+}

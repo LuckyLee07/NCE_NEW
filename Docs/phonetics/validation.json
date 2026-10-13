@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-13",
+  "phase": "P0 + P1 local pilot",
+  "device": "iPhone 12 Pro / iOS 26.2",
+  "checks": {
+    "source_and_store": "PASS: fixed-source checksums, phoneme sequence matching, all 100 context lookups, missing/malformed data and wrong context fallback",
+    "localizations": "PASS: four Localizable.strings files pass plutil",
+    "four_books_and_practice": "PASS: all four books, missing phrase, five practice modes",
+    "reader_lookup": "PASS: Pumas → puma IPA, same sentence/offset/nonzero playback position, paused on return and resumable",
+    "wordbook_large_type": "PASS on rerun: content adjective, Los Angeles, puma; no IPA overlap",
+    "signed_experience_build": "PASS; bundled pilot and license byte-equal to generated files",
+    "git_diff_check": "PASS"
+  },
+  "initial_test_failure": {
+    "test": "testPhoneticsWordbookLargeType",
+    "cause": "Test tried to click word-pause after the short recording had ended and hidden the button.",
+    "resolution": "Removed unnecessary pause action from the single-result wordbook test; all three samples passed."
+  },
+  "evidence": {
+    "screenshots": "Docs/phonetics/screenshots",
+    "initial_result": "/tmp/nce-phonetics-p1-20261013.xcresult",
+    "large_type_rerun": "/tmp/nce-phonetics-p1-large-rerun.xcresult"
+  },
+  "limits": [
+    "Pilot only: 25 selected contexts per book, not all vocabulary",
+    "Audio alignment for all 100 entries remains pending_listening; do not treat source_checked as audio or teacher certification",
+    "This pass used one iPhone simulator; no new iPad or physical-device checks"
+  ],
+  "simulator": {
+    "preexisting_booted_device": "70D597C8-0C59-472B-9B96-BFDF11696EBA",
+    "devices_booted_by_this_pass": [],
+    "cleanup": "No additional simulators started; preexisting device left as found"
+  },
+  "commit": "Not committed; unrelated illustrations and prior local changes preserved"
+}

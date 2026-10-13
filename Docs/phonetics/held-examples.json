@@ -1,0 +1,34 @@
+{
+  "note": "历史代表性缺失案例，不是全量缺失清单；已解决条目保留解决记录。",
+  "entries": [
+    {
+      "book": 1,
+      "lesson": 1,
+      "word": "thank you",
+      "meaning": "vt.感谢",
+      "status": "resolved_source_checked",
+      "reason": "固定 Britfone 源没有完整词条；不通过单词拼接猜测短语/专名读音",
+      "next_action": "随第一卷完成录音对照及教师终审",
+      "resolution": "2026-10-13 第一卷全量标注：按 Cambridge UK 整体词条核对 /ˈθæŋk ˌjuː/。",
+      "reference_url": "https://dictionary.cambridge.org/pronunciation/english/thank-you"
+    },
+    {
+      "book": 4,
+      "lesson": 1,
+      "word": "fossil man",
+      "meaning": "a.化石人",
+      "status": "held",
+      "reason": "固定 Britfone 源没有完整词条；不通过单词拼接猜测短语/专名读音",
+      "next_action": "补充可用来源并审校后单独纳入"
+    },
+    {
+      "book": 4,
+      "lesson": 3,
+      "word": "Matterhorn",
+      "meaning": "n.马特霍恩峰(阿尔卑斯山峰之一)",
+      "status": "held",
+      "reason": "固定 Britfone 源没有完整词条；不通过单词拼接猜测短语/专名读音",
+      "next_action": "补充可用来源并审校后单独纳入"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "phase": "P2 book 1 complete local annotation + books 2–4 pilot",
+  "date": "2026-10-13",
+  "scope": {
+    "records": 699,
+    "per_book": {
+      "1": 624,
+      "2": 25,
+      "3": 25,
+      "4": 25
+    },
+    "full_curriculum": false,
+    "accent": "en-GB",
+    "render": "英 /IPA/，英文下方、释义上方；灰蓝辅文；随动态字体缩放",
+    "book1_complete": true
+  },
+  "source": {
+    "name": "Britfone 3.0.1",
+    "url": "https://github.com/JoseLlarena/Britfone",
+    "commit": "1062be14adc96c358f2087ac5449d72130c7a6f4",
+    "license": "MIT",
+    "archived_at": "ContentPipeline/phonetics/vendor/Britfone",
+    "license_in_app": "设置 → 资源来源与许可"
+  },
+  "notation": {
+    "system": "宽式英式 IPA，独立词的词典读音",
+    "normalization": [
+      "ɹ → r",
+      "ɛ → e",
+      "ɐ → ʌ",
+      "g → ɡ",
+      "去除音素间空格；多词词条保留词间空格",
+      "源数据重音附于元音；试点逐条调整为重读音节前；单音节不标重音",
+      "保留来源支持的弱元音变体，不用规则自动猜测词义或拼接短语重音",
+      "分卷补充表可按词典核对更正固定源错误；短语中性读法逐条编写并标记 editorial_checked，不以组件音素匹配冒充整句重音认证。"
+    ],
+    "validation": "去空格、重音及上述记号差异后的音素序列须与一个固定版本源词条一致；该校验不等于重音/词义/录音校对"
+  },
+  "identity": {
+    "key": "book_id|lesson_id|原始 word_name",
+    "surface_forms": "复数等课文表面词由已有查词逻辑定位词条，音标随词条；不为表面词自动造音标",
+    "homographs": "按当前课文词性和词义选读音，不跨课自动回填",
+    "pilot_context": "第二至四卷仍为每卷25条试点；第一卷按72个正式词汇课逐条覆盖，非课内测试词 extra 不纳入。"
+  },
+  "review": {
+    "source_checked": "按固定源或补充词典核对音素、词义和显示格式；表示文字来源检查，不代表录音或教师终审通过。",
+    "audio_alignment": "第一卷602个录音文件覆盖624条词汇，已完成解码、波形与两轮音素筛查；自动识别不足以认证英式音素、重音及元音长度，全部仍 pending_listening。18个候选未获可靠确认，原录音未修改。第二至四卷75条仍 pending_listening。",
+    "human_review": "尚未进行英语教师人工终审",
+    "release_gate": "本阶段为用户要求的逐卷本地标注；正式发布前逐条对照单词录音，并完成教师终审，重点复核17条编辑短语、重音、多音词和弱元音；冲突条目修正或移出发布清单。",
+    "missing": "不猜读音、不显示空斜线、不占布局高度",
+    "editorial_checked": "第一卷17条编辑短语已逐项复核中性文字重音并保留，组件音素核对固定源；属于助理语言学复核，未冒充整词典认证或录音重音听审。"
+  },
+  "priority_next": [
+    "完成第一卷624条实际录音听审，优先确认18个候选、多音词和17条短语录音重音；自动筛查结果不能充当听审通过。",
+    "按同样的可追溯格式继续第二卷，再第三、四卷",
+    "正式发布前完成录音差异处置及教师终审"
+  ],
+  "checks": [
+    "第一卷624条与数据库72个正式词汇课集合完全一致，无漏项/重复/额外词",
+    "固定源校验和、显式源词条及音素匹配；补充词典/编辑短语分别记录",
+    "第一卷文件优先于试点，不能注入其他卷；缺文件及坏数据安全回退",
+    "所有624条及100条历史试点查询回归",
+    "小屏大字体短语显示、四卷显示和练习音标隐藏",
+    "2026-10-13 全量文字复核，重点词独立词典交叉核对；详见 book1-text-audit.json，未冒充录音或教师审校"
+  ],
+  "book1_sources": {
+    "curation": "ContentPipeline/phonetics/book1.tsv",
+    "supplement": "ContentPipeline/phonetics/book1-supplement.json",
+    "ledger": "Docs/phonetics/book1-review.json",
+    "coverage": "Docs/phonetics/book1-validation.json",
+    "text_audit": "Docs/phonetics/book1-text-audit.json",
+    "phrase_stress": "Docs/phonetics/book1-phrase-stress-review.json",
+    "audio_review": "Docs/phonetics/book1-audio-review-summary.json"
+  }
+}

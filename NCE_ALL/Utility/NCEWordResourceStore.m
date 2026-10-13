@@ -5,6 +5,7 @@
 @property (nonatomic, copy) NSString *rootDirectory;
 @property (nonatomic, copy) NSDictionary *wordIndex;
 @property (nonatomic, copy) NSDictionary *editorialOverrides;
+@property (nonatomic, copy) NSDictionary *phonetics;
 @property (nonatomic, copy) NSDictionary<NSNumber *, NSDictionary *> *academyBooks;
 - (NSString *)existingPathForRelativePath:(NSString *)relativePath extension:(NSString *)extension;
 @end
@@ -27,6 +28,25 @@
     self = [super init];
     if (self) {
         _rootDirectory = directory.copy;
+        NSData *phoneticData = [NSData dataWithContentsOfFile:[directory stringByAppendingPathComponent:@"phonetics-pilot.json"]];
+        id phonetics = phoneticData ? [NSJSONSerialization JSONObjectWithData:phoneticData options:0 error:nil] : nil;
+        if ([phonetics isKindOfClass:NSDictionary.class] && [phonetics[@"format_version"] isEqual:@1] &&
+            [phonetics[@"records"] isKindOfClass:NSDictionary.class]) _phonetics = [phonetics[@"records"] copy];
+        // Reviewed volume files extend the pilot and replace only their own contexts.
+        NSMutableDictionary *mergedPhonetics = [_phonetics mutableCopy] ?: [NSMutableDictionary dictionary];
+        for (NSInteger book = 1; book <= 4; book++) {
+            NSString *filename = [NSString stringWithFormat:@"phonetics-book%ld.json", (long)book];
+            NSData *volumeData = [NSData dataWithContentsOfFile:[directory stringByAppendingPathComponent:filename]];
+            id volume = volumeData ? [NSJSONSerialization JSONObjectWithData:volumeData options:0 error:nil] : nil;
+            if (![volume isKindOfClass:NSDictionary.class] || ![volume[@"format_version"] isEqual:@1] ||
+                ![volume[@"book_id"] isEqual:@(book)] || ![volume[@"records"] isKindOfClass:NSDictionary.class]) continue;
+            NSString *prefix = [NSString stringWithFormat:@"%ld|", (long)book];
+            for (id key in volume[@"records"]) {
+                if ([key isKindOfClass:NSString.class] && [key hasPrefix:prefix])
+                    mergedPhonetics[key] = volume[@"records"][key];
+            }
+        }
+        _phonetics = mergedPhonetics.copy;
         NSData *data = [NSData dataWithContentsOfFile:[directory stringByAppendingPathComponent:@"resource-index.json"]];
         id index = data ? [NSJSONSerialization JSONObjectWithData:data options:0 error:nil] : nil;
         if ([index isKindOfClass:NSDictionary.class] && [index[@"format_version"] isKindOfClass:NSNumber.class] &&
@@ -153,6 +173,21 @@
     id record = self.editorialOverrides[word];
     id value = [record isKindOfClass:NSDictionary.class] ? record[@"display"] : nil;
     return [value isKindOfClass:NSString.class] && [value length] ? value : word;
+}
+
+- (NSString *)phoneticForWord:(NSString *)word bookId:(NSInteger)bookId lessonId:(NSInteger)lessonId
+{
+    if (!word.length || bookId < 1 || bookId > 4 || lessonId < 0) return nil;
+    // A homograph in another lesson can have a different sense and pronunciation.
+    id record = self.phonetics[[NSString stringWithFormat:@"%ld|%ld|%@", (long)bookId, (long)lessonId, word]];
+    if (![record isKindOfClass:NSDictionary.class] ||
+        (![record[@"status"] isEqual:@"source_checked"] && ![record[@"status"] isEqual:@"editorial_checked"]) ||
+        ![record[@"accent"] isEqual:@"en-GB"]) return nil;
+    id ipa = record[@"ipa"];
+    if (![ipa isKindOfClass:NSString.class] || [ipa length] < 3 ||
+        ![ipa hasPrefix:@"/"] || ![ipa hasSuffix:@"/"] ||
+        [ipa rangeOfCharacterFromSet:NSCharacterSet.controlCharacterSet].location != NSNotFound) return nil;
+    return ipa;
 }
 
 - (NSString *)sourceTranslationForWord:(NSString *)word fallback:(NSString *)translation

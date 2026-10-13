@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-13",
+  "authorization": "User selected: preserve British IPA and replace recordings with confirmed conflicting readings.",
+  "method": "Candidate selection from two acoustic runs only. Subsequent synthesized British-voice checks did not reliably reproduce target phonemes; candidates are NOT confirmed pronunciation errors.",
+  "selected_count": 18,
+  "entries": [
+    {
+      "word": "after",
+      "audio_path": "NCE_ALL/data/words/wav/after.wav",
+      "before_sha256": "7f254dce470e0ae7b8642940b33043f67cf5349ed4f8da424ef02cb6d1e5d94d",
+      "ipa": "ˈɑːftə",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "æ f t ɹ̩",
+      "padded_before_phones": "æ f t ɹ̩",
+      "contexts": [
+        "1|31|after"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "afternoon",
+      "audio_path": "NCE_ALL/data/words/wav/afternoon.wav",
+      "before_sha256": "26292d1faa307dca0a46330ef741c1904d153f97822cc71637643a12975753ba",
+      "ipa": "ˌɑːftəˈnuːn",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "æ f ɹ̩ n u n",
+      "padded_before_phones": "æ f t ɹ̩ n u n",
+      "contexts": [
+        "1|55|afternoon"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "answer",
+      "audio_path": "NCE_ALL/data/words/wav/answer.wav",
+      "before_sha256": "a318ca2f446c35c27d5f3328678c8edc152fbcc44a1efaf8d46cb6572b3d6ef2",
+      "ipa": "ˈɑːnsə",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "æ n s ɹ̩",
+      "padded_before_phones": "æ n s ɹ̩",
+      "contexts": [
+        "1|71|answer",
+        "1|103|answer"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "ask",
+      "audio_path": "NCE_ALL/data/words/wav/ask.wav",
+      "before_sha256": "3e8faa21a8b12fb00644050323049c941050a11160f1d128c5240dc78c5202e9",
+      "ipa": "ɑːsk",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "æ s k",
+      "padded_before_phones": "æ s",
+      "contexts": [
+        "1|45|ask"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "bath",
+      "audio_path": "NCE_ALL/data/words/wav/bath.wav",
+      "before_sha256": "999bee2432f411f977edeb7aa762f9848ae7aef3143b91d0e2c9a6cef4a6020f",
+      "ipa": "bɑːθ",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "b æ s",
+      "padded_before_phones": "b l æ s t",
+      "contexts": [
+        "1|81|bath"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "grass",
+      "audio_path": "NCE_ALL/data/words/wav/grass.wav",
+      "before_sha256": "37e3baaec0ad139e10316a84b8c3d9937beb59dcc6bdeee9c4bbdc6d1aa5f33b",
+      "ipa": "ɡrɑːs",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "ɡ ɹ ɛ s",
+      "padded_before_phones": "ɡ ɹ æ s",
+      "contexts": [
+        "1|31|grass"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "last",
+      "audio_path": "NCE_ALL/data/words/wav/last.wav",
+      "before_sha256": "b9fe1b5c10b739de0e9d88e1ad06edf96f71c02123aa609e9697191669f38fcb",
+      "ipa": "lɑːst",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "l æ s t",
+      "padded_before_phones": "b l æ s t",
+      "contexts": [
+        "1|71|last"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "pass",
+      "audio_path": "NCE_ALL/data/words/wav/pass.wav",
+      "before_sha256": "d2f361642acec8c66c8c71ccc587184d62750015707a61ca6632cd64470882a2",
+      "ipa": "pɑːs",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "ɛ s",
+      "padded_before_phones": "p æ s",
+      "contexts": [
+        "1|103|pass"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "passport",
+      "audio_path": "NCE_ALL/data/words/wav/passport.wav",
+      "before_sha256": "1e80d181e3c5402a0818b1823ebd7e5afa30729ece0b82fb2b973049c1c43408",
+      "ipa": "ˈpɑːspɔːt",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "æ s p ɔ ɹ t s",
+      "padded_before_phones": "p æ s p ɔ ɹ t",
+      "contexts": [
+        "1|15|passport"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "photograph",
+      "audio_path": "NCE_ALL/data/words/wav/photograph.wav",
+      "before_sha256": "597b800e747a7bf60d15950e27e6b83d36d4aad3fc924f70ae59723957ea5b57",
+      "ipa": "ˈfəʊtəɡrɑːf",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "ə ɡ ɹ æ f",
+      "padded_before_phones": "f o w t ə ɡ ɹ æ f",
+      "contexts": [
+        "1|35|photograph"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "litter basket",
+      "audio_path": "NCE_ALL/data/words/wav/litter basket.wav",
+      "before_sha256": "6a28d751aaa0c9824fc04bf52528b32cf789396aefd44a16d4b27a37a54f8e16",
+      "ipa": "ˈlɪtə ˌbɑːskɪt",
+      "reason": "Both acoustic runs indicate a front vowel where the selected British annotation uses /ɑː/. If actual listening confirms the difference, normalize to that specific British citation form; the former regional form is not universally incorrect.",
+      "comparison_category": "bath_vowel",
+      "before_phones": "l ɪ t ə n b æ s k ə t",
+      "padded_before_phones": "l ɪ t ə b æ s k ə t",
+      "contexts": [
+        "1|143|litter basket"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "new",
+      "audio_path": "NCE_ALL/data/words/wav/new.wav",
+      "before_sha256": "1ab7f35dfd835d42b83338da04fa3932db3c4576ec9518ef3cdccefbb0eddb36",
+      "ipa": "njuː",
+      "reason": "Both acoustic runs omit /j/ in the sequence written /juː/ in the selected British annotation. If actual listening confirms the difference, normalize to the annotated citation form.",
+      "comparison_category": "yod",
+      "before_phones": "n",
+      "padded_before_phones": "n u",
+      "contexts": [
+        "1|5|new"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "news",
+      "audio_path": "NCE_ALL/data/words/wav/news.wav",
+      "before_sha256": "fc4879bcab503e13bc1d432d91b13e9ad3d859b6deb77768a1d88abeffb4a86b",
+      "ipa": "njuːz",
+      "reason": "Both acoustic runs omit /j/ in the sequence written /juː/ in the selected British annotation. If actual listening confirms the difference, normalize to the annotated citation form.",
+      "comparison_category": "yod",
+      "before_phones": "n u",
+      "padded_before_phones": "n u z",
+      "contexts": [
+        "1|61|news"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "student",
+      "audio_path": "NCE_ALL/data/words/wav/student.wav",
+      "before_sha256": "b9e236e205fc470a77440e2ad3d4d22472fe766a4d8a54dc28b62c782db5b6ca",
+      "ipa": "ˈstjuːdənt",
+      "reason": "Both acoustic runs omit /j/ in the sequence written /juː/ in the selected British annotation. If actual listening confirms the difference, normalize to the annotated citation form.",
+      "comparison_category": "yod",
+      "before_phones": "s t u d ə n t",
+      "padded_before_phones": "s t u d ə n t",
+      "contexts": [
+        "1|5|student"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "Tuesday",
+      "audio_path": "NCE_ALL/data/words/wav/Tuesday.wav",
+      "before_sha256": "5142469238c728c5b7e208b46b22b134d816c46c17318e684b7b68238e49032c",
+      "ipa": "ˈtjuːzdeɪ",
+      "reason": "Both acoustic runs omit /j/ in the sequence written /juː/ in the selected British annotation. If actual listening confirms the difference, normalize to the annotated citation form.",
+      "comparison_category": "yod",
+      "before_phones": "u z d e j",
+      "padded_before_phones": "t u z d e j",
+      "contexts": [
+        "1|67|Tuesday"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "introduce",
+      "audio_path": "NCE_ALL/data/words/wav/introduce.wav",
+      "before_sha256": "e629e77702e9a34937244e2f270848be77bcd14a103fa73f6192c5b52210f564",
+      "ipa": "ˌɪntrəˈdjuːs",
+      "reason": "Both acoustic runs omit /j/ in the sequence written /juː/ in the selected British annotation. If actual listening confirms the difference, normalize to the annotated citation form.",
+      "comparison_category": "yod",
+      "before_phones": "ɪ n p ɹ o w d u s",
+      "padded_before_phones": "ɪ n t ɹ ə n d u s",
+      "contexts": [
+        "1|135|introduce"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "nuisance",
+      "audio_path": "NCE_ALL/data/words/wav/nuisance.wav",
+      "before_sha256": "790615a73df89ea693aedd701b933a216e7c270dc76c780a9cec3c3ccb110769",
+      "ipa": "ˈnjuːsəns",
+      "reason": "Both acoustic runs omit /j/ in the sequence written /juː/ in the selected British annotation. If actual listening confirms the difference, normalize to the annotated citation form.",
+      "comparison_category": "yod",
+      "before_phones": "n u s ɛ n s",
+      "padded_before_phones": "b n u s ɛ n s",
+      "contexts": [
+        "1|125|nuisance"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    },
+    {
+      "word": "vase",
+      "audio_path": "NCE_ALL/data/words/wav/vase.wav",
+      "before_sha256": "7b324e80dff13e6b103e184a375ecd2a01ae516a7896ad3241bf6bc3bd6318c7",
+      "ipa": "vɑːz",
+      "reason": "Both acoustic runs indicate /veɪs/, differing from the selected British /vɑːz/ in both vowel and final consonant.",
+      "comparison_category": "vase_variant",
+      "before_phones": "v e j s",
+      "padded_before_phones": "v e j s",
+      "contexts": [
+        "1|39|vase"
+      ],
+      "human_listening_approved": false,
+      "disposition": "candidate_requires_actual_listening"
+    }
+  ],
+  "held_examples": [
+    {
+      "word": "read",
+      "reason": "Raw output suggests /red/, padded output suggests /riːd/. Results are inconsistent, so keep the original audio and lemma IPA pending actual listening."
+    },
+    {
+      "word": "compact",
+      "reason": "Possible weak first vowel /kəm/ for the noun, but the phone recognizer does not output stress. Hold for listening."
+    },
+    {
+      "word": "mink coat",
+      "reason": "Unstable phone recognition; Whisper recognizes the intended phrase. Hold rather than replacing from uncertain predictions."
+    }
+  ],
+  "status": "held_no_replacements_installed",
+  "selection_is_error_confirmation": false,
+  "installed_count": 0,
+  "hold_reason": "The recognizer also returned the same disputed vowels or omitted yod for the en_GB reference voice. Its predictions are not sufficient to certify British segmental contrasts or justify overwriting original recordings."
+}

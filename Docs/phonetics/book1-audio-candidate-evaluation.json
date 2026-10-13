@@ -1,0 +1,919 @@
+{
+  "date": "2026-10-13",
+  "outcome": "rejected_for_installation",
+  "installed_count": 0,
+  "reason": "The recognizer also returned the same disputed vowels or omitted yod for the en_GB reference voice. Its predictions are not sufficient to certify British segmental contrasts or justify overwriting original recordings.",
+  "reference_voice": {
+    "source": "Local synthesized speech; not textbook publisher recordings",
+    "engine": "macOS say",
+    "voice": "Daniel",
+    "language": "en_GB",
+    "rate_words_per_minute": 150,
+    "system_version": "15.7.3",
+    "format": "mono PCM16 WAV at 24000 Hz"
+  },
+  "word_transcription_check": {
+    "format_version": 1,
+    "reviewer": "local Whisper small.en plus waveform checks",
+    "method": "Audio-only recognition with no expected-word prompt. Not a pronunciation, stress, or human listening certificate.",
+    "model_sha256": "f953ad0fd29cacd07d5a9eda5624af0f6bcf2258be67c92b79389873d91e0872",
+    "beam_size": 5,
+    "assets": [
+      {
+        "word": "after",
+        "path": "wav/after.wav",
+        "sha256": "c3aa4bfcd8e456ba7641574f9602e1743702d03e238a1e6f3e84d9d5bbe4b0ec",
+        "expected_spoken_text": "after",
+        "transcript": "After",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.9284583333333334,
+          "peak": 0.749969482421875,
+          "rms": 0.059386384627321036,
+          "clipped_samples": 0,
+          "active_seconds": 0.6115,
+          "leading_silence_seconds": 0.13091666666666665,
+          "trailing_silence_seconds": 0.18604166666666666
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "afternoon",
+        "path": "wav/afternoon.wav",
+        "sha256": "b949a986b89598074f92e139d4d7942ba2aa4e3de7c845ef5778faa495934227",
+        "expected_spoken_text": "afternoon",
+        "transcript": "Afternoon",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 1.1955,
+          "peak": 0.749969482421875,
+          "rms": 0.07076272393310756,
+          "clipped_samples": 0,
+          "active_seconds": 0.865,
+          "leading_silence_seconds": 0.13091666666666665,
+          "trailing_silence_seconds": 0.19958333333333333
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "answer",
+        "path": "wav/answer.wav",
+        "sha256": "5f0ee64e28562613232b91b7149f6ab74c709ab51c5e31cdfafeed115a7b5245",
+        "expected_spoken_text": "answer",
+        "transcript": "answer",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.9284583333333334,
+          "peak": 0.749969482421875,
+          "rms": 0.06126947939173127,
+          "clipped_samples": 0,
+          "active_seconds": 0.6087083333333333,
+          "leading_silence_seconds": 0.13091666666666665,
+          "trailing_silence_seconds": 0.18883333333333333
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "ask",
+        "path": "wav/ask.wav",
+        "sha256": "32efe79eb1cba8fd85a1884159741101ebb4581a884e3b4ecc84735c31409dfe",
+        "expected_spoken_text": "ask",
+        "transcript": "Ask.",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.8587916666666666,
+          "peak": 0.749969482421875,
+          "rms": 0.05642064003042888,
+          "clipped_samples": 0,
+          "active_seconds": 0.5165833333333333,
+          "leading_silence_seconds": 0.13091666666666665,
+          "trailing_silence_seconds": 0.21129166666666666
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "bath",
+        "path": "wav/bath.wav",
+        "sha256": "d132e0587793007888bfeac38267fbad7edbf237e332f5630c4d98b9d7dc7bb7",
+        "expected_spoken_text": "bath",
+        "transcript": "Bath",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.8818333333333334,
+          "peak": 0.749969482421875,
+          "rms": 0.05525921034427687,
+          "clipped_samples": 0,
+          "active_seconds": 0.546625,
+          "leading_silence_seconds": 0.123125,
+          "trailing_silence_seconds": 0.21208333333333335
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "grass",
+        "path": "wav/grass.wav",
+        "sha256": "955d8a25ee83bd5d58b4bcaedfb484c6e632b87f8db09b9c9b937667afc6762c",
+        "expected_spoken_text": "grass",
+        "transcript": "grass",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 1.091,
+          "peak": 0.749969482421875,
+          "rms": 0.07848889505500657,
+          "clipped_samples": 0,
+          "active_seconds": 0.7651666666666667,
+          "leading_silence_seconds": 0.12291666666666666,
+          "trailing_silence_seconds": 0.20291666666666666
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "last",
+        "path": "wav/last.wav",
+        "sha256": "8a9d40083419ff511dee1f7971fd0111abedcea534e16e1d881944f35d786634",
+        "expected_spoken_text": "last",
+        "transcript": "Last",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.9637083333333333,
+          "peak": 0.749969482421875,
+          "rms": 0.06273366419163341,
+          "clipped_samples": 0,
+          "active_seconds": 0.6404166666666666,
+          "leading_silence_seconds": 0.12745833333333334,
+          "trailing_silence_seconds": 0.19583333333333333
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "pass",
+        "path": "wav/pass.wav",
+        "sha256": "cf0b90a9d2041bc103db831d92326dd25fcc107f7c7f4a2af45ebf8f28ce2d39",
+        "expected_spoken_text": "pass",
+        "transcript": "Pass",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.9485833333333333,
+          "peak": 0.749969482421875,
+          "rms": 0.07498769216073792,
+          "clipped_samples": 0,
+          "active_seconds": 0.6125,
+          "leading_silence_seconds": 0.12516666666666668,
+          "trailing_silence_seconds": 0.21091666666666667
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "passport",
+        "path": "wav/passport.wav",
+        "sha256": "dd16d4d355a04332e99aa74ae69b7ef7b0fcd0e6dd31a134090a6b66e4abc9e2",
+        "expected_spoken_text": "passport",
+        "transcript": "Passport",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 1.054625,
+          "peak": 0.749969482421875,
+          "rms": 0.06444537873700545,
+          "clipped_samples": 0,
+          "active_seconds": 0.7273333333333334,
+          "leading_silence_seconds": 0.128375,
+          "trailing_silence_seconds": 0.19891666666666666
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "photograph",
+        "path": "wav/photograph.wav",
+        "sha256": "413a3f883aa57fec30a5d18af6fa6e0bd29b5be123500a31ffd9815d5a8d2e75",
+        "expected_spoken_text": "photograph",
+        "transcript": "Photograph",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 1.3679166666666667,
+          "peak": 0.749969482421875,
+          "rms": 0.08967837470074633,
+          "clipped_samples": 0,
+          "active_seconds": 1.0194583333333334,
+          "leading_silence_seconds": 0.13725,
+          "trailing_silence_seconds": 0.21120833333333333
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "litter basket",
+        "path": "wav/litter basket.wav",
+        "sha256": "06d2d99126545417fc5352bd042f4b9ee3fddb4e091907360178fe3b47f6ea5e",
+        "expected_spoken_text": "litter basket",
+        "transcript": "Litter Basket",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 1.3697916666666667,
+          "peak": 0.749969482421875,
+          "rms": 0.09017317318579872,
+          "clipped_samples": 0,
+          "active_seconds": 1.0412083333333333,
+          "leading_silence_seconds": 0.12283333333333334,
+          "trailing_silence_seconds": 0.20575
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "new",
+        "path": "wav/new.wav",
+        "sha256": "655b9034f995e0ab814797936c667208611b20d29a6b4b1fb7d7d1c79cfcfeae",
+        "expected_spoken_text": "new",
+        "transcript": "New.",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.8239583333333333,
+          "peak": 0.749969482421875,
+          "rms": 0.09023660937852905,
+          "clipped_samples": 0,
+          "active_seconds": 0.49166666666666664,
+          "leading_silence_seconds": 0.1295,
+          "trailing_silence_seconds": 0.20279166666666668
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "news",
+        "path": "wav/news.wav",
+        "sha256": "b885c157b901ea2d8aebe5a45352cfd865e92b2e1fc61e4e2cc203cad720e048",
+        "expected_spoken_text": "news",
+        "transcript": "News.",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.9632916666666667,
+          "peak": 0.749969482421875,
+          "rms": 0.0875753576369983,
+          "clipped_samples": 0,
+          "active_seconds": 0.620375,
+          "leading_silence_seconds": 0.12945833333333334,
+          "trailing_silence_seconds": 0.21345833333333333
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "student",
+        "path": "wav/student.wav",
+        "sha256": "e5933cb0607b0ced9e011c9a35fc53a8c089c24448e709f90d9d5f96d2fe6ead",
+        "expected_spoken_text": "student",
+        "transcript": "student",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 1.0075416666666666,
+          "peak": 0.749969482421875,
+          "rms": 0.07986104553928805,
+          "clipped_samples": 0,
+          "active_seconds": 0.691875,
+          "leading_silence_seconds": 0.12591666666666668,
+          "trailing_silence_seconds": 0.18975
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "Tuesday",
+        "path": "wav/Tuesday.wav",
+        "sha256": "14eb3120bd3f40148e5cd1f50d47d820419239bd4e5dda35c6704cf48b00e06a",
+        "expected_spoken_text": "Tuesday",
+        "transcript": "Tuesday",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 1.0315,
+          "peak": 0.749969482421875,
+          "rms": 0.09486237915876859,
+          "clipped_samples": 0,
+          "active_seconds": 0.704375,
+          "leading_silence_seconds": 0.12620833333333334,
+          "trailing_silence_seconds": 0.20091666666666666
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "introduce",
+        "path": "wav/introduce.wav",
+        "sha256": "ab6c9cccb56a426af76984cc119edd126736c3257ddf1e861c7696d04f4bbc2f",
+        "expected_spoken_text": "introduce",
+        "transcript": "Introduce.",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 1.3122083333333334,
+          "peak": 0.749969482421875,
+          "rms": 0.08398844843793711,
+          "clipped_samples": 0,
+          "active_seconds": 0.9870833333333333,
+          "leading_silence_seconds": 0.12216666666666667,
+          "trailing_silence_seconds": 0.20295833333333332
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "nuisance",
+        "path": "wav/nuisance.wav",
+        "sha256": "620a001b391f28fe832858c3ea5f3803951c0805fb924186218c90168f2174af",
+        "expected_spoken_text": "nuisance",
+        "transcript": "Newsom's",
+        "lexical_match": false,
+        "waveform": {
+          "duration_seconds": 1.13775,
+          "peak": 0.749969482421875,
+          "rms": 0.09362362537219082,
+          "clipped_samples": 0,
+          "active_seconds": 0.8097916666666667,
+          "leading_silence_seconds": 0.12320833333333334,
+          "trailing_silence_seconds": 0.20475
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      },
+      {
+        "word": "vase",
+        "path": "wav/vase.wav",
+        "sha256": "69de2ce9891c92ff6409ea92c95c8bd164d1e81ccfe81ffcda44e607cf247acb",
+        "expected_spoken_text": "vase",
+        "transcript": "Vase.",
+        "lexical_match": true,
+        "waveform": {
+          "duration_seconds": 0.9170416666666666,
+          "peak": 0.749969482421875,
+          "rms": 0.08513749985523437,
+          "clipped_samples": 0,
+          "active_seconds": 0.58975,
+          "leading_silence_seconds": 0.12254166666666666,
+          "trailing_silence_seconds": 0.20475
+        },
+        "status": "ai_review_requires_decision",
+        "human_listening_approved": false
+      }
+    ]
+  },
+  "phone_check": {
+    "format_version": 1,
+    "book_id": 1,
+    "date": "2026-10-13",
+    "method": "Audio-only local acoustic phone recognition plus waveform screening; not a listening certificate or a pronunciation score.",
+    "model": {
+      "name": "Allosaurus eng2102",
+      "package_version": "1.0.2",
+      "source": "https://github.com/xinjli/allosaurus",
+      "download_url": "https://github.com/xinjli/allosaurus/releases/download/v1.0/eng2102.tar.gz",
+      "file_sha256": {
+        "model.pt": "dde91e05a15d0e97a05a0d06b93267981ca04fbd846a262b717284ecc89d023f",
+        "phone.txt": "b117934a31efd90529d024d42cadcce7bdfaa26e18f596f379f8ccfa09111bb9",
+        "pm_config.json": "983ace3909a2b94f05ec73323f94e1bade3b0bed237fed177725c0aee040932a",
+        "am_config.json": "bf1cfc58a647a70d440c3fb8ebfbc7a3ab5bcd6a31e68b60f9cce516b67482ea",
+        "lm_config.json": "239cf62e9c7374457de8df5ad06e517c3357e6a4ba443d473bbe4a47272e159b",
+        "inventory/index.json": "66b122c11c234457fc94bffb44a091cbe107258fb651cdb88a573d705ad4d503",
+        "inventory/stan1293.txt": "b117934a31efd90529d024d42cadcce7bdfaa26e18f596f379f8ccfa09111bb9"
+      }
+    },
+    "limitations": [
+      "The 38-phone model has no stress or vowel-length output.",
+      "Its North American phone inventory cannot directly certify all British vowel distinctions.",
+      "Recognition mismatches can be model errors, valid variants, or audio errors; never automatically replace correct IPA from these predictions.",
+      "Matching projections do not approve listening, stress, or every phoneme."
+    ],
+    "summary": {
+      "audio_files_processed": 18,
+      "contexts_processed": 19,
+      "screening_counts": {
+        "nonexact_requires_review": 19
+      },
+      "listening_approved": 0
+    },
+    "assets": [
+      {
+        "audio_path": "NCE_ALL/data/words/wav/Tuesday.wav",
+        "sha256": "14eb3120bd3f40148e5cd1f50d47d820419239bd4e5dda35c6704cf48b00e06a",
+        "decoded_pcm_sha256": "7dbca1c811e17300be860a1bf707e87eacea1e15ffe63449b507b16635f53e1d",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "t u d ɛ",
+        "phone_candidates_with_timestamps": "0.060 0.025 t (0.958) <blk> (0.025) d (0.005)\n0.150 0.025 u (0.767) ə (0.106) i (0.049)\n0.430 0.025 d (0.603) ð (0.140) n (0.128)\n0.470 0.025 ɛ (0.496) j (0.360) i (0.050)",
+        "waveform": {
+          "duration_seconds": 1.0315,
+          "peak": 0.7227783203125,
+          "rms": 0.09421258419752121,
+          "clipped_samples": 0,
+          "active_seconds": 0.704375
+        },
+        "comparisons": [
+          {
+            "key": "1|67|Tuesday",
+            "word": "Tuesday",
+            "lesson": 67,
+            "expected_ipa": "ˈtjuːzdeɪ",
+            "model_inventory_projection": "tjuzdeɪ",
+            "symbol_edit_count": 4,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/after.wav",
+        "sha256": "c3aa4bfcd8e456ba7641574f9602e1743702d03e238a1e6f3e84d9d5bbe4b0ec",
+        "decoded_pcm_sha256": "7f431c2fd8f510c243ac4e879f40ade8f8c7ab9a413659f14c1382f373728cb4",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "b æ s t h ɹ̩",
+        "phone_candidates_with_timestamps": "0.030 0.025 b (0.664) <blk> (0.128) m (0.123)\n0.080 0.025 æ (0.885) ʌ (0.071) ɑ (0.027)\n0.300 0.025 s (0.617) v (0.118) z (0.105)\n0.410 0.025 t (0.875) d (0.064) <blk> (0.051)\n0.430 0.025 h (0.773) <blk> (0.223) s (0.001)\n0.460 0.025 ɹ̩ (0.987) ə (0.008) <blk> (0.002)",
+        "waveform": {
+          "duration_seconds": 0.9285,
+          "peak": 0.750885009765625,
+          "rms": 0.05870749056339264,
+          "clipped_samples": 0,
+          "active_seconds": 0.6108125
+        },
+        "comparisons": [
+          {
+            "key": "1|31|after",
+            "word": "after",
+            "lesson": 31,
+            "expected_ipa": "ˈɑːftə",
+            "model_inventory_projection": "ɑftə",
+            "symbol_edit_count": 6,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/afternoon.wav",
+        "sha256": "b949a986b89598074f92e139d4d7942ba2aa4e3de7c845ef5778faa495934227",
+        "decoded_pcm_sha256": "d7921fb1baf93b38cd4e82388e27a0ce7a805acbff3d5450bd4b547da7af7e72",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "æ f t ɹ̩ m u n",
+        "phone_candidates_with_timestamps": "0.090 0.025 æ (0.988) ɔ (0.007) ʌ (0.002)\n0.270 0.025 f (0.706) s (0.251) v (0.026)\n0.350 0.025 t (0.506) <blk> (0.493) s (0.000)\n0.400 0.025 ɹ̩ (0.939) ə (0.043) ɪ (0.009)\n0.510 0.025 m (0.951) n (0.042) <blk> (0.003)\n0.550 0.025 u (0.669) i (0.219) ɪ (0.058)\n0.760 0.025 n (0.464) ŋ (0.403) <blk> (0.099)",
+        "waveform": {
+          "duration_seconds": 1.1955,
+          "peak": 0.749053955078125,
+          "rms": 0.07045308500528336,
+          "clipped_samples": 0,
+          "active_seconds": 0.865
+        },
+        "comparisons": [
+          {
+            "key": "1|55|afternoon",
+            "word": "afternoon",
+            "lesson": 55,
+            "expected_ipa": "ˌɑːftəˈnuːn",
+            "model_inventory_projection": "ɑftənun",
+            "symbol_edit_count": 4,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/answer.wav",
+        "sha256": "5f0ee64e28562613232b91b7149f6ab74c709ab51c5e31cdfafeed115a7b5245",
+        "decoded_pcm_sha256": "3be1f7b7db0214c3b749e4fa943c1820aaf642b4a8dca991882e3bc4f0d788f7",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "æ n s ɹ̩",
+        "phone_candidates_with_timestamps": "0.090 0.025 æ (0.852) ɑ (0.104) ə (0.019)\n0.270 0.025 n (0.961) m (0.023) ŋ (0.014)\n0.370 0.025 s (0.793) z (0.199) t (0.002)\n0.460 0.025 ɹ̩ (0.989) ɛ (0.003) ə (0.003)",
+        "waveform": {
+          "duration_seconds": 0.9285,
+          "peak": 0.7501220703125,
+          "rms": 0.059860434383153915,
+          "clipped_samples": 0,
+          "active_seconds": 0.6086875
+        },
+        "comparisons": [
+          {
+            "key": "1|71|answer",
+            "word": "answer",
+            "lesson": 71,
+            "expected_ipa": "ˈɑːnsə",
+            "model_inventory_projection": "ɑnsə",
+            "symbol_edit_count": 3,
+            "screening_result": "nonexact_requires_review"
+          },
+          {
+            "key": "1|103|answer",
+            "word": "answer",
+            "lesson": 103,
+            "expected_ipa": "ˈɑːnsə",
+            "model_inventory_projection": "ɑnsə",
+            "symbol_edit_count": 3,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/ask.wav",
+        "sha256": "32efe79eb1cba8fd85a1884159741101ebb4581a884e3b4ecc84735c31409dfe",
+        "decoded_pcm_sha256": "aae03b3aa6dc495ddf8b62ecc65ddc1b8886fd9a19c1ac93ac36ef4497e245fd",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "æ s k",
+        "phone_candidates_with_timestamps": "0.090 0.025 æ (0.623) ʌ (0.121) ɹ̩ (0.115)\n0.430 0.025 s (0.713) <blk> (0.204) z (0.027)\n0.530 0.025 k (0.571) <blk> (0.339) t (0.049)",
+        "waveform": {
+          "duration_seconds": 0.8588125,
+          "peak": 0.748870849609375,
+          "rms": 0.05515333265066147,
+          "clipped_samples": 0,
+          "active_seconds": 0.5165625
+        },
+        "comparisons": [
+          {
+            "key": "1|45|ask",
+            "word": "ask",
+            "lesson": 45,
+            "expected_ipa": "ɑːsk",
+            "model_inventory_projection": "ɑsk",
+            "symbol_edit_count": 1,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/bath.wav",
+        "sha256": "d132e0587793007888bfeac38267fbad7edbf237e332f5630c4d98b9d7dc7bb7",
+        "decoded_pcm_sha256": "fd5fd9b61e5f0820c8fb038dde6b7a85680d53608b82ce4b1d9195bf9fd27264",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "m ɹ̩ s",
+        "phone_candidates_with_timestamps": "0.130 0.025 m (0.988) n (0.009) b (0.002)\n0.170 0.025 ɹ̩ (0.976) ɛ (0.011) ɑ (0.005)\n0.460 0.025 s (0.874) z (0.109) ð (0.006)",
+        "waveform": {
+          "duration_seconds": 0.881875,
+          "peak": 0.761138916015625,
+          "rms": 0.055076394230127335,
+          "clipped_samples": 0,
+          "active_seconds": 0.4940625
+        },
+        "comparisons": [
+          {
+            "key": "1|81|bath",
+            "word": "bath",
+            "lesson": 81,
+            "expected_ipa": "bɑːθ",
+            "model_inventory_projection": "bɑθ",
+            "symbol_edit_count": 4,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/grass.wav",
+        "sha256": "955d8a25ee83bd5d58b4bcaedfb484c6e632b87f8db09b9c9b937667afc6762c",
+        "decoded_pcm_sha256": "b90b9e1a066506848ffb328cd7d236c10c524460c7d4831680a97413e9a6f294",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "ɡ ɹ æ s",
+        "phone_candidates_with_timestamps": "0.140 0.025 ɡ (0.992) <blk> (0.005) d (0.002)\n0.180 0.025 ɹ (0.990) <blk> (0.006) l (0.002)\n0.240 0.025 æ (0.536) ʌ (0.115) w (0.098)\n0.640 0.025 s (0.928) z (0.020) f (0.020)",
+        "waveform": {
+          "duration_seconds": 1.091,
+          "peak": 0.750244140625,
+          "rms": 0.07491050660610199,
+          "clipped_samples": 0,
+          "active_seconds": 0.76425
+        },
+        "comparisons": [
+          {
+            "key": "1|31|grass",
+            "word": "grass",
+            "lesson": 31,
+            "expected_ipa": "ɡrɑːs",
+            "model_inventory_projection": "ɡɹɑs",
+            "symbol_edit_count": 1,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/introduce.wav",
+        "sha256": "ab6c9cccb56a426af76984cc119edd126736c3257ddf1e861c7696d04f4bbc2f",
+        "decoded_pcm_sha256": "1ef7e9c397242b31057bc75dcaeb46a6121ba8218de4983a5044ad927bf17135",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "ɪ n t ɹ̩ ə n d u",
+        "phone_candidates_with_timestamps": "0.080 0.025 ɪ (0.556) ɛ (0.266) æ (0.136)\n0.150 0.025 n (0.995) ŋ (0.002) <blk> (0.001)\n0.240 0.025 t (0.988) d (0.005) d͡ʒ (0.003)\n0.280 0.025 ɹ̩ (0.553) ɹ (0.424) <blk> (0.015)\n0.310 0.025 ə (0.850) ɹ̩ (0.045) æ (0.032)\n0.370 0.025 n (0.744) <blk> (0.217) l (0.016)\n0.430 0.025 d (0.650) z (0.131) <blk> (0.073)\n0.480 0.025 u (0.659) ɪ (0.198) i (0.058)",
+        "waveform": {
+          "duration_seconds": 1.31225,
+          "peak": 0.764892578125,
+          "rms": 0.0824899971485138,
+          "clipped_samples": 0,
+          "active_seconds": 0.9865625
+        },
+        "comparisons": [
+          {
+            "key": "1|135|introduce",
+            "word": "introduce",
+            "lesson": 135,
+            "expected_ipa": "ˌɪntrəˈdjuːs",
+            "model_inventory_projection": "ɪntɹədjus",
+            "symbol_edit_count": 4,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/last.wav",
+        "sha256": "8a9d40083419ff511dee1f7971fd0111abedcea534e16e1d881944f35d786634",
+        "decoded_pcm_sha256": "3d3ae960bf6ccc7b70583467c85ae2ff6d95245ff71b92e28a8d21b8cac79eae",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "l æ s",
+        "phone_candidates_with_timestamps": "0.140 0.025 l (0.474) <blk> (0.457) w (0.042)\n0.170 0.025 æ (0.345) ʌ (0.208) ɑ (0.162)\n0.550 0.025 s (0.846) <blk> (0.047) z (0.042)",
+        "waveform": {
+          "duration_seconds": 0.96375,
+          "peak": 0.742340087890625,
+          "rms": 0.06160152703523636,
+          "clipped_samples": 0,
+          "active_seconds": 0.636375
+        },
+        "comparisons": [
+          {
+            "key": "1|71|last",
+            "word": "last",
+            "lesson": 71,
+            "expected_ipa": "lɑːst",
+            "model_inventory_projection": "lɑst",
+            "symbol_edit_count": 2,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/litter basket.wav",
+        "sha256": "06d2d99126545417fc5352bd042f4b9ee3fddb4e091907360178fe3b47f6ea5e",
+        "decoded_pcm_sha256": "bd1424d60fb96be0e7a9c029af02e87c1ed3c9ff8a453b232a565bbc0631f6bd",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "l ɪ t ə m æ s k ɹ̩ t",
+        "phone_candidates_with_timestamps": "0.140 0.025 l (0.995) <blk> (0.003) ð (0.001)\n0.170 0.025 ɪ (0.886) j (0.068) ɛ (0.026)\n0.280 0.025 t (0.916) z (0.050) v (0.017)\n0.330 0.025 ə (0.504) ɹ̩ (0.276) ʌ (0.122)\n0.450 0.025 m (0.943) b (0.033) <blk> (0.014)\n0.490 0.025 æ (0.880) ɑ (0.080) ə (0.023)\n0.700 0.025 s (0.984) ʃ (0.010) z (0.005)\n0.800 0.025 k (0.975) ɡ (0.012) <blk> (0.010)\n0.840 0.025 ɹ̩ (0.607) ə (0.196) ɪ (0.084)\n1.030 0.025 t (0.882) d (0.087) <blk> (0.012)",
+        "waveform": {
+          "duration_seconds": 1.3698125,
+          "peak": 0.761260986328125,
+          "rms": 0.08930837363004684,
+          "clipped_samples": 0,
+          "active_seconds": 1.039375
+        },
+        "comparisons": [
+          {
+            "key": "1|143|litter basket",
+            "word": "litter basket",
+            "lesson": 143,
+            "expected_ipa": "ˈlɪtə ˌbɑːskɪt",
+            "model_inventory_projection": "lɪtəbɑskɪt",
+            "symbol_edit_count": 4,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/new.wav",
+        "sha256": "655b9034f995e0ab814797936c667208611b20d29a6b4b1fb7d7d1c79cfcfeae",
+        "decoded_pcm_sha256": "35b319c407c3c02ced2a63b395c033e39fb234a3ca4e8381f6b365ae6d7111c7",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "n u",
+        "phone_candidates_with_timestamps": "0.150 0.025 n (0.760) m (0.212) <blk> (0.017)\n0.190 0.025 u (0.856) ɪ (0.096) <blk> (0.014)",
+        "waveform": {
+          "duration_seconds": 0.824,
+          "peak": 0.74993896484375,
+          "rms": 0.09024309366941452,
+          "clipped_samples": 0,
+          "active_seconds": 0.4916875
+        },
+        "comparisons": [
+          {
+            "key": "1|5|new",
+            "word": "new",
+            "lesson": 5,
+            "expected_ipa": "njuː",
+            "model_inventory_projection": "nju",
+            "symbol_edit_count": 1,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/news.wav",
+        "sha256": "b885c157b901ea2d8aebe5a45352cfd865e92b2e1fc61e4e2cc203cad720e048",
+        "decoded_pcm_sha256": "67c9178332199a036460f7f8406059b63c076b23f64f7713395244b30c3b2ecb",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "n u z",
+        "phone_candidates_with_timestamps": "0.150 0.025 n (0.992) m (0.005) <blk> (0.001)\n0.180 0.025 u (0.995) ɪ (0.001) ɹ̩ (0.001)\n0.560 0.025 z (0.972) <blk> (0.013) s (0.013)",
+        "waveform": {
+          "duration_seconds": 0.9633125,
+          "peak": 0.736480712890625,
+          "rms": 0.08339892327785492,
+          "clipped_samples": 0,
+          "active_seconds": 0.6203125
+        },
+        "comparisons": [
+          {
+            "key": "1|61|news",
+            "word": "news",
+            "lesson": 61,
+            "expected_ipa": "njuːz",
+            "model_inventory_projection": "njuz",
+            "symbol_edit_count": 1,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/nuisance.wav",
+        "sha256": "620a001b391f28fe832858c3ea5f3803951c0805fb924186218c90168f2174af",
+        "decoded_pcm_sha256": "defc5d28038d2ddea26713400a55976110978102e121e3ccdf1a411d44861249",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "n u s ə n z",
+        "phone_candidates_with_timestamps": "0.130 0.025 n (0.801) m (0.189) <blk> (0.006)\n0.160 0.025 u (0.982) ɪ (0.011) i (0.003)\n0.340 0.025 s (0.457) z (0.445) θ (0.083)\n0.410 0.025 ə (0.678) ɹ̩ (0.156) ɛ (0.093)\n0.530 0.025 n (0.995) m (0.003) <blk> (0.001)\n0.670 0.025 z (0.648) d (0.144) <blk> (0.133)",
+        "waveform": {
+          "duration_seconds": 1.13775,
+          "peak": 0.749603271484375,
+          "rms": 0.08974752575159073,
+          "clipped_samples": 0,
+          "active_seconds": 0.8055625
+        },
+        "comparisons": [
+          {
+            "key": "1|125|nuisance",
+            "word": "nuisance",
+            "lesson": 125,
+            "expected_ipa": "ˈnjuːsəns",
+            "model_inventory_projection": "njusəns",
+            "symbol_edit_count": 2,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/pass.wav",
+        "sha256": "cf0b90a9d2041bc103db831d92326dd25fcc107f7c7f4a2af45ebf8f28ce2d39",
+        "decoded_pcm_sha256": "485fcd6eb909c63ef0e88fb87d3ae6750f4152484682f083d1b1a2e2dc553d99",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "b ɹ̩ s",
+        "phone_candidates_with_timestamps": "0.030 0.025 b (0.684) p (0.205) <blk> (0.041)\n0.100 0.025 ɹ̩ (0.373) ʌ (0.275) ɑ (0.139)\n0.490 0.025 s (0.600) <blk> (0.091) z (0.082)",
+        "waveform": {
+          "duration_seconds": 0.948625,
+          "peak": 0.7525634765625,
+          "rms": 0.06826179474592209,
+          "clipped_samples": 0,
+          "active_seconds": 0.608875
+        },
+        "comparisons": [
+          {
+            "key": "1|103|pass",
+            "word": "pass",
+            "lesson": 103,
+            "expected_ipa": "pɑːs",
+            "model_inventory_projection": "pɑs",
+            "symbol_edit_count": 3,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/passport.wav",
+        "sha256": "dd16d4d355a04332e99aa74ae69b7ef7b0fcd0e6dd31a134090a6b66e4abc9e2",
+        "decoded_pcm_sha256": "f715a12252a51350f2d22e2dc4e108513b8ffcfb494abf4a8086963bc64e9498",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "p æ s ɔ d",
+        "phone_candidates_with_timestamps": "0.040 0.025 p (0.968) b (0.019) <blk> (0.006)\n0.100 0.025 æ (0.900) ɹ̩ (0.028) j (0.027)\n0.290 0.025 s (0.933) θ (0.025) z (0.023)\n0.420 0.025 ɔ (0.656) ɑ (0.088) ɹ̩ (0.088)\n0.720 0.025 d (0.528) z (0.338) t (0.058)",
+        "waveform": {
+          "duration_seconds": 1.054625,
+          "peak": 0.745941162109375,
+          "rms": 0.06211783364415169,
+          "clipped_samples": 0,
+          "active_seconds": 0.722125
+        },
+        "comparisons": [
+          {
+            "key": "1|15|passport",
+            "word": "passport",
+            "lesson": 15,
+            "expected_ipa": "ˈpɑːspɔːt",
+            "model_inventory_projection": "pɑspɔt",
+            "symbol_edit_count": 3,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/photograph.wav",
+        "sha256": "413a3f883aa57fec30a5d18af6fa6e0bd29b5be123500a31ffd9815d5a8d2e75",
+        "decoded_pcm_sha256": "b803fb01a95f9faab0f6e38f6245effe40fc303606c62404be9fe08e999766da",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "p u z ə ɡ ɹ æ f",
+        "phone_candidates_with_timestamps": "0.080 0.025 p (0.567) <blk> (0.156) s (0.121)\n0.190 0.025 u (0.803) ʌ (0.113) <blk> (0.033)\n0.370 0.025 z (0.685) s (0.187) t (0.071)\n0.420 0.025 ə (0.914) æ (0.063) ɑ (0.009)\n0.520 0.025 ɡ (0.984) d (0.008) <blk> (0.005)\n0.570 0.025 ɹ (0.997) ɹ̩ (0.001) w (0.001)\n0.620 0.025 æ (0.917) j (0.053) ɛ (0.008)\n0.900 0.025 f (0.658) s (0.336) v (0.002)",
+        "waveform": {
+          "duration_seconds": 1.3679375,
+          "peak": 0.740509033203125,
+          "rms": 0.08906816691160202,
+          "clipped_samples": 0,
+          "active_seconds": 0.9861875
+        },
+        "comparisons": [
+          {
+            "key": "1|35|photograph",
+            "word": "photograph",
+            "lesson": 35,
+            "expected_ipa": "ˈfəʊtəɡrɑːf",
+            "model_inventory_projection": "foʊtəɡɹɑf",
+            "symbol_edit_count": 5,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/student.wav",
+        "sha256": "e5933cb0607b0ced9e011c9a35fc53a8c089c24448e709f90d9d5f96d2fe6ead",
+        "decoded_pcm_sha256": "62a9c474aae4bef03977ced9cae2828b30034b6a9e68086b6fba75debf378224",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "s t u l ə n t",
+        "phone_candidates_with_timestamps": "0.120 0.025 s (0.956) <blk> (0.037) z (0.003)\n0.200 0.025 t (0.975) <blk> (0.011) ɹ (0.004)\n0.250 0.025 u (0.517) i (0.409) ɪ (0.044)\n0.410 0.025 l (0.555) v (0.229) m (0.165)\n0.440 0.025 ə (0.943) æ (0.045) ɛ (0.005)\n0.530 0.025 n (0.998) m (0.002) <blk> (0.000)\n0.650 0.025 t (0.532) d (0.410) z (0.037)",
+        "waveform": {
+          "duration_seconds": 1.0075625,
+          "peak": 0.747955322265625,
+          "rms": 0.07868865877389908,
+          "clipped_samples": 0,
+          "active_seconds": 0.6846875
+        },
+        "comparisons": [
+          {
+            "key": "1|5|student",
+            "word": "student",
+            "lesson": 5,
+            "expected_ipa": "ˈstjuːdənt",
+            "model_inventory_projection": "stjudənt",
+            "symbol_edit_count": 2,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      },
+      {
+        "audio_path": "NCE_ALL/data/words/wav/vase.wav",
+        "sha256": "69de2ce9891c92ff6409ea92c95c8bd164d1e81ccfe81ffcda44e607cf247acb",
+        "decoded_pcm_sha256": "be64df3e18bb40f353ca8bd341498eaac5229ca3cc78e37efd55134d2af6e5f3",
+        "decoder": "PCM16/24kHz resampled using scipy.signal.resample_poly to 16kHz",
+        "recognized_phones": "m e j s",
+        "phone_candidates_with_timestamps": "0.150 0.025 m (0.941) ð (0.026) n (0.012)\n0.190 0.025 e (0.966) <blk> (0.025) a (0.006)\n0.200 0.025 j (0.975) ɪ (0.009) æ (0.004)\n0.460 0.025 s (0.849) z (0.133) <blk> (0.006)",
+        "waveform": {
+          "duration_seconds": 0.9170625,
+          "peak": 0.7548828125,
+          "rms": 0.07824907451868057,
+          "clipped_samples": 0,
+          "active_seconds": 0.58925
+        },
+        "comparisons": [
+          {
+            "key": "1|39|vase",
+            "word": "vase",
+            "lesson": 39,
+            "expected_ipa": "vɑːz",
+            "model_inventory_projection": "vɑz",
+            "symbol_edit_count": 4,
+            "screening_result": "nonexact_requires_review"
+          }
+        ],
+        "listening_approved": false,
+        "stress_audio_checked": false
+      }
+    ]
+  },
+  "source_audio_unchanged": true,
+  "human_listening_approved": false,
+  "note": "Candidates remain only in a temporary directory. The word transcript confirms identity, not pronunciation. No generated recording was copied into the App."
+}

@@ -35,6 +35,7 @@
     UIButton *_pauseButton;
     
     UILabel *_englishLabel;
+    UILabel *_phoneticLabel;
     UILabel *_countLabel;
     
     UIView *_chineseView;
@@ -126,6 +127,8 @@
     _wordVisualHint=NCELabel(nil,19,UIFontWeightMedium,NCEBlue());_wordVisualHint.numberOfLines=0;_wordVisualHint.textAlignment=NSTextAlignmentCenter;_wordVisualHint.accessibilityIdentifier=@"word-visual-hint";[_wordImageView addSubview:_wordVisualHint];
     _wordVisualCaption=NCELabel(nil,16,UIFontWeightMedium,NCEBlue());_wordVisualCaption.numberOfLines=0;_wordVisualCaption.textAlignment=NSTextAlignmentCenter;_wordVisualCaption.accessibilityIdentifier=@"word-visual-caption";[_wordCard addSubview:_wordVisualCaption];
     _englishLabel=NCELabel(nil,28,UIFontWeightBold,NCEInk());_englishLabel.textAlignment=NSTextAlignmentCenter;_englishLabel.accessibilityIdentifier=@"word-english";[_wordCard addSubview:_englishLabel];
+    _phoneticLabel=NCELabel(nil,15,UIFontWeightRegular,NCEMuted());_phoneticLabel.textAlignment=NSTextAlignmentCenter;
+    _phoneticLabel.accessibilityIdentifier=@"word-phonetic";[_wordCard addSubview:_phoneticLabel];
     _chineseView=[UIView new];[_wordCard addSubview:_chineseView];
     _chineseLabel=NCELabel(nil,16,UIFontWeightRegular,NCEMuted());_chineseLabel.textAlignment=NSTextAlignmentCenter;_chineseLabel.accessibilityIdentifier=@"word-translation";[_chineseView addSubview:_chineseLabel];
     _repeatButton=NCEButton(nil,@"speaker.wave.2",NO,self,@selector(repeat));_repeatButton.accessibilityIdentifier=@"word-repeat";_repeatButton.accessibilityLabel=NCELocalizedString(@"重读单词");[_wordCard addSubview:_repeatButton];
@@ -252,6 +255,10 @@
     _englishLabel.text=_function==3 ? nil : [NCEWordResourceStore.sharedStore displayNameForWord:word];
     _chineseLabel.text=[NCEWordResourceStore.sharedStore translationForWord:word fallback:item[@"chinese"]];
     NSInteger resourceBookId=item[@"book_id"] ? [item[@"book_id"] integerValue] : _bookId+1;
+    NSString *ipa=[NCEWordResourceStore.sharedStore phoneticForWord:word bookId:resourceBookId lessonId:[item[@"lesson_id"] integerValue]];
+    _phoneticLabel.text=ipa ? [NSString stringWithFormat:NCELocalizedString(@"英 %@"),ipa] : nil;
+    _phoneticLabel.accessibilityLabel=ipa ? [NSString stringWithFormat:NCELocalizedString(@"英式音标 %@"),ipa] : nil;
+    _phoneticLabel.hidden=!ipa.length || !_englishLabel.text.length;
     NSString *path=[NCEWordResourceStore.sharedStore imagePathForWord:word bookId:resourceBookId];
     NSString *hint=[NCEWordResourceStore.sharedStore visualHintForWord:word bookId:resourceBookId];
     _wordImageView.image=path ? [UIImage imageWithContentsOfFile:path] : nil;
@@ -402,6 +409,7 @@
 - (void)showEnglish
 {
     _englishLabel.text=_englishLabel.text.length ? nil : [NCEWordResourceStore.sharedStore displayNameForWord:_items[_currentIndex][@"english"]];
+    _phoneticLabel.hidden=!_phoneticLabel.text.length || !_englishLabel.text.length;
     _exampleView.hidden=!_example || !_englishLabel.text.length;
     [self.view setNeedsLayout];
 }
@@ -508,6 +516,10 @@
     _repeatButton.frame=CGRectMake(MIN(width-112,CGRectGetMaxX(_englishLabel.frame)+4),contentY+(wordHeight-44)/2,44,44);
     if(self.embeddedInLesson){_englishLabel.textAlignment=NSTextAlignmentLeft;_englishLabel.frame=CGRectMake(24,contentY,MIN(textWidth,width-148),wordHeight);_bookmark.frame=CGRectMake(width-64,contentY+(wordHeight-44)/2,44,44);_chineseLabel.textAlignment=NSTextAlignmentLeft;}
     contentY+=wordHeight+6;
+    _phoneticLabel.textAlignment=self.embeddedInLesson ? NSTextAlignmentLeft : NSTextAlignmentCenter;
+    CGFloat phoneticHeight=_phoneticLabel.hidden ? 0 : NCETextHeight(_phoneticLabel.text,_phoneticLabel.font,inner);
+    _phoneticLabel.frame=CGRectMake(24,contentY,inner,phoneticHeight);
+    if(phoneticHeight>0)contentY+=phoneticHeight+8;
     CGFloat translationHeight=_chineseLabel.hidden ? 0 : NCETextHeight(_chineseLabel.text,_chineseLabel.font,inner);
     _chineseView.frame=CGRectMake(24,contentY,inner,translationHeight); _chineseLabel.frame=_chineseView.bounds;
     contentY+=translationHeight;

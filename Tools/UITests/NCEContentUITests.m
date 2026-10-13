@@ -241,6 +241,72 @@
     NSDictionary *snapshot=data ? [NSJSONSerialization JSONObjectWithData:data options:0 error:nil] : nil;
     XCTAssertNotNil(snapshot);return snapshot;
 }
+- (void)assertPhonetic:(NSString *)ipa {
+    XCUIElement *label=self.app.staticTexts[@"word-phonetic"];
+    XCTAssertTrue(label.exists);XCTAssertTrue([label.label containsString:ipa]);
+    XCTAssertGreaterThanOrEqual(CGRectGetMinY(label.frame),CGRectGetMaxY(self.app.staticTexts[@"word-english"].frame));
+    XCTAssertLessThanOrEqual(CGRectGetMaxY(label.frame),CGRectGetMinY(self.app.staticTexts[@"word-translation"].frame));
+    // Accessibility frames use screen coordinates; compare with the content
+    // container in that same coordinate space (including compatibility scaling).
+    CGRect contentFrame=self.app.scrollViews[@"word-content"].frame;
+    XCTAssertGreaterThanOrEqual(CGRectGetMinX(label.frame),CGRectGetMinX(contentFrame));
+    XCTAssertLessThanOrEqual(CGRectGetMaxX(label.frame),CGRectGetMaxX(contentFrame));
+}
+- (void)testPhoneticsFourBooksAndPractice {
+    NSArray *expected=@[@"/ɪkˈskjuːz/",@"/ˈpraɪvɪt/",@"/ˈpjuːmə/",@"/ˈsɑːɡə/"];
+    for (NSInteger book=1;book<=4;book++) {
+        [self book:book];[self openCourse];[self section:@"单词"];
+        if (book==4) {
+            XCTAssertEqualObjects(self.app.staticTexts[@"word-english"].label,@"fossil man");
+            XCTAssertFalse(self.app.staticTexts[@"word-phonetic"].exists);
+            [self capture:@"phonetics-missing-phrase"];
+            [self tap:self.app.buttons[@"word-next"]];[self tap:self.app.buttons[@"word-next"]];
+        }
+        [self assertPhonetic:expected[book-1]];[self capture:[NSString stringWithFormat:@"phonetics-book-%ld",(long)book]];
+        if (book==1) {
+            [self section:@"练习"];
+            for (NSInteger mode=0;mode<=4;mode++) {
+                [self mode:mode];XCTAssertFalse(self.app.staticTexts[@"word-phonetic"].exists,@"Practice must not leak pronunciation clues");
+            }
+        }
+        [self back];
+    }
+}
+- (void)testPhoneticsWordbookLargeType {
+    [self.app terminate];self.app.launchArguments=[self.app.launchArguments arrayByAddingObjectsFromArray:@[@"-UIPreferredContentSizeCategoryName",@"UICTContentSizeCategoryAccessibilityXL"]];[self.app launch];
+    XCTAssertTrue([self.app.buttons[@"book-picker"] waitForExistenceWithTimeout:15]);
+    [self tab:2];
+    for (NSArray *sample in @[@[@4,@"content",@"/kənˈtent/"],@[@2,@"Los Angeles",@"/lɒs ˈændʒɪliːz/"],@[@3,@"puma",@"/ˈpjuːmə/"]]) {
+        [self book:[sample[0] integerValue]];
+        XCUIElement *field=self.app.searchFields.firstMatch;[self tap:field];
+        NSString *previous=[field.value isKindOfClass:NSString.class] ? field.value : @"";
+        if (previous.length && ![previous isEqual:field.placeholderValue]) [field typeText:[@"" stringByPaddingToLength:previous.length withString:XCUIKeyboardKeyDelete startingAtIndex:0]];
+        [field typeText:[sample[1] stringByAppendingString:@"\n"]];
+        [self tap:self.app.cells[[@"wordbook-word-" stringByAppendingString:sample[1]]].firstMatch];
+        XCTAssertEqualObjects(self.app.staticTexts[@"word-english"].label,sample[1]);
+        [self assertPhonetic:sample[2]];[self capture:[@"phonetics-large-" stringByAppendingString:sample[1]]];[self back];
+    }
+}
+- (void)testPhoneticsBook1CompleteLargeType {
+    [self.app terminate];
+    self.app.launchArguments=[self.app.launchArguments arrayByAddingObjectsFromArray:@[@"-UIPreferredContentSizeCategoryName",@"UICTContentSizeCategoryAccessibilityXL"]];
+    [self.app launch];
+    XCTAssertTrue([self.app.buttons[@"book-picker"] waitForExistenceWithTimeout:15]);
+    [self tab:2];
+    for (NSArray *sample in @[@[@"thank you",@"/ˈθæŋk ˌjuː/"], @[@"sales reps",@"/ˈseɪlz ˌreps/"],
+                              @[@"get up",@"/ˌɡet ˈʌp/"], @[@"litter basket",@"/ˈlɪtə ˌbɑːskɪt/"]]) {
+        // Choosing the volume clears the query regardless of the keyboard's
+        // insertion point when returning from the previous word detail.
+        [self book:1];
+        XCUIElement *field=self.app.searchFields.firstMatch;[self tap:field];
+        [field typeText:[sample[0] stringByAppendingString:@"\n"]];
+        [self tap:self.app.cells[[@"wordbook-word-" stringByAppendingString:sample[0]]].firstMatch];
+        XCTAssertEqualObjects(self.app.staticTexts[@"word-english"].label,sample[0]);
+        [self reveal:self.app.staticTexts[@"word-phonetic"]];
+        [self assertPhonetic:sample[1]];
+        [self capture:[@"phonetics-book1-complete-" stringByAppendingString:sample[0]]];[self back];
+    }
+}
 - (void)testReaderWordLookupRestoresPlayback {
     [self book:3];[self openCourse];
     XCUIElement *sentence=self.app.staticTexts[@"lesson-english-0"];
@@ -253,6 +319,7 @@
     [word pressForDuration:0.65];
     XCTAssertTrue([self.app.staticTexts[@"word-english"] waitForExistenceWithTimeout:5]);
     XCTAssertEqualObjects(self.app.staticTexts[@"word-english"].label,@"puma");
+    [self assertPhonetic:@"/ˈpjuːmə/"];
     [self capture:@"reader-word-lookup-puma"];
     [self back];XCTAssertTrue([self.app.buttons[@"lesson-play"] waitForExistenceWithTimeout:5]);
     NSDictionary *after=[self readerSnapshot];

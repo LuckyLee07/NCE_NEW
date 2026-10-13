@@ -302,3 +302,83 @@ and device coverage. Audio resume and simulator manual verification passed after
 the user unlocked the Mac. The local Xcode Sources phase includes
 `NCEReaderWordLabel.m` and `NCEWordLookup.m`; add both when reconstructing the
 ignored project file in another checkout.
+
+## British IPA annotations (book 1 + pilot)
+
+`ContentPipeline/phonetics/pilot.tsv` is the editable 100-context selection (25 per
+book). The pinned Britfone 3.0.1 source, MIT notice, and checksum manifest live in
+`ContentPipeline/phonetics/vendor/Britfone/`. Run:
+
+```sh
+bash Tools/test_phonetics.sh
+```
+
+This rebuilds the ignored bundled `NCE_ALL/data/words/phonetics-pilot.json`,
+`phonetics-book1.json`, and `Britfone-LICENSE.txt`, verifies source checksums and
+phoneme sequences, writes the review ledgers, and checks exact context lookup,
+volume isolation/precedence, and missing/malformed-data fallback.
+The existing Xcode `data` folder resource includes these generated files; regenerate
+them before building from a fresh checkout. No new Xcode source-file entry is needed.
+
+`Docs/phonetics/protocol.json` records notation, matching and release rules.
+`pilot-review.json` records the original pronunciation, course meaning, curation
+notes, and local audio path for each entry. `held-examples.json` lists representative
+phrases/proper names that require another source; it is not a full inventory.
+
+The pilot is source-checked by the assistant, not certified against all recordings.
+Every audio comparison remains `pending_listening`; existing audio is unchanged.
+Before production release, audit the recordings and resolve discrepancies,
+especially homographs, stress and weak vowels. IPA is displayed below the English
+headword in shared word details, including reader lookups and the wordbook. Missing
+entries consume no vertical space, and English-recall mode hides IPA until reveal.
+
+Scoped UI checks: `testPhoneticsFourBooksAndPractice`,
+`testPhoneticsWordbookLargeType`, and `testReaderWordLookupRestoresPlayback` in
+`Tools/UITests/NCEContentUITests.m`. The last also verifies inflected `Pumas` opens
+headword `puma` with its IPA while preserving the reader playback snapshot.
+
+
+Book 1 is now fully annotated in `ContentPipeline/phonetics/book1.tsv`: 624 lesson
+vocabulary contexts across 72 lessons, including phrases and titles. The database's
+non-lesson `extra` fixture is excluded. Coverage does not mean every word token in
+lesson prose. `Tools/build_phonetics_book.py` compares the exact context set with
+SQLite before writing `phonetics-book1.json`; it never generates missing IPA.
+The store loads volume files over the pilot and confines each to its own book.
+Books 2–4 retain their 25-context pilots.
+
+`book1-supplement.json` records dictionary pronunciation checks and explicit
+editorial decisions. Of the 624 entries, 566 use pinned Britfone entries (including
+Mr./Mrs. expansion), 40 use checked dictionary entries, one is the explicitly
+reviewed plural `sales reps`, and 17 are individually authored neutral phrase
+readings. Those 17 carry `editorial_checked`, distinct from `source_checked`;
+component phoneme validation does not certify whole-phrase stress. There is no
+runtime phrase concatenation. The supplements also correct `vase`, `employee`,
+and `interesting`. A second text audit selected current Cambridge UK forms for
+`chocolate`, `subject`, `medicine`, `uncomfortable`, and `association`; this is not
+a claim that all previous variants were errors. `New York` now has whole-entry
+dictionary evidence. `Docs/phonetics/book1-text-audit.json` records the full text
+pass, targeted independent references, retained variants, phrase limitations and
+input hashes. The `read` entry remains the lemma /riːd/, while the past-tense token
+in lesson 127 sentence 15 is /red/.
+
+`Docs/phonetics/book1-review.json` contains all contexts, meanings, provenance and
+audio paths; `book1-validation.json` records per-lesson counts and exclusions.
+All 624 audio alignments are still `pending_listening`; this is local annotation
+work, not a claim of completed audio or teacher review. The release gate in
+`protocol.json` remains in effect. The UI regression
+`testPhoneticsBook1CompleteLargeType` covers dictionary phrases, the plural, an
+editorial phrasal verb and the final lesson's longer compound at accessibility size.
+
+Book 1 check results, test-run references and visual-review notes are saved in
+`Docs/phonetics/book1-checks.json`; local screenshots are under
+`Docs/phonetics/book1/ui-screenshots/`.
+
+The follow-up in `Docs/phonetics/book1-audio-review-summary.json` records individual
+text-stress decisions for all 17 editorial phrases and two acoustic screening
+passes over 602 recordings covering 624 contexts. `audit_book1_audio.py` takes a
+local Allosaurus model and an explicit decoded-PCM index; it never downloads or
+replaces audio and never grants listening approval. The 18 flagged candidates
+are **not confirmed errors**: checks against a synthesized British voice did not
+reliably establish the target phonemes, so no candidate was installed. All
+original audio hashes remain unchanged. Actual listening, including phrase
+stress and the ambiguous `read` recording, is still incomplete.

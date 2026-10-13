@@ -1,0 +1,306 @@
+{
+  "date": "2026-10-13",
+  "scope": "All 17 remaining editorial phrases in Book 1",
+  "summary": {
+    "reviewed": 17,
+    "stress_changes": 0,
+    "neutral_citation_stress_accepted": 17,
+    "whole_phrase_dictionary_certifications_added": 0,
+    "audio_stress_verified": 0
+  },
+  "interpretation": "The 17 notations are defensible neutral phrase readings after this linguistic review. Stress can change with discourse emphasis; this is not auditory verification of the actual files.",
+  "references": {
+    "particle": {
+      "url": "https://www.teachingenglish.org.uk/professional-development/teachers/knowing-subject/multi-word-verbs-learner-problems",
+      "scope": "British Council discusses how phrasal-verb stress depends on the construction and may fall on the adverbial particle. Applied to the standalone verb phrases here, not to noun homographs."
+    },
+    "focus": {
+      "url": "https://africa.teachingenglish.org.uk/classroom/pronunciation/moving-sentence-stress",
+      "scope": "British Council: stress changes with intended emphasis. The entries below select a neutral citation reading and do not prescribe every connected-speech use."
+    },
+    "compound": {
+      "url": "https://africa.teachingenglish.org.uk/classroom/pronunciation/word-stress",
+      "scope": "British Council compound-noun stress examples support stronger first-element stress as a tendency, not an exception-free rule."
+    },
+    "material": {
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CB59105FE03A12AD54DB58589D426D96/9781316163122c2_p15-37_CBO.pdf/english-noun-noun-compounds-in-conceptual-semantics.pdf",
+      "scope": "Chapter section 2.5.6 gives fur coat and leather jacket among material constructions with stress on N2. Applied by analogy to mink coat; not a direct whole-entry dictionary transcription."
+    },
+    "of": {
+      "url": "https://dictionary.cambridge.org/pronunciation/english/of",
+      "scope": "UK weak /əv/ and strong /ɒv/ are both listed."
+    },
+    "at": {
+      "url": "https://dictionary.cambridge.org/pronunciation/english/at",
+      "scope": "UK weak /ət/ and strong /æt/ are both listed."
+    },
+    "as": {
+      "url": "https://dictionary.cambridge.org/pronunciation/english/as",
+      "scope": "UK weak /əz/ and strong /æz/ are both listed."
+    },
+    "a": {
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/a",
+      "scope": "UK weak /ə/ and strong /eɪ/ are both listed."
+    },
+    "litter_basket": {
+      "url": "https://www.collinsdictionary.com/us/dictionary/english/litter-basket",
+      "scope": "British entry confirms /ˈlɪtə ˈbɑːskɪt/ as lexical component stresses. Relative primary/secondary phrase prominence below remains a neutral editorial choice."
+    }
+  },
+  "entries": [
+    {
+      "word": "very much",
+      "ipa": "ˌveri ˈmʌtʃ",
+      "primary_stressed_word": "much",
+      "primary_stressed_syllable": "much",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Degree phrase: much carries the neutral nucleus; very retains secondary stress on its first syllable.",
+      "reference_ids": [
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "sit down",
+      "ipa": "ˌsɪt ˈdaʊn",
+      "primary_stressed_word": "down",
+      "primary_stressed_syllable": "down",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Verb phrase 坐下, with particle prominence; distinguish the initially stressed noun sit-down.",
+      "reference_ids": [
+        "particle",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "in front of",
+      "ipa": "ɪn ˈfrʌnt əv",
+      "primary_stressed_word": "front",
+      "primary_stressed_syllable": "front",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Front is the content-word head; in/of are unstressed in the selected neutral reading.",
+      "reference_ids": [
+        "of",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "of course",
+      "ipa": "əv ˈkɔːs",
+      "primary_stressed_word": "course",
+      "primary_stressed_syllable": "course",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Course carries prominence; weak of is valid. Strong of is a contextual alternative, not automatically an error.",
+      "reference_ids": [
+        "of",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "get up",
+      "ipa": "ˌɡet ˈʌp",
+      "primary_stressed_word": "up",
+      "primary_stressed_syllable": "up",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "起床 is a verb phrase with particle prominence, not the noun get-up.",
+      "reference_ids": [
+        "particle",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "how long",
+      "ipa": "haʊ ˈlɒŋ",
+      "primary_stressed_word": "long",
+      "primary_stressed_syllable": "long",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Neutral duration question has final long prominence; contrastive HOW is a different discourse reading.",
+      "reference_ids": [
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "stand up",
+      "ipa": "ˌstænd ˈʌp",
+      "primary_stressed_word": "up",
+      "primary_stressed_syllable": "up",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Verb phrase 起立, with final particle prominence; not the adjective stand-up.",
+      "reference_ids": [
+        "particle",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "at once",
+      "ipa": "ət ˈwʌns",
+      "primary_stressed_word": "once",
+      "primary_stressed_syllable": "once",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "At is weak; once carries the phrase nucleus.",
+      "reference_ids": [
+        "at",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "as well",
+      "ipa": "əz ˈwel",
+      "primary_stressed_word": "well",
+      "primary_stressed_syllable": "well",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Additive phrase: weak as and prominent well.",
+      "reference_ids": [
+        "as",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "a little",
+      "ipa": "ə ˈlɪtəl",
+      "primary_stressed_word": "little",
+      "primary_stressed_syllable": "lit",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Unstressed article, with stress on the first syllable of little; do not move stress to -tle.",
+      "reference_ids": [
+        "a",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "a few",
+      "ipa": "ə ˈfjuː",
+      "primary_stressed_word": "few",
+      "primary_stressed_syllable": "few",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Unstressed article and prominent few.",
+      "reference_ids": [
+        "a",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "get off",
+      "ipa": "ˌɡet ˈɒf",
+      "primary_stressed_word": "off",
+      "primary_stressed_syllable": "off",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "下车 is a verb phrase with particle prominence, not a compound noun.",
+      "reference_ids": [
+        "particle",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "at least",
+      "ipa": "ət ˈliːst",
+      "primary_stressed_word": "least",
+      "primary_stressed_syllable": "least",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "At is weak; least carries the neutral nucleus.",
+      "reference_ids": [
+        "at",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "mink coat",
+      "ipa": "ˌmɪŋk ˈkəʊt",
+      "primary_stressed_word": "coat",
+      "primary_stressed_syllable": "coat",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Material + garment pattern: neutral nuclear stress on coat, secondary prominence on mink.",
+      "reference_ids": [
+        "material",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "get married",
+      "ipa": "ˌɡet ˈmærid",
+      "primary_stressed_word": "married",
+      "primary_stressed_syllable": "mar",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Resulting-state construction: married carries the neutral nucleus on its first syllable.",
+      "reference_ids": [
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "get on",
+      "ipa": "ˌɡet ˈɒn",
+      "primary_stressed_word": "on",
+      "primary_stressed_syllable": "on",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "登上 is a verb phrase with particle prominence.",
+      "reference_ids": [
+        "particle",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    },
+    {
+      "word": "litter basket",
+      "ipa": "ˈlɪtə ˌbɑːskɪt",
+      "primary_stressed_word": "litter",
+      "primary_stressed_syllable": "lit",
+      "decision": "retain_neutral_citation_stress",
+      "reason": "Purpose/type compound: neutral stronger first element; basket retains secondary stress. Collins confirms the lexical component stresses; this is not a claim that its notation certifies relative phrase prominence.",
+      "reference_ids": [
+        "compound",
+        "litter_basket",
+        "focus"
+      ],
+      "reviewer": "assistant",
+      "review_type": "linguistic_text_review",
+      "audio_stress_verified": false
+    }
+  ],
+  "supplement_sha256": "ba2ad82b8459f3e0707040723a6389463023b4c296410e4c6f6cc70853fe80eb"
+}

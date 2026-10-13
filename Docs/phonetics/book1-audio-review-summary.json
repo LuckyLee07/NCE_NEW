@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-13",
+  "requested_scope": "Review the remaining 17 phrase stresses and compare all Book 1 IPA with audio; preserve British IPA and replace confirmed conflicting recordings.",
+  "completion": {
+    "phrase_text_stress_reviewed": 17,
+    "phrase_text_stress_changes": 0,
+    "audio_files_decoded_and_screened": 602,
+    "curriculum_contexts_screened": 624,
+    "acoustic_passes": 2,
+    "audio_files_replaced": 0,
+    "ipa_changes_this_audio_review": 0,
+    "actual_listening_completed": false,
+    "audio_stress_verified": 0
+  },
+  "status": "text_stress_review_complete_audio_listening_incomplete",
+  "findings": [
+    "All 17 phrase stress patterns are retained as neutral citation readings with individual linguistic reasons and references.",
+    "All 602 referenced files (624 contexts) decoded and contained non-silent audio. Sunday, excited, shopping, and suddenly have a small number of near-full-scale samples; these are signal flags, not proof of audible clipping.",
+    "Raw versus silence-padded acoustic predictions disagree on many short recordings. Even exact projected phone sequences cannot certify stress, vowel length, or all British vowel contrasts.",
+    "18 recordings (19 contexts) were flagged as candidates for British-IPA conflicts; none is marked as an auditory-confirmed error.",
+    "18 reference recordings were generated in a temporary directory. Independent checks did not establish the intended phoneme corrections, so all candidates were rejected for installation.",
+    "read remains a hold: the two acoustic runs disagree between the short and long vowel. The dictionary lemma /riːd/ and original audio are retained."
+  ],
+  "limits": [
+    "No tool available in this task provided reliable direct listening to the local recordings.",
+    "The Allosaurus English inventory does not encode lexical stress or vowel length.",
+    "The English accent tag on a synthesized voice and a matching Whisper word transcript do not establish exact phonetic realization.",
+    "Do not treat the candidate list as a list of established pronunciation mistakes or mark all 624 entries approved."
+  ],
+  "evidence": {
+    "phrase_stress": "Docs/phonetics/book1-phrase-stress-review.json",
+    "raw_acoustic": "Docs/phonetics/book1-audio-audit.json",
+    "padded_acoustic": "Docs/phonetics/book1-audio-audit-padded.json",
+    "candidate_decisions": "Docs/phonetics/book1-audio-repair-plan.json",
+    "rejected_candidate_checks": "Docs/phonetics/book1-audio-candidate-evaluation.json"
+  },
+  "validation": {
+    "all_602_original_sha256_unchanged": true,
+    "phonetics_tests": "PASS: 100 pilot + 624 book 1 contexts, exact transcription checks, precedence/isolation/status checks."
+  },
+  "input_sha256": {
+    "book1_tsv": "084793e8390edc8dc6f8c5e442b8853243f8f41a142c26f16c35964eed3d97f6",
+    "book1_supplement": "ba2ad82b8459f3e0707040723a6389463023b4c296410e4c6f6cc70853fe80eb"
+  },
+  "near_full_scale_flags": [
+    {
+      "word": "Sunday",
+      "samples": 5
+    },
+    {
+      "word": "excited",
+      "samples": 4
+    },
+    {
+      "word": "shopping",
+      "samples": 1
+    },
+    {
+      "word": "suddenly",
+      "samples": 1
+    }
+  ]
+}
